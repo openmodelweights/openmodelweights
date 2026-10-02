@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T14:40:39+00:00",
+  "generated_at": "2026-10-02T15:15:22+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 343,
+      "model_count": 339,
       "commercial_use": {
-        "allowed": 343
+        "allowed": 339
       }
     },
     {
@@ -24,16 +24,16 @@
     },
     {
       "name": "CC BY-NC 4.0",
-      "model_count": 13,
+      "model_count": 12,
       "commercial_use": {
-        "not-allowed": 13
+        "not-allowed": 12
       }
     },
     {
       "name": "MIT",
-      "model_count": 141,
+      "model_count": 136,
       "commercial_use": {
-        "allowed": 141
+        "allowed": 136
       }
     },
     {
@@ -192,13 +192,6 @@
       }
     },
     {
-      "name": "deepseek",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
       "name": "deepseek-license",
       "model_count": 1,
       "commercial_use": {
@@ -228,10 +221,10 @@
     },
     {
       "name": "gemma",
-      "model_count": 9,
+      "model_count": 12,
       "commercial_use": {
-        "allowed-with-conditions": 6,
-        "unknown": 3
+        "allowed-with-conditions": 7,
+        "unknown": 5
       }
     },
     {
@@ -242,10 +235,24 @@
       }
     },
     {
+      "name": "gpl-3.0",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
       "name": "health-ai-developer-foundations",
       "model_count": 2,
       "commercial_use": {
         "allowed-with-conditions": 2
+      }
+    },
+    {
+      "name": "ideogram-non-commercial-model-agreement",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
       }
     },
     {
@@ -278,23 +285,23 @@
     },
     {
       "name": "llama3",
-      "model_count": 4,
-      "commercial_use": {
-        "allowed-with-conditions": 4
-      }
-    },
-    {
-      "name": "llama3.1",
       "model_count": 5,
       "commercial_use": {
         "allowed-with-conditions": 5
       }
     },
     {
-      "name": "llama3.2",
-      "model_count": 11,
+      "name": "llama3.1",
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 11
+        "allowed-with-conditions": 6
+      }
+    },
+    {
+      "name": "llama3.2",
+      "model_count": 12,
+      "commercial_use": {
+        "allowed-with-conditions": 12
       }
     },
     {
@@ -320,6 +327,13 @@
     },
     {
       "name": "ltx-2.x-community-license-agreement",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "minimax-community",
       "model_count": 1,
       "commercial_use": {
         "unknown": 1
@@ -398,10 +412,10 @@
     },
     {
       "name": "other",
-      "model_count": 5,
+      "model_count": 7,
       "commercial_use": {
-        "allowed-with-conditions": 2,
-        "unknown": 3
+        "allowed-with-conditions": 3,
+        "unknown": 4
       }
     },
     {

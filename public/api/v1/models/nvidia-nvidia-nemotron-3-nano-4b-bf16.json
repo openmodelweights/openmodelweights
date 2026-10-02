@@ -201,7 +201,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T14:38:36+00:00",
+    "checked_at_iso": "2026-10-02T15:12:05+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -241,12 +241,12 @@
     "repo_id": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
     "rank": 202,
     "downloads": 4712693,
-    "likes": 125,
+    "likes": 126,
     "last_modified": "2026-03-20T20:50:41+00:00",
     "created_at": "2026-03-07T01:23:35+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T14:38:34+00:00",
+    "discovered_at": "2026-10-02T15:12:03+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -268,7 +268,7 @@
     "last_modified": "2026-03-20T20:50:41.000Z",
     "created_at": "2026-03-07T01:23:35.000Z",
     "downloads": 4712693,
-    "likes": 125,
+    "likes": 126,
     "sha": "dfaf35de3e30f1867dd8dbc38a7fc9fb52d3914f",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",

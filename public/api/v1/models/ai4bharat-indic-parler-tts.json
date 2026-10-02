@@ -174,9 +174,9 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T14:06:52+00:00",
+    "checked_at_iso": "2026-10-02T15:12:05+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
+    "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
     "readme_accessible": true,
     "config_accessible": false,
@@ -194,11 +194,6 @@
     "history": [
       {
         "date": "2026-10-02",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
@@ -214,12 +209,12 @@
     "repo_id": "ai4bharat/indic-parler-tts",
     "rank": 775,
     "downloads": 295699,
-    "likes": 376,
+    "likes": 377,
     "last_modified": "2025-09-24T06:25:30+00:00",
     "created_at": "2024-10-28T08:29:09+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-to-speech",
-    "discovered_at": "2026-10-02T14:06:49+00:00",
+    "discovered_at": "2026-10-02T15:12:03+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -236,7 +231,7 @@
     "last_modified": "2025-09-24T06:25:30.000Z",
     "created_at": "2024-10-28T08:29:09.000Z",
     "downloads": 295699,
-    "likes": 376,
+    "likes": 377,
     "sha": "7b527af5ee8ed1f9a28d80b19703ed9bb8ba10ca",
     "library_name": "transformers",
     "pipeline_tag": "text-to-speech",
