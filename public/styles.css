@@ -1234,3 +1234,16 @@ body{background:var(--bg);letter-spacing:-.006em}
   .model-detail-page .model-title .hero-actions{align-items:stretch}
   .model-detail-page .model-title .hero-actions .button{justify-content:center;width:100%}
 }
+
+
+/* Models header refinement v5.1 — non-sticky column labels */
+/* The column-label row should orient the list, not float over records while scrolling. */
+.models-page .registry-list-head{
+  position:static;
+  top:auto;
+  z-index:auto;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  margin:0 0 8px;
+  box-shadow:none
+}
