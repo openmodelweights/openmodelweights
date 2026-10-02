@@ -155,13 +155,19 @@ def seed_from(info,rank):
 
 def main():
     existing=json.loads(SOURCE.read_text()) if SOURCE.exists() else {"models":[]}
-    pinned=existing.get("models",[])
-    for m in pinned:
+    current=existing.get("models",[])
+    pinned=[]
+    for m in current:
+        d=m.get("discovery") or {}
+        auto_discovered=(d.get("source")=="Hugging Face public model index" and d.get("pinned") is False)
+        if auto_discovered:
+            continue
         m.setdefault("discovery",{})
         m["discovery"].setdefault("source","Open Model Weights curated seed")
         m["discovery"]["pinned"]=True
         repo=(m.get("weights",{}).get("repository") or "").split("huggingface.co/",1)[-1].strip("/")
         if repo: m["discovery"].setdefault("repo_id",repo)
+        pinned.append(m)
 
     existing_repos={m.get("discovery",{}).get("repo_id") or (m.get("weights",{}).get("repository") or "").split("huggingface.co/",1)[-1].strip("/") for m in pinned}
     existing_repos={x.lower() for x in existing_repos if x}
