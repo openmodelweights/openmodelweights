@@ -151,11 +151,12 @@ def prior_history():
     except Exception:
         return {}
 
-def recalc_report(models):
+def recalc_report(models, errors=None):
+    errors=errors or []
     stats={
         "total_seed_records":len(models),
         "field_verified":len(models),
-        "errors":0,
+        "errors":len(errors),
         "license_declared":sum(m["license"].get("status")=="verified" for m in models),
         "commercial_use_classified":sum(m["license"]["commercial_use"]["status"]!="unknown" for m in models),
         "context_verified":sum(m["model"]["context"]["status"]=="verified" for m in models),
@@ -165,7 +166,7 @@ def recalc_report(models):
         "data_disclosure_signal":sum(m["training_assets"]["data_disclosure"]["status"]!="not-disclosed-in-standard-metadata-or-obvious-model-card-section" for m in models),
         "runtime_signal":sum(bool(m["runtime_support"].get("declared") or m["runtime_support"].get("mentioned_in_model_card") or m["runtime_support"].get("artifact_signals")) for m in models),
     }
-    return {"generated_at":NOW,"stats":stats,"errors":[]}
+    return {"generated_at":NOW,"stats":stats,"errors":errors}
 
 def home_page(models,report):
     s=report["stats"]
@@ -360,14 +361,14 @@ def build_change_feed(models,report):
     for e in events + old_events:
         if e["id"] not in seen:
             seen.add(e["id"]); merged.append(e)
-    merged=merged[:500]
+    merged=merged[:5000]
     publisher=[]
     for m in models:
         lm=m.get("hub",{}).get("last_modified")
         if lm:
             publisher.append({"at":lm,"model_id":m["id"],"model":m["name"],"developer":m["developer"],"sha":m.get("hub",{}).get("sha"),"url":f'/models/{m["id"]}/'})
     publisher.sort(key=lambda x:x["at"],reverse=True)
-    return {"generated_at":NOW,"events":merged,"publisher_activity":publisher[:100]}
+    return {"generated_at":NOW,"events":merged,"publisher_activity":publisher[:500],"retention":{"max_events":5000,"policy":"rolling verification history"}}
 
 def changes_page(feed,models):
     devs=sorted(set(m["developer"] for m in models))
@@ -405,9 +406,14 @@ def main():
     oldhist=prior_history()
 
     for m in models:
-        raw=raw_license_url(m)
-        text=get_text(raw) if raw else None
-        classify_license(m,text)
+        # If the publisher SHA is unchanged, retain the previously checked license
+        # classification instead of downloading the same license text every day.
+        unchanged=(m.get("verification") or {}).get("mode")=="repository-revision-unchanged"
+        already_checked=bool((m.get("license") or {}).get("verification"))
+        if not (unchanged and already_checked):
+            raw=raw_license_url(m)
+            text=get_text(raw) if raw else None
+            classify_license(m,text)
         fix_precision(m)
         clean_runtime(m)
         refine_recipe(m)
@@ -420,7 +426,16 @@ def main():
         m["verification"]["history"]=merged[:20]
         m["verification"]["fields"]["commercial_use"]="classified" if m["license"]["commercial_use"]["status"]!="unknown" else "unknown"
 
-    report=recalc_report(models)
+    errors=reg.get("verification_errors",[]) or []
+    previous_report={}
+    try:
+        previous_report=json.loads(REPORT.read_text()) if REPORT.exists() else {}
+    except Exception:
+        previous_report={}
+    report=recalc_report(models,errors)
+    for key in ("candidate_count","successful_candidates","publication_target","publication_shortfall"):
+        if key in previous_report:
+            report[key]=previous_report[key]
     feed=build_change_feed(models,report)
     reg["schema_version"]="0.4.0"
     reg["generated_at"]=NOW
