@@ -516,3 +516,67 @@ body{background:var(--bg);letter-spacing:-.006em}
   .home-action-card h3{font-size:25px}
   .home-source-panel h2{font-size:36px}
 }
+
+
+/* Screenshot refinement v3.1 — tighter hero, distinct weight mark */
+/* The v3 screenshot showed too much dead space above the headline and the brand mark read like a menu icon. */
+.site-header{min-height:70px}
+.brand{gap:11px}
+.brand-mark{
+  width:31px;height:24px;padding:0;background:transparent;box-shadow:none;border-radius:0;
+  align-items:flex-start;justify-content:center;gap:3px
+}
+.brand-mark i{height:3px;background:var(--text);opacity:1;border-radius:999px}
+.brand-mark i:nth-child(1){width:25px}
+.brand-mark i:nth-child(2){width:19px}
+.brand-mark i:nth-child(3){width:13px}
+.brand-mark-small{width:25px;height:20px;padding:0;background:transparent;box-shadow:none;border-radius:0}
+.brand-mark-small i{height:2px;background:var(--text)}
+.brand-mark-small i:nth-child(1){width:20px}
+.brand-mark-small i:nth-child(2){width:15px}
+.brand-mark-small i:nth-child(3){width:10px}
+.nav-compare{gap:5px}
+
+.home-hero-v3{padding-top:70px;padding-bottom:54px;max-width:1000px}
+.home-hero-v3:before{display:none}
+.hero-status{margin-bottom:28px;background:transparent;box-shadow:none;padding:7px 11px}
+.home-hero-v3 h1{
+  max-width:940px;
+  font-size:clamp(56px,7vw,96px);
+  line-height:.92;
+  letter-spacing:-.068em
+}
+.home-hero-v3 h1 span{color:#747c74}
+.home-hero-v3 .lead{max-width:780px;margin-top:27px;font-size:clamp(19px,2vw,25px);line-height:1.42}
+.hero-search-v3{max-width:760px;margin-top:32px}
+.hero-proof{max-width:900px;margin-top:48px;padding-top:22px}
+.hero-proof strong{font-size:21px}
+.hero-proof span{margin-top:7px}
+
+.home-trust{
+  min-height:0;
+  margin:0;
+  border-left:0;border-right:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none
+}
+.home-trust-brand,.home-trust-stat,.home-trust-links{min-height:58px}
+.home-trust-brand{padding-left:0}
+.home-trust-links{padding-right:0}
+.home-trust small{font-size:9px}
+.home-trust strong{font-size:12px}
+.home-interrogate{padding-top:76px}
+
+@media(max-width:800px){
+  .site-header{min-height:0}
+  .brand-mark{width:27px;height:22px}
+  .brand-mark i:nth-child(1){width:22px}
+  .brand-mark i:nth-child(2){width:17px}
+  .brand-mark i:nth-child(3){width:12px}
+  .home-hero-v3{padding-top:48px;padding-bottom:42px}
+  .home-hero-v3 h1{font-size:clamp(47px,13.5vw,66px)}
+  .hero-status{margin-bottom:22px}
+  .hero-proof{margin-top:38px}
+  .home-trust{border-radius:0}
+}

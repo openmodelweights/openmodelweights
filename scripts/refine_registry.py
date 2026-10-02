@@ -404,9 +404,8 @@ def home_page_portal(models,report):
     return f'''{page_head("Open Model Weights — evidence for open-weight AI","The evidence layer for open-weight AI: 700 field-verified records with exact weights, licenses, context, formats, lineage, change history and machine-readable access.","https://openmodelweights.com/")}<body>{nav_html()}<main>
 <section class="hero home-hero home-hero-v3">
   <div class="hero-status"><span class="hero-status-dot" aria-hidden="true"></span><span>Source-first registry</span><span class="hero-status-sep">·</span><span>Verified daily</span></div>
-  <p class="eyebrow">THE EVIDENCE LAYER FOR OPEN-WEIGHT AI</p>
-  <h1>Open-weight AI,<br><span>grounded in evidence.</span></h1>
-  <p class="lead">Search exact weight artifacts, licenses, commercial-use conditions, context, formats, lineage and runtime signals — with the source trail kept attached.</p>
+  <h1>The evidence layer<br><span>for open-weight AI.</span></h1>
+  <p class="lead">{len(models)} field-verified records for exact weight artifacts, licenses, commercial-use conditions, context, formats, lineage and runtime signals — with the source trail kept attached.</p>
   <form class="hero-search hero-search-v3" action="/models/" method="get"><span class="hero-search-icon" aria-hidden="true">⌕</span><input name="q" type="search" placeholder="Search {len(models)} verified models…" aria-label="Search verified models"><button type="submit">Search registry</button></form>
   <div class="hero-actions"><a class="button primary" href="/models/">Explore {len(models)} models <span aria-hidden="true">→</span></a><a class="button" href="/compare/">Compare models</a></div>
   <div class="hero-proof" aria-label="Registry proof points">
