@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#111"/><path d="M16 20h8l8 24 8-24h8L36 52h-8L16 20Z" fill="#fff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Open Model Weights">
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="5.5">
+    <path d="M32 5 56 18 32 31 8 18Z" stroke="#116BFF"/>
+    <path d="M32 18 56 31 32 44 8 31Z" stroke="#45C0F2"/>
+    <path d="M32 31 56 44 32 57 8 44Z" stroke="#082B57"/>
+  </g>
+  <path d="M32 13v38" stroke="#0B4FA7" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="15" r="4.8" fill="#116BFF"/>
+  <circle cx="32" cy="32" r="4.8" fill="#45C0F2"/>
+  <circle cx="32" cy="49" r="4.8" fill="#082B57"/>
+</svg>

@@ -33,7 +33,7 @@ def head(title,desc,canonical,extra="",article=None):
     social+=f'<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}">'
     if article:
         social+=f'<meta property="article:published_time" content="{esc(article["published_at"])}"><meta property="article:modified_time" content="{esc(article["modified_at"])}"><meta property="article:section" content="{esc(article["category"])}">'
-    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">{social}<link rel="alternate" type="application/rss+xml" title="Open Weight Intelligence" href="/news/feed.xml"><link rel="stylesheet" href="/styles.css">{extra}</head>'
+    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">{social}<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png"><link rel="shortcut icon" href="/favicon.ico"><link rel="manifest" href="/site.webmanifest"><link rel="alternate" type="application/rss+xml" title="Open Weight Intelligence" href="/news/feed.xml"><link rel="stylesheet" href="/styles.css">{extra}</head>'
 
 def header(active="news"):
     links=[("models","/models/","Models"),("explore","/explore/","Explore"),("news","/news/","News"),("developers","/developers/","Developers"),("changes","/changes/","Changes"),("sources","/sources/","Sources")]
@@ -53,7 +53,7 @@ def graph_script(nodes):
     return f'<script type="application/ld+json">{raw}</script>'
 
 def org_node():
-    return {"@type":"Organization","@id":SITE+"/#organization","name":"Open Model Weights","url":SITE+"/"}
+    return {"@type":"Organization","@id":SITE+"/#organization","name":"Open Model Weights","url":SITE+"/","logo":{"@type":"ImageObject","url":SITE+"/favicon.svg"}}
 
 def breadcrumb(items,canonical):
     return {"@type":"BreadcrumbList","@id":canonical+"#breadcrumb","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":u} for i,(n,u) in enumerate(items)]}

@@ -71,6 +71,7 @@ def organization_node():
     return {
       "@type":"Organization","@id":ORG_ID,"name":"Open Model Weights","url":SITE+"/",
       "description":"Field-verified intelligence and machine-readable evidence for open-weight AI models.",
+      "logo":{"@type":"ImageObject","url":SITE+"/favicon.svg"},
       "sameAs":["https://github.com/openmodelweights/openmodelweights","https://huggingface.co/openmodelweights"]
     }
 
@@ -261,6 +262,14 @@ def _schema_script(nodes):
 
 def _ensure_meta(text,canonical,title,desc):
     additions=[]
+    # Normalize the site identity assets so old/generated pages cannot retain the legacy favicon.
+    text=re.sub(r'<link[^>]+rel=["\'](?:shortcut )?icon["\'][^>]*>','',text,flags=re.I)
+    text=re.sub(r'<link[^>]+rel=["\']apple-touch-icon["\'][^>]*>','',text,flags=re.I)
+    text=re.sub(r'<link[^>]+rel=["\']manifest["\'][^>]*>','',text,flags=re.I)
+    additions.append('<link rel="icon" href="/favicon.svg" type="image/svg+xml">')
+    additions.append('<link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png">')
+    additions.append('<link rel="shortcut icon" href="/favicon.ico">')
+    additions.append('<link rel="manifest" href="/site.webmanifest">')
     if 'rel="canonical"' not in text:
         additions.append(f'<link rel="canonical" href="{esc(canonical)}">')
     if 'name="robots"' not in text:
