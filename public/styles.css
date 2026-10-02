@@ -595,3 +595,71 @@ body{background:var(--bg);letter-spacing:-.006em}
 @media(max-width:800px){
   .hero-brand-label{margin-bottom:17px;font-size:11px;letter-spacing:.16em}
 }
+
+
+/* Screenshot refinement v3.3 — centered rhythm and softer assurance card */
+/* Nudge the hero into the page composition without creating another oversized empty band. */
+.home-hero-v3{
+  padding-top:82px;
+  padding-left:clamp(0px,2vw,26px)
+}
+.home-hero-v3 h1 span{color:#606860}
+.home-hero-v3 .lead{color:#5f685f}
+
+/* The assurance row should feel like a product proof card, not a table footer. */
+.home-trust{
+  display:grid;
+  grid-template-columns:minmax(220px,1.15fr) minmax(120px,.65fr) minmax(170px,.85fr) auto;
+  align-items:center;
+  gap:18px;
+  width:min(1040px,100%);
+  min-height:0;
+  margin:4px auto 20px;
+  padding:16px 18px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:rgba(255,255,255,.72);
+  box-shadow:0 10px 32px rgba(20,28,20,.035)
+}
+.home-trust-brand,.home-trust-stat,.home-trust-links{
+  min-width:0;
+  min-height:0;
+  padding:0;
+  border:0
+}
+.home-trust-brand{gap:11px}
+.home-trust-stat{display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.home-trust-links{display:flex;justify-content:flex-end;gap:8px;margin-left:0}
+.home-trust-links a{
+  display:inline-flex;
+  align-items:center;
+  min-height:34px;
+  padding:0 11px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:var(--surface-2);
+  color:#596159;
+  font-size:10px;
+  font-weight:680;
+  white-space:nowrap;
+  text-decoration:none
+}
+.home-trust-links a:hover{background:var(--surface);border-color:var(--line-strong);color:var(--text)}
+.home-interrogate{padding-top:88px}
+
+@media(max-width:1000px){
+  .home-trust{grid-template-columns:1.2fr .7fr .9fr}
+  .home-trust-links{grid-column:1/-1;justify-content:flex-start;padding-top:4px}
+}
+@media(max-width:800px){
+  .home-hero-v3{padding-top:58px;padding-left:0}
+  .home-trust{
+    width:100%;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    padding:15px;
+    border-radius:14px
+  }
+  .home-trust-brand{grid-column:1/-1}
+  .home-trust-links{grid-column:1/-1}
+}

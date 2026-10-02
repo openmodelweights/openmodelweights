@@ -416,7 +416,7 @@ def home_page_portal(models,report):
     <div><strong>Daily</strong><span>revision verification</span></div>
   </div>
 </section>
-<div class="home-trust"><div class="home-trust-brand"><span class="trust-signal" aria-hidden="true"><i></i></span><span><small>Evidence standard</small><strong>Source-first verified</strong></span></div><div class="home-trust-stat"><small>Last registry run</small><strong>{TODAY}</strong></div><div class="home-trust-stat"><small>Scope</small><strong>{len(models)} published records</strong></div><div class="home-trust-links"><a href="/sources/">How sourcing works →</a><a href="/api/">API / JSON →</a></div></div>
+<div class="home-trust"><div class="home-trust-brand"><span class="trust-signal" aria-hidden="true"><i></i></span><span><small>Evidence standard</small><strong>Source-first verified</strong></span></div><div class="home-trust-stat"><small>Checked</small><strong>{TODAY}</strong></div><div class="home-trust-stat"><small>Coverage</small><strong>{len(models)} published records</strong></div><div class="home-trust-links"><a href="/sources/">Source policy →</a><a href="/api/">Use the API →</a></div></div>
 <section class="section home-interrogate">
   <div class="section-head home-section-head"><div><p class="eyebrow">INTERROGATE THE REGISTRY.</p><h2>Start with the question.</h2></div><p class="section-kicker">The interface stays simple up front. Evidence, provenance and technical detail remain available when you need to go deeper.</p></div>
   <div class="home-action-grid">{action_cards}</div>
