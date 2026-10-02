@@ -40,7 +40,7 @@ jobs:
       - name: Discover registry candidates
         env:
           OMW_TARGET_MODELS: "700"
-          OMW_DISCOVERY_BUFFER: "70"
+          OMW_DISCOVERY_BUFFER: "120"
         run: python scripts/discover_models.py
 
       - name: Verify all model records
