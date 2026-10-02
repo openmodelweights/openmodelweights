@@ -1,0 +1,112 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qdrant-all-minilm-l6-v2-onnx",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d13954661f83-28fc7e9892",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d13954661f83248295ba75c1ed411eef3b7b936e",
+      "evidence_hash": "28fc7e9892d2c8288c24a00ae0f399c1d036bafaf6cba7c983836d7fc45790d4",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qdrant/all-MiniLM-L6-v2-onnx",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qdrant/all-MiniLM-L6-v2-onnx",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qdrant/all-MiniLM-L6-v2-onnx",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qdrant/all-MiniLM-L6-v2-onnx/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qdrant/all-MiniLM-L6-v2-onnx/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "all-MiniLM-L6-v2-onnx",
+          "developer": "Qdrant",
+          "family": "all-MiniLM-L6-v2-onnx",
+          "variant": "all-MiniLM-L6-v2-onnx"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qdrant/all-MiniLM-L6-v2-onnx",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.onnx"
+          ],
+          "formats": [
+            "ONNX"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "d13954661f83248295ba75c1ed411eef3b7b936e",
+          "created_at": "2024-01-16T08:09:23.000Z",
+          "last_modified": "2026-09-30T10:54:52.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "all-MiniLM-L6-v2-onnx",
+  "developer": "Qdrant",
+  "source_repository": "https://huggingface.co/Qdrant/all-MiniLM-L6-v2-onnx",
+  "current_repository_sha": "d13954661f83248295ba75c1ed411eef3b7b936e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qdrant-all-minilm-l6-v2-onnx/history/",
+  "diff_url": "https://openmodelweights.com/diff/qdrant-all-minilm-l6-v2-onnx/"
+}

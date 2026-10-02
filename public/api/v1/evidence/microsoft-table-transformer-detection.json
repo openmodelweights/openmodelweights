@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-table-transformer-detection",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "2357cbe2b5a5-b00e7d3dc8",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "2357cbe2b5a5d1c03e54f32764f06058933b65ab",
+      "evidence_hash": "b00e7d3dc846b9786a79d19dbd0c9911736ce85cbf7244ec60760b3dece4b7f3",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/table-transformer-detection",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/table-transformer-detection",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/table-transformer-detection",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/table-transformer-detection/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/table-transformer-detection/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "table-transformer-detection",
+          "developer": "Microsoft",
+          "family": "table-transformer-detection",
+          "variant": "table-transformer-detection"
+        },
+        "model": {
+          "parameters": "0.0288186B",
+          "total_parameters_billions": 0.028818631,
+          "context_tokens": 1024,
+          "context_display": "1,024 tokens",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/table-transformer-detection",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.06,
+            "fp8_int8": 0.03,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "2357cbe2b5a5d1c03e54f32764f06058933b65ab",
+          "created_at": "2022-10-14T09:14:13.000Z",
+          "last_modified": "2023-09-06T14:49:09.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "table-transformer-detection",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/table-transformer-detection",
+  "current_repository_sha": "2357cbe2b5a5d1c03e54f32764f06058933b65ab",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-table-transformer-detection/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-table-transformer-detection/"
+}

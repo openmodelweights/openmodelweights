@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "indonesian-nlp-wav2vec2-indonesian-javanese-sundanese",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e5e699fa5aa5-9051374628",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e5e699fa5aa5bdce999276a90a29589587b58ac9",
+      "evidence_hash": "9051374628cc8d26437300c6dcfa5d7ae9a96d4cfd921443b9f36d3c3936f70e",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "wav2vec2-indonesian-javanese-sundanese",
+          "developer": "indonesian-nlp",
+          "family": "wav2vec2-indonesian-javanese-sundanese",
+          "variant": "wav2vec2-indonesian-javanese-sundanese"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "language_model/4gram.bin",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "magic_data",
+            "mozilla-foundation/common_voice_7_0",
+            "openslr",
+            "titml"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "e5e699fa5aa5bdce999276a90a29589587b58ac9",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2022-08-19T07:44:40.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "wav2vec2-indonesian-javanese-sundanese",
+  "developer": "indonesian-nlp",
+  "source_repository": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+  "current_repository_sha": "e5e699fa5aa5bdce999276a90a29589587b58ac9",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/indonesian-nlp-wav2vec2-indonesian-javanese-sundanese/history/",
+  "diff_url": "https://openmodelweights.com/diff/indonesian-nlp-wav2vec2-indonesian-javanese-sundanese/"
+}

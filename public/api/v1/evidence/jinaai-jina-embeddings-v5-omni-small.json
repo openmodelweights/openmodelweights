@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "jinaai-jina-embeddings-v5-omni-small",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5c54692f22e1-9bffaf2f7a",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5c54692f22e186fc12ea38a9193e3ff9e1cda2a3",
+      "evidence_hash": "9bffaf2f7a425f15ec4377e0164464171023b980d92a6a4ffa6caaa597addd12",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/jinaai/jina-embeddings-v5-omni-small",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "jina-embeddings-v5-omni-small",
+          "developer": "jinaai",
+          "family": "jina-embeddings-v5-omni-small",
+          "variant": "jina-embeddings-v5-omni-small"
+        },
+        "model": {
+          "parameters": "1.62627B",
+          "total_parameters_billions": 1.626268672,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "id": "cc-by-nc-4.0",
+          "url": null,
+          "commercial_use_status": "not-allowed",
+          "commercial_use_label": "Commercial use is not permitted by CC BY-NC 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "adapters/classification/adapter_model.safetensors",
+            "adapters/clustering/adapter_model.safetensors",
+            "adapters/retrieval/adapter_model.safetensors",
+            "adapters/text-matching/adapter_model.safetensors",
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 3.25,
+            "fp8_int8": 1.63,
+            "int4": 0.81
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "5c54692f22e186fc12ea38a9193e3ff9e1cda2a3",
+          "created_at": "2026-04-01T22:06:52.000Z",
+          "last_modified": "2026-08-27T12:57:35.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "jina-embeddings-v5-omni-small",
+  "developer": "jinaai",
+  "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small",
+  "current_repository_sha": "5c54692f22e186fc12ea38a9193e3ff9e1cda2a3",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/jinaai-jina-embeddings-v5-omni-small/history/",
+  "diff_url": "https://openmodelweights.com/diff/jinaai-jina-embeddings-v5-omni-small/"
+}

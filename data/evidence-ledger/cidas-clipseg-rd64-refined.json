@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "cidas-clipseg-rd64-refined",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "999e0328d9e1-719668265c",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "999e0328d9e10b484360c477313983f9afdd7050",
+      "evidence_hash": "719668265c553aa8c37b53744fcb6f006c6c260c976c834f77e77d859909fbb8",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/CIDAS/clipseg-rd64-refined",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/CIDAS/clipseg-rd64-refined/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/CIDAS/clipseg-rd64-refined/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "clipseg-rd64-refined",
+          "developer": "CIDAS",
+          "family": "clipseg-rd64-refined",
+          "variant": "clipseg-rd64-refined"
+        },
+        "model": {
+          "parameters": "0.150748B",
+          "total_parameters_billions": 0.150748019,
+          "context_tokens": 77,
+          "context_display": "77 tokens",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.3,
+            "fp8_int8": 0.15,
+            "int4": 0.08
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "999e0328d9e10b484360c477313983f9afdd7050",
+          "created_at": "2022-11-01T14:25:57.000Z",
+          "last_modified": "2024-12-11T09:46:10.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "clipseg-rd64-refined",
+  "developer": "CIDAS",
+  "source_repository": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
+  "current_repository_sha": "999e0328d9e10b484360c477313983f9afdd7050",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/cidas-clipseg-rd64-refined/history/",
+  "diff_url": "https://openmodelweights.com/diff/cidas-clipseg-rd64-refined/"
+}

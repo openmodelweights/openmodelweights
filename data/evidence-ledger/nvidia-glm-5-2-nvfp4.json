@@ -1,0 +1,168 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-glm-5-2-nvfp4",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "53e0691e2189-3dce98dbc9",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "53e0691e21895a3863a606dfd12910c69eba94ab",
+      "evidence_hash": "3dce98dbc9f17537a570c8eb1eb9effcd2f45ae2f81ec530e726bfa20f4c134f",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/GLM-5.2-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "GLM-5.2-NVFP4",
+          "developer": "NVIDIA",
+          "family": "GLM-5.2-NVFP4",
+          "variant": "GLM-5.2-NVFP4"
+        },
+        "model": {
+          "parameters": "380.989B",
+          "total_parameters_billions": 380.989135104,
+          "context_tokens": 1048576,
+          "context_display": "1,048,576 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+          "access": "public",
+          "file_count": 48,
+          "exact_files": [
+            "model-00001-of-00047.safetensors",
+            "model-00002-of-00047.safetensors",
+            "model-00003-of-00047.safetensors",
+            "model-00004-of-00047.safetensors",
+            "model-00005-of-00047.safetensors",
+            "model-00006-of-00047.safetensors",
+            "model-00007-of-00047.safetensors",
+            "model-00008-of-00047.safetensors",
+            "model-00009-of-00047.safetensors",
+            "model-00010-of-00047.safetensors",
+            "model-00011-of-00047.safetensors",
+            "model-00012-of-00047.safetensors",
+            "model-00013-of-00047.safetensors",
+            "model-00014-of-00047.safetensors",
+            "model-00015-of-00047.safetensors",
+            "model-00016-of-00047.safetensors",
+            "model-00017-of-00047.safetensors",
+            "model-00018-of-00047.safetensors",
+            "model-00019-of-00047.safetensors",
+            "model-00020-of-00047.safetensors",
+            "model-00021-of-00047.safetensors",
+            "model-00022-of-00047.safetensors",
+            "model-00023-of-00047.safetensors",
+            "model-00024-of-00047.safetensors",
+            "model-00025-of-00047.safetensors",
+            "model-00026-of-00047.safetensors",
+            "model-00027-of-00047.safetensors",
+            "model-00028-of-00047.safetensors",
+            "model-00029-of-00047.safetensors",
+            "model-00030-of-00047.safetensors",
+            "model-00031-of-00047.safetensors",
+            "model-00032-of-00047.safetensors",
+            "model-00033-of-00047.safetensors",
+            "model-00034-of-00047.safetensors",
+            "model-00035-of-00047.safetensors",
+            "model-00036-of-00047.safetensors",
+            "model-00037-of-00047.safetensors",
+            "model-00038-of-00047.safetensors",
+            "model-00039-of-00047.safetensors",
+            "model-00040-of-00047.safetensors",
+            "model-00041-of-00047.safetensors",
+            "model-00042-of-00047.safetensors",
+            "model-00043-of-00047.safetensors",
+            "model-00044-of-00047.safetensors",
+            "model-00045-of-00047.safetensors",
+            "model-00046-of-00047.safetensors",
+            "model-00047-of-00047.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "zai-org/GLM-5.2"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Model Optimizer",
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 761.98,
+            "fp8_int8": 380.99,
+            "int4": 190.49
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "53e0691e21895a3863a606dfd12910c69eba94ab",
+          "created_at": "2026-06-22T19:55:57.000Z",
+          "last_modified": "2026-08-31T15:59:10.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "GLM-5.2-NVFP4",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+  "current_repository_sha": "53e0691e21895a3863a606dfd12910c69eba94ab",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-glm-5-2-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-glm-5-2-nvfp4/"
+}

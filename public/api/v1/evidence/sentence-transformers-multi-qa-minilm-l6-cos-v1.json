@@ -1,0 +1,145 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sentence-transformers-multi-qa-minilm-l6-cos-v1",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b20736733232-a4f86f90af",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b207367332321f8e44f96e224ef15bc607f4dbf0",
+      "evidence_hash": "a4f86f90af898931916da46c239b6e58750b8f809f20b4192246441e7a0727b3",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "multi-qa-MiniLM-L6-cos-v1",
+          "developer": "Sentence Transformers",
+          "family": "multi-qa-MiniLM-L6-cos-v1",
+          "variant": "multi-qa-MiniLM-L6-cos-v1"
+        },
+        "model": {
+          "parameters": "0.0227137B",
+          "total_parameters_billions": 0.022713728,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+          "access": "public",
+          "file_count": 14,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O1.onnx",
+            "onnx/model_O2.onnx",
+            "onnx/model_O3.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_arm64.onnx",
+            "onnx/model_qint8_avx512.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "onnx/model_quint8_avx2.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "eli5",
+            "embedding-data/Amazon-QA",
+            "embedding-data/PAQ_pairs",
+            "embedding-data/QQP",
+            "embedding-data/WikiAnswers",
+            "flax-sentence-embeddings/stackexchange_xml",
+            "gooaq",
+            "ms_marco",
+            "natural_questions",
+            "search_qa",
+            "trivia_qa",
+            "yahoo_answers_topics"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.05,
+            "fp8_int8": 0.02,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "b207367332321f8e44f96e224ef15bc607f4dbf0",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-11-05T17:17:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "multi-qa-MiniLM-L6-cos-v1",
+  "developer": "Sentence Transformers",
+  "source_repository": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+  "current_repository_sha": "b207367332321f8e44f96e224ef15bc607f4dbf0",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sentence-transformers-multi-qa-minilm-l6-cos-v1/history/",
+  "diff_url": "https://openmodelweights.com/diff/sentence-transformers-multi-qa-minilm-l6-cos-v1/"
+}

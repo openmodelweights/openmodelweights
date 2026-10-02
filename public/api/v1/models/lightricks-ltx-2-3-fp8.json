@@ -161,7 +161,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T13:01:34+00:00",
+    "checked_at_iso": "2026-10-02T13:23:05+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -206,7 +206,7 @@
     "created_at": "2026-03-05T22:49:14+00:00",
     "library_name": "diffusers",
     "pipeline_tag": "image-to-video",
-    "discovered_at": "2026-10-02T13:01:33+00:00",
+    "discovered_at": "2026-10-02T13:23:03+00:00",
     "pinned": false
   },
   "runtime_support": {

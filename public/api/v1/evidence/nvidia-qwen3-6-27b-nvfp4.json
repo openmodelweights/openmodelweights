@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-qwen3-6-27b-nvfp4",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "0893e1606ff3-3e6b756cea",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "0893e1606ff3d5f97a441f405d5fc541a6bdf404",
+      "evidence_hash": "3e6b756cea6d67dc77c885318413285a1c2542fe485535c7eb066b22f7e1e34c",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Qwen3.6-27B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3.6-27B-NVFP4",
+          "developer": "NVIDIA",
+          "family": "Qwen3.6",
+          "variant": "Qwen3.6-27B-NVFP4"
+        },
+        "model": {
+          "parameters": "18.1646B",
+          "total_parameters_billions": 18.1646492,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model-00001-of-00003.safetensors",
+            "model-00002-of-00003.safetensors",
+            "model-00003-of-00003.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3.6-27B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Model Optimizer",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 36.33,
+            "fp8_int8": 18.16,
+            "int4": 9.08
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "0893e1606ff3d5f97a441f405d5fc541a6bdf404",
+          "created_at": "2026-06-22T12:24:08.000Z",
+          "last_modified": "2026-06-30T14:40:07.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3.6-27B-NVFP4",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+  "current_repository_sha": "0893e1606ff3d5f97a441f405d5fc541a6bdf404",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-qwen3-6-27b-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-qwen3-6-27b-nvfp4/"
+}

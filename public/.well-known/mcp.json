@@ -3,8 +3,7 @@
   "endpoint": "https://openmodelweights.com/mcp",
   "transport": "streamable-http",
   "protocols": [
-    "2026-07-28",
-    "2025-11-25"
+    "streamable-http"
   ],
   "documentation": "https://openmodelweights.com/mcp/",
   "read_only": true

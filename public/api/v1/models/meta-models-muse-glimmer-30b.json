@@ -167,9 +167,9 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T12:09:36+00:00",
+    "checked_at_iso": "2026-10-02T13:23:05+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
+    "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
     "readme_accessible": true,
     "config_accessible": true,
@@ -187,11 +187,6 @@
     "history": [
       {
         "date": "2026-10-02",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
@@ -207,12 +202,12 @@
     "repo_id": "meta-models/Muse-Glimmer-30B",
     "rank": 553,
     "downloads": 276597,
-    "likes": 1969,
+    "likes": 1970,
     "last_modified": "2026-08-11T19:23:35+00:00",
     "created_at": "2026-08-09T17:51:35+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",
-    "discovered_at": "2026-10-02T12:09:34+00:00",
+    "discovered_at": "2026-10-02T13:23:03+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -231,7 +226,7 @@
     "last_modified": "2026-08-11T19:23:35.000Z",
     "created_at": "2026-08-09T17:51:35.000Z",
     "downloads": 276597,
-    "likes": 1969,
+    "likes": 1970,
     "sha": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",

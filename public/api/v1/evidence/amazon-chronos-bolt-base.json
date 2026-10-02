@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "amazon-chronos-bolt-base",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5d9f166d69f4-5116bcd077",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5d9f166d69f47aef3401367a7b842e78fe97b121",
+      "evidence_hash": "5116bcd077961b3a7d8ec10af2e3984a6896e3c13bc0979ddd8608048b74dfe7",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/amazon/chronos-bolt-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/amazon/chronos-bolt-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/amazon/chronos-bolt-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/amazon/chronos-bolt-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/amazon/chronos-bolt-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "chronos-bolt-base",
+          "developer": "amazon",
+          "family": "chronos-bolt",
+          "variant": "chronos-bolt-base"
+        },
+        "model": {
+          "parameters": "0.205293B",
+          "total_parameters_billions": 0.205292928,
+          "context_tokens": 2048,
+          "context_display": "2,048 tokens",
+          "modality": "Time Series Forecasting"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/amazon/chronos-bolt-base",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "chronos-forecasting"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.41,
+            "fp8_int8": 0.21,
+            "int4": 0.1
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "5d9f166d69f47aef3401367a7b842e78fe97b121",
+          "created_at": "2024-11-25T09:47:43.000Z",
+          "last_modified": "2025-11-21T12:53:22.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "chronos-bolt-base",
+  "developer": "amazon",
+  "source_repository": "https://huggingface.co/amazon/chronos-bolt-base",
+  "current_repository_sha": "5d9f166d69f47aef3401367a7b842e78fe97b121",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/amazon-chronos-bolt-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/amazon-chronos-bolt-base/"
+}

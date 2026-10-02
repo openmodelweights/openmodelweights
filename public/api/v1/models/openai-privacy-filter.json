@@ -1,0 +1,246 @@
+{
+  "id": "openai-privacy-filter",
+  "name": "privacy-filter",
+  "developer": "OpenAI",
+  "family": "privacy-filter",
+  "variant": "privacy-filter",
+  "model": {
+    "parameters": "1.39949B",
+    "total_parameters_billions": 1.399486865,
+    "context": {
+      "value": 131072,
+      "display": "131,072 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "openai_privacy_filter",
+      "token-classification",
+      "transformers.js",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/openai/privacy-filter",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "onnx/model.onnx",
+      "onnx/model_fp16.onnx",
+      "onnx/model_q4.onnx",
+      "onnx/model_q4f16.onnx",
+      "onnx/model_quantized.onnx",
+      "original/model.safetensors"
+    ],
+    "file_count": 7,
+    "formats": [
+      "Safetensors",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/openai/privacy-filter",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 2.8,
+      "fp8_int8": 1.4,
+      "int4": 0.7
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "privacy-filter",
+    "variant": "privacy-filter",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/openai/privacy-filter",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/openai/privacy-filter/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/openai/privacy-filter/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T13:23:05+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "openai/privacy-filter",
+    "rank": 516,
+    "downloads": 350242,
+    "likes": 1780,
+    "last_modified": "2026-04-22T16:50:17+00:00",
+    "created_at": "2026-04-17T21:38:35+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "token-classification",
+    "discovered_at": "2026-10-02T13:23:03+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "token-classification",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-04-22T16:50:17.000Z",
+    "created_at": "2026-04-17T21:38:35.000Z",
+    "downloads": 350242,
+    "likes": 1780,
+    "sha": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+    "library_name": "transformers",
+    "pipeline_tag": "token-classification",
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "openai_privacy_filter",
+      "token-classification",
+      "transformers.js",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "id": "bytedance-seed-ui-tars-1-5-7b",
+  "name": "UI-TARS-1.5-7B",
+  "developer": "ByteDance-Seed",
+  "family": "UI-TARS-1.5",
+  "variant": "UI-TARS-1.5-7B",
+  "model": {
+    "parameters": "8.29217B",
+    "total_parameters_billions": 8.292166656,
+    "context": {
+      "value": 128000,
+      "display": "128,000 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen2_5_vl",
+      "image-text-to-text",
+      "multimodal",
+      "gui",
+      "conversational",
+      "en",
+      "arxiv:2501.12326",
+      "arxiv:2404.07972",
+      "arxiv:2409.08264",
+      "arxiv:2401.13919",
+      "arxiv:2504.01382",
+      "arxiv:2405.14573",
+      "arxiv:2410.23218",
+      "arxiv:2504.07981",
+      "license:apache-2.0",
+      "eval-results",
+      "text-generation-inference",
+      "endpoints_compatible"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00007.safetensors",
+      "model-00002-of-00007.safetensors",
+      "model-00003-of-00007.safetensors",
+      "model-00004-of-00007.safetensors",
+      "model-00005-of-00007.safetensors",
+      "model-00006-of-00007.safetensors",
+      "model-00007-of-00007.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 8,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BFLOAT16",
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/ByteDance-Seed/UI-TARS-1.5-7B",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 16.58,
+      "fp8_int8": 8.29,
+      "int4": 4.15
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "UI-TARS-1.5",
+    "variant": "UI-TARS-1.5-7B",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/ByteDance-Seed/UI-TARS-1.5-7B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T13:23:05+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "ByteDance-Seed/UI-TARS-1.5-7B",
+    "rank": 505,
+    "downloads": 565457,
+    "likes": 607,
+    "last_modified": "2025-04-18T01:35:38+00:00",
+    "created_at": "2025-04-16T09:40:50+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T13:23:03+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-04-18T01:35:38.000Z",
+    "created_at": "2025-04-16T09:40:50.000Z",
+    "downloads": 565457,
+    "likes": 607,
+    "sha": "683d002dd99d8f95104d31e70391a39348857f4e",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen2_5_vl",
+      "image-text-to-text",
+      "multimodal",
+      "gui",
+      "conversational",
+      "en",
+      "arxiv:2501.12326",
+      "arxiv:2404.07972",
+      "arxiv:2409.08264",
+      "arxiv:2401.13919",
+      "arxiv:2504.01382",
+      "arxiv:2405.14573",
+      "arxiv:2410.23218",
+      "arxiv:2504.07981",
+      "license:apache-2.0",
+      "eval-results",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

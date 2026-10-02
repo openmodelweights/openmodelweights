@@ -1,0 +1,318 @@
+{
+  "id": "nvidia-glm-5-2-nvfp4",
+  "name": "GLM-5.2-NVFP4",
+  "developer": "NVIDIA",
+  "family": "GLM-5.2-NVFP4",
+  "variant": "GLM-5.2-NVFP4",
+  "model": {
+    "parameters": "380.989B",
+    "total_parameters_billions": 380.989135104,
+    "context": {
+      "value": 1048576,
+      "display": "1,048,576 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "Model Optimizer",
+      "safetensors",
+      "glm_moe_dsa",
+      "nvidia",
+      "ModelOpt",
+      "GLM-5",
+      "quantized",
+      "4-bit precision",
+      "FP4",
+      "fp4",
+      "text-generation",
+      "conversational",
+      "base_model:zai-org/GLM-5.2",
+      "base_model:quantized:zai-org/GLM-5.2",
+      "license:mit",
+      "8-bit",
+      "modelopt",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00047.safetensors",
+      "model-00002-of-00047.safetensors",
+      "model-00003-of-00047.safetensors",
+      "model-00004-of-00047.safetensors",
+      "model-00005-of-00047.safetensors",
+      "model-00006-of-00047.safetensors",
+      "model-00007-of-00047.safetensors",
+      "model-00008-of-00047.safetensors",
+      "model-00009-of-00047.safetensors",
+      "model-00010-of-00047.safetensors",
+      "model-00011-of-00047.safetensors",
+      "model-00012-of-00047.safetensors",
+      "model-00013-of-00047.safetensors",
+      "model-00014-of-00047.safetensors",
+      "model-00015-of-00047.safetensors",
+      "model-00016-of-00047.safetensors",
+      "model-00017-of-00047.safetensors",
+      "model-00018-of-00047.safetensors",
+      "model-00019-of-00047.safetensors",
+      "model-00020-of-00047.safetensors",
+      "model-00021-of-00047.safetensors",
+      "model-00022-of-00047.safetensors",
+      "model-00023-of-00047.safetensors",
+      "model-00024-of-00047.safetensors",
+      "model-00025-of-00047.safetensors",
+      "model-00026-of-00047.safetensors",
+      "model-00027-of-00047.safetensors",
+      "model-00028-of-00047.safetensors",
+      "model-00029-of-00047.safetensors",
+      "model-00030-of-00047.safetensors",
+      "model-00031-of-00047.safetensors",
+      "model-00032-of-00047.safetensors",
+      "model-00033-of-00047.safetensors",
+      "model-00034-of-00047.safetensors",
+      "model-00035-of-00047.safetensors",
+      "model-00036-of-00047.safetensors",
+      "model-00037-of-00047.safetensors",
+      "model-00038-of-00047.safetensors",
+      "model-00039-of-00047.safetensors",
+      "model-00040-of-00047.safetensors",
+      "model-00041-of-00047.safetensors",
+      "model-00042-of-00047.safetensors",
+      "model-00043-of-00047.safetensors",
+      "model-00044-of-00047.safetensors",
+      "model-00045-of-00047.safetensors",
+      "model-00046-of-00047.safetensors",
+      "model-00047-of-00047.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 48,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F32",
+      "U8"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/GLM-5.2-NVFP4",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 761.98,
+      "fp8_int8": 380.99,
+      "int4": 190.49
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "GLM-5.2-NVFP4",
+    "variant": "GLM-5.2-NVFP4",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "zai-org/GLM-5.2"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/GLM-5.2-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T13:23:05+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/GLM-5.2-NVFP4",
+    "rank": 509,
+    "downloads": 543833,
+    "likes": 323,
+    "last_modified": "2026-08-31T15:59:10+00:00",
+    "created_at": "2026-06-22T19:55:57+00:00",
+    "library_name": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T13:23:03+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Model Optimizer"
+    ],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "Transformers",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-31T15:59:10.000Z",
+    "created_at": "2026-06-22T19:55:57.000Z",
+    "downloads": 543833,
+    "likes": 323,
+    "sha": "53e0691e21895a3863a606dfd12910c69eba94ab",
+    "library_name": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "Model Optimizer",
+      "safetensors",
+      "glm_moe_dsa",
+      "nvidia",
+      "ModelOpt",
+      "GLM-5",
+      "quantized",
+      "4-bit precision",
+      "FP4",
+      "fp4",
+      "text-generation",
+      "conversational",
+      "base_model:zai-org/GLM-5.2",
+      "base_model:quantized:zai-org/GLM-5.2",
+      "license:mit",
+      "8-bit",
+      "modelopt",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "moonshotai-kimi-k2-instruct",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "fd1984e2b7a3-f41dcbb443",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
+      "evidence_hash": "f41dcbb443d807e2511ba7e437d930855246348dd72d4ad07479ef78e03b5751",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Kimi-K2-Instruct",
+          "developer": "Moonshot AI",
+          "family": "Kimi-K2",
+          "variant": "Kimi-K2-Instruct"
+        },
+        "model": {
+          "parameters": "1026.41B",
+          "total_parameters_billions": 1026.408235864,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Mistral Modified MIT License",
+          "id": "other",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct/blob/main/LICENSE",
+          "commercial_use_status": "allowed-with-revenue-condition",
+          "commercial_use_label": "Commercial use allowed, but the license restricts companies above its revenue threshold without a separate license"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+          "access": "public",
+          "file_count": 62,
+          "exact_files": [
+            "model-1-of-61.safetensors",
+            "model-10-of-61.safetensors",
+            "model-11-of-61.safetensors",
+            "model-12-of-61.safetensors",
+            "model-13-of-61.safetensors",
+            "model-14-of-61.safetensors",
+            "model-15-of-61.safetensors",
+            "model-16-of-61.safetensors",
+            "model-17-of-61.safetensors",
+            "model-18-of-61.safetensors",
+            "model-19-of-61.safetensors",
+            "model-2-of-61.safetensors",
+            "model-20-of-61.safetensors",
+            "model-21-of-61.safetensors",
+            "model-22-of-61.safetensors",
+            "model-23-of-61.safetensors",
+            "model-24-of-61.safetensors",
+            "model-25-of-61.safetensors",
+            "model-26-of-61.safetensors",
+            "model-27-of-61.safetensors",
+            "model-28-of-61.safetensors",
+            "model-29-of-61.safetensors",
+            "model-3-of-61.safetensors",
+            "model-30-of-61.safetensors",
+            "model-31-of-61.safetensors",
+            "model-32-of-61.safetensors",
+            "model-33-of-61.safetensors",
+            "model-34-of-61.safetensors",
+            "model-35-of-61.safetensors",
+            "model-36-of-61.safetensors",
+            "model-37-of-61.safetensors",
+            "model-38-of-61.safetensors",
+            "model-39-of-61.safetensors",
+            "model-4-of-61.safetensors",
+            "model-40-of-61.safetensors",
+            "model-41-of-61.safetensors",
+            "model-42-of-61.safetensors",
+            "model-43-of-61.safetensors",
+            "model-44-of-61.safetensors",
+            "model-45-of-61.safetensors",
+            "model-46-of-61.safetensors",
+            "model-47-of-61.safetensors",
+            "model-48-of-61.safetensors",
+            "model-49-of-61.safetensors",
+            "model-5-of-61.safetensors",
+            "model-50-of-61.safetensors",
+            "model-51-of-61.safetensors",
+            "model-52-of-61.safetensors",
+            "model-53-of-61.safetensors",
+            "model-54-of-61.safetensors",
+            "model-55-of-61.safetensors",
+            "model-56-of-61.safetensors",
+            "model-57-of-61.safetensors",
+            "model-58-of-61.safetensors",
+            "model-59-of-61.safetensors",
+            "model-6-of-61.safetensors",
+            "model-60-of-61.safetensors",
+            "model-61-of-61.safetensors",
+            "model-7-of-61.safetensors",
+            "model-8-of-61.safetensors",
+            "model-9-of-61.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "TensorRT-LLM",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2052.82,
+            "fp8_int8": 1026.41,
+            "int4": 513.2
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
+          "created_at": "2025-07-11T00:55:12.000Z",
+          "last_modified": "2026-04-23T02:08:36.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Kimi-K2-Instruct",
+  "developer": "Moonshot AI",
+  "source_repository": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+  "current_repository_sha": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/moonshotai-kimi-k2-instruct/history/",
+  "diff_url": "https://openmodelweights.com/diff/moonshotai-kimi-k2-instruct/"
+}

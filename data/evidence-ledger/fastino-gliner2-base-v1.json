@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "fastino-gliner2-base-v1",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f9634218e535-01ed1ee157",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
+      "evidence_hash": "01ed1ee1570d545af5a95c221207b88d7b9a5ab9444e1ef297a4f7f05ecb1768",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/fastino/gliner2-base-v1",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/fastino/gliner2-base-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/fastino/gliner2-base-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/fastino/gliner2-base-v1/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/fastino/gliner2-base-v1/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gliner2-base-v1",
+          "developer": "fastino",
+          "family": "gliner2-base-v1",
+          "variant": "gliner2-base-v1"
+        },
+        "model": {
+          "parameters": "0.208477B",
+          "total_parameters_billions": 0.208476821,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/fastino/gliner2-base-v1",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "gliner2"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.42,
+            "fp8_int8": 0.21,
+            "int4": 0.1
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
+          "created_at": "2025-07-02T16:09:09.000Z",
+          "last_modified": "2026-09-28T00:55:46.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gliner2-base-v1",
+  "developer": "fastino",
+  "source_repository": "https://huggingface.co/fastino/gliner2-base-v1",
+  "current_repository_sha": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/fastino-gliner2-base-v1/history/",
+  "diff_url": "https://openmodelweights.com/diff/fastino-gliner2-base-v1/"
+}

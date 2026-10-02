@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "swiss-ai-apertus-8b-instruct-2509",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b946d40447b2-505547e011",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b946d40447b2b597999b9c86d44bee0b452c919f",
+      "evidence_hash": "505547e011f15c57c9ebc014ebcf3ea44b314e9f319807e3717f7f265c1f8378",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/swiss-ai/Apertus-8B-Instruct-2509",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Apertus-8B-Instruct-2509",
+          "developer": "swiss-ai",
+          "family": "Apertus",
+          "variant": "Apertus-8B-Instruct-2509"
+        },
+        "model": {
+          "parameters": "8.05334B",
+          "total_parameters_billions": 8.053338176,
+          "context_tokens": 65536,
+          "context_display": "65,536 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/blob/main/LICENSE.txt",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "swiss-ai/Apertus-8B-2509"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "MLX",
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 16.11,
+            "fp8_int8": 8.05,
+            "int4": 4.03
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "b946d40447b2b597999b9c86d44bee0b452c919f",
+          "created_at": "2025-08-13T09:30:23.000Z",
+          "last_modified": "2026-07-17T08:57:20.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Apertus-8B-Instruct-2509",
+  "developer": "swiss-ai",
+  "source_repository": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
+  "current_repository_sha": "b946d40447b2b597999b9c86d44bee0b452c919f",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/swiss-ai-apertus-8b-instruct-2509/history/",
+  "diff_url": "https://openmodelweights.com/diff/swiss-ai-apertus-8b-instruct-2509/"
+}

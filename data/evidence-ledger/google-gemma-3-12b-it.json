@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-gemma-3-12b-it",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "96b6f1eccf38-841b5f62b2",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+      "evidence_hash": "841b5f62b25c6df6aa4a35dcf7dcbb30d6ccef0dca2e78e9b86cef54cbe4f155",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/gemma-3-12b-it",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/gemma-3-12b-it",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/gemma-3-12b-it",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/gemma-3-12b-it/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/gemma-3-12b-it/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://ai.google.dev/gemma/terms",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gemma-3-12b-it",
+          "developer": "Google",
+          "family": "gemma-3",
+          "variant": "gemma-3-12b-it"
+        },
+        "model": {
+          "parameters": "12.1873B",
+          "total_parameters_billions": 12.18732504,
+          "context_tokens": 128000,
+          "context_display": "128,000 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "gemma",
+          "id": "gemma",
+          "url": "https://ai.google.dev/gemma/terms",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use permitted subject to Gemma Terms"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/gemma-3-12b-it",
+          "access": "gated (manual)",
+          "file_count": 6,
+          "exact_files": [
+            "model-00001-of-00005.safetensors",
+            "model-00002-of-00005.safetensors",
+            "model-00003-of-00005.safetensors",
+            "model-00004-of-00005.safetensors",
+            "model-00005-of-00005.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "google/gemma-3-12b-pt"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 24.37,
+            "fp8_int8": 12.19,
+            "int4": 6.09
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+          "created_at": "2025-03-01T19:11:34.000Z",
+          "last_modified": "2025-03-21T20:28:56.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gemma-3-12b-it",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/gemma-3-12b-it",
+  "current_repository_sha": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-gemma-3-12b-it/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-gemma-3-12b-it/"
+}

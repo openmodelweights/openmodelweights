@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "distil-whisper-distil-large-v3",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8031d2e6ce66-64506c68dd",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8031d2e6ce6631b7fc45629dddfc00271116d981",
+      "evidence_hash": "64506c68ddcd6f0b11fbf9491968a1c694c0bd1206a89691956b15cf1674c8eb",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/distil-whisper/distil-large-v3",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/distil-whisper/distil-large-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/distil-whisper/distil-large-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/distil-whisper/distil-large-v3/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/distil-whisper/distil-large-v3/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "distil-large-v3",
+          "developer": "distil-whisper",
+          "family": "distil-large-v3",
+          "variant": "distil-large-v3"
+        },
+        "model": {
+          "parameters": "0.756406B",
+          "total_parameters_billions": 0.75640576,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/distil-whisper/distil-large-v3",
+          "access": "public",
+          "file_count": 10,
+          "exact_files": [
+            "model.fp32.safetensors",
+            "model.safetensors",
+            "onnx/decoder_model.onnx",
+            "onnx/decoder_model_merged.onnx",
+            "onnx/decoder_model_merged_quantized.onnx",
+            "onnx/decoder_model_quantized.onnx",
+            "onnx/decoder_with_past_model.onnx",
+            "onnx/decoder_with_past_model_quantized.onnx",
+            "onnx/encoder_model.onnx",
+            "onnx/encoder_model_quantized.onnx"
+          ],
+          "formats": [
+            "ONNX",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.51,
+            "fp8_int8": 0.76,
+            "int4": 0.38
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8031d2e6ce6631b7fc45629dddfc00271116d981",
+          "created_at": "2024-03-21T12:10:42.000Z",
+          "last_modified": "2026-04-21T08:00:18.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "distil-large-v3",
+  "developer": "distil-whisper",
+  "source_repository": "https://huggingface.co/distil-whisper/distil-large-v3",
+  "current_repository_sha": "8031d2e6ce6631b7fc45629dddfc00271116d981",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/distil-whisper-distil-large-v3/history/",
+  "diff_url": "https://openmodelweights.com/diff/distil-whisper-distil-large-v3/"
+}

@@ -1,0 +1,228 @@
+{
+  "id": "nvidia-bigvgan-v2-22khz-80band-256x",
+  "name": "bigvgan_v2_22khz_80band_256x",
+  "developer": "NVIDIA",
+  "family": "bigvgan_v2_22khz_80band_256x",
+  "variant": "bigvgan_v2_22khz_80band_256x",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Audio To Audio",
+    "tags": [
+      "PyTorch",
+      "neural-vocoder",
+      "audio-generation",
+      "audio-to-audio",
+      "arxiv:2206.04658",
+      "license:mit",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
+    "access": "public",
+    "exact_files": [
+      "bigvgan_discriminator_optimizer.pt",
+      "bigvgan_discriminator_optimizer_3msteps.pt",
+      "bigvgan_generator.pt",
+      "bigvgan_generator_3msteps.pt"
+    ],
+    "file_count": 4,
+    "formats": [
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/bigvgan_v2_22khz_80band_256x",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": "https://huggingface.co/nvidia/BigVGAN/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": "https://huggingface.co/nvidia/BigVGAN/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/nvidia/BigVGAN/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "bigvgan_v2_22khz_80band_256x",
+    "variant": "bigvgan_v2_22khz_80band_256x",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/bigvgan_v2_22khz_80band_256x",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://huggingface.co/nvidia/BigVGAN/blob/main/LICENSE",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T13:23:05+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/bigvgan_v2_22khz_80band_256x",
+    "rank": 506,
+    "downloads": 1341731,
+    "likes": 33,
+    "last_modified": "2024-09-05T03:36:23+00:00",
+    "created_at": "2024-07-15T14:07:18+00:00",
+    "library_name": "PyTorch",
+    "pipeline_tag": "audio-to-audio",
+    "discovered_at": "2026-10-02T13:23:03+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "PyTorch",
+    "pipeline_tag": "audio-to-audio",
+    "declared": [
+      "PyTorch"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-09-05T03:36:23.000Z",
+    "created_at": "2024-07-15T14:07:18.000Z",
+    "downloads": 1341731,
+    "likes": 33,
+    "sha": "633ff708ed5b74903e86ff1298cf4a98e921c513",
+    "library_name": "PyTorch",
+    "pipeline_tag": "audio-to-audio",
+    "tags": [
+      "PyTorch",
+      "neural-vocoder",
+      "audio-generation",
+      "audio-to-audio",
+      "arxiv:2206.04658",
+      "license:mit",
+      "region:us"
+    ]
+  }
+}

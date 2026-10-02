@@ -1,0 +1,180 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "onnx-community-kokoro-82m-v1-0-onnx",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1939ad2a8e41-2c05d6779a",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
+      "evidence_hash": "2c05d6779a67f62db5e27a730644df70515b48952fd28dd10ee7a2b2b8e5c532",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/onnx-community/Kokoro-82M-v1.0-ONNX",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Kokoro-82M-v1.0-ONNX",
+          "developer": "onnx-community",
+          "family": "Kokoro",
+          "variant": "Kokoro-82M-v1.0-ONNX"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX",
+          "access": "public",
+          "file_count": 63,
+          "exact_files": [
+            "onnx/model.onnx",
+            "onnx/model_fp16.onnx",
+            "onnx/model_q4.onnx",
+            "onnx/model_q4f16.onnx",
+            "onnx/model_q8f16.onnx",
+            "onnx/model_quantized.onnx",
+            "onnx/model_uint8.onnx",
+            "onnx/model_uint8f16.onnx",
+            "voices/af.bin",
+            "voices/af_alloy.bin",
+            "voices/af_aoede.bin",
+            "voices/af_bella.bin",
+            "voices/af_heart.bin",
+            "voices/af_jessica.bin",
+            "voices/af_kore.bin",
+            "voices/af_nicole.bin",
+            "voices/af_nova.bin",
+            "voices/af_river.bin",
+            "voices/af_sarah.bin",
+            "voices/af_sky.bin",
+            "voices/am_adam.bin",
+            "voices/am_echo.bin",
+            "voices/am_eric.bin",
+            "voices/am_fenrir.bin",
+            "voices/am_liam.bin",
+            "voices/am_michael.bin",
+            "voices/am_onyx.bin",
+            "voices/am_puck.bin",
+            "voices/am_santa.bin",
+            "voices/bf_alice.bin",
+            "voices/bf_emma.bin",
+            "voices/bf_isabella.bin",
+            "voices/bf_lily.bin",
+            "voices/bm_daniel.bin",
+            "voices/bm_fable.bin",
+            "voices/bm_george.bin",
+            "voices/bm_lewis.bin",
+            "voices/ef_dora.bin",
+            "voices/em_alex.bin",
+            "voices/em_santa.bin",
+            "voices/ff_siwis.bin",
+            "voices/hf_alpha.bin",
+            "voices/hf_beta.bin",
+            "voices/hm_omega.bin",
+            "voices/hm_psi.bin",
+            "voices/if_sara.bin",
+            "voices/im_nicola.bin",
+            "voices/jf_alpha.bin",
+            "voices/jf_gongitsune.bin",
+            "voices/jf_nezumi.bin",
+            "voices/jf_tebukuro.bin",
+            "voices/jm_kumo.bin",
+            "voices/pf_dora.bin",
+            "voices/pm_alex.bin",
+            "voices/pm_santa.bin",
+            "voices/zf_xiaobei.bin",
+            "voices/zf_xiaoni.bin",
+            "voices/zf_xiaoxiao.bin",
+            "voices/zf_xiaoyi.bin",
+            "voices/zm_yunjian.bin",
+            "voices/zm_yunxi.bin",
+            "voices/zm_yunxia.bin",
+            "voices/zm_yunyang.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "hexgrad/Kokoro-82M"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "transformers.js"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
+          "created_at": "2025-02-07T11:07:04.000Z",
+          "last_modified": "2025-02-08T12:15:27.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Kokoro-82M-v1.0-ONNX",
+  "developer": "onnx-community",
+  "source_repository": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX",
+  "current_repository_sha": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/onnx-community-kokoro-82m-v1-0-onnx/history/",
+  "diff_url": "https://openmodelweights.com/diff/onnx-community-kokoro-82m-v1-0-onnx/"
+}

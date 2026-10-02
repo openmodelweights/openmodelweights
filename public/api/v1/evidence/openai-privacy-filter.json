@@ -1,0 +1,126 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "openai-privacy-filter",
+  "created_at": "2026-10-02T13:23:43+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "7ffa9a043d54-015c66d19f",
+      "observed_at": "2026-10-02T13:23:43+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+      "evidence_hash": "015c66d19f126b6cf4dba3d95be6dc262ea73e4802fce2a60d37c43b8ce6a054",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/openai/privacy-filter",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/openai/privacy-filter",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/openai/privacy-filter",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/openai/privacy-filter/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/openai/privacy-filter/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "privacy-filter",
+          "developer": "OpenAI",
+          "family": "privacy-filter",
+          "variant": "privacy-filter"
+        },
+        "model": {
+          "parameters": "1.39949B",
+          "total_parameters_billions": 1.399486865,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/openai/privacy-filter",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_fp16.onnx",
+            "onnx/model_q4.onnx",
+            "onnx/model_q4f16.onnx",
+            "onnx/model_quantized.onnx",
+            "original/model.safetensors"
+          ],
+          "formats": [
+            "ONNX",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2.8,
+            "fp8_int8": 1.4,
+            "int4": 0.7
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+          "created_at": "2026-04-17T21:38:35.000Z",
+          "last_modified": "2026-04-22T16:50:17.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "privacy-filter",
+  "developer": "OpenAI",
+  "source_repository": "https://huggingface.co/openai/privacy-filter",
+  "current_repository_sha": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/openai-privacy-filter/history/",
+  "diff_url": "https://openmodelweights.com/diff/openai-privacy-filter/"
+}
