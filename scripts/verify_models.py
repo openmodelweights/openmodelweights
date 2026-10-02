@@ -107,7 +107,7 @@ def deep_candidates(obj, wanted, path=""):
 
 def parse_human_number(s):
     s = s.strip().upper().replace(",", "")
-    m = re.match(r"([\d.]+)\s*([KMBT]?)", s)
+    m = re.match(r"(\d+(?:\.\d+)?)\s*([KMBT]?)", s)
     if not m:
         return None
     n = float(m.group(1))
