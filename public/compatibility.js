@@ -1,0 +1,12 @@
+(()=>{
+  const $=s=>document.querySelector(s),els={q:$('#compat-search'),rt:$('#compat-runtime'),fmt:$('#compat-format'),prec:$('#compat-precision'),com:$('#compat-commercial'),ctx:$('#compat-context'),mem:$('#compat-memory'),mode:$('#compat-memory-mode'),count:$('#compat-count'),out:$('#compat-results')};
+  const esc=v=>(v??'').toString().replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+  const norm=v=>(v||'').toString().toLowerCase();
+  function render(data){
+    const q=norm(els.q.value),rt=els.rt.value,fmt=els.fmt.value,prec=els.prec.value,com=els.com.value,minCtx=Number(els.ctx.value||0),maxMem=Number(els.mem.value||0),mode=els.mode.value;
+    const matched=data.models.filter(m=>(!q||norm(m.name+' '+m.developer).includes(q))&&(!rt||m.runtimes.includes(rt))&&(!fmt||m.formats.includes(fmt))&&(!prec||m.precisions.includes(prec))&&(!com||m.commercial_use===com)&&(!minCtx||Number(m.context_tokens||0)>=minCtx)&&(!maxMem||(Number(m.weight_only_gb?.[mode]||Infinity)<=maxMem)));
+    els.count.innerHTML='<strong>'+matched.length.toLocaleString()+'</strong> of '+data.models.length.toLocaleString()+' models match';
+    els.out.innerHTML=matched.slice(0,150).map(m=>'<a class="compat-card" href="'+esc(m.url)+'"><div><span>'+esc(m.developer)+'</span><strong>'+esc(m.name)+'</strong></div><div><small>Context</small><b>'+(m.context_tokens?Number(m.context_tokens).toLocaleString():'—')+'</b></div><div><small>'+esc(mode.replace('_',' / '))+'</small><b>'+(m.weight_only_gb?.[mode]!=null?'~'+Number(m.weight_only_gb[mode]).toFixed(1)+' GB':'—')+'</b></div><div><small>Runtime signals</small><b>'+esc(m.runtimes.slice(0,3).join(', ')||'—')+'</b></div><div><small>License</small><b>'+esc(m.license)+'</b></div></a>').join('')+(matched.length>150?'<p class="note">Showing first 150 matches. Narrow the filters for a smaller evidence set.</p>':'');
+  }
+  fetch('/api/v1/compatibility.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{Object.values(els).forEach(x=>x&&['INPUT','SELECT'].includes(x.tagName)&&x.addEventListener(x.tagName==='INPUT'?'input':'change',()=>render(data)));render(data)}).catch(()=>els.out.innerHTML='<p class="note">Compatibility graph could not be loaded.</p>');
+})();

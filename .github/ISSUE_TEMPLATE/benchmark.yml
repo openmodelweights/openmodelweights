@@ -1,0 +1,65 @@
+name: Benchmark evidence
+description: Submit reproducible deployment benchmark evidence for review
+title: "[Benchmark] "
+labels: ["benchmark-evidence"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Open Model Weights only accepts measured results tied to an exact model revision, runtime version, hardware environment and public evidence artifact. Do not submit vendor marketing numbers or extrapolated estimates.
+  - type: input
+    id: model
+    attributes:
+      label: Open Model Weights model ID
+      placeholder: qwen3-32b
+    validations:
+      required: true
+  - type: input
+    id: sha
+    attributes:
+      label: Source repository SHA
+      description: Exact repository revision used for the weights.
+    validations:
+      required: true
+  - type: input
+    id: artifact
+    attributes:
+      label: Weight artifact / precision / quantization
+      placeholder: BF16 safetensors, INT4 GPTQ, etc.
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime and exact version
+      placeholder: vLLM 0.x.y
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware and software environment
+      description: GPU/accelerator model, count, memory, driver, OS, framework versions.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command / configuration
+      description: Enough information to reproduce the run.
+    validations:
+      required: true
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Measured results
+      description: Include per-run TTFT, output tok/s, peak device memory and run count.
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Public raw evidence URL
+      placeholder: https://...
+    validations:
+      required: true

@@ -11,6 +11,12 @@ on:
       - "scripts/refine_registry.py"
       - "scripts/render_extras.py"
       - "scripts/render_product.py"
+      - "scripts/build_intelligence.py"
+      - "scripts/validate_benchmarks.py"
+      - "src/worker.js"
+      - "package.json"
+      - "wrangler.jsonc"
+      - "data/benchmark-results.json"
       - "data/models-source.json"
       - ".github/workflows/verify-models.yml"
 
@@ -54,14 +60,25 @@ jobs:
       - name: Render comparison and developer metadata
         run: python scripts/render_extras.py
 
+      - name: Validate benchmark evidence
+        run: python scripts/validate_benchmarks.py
+
+      - name: Build evidence intelligence layer
+        run: python scripts/build_intelligence.py
+
       - name: Render mature product surfaces
         run: python scripts/render_product.py
+
+      - name: Validate MCP Worker bundle
+        run: |
+          npm install --ignore-scripts --no-audit --no-fund
+          npx wrangler deploy --dry-run --outdir .wrangler-dry-run
 
       - name: Commit verified data
         run: |
           git config user.name "openmodelweights-bot"
           git config user.email "openmodelweights-bot@users.noreply.github.com"
-          git add data/models-source.json data/verification-report.json data/change-feed.json public/index.html public/registry.json public/registry.schema.json public/llms.txt public/models public/developers public/verification public/explore public/compare public/licenses public/hardware public/formats public/lineage public/changes public/changes.json public/sources public/api public/openapi.json public/_headers public/sitemap.xml
+          git add data/models-source.json data/verification-report.json data/change-feed.json data/evidence-ledger data/evidence-runs data/benchmark-results.json public
           if git diff --cached --quiet; then
             echo "No verification changes."
           else

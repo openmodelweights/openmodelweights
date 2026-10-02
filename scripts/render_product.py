@@ -53,7 +53,7 @@ def header(active=""):
     return '<a class="skip-link" href="#main-content">Skip to content</a><header class="site-header"><a class="brand" href="/" aria-label="Open Model Weights home">'+mark+'<span class="brand-wordmark">Open Model Weights</span></a><nav aria-label="Primary navigation">'+''.join(out)+'</nav></header>'
 
 def footer():
-    return '''<footer class="site-footer"><div class="footer-brand"><div class="footer-brand-line"><span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-links"><a href="/models/">Models</a><a href="/compare/">Compare</a><a href="/sources/">Sources</a><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/api/">API / JSON</a><a href="/registry.json">Registry JSON</a><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></footer>'''
+    return '''<footer class="site-footer"><div class="footer-brand"><div class="footer-brand-line"><span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-links"><a href="/models/">Models</a><a href="/compare/">Compare</a><a href="/sources/">Sources</a><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a><a href="/compatibility/">Compatibility</a><a href="/benchmarks/">Benchmarks</a><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></footer>'''
 
 def trust_strip(checked,full=None,mode=None):
     full=full or checked
@@ -150,11 +150,17 @@ def api_docs(count,generated):
       ("/api/v1/developers.json","Developer aggregation."),
       ("/api/v1/licenses.json","License and commercial-use aggregation."),
       ("/api/v1/changes.json","Rolling release / verification change history."),
+      ("/api/v1/history.json","Evidence-ledger index with snapshot/diff counts."),
+      ("/api/v1/evidence/{id}.json","Observed evidence snapshots and field-level diffs for one model."),
+      ("/api/v1/evidence-runs.json","Index of canonical daily evidence manifests."),
+      ("/api/v1/compatibility.json","Structured model/runtime/format/precision/license/memory relationship graph."),
+      ("/api/v1/benchmarks.json","Accepted reproducible deployment benchmark results."),
+      ("/mcp","Stateless Streamable HTTP MCP endpoint for AI agents."),
       ("/openapi.json","OpenAPI 3.1 description of the static JSON layer."),
       ("/registry.json","Canonical full registry JSON.")
     ]
     rows="".join(f'<div class="api-endpoint"><code>{esc(p)}</code><p>{esc(d)}</p></div>' for p,d in endpoints)
-    return f'''{head("Open Model Weights API & JSON documentation","Machine-readable JSON endpoints and schema documentation for the Open Model Weights field-verified registry.","https://openmodelweights.com/api/")}<body>{header()}<main id="main-content"><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / API</div><p class="eyebrow">MACHINE-READABLE LAYER · v1</p><h1>Use the registry as data.</h1><p class="lead">Static, cacheable JSON for {count:,} verified model records, developer/license aggregates and change history. Designed so an MCP or live query API can be added later without changing the core record shape.</p></section>{trust_strip(date(generated),date(generated))}<section class="section api-docs"><div class="api-grid">{rows}</div><div class="content"><h2>Stability</h2><p><code>/api/v1/</code> is the first versioned machine-readable surface. Additive fields may appear without a version bump; breaking shape changes will use a new API version.</p><h2>CORS & caching</h2><p>JSON API paths are configured for cross-origin read access and short public caching. The canonical registry remains available at <code>/registry.json</code>.</p><h2>Evidence semantics</h2><p>Machine-readable values preserve verification status, sources, explicit unknowns and the distinction between repository revision checks and full field verification.</p></div></section></main>{footer()}</body></html>'''
+    return f'''{head("Open Model Weights API & JSON documentation","Machine-readable JSON endpoints and schema documentation for the Open Model Weights field-verified registry.","https://openmodelweights.com/api/")}<body>{header()}<main id="main-content"><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / API</div><p class="eyebrow">MACHINE-READABLE LAYER · v1</p><h1>Use the registry as data.</h1><p class="lead">Static, cacheable JSON for {count:,} verified model records plus evidence history, compatibility relationships and benchmark results. The same data is exposed to AI agents through the public MCP endpoint.</p></section>{trust_strip(date(generated),date(generated))}<section class="section api-docs"><div class="api-grid">{rows}</div><div class="content"><h2>Stability</h2><p><code>/api/v1/</code> is the first versioned machine-readable surface. Additive fields may appear without a version bump; breaking shape changes will use a new API version.</p><h2>CORS & caching</h2><p>JSON API paths are configured for cross-origin read access and short public caching. The canonical registry remains available at <code>/registry.json</code>.</p><h2>Evidence semantics</h2><p>Machine-readable values preserve verification status, sources, explicit unknowns and the distinction between repository revision checks and full field verification.</p></div></section></main>{footer()}</body></html>'''
 
 def compact_model(m):
     return {
@@ -162,7 +168,7 @@ def compact_model(m):
       "model":m.get("model"),"license":m.get("license"),"hardware":m.get("hardware"),
       "formats":(m.get("weights") or {}).get("formats",[]),"repository":(m.get("weights") or {}).get("repository"),
       "lineage":m.get("lineage"),"runtime_support":m.get("runtime_support"),"hub":m.get("hub"),"verification":m.get("verification"),
-      "url":f'https://openmodelweights.com/models/{m.get("id")}/'
+      "url":f'https://openmodelweights.com/models/{m.get("id")}/',"history_url":f'https://openmodelweights.com/models/{m.get("id")}/history/',"evidence_url":f'https://openmodelweights.com/api/v1/evidence/{m.get("id")}.json'
     }
 
 def write_api(reg,report,feed):
@@ -184,11 +190,11 @@ def write_api(reg,report,feed):
     license_payload=[{"name":k,"model_count":v["count"],"commercial_use":dict(v["commercial_use"])} for k,v in sorted(lic.items())]
     (api/"licenses.json").write_text(json.dumps({"generated_at":reg.get("generated_at"),"licenses":license_payload},indent=2,ensure_ascii=False)+"\n")
     (api/"changes.json").write_text(json.dumps(feed,indent=2,ensure_ascii=False)+"\n")
-    meta={"api_version":"v1","registry_schema":reg.get("schema_version"),"generated_at":reg.get("generated_at"),"model_count":len(models),"verification":report.get("stats",{}),"links":{"models":"https://openmodelweights.com/api/v1/models.json","changes":"https://openmodelweights.com/api/v1/changes.json","openapi":"https://openmodelweights.com/openapi.json","registry":"https://openmodelweights.com/registry.json"}}
+    meta={"api_version":"v1","registry_schema":reg.get("schema_version"),"generated_at":reg.get("generated_at"),"model_count":len(models),"verification":report.get("stats",{}),"links":{"models":"https://openmodelweights.com/api/v1/models.json","changes":"https://openmodelweights.com/api/v1/changes.json","history":"https://openmodelweights.com/api/v1/history.json","compatibility":"https://openmodelweights.com/api/v1/compatibility.json","benchmarks":"https://openmodelweights.com/api/v1/benchmarks.json","mcp":"https://openmodelweights.com/mcp","openapi":"https://openmodelweights.com/openapi.json","registry":"https://openmodelweights.com/registry.json"}}
     (api/"meta.json").write_text(json.dumps(meta,indent=2,ensure_ascii=False)+"\n")
     schema={"$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://openmodelweights.com/api/v1/model.schema.json","title":"Open Model Weights model record","type":"object","required":["id","name","developer","model","weights","license","verification","sources"],"properties":{"id":{"type":"string"},"name":{"type":"string"},"developer":{"type":"string"},"family":{"type":["string","null"]},"model":{"type":"object"},"weights":{"type":"object"},"license":{"type":"object"},"hardware":{"type":"object"},"lineage":{"type":"object"},"training_assets":{"type":"object"},"runtime_support":{"type":"object"},"hub":{"type":"object"},"verification":{"type":"object"},"sources":{"type":"array"}}}
     (api/"model.schema.json").write_text(json.dumps(schema,indent=2)+"\n")
-    openapi={"openapi":"3.1.0","info":{"title":"Open Model Weights JSON API","version":"1.0.0","description":"Static, versioned JSON surface for the field-verified Open Model Weights registry."},"servers":[{"url":"https://openmodelweights.com"}],"paths":{"/api/v1/meta.json":{"get":{"summary":"Registry metadata","responses":{"200":{"description":"Registry metadata"}}}},"/api/v1/models.json":{"get":{"summary":"Compact model index","responses":{"200":{"description":"Model index"}}}},"/api/v1/models/{id}.json":{"get":{"summary":"Full verified model record","parameters":[{"name":"id","in":"path","required":True,"schema":{"type":"string"}}],"responses":{"200":{"description":"Full model record"}}}},"/api/v1/developers.json":{"get":{"summary":"Developer aggregation","responses":{"200":{"description":"Developer aggregation"}}}},"/api/v1/licenses.json":{"get":{"summary":"License aggregation","responses":{"200":{"description":"License aggregation"}}}},"/api/v1/changes.json":{"get":{"summary":"Rolling change history","responses":{"200":{"description":"Change history"}}}}}}
+    openapi={"openapi":"3.1.0","info":{"title":"Open Model Weights JSON API","version":"1.0.0","description":"Static, versioned JSON surface for the field-verified Open Model Weights registry."},"servers":[{"url":"https://openmodelweights.com"}],"paths":{"/api/v1/meta.json":{"get":{"summary":"Registry metadata","responses":{"200":{"description":"Registry metadata"}}}},"/api/v1/models.json":{"get":{"summary":"Compact model index","responses":{"200":{"description":"Model index"}}}},"/api/v1/models/{id}.json":{"get":{"summary":"Full verified model record","parameters":[{"name":"id","in":"path","required":True,"schema":{"type":"string"}}],"responses":{"200":{"description":"Full model record"}}}},"/api/v1/developers.json":{"get":{"summary":"Developer aggregation","responses":{"200":{"description":"Developer aggregation"}}}},"/api/v1/licenses.json":{"get":{"summary":"License aggregation","responses":{"200":{"description":"License aggregation"}}}},"/api/v1/changes.json":{"get":{"summary":"Rolling change history","responses":{"200":{"description":"Change history"}}}},"/api/v1/history.json":{"get":{"summary":"Evidence-ledger index","responses":{"200":{"description":"History index"}}}},"/api/v1/evidence/{id}.json":{"get":{"summary":"Observed model evidence history","parameters":[{"name":"id","in":"path","required":True,"schema":{"type":"string"}}],"responses":{"200":{"description":"Evidence ledger"}}}},"/api/v1/evidence-runs.json":{"get":{"summary":"Daily evidence manifests","responses":{"200":{"description":"Evidence run index"}}}},"/api/v1/compatibility.json":{"get":{"summary":"Compatibility relationship graph","responses":{"200":{"description":"Compatibility graph"}}}},"/api/v1/benchmarks.json":{"get":{"summary":"Accepted deployment benchmark results","responses":{"200":{"description":"Benchmark results"}}}}}}
     (PUBLIC/"openapi.json").write_text(json.dumps(openapi,indent=2)+"\n")
     (PUBLIC/"_headers").write_text("""/api/*
   Access-Control-Allow-Origin: *
@@ -215,6 +221,10 @@ def patch_model_page(path,m,generated):
             ver=m.get("verification") or {}
             strip=trust_strip(date(ver.get("checked_at") or generated),date(ver.get("full_verified_at") or ver.get("checked_at") or generated),ver.get("mode"))
             text=text[:marker.end()]+strip+text[marker.end():]
+    if 'History & diff' not in text:
+        compare_link=f'<a class="button compare-model-button" href="/compare/?models={esc(m["id"])}">Compare this model →</a>'
+        history_link=f'<a class="button history-model-button" href="/models/{esc(m["id"])}/history/">History & diff →</a>'
+        text=text.replace(compare_link,compare_link+history_link,1)
     if 'Machine-readable JSON' not in text:
         text=text.replace('</div></div>\n<div class="facts">',f'<a class="button" href="/api/v1/models/{esc(m["id"])}.json">Machine-readable JSON ↗</a></div></div>\n<div class="facts">',1)
     if 'class="source-assurance"' not in text:
@@ -240,6 +250,11 @@ def patch_general_pages(generated):
             m=re.search(r'(<section class="page-hero[^"]*">.*?</section>)',text,re.S)
             if m:text=text[:m.end()]+generic+text[m.end():]
         if route=="//" or p==PUBLIC/"index.html":
+            if 'class="intelligence-section"' not in text:
+                m=re.search(r'(<section class="metric-strip">.*?</section>)',text,re.S)
+                if m:
+                    intelligence='''<section class="section intelligence-section"><div class="section-head"><div><p class="eyebrow">THE EVIDENCE LAYER</p><h2>History that compounds.</h2></div><p class="section-kicker">Lists can be copied. Observed evidence, revision diffs and reproducible deployment data accumulate over time.</p></div><div class="intelligence-grid"><a href="/history/"><span>01</span><strong>Evidence Ledger</strong><p>Versioned field snapshots and model diffs from observed states.</p></a><a href="/compatibility/"><span>02</span><strong>Compatibility Graph</strong><p>Runtime, format, precision, license and memory relationships.</p></a><a href="/benchmarks/"><span>03</span><strong>Deployment Benchmarks</strong><p>Measured runs tied to exact model revisions and hardware.</p></a><a href="/mcp/"><span>04</span><strong>MCP for AI agents</strong><p>Let other AI products query the verified evidence instead of guessing.</p></a></div></section>'''
+                    text=text[:m.end()]+intelligence+text[m.end():]
             if 'class="home-trust"' not in text:
                 m=re.search(r'(<section class="hero[^"]*">.*?</section>)',text,re.S)
                 if m:
@@ -252,7 +267,7 @@ def patch_sitemap(generated):
     p=PUBLIC/"sitemap.xml"
     if not p.exists():return
     text=p.read_text()
-    for u in ("/sources/","/api/"):
+    for u in ("/sources/","/api/","/history/","/compatibility/","/benchmarks/","/mcp/"):
         full=f"https://openmodelweights.com{u}"
         if full not in text:
             text=text.replace("</urlset>",f'<url><loc>{full}</loc><lastmod>{date(generated)}</lastmod></url>\n</urlset>')
@@ -270,6 +285,16 @@ def patch_llms(count,generated):
 - https://openmodelweights.com/sources/ — source and evidence policy
 """
     if "## Machine-readable" not in text:text+="\n"+block
+    if "## Evidence intelligence" not in text:
+        text+=f"""\n## Evidence intelligence
+- https://openmodelweights.com/history/ — observed evidence history and model diffs
+- https://openmodelweights.com/compatibility/ — compatibility graph
+- https://openmodelweights.com/benchmarks/ — reproducible deployment benchmarks
+- https://openmodelweights.com/api/v1/evidence-runs.json — daily evidence manifests
+- https://openmodelweights.com/api/v1/compatibility.json — machine-readable compatibility graph
+- https://openmodelweights.com/mcp — MCP Streamable HTTP endpoint
+- https://openmodelweights.com/mcp/ — MCP documentation
+"""
     p.write_text(text)
 
 def main():
@@ -277,10 +302,10 @@ def main():
     report=json.loads(REPORT.read_text()) if REPORT.exists() else {}
     feed=json.loads(CHANGE_FEED.read_text()) if CHANGE_FEED.exists() else {"events":[],"publisher_activity":[]}
     generated=reg.get("generated_at") or dt.datetime.now(dt.timezone.utc).isoformat()
-    reg["schema_version"]="0.7.0"
+    reg["schema_version"]="0.8.0"
     reg["model_count"]=len(models)
     reg["freshness"]={"last_registry_run":generated,"policy":"daily repository revision check; full field verification on changed/new repositories"}
-    reg["api"]={"version":"v1","documentation":"https://openmodelweights.com/api/","models":"https://openmodelweights.com/api/v1/models.json","changes":"https://openmodelweights.com/api/v1/changes.json","openapi":"https://openmodelweights.com/openapi.json"}
+    reg["api"]={"version":"v1","documentation":"https://openmodelweights.com/api/","models":"https://openmodelweights.com/api/v1/models.json","changes":"https://openmodelweights.com/api/v1/changes.json","history":"https://openmodelweights.com/api/v1/history.json","compatibility":"https://openmodelweights.com/api/v1/compatibility.json","benchmarks":"https://openmodelweights.com/api/v1/benchmarks.json","openapi":"https://openmodelweights.com/openapi.json"}\n    reg["intelligence"]={"history":"https://openmodelweights.com/history/","compatibility":"https://openmodelweights.com/compatibility/","benchmarks":"https://openmodelweights.com/benchmarks/","mcp":"https://openmodelweights.com/mcp"}
     REGISTRY.write_text(json.dumps(reg,indent=2,ensure_ascii=False)+"\n")
 
     (PUBLIC/"models"/"index.html").write_text(model_discovery_page(models,generated))

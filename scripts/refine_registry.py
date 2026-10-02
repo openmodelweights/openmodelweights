@@ -184,7 +184,7 @@ def schema_doc():
     return {
       "$schema":"https://json-schema.org/draft/2020-12/schema",
       "$id":"https://openmodelweights.com/registry.schema.json",
-      "title":"Open Model Weights Registry v0.3",
+      "title":"Open Model Weights Registry v0.8",
       "type":"object",
       "required":["schema_version","generated_at","models"],
       "properties":{
@@ -392,7 +392,7 @@ def home_page_portal(models,report):
     return f'''{page_head("Open Model Weights — field-verified open-weight AI registry","Field-verified open-weight AI registry with exact weights, licenses, commercial-use conditions, hardware estimates, formats, lineage and change history.","https://openmodelweights.com/")}<body>{nav_html()}<main><section class="hero home-hero"><p class="eyebrow">FIELD-VERIFIED OPEN-WEIGHT REGISTRY</p><h1>Open model weights,<br>with evidence.</h1><p class="lead">A source-first registry for exact weight artifacts, licenses, commercial-use conditions, context, formats, lineage, training assets and runtime support.</p><form class="hero-search" action="/models/" method="get"><input name="q" type="search" placeholder="Search {len(models)} verified models…"><button type="submit">Search models</button></form><div class="hero-actions"><a class="button primary" href="/models/">Explore {len(models)} models</a><a class="button" href="/explore/">Open explorers</a></div></section><section class="metric-strip"><div><span>Field-verified</span><strong>{s["field_verified"]} / {s["total_seed_records"]}</strong></div><div><span>Exact weight lists</span><strong>{s["exact_weight_lists"]}</strong></div><div><span>Commercial-use classified</span><strong>{s["commercial_use_classified"]}</strong></div><div><span>Context declared</span><strong>{s["context_verified"]}</strong></div></section><section class="section"><p class="eyebrow">EXPLORE THE REGISTRY</p><h2>Ask a different question.</h2><div class="mini-tool-grid">{t}</div></section><section class="section"><div class="section-head"><div><p class="eyebrow">VERIFIED RECORDS</p><h2>Every claim points back to a source.</h2></div><a class="text-link" href="/models/">Browse all →</a></div><div class="model-grid">{cards}</div></section></main>{footer_html()}</body></html>'''
 
 def write_sitemap(models,groups):
-    urls=["/","/models/","/developers/","/explore/","/licenses/","/hardware/","/formats/","/lineage/","/changes/","/verification/","/methodology/","/about/"]
+    urls=["/","/models/","/developers/","/explore/","/licenses/","/hardware/","/formats/","/lineage/","/changes/","/verification/","/methodology/","/about/","/history/","/compatibility/","/benchmarks/","/mcp/"]
     urls += [f'/models/{m["id"]}/' for m in models]
     urls += [f'/developers/{re.sub(r"[^a-z0-9]+","-",d.lower()).strip("-")}/' for d in groups]
     xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -437,7 +437,7 @@ def main():
         if key in previous_report:
             report[key]=previous_report[key]
     feed=build_change_feed(models,report)
-    reg["schema_version"]="0.4.0"
+    reg["schema_version"]="0.8.0"
     reg["generated_at"]=NOW
     reg["explorers"]={
       "licenses":"https://openmodelweights.com/licenses/",
