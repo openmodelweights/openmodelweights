@@ -85,3 +85,44 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
   .mini-tool-grid{grid-template-columns:1fr}
   .tool-card h2{font-size:31px}
 }
+
+/* Responsive viewport fix */
+html,body{max-width:100%;overflow-x:clip}
+main,footer{min-width:0}
+img,video,canvas{max-width:100%;height:auto}
+svg{max-width:100%}
+
+/* Full-width sticky header without 100vw overflow */
+.site-header{
+  width:100%;
+  max-width:none;
+  margin:0;
+  padding-left:max(20px,calc((100% - 1180px)/2));
+  padding-right:max(20px,calc((100% - 1180px)/2));
+  background:var(--header-glass);
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--line);
+}
+.site-header:before{display:none}
+
+/* Make large desktop typography scale cleanly with viewport */
+.home-hero{max-width:min(1030px,100%)}
+.home-hero h1{font-size:clamp(58px,7.25vw,104px);max-width:100%}
+.home-hero .lead{max-width:min(880px,100%)}
+.hero-search{width:min(760px,100%)}
+.metric-strip,.model-grid,.tool-grid,.developer-grid{min-width:0}
+.model-card,.tool-card,.developer-card{min-width:0}
+
+@media(max-width:1220px){
+  .site-header{padding-left:20px;padding-right:20px}
+}
+@media(max-width:900px){
+  .site-header{width:100%;padding:14px 20px 10px}
+  .home-hero h1{font-size:clamp(52px,10vw,82px)}
+}
+@media(max-width:560px){
+  html,body{overflow-x:hidden}
+  .site-header{padding-left:14px;padding-right:14px}
+  .home-hero h1{font-size:clamp(44px,14vw,64px)}
+}
