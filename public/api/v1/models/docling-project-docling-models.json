@@ -1,0 +1,221 @@
+{
+  "id": "docling-project-docling-models",
+  "name": "docling-models",
+  "developer": "docling-project",
+  "family": "docling-models",
+  "variant": "docling-models",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "transformers",
+      "arxiv:2408.09869",
+      "arxiv:2206.01062",
+      "doi:10.57967/hf/3036",
+      "license:cdla-permissive-2.0",
+      "license:apache-2.0",
+      "eval-results",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/docling-project/docling-models",
+    "access": "public",
+    "exact_files": [
+      "model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+      "model_artifacts/tableformer/fast/tableformer_fast.safetensors"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/docling-project/docling-models",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "['cdla-permissive-2.0', 'apache-2.0']",
+    "name": "['cdla-permissive-2.0', 'apache-2.0']",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "docling-models",
+    "variant": "docling-models",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/docling-project/docling-models",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/docling-project/docling-models",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/docling-project/docling-models/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/docling-project/docling-models/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "docling-project/docling-models",
+    "rank": 345,
+    "downloads": 1493763,
+    "likes": 219,
+    "last_modified": "2025-12-03T10:16:37+00:00",
+    "created_at": "2024-07-02T12:26:11+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": null,
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-12-03T10:16:37.000Z",
+    "created_at": "2024-07-02T12:26:11.000Z",
+    "downloads": 1493763,
+    "likes": 219,
+    "sha": "2199320848bb9a8a519d22e4b528185a4f9a6f64",
+    "library_name": "transformers",
+    "pipeline_tag": null,
+    "tags": [
+      "transformers",
+      "arxiv:2408.09869",
+      "arxiv:2206.01062",
+      "doi:10.57967/hf/3036",
+      "license:cdla-permissive-2.0",
+      "license:apache-2.0",
+      "eval-results",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

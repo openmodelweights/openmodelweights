@@ -1,0 +1,250 @@
+{
+  "id": "jinaai-jina-reranker-v3",
+  "name": "jina-reranker-v3",
+  "developer": "jinaai",
+  "family": "jina-reranker-v3",
+  "variant": "jina-reranker-v3",
+  "model": {
+    "parameters": "0.596836B",
+    "total_parameters_billions": 0.596836352,
+    "context": {
+      "value": 131072,
+      "display": "131,072 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text Ranking",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "feature-extraction",
+      "reranker",
+      "text-ranking",
+      "custom_code",
+      "multilingual",
+      "arxiv:2509.25085",
+      "base_model:Qwen/Qwen3-0.6B",
+      "base_model:finetune:Qwen/Qwen3-0.6B",
+      "license:cc-by-nc-4.0",
+      "region:eu"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/jinaai/jina-reranker-v3",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors"
+    ],
+    "file_count": 1,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/jinaai/jina-reranker-v3",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "cc-by-nc-4.0",
+    "name": "CC BY-NC 4.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "not-allowed",
+      "label": "Commercial use is not permitted by CC BY-NC 4.0",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.19,
+      "fp8_int8": 0.6,
+      "int4": 0.3
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "jina-reranker-v3",
+    "variant": "jina-reranker-v3",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3-0.6B"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/jinaai/jina-reranker-v3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/jinaai/jina-reranker-v3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/jinaai/jina-reranker-v3/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/jinaai/jina-reranker-v3/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "jinaai/jina-reranker-v3",
+    "rank": 458,
+    "downloads": 873586,
+    "likes": 146,
+    "last_modified": "2026-08-10T03:54:29+00:00",
+    "created_at": "2025-09-18T08:10:25+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-ranking",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-ranking",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "MLX"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-10T03:54:29.000Z",
+    "created_at": "2025-09-18T08:10:25.000Z",
+    "downloads": 873586,
+    "likes": 146,
+    "sha": "d7d7e73b6ea138ced340b83865931b5dfb6c97aa",
+    "library_name": "transformers",
+    "pipeline_tag": "text-ranking",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "feature-extraction",
+      "reranker",
+      "text-ranking",
+      "custom_code",
+      "multilingual",
+      "arxiv:2509.25085",
+      "base_model:Qwen/Qwen3-0.6B",
+      "base_model:finetune:Qwen/Qwen3-0.6B",
+      "license:cc-by-nc-4.0",
+      "region:eu"
+    ]
+  }
+}

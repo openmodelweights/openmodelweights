@@ -1,0 +1,340 @@
+{
+  "id": "facebook-m2m100-418m",
+  "name": "m2m100_418M",
+  "developer": "Meta",
+  "family": "m2m100",
+  "variant": "m2m100_418M",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": 1024,
+      "display": "1,024 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Not declared",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "rust",
+      "m2m_100",
+      "text2text-generation",
+      "multilingual",
+      "af",
+      "am",
+      "ar",
+      "ast",
+      "az",
+      "ba",
+      "be",
+      "bg",
+      "bn",
+      "br",
+      "bs",
+      "ca",
+      "ceb",
+      "cs"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/facebook/m2m100_418M",
+    "access": "public",
+    "exact_files": [
+      "pytorch_model.bin"
+    ],
+    "file_count": 1,
+    "formats": [
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/facebook/m2m100_418M",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "m2m100",
+    "variant": "m2m100_418M",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://huggingface.co/models?filter=m2m_100"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/facebook/m2m100_418M",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/facebook/m2m100_418M",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/facebook/m2m100_418M/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/facebook/m2m100_418M/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "facebook/m2m100_418M",
+    "rank": 640,
+    "downloads": 447527,
+    "likes": 351,
+    "last_modified": "2024-02-29T09:08:42+00:00",
+    "created_at": "2022-03-02T23:29:05+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": null,
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-02-29T09:08:42.000Z",
+    "created_at": "2022-03-02T23:29:05.000Z",
+    "downloads": 447527,
+    "likes": 351,
+    "sha": "55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636",
+    "library_name": "transformers",
+    "pipeline_tag": null,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "rust",
+      "m2m_100",
+      "text2text-generation",
+      "multilingual",
+      "af",
+      "am",
+      "ar",
+      "ast",
+      "az",
+      "ba",
+      "be",
+      "bg",
+      "bn",
+      "br",
+      "bs",
+      "ca",
+      "ceb",
+      "cs",
+      "cy",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fa",
+      "ff",
+      "fi",
+      "fr",
+      "fy",
+      "ga",
+      "gd",
+      "gl",
+      "gu",
+      "ha",
+      "he",
+      "hi",
+      "hr",
+      "ht",
+      "hu",
+      "hy",
+      "id",
+      "ig",
+      "ilo",
+      "is",
+      "it",
+      "ja",
+      "jv",
+      "ka",
+      "kk",
+      "km",
+      "kn",
+      "ko",
+      "lb",
+      "lg",
+      "ln",
+      "lo",
+      "lt",
+      "lv",
+      "mg",
+      "mk",
+      "ml",
+      "mn",
+      "mr",
+      "ms",
+      "my",
+      "ne",
+      "nl",
+      "no",
+      "ns",
+      "oc",
+      "or",
+      "pa",
+      "pl",
+      "ps",
+      "pt",
+      "ro",
+      "ru",
+      "sd",
+      "si",
+      "sk",
+      "sl",
+      "so",
+      "sq",
+      "sr",
+      "ss",
+      "su",
+      "sv",
+      "sw",
+      "ta",
+      "th",
+      "tl",
+      "tn",
+      "tr",
+      "uk",
+      "ur",
+      "uz",
+      "vi",
+      "wo",
+      "xh",
+      "yi",
+      "yo",
+      "zh",
+      "zu",
+      "arxiv:2010.11125",
+      "license:mit",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

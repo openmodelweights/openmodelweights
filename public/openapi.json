@@ -1,0 +1,85 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Open Model Weights JSON API",
+    "version": "1.0.0",
+    "description": "Static, versioned JSON surface for the field-verified Open Model Weights registry."
+  },
+  "servers": [
+    {
+      "url": "https://openmodelweights.com"
+    }
+  ],
+  "paths": {
+    "/api/v1/meta.json": {
+      "get": {
+        "summary": "Registry metadata",
+        "responses": {
+          "200": {
+            "description": "Registry metadata"
+          }
+        }
+      }
+    },
+    "/api/v1/models.json": {
+      "get": {
+        "summary": "Compact model index",
+        "responses": {
+          "200": {
+            "description": "Model index"
+          }
+        }
+      }
+    },
+    "/api/v1/models/{id}.json": {
+      "get": {
+        "summary": "Full verified model record",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Full model record"
+          }
+        }
+      }
+    },
+    "/api/v1/developers.json": {
+      "get": {
+        "summary": "Developer aggregation",
+        "responses": {
+          "200": {
+            "description": "Developer aggregation"
+          }
+        }
+      }
+    },
+    "/api/v1/licenses.json": {
+      "get": {
+        "summary": "License aggregation",
+        "responses": {
+          "200": {
+            "description": "License aggregation"
+          }
+        }
+      }
+    },
+    "/api/v1/changes.json": {
+      "get": {
+        "summary": "Rolling change history",
+        "responses": {
+          "200": {
+            "description": "Change history"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "id": "xenova-whisper-tiny-en",
+  "name": "whisper-tiny.en",
+  "developer": "Xenova",
+  "family": "whisper-tiny.en",
+  "variant": "whisper-tiny.en",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Audio → text",
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "whisper",
+      "automatic-speech-recognition",
+      "base_model:openai/whisper-tiny.en",
+      "base_model:quantized:openai/whisper-tiny.en",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Xenova/whisper-tiny.en",
+    "access": "public",
+    "exact_files": [
+      "onnx/decoder_model.onnx",
+      "onnx/decoder_model_bnb4.onnx",
+      "onnx/decoder_model_fp16.onnx",
+      "onnx/decoder_model_int8.onnx",
+      "onnx/decoder_model_merged.onnx",
+      "onnx/decoder_model_merged_bnb4.onnx",
+      "onnx/decoder_model_merged_fp16.onnx",
+      "onnx/decoder_model_merged_int8.onnx",
+      "onnx/decoder_model_merged_q4.onnx",
+      "onnx/decoder_model_merged_q4f16.onnx",
+      "onnx/decoder_model_merged_quantized.onnx",
+      "onnx/decoder_model_merged_uint8.onnx",
+      "onnx/decoder_model_q4.onnx",
+      "onnx/decoder_model_q4f16.onnx",
+      "onnx/decoder_model_quantized.onnx",
+      "onnx/decoder_model_uint8.onnx",
+      "onnx/decoder_with_past_model.onnx",
+      "onnx/decoder_with_past_model_bnb4.onnx",
+      "onnx/decoder_with_past_model_fp16.onnx",
+      "onnx/decoder_with_past_model_int8.onnx",
+      "onnx/decoder_with_past_model_q4.onnx",
+      "onnx/decoder_with_past_model_q4f16.onnx",
+      "onnx/decoder_with_past_model_quantized.onnx",
+      "onnx/decoder_with_past_model_uint8.onnx",
+      "onnx/encoder_model.onnx",
+      "onnx/encoder_model_bnb4.onnx",
+      "onnx/encoder_model_fp16.onnx",
+      "onnx/encoder_model_q4.onnx",
+      "onnx/encoder_model_q4f16.onnx",
+      "onnx/encoder_model_quantized.onnx",
+      "onnx/encoder_model_uint8.onnx"
+    ],
+    "file_count": 31,
+    "formats": [
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Xenova/whisper-tiny.en",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "whisper-tiny.en",
+    "variant": "whisper-tiny.en",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "openai/whisper-tiny.en"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Xenova/whisper-tiny.en",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Xenova/whisper-tiny.en",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Xenova/whisper-tiny.en/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Xenova/whisper-tiny.en/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Xenova/whisper-tiny.en",
+    "rank": 673,
+    "downloads": 823206,
+    "likes": 27,
+    "last_modified": "2025-12-16T18:46:53+00:00",
+    "created_at": "2023-05-02T21:37:47+00:00",
+    "library_name": "transformers.js",
+    "pipeline_tag": "automatic-speech-recognition",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "transformers.js",
+    "pipeline_tag": "automatic-speech-recognition",
+    "declared": [
+      "ONNX Runtime",
+      "transformers.js"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-12-16T18:46:53.000Z",
+    "created_at": "2023-05-02T21:37:47.000Z",
+    "downloads": 823206,
+    "likes": 27,
+    "sha": "79fb389fc764e7c395bd330e9531d9d32ada7049",
+    "library_name": "transformers.js",
+    "pipeline_tag": "automatic-speech-recognition",
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "whisper",
+      "automatic-speech-recognition",
+      "base_model:openai/whisper-tiny.en",
+      "base_model:quantized:openai/whisper-tiny.en",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

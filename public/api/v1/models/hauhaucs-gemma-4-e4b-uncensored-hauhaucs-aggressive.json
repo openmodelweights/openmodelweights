@@ -1,0 +1,252 @@
+{
+  "id": "hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+  "name": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+  "developer": "HauhauCS",
+  "family": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+  "variant": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "gguf",
+      "uncensored",
+      "gemma4",
+      "abliterated",
+      "vision",
+      "multimodal",
+      "audio",
+      "image-text-to-text",
+      "en",
+      "multilingual",
+      "license:gemma",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+    "access": "public",
+    "exact_files": [
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-IQ3_M.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-IQ4_XS.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q2_K_P.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q3_K_M.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q3_K_P.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_P.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q6_K_P.gguf",
+      "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
+      "mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16.gguf"
+    ],
+    "file_count": 12,
+    "formats": [
+      "GGUF"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "gemma",
+    "name": "gemma",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+    "variant": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "google/gemma-4-e4b-it"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+    "rank": 263,
+    "downloads": 1343669,
+    "likes": 1291,
+    "last_modified": "2026-04-06T03:50:35+00:00",
+    "created_at": "2026-04-02T22:29:19+00:00",
+    "library_name": null,
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": "image-text-to-text",
+    "declared": [],
+    "mentioned_in_model_card": [
+      "llama.cpp"
+    ],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-04-06T03:50:35.000Z",
+    "created_at": "2026-04-02T22:29:19.000Z",
+    "downloads": 1343669,
+    "likes": 1291,
+    "sha": "45b6a334b4bcd1d7f37179df58b3b1d66a184e5d",
+    "library_name": null,
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "gguf",
+      "uncensored",
+      "gemma4",
+      "abliterated",
+      "vision",
+      "multimodal",
+      "audio",
+      "image-text-to-text",
+      "en",
+      "multilingual",
+      "license:gemma",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ]
+  }
+}

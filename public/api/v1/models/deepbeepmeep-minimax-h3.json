@@ -1,0 +1,285 @@
+{
+  "id": "deepbeepmeep-minimax-h3",
+  "name": "MiniMax-H3",
+  "developer": "DeepBeepMeep",
+  "family": "MiniMax-H3",
+  "variant": "MiniMax-H3",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "onnx",
+      "gguf",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/DeepBeepMeep/MiniMax-H3",
+    "access": "public",
+    "exact_files": [
+      "MiniMax-H3-FL2VA-pruned_bf16.safetensors",
+      "MiniMax-H3-FL2VA-pruned_int8_convrot.safetensors",
+      "MiniMax-H3-FL2VA-pruned_rank8_bf16.safetensors",
+      "MiniMax-H3-FL2VA-pruned_rank8_int8_convrot.safetensors",
+      "MiniMax-H3-FL2VA_bf16.safetensors",
+      "MiniMax-H3-FL2VA_int8_convrot.safetensors",
+      "MiniMax-H3-Fun-Control-Union-2.0-pruned_rank8_bf16.safetensors",
+      "MiniMax-H3-Fun-Control-Union-2.0-pruned_rank8_int8_convrot.safetensors",
+      "MiniMax-H3-Fun-Control-Union-2.0_bf16.safetensors",
+      "MiniMax-H3-Fun-Control-Union-2.0_int8_convrot.safetensors",
+      "MiniMax-H3-Ref2VA-pruned_bf16.safetensors",
+      "MiniMax-H3-Ref2VA-pruned_int8_convrot.safetensors",
+      "MiniMax-H3-Ref2VA-pruned_rank8_bf16.safetensors",
+      "MiniMax-H3-Ref2VA-pruned_rank8_int8_convrot.safetensors",
+      "MiniMax-H3-Ref2VA_bf16.safetensors",
+      "MiniMax-H3-Ref2VA_int8_convrot.safetensors",
+      "MiniMax-H3-audio_vae_fp32.safetensors",
+      "MiniMax-H3-video_vae_fp16.safetensors",
+      "Qwen3-VL-32B-Instruct/Qwen3-VL-32B-Instruct-layer50_bf16.safetensors",
+      "Qwen3-VL-32B-Instruct/Qwen3-VL-32B-Instruct-layer50_quanto_bf16_int8.safetensors",
+      "Qwen3-VL-32B-Instruct/qwen3vl-32B-MiniMax-H3-Q2_K.gguf",
+      "Qwen3-VL-32B-Instruct/qwen3vl-32B-MiniMax-H3-Q4_K_M.gguf",
+      "Qwen3-VL-32B-Instruct/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "SeedVR2/SeedVR2_3B_bf16.safetensors",
+      "SeedVR2/SeedVR2_VAE_bf16.safetensors",
+      "SeedVR2/SeedVR2_pos_emb_bf16.safetensors",
+      "Viggle-Animate-pruned_rank8_bf16.safetensors",
+      "Viggle-Animate-pruned_rank8_int8_convrot.safetensors",
+      "buffalo_l/2d106det.onnx",
+      "buffalo_l/det_10g.onnx",
+      "buffalo_l/face_yolov8m.pt",
+      "buffalo_l/person_yolov8m-seg.safetensors",
+      "buffalo_l/w600k_r50.onnx",
+      "loras/minimax_h3_fl2va_pdd_8step_lora_bf16.safetensors",
+      "loras/minimax_h3_hybrid_fl2va_ref2va_b15-49_pdd_8step_lora_bf16.safetensors",
+      "loras/minimax_h3_hybrid_fl2va_ref2va_b20-49_pdd_8step_lora_bf16.safetensors",
+      "loras/minimax_h3_hybrid_fl2va_ref2va_b25-49_pdd_8step_lora_bf16.safetensors",
+      "loras/minimax_h3_hybrid_fl2va_ref2va_b30-49_pdd_8step_lora_bf16.safetensors",
+      "loras/minimax_h3_hyperflow_8step_v1.0.safetensors",
+      "loras/minimax_h3_joyfox_fl2va_4step_lora.safetensors",
+      "loras/minimax_h3_larryvrh_v4_step600_ema.safetensors",
+      "loras/minimax_h3_light2xv_fl2v_turbo_4step_alpha128_v1.0_768p_bf16.safetensors",
+      "loras/minimax_h3_light2xv_fl2v_turbo_8step_alpha8_v1.0_bf16.safetensors",
+      "loras/minimax_h3_lightx2v_fl2v_turbo_4step_alpha128_v1.0_768p_bf16.safetensors",
+      "loras/minimax_h3_lightx2v_fl2v_turbo_4step_alpha128_v1.1_768p_bf16.safetensors",
+      "loras/minimax_h3_lightx2v_fl2v_turbo_4step_alpha16_v0.1.safetensors",
+      "loras/minimax_h3_lightx2v_fl2v_turbo_4step_alpha8_v1.2_768p_bf16.safetensors",
+      "loras/minimax_h3_lightx2v_fl2v_turbo_8step_alpha8_v1.0_bf16.safetensors",
+      "loras/minimax_h3_lightx2v_ref2v_turbo_4step_alpha8_v0.1_bf16.safetensors",
+      "loras/minimax_h3_lightx2v_ref2v_turbo_8step_alpha8_v1.0_768p_bf16.safetensors",
+      "loras/minimax_h3_ref2va_pdd_8step_lora_bf16.safetensors",
+      "loras/minimax_h3_taomate_3step_lora_avg_rank_19_bf16.safetensors",
+      "loras/minimax_h3_turbo_4step_ema_ckpt850.safetensors",
+      "loras/minimax_h3_vdn_default_lora_bf16.safetensors",
+      "loras/minimax_h3_vdn_turbo_8step_lora_bf16.safetensors",
+      "loras/viggle_animate_distillation_bf16.safetensors",
+      "minimax_h3/minimax_h3_latent_upscaler_3d_bf16.safetensors",
+      "minimax_h3/minimax_h3_video_vae_int8_convrot.safetensors",
+      "minimax_h3_fl2va_pdd_8step_heads_bf16.safetensors",
+      "minimax_h3_hybrid_fl2va_ref2va_b15-49_pdd_8step_heads_bf16.safetensors",
+      "minimax_h3_hybrid_fl2va_ref2va_b20-49_pdd_8step_heads_bf16.safetensors",
+      "minimax_h3_hybrid_fl2va_ref2va_b25-49_pdd_8step_heads_bf16.safetensors",
+      "minimax_h3_hybrid_fl2va_ref2va_b30-49_pdd_8step_heads_bf16.safetensors",
+      "minimax_h3_ref2va_pdd_8step_heads_bf16.safetensors",
+      "minimax_h3_video_vae_fp8mix.safetensors",
+      "modules/minimax_h3_vdn_module_bf16.safetensors",
+      "modules/minimax_h3_vdn_module_int8_convrot.safetensors",
+      "preview_decoders/taeh3.safetensors",
+      "viggle_animate/viggle_animate_fixed_prompt.safetensors"
+    ],
+    "file_count": 69,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "GGUF",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/DeepBeepMeep/MiniMax-H3",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": null,
+    "name": "Not declared in model-card metadata",
+    "url": null,
+    "status": "not-disclosed",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "MiniMax-H3",
+    "variant": "MiniMax-H3",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/DeepBeepMeep/MiniMax-H3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/DeepBeepMeep/MiniMax-H3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/DeepBeepMeep/MiniMax-H3/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/DeepBeepMeep/MiniMax-H3/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "not-disclosed",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "DeepBeepMeep/MiniMax-H3",
+    "rank": 683,
+    "downloads": 524276,
+    "likes": 65,
+    "last_modified": "2026-09-29T10:40:04+00:00",
+    "created_at": "2026-08-02T14:32:59+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "ONNX Runtime",
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-29T10:40:04.000Z",
+    "created_at": "2026-08-02T14:32:59.000Z",
+    "downloads": 524276,
+    "likes": 65,
+    "sha": "579065b9448c95ae5cc558c5f787ba8271227db4",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "onnx",
+      "gguf",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "id": "ampixa-sanotts",
+  "name": "sanoTTS",
+  "developer": "ampixa",
+  "family": "sanoTTS",
+  "variant": "sanoTTS",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → audio",
+    "tags": [
+      "sanotts",
+      "gguf",
+      "text-to-speech",
+      "tiny",
+      "microcontroller",
+      "esp32",
+      "wasm",
+      "piper",
+      "distillation",
+      "en",
+      "ne",
+      "hi",
+      "vi",
+      "id",
+      "zh",
+      "license:gpl-3.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/ampixa/sanoTTS",
+    "access": "public",
+    "exact_files": [
+      "amy-en-1p1m/weights.fp16.bin",
+      "amy-en-1p46m/sibilant-injection/calib.npz",
+      "amy-en-1p46m/weights.fp16.bin",
+      "amy-en-1p8m/sibilant-injection/calib.npz",
+      "amy-en-1p8m/weights.fp16.bin",
+      "ar-kareem-1p57m/weights.fp16.bin",
+      "cs-jirka-0p51m/weights.fp16.bin",
+      "cs-jirka-1p57m/weights.fp16.bin",
+      "de-thorsten-0p51m/weights.fp16.bin",
+      "de-thorsten-1p57m/weights.fp16.bin",
+      "es-davefx-0p51m/weights.fp16.bin",
+      "es-davefx-1p56m/weights.fp16.bin",
+      "fr-siwis-1p57m/weights.fp16.bin",
+      "gguf/amy/amy-f32.gguf",
+      "gguf/cs/cs-f32.gguf",
+      "gguf/de/de-f32.gguf",
+      "gguf/es/es-f32.gguf",
+      "gguf/fr/fr-f32.gguf",
+      "gguf/heart-nano-f32.gguf",
+      "gguf/heart-nano.gguf",
+      "gguf/heart.gguf",
+      "gguf/heart/heart-f32.gguf",
+      "gguf/hfc/hfc-f32.gguf",
+      "gguf/hi/hi-f32.gguf",
+      "gguf/id/id-f32.gguf",
+      "gguf/it/it-f32.gguf",
+      "gguf/kristin/kristin-f32.gguf",
+      "gguf/ne/ne-f32.gguf",
+      "gguf/pt/pt-f32.gguf",
+      "gguf/ro/ro-f32.gguf",
+      "gguf/ru/ru-f32.gguf",
+      "gguf/tr/tr-f32.gguf",
+      "gguf/vi/vi-f32.gguf",
+      "heart/front_f32.bin",
+      "heart/model_f32.bin",
+      "heartnano/front_q8.bin",
+      "heartnano/model_q8.bin",
+      "hfc-en-1p8m/weights.fp16.bin",
+      "id-newstts-1p46m/sibilant-injection/calib.npz",
+      "id-newstts-1p46m/weights.fp16.bin",
+      "it-serena-0p51m/weights.fp16.bin",
+      "it-serena-1p57m/weights.fp16.bin",
+      "kristin-en-1p4m/weights.fp16.bin",
+      "pt-cadu-0p51m/weights.fp16.bin",
+      "pt-cadu-1p57m/weights.fp16.bin",
+      "ro-mihai-0p51m/weights.fp16.bin",
+      "ro-mihai-1p57m/weights.fp16.bin",
+      "ru-irina-0p51m/weights.fp16.bin",
+      "ru-irina-1p57m/weights.fp16.bin",
+      "tr-dfki-0p51m/weights.fp16.bin",
+      "tr-dfki-1p56m/weights.fp16.bin",
+      "vi-vais1000-1p46m/sibilant-injection/calib.npz",
+      "vi-vais1000-1p46m/weights.fp16.bin",
+      "web/voices/amy/dec_f32.bin",
+      "web/voices/amy/front_f32.bin",
+      "web/voices/arabic/dec_f16.bin",
+      "web/voices/arabic/front_f16.bin",
+      "web/voices/chinese-xiaoya/dec_f16.bin",
+      "web/voices/chinese-xiaoya/front_f16.bin",
+      "web/voices/chinese/dec_f32.bin",
+      "web/voices/chinese/front_f32.bin",
+      "web/voices/czech-tiny/dec_f16.bin",
+      "web/voices/czech-tiny/front_f16.bin",
+      "web/voices/czech/dec_f16.bin",
+      "web/voices/czech/front_f16.bin",
+      "web/voices/french/dec_f16.bin",
+      "web/voices/french/front_f16.bin",
+      "web/voices/german-tiny/dec_f16.bin",
+      "web/voices/german-tiny/front_f16.bin",
+      "web/voices/german/dec_f16.bin",
+      "web/voices/german/front_f16.bin",
+      "web/voices/heart/front_f32.bin",
+      "web/voices/heart/model_f32.bin",
+      "web/voices/heartnano/front_q8.bin",
+      "web/voices/heartnano/model_q8.bin",
+      "web/voices/hfc/dec_f32.bin",
+      "web/voices/hfc/front_f32.bin",
+      "web/voices/hindi/dec_f32.bin",
+      "web/voices/hindi/front_f32.bin",
+      "web/voices/indonesian/dec_f32.bin",
+      "web/voices/indonesian/front_f32.bin",
+      "web/voices/italian-tiny/dec_f16.bin",
+      "web/voices/italian-tiny/front_f16.bin",
+      "web/voices/italian/dec_f16.bin",
+      "web/voices/italian/front_f16.bin",
+      "web/voices/kristin/dec_f32.bin",
+      "web/voices/kristin/front_f32.bin",
+      "web/voices/nepali/dec_f32.bin",
+      "web/voices/nepali/front_f32.bin",
+      "web/voices/portuguese-tiny/dec_f16.bin",
+      "web/voices/portuguese-tiny/front_f16.bin",
+      "web/voices/portuguese/dec_f16.bin",
+      "web/voices/portuguese/front_f16.bin",
+      "web/voices/romanian-tiny/dec_f16.bin",
+      "web/voices/romanian-tiny/front_f16.bin",
+      "web/voices/romanian/dec_f16.bin",
+      "web/voices/romanian/front_f16.bin",
+      "web/voices/russian-tiny/dec_f16.bin",
+      "web/voices/russian-tiny/front_f16.bin",
+      "web/voices/russian/dec_f16.bin",
+      "web/voices/russian/front_f16.bin",
+      "web/voices/spanish-tiny/dec_f16.bin",
+      "web/voices/spanish-tiny/front_f16.bin",
+      "web/voices/spanish/dec_f16.bin",
+      "web/voices/spanish/front_f16.bin",
+      "web/voices/trellis/bundle.bin",
+      "web/voices/turkish-tiny/dec_f16.bin",
+      "web/voices/turkish-tiny/front_f16.bin",
+      "web/voices/turkish/dec_f16.bin",
+      "web/voices/turkish/front_f16.bin",
+      "web/voices/vietnamese/dec_f32.bin",
+      "web/voices/vietnamese/front_f32.bin",
+      "zh-xiaoya-1p55m/weights.fp16.bin"
+    ],
+    "file_count": 113,
+    "formats": [
+      "PyTorch",
+      "GGUF"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/ampixa/sanoTTS",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "gpl-3.0",
+    "name": "gpl-3.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "sanoTTS",
+    "variant": "sanoTTS",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://github.com/Ampixa/sanoTTS/blob/master/docs/distillation-recipe.md",
+        "https://github.com/Ampixa/sanoTTS"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/ampixa/sanoTTS",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/ampixa/sanoTTS",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/ampixa/sanoTTS/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/ampixa/sanoTTS/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "ampixa/sanoTTS",
+    "rank": 747,
+    "downloads": 430717,
+    "likes": 63,
+    "last_modified": "2026-09-10T15:25:39+00:00",
+    "created_at": "2026-07-13T16:15:01+00:00",
+    "library_name": "sanotts",
+    "pipeline_tag": "text-to-speech",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sanotts",
+    "pipeline_tag": "text-to-speech",
+    "declared": [
+      "sanotts"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-10T15:25:39.000Z",
+    "created_at": "2026-07-13T16:15:01.000Z",
+    "downloads": 430717,
+    "likes": 63,
+    "sha": "c532a5d21c078a16cb633718e9182bfd71a5b760",
+    "library_name": "sanotts",
+    "pipeline_tag": "text-to-speech",
+    "tags": [
+      "sanotts",
+      "gguf",
+      "text-to-speech",
+      "tiny",
+      "microcontroller",
+      "esp32",
+      "wasm",
+      "piper",
+      "distillation",
+      "en",
+      "ne",
+      "hi",
+      "vi",
+      "id",
+      "zh",
+      "license:gpl-3.0",
+      "region:us"
+    ]
+  }
+}

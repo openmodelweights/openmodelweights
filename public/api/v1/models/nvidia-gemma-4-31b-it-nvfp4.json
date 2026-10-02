@@ -1,0 +1,277 @@
+{
+  "id": "nvidia-gemma-4-31b-it-nvfp4",
+  "name": "Gemma-4-31B-IT-NVFP4",
+  "developer": "NVIDIA",
+  "family": "Gemma-4",
+  "variant": "Gemma-4-31B-IT-NVFP4",
+  "model": {
+    "parameters": "20.8686B",
+    "total_parameters_billions": 20.868591152,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "Model Optimizer",
+      "safetensors",
+      "gemma4",
+      "nvidia",
+      "ModelOpt",
+      "Gemma-4-31B-IT",
+      "lighthouse",
+      "quantized",
+      "NVFP4",
+      "text-generation",
+      "conversational",
+      "base_model:google/gemma-4-31B-it",
+      "base_model:quantized:google/gemma-4-31B-it",
+      "license:other",
+      "modelopt",
+      "deploy:azure",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00004.safetensors",
+      "model-00002-of-00004.safetensors",
+      "model-00003-of-00004.safetensors",
+      "model-00004-of-00004.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 5,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "U8"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/Gemma-4-31B-IT-NVFP4",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "Apache-2.0",
+    "url": "https://ai.google.dev/gemma/apache_2",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": "https://ai.google.dev/gemma/apache_2"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://ai.google.dev/gemma/apache_2"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 41.74,
+      "fp8_int8": 20.87,
+      "int4": 10.43
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Gemma-4",
+    "variant": "Gemma-4-31B-IT-NVFP4",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "google/gemma-4-31B-it"
+      ],
+      "relation": "quantized",
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/Gemma-4-31B-IT-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://ai.google.dev/gemma/apache_2",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/Gemma-4-31B-IT-NVFP4",
+    "rank": 267,
+    "downloads": 1571071,
+    "likes": 574,
+    "last_modified": "2026-07-13T22:33:54+00:00",
+    "created_at": "2026-04-02T16:47:30+00:00",
+    "library_name": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Model Optimizer"
+    ],
+    "mentioned_in_model_card": [
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-07-13T22:33:54.000Z",
+    "created_at": "2026-04-02T16:47:30.000Z",
+    "downloads": 1571071,
+    "likes": 574,
+    "sha": "4135a98a9b728a548947683219633b25682223ac",
+    "library_name": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "Model Optimizer",
+      "safetensors",
+      "gemma4",
+      "nvidia",
+      "ModelOpt",
+      "Gemma-4-31B-IT",
+      "lighthouse",
+      "quantized",
+      "NVFP4",
+      "text-generation",
+      "conversational",
+      "base_model:google/gemma-4-31B-it",
+      "base_model:quantized:google/gemma-4-31B-it",
+      "license:other",
+      "modelopt",
+      "deploy:azure",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

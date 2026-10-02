@@ -1,0 +1,270 @@
+{
+  "id": "orcarouter-qwen3-8-27b-uncensored-fp8",
+  "name": "Qwen3.8-27B-Uncensored-FP8",
+  "developer": "orcarouter",
+  "family": "Qwen3.8",
+  "variant": "Qwen3.8-27B-Uncensored-FP8",
+  "model": {
+    "parameters": "27.7814B",
+    "total_parameters_billions": 27.781427952,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "abliterated",
+      "qwen3.8",
+      "uncensored",
+      "ai-red-team",
+      "red-teaming",
+      "fp8",
+      "block-fp8",
+      "vllm",
+      "function-calling",
+      "reasoning",
+      "mtp",
+      "conversational",
+      "en",
+      "zh",
+      "base_model:Qwen/Qwen3.8-27B",
+      "base_model:quantized:Qwen/Qwen3.8-27B"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+    "access": "gated (auto)",
+    "exact_files": [
+      "model-00001-of-00007.safetensors",
+      "model-00002-of-00007.safetensors",
+      "model-00003-of-00007.safetensors",
+      "model-00004-of-00007.safetensors",
+      "model-00005-of-00007.safetensors",
+      "model-00006-of-00007.safetensors",
+      "model-00007-of-00007.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 8,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "F8_E4M3"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 55.56,
+      "fp8_int8": 27.78,
+      "int4": 13.89
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen3.8",
+    "variant": "Qwen3.8-27B-Uncensored-FP8",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3.8-27B"
+      ],
+      "relation": "quantized",
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+    "rank": 646,
+    "downloads": 214313,
+    "likes": 1757,
+    "last_modified": "2026-10-02T04:18:32+00:00",
+    "created_at": "2026-08-15T05:45:04+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers",
+      "vLLM"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-10-02T04:18:32.000Z",
+    "created_at": "2026-08-15T05:45:04.000Z",
+    "downloads": 214313,
+    "likes": 1757,
+    "sha": "830602f9b81d083db78f60e889bca37b73b74469",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "abliterated",
+      "qwen3.8",
+      "uncensored",
+      "ai-red-team",
+      "red-teaming",
+      "fp8",
+      "block-fp8",
+      "vllm",
+      "function-calling",
+      "reasoning",
+      "mtp",
+      "conversational",
+      "en",
+      "zh",
+      "base_model:Qwen/Qwen3.8-27B",
+      "base_model:quantized:Qwen/Qwen3.8-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

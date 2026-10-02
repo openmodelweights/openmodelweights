@@ -1,0 +1,269 @@
+{
+  "id": "dslim-bert-base-ner",
+  "name": "bert-base-NER",
+  "developer": "dslim",
+  "family": "bert-base-NER",
+  "variant": "bert-base-NER",
+  "model": {
+    "parameters": "0.108317B",
+    "total_parameters_billions": 0.108317193,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "onnx",
+      "safetensors",
+      "bert",
+      "token-classification",
+      "en",
+      "dataset:conll2003",
+      "arxiv:1810.04805",
+      "license:mit",
+      "model-index",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/dslim/bert-base-NER",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "onnx/model.onnx",
+      "pytorch_model.bin",
+      "tf_model.h5"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/dslim/bert-base-NER",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.22,
+      "fp8_int8": 0.11,
+      "int4": 0.05
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "bert-base-NER",
+    "variant": "bert-base-NER",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://www.aclweb.org/anthology/W03-0419.pdf",
+        "https://huggingface.co/dslim/bert-large-NER/",
+        "https://huggingface.co/dslim/distilbert-NER",
+        "https://huggingface.co/dslim/bert-base-NER",
+        "https://huggingface.co/dslim/bert-base-NER-uncased"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "conll2003"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/dslim/bert-base-NER",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/dslim/bert-base-NER",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/dslim/bert-base-NER/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/dslim/bert-base-NER/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "dslim/bert-base-NER",
+    "rank": 291,
+    "downloads": 1474514,
+    "likes": 737,
+    "last_modified": "2024-10-08T07:51:39+00:00",
+    "created_at": "2022-03-02T23:29:05+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "token-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "token-classification",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-10-08T07:51:39.000Z",
+    "created_at": "2022-03-02T23:29:05.000Z",
+    "downloads": 1474514,
+    "likes": 737,
+    "sha": "d1a3e8f13f8c3566299d95fcfc9a8d2382a9affc",
+    "library_name": "transformers",
+    "pipeline_tag": "token-classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "onnx",
+      "safetensors",
+      "bert",
+      "token-classification",
+      "en",
+      "dataset:conll2003",
+      "arxiv:1810.04805",
+      "license:mit",
+      "model-index",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

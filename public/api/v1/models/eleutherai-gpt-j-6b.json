@@ -1,0 +1,247 @@
+{
+  "id": "eleutherai-gpt-j-6b",
+  "name": "gpt-j-6b",
+  "developer": "EleutherAI",
+  "family": "gpt-j",
+  "variant": "gpt-j-6b",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "gptj",
+      "text-generation",
+      "causal-lm",
+      "en",
+      "dataset:EleutherAI/pile",
+      "arxiv:2104.09864",
+      "arxiv:2101.00027",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:sagemaker"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/EleutherAI/gpt-j-6b",
+    "access": "public",
+    "exact_files": [
+      "pytorch_model.bin",
+      "tf_model.h5"
+    ],
+    "file_count": 2,
+    "formats": [
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/EleutherAI/gpt-j-6b",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "gpt-j",
+    "variant": "gpt-j-6b",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://www.stellabiderman.com",
+        "https://twitter.com/erichallahan",
+        "https://github.com/kurumuz/",
+        "https://github.com/finetuneanon/"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "EleutherAI/pile"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/EleutherAI/gpt-j-6b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/EleutherAI/gpt-j-6b/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/EleutherAI/gpt-j-6b/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "EleutherAI/gpt-j-6b",
+    "rank": 566,
+    "downloads": 349679,
+    "likes": 1525,
+    "last_modified": "2023-06-21T14:33:36+00:00",
+    "created_at": "2022-03-02T23:29:04+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2023-06-21T14:33:36.000Z",
+    "created_at": "2022-03-02T23:29:04.000Z",
+    "downloads": 349679,
+    "likes": 1525,
+    "sha": "47e169305d2e8376be1d31e765533382721b2cc1",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "gptj",
+      "text-generation",
+      "causal-lm",
+      "en",
+      "dataset:EleutherAI/pile",
+      "arxiv:2104.09864",
+      "arxiv:2101.00027",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

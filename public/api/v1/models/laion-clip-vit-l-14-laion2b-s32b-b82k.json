@@ -1,0 +1,251 @@
+{
+  "id": "laion-clip-vit-l-14-laion2b-s32b-b82k",
+  "name": "CLIP-ViT-L-14-laion2B-s32B-b82K",
+  "developer": "laion",
+  "family": "CLIP-ViT-L-14-laion2B-s32B-b82K",
+  "variant": "CLIP-ViT-L-14-laion2B-s32B-b82K",
+  "model": {
+    "parameters": "0.427617B",
+    "total_parameters_billions": 0.427616846,
+    "context": {
+      "value": 77,
+      "display": "77 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Zero Shot Image Classification",
+    "tags": [
+      "open_clip",
+      "pytorch",
+      "tensorboard",
+      "safetensors",
+      "clip",
+      "zero-shot-image-classification",
+      "arxiv:2110.09456",
+      "arxiv:2111.09883",
+      "arxiv:1910.04867",
+      "license:mit",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "open_clip_pytorch_model.bin",
+      "open_clip_pytorch_model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.86,
+      "fp8_int8": 0.43,
+      "int4": 0.21
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "CLIP-ViT-L-14-laion2B-s32B-b82K",
+    "variant": "CLIP-ViT-L-14-laion2B-s32B-b82K",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+    "rank": 288,
+    "downloads": 3074565,
+    "likes": 67,
+    "last_modified": "2024-01-16T22:57:44+00:00",
+    "created_at": "2022-09-14T22:51:37+00:00",
+    "library_name": "open_clip",
+    "pipeline_tag": "zero-shot-image-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "open_clip",
+    "pipeline_tag": "zero-shot-image-classification",
+    "declared": [
+      "open_clip"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-01-16T22:57:44.000Z",
+    "created_at": "2022-09-14T22:51:37.000Z",
+    "downloads": 3074565,
+    "likes": 67,
+    "sha": "1627032197142fbe2a7cfec626f4ced3ae60d07a",
+    "library_name": "open_clip",
+    "pipeline_tag": "zero-shot-image-classification",
+    "tags": [
+      "open_clip",
+      "pytorch",
+      "tensorboard",
+      "safetensors",
+      "clip",
+      "zero-shot-image-classification",
+      "arxiv:2110.09456",
+      "arxiv:2111.09883",
+      "arxiv:1910.04867",
+      "license:mit",
+      "region:us"
+    ]
+  }
+}

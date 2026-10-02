@@ -1,0 +1,273 @@
+{
+  "id": "thenlper-gte-small",
+  "name": "gte-small",
+  "developer": "thenlper",
+  "family": "gte-small",
+  "variant": "gte-small",
+  "model": {
+    "parameters": "0.0333605B",
+    "total_parameters_billions": 0.033360512,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text embeddings",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "coreml",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "bert",
+      "mteb",
+      "sentence-similarity",
+      "Sentence Transformers",
+      "en",
+      "arxiv:2308.03281",
+      "license:mit",
+      "model-index",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:sagemaker",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/thenlper/gte-small",
+    "access": "public",
+    "exact_files": [
+      "coreml/feature-extraction/float32_model.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+      "coreml/feature-extraction/float32_model.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+      "model.safetensors",
+      "onnx/model.onnx",
+      "onnx/model_O4.onnx",
+      "onnx/model_qint8_avx512_vnni.onnx",
+      "openvino/openvino_model.bin",
+      "openvino/openvino_model_qint8_quantized.bin",
+      "pytorch_model.bin",
+      "tf_model.h5"
+    ],
+    "file_count": 10,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX",
+      "CoreML"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16",
+      "FLOAT16",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/thenlper/gte-small",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.07,
+      "fp8_int8": 0.03,
+      "int4": 0.02
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "gte-small",
+    "variant": "gte-small",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/thenlper/gte-small",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/thenlper/gte-small",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/thenlper/gte-small/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/thenlper/gte-small/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "thenlper/gte-small",
+    "rank": 443,
+    "downloads": 1027106,
+    "likes": 192,
+    "last_modified": "2024-11-16T08:17:33+00:00",
+    "created_at": "2023-07-27T10:14:55+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "declared": [
+      "ONNX Runtime",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-11-16T08:17:33.000Z",
+    "created_at": "2023-07-27T10:14:55.000Z",
+    "downloads": 1027106,
+    "likes": 192,
+    "sha": "17e1f347d17fe144873b1201da91788898c639cd",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "coreml",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "bert",
+      "mteb",
+      "sentence-similarity",
+      "Sentence Transformers",
+      "en",
+      "arxiv:2308.03281",
+      "license:mit",
+      "model-index",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

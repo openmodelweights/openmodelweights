@@ -1,0 +1,264 @@
+{
+  "id": "allenai-olmo-3-7b-instruct",
+  "name": "Olmo-3-7B-Instruct",
+  "developer": "AllenAI",
+  "family": "Olmo-3",
+  "variant": "Olmo-3-7B-Instruct",
+  "model": {
+    "parameters": "7.29801B",
+    "total_parameters_billions": 7.298011136,
+    "context": {
+      "value": 65536,
+      "display": "65,536 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "olmo3",
+      "text-generation",
+      "conversational",
+      "en",
+      "dataset:allenai/Dolci-Instruct-RL-7B",
+      "arxiv:2512.13961",
+      "base_model:allenai/Olmo-3-7B-Instruct-DPO",
+      "base_model:finetune:allenai/Olmo-3-7B-Instruct-DPO",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/allenai/Olmo-3-7B-Instruct",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00003.safetensors",
+      "model-00002-of-00003.safetensors",
+      "model-00003-of-00003.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/allenai/Olmo-3-7B-Instruct",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 14.6,
+      "fp8_int8": 7.3,
+      "int4": 3.65
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Olmo-3",
+    "variant": "Olmo-3-7B-Instruct",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "allenai/Olmo-3-7B-Instruct-DPO"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "allenai/Dolci-Instruct-RL-7B"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/allenai/Olmo-3-7B-Instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "allenai/Olmo-3-7B-Instruct",
+    "rank": 641,
+    "downloads": 484684,
+    "likes": 152,
+    "last_modified": "2026-06-25T21:41:37+00:00",
+    "created_at": "2025-11-19T20:49:53+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-06-25T21:41:37.000Z",
+    "created_at": "2025-11-19T20:49:53.000Z",
+    "downloads": 484684,
+    "likes": 152,
+    "sha": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "olmo3",
+      "text-generation",
+      "conversational",
+      "en",
+      "dataset:allenai/Dolci-Instruct-RL-7B",
+      "arxiv:2512.13961",
+      "base_model:allenai/Olmo-3-7B-Instruct-DPO",
+      "base_model:finetune:allenai/Olmo-3-7B-Instruct-DPO",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "id": "mistral-small-4-119b-a6b",
+  "name": "Mistral Small 4 119B A6B",
+  "developer": "Mistral AI",
+  "family": "Mistral Small 4",
+  "variant": "119B-A6B",
+  "model": {
+    "parameters": "119B total / 6.5B active",
+    "total_parameters_billions": 119.0,
+    "context": {
+      "value": 1048576,
+      "display": "1,048,576 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text + image → text",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "agents",
+      "moe"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
+    "access": "public",
+    "exact_files": [
+      "consolidated-00001-of-00007.safetensors",
+      "consolidated-00002-of-00007.safetensors",
+      "consolidated-00003-of-00007.safetensors",
+      "consolidated-00004-of-00007.safetensors",
+      "consolidated-00005-of-00007.safetensors",
+      "consolidated-00006-of-00007.safetensors",
+      "consolidated-00007-of-00007.safetensors",
+      "consolidated.safetensors.index.json",
+      "model-00001-of-00003.safetensors",
+      "model-00002-of-00003.safetensors",
+      "model-00003-of-00003.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 12,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F8_E4M3"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/mistralai/Mistral-Small-4-119B-2603",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 238.0,
+      "fp8_int8": 119.0,
+      "int4": 59.5
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Mistral Small 4",
+    "variant": "119B-A6B",
+    "parent": "not-yet-verified",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/mistralai/Mistral-Small-4-119B-2603",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: verified."
+      }
+    ],
+    "mode": "repository-revision-unchanged",
+    "full_verified_at": "2026-10-02"
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": null,
+    "declared": [
+      "vLLM"
+    ],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "Transformers",
+      "llama.cpp",
+      "mistral-common"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-07-15T12:23:29.000Z",
+    "downloads": 54732,
+    "likes": 431,
+    "sha": "a11f36bebf709121056b1dbcc943d1c6afbe494d",
+    "library_name": null,
+    "pipeline_tag": null,
+    "tags": [
+      "safetensors",
+      "mistral3",
+      "vLLM",
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt",
+      "it",
+      "ja",
+      "ko",
+      "ru",
+      "zh",
+      "ar",
+      "fa",
+      "id",
+      "ms",
+      "ne",
+      "pl",
+      "ro",
+      "sr",
+      "sv",
+      "tr",
+      "uk",
+      "vi",
+      "hi",
+      "bn",
+      "license:apache-2.0",
+      "eval-results",
+      "fp8",
+      "deploy:azure",
+      "region:us"
+    ],
+    "created_at": "2026-01-23T13:14:14.000Z"
+  },
+  "discovery": {
+    "source": "Open Model Weights curated seed",
+    "pinned": true,
+    "repo_id": "mistralai/Mistral-Small-4-119B-2603"
+  }
+}

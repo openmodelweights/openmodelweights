@@ -1,0 +1,246 @@
+{
+  "id": "unsloth-qwen3-8-27b-nvfp4",
+  "name": "Qwen3.8-27B-NVFP4",
+  "developer": "unsloth",
+  "family": "Qwen3.8",
+  "variant": "Qwen3.8-27B-NVFP4",
+  "model": {
+    "parameters": "19.8699B",
+    "total_parameters_billions": 19.869895952,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Not declared",
+    "tags": [
+      "safetensors",
+      "qwen3_5",
+      "unsloth",
+      "base_model:Qwen/Qwen3.8-27B",
+      "base_model:quantized:Qwen/Qwen3.8-27B",
+      "license:apache-2.0",
+      "compressed-tensors",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "model.safetensors.index.json",
+      "model_mtp.safetensors"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F8_E4M3",
+      "U8"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/unsloth/Qwen3.8-27B-NVFP4",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 39.74,
+      "fp8_int8": 19.87,
+      "int4": 9.93
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen3.8",
+    "variant": "Qwen3.8-27B-NVFP4",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3.8-27B"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://unsloth.ai/docs/new/desktop\"",
+        "https://unsloth.ai/docs/models/qwen3.8\""
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/unsloth/Qwen3.8-27B-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "unsloth/Qwen3.8-27B-NVFP4",
+    "rank": 221,
+    "downloads": 2423396,
+    "likes": 489,
+    "last_modified": "2026-09-08T23:09:24+00:00",
+    "created_at": "2026-08-13T08:28:51+00:00",
+    "library_name": null,
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": null,
+    "declared": [],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-08T23:09:24.000Z",
+    "created_at": "2026-08-13T08:28:51.000Z",
+    "downloads": 2423396,
+    "likes": 489,
+    "sha": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
+    "library_name": null,
+    "pipeline_tag": null,
+    "tags": [
+      "safetensors",
+      "qwen3_5",
+      "unsloth",
+      "base_model:Qwen/Qwen3.8-27B",
+      "base_model:quantized:Qwen/Qwen3.8-27B",
+      "license:apache-2.0",
+      "compressed-tensors",
+      "region:us"
+    ]
+  }
+}

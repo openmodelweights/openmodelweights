@@ -1,0 +1,262 @@
+{
+  "id": "qwen-qwen3-vl-8b-instruct-fp8",
+  "name": "Qwen3-VL-8B-Instruct-FP8",
+  "developer": "Qwen",
+  "family": "Qwen3-VL",
+  "variant": "Qwen3-VL-8B-Instruct-FP8",
+  "model": {
+    "parameters": "8.76755B",
+    "total_parameters_billions": 8.767547632,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "conversational",
+      "arxiv:2505.09388",
+      "arxiv:2502.13923",
+      "arxiv:2409.12191",
+      "arxiv:2308.12966",
+      "base_model:Qwen/Qwen3-VL-8B-Instruct",
+      "base_model:quantized:Qwen/Qwen3-VL-8B-Instruct",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "fp8",
+      "region:us",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00002.safetensors",
+      "model-00002-of-00002.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "F32",
+      "F8_E4M3"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Qwen/Qwen3-VL-8B-Instruct-FP8",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 17.54,
+      "fp8_int8": 8.77,
+      "int4": 4.38
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen3-VL",
+    "variant": "Qwen3-VL-8B-Instruct-FP8",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3-VL-8B-Instruct"
+      ],
+      "relation": "quantized",
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://docs.vllm.ai/projects/recipes/en/latest/Qwen/Qwen3-VL.html"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-8B-Instruct-FP8",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-FP8/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+    "rank": 348,
+    "downloads": 1957975,
+    "likes": 84,
+    "last_modified": "2025-11-26T13:18:16+00:00",
+    "created_at": "2025-10-11T09:43:02+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-11-26T13:18:16.000Z",
+    "created_at": "2025-10-11T09:43:02.000Z",
+    "downloads": 1957975,
+    "likes": 84,
+    "sha": "9cdc6310a8cb770ce18efaf4e9935334512aee45",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_vl",
+      "image-text-to-text",
+      "conversational",
+      "arxiv:2505.09388",
+      "arxiv:2502.13923",
+      "arxiv:2409.12191",
+      "arxiv:2308.12966",
+      "base_model:Qwen/Qwen3-VL-8B-Instruct",
+      "base_model:quantized:Qwen/Qwen3-VL-8B-Instruct",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "fp8",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

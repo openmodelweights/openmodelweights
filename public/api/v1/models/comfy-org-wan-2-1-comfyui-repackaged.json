@@ -1,0 +1,266 @@
+{
+  "id": "comfy-org-wan-2-1-comfyui-repackaged",
+  "name": "Wan_2.1_ComfyUI_repackaged",
+  "developer": "Comfy-Org",
+  "family": "Wan_2.1_ComfyUI_repackaged",
+  "variant": "Wan_2.1_ComfyUI_repackaged",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:MAGREF-Video/MAGREF",
+      "base_model:finetune:MAGREF-Video/MAGREF",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+    "access": "public",
+    "exact_files": [
+      "split_files/clip_vision/clip_vision_h.safetensors",
+      "split_files/diffusion_models/wan2.1_flf2v_720p_14B_fp16.safetensors",
+      "split_files/diffusion_models/wan2.1_flf2v_720p_14B_fp8_e4m3fn.safetensors",
+      "split_files/diffusion_models/wan2.1_fun_camera_v1.1_1.3B_bf16.safetensors",
+      "split_files/diffusion_models/wan2.1_fun_camera_v1.1_14B_bf16.safetensors",
+      "split_files/diffusion_models/wan2.1_fun_control_1.3B_bf16.safetensors",
+      "split_files/diffusion_models/wan2.1_fun_inp_1.3B_bf16.safetensors",
+      "split_files/diffusion_models/wan2.1_i2v_480p_14B_bf16.safetensors",
+      "split_files/diffusion_models/wan2.1_i2v_480p_14B_fp16.safetensors",
+      "split_files/diffusion_models/wan2.1_i2v_480p_14B_fp8_e4m3fn.safetensors",
+      "split_files/diffusion_models/wan2.1_i2v_480p_14B_fp8_scaled.safetensors",
+      "split_files/diffusion_models/wan2.1_i2v_720p_14B_bf16.safetensors",
+      "split_files/diffusion_models/wan2.1_i2v_720p_14B_fp16.safetensors",
+      "split_files/diffusion_models/wan2.1_i2v_720p_14B_fp8_e4m3fn.safetensors",
+      "split_files/diffusion_models/wan2.1_i2v_720p_14B_fp8_scaled.safetensors",
+      "split_files/diffusion_models/wan2.1_magref_14B_fp16.safetensors",
+      "split_files/diffusion_models/wan2.1_t2v_1.3B_bf16.safetensors",
+      "split_files/diffusion_models/wan2.1_t2v_1.3B_fp16.safetensors",
+      "split_files/diffusion_models/wan2.1_t2v_14B_bf16.safetensors",
+      "split_files/diffusion_models/wan2.1_t2v_14B_fp16.safetensors",
+      "split_files/diffusion_models/wan2.1_t2v_14B_fp8_e4m3fn.safetensors",
+      "split_files/diffusion_models/wan2.1_t2v_14B_fp8_scaled.safetensors",
+      "split_files/diffusion_models/wan2.1_vace_1.3B_fp16.safetensors",
+      "split_files/diffusion_models/wan2.1_vace_1.3B_preview_fp16.safetensors",
+      "split_files/diffusion_models/wan2.1_vace_14B_fp16.safetensors",
+      "split_files/loras/wan_alpha_2.1_rgba_lora.safetensors",
+      "split_files/model_patches/wan2.1_infiniteTalk_multi_fp16.safetensors",
+      "split_files/model_patches/wan2.1_infiniteTalk_single_fp16.safetensors",
+      "split_files/text_encoders/umt5_xxl_fp16.safetensors",
+      "split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "split_files/vae/wan_2.1_vae.safetensors",
+      "split_files/vae/wan_alpha_2.1_vae_alpha_channel.safetensors",
+      "split_files/vae/wan_alpha_2.1_vae_rgb_channel.safetensors"
+    ],
+    "file_count": 33,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Wan_2.1_ComfyUI_repackaged",
+    "variant": "Wan_2.1_ComfyUI_repackaged",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Wan-AI/Wan2.1-FLF2V-14B-720P",
+        "alibaba-pai/Wan2.1-Fun-V1.1-1.3B-Control-Camera",
+        "alibaba-pai/Wan2.1-Fun-V1.1-14B-Control-Camera",
+        "alibaba-pai/Wan2.1-Fun-V1.1-1.3B-Control",
+        "alibaba-pai/Wan2.1-Fun-V1.1-1.3B-InP",
+        "Wan-AI/Wan2.1-I2V-14B-480P",
+        "Wan-AI/Wan2.1-I2V-14B-720P",
+        "MAGREF-Video/MAGREF",
+        "Wan-AI/Wan2.1-T2V-1.3B",
+        "Wan-AI/Wan2.1-T2V-14B",
+        "Wan-AI/Wan2.1-VACE-1.3B",
+        "Wan-AI/Wan2.1-VACE-14B",
+        "htdong/Wan-Alpha",
+        "MeiGen-AI/InfiniteTalk"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+    "rank": 177,
+    "downloads": 3399650,
+    "likes": 991,
+    "last_modified": "2026-09-23T05:56:18+00:00",
+    "created_at": "2025-02-25T21:27:12+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-23T05:56:18.000Z",
+    "created_at": "2025-02-25T21:27:12.000Z",
+    "downloads": 3399650,
+    "likes": 991,
+    "sha": "123acf1cc74bccbb9bfff8ac1ee72edc08c2341d",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:MAGREF-Video/MAGREF",
+      "base_model:finetune:MAGREF-Video/MAGREF",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

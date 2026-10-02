@@ -1,0 +1,280 @@
+{
+  "id": "baai-bge-large-en-v1-5",
+  "name": "bge-large-en-v1.5",
+  "developer": "BAAI",
+  "family": "bge-large-en-v1.5",
+  "variant": "bge-large-en-v1.5",
+  "model": {
+    "parameters": "0.335142B",
+    "total_parameters_billions": 0.3351424,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Embeddings / features",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "bert",
+      "feature-extraction",
+      "sentence-similarity",
+      "transformers",
+      "mteb",
+      "en",
+      "arxiv:2401.03462",
+      "arxiv:2312.15503",
+      "arxiv:2311.13534",
+      "arxiv:2310.07554",
+      "arxiv:2309.07597",
+      "license:mit",
+      "model-index",
+      "eval-results",
+      "text-embeddings-inference",
+      "endpoints_compatible"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "onnx/model.onnx",
+      "pytorch_model.bin"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/BAAI/bge-large-en-v1.5",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.67,
+      "fp8_int8": 0.34,
+      "int4": 0.17
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "bge-large-en-v1.5",
+    "variant": "bge-large-en-v1.5",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://github.com/FlagOpen/FlagEmbedding/tree/master/LM_Cocktail",
+        "https://arxiv.org/abs/2311.13534",
+        "https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/baai_general_embedding/README.md",
+        "https://huggingface.co/BAAI/bge-m3",
+        "https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/BGE_M3#usage",
+        "https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/BGE_M3",
+        "https://huggingface.co/BAAI/llm-embedder",
+        "https://huggingface.co/BAAI/bge-reranker-large",
+        "https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/reranker",
+        "https://huggingface.co/BAAI/bge-reranker-base",
+        "https://huggingface.co/BAAI/bge-large-en-v1.5",
+        "https://github.com/FlagOpen/FlagEmbedding/tree/master/examples/finetune"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/BAAI/bge-large-en-v1.5",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/BAAI/bge-large-en-v1.5/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/BAAI/bge-large-en-v1.5/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "BAAI/bge-large-en-v1.5",
+    "rank": 144,
+    "downloads": 9796748,
+    "likes": 744,
+    "last_modified": "2024-02-21T02:51:44+00:00",
+    "created_at": "2023-09-12T05:20:08+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-02-21T02:51:44.000Z",
+    "created_at": "2023-09-12T05:20:08.000Z",
+    "downloads": 9796748,
+    "likes": 744,
+    "sha": "d4aa6901d3a41ba39fb536a557fa166f842b0e09",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "bert",
+      "feature-extraction",
+      "sentence-similarity",
+      "transformers",
+      "mteb",
+      "en",
+      "arxiv:2401.03462",
+      "arxiv:2312.15503",
+      "arxiv:2311.13534",
+      "arxiv:2310.07554",
+      "arxiv:2309.07597",
+      "license:mit",
+      "model-index",
+      "eval-results",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

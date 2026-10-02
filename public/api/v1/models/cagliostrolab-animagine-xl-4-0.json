@@ -1,0 +1,252 @@
+{
+  "id": "cagliostrolab-animagine-xl-4-0",
+  "name": "animagine-xl-4.0",
+  "developer": "cagliostrolab",
+  "family": "animagine-xl-4.0",
+  "variant": "animagine-xl-4.0",
+  "model": {
+    "parameters": "2.56746B",
+    "total_parameters_billions": 2.567463684,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "stable-diffusion",
+      "stable-diffusion-xl",
+      "en",
+      "base_model:stabilityai/stable-diffusion-xl-base-1.0",
+      "base_model:finetune:stabilityai/stable-diffusion-xl-base-1.0",
+      "license:openrail++",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionXLPipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/cagliostrolab/animagine-xl-4.0",
+    "access": "public",
+    "exact_files": [
+      "animagine-xl-4.0-opt.safetensors",
+      "animagine-xl-4.0.safetensors",
+      "text_encoder/model.safetensors",
+      "text_encoder_2/model.safetensors",
+      "unet/diffusion_pytorch_model.safetensors",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 6,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/cagliostrolab/animagine-xl-4.0",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "openrail++",
+    "name": "openrail++",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 5.13,
+      "fp8_int8": 2.57,
+      "int4": 1.28
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "animagine-xl-4.0",
+    "variant": "animagine-xl-4.0",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "stabilityai/stable-diffusion-xl-base-1.0"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/collections/Linaqruf/animagine-xl-669888c0add5adaf09754aca",
+        "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/cagliostrolab/animagine-xl-4.0",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/cagliostrolab/animagine-xl-4.0",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/cagliostrolab/animagine-xl-4.0/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/cagliostrolab/animagine-xl-4.0/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "cagliostrolab/animagine-xl-4.0",
+    "rank": 644,
+    "downloads": 386736,
+    "likes": 533,
+    "last_modified": "2025-02-13T16:16:46+00:00",
+    "created_at": "2025-01-10T17:51:13+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "text-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-02-13T16:16:46.000Z",
+    "created_at": "2025-01-10T17:51:13.000Z",
+    "downloads": 386736,
+    "likes": 533,
+    "sha": "2b7c1b397761bf5bd3cc42e5b39ec99314a75a96",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "stable-diffusion",
+      "stable-diffusion-xl",
+      "en",
+      "base_model:stabilityai/stable-diffusion-xl-base-1.0",
+      "base_model:finetune:stabilityai/stable-diffusion-xl-base-1.0",
+      "license:openrail++",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionXLPipeline",
+      "region:us"
+    ]
+  }
+}

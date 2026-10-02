@@ -1,0 +1,265 @@
+{
+  "id": "resembleai-chatterbox",
+  "name": "chatterbox",
+  "developer": "ResembleAI",
+  "family": "chatterbox",
+  "variant": "chatterbox",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → audio",
+    "tags": [
+      "chatterbox",
+      "text-to-speech",
+      "speech",
+      "speech-generation",
+      "voice-cloning",
+      "multilingual-tts",
+      "ar",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "he",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "ms"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/ResembleAI/chatterbox",
+    "access": "public",
+    "exact_files": [
+      "conds.pt",
+      "s3gen.pt",
+      "s3gen.safetensors",
+      "s3gen_v3.pt",
+      "s3gen_v3.safetensors",
+      "t3_23lang.safetensors",
+      "t3_cfg.pt",
+      "t3_cfg.safetensors",
+      "t3_mtl23ls_v2.safetensors",
+      "t3_mtl23ls_v3.safetensors",
+      "ve.pt",
+      "ve.safetensors"
+    ],
+    "file_count": 12,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/ResembleAI/chatterbox",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "chatterbox",
+    "variant": "chatterbox",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/ResembleAI/chatterbox",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/ResembleAI/chatterbox",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/ResembleAI/chatterbox/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/ResembleAI/chatterbox/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "ResembleAI/chatterbox",
+    "rank": 224,
+    "downloads": 1687216,
+    "likes": 1820,
+    "last_modified": "2026-06-10T21:16:06+00:00",
+    "created_at": "2025-04-24T12:03:33+00:00",
+    "library_name": "chatterbox",
+    "pipeline_tag": "text-to-speech",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "chatterbox",
+    "pipeline_tag": "text-to-speech",
+    "declared": [
+      "chatterbox"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-06-10T21:16:06.000Z",
+    "created_at": "2025-04-24T12:03:33.000Z",
+    "downloads": 1687216,
+    "likes": 1820,
+    "sha": "5bb1f6ee58e50c3b8d408bc82a6d3740c2db6e18",
+    "library_name": "chatterbox",
+    "pipeline_tag": "text-to-speech",
+    "tags": [
+      "chatterbox",
+      "text-to-speech",
+      "speech",
+      "speech-generation",
+      "voice-cloning",
+      "multilingual-tts",
+      "ar",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "he",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "ms",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "sw",
+      "tr",
+      "zh",
+      "license:mit",
+      "region:us"
+    ]
+  }
+}

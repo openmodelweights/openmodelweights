@@ -1,0 +1,297 @@
+{
+  "id": "papluca-xlm-roberta-base-language-detection",
+  "name": "xlm-roberta-base-language-detection",
+  "developer": "papluca",
+  "family": "xlm-roberta-base-language-detection",
+  "variant": "xlm-roberta-base-language-detection",
+  "model": {
+    "parameters": "0.27806B",
+    "total_parameters_billions": 0.278059542,
+    "context": {
+      "value": 514,
+      "display": "514 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text Classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "safetensors",
+      "xlm-roberta",
+      "text-classification",
+      "generated_from_trainer",
+      "multilingual",
+      "ar",
+      "bg",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it",
+      "ja",
+      "nl",
+      "pl"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/papluca/xlm-roberta-base-language-detection",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin",
+      "tf_model.h5"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/papluca/xlm-roberta-base-language-detection",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.56,
+      "fp8_int8": 0.28,
+      "int4": 0.14
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "xlm-roberta-base-language-detection",
+    "variant": "xlm-roberta-base-language-detection",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "xlm-roberta-base"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/xlm-roberta-base",
+        "https://huggingface.co/datasets/papluca/language-identification#additional-information",
+        "https://colab.research.google.com/drive/15LJTckS6gU3RQOmjLqxVNBmbsBdnUEvl?usp=sharing"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "papluca/language-identification"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/papluca/xlm-roberta-base-language-detection",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/papluca/xlm-roberta-base-language-detection",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/papluca/xlm-roberta-base-language-detection/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/papluca/xlm-roberta-base-language-detection/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "papluca/xlm-roberta-base-language-detection",
+    "rank": 656,
+    "downloads": 410306,
+    "likes": 377,
+    "last_modified": "2023-12-28T13:54:18+00:00",
+    "created_at": "2022-03-02T23:29:05+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-classification",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2023-12-28T13:54:18.000Z",
+    "created_at": "2022-03-02T23:29:05.000Z",
+    "downloads": 410306,
+    "likes": 377,
+    "sha": "9865598389ca9d95637462f743f683b51d75b87b",
+    "library_name": "transformers",
+    "pipeline_tag": "text-classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "safetensors",
+      "xlm-roberta",
+      "text-classification",
+      "generated_from_trainer",
+      "multilingual",
+      "ar",
+      "bg",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sw",
+      "th",
+      "tr",
+      "ur",
+      "vi",
+      "zh",
+      "dataset:papluca/language-identification",
+      "arxiv:1911.02116",
+      "base_model:FacebookAI/xlm-roberta-base",
+      "base_model:finetune:FacebookAI/xlm-roberta-base",
+      "doi:10.57967/hf/2064",
+      "license:mit",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

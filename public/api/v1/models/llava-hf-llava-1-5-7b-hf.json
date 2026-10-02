@@ -1,0 +1,252 @@
+{
+  "id": "llava-hf-llava-1-5-7b-hf",
+  "name": "llava-1.5-7b-hf",
+  "developer": "llava-hf",
+  "family": "llava-1.5",
+  "variant": "llava-1.5-7b-hf",
+  "model": {
+    "parameters": "7.06343B",
+    "total_parameters_billions": 7.063427072,
+    "context": {
+      "value": 4096,
+      "display": "4,096 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llava",
+      "image-text-to-text",
+      "vision",
+      "conversational",
+      "en",
+      "dataset:liuhaotian/LLaVA-Instruct-150K",
+      "license:llama2",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/llava-hf/llava-1.5-7b-hf",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00003.safetensors",
+      "model-00002-of-00003.safetensors",
+      "model-00003-of-00003.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16",
+      "FLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/llava-hf/llava-1.5-7b-hf",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "llama2",
+    "name": "llama2",
+    "url": "https://www.llama.com/llama3/license/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercial use allowed subject to Llama community-license conditions",
+      "basis": "https://www.llama.com/llama3/license/"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://www.llama.com/llama3/license/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 14.13,
+      "fp8_int8": 7.06,
+      "int4": 3.53
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "llava-1.5",
+    "variant": "llava-1.5-7b-hf",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "liuhaotian/LLaVA-Instruct-150K"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/llava-hf/llava-1.5-7b-hf",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/llava-hf/llava-1.5-7b-hf",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/llava-hf/llava-1.5-7b-hf/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/llava-hf/llava-1.5-7b-hf/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://www.llama.com/llama3/license/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "llava-hf/llava-1.5-7b-hf",
+    "rank": 312,
+    "downloads": 1573855,
+    "likes": 376,
+    "last_modified": "2025-06-06T08:42:20+00:00",
+    "created_at": "2023-12-05T09:31:24+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-06-06T08:42:20.000Z",
+    "created_at": "2023-12-05T09:31:24.000Z",
+    "downloads": 1573855,
+    "likes": 376,
+    "sha": "b234b804b114d9e37bb655e11cbbb5f5e971b7a9",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llava",
+      "image-text-to-text",
+      "vision",
+      "conversational",
+      "en",
+      "dataset:liuhaotian/LLaVA-Instruct-150K",
+      "license:llama2",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

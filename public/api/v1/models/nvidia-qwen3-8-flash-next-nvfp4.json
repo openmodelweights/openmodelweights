@@ -1,0 +1,288 @@
+{
+  "id": "nvidia-qwen3-8-flash-next-nvfp4",
+  "name": "Qwen3.8-Flash-Next-NVFP4",
+  "developer": "NVIDIA",
+  "family": "Qwen3.8-Flash-Next-NVFP4",
+  "variant": "Qwen3.8-Flash-Next-NVFP4",
+  "model": {
+    "parameters": "119.602B",
+    "total_parameters_billions": 119.602003859,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "Model Optimizer",
+      "safetensors",
+      "qwen4_exp",
+      "nvidia",
+      "ModelOpt",
+      "Qwen3.8",
+      "quantized",
+      "FP4",
+      "fp4",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.8-Flash-Next",
+      "base_model:quantized:Qwen/Qwen3.8-Flash-Next",
+      "license:other",
+      "8-bit",
+      "modelopt",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00010.safetensors",
+      "model-00002-of-00010.safetensors",
+      "model-00003-of-00010.safetensors",
+      "model-00004-of-00010.safetensors",
+      "model-00005-of-00010.safetensors",
+      "model-00006-of-00010.safetensors",
+      "model-00007-of-00010.safetensors",
+      "model-00008-of-00010.safetensors",
+      "model-00009-of-00010.safetensors",
+      "model-00010-of-00010.safetensors",
+      "model-fp8-mtp-ple.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 12,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F8_E4M3",
+      "I64",
+      "U8"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/Qwen3.8-Flash-Next-NVFP4",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "nvidia-open-model-license",
+    "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercially usable subject to NVIDIA license conditions",
+      "basis": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 239.2,
+      "fp8_int8": 119.6,
+      "int4": 59.8
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen3.8-Flash-Next-NVFP4",
+    "variant": "Qwen3.8-Flash-Next-NVFP4",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+        "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/Qwen3.8-Flash-Next-NVFP4",
+    "rank": 726,
+    "downloads": 276996,
+    "likes": 332,
+    "last_modified": "2026-09-05T23:36:02+00:00",
+    "created_at": "2026-09-02T04:03:35+00:00",
+    "library_name": "Model Optimizer",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Model Optimizer",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Model Optimizer"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-05T23:36:02.000Z",
+    "created_at": "2026-09-02T04:03:35.000Z",
+    "downloads": 276996,
+    "likes": 332,
+    "sha": "fc694b54fb0174e0913e6adf86691ef85a4ead47",
+    "library_name": "Model Optimizer",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "Model Optimizer",
+      "safetensors",
+      "qwen4_exp",
+      "nvidia",
+      "ModelOpt",
+      "Qwen3.8",
+      "quantized",
+      "FP4",
+      "fp4",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.8-Flash-Next",
+      "base_model:quantized:Qwen/Qwen3.8-Flash-Next",
+      "license:other",
+      "8-bit",
+      "modelopt",
+      "region:us"
+    ]
+  }
+}

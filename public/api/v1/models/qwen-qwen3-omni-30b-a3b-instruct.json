@@ -1,0 +1,254 @@
+{
+  "id": "qwen-qwen3-omni-30b-a3b-instruct",
+  "name": "Qwen3-Omni-30B-A3B-Instruct",
+  "developer": "Qwen",
+  "family": "Qwen3-Omni",
+  "variant": "Qwen3-Omni-30B-A3B-Instruct",
+  "model": {
+    "parameters": "35.2598B",
+    "total_parameters_billions": 35.259818545,
+    "context": {
+      "value": 65536,
+      "display": "65,536 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "talker_config.text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Any To Any",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_omni_moe",
+      "text-to-audio",
+      "multimodal",
+      "any-to-any",
+      "en",
+      "license:other",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00015.safetensors",
+      "model-00002-of-00015.safetensors",
+      "model-00003-of-00015.safetensors",
+      "model-00004-of-00015.safetensors",
+      "model-00005-of-00015.safetensors",
+      "model-00006-of-00015.safetensors",
+      "model-00007-of-00015.safetensors",
+      "model-00008-of-00015.safetensors",
+      "model-00009-of-00015.safetensors",
+      "model-00010-of-00015.safetensors",
+      "model-00011-of-00015.safetensors",
+      "model-00012-of-00015.safetensors",
+      "model-00013-of-00015.safetensors",
+      "model-00014-of-00015.safetensors",
+      "model-00015-of-00015.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 16,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 70.52,
+      "fp8_int8": 35.26,
+      "int4": 17.63
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen3-Omni",
+    "variant": "Qwen3-Omni-30B-A3B-Instruct",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://github.com/QwenLM/Qwen3-Omni/blob/main/cookbooks/omni_captioner.ipynb"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-Omni-30B-A3B-Instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "rank": 440,
+    "downloads": 627263,
+    "likes": 1012,
+    "last_modified": "2025-09-22T14:17:52+00:00",
+    "created_at": "2025-09-20T03:16:00+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "any-to-any",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "any-to-any",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-09-22T14:17:52.000Z",
+    "created_at": "2025-09-20T03:16:00.000Z",
+    "downloads": 627263,
+    "likes": 1012,
+    "sha": "26291f793822fb6be9555850f06dfe95f2d7e695",
+    "library_name": "transformers",
+    "pipeline_tag": "any-to-any",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_omni_moe",
+      "text-to-audio",
+      "multimodal",
+      "any-to-any",
+      "en",
+      "license:other",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

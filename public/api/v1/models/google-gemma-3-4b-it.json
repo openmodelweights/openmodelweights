@@ -1,0 +1,296 @@
+{
+  "id": "google-gemma-3-4b-it",
+  "name": "gemma-3-4b-it",
+  "developer": "Google",
+  "family": "gemma-3",
+  "variant": "gemma-3-4b-it",
+  "model": {
+    "parameters": "4.30008B",
+    "total_parameters_billions": 4.300079472,
+    "context": {
+      "value": 128000,
+      "display": "128,000 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "explicit context statement"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "conversational",
+      "arxiv:1905.07830",
+      "arxiv:1905.10044",
+      "arxiv:1911.11641",
+      "arxiv:1904.09728",
+      "arxiv:1705.03551",
+      "arxiv:1911.01547",
+      "arxiv:1907.10641",
+      "arxiv:1903.00161",
+      "arxiv:2009.03300",
+      "arxiv:2304.06364",
+      "arxiv:2103.03874",
+      "arxiv:2110.14168",
+      "arxiv:2311.12022",
+      "arxiv:2108.07732",
+      "arxiv:2107.03374"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/google/gemma-3-4b-it",
+    "access": "gated (manual)",
+    "exact_files": [
+      "model-00001-of-00002.safetensors",
+      "model-00002-of-00002.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/google/gemma-3-4b-it",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "gemma",
+    "name": "gemma",
+    "url": "https://ai.google.dev/gemma/terms",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercial use permitted subject to Gemma Terms",
+      "basis": "https://ai.google.dev/gemma/terms"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://ai.google.dev/gemma/terms"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 8.6,
+      "fp8_int8": 4.3,
+      "int4": 2.15
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "gemma-3",
+    "variant": "gemma-3-4b-it",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "google/gemma-3-4b-pt"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/google/gemma-3-4b-it",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/google/gemma-3-4b-it",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/google/gemma-3-4b-it/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/google/gemma-3-4b-it/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://ai.google.dev/gemma/terms",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "google/gemma-3-4b-it",
+    "rank": 281,
+    "downloads": 1275100,
+    "likes": 1542,
+    "last_modified": "2025-03-21T20:20:53+00:00",
+    "created_at": "2025-02-20T21:20:07+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-03-21T20:20:53.000Z",
+    "created_at": "2025-02-20T21:20:07.000Z",
+    "downloads": 1275100,
+    "likes": 1542,
+    "sha": "093f9f388b31de276ce2de164bdc2081324b9767",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "conversational",
+      "arxiv:1905.07830",
+      "arxiv:1905.10044",
+      "arxiv:1911.11641",
+      "arxiv:1904.09728",
+      "arxiv:1705.03551",
+      "arxiv:1911.01547",
+      "arxiv:1907.10641",
+      "arxiv:1903.00161",
+      "arxiv:2009.03300",
+      "arxiv:2304.06364",
+      "arxiv:2103.03874",
+      "arxiv:2110.14168",
+      "arxiv:2311.12022",
+      "arxiv:2108.07732",
+      "arxiv:2107.03374",
+      "arxiv:2210.03057",
+      "arxiv:2106.03193",
+      "arxiv:1910.11856",
+      "arxiv:2502.12404",
+      "arxiv:2502.21228",
+      "arxiv:2404.16816",
+      "arxiv:2104.12756",
+      "arxiv:2311.16502",
+      "arxiv:2203.10244",
+      "arxiv:2404.12390",
+      "arxiv:1810.12440",
+      "arxiv:1908.02660",
+      "arxiv:2312.11805",
+      "base_model:google/gemma-3-4b-pt",
+      "base_model:finetune:google/gemma-3-4b-pt",
+      "license:gemma",
+      "eval-results",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

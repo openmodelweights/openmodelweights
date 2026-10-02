@@ -1,0 +1,239 @@
+{
+  "id": "comfy-org-qwen-image-edit-comfyui",
+  "name": "Qwen-Image-Edit_ComfyUI",
+  "developer": "Comfy-Org",
+  "family": "Qwen-Image-Edit_ComfyUI",
+  "variant": "Qwen-Image-Edit_ComfyUI",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:FireRedTeam/FireRed-Image-Edit-1.0",
+      "base_model:finetune:FireRedTeam/FireRed-Image-Edit-1.0",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI",
+    "access": "public",
+    "exact_files": [
+      "split_files/diffusion_models/firered_image_edit_1.0_bf16.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_2509_bf16.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_2509_fp8mixed.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_2509_int8_convrot.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_2511_bf16.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_2511_int8_convrot.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_bf16.safetensors",
+      "split_files/diffusion_models/qwen_image_edit_fp8_e4m3fn.safetensors",
+      "split_files/loras/Qwen-Edit-2509-Multiple-angles.safetensors",
+      "split_files/loras/Qwen-Image-Edit-2509-Anything2RealAlpha.safetensors",
+      "split_files/loras/Qwen-Image-Edit-2509-Fusion.safetensors",
+      "split_files/loras/Qwen-Image-Edit-2509-Light-Migration.safetensors",
+      "split_files/loras/Qwen-Image-Edit-2509-Relight.safetensors",
+      "split_files/loras/Qwen-Image-Edit-2509-White_to_Scene.safetensors"
+    ],
+    "file_count": 16,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Comfy-Org/Qwen-Image-Edit_ComfyUI",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Qwen-Image-Edit_ComfyUI",
+    "variant": "Qwen-Image-Edit_ComfyUI",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen-Image-Edit",
+        "Qwen/Qwen-Image-Edit-2509",
+        "Qwen/Qwen-Image-Edit-2511",
+        "FireRedTeam/FireRed-Image-Edit-1.0"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+    "rank": 259,
+    "downloads": 1649490,
+    "likes": 492,
+    "last_modified": "2026-09-23T08:05:05+00:00",
+    "created_at": "2025-08-19T02:18:21+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-23T08:05:05.000Z",
+    "created_at": "2025-08-19T02:18:21.000Z",
+    "downloads": 1649490,
+    "likes": 492,
+    "sha": "f68ace85e60b4a02a323e394253731947657b7d2",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:FireRedTeam/FireRed-Image-Edit-1.0",
+      "base_model:finetune:FireRedTeam/FireRed-Image-Edit-1.0",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

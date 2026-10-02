@@ -1,0 +1,249 @@
+{
+  "id": "hauhaucs-gemma4-12b-qat-uncensored-hauhaucs-balanced",
+  "name": "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+  "developer": "HauhauCS",
+  "family": "Gemma4",
+  "variant": "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "gguf",
+      "uncensored",
+      "gemma4",
+      "vision",
+      "multimodal",
+      "agentic",
+      "coding",
+      "creative-writing",
+      "roleplay",
+      "rp",
+      "conversational",
+      "image-text-to-text",
+      "en",
+      "base_model:google/gemma-4-12B-it",
+      "base_model:quantized:google/gemma-4-12B-it",
+      "license:gemma",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+    "access": "public",
+    "exact_files": [
+      "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced-Q4_K_M.gguf",
+      "mmproj-Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced-BF16.gguf",
+      "mtp-gemma-4-12B-it.gguf"
+    ],
+    "file_count": 3,
+    "formats": [
+      "GGUF"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "gemma",
+    "name": "gemma",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Gemma4",
+    "variant": "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "google/gemma-4-12B-it"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+    "rank": 383,
+    "downloads": 886048,
+    "likes": 392,
+    "last_modified": "2026-06-25T00:22:34+00:00",
+    "created_at": "2026-06-22T14:32:34+00:00",
+    "library_name": null,
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": "image-text-to-text",
+    "declared": [],
+    "mentioned_in_model_card": [
+      "llama.cpp"
+    ],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-06-25T00:22:34.000Z",
+    "created_at": "2026-06-22T14:32:34.000Z",
+    "downloads": 886048,
+    "likes": 392,
+    "sha": "ae8045ac2bd216293ca49a3065da2c942dde4b68",
+    "library_name": null,
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "gguf",
+      "uncensored",
+      "gemma4",
+      "vision",
+      "multimodal",
+      "agentic",
+      "coding",
+      "creative-writing",
+      "roleplay",
+      "rp",
+      "conversational",
+      "image-text-to-text",
+      "en",
+      "base_model:google/gemma-4-12B-it",
+      "base_model:quantized:google/gemma-4-12B-it",
+      "license:gemma",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

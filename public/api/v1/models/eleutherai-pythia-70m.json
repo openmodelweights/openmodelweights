@@ -1,0 +1,257 @@
+{
+  "id": "eleutherai-pythia-70m",
+  "name": "pythia-70m",
+  "developer": "EleutherAI",
+  "family": "pythia",
+  "variant": "pythia-70m",
+  "model": {
+    "parameters": "0.0955925B",
+    "total_parameters_billions": 0.095592496,
+    "context": {
+      "value": 2048,
+      "display": "2,048 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Not declared",
+    "tags": [
+      "gpt-neox",
+      "pytorch",
+      "safetensors",
+      "gpt_neox",
+      "causal-lm",
+      "pythia",
+      "en",
+      "dataset:EleutherAI/pile",
+      "arxiv:2304.01373",
+      "arxiv:2101.00027",
+      "arxiv:2201.07311",
+      "license:apache-2.0",
+      "region:us",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/EleutherAI/pythia-70m",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16",
+      "FLOAT16",
+      "U8"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/EleutherAI/pythia-70m",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.19,
+      "fp8_int8": 0.1,
+      "int4": 0.05
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "pythia",
+    "variant": "pythia-70m",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "EleutherAI/pile"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/EleutherAI/pythia-70m",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/EleutherAI/pythia-70m",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/EleutherAI/pythia-70m/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/EleutherAI/pythia-70m/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "EleutherAI/pythia-70m",
+    "rank": 671,
+    "downloads": 616100,
+    "likes": 86,
+    "last_modified": "2023-11-21T19:04:09+00:00",
+    "created_at": "2023-02-13T14:54:51+00:00",
+    "library_name": "gpt-neox",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "gpt-neox",
+    "pipeline_tag": null,
+    "declared": [
+      "gpt-neox"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2023-11-21T19:04:09.000Z",
+    "created_at": "2023-02-13T14:54:51.000Z",
+    "downloads": 616100,
+    "likes": 86,
+    "sha": "a39f36b100fe8a5377810d56c3f4789b9c53ac42",
+    "library_name": "gpt-neox",
+    "pipeline_tag": null,
+    "tags": [
+      "gpt-neox",
+      "pytorch",
+      "safetensors",
+      "gpt_neox",
+      "causal-lm",
+      "pythia",
+      "en",
+      "dataset:EleutherAI/pile",
+      "arxiv:2304.01373",
+      "arxiv:2101.00027",
+      "arxiv:2201.07311",
+      "license:apache-2.0",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

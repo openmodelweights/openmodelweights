@@ -1,0 +1,271 @@
+{
+  "id": "biohub-esmc-6b",
+  "name": "ESMC-6B",
+  "developer": "biohub",
+  "family": "ESMC",
+  "variant": "ESMC-6B",
+  "model": {
+    "parameters": "6.35201B",
+    "total_parameters_billions": 6.352005184,
+    "context": {
+      "value": 2048,
+      "display": "2,048 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "esmc",
+      "fill-mask",
+      "biology",
+      "esm",
+      "protein",
+      "protein-language-model",
+      "protein-embeddings",
+      "masked-language-modeling",
+      "transfer-learning",
+      "variant-effect-prediction",
+      "protein-engineering",
+      "custom_code",
+      "en",
+      "license:mit",
+      "license:other",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/biohub/ESMC-6B",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00006.safetensors",
+      "model-00002-of-00006.safetensors",
+      "model-00003-of-00006.safetensors",
+      "model-00004-of-00006.safetensors",
+      "model-00005-of-00006.safetensors",
+      "model-00006-of-00006.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 7,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/biohub/ESMC-6B",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "['mit', 'other']",
+    "name": "['mit', 'other']",
+    "url": "https://github.com/Biohub/esm/blob/main/THIRD_PARTY_NOTICE.md",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://github.com/Biohub/esm/blob/main/THIRD_PARTY_NOTICE.md"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://github.com/Biohub/esm/blob/main/THIRD_PARTY_NOTICE.md"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 12.7,
+      "fp8_int8": 6.35,
+      "int4": 3.18
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "ESMC",
+    "variant": "ESMC-6B",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/biohub/ESMC-6B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/biohub/ESMC-6B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/biohub/ESMC-6B/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/biohub/ESMC-6B/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://github.com/Biohub/esm/blob/main/THIRD_PARTY_NOTICE.md",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "biohub/ESMC-6B",
+    "rank": 449,
+    "downloads": 1331370,
+    "likes": 36,
+    "last_modified": "2026-09-16T18:35:02+00:00",
+    "created_at": "2026-05-19T23:26:54+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "fill-mask",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "fill-mask",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-16T18:35:02.000Z",
+    "created_at": "2026-05-19T23:26:54.000Z",
+    "downloads": 1331370,
+    "likes": 36,
+    "sha": "af1602ba7406f521b11bf8f81d52af378cde09e4",
+    "library_name": "transformers",
+    "pipeline_tag": "fill-mask",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "esmc",
+      "fill-mask",
+      "biology",
+      "esm",
+      "protein",
+      "protein-language-model",
+      "protein-embeddings",
+      "masked-language-modeling",
+      "transfer-learning",
+      "variant-effect-prediction",
+      "protein-engineering",
+      "custom_code",
+      "en",
+      "license:mit",
+      "license:other",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

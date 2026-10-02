@@ -1,0 +1,234 @@
+{
+  "id": "comfy-org-flux1-dev",
+  "name": "flux1-dev",
+  "developer": "Comfy-Org",
+  "family": "flux1-dev",
+  "variant": "flux1-dev",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:black-forest-labs/FLUX.1-Canny-dev",
+      "base_model:finetune:black-forest-labs/FLUX.1-Canny-dev",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Comfy-Org/flux1-dev",
+    "access": "public",
+    "exact_files": [
+      "flux1-dev-fp8.safetensors",
+      "flux1-dev.safetensors",
+      "split_files/diffusion_models/flux1-canny-dev.safetensors",
+      "split_files/diffusion_models/flux1-depth-dev-nvfp4.safetensors",
+      "split_files/diffusion_models/flux1-fill-dev.safetensors",
+      "split_files/loras/flux1-depth-dev-lora.safetensors"
+    ],
+    "file_count": 6,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Comfy-Org/flux1-dev",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "flux-1-dev-non-commercial-license",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/LICENSE.md",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/LICENSE.md"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/LICENSE.md"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "flux1-dev",
+    "variant": "flux1-dev",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "black-forest-labs/FLUX.1-dev",
+        "black-forest-labs/FLUX.1-Canny-dev",
+        "black-forest-labs/FLUX.1-Depth-dev",
+        "black-forest-labs/FLUX.1-Fill-dev"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Comfy-Org/flux1-dev",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Comfy-Org/flux1-dev",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Comfy-Org/flux1-dev/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Comfy-Org/flux1-dev/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/LICENSE.md",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Comfy-Org/flux1-dev",
+    "rank": 320,
+    "downloads": 1002028,
+    "likes": 682,
+    "last_modified": "2026-09-23T07:59:02+00:00",
+    "created_at": "2024-08-03T20:04:30+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-23T07:59:02.000Z",
+    "created_at": "2024-08-03T20:04:30.000Z",
+    "downloads": 1002028,
+    "likes": 682,
+    "sha": "83c446ef27a6ac1e9e36ecf13257283aa12cf22a",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:black-forest-labs/FLUX.1-Canny-dev",
+      "base_model:finetune:black-forest-labs/FLUX.1-Canny-dev",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

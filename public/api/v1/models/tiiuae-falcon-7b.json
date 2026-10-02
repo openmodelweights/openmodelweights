@@ -1,0 +1,268 @@
+{
+  "id": "tiiuae-falcon-7b",
+  "name": "falcon-7b",
+  "developer": "Technology Innovation Institute",
+  "family": "falcon",
+  "variant": "falcon-7b",
+  "model": {
+    "parameters": "7.21719B",
+    "total_parameters_billions": 7.21718976,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "falcon",
+      "text-generation",
+      "custom_code",
+      "en",
+      "dataset:tiiuae/falcon-refinedweb",
+      "arxiv:2205.14135",
+      "arxiv:1911.02150",
+      "arxiv:2101.00027",
+      "arxiv:2005.14165",
+      "arxiv:2104.09864",
+      "arxiv:2306.01116",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "region:us",
+      "deploy:sagemaker",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/tiiuae/falcon-7b",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00002.safetensors",
+      "model-00002-of-00002.safetensors",
+      "model.safetensors.index.json",
+      "pytorch_model-00001-of-00002.bin",
+      "pytorch_model-00002-of-00002.bin",
+      "pytorch_model.bin.index.json"
+    ],
+    "file_count": 6,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/tiiuae/falcon-7b",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 14.43,
+      "fp8_int8": 7.22,
+      "int4": 3.61
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "falcon",
+    "variant": "falcon-7b",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/blog/falcon",
+        "https://huggingface.co/tiiuae/falcon-7b-instruct"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "tiiuae/falcon-refinedweb"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/tiiuae/falcon-7b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/tiiuae/falcon-7b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/tiiuae/falcon-7b/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/tiiuae/falcon-7b/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "tiiuae/falcon-7b",
+    "rank": 559,
+    "downloads": 392762,
+    "likes": 1105,
+    "last_modified": "2024-10-12T13:20:18+00:00",
+    "created_at": "2023-04-24T16:36:24+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "TGI"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-10-12T13:20:18.000Z",
+    "created_at": "2023-04-24T16:36:24.000Z",
+    "downloads": 392762,
+    "likes": 1105,
+    "sha": "ec89142b67d748a1865ea4451372db8313ada0d8",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "falcon",
+      "text-generation",
+      "custom_code",
+      "en",
+      "dataset:tiiuae/falcon-refinedweb",
+      "arxiv:2205.14135",
+      "arxiv:1911.02150",
+      "arxiv:2101.00027",
+      "arxiv:2005.14165",
+      "arxiv:2104.09864",
+      "arxiv:2306.01116",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

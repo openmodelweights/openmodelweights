@@ -1,0 +1,296 @@
+{
+  "id": "openbmb-minicpm5-2b",
+  "name": "MiniCPM5-2B",
+  "developer": "openbmb",
+  "family": "MiniCPM5",
+  "variant": "MiniCPM5-2B",
+  "model": {
+    "parameters": "2.51676B",
+    "total_parameters_billions": 2.51675648,
+    "context": {
+      "value": 131072,
+      "display": "131,072 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "minicpm",
+      "minicpm5",
+      "long-context",
+      "tool-calling",
+      "on-device",
+      "edge-ai",
+      "conversational",
+      "en",
+      "zh",
+      "dataset:openbmb/Ultra-FineWeb",
+      "dataset:openbmb/UltraX-Preview",
+      "dataset:openbmb/Ultra-FineWeb-L3",
+      "dataset:openbmb/UltraData-Math",
+      "dataset:openbmb/UltraData-Code",
+      "dataset:openbmb/UltraData-SFT-2605",
+      "dataset:openbmb/UltraData-SFT-Agent-2609"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/openbmb/MiniCPM5-2B",
+    "access": "public",
+    "exact_files": [
+      "model-00000-of-00001.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/openbmb/MiniCPM5-2B",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 5.03,
+      "fp8_int8": 2.52,
+      "int4": 1.26
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "MiniCPM5",
+    "variant": "MiniCPM5-2B",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/openbmb/MiniCPM5-1B",
+        "https://raw.githubusercontent.com/OpenBMB/MiniCPM/main/assets/minicpm5/minicpm5_2b_training_recipe.jpg",
+        "https://github.com/OpenBMB/MiniCPM/blob/main/docs/finetune/trl.md",
+        "https://github.com/OpenBMB/MiniCPM/blob/main/skills/minicpm5-finetune-trl/SKILL.md",
+        "https://github.com/OpenBMB/MiniCPM/blob/main/docs/finetune/llamafactory.md",
+        "https://github.com/OpenBMB/MiniCPM/blob/main/skills/minicpm5-finetune-llamafactory/SKILL.md",
+        "https://github.com/OpenBMB/MiniCPM/blob/main/docs/finetune/ms_swift.md",
+        "https://github.com/OpenBMB/MiniCPM/blob/main/skills/minicpm5-finetune-ms-swift/SKILL.md",
+        "https://github.com/OpenBMB/MiniCPM/blob/main/docs/finetune/unsloth.md",
+        "https://github.com/OpenBMB/MiniCPM/blob/main/skills/minicpm5-finetune-unsloth/SKILL.md"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "openbmb/Ultra-FineWeb",
+        "openbmb/UltraX-Preview",
+        "openbmb/Ultra-FineWeb-L3",
+        "openbmb/UltraData-Math",
+        "openbmb/UltraData-Code",
+        "openbmb/UltraData-SFT-2605",
+        "openbmb/UltraData-SFT-Agent-2609",
+        "openbmb/UltraData-RL-2609"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/openbmb/MiniCPM5-2B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "openbmb/MiniCPM5-2B",
+    "rank": 278,
+    "downloads": 999170,
+    "likes": 1708,
+    "last_modified": "2026-09-29T06:12:33+00:00",
+    "created_at": "2026-09-06T11:12:19+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "MLX",
+      "Ollama",
+      "SGLang",
+      "llama.cpp",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-29T06:12:33.000Z",
+    "created_at": "2026-09-06T11:12:19.000Z",
+    "downloads": 999170,
+    "likes": 1708,
+    "sha": "f97400052a43d642bbc6e9975e2397e3ae6a6b52",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "minicpm",
+      "minicpm5",
+      "long-context",
+      "tool-calling",
+      "on-device",
+      "edge-ai",
+      "conversational",
+      "en",
+      "zh",
+      "dataset:openbmb/Ultra-FineWeb",
+      "dataset:openbmb/UltraX-Preview",
+      "dataset:openbmb/Ultra-FineWeb-L3",
+      "dataset:openbmb/UltraData-Math",
+      "dataset:openbmb/UltraData-Code",
+      "dataset:openbmb/UltraData-SFT-2605",
+      "dataset:openbmb/UltraData-SFT-Agent-2609",
+      "dataset:openbmb/UltraData-RL-2609",
+      "arxiv:2506.07900",
+      "arxiv:2602.09003",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "id": "dbmdz-bert-large-cased-finetuned-conll03-english",
+  "name": "bert-large-cased-finetuned-conll03-english",
+  "developer": "dbmdz",
+  "family": "bert-large-cased-finetuned-conll03-english",
+  "variant": "bert-large-cased-finetuned-conll03-english",
+  "model": {
+    "parameters": "0.333588B",
+    "total_parameters_billions": 0.333588489,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust",
+      "safetensors",
+      "bert",
+      "token-classification",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/dbmdz/bert-large-cased-finetuned-conll03-english",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin",
+      "tf_model.h5"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/dbmdz/bert-large-cased-finetuned-conll03-english",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": null,
+    "name": "Not declared in model-card metadata",
+    "url": null,
+    "status": "not-disclosed",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.67,
+      "fp8_int8": 0.33,
+      "int4": 0.17
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "bert-large-cased-finetuned-conll03-english",
+    "variant": "bert-large-cased-finetuned-conll03-english",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/dbmdz/bert-large-cased-finetuned-conll03-english",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/dbmdz/bert-large-cased-finetuned-conll03-english",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/dbmdz/bert-large-cased-finetuned-conll03-english/blob/main/README.md",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/dbmdz/bert-large-cased-finetuned-conll03-english/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": false,
+    "config_accessible": true,
+    "fields": {
+      "license": "not-disclosed",
+      "commercial_use": "unknown",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "dbmdz/bert-large-cased-finetuned-conll03-english",
+    "rank": 555,
+    "downloads": 822038,
+    "likes": 98,
+    "last_modified": "2023-09-06T22:17:56+00:00",
+    "created_at": "2022-03-02T23:29:05+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "token-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "token-classification",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2023-09-06T22:17:56.000Z",
+    "created_at": "2022-03-02T23:29:05.000Z",
+    "downloads": 822038,
+    "likes": 98,
+    "sha": "4c534963167c08d4b8ff1f88733cf2930f86add0",
+    "library_name": "transformers",
+    "pipeline_tag": "token-classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust",
+      "safetensors",
+      "bert",
+      "token-classification",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

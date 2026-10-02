@@ -1,0 +1,261 @@
+{
+  "id": "moritzlaurer-deberta-v3-base-mnli-fever-anli",
+  "name": "DeBERTa-v3-base-mnli-fever-anli",
+  "developer": "MoritzLaurer",
+  "family": "DeBERTa-v3-base-mnli-fever-anli",
+  "variant": "DeBERTa-v3-base-mnli-fever-anli",
+  "model": {
+    "parameters": "0.184425B",
+    "total_parameters_billions": 0.184424963,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Zero Shot Classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "deberta-v2",
+      "text-classification",
+      "zero-shot-classification",
+      "en",
+      "dataset:multi_nli",
+      "dataset:facebook/anli",
+      "dataset:fever",
+      "arxiv:2006.03654",
+      "license:mit",
+      "model-index",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16",
+      "FLOAT16",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.37,
+      "fp8_int8": 0.18,
+      "int4": 0.09
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "DeBERTa-v3-base-mnli-fever-anli",
+    "variant": "DeBERTa-v3-base-mnli-fever-anli",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "multi_nli",
+        "facebook/anli",
+        "fever"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "rank": 685,
+    "downloads": 450497,
+    "likes": 226,
+    "last_modified": "2024-04-11T13:47:27+00:00",
+    "created_at": "2022-03-02T23:29:04+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-04-11T13:47:27.000Z",
+    "created_at": "2022-03-02T23:29:04.000Z",
+    "downloads": 450497,
+    "likes": 226,
+    "sha": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+    "library_name": "transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "deberta-v2",
+      "text-classification",
+      "zero-shot-classification",
+      "en",
+      "dataset:multi_nli",
+      "dataset:facebook/anli",
+      "dataset:fever",
+      "arxiv:2006.03654",
+      "license:mit",
+      "model-index",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

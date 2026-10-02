@@ -1,0 +1,254 @@
+{
+  "id": "black-forest-labs-flux-2-dev",
+  "name": "FLUX.2-dev",
+  "developer": "Black Forest Labs",
+  "family": "FLUX.2-dev",
+  "variant": "FLUX.2-dev",
+  "model": {
+    "parameters": "32.2233B",
+    "total_parameters_billions": 32.223281152,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image → image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "image-generation",
+      "image-editing",
+      "flux",
+      "diffusion-single-file",
+      "image-to-image",
+      "en",
+      "license:other",
+      "diffusers:Flux2Pipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
+    "access": "gated (auto)",
+    "exact_files": [
+      "ae.safetensors",
+      "flux2-dev.safetensors",
+      "text_encoder/model-00001-of-00010.safetensors",
+      "text_encoder/model-00002-of-00010.safetensors",
+      "text_encoder/model-00003-of-00010.safetensors",
+      "text_encoder/model-00004-of-00010.safetensors",
+      "text_encoder/model-00005-of-00010.safetensors",
+      "text_encoder/model-00006-of-00010.safetensors",
+      "text_encoder/model-00007-of-00010.safetensors",
+      "text_encoder/model-00008-of-00010.safetensors",
+      "text_encoder/model-00009-of-00010.safetensors",
+      "text_encoder/model-00010-of-00010.safetensors",
+      "text_encoder/model.safetensors.index.json",
+      "transformer/diffusion_pytorch_model-00001-of-00007.safetensors",
+      "transformer/diffusion_pytorch_model-00002-of-00007.safetensors",
+      "transformer/diffusion_pytorch_model-00003-of-00007.safetensors",
+      "transformer/diffusion_pytorch_model-00004-of-00007.safetensors",
+      "transformer/diffusion_pytorch_model-00005-of-00007.safetensors",
+      "transformer/diffusion_pytorch_model-00006-of-00007.safetensors",
+      "transformer/diffusion_pytorch_model-00007-of-00007.safetensors",
+      "transformer/diffusion_pytorch_model.safetensors.index.json",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 22,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/black-forest-labs/FLUX.2-dev",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "flux-non-commercial-license",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md"
+    },
+    "repository_license_files": [
+      "LICENSE.md"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 64.45,
+      "fp8_int8": 32.22,
+      "int4": 16.11
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "FLUX.2-dev",
+    "variant": "FLUX.2-dev",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/black-forest-labs/FLUX.2-dev",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "black-forest-labs/FLUX.2-dev",
+    "rank": 467,
+    "downloads": 410755,
+    "likes": 2354,
+    "last_modified": "2026-02-17T15:56:06+00:00",
+    "created_at": "2025-11-22T15:07:08+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-image",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "image-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-02-17T15:56:06.000Z",
+    "created_at": "2025-11-22T15:07:08.000Z",
+    "downloads": 410755,
+    "likes": 2354,
+    "sha": "26afe3a78bb242c0a8bb181dcc8937bb16e5c66c",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "image-generation",
+      "image-editing",
+      "flux",
+      "diffusion-single-file",
+      "image-to-image",
+      "en",
+      "license:other",
+      "diffusers:Flux2Pipeline",
+      "region:us"
+    ]
+  }
+}

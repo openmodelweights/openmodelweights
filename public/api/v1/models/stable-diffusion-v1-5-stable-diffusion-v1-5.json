@@ -1,0 +1,264 @@
+{
+  "id": "stable-diffusion-v1-5-stable-diffusion-v1-5",
+  "name": "stable-diffusion-v1-5",
+  "developer": "stable-diffusion-v1-5",
+  "family": "stable-diffusion-v1-5",
+  "variant": "stable-diffusion-v1-5",
+  "model": {
+    "parameters": "0.859521B",
+    "total_parameters_billions": 0.859520964,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "stable-diffusion",
+      "stable-diffusion-diffusers",
+      "text-to-image",
+      "arxiv:2207.12598",
+      "arxiv:2112.10752",
+      "arxiv:2103.00020",
+      "arxiv:2205.11487",
+      "arxiv:1910.09700",
+      "license:creativeml-openrail-m",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionPipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "access": "public",
+    "exact_files": [
+      "safety_checker/model.fp16.safetensors",
+      "safety_checker/model.safetensors",
+      "safety_checker/pytorch_model.bin",
+      "safety_checker/pytorch_model.fp16.bin",
+      "text_encoder/model.fp16.safetensors",
+      "text_encoder/model.safetensors",
+      "text_encoder/pytorch_model.bin",
+      "text_encoder/pytorch_model.fp16.bin",
+      "unet/diffusion_pytorch_model.bin",
+      "unet/diffusion_pytorch_model.fp16.bin",
+      "unet/diffusion_pytorch_model.fp16.safetensors",
+      "unet/diffusion_pytorch_model.non_ema.bin",
+      "unet/diffusion_pytorch_model.non_ema.safetensors",
+      "unet/diffusion_pytorch_model.safetensors",
+      "v1-5-pruned-emaonly.ckpt",
+      "v1-5-pruned-emaonly.safetensors",
+      "v1-5-pruned.ckpt",
+      "v1-5-pruned.safetensors",
+      "vae/diffusion_pytorch_model.bin",
+      "vae/diffusion_pytorch_model.fp16.bin",
+      "vae/diffusion_pytorch_model.fp16.safetensors",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 22,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/stable-diffusion-v1-5/stable-diffusion-v1-5",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "creativeml-openrail-m",
+    "name": "creativeml-openrail-m",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.72,
+      "fp8_int8": 0.86,
+      "int4": 0.43
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "stable-diffusion-v1-5",
+    "variant": "stable-diffusion-v1-5",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://arxiv.org/abs/2207.12598",
+        "https://huggingface.co/sd-legacy/stable-diffusion-v1-5/resolve/main/v1-5-pruned.safetensors"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "rank": 254,
+    "downloads": 1633999,
+    "likes": 1298,
+    "last_modified": "2024-09-07T16:20:30+00:00",
+    "created_at": "2024-08-30T09:48:48+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "text-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-09-07T16:20:30.000Z",
+    "created_at": "2024-08-30T09:48:48.000Z",
+    "downloads": 1633999,
+    "likes": 1298,
+    "sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "stable-diffusion",
+      "stable-diffusion-diffusers",
+      "text-to-image",
+      "arxiv:2207.12598",
+      "arxiv:2112.10752",
+      "arxiv:2103.00020",
+      "arxiv:2205.11487",
+      "arxiv:1910.09700",
+      "license:creativeml-openrail-m",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionPipeline",
+      "region:us"
+    ]
+  }
+}

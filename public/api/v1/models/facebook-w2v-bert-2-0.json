@@ -1,0 +1,339 @@
+{
+  "id": "facebook-w2v-bert-2-0",
+  "name": "w2v-bert-2.0",
+  "developer": "Meta",
+  "family": "w2v-bert-2.0",
+  "variant": "w2v-bert-2.0",
+  "model": {
+    "parameters": "0.580493B",
+    "total_parameters_billions": 0.58049312,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Embeddings / features",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "wav2vec2-bert",
+      "feature-extraction",
+      "af",
+      "am",
+      "ar",
+      "as",
+      "az",
+      "be",
+      "bn",
+      "bs",
+      "bg",
+      "ca",
+      "cs",
+      "zh",
+      "cy",
+      "da",
+      "de",
+      "el"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/facebook/w2v-bert-2.0",
+    "access": "public",
+    "exact_files": [
+      "conformer_shaw.pt",
+      "model.safetensors"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/facebook/w2v-bert-2.0",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.16,
+      "fp8_int8": 0.58,
+      "int4": 0.29
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "w2v-bert-2.0",
+    "variant": "w2v-bert-2.0",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://huggingface.co/blog/fine-tune-w2v2-bert",
+        "https://github.com/huggingface/transformers/blob/main/examples/pytorch/speech-recognition/run_speech_recognition_ctc.py"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/facebook/w2v-bert-2.0",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/facebook/w2v-bert-2.0",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/facebook/w2v-bert-2.0/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/facebook/w2v-bert-2.0/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "facebook/w2v-bert-2.0",
+    "rank": 321,
+    "downloads": 1723577,
+    "likes": 233,
+    "last_modified": "2024-01-25T13:51:13+00:00",
+    "created_at": "2023-12-19T07:41:49+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "feature-extraction",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "feature-extraction",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-01-25T13:51:13.000Z",
+    "created_at": "2023-12-19T07:41:49.000Z",
+    "downloads": 1723577,
+    "likes": 233,
+    "sha": "da985ba0987f70aaeb84a80f2851cfac8c697a7b",
+    "library_name": "transformers",
+    "pipeline_tag": "feature-extraction",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "wav2vec2-bert",
+      "feature-extraction",
+      "af",
+      "am",
+      "ar",
+      "as",
+      "az",
+      "be",
+      "bn",
+      "bs",
+      "bg",
+      "ca",
+      "cs",
+      "zh",
+      "cy",
+      "da",
+      "de",
+      "el",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "or",
+      "om",
+      "ga",
+      "gl",
+      "gu",
+      "ha",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "hy",
+      "ig",
+      "id",
+      "is",
+      "it",
+      "jv",
+      "ja",
+      "kn",
+      "ka",
+      "kk",
+      "mn",
+      "km",
+      "ky",
+      "ko",
+      "lo",
+      "ln",
+      "lt",
+      "lb",
+      "lg",
+      "lv",
+      "ml",
+      "mr",
+      "mk",
+      "mt",
+      "mi",
+      "my",
+      "nl",
+      "nb",
+      "ne",
+      "ny",
+      "oc",
+      "pa",
+      "ps",
+      "fa",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sn",
+      "sd",
+      "so",
+      "es",
+      "sr",
+      "sv",
+      "sw",
+      "ta",
+      "te",
+      "tg",
+      "tl",
+      "th",
+      "tr",
+      "uk",
+      "ur",
+      "uz",
+      "vi",
+      "wo",
+      "xh",
+      "yo",
+      "ms",
+      "zu",
+      "ary",
+      "arz",
+      "yue",
+      "kea",
+      "arxiv:2312.05187",
+      "license:mit",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "id": "google-medgemma-4b-it",
+  "name": "medgemma-4b-it",
+  "developer": "Google",
+  "family": "medgemma",
+  "variant": "medgemma-4b-it",
+  "model": {
+    "parameters": "4.30008B",
+    "total_parameters_billions": 4.300079472,
+    "context": {
+      "value": 128000,
+      "display": "128,000 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "explicit context statement"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "medical",
+      "radiology",
+      "clinical-reasoning",
+      "dermatology",
+      "pathology",
+      "ophthalmology",
+      "chest-x-ray",
+      "conversational",
+      "arxiv:2303.15343",
+      "arxiv:2507.05201",
+      "arxiv:2405.03162",
+      "arxiv:2106.14463",
+      "arxiv:2412.03555",
+      "arxiv:2501.19393",
+      "arxiv:2009.13081",
+      "arxiv:2102.09542"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/google/medgemma-4b-it",
+    "access": "gated (auto)",
+    "exact_files": [
+      "model-00001-of-00002.safetensors",
+      "model-00002-of-00002.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/google/medgemma-4b-it",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "health-ai-developer-foundations",
+    "url": "https://developers.google.com/health-ai-developer-foundations/terms",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercial use permitted subject to Gemma Terms",
+      "basis": "https://developers.google.com/health-ai-developer-foundations/terms"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://developers.google.com/health-ai-developer-foundations/terms"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 8.6,
+      "fp8_int8": 4.3,
+      "int4": 2.15
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "medgemma",
+    "variant": "medgemma-4b-it",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "google/medgemma-4b-pt"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://github.com/google-health/medgemma/blob/main/notebooks/fine_tune_with_hugging_face.ipynb"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/google/medgemma-4b-it",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/google/medgemma-4b-it",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/google/medgemma-4b-it/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/google/medgemma-4b-it/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://developers.google.com/health-ai-developer-foundations/terms",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "google/medgemma-4b-it",
+    "rank": 342,
+    "downloads": 971061,
+    "likes": 1082,
+    "last_modified": "2025-10-28T17:24:49+00:00",
+    "created_at": "2025-05-19T20:52:44+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-10-28T17:24:49.000Z",
+    "created_at": "2025-05-19T20:52:44.000Z",
+    "downloads": 971061,
+    "likes": 1082,
+    "sha": "290cda5eeccbee130f987c4ad74a59ae6f196408",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gemma3",
+      "image-text-to-text",
+      "medical",
+      "radiology",
+      "clinical-reasoning",
+      "dermatology",
+      "pathology",
+      "ophthalmology",
+      "chest-x-ray",
+      "conversational",
+      "arxiv:2303.15343",
+      "arxiv:2507.05201",
+      "arxiv:2405.03162",
+      "arxiv:2106.14463",
+      "arxiv:2412.03555",
+      "arxiv:2501.19393",
+      "arxiv:2009.13081",
+      "arxiv:2102.09542",
+      "arxiv:2411.15640",
+      "arxiv:2404.05590",
+      "arxiv:2501.18362",
+      "base_model:google/medgemma-4b-pt",
+      "base_model:finetune:google/medgemma-4b-pt",
+      "license:other",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

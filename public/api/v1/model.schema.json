@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openmodelweights.com/api/v1/model.schema.json",
+  "title": "Open Model Weights model record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "developer",
+    "model",
+    "weights",
+    "license",
+    "verification",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "developer": {
+      "type": "string"
+    },
+    "family": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "model": {
+      "type": "object"
+    },
+    "weights": {
+      "type": "object"
+    },
+    "license": {
+      "type": "object"
+    },
+    "hardware": {
+      "type": "object"
+    },
+    "lineage": {
+      "type": "object"
+    },
+    "training_assets": {
+      "type": "object"
+    },
+    "runtime_support": {
+      "type": "object"
+    },
+    "hub": {
+      "type": "object"
+    },
+    "verification": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array"
+    }
+  }
+}

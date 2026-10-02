@@ -1,0 +1,268 @@
+{
+  "id": "facebookai-roberta-base",
+  "name": "roberta-base",
+  "developer": "FacebookAI",
+  "family": "roberta",
+  "variant": "roberta-base",
+  "model": {
+    "parameters": "0.124698B",
+    "total_parameters_billions": 0.124697947,
+    "context": {
+      "value": 514,
+      "display": "514 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust",
+      "safetensors",
+      "roberta",
+      "fill-mask",
+      "exbert",
+      "en",
+      "dataset:bookcorpus",
+      "dataset:wikipedia",
+      "arxiv:1907.11692",
+      "arxiv:1806.02847",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:sagemaker",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/FacebookAI/roberta-base",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin",
+      "tf_model.h5"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/FacebookAI/roberta-base",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.25,
+      "fp8_int8": 0.12,
+      "int4": 0.06
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "roberta",
+    "variant": "roberta-base",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/models?filter=roberta"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "bookcorpus",
+        "wikipedia"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/FacebookAI/roberta-base",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/FacebookAI/roberta-base",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/FacebookAI/roberta-base/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/FacebookAI/roberta-base/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "FacebookAI/roberta-base",
+    "rank": 161,
+    "downloads": 7914910,
+    "likes": 667,
+    "last_modified": "2024-02-19T12:39:28+00:00",
+    "created_at": "2022-03-02T23:29:04+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "fill-mask",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "fill-mask",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-02-19T12:39:28.000Z",
+    "created_at": "2022-03-02T23:29:04.000Z",
+    "downloads": 7914910,
+    "likes": 667,
+    "sha": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "library_name": "transformers",
+    "pipeline_tag": "fill-mask",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust",
+      "safetensors",
+      "roberta",
+      "fill-mask",
+      "exbert",
+      "en",
+      "dataset:bookcorpus",
+      "dataset:wikipedia",
+      "arxiv:1907.11692",
+      "arxiv:1806.02847",
+      "license:mit",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

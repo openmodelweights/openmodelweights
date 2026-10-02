@@ -1,0 +1,243 @@
+{
+  "id": "ai-sage-giga-embeddings-instruct",
+  "name": "Giga-Embeddings-instruct",
+  "developer": "ai-sage",
+  "family": "Giga-Embeddings",
+  "variant": "Giga-Embeddings-instruct",
+  "model": {
+    "parameters": "3.44962B",
+    "total_parameters_billions": 3.449624576,
+    "context": {
+      "value": 4096,
+      "display": "4,096 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Embeddings / features",
+    "tags": [
+      "sentence-transformers",
+      "safetensors",
+      "gigarembed",
+      "feature-extraction",
+      "MTEB",
+      "transformers",
+      "custom_code",
+      "ru",
+      "en",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/ai-sage/Giga-Embeddings-instruct",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00003.safetensors",
+      "model-00002-of-00003.safetensors",
+      "model-00003-of-00003.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/ai-sage/Giga-Embeddings-instruct",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 6.9,
+      "fp8_int8": 3.45,
+      "int4": 1.72
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Giga-Embeddings",
+    "variant": "Giga-Embeddings-instruct",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/ai-sage/Giga-Embeddings-instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/ai-sage/Giga-Embeddings-instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/ai-sage/Giga-Embeddings-instruct/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/ai-sage/Giga-Embeddings-instruct/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "ai-sage/Giga-Embeddings-instruct",
+    "rank": 598,
+    "downloads": 673735,
+    "likes": 120,
+    "last_modified": "2025-10-24T11:04:48+00:00",
+    "created_at": "2024-12-11T12:25:30+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "declared": [
+      "Transformers",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-10-24T11:04:48.000Z",
+    "created_at": "2024-12-11T12:25:30.000Z",
+    "downloads": 673735,
+    "likes": 120,
+    "sha": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "tags": [
+      "sentence-transformers",
+      "safetensors",
+      "gigarembed",
+      "feature-extraction",
+      "MTEB",
+      "transformers",
+      "custom_code",
+      "ru",
+      "en",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

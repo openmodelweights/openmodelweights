@@ -1,0 +1,257 @@
+{
+  "id": "facebook-bart-large-mnli",
+  "name": "bart-large-mnli",
+  "developer": "Meta",
+  "family": "bart-large-mnli",
+  "variant": "bart-large-mnli",
+  "model": {
+    "parameters": "0.407344B",
+    "total_parameters_billions": 0.407344133,
+    "context": {
+      "value": 1024,
+      "display": "1,024 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Zero Shot Classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "jax",
+      "rust",
+      "safetensors",
+      "bart",
+      "text-classification",
+      "zero-shot-classification",
+      "dataset:multi_nli",
+      "arxiv:1910.13461",
+      "arxiv:1909.00161",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:sagemaker",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/facebook/bart-large-mnli",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/facebook/bart-large-mnli",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.81,
+      "fp8_int8": 0.41,
+      "int4": 0.2
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "bart-large-mnli",
+    "variant": "bart-large-mnli",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "multi_nli"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/facebook/bart-large-mnli",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/facebook/bart-large-mnli",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/facebook/bart-large-mnli/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/facebook/bart-large-mnli/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "facebook/bart-large-mnli",
+    "rank": 189,
+    "downloads": 2885041,
+    "likes": 1621,
+    "last_modified": "2023-09-05T14:49:34+00:00",
+    "created_at": "2022-03-02T23:29:05+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2023-09-05T14:49:34.000Z",
+    "created_at": "2022-03-02T23:29:05.000Z",
+    "downloads": 2885041,
+    "likes": 1621,
+    "sha": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+    "library_name": "transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "jax",
+      "rust",
+      "safetensors",
+      "bart",
+      "text-classification",
+      "zero-shot-classification",
+      "dataset:multi_nli",
+      "arxiv:1910.13461",
+      "arxiv:1909.00161",
+      "license:mit",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "id": "openbmb-voxcpm2",
+  "name": "VoxCPM2",
+  "developer": "openbmb",
+  "family": "VoxCPM2",
+  "variant": "VoxCPM2",
+  "model": {
+    "parameters": "2.29B",
+    "total_parameters_billions": 2.290004544,
+    "context": {
+      "value": 32768,
+      "display": "32,768 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "lm_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text → audio",
+    "tags": [
+      "voxcpm",
+      "safetensors",
+      "text-to-speech",
+      "tts",
+      "multilingual",
+      "voice-cloning",
+      "voice-design",
+      "diffusion",
+      "audio",
+      "zh",
+      "en",
+      "ar",
+      "my",
+      "da",
+      "nl",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "he"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/openbmb/VoxCPM2",
+    "access": "public",
+    "exact_files": [
+      "audiovae.pth",
+      "model.safetensors"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/openbmb/VoxCPM2",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 4.58,
+      "fp8_int8": 2.29,
+      "int4": 1.15
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "VoxCPM2",
+    "variant": "VoxCPM2",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://voxcpm.readthedocs.io/en/latest/finetuning/finetune.html"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/openbmb/VoxCPM2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/openbmb/VoxCPM2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/openbmb/VoxCPM2/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/openbmb/VoxCPM2/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "openbmb/VoxCPM2",
+    "rank": 427,
+    "downloads": 459821,
+    "likes": 1651,
+    "last_modified": "2026-08-18T07:37:17+00:00",
+    "created_at": "2026-04-03T05:25:50+00:00",
+    "library_name": "voxcpm",
+    "pipeline_tag": "text-to-speech",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "voxcpm",
+    "pipeline_tag": "text-to-speech",
+    "declared": [
+      "voxcpm"
+    ],
+    "mentioned_in_model_card": [
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-18T07:37:17.000Z",
+    "created_at": "2026-04-03T05:25:50.000Z",
+    "downloads": 459821,
+    "likes": 1651,
+    "sha": "32279effe8c19989596f05d353d1447f51d9e915",
+    "library_name": "voxcpm",
+    "pipeline_tag": "text-to-speech",
+    "tags": [
+      "voxcpm",
+      "safetensors",
+      "text-to-speech",
+      "tts",
+      "multilingual",
+      "voice-cloning",
+      "voice-design",
+      "diffusion",
+      "audio",
+      "zh",
+      "en",
+      "ar",
+      "my",
+      "da",
+      "nl",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "he",
+      "hi",
+      "id",
+      "it",
+      "ja",
+      "km",
+      "ko",
+      "lo",
+      "ms",
+      "no",
+      "pl",
+      "pt",
+      "ru",
+      "es",
+      "sw",
+      "sv",
+      "tl",
+      "th",
+      "tr",
+      "vi",
+      "arxiv:2509.24650",
+      "license:apache-2.0",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

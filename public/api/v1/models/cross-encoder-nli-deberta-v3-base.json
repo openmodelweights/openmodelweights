@@ -1,0 +1,281 @@
+{
+  "id": "cross-encoder-nli-deberta-v3-base",
+  "name": "nli-deberta-v3-base",
+  "developer": "cross-encoder",
+  "family": "nli-deberta-v3",
+  "variant": "nli-deberta-v3-base",
+  "model": {
+    "parameters": "0.184425B",
+    "total_parameters_billions": 0.184424963,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Zero Shot Classification",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "deberta-v2",
+      "text-classification",
+      "transformers",
+      "zero-shot-classification",
+      "en",
+      "dataset:nyu-mll/multi_nli",
+      "dataset:stanfordnlp/snli",
+      "base_model:microsoft/deberta-v3-base",
+      "base_model:quantized:microsoft/deberta-v3-base",
+      "license:apache-2.0",
+      "region:us",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/cross-encoder/nli-deberta-v3-base",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "onnx/model.onnx",
+      "onnx/model_O1.onnx",
+      "onnx/model_O2.onnx",
+      "onnx/model_O3.onnx",
+      "onnx/model_O4.onnx",
+      "onnx/model_qint8_arm64.onnx",
+      "onnx/model_qint8_avx512.onnx",
+      "onnx/model_qint8_avx512_vnni.onnx",
+      "onnx/model_quint8_avx2.onnx",
+      "pytorch_model.bin"
+    ],
+    "file_count": 11,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-base",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.37,
+      "fp8_int8": 0.18,
+      "int4": 0.09
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "nli-deberta-v3",
+    "variant": "nli-deberta-v3-base",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "microsoft/deberta-v3-base"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "nyu-mll/multi_nli",
+        "stanfordnlp/snli"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/cross-encoder/nli-deberta-v3-base",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/cross-encoder/nli-deberta-v3-base",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/cross-encoder/nli-deberta-v3-base/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/cross-encoder/nli-deberta-v3-base/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "cross-encoder/nli-deberta-v3-base",
+    "rank": 664,
+    "downloads": 738877,
+    "likes": 50,
+    "last_modified": "2025-04-11T09:56:48+00:00",
+    "created_at": "2022-03-02T23:29:05+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-04-11T09:56:48.000Z",
+    "created_at": "2022-03-02T23:29:05.000Z",
+    "downloads": 738877,
+    "likes": 50,
+    "sha": "6c749ce3425cd33b46d187e45b92bbf96ee12ec7",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "zero-shot-classification",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "deberta-v2",
+      "text-classification",
+      "transformers",
+      "zero-shot-classification",
+      "en",
+      "dataset:nyu-mll/multi_nli",
+      "dataset:stanfordnlp/snli",
+      "base_model:microsoft/deberta-v3-base",
+      "base_model:quantized:microsoft/deberta-v3-base",
+      "license:apache-2.0",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

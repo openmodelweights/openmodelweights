@@ -1,0 +1,260 @@
+{
+  "id": "kblab-wav2vec2-large-voxrex-swedish",
+  "name": "wav2vec2-large-voxrex-swedish",
+  "developer": "KBLab",
+  "family": "wav2vec2-large-voxrex-swedish",
+  "variant": "wav2vec2-large-voxrex-swedish",
+  "model": {
+    "parameters": "0.315486B",
+    "total_parameters_billions": 0.31548587,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Audio → text",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "audio",
+      "speech",
+      "hf-asr-leaderboard",
+      "sv",
+      "dataset:common_voice",
+      "dataset:NST_Swedish_ASR_Database",
+      "dataset:P4",
+      "arxiv:2205.03026",
+      "license:cc0-1.0",
+      "model-index",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/KBLab/wav2vec2-large-voxrex-swedish",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "cc0-1.0",
+    "name": "cc0-1.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.63,
+      "fp8_int8": 0.32,
+      "int4": 0.16
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "wav2vec2-large-voxrex-swedish",
+    "variant": "wav2vec2-large-voxrex-swedish",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/KBLab/wav2vec2-large-voxrex"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "common_voice",
+        "NST_Swedish_ASR_Database",
+        "P4"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/KBLab/wav2vec2-large-voxrex-swedish",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "KBLab/wav2vec2-large-voxrex-swedish",
+    "rank": 739,
+    "downloads": 845302,
+    "likes": 14,
+    "last_modified": "2025-05-22T20:24:41+00:00",
+    "created_at": "2022-03-02T23:29:04+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-05-22T20:24:41.000Z",
+    "created_at": "2022-03-02T23:29:04.000Z",
+    "downloads": 845302,
+    "likes": 14,
+    "sha": "ca70e31c06a2617bf7fe3b4fb5d387d2b19b2983",
+    "library_name": "transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "audio",
+      "speech",
+      "hf-asr-leaderboard",
+      "sv",
+      "dataset:common_voice",
+      "dataset:NST_Swedish_ASR_Database",
+      "dataset:P4",
+      "arxiv:2205.03026",
+      "license:cc0-1.0",
+      "model-index",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

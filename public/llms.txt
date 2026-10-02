@@ -1,7 +1,7 @@
 # Open Model Weights
 > Field-verified registry for open-weight AI models.
 
-Current registry: 107 field-verified model records.
+Current registry: 700 field-verified model records.
 Latest verification: 2026-10-02.
 
 ## Registry
@@ -19,3 +19,12 @@ Latest verification: 2026-10-02.
 - https://openmodelweights.com/changes.json — machine-readable change feed
 
 A value such as “not disclosed” means the checked standard metadata/model-card/config sources did not provide it; it is not an inference that the information does not exist elsewhere.
+
+
+## Machine-readable
+- https://openmodelweights.com/api/ — API documentation
+- https://openmodelweights.com/api/v1/meta.json — registry metadata
+- https://openmodelweights.com/api/v1/models.json — compact 700-model index
+- https://openmodelweights.com/api/v1/changes.json — change history
+- https://openmodelweights.com/openapi.json — OpenAPI 3.1 document
+- https://openmodelweights.com/sources/ — source and evidence policy

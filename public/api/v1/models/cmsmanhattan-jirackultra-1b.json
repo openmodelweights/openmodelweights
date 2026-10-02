@@ -1,0 +1,284 @@
+{
+  "id": "cmsmanhattan-jirackultra-1b",
+  "name": "JiRackUltra_1b",
+  "developer": "CMSManhattan",
+  "family": "JiRackUltra",
+  "variant": "JiRackUltra_1b",
+  "model": {
+    "parameters": "1.77709B",
+    "total_parameters_billions": 1.777088,
+    "context": {
+      "value": 131072,
+      "display": "131,072 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation",
+      "ternary",
+      "bitnet",
+      "1.58bit",
+      "cpu",
+      "qwen2.5",
+      "deepseek",
+      "efficient",
+      "low-memory",
+      "jirack",
+      "web-ui",
+      "routing",
+      "tool-call",
+      "robotics",
+      "conversational",
+      "en",
+      "zh"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/CMSManhattan/JiRackUltra_1b",
+    "access": "public",
+    "exact_files": [
+      "JiRackUltra_1b.Q6_K.gguf",
+      "JiRackUltra_1b.Q8_0.gguf",
+      "JiRackUltra_1b.gguf",
+      "JiRackUltra_1b_Q3_K_M.gguf",
+      "JiRackUltra_1b_Q4_K_M.gguf",
+      "model.pt",
+      "model.safetensors"
+    ],
+    "file_count": 7,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "GGUF"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/CMSManhattan/JiRackUltra_1b",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 3.55,
+      "fp8_int8": 1.78,
+      "int4": 0.89
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "JiRackUltra",
+    "variant": "JiRackUltra_1b",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "recipe-or-training-files-present",
+      "files": [
+        "train_jirack_1b_lambda_warmup.py",
+        "train_toolace_toolcalling_lora_ultra.py"
+      ],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/CMSManhattan/JiRackUltra_1b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/CMSManhattan/JiRackUltra_1b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/CMSManhattan/JiRackUltra_1b/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/CMSManhattan/JiRackUltra_1b/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "recipe-or-training-files-present",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "CMSManhattan/JiRackUltra_1b",
+    "rank": 563,
+    "downloads": 2532192,
+    "likes": 0,
+    "last_modified": "2026-10-01T18:10:57+00:00",
+    "created_at": "2026-08-02T18:03:05+00:00",
+    "library_name": null,
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": "text-generation",
+    "declared": [],
+    "mentioned_in_model_card": [
+      "ONNX Runtime",
+      "Ollama",
+      "llama.cpp"
+    ],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-10-01T18:10:57.000Z",
+    "created_at": "2026-08-02T18:03:05.000Z",
+    "downloads": 2532192,
+    "likes": 0,
+    "sha": "18cbff46548f6f7acea6dc78d997514df50a7ec2",
+    "library_name": null,
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "safetensors",
+      "gguf",
+      "qwen2",
+      "text-generation",
+      "ternary",
+      "bitnet",
+      "1.58bit",
+      "cpu",
+      "qwen2.5",
+      "deepseek",
+      "efficient",
+      "low-memory",
+      "jirack",
+      "web-ui",
+      "routing",
+      "tool-call",
+      "robotics",
+      "conversational",
+      "en",
+      "zh",
+      "ja",
+      "ko",
+      "fr",
+      "es",
+      "pt",
+      "de",
+      "it",
+      "ru",
+      "ar",
+      "vi",
+      "th",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

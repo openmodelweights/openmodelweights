@@ -1,0 +1,266 @@
+{
+  "id": "briaai-rmbg-2-0",
+  "name": "RMBG-2.0",
+  "developer": "briaai",
+  "family": "RMBG-2.0",
+  "variant": "RMBG-2.0",
+  "model": {
+    "parameters": "0.2207B",
+    "total_parameters_billions": 0.220700242,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "image-segmentation",
+      "remove background",
+      "background",
+      "background-removal",
+      "Pytorch",
+      "vision",
+      "legal liability",
+      "transformers.js",
+      "custom_code",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/briaai/RMBG-2.0",
+    "access": "gated (auto)",
+    "exact_files": [
+      "model.safetensors",
+      "onnx/model.onnx",
+      "onnx/model_bnb4.onnx",
+      "onnx/model_fp16.onnx",
+      "onnx/model_int8.onnx",
+      "onnx/model_q4.onnx",
+      "onnx/model_q4f16.onnx",
+      "onnx/model_quantized.onnx",
+      "onnx/model_uint8.onnx",
+      "pytorch_model.bin"
+    ],
+    "file_count": 10,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/briaai/RMBG-2.0",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+    "status": "verified",
+    "commercial_use": {
+      "status": "not-allowed",
+      "label": "Commercial use is not permitted by CC BY-NC 4.0",
+      "basis": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.44,
+      "fp8_int8": 0.22,
+      "int4": 0.11
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "RMBG-2.0",
+    "variant": "RMBG-2.0",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/briaai/RMBG-2.0",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/briaai/RMBG-2.0",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/briaai/RMBG-2.0/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/briaai/RMBG-2.0/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "briaai/RMBG-2.0",
+    "rank": 456,
+    "downloads": 478722,
+    "likes": 1493,
+    "last_modified": "2026-04-06T15:27:43+00:00",
+    "created_at": "2024-10-29T12:14:36+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-segmentation",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-segmentation",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-04-06T15:27:43.000Z",
+    "created_at": "2024-10-29T12:14:36.000Z",
+    "downloads": 478722,
+    "likes": 1493,
+    "sha": "5df4c9c76d8170882c34f6986e848ee07fd0ba43",
+    "library_name": "transformers",
+    "pipeline_tag": "image-segmentation",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "image-segmentation",
+      "remove background",
+      "background",
+      "background-removal",
+      "Pytorch",
+      "vision",
+      "legal liability",
+      "transformers.js",
+      "custom_code",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

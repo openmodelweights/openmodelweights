@@ -1,0 +1,242 @@
+{
+  "id": "qwen-drive-1-0-4b",
+  "name": "Qwen-Drive-1.0-4B",
+  "developer": "Qwen",
+  "family": "Qwen Drive",
+  "variant": "Qwen-Drive-1.0-4B",
+  "model": {
+    "parameters": "5B",
+    "total_parameters_billions": 5.0,
+    "context": {
+      "value": 32768,
+      "display": "32,768 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "vlm_config.text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "image + text → text",
+      "qwen drive"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "perception/model.safetensors",
+      "planner-rl/model.safetensors",
+      "planner-sft/model.safetensors"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Qwen/Qwen-Drive-1.0-4B",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 10.0,
+      "fp8_int8": 5.0,
+      "int4": 2.5
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen Drive",
+    "variant": "Qwen-Drive-1.0-4B",
+    "parent": "not-yet-verified",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3.5-4B"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen-Drive-1.0-4B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: source-linked."
+      }
+    ],
+    "mode": "repository-revision-unchanged",
+    "full_verified_at": "2026-10-02"
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-02T06:31:52.000Z",
+    "downloads": 7467,
+    "likes": 236,
+    "sha": "28484089a7cc8c335cf5089fb0745cf7c49b6eaa",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen_drive",
+      "autonomous-driving",
+      "motion-planning",
+      "3d-perception",
+      "visual-question-answering",
+      "qwen",
+      "image-text-to-text",
+      "conversational",
+      "arxiv:2609.00111",
+      "base_model:Qwen/Qwen3.5-4B",
+      "base_model:finetune:Qwen/Qwen3.5-4B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-08-27T08:14:27.000Z"
+  },
+  "discovery": {
+    "source": "Open Model Weights curated seed",
+    "pinned": true,
+    "repo_id": "Qwen/Qwen-Drive-1.0-4B"
+  }
+}

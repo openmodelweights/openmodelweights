@@ -1,0 +1,261 @@
+{
+  "id": "nvidia-personaplex-7b-v1",
+  "name": "personaplex-7b-v1",
+  "developer": "NVIDIA",
+  "family": "personaplex",
+  "variant": "personaplex-7b-v1",
+  "model": {
+    "parameters": "8.37141B",
+    "total_parameters_billions": 8.371408896,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Audio To Audio",
+    "tags": [
+      "moshi",
+      "safetensors",
+      "personaplex",
+      "speech-to-speech",
+      "agent",
+      "audio-to-audio",
+      "en",
+      "arxiv:2602.06053",
+      "arxiv:2503.04721",
+      "arxiv:2110.13900",
+      "arxiv:2410.00037",
+      "base_model:kyutai/moshiko-pytorch-bf16",
+      "base_model:finetune:kyutai/moshiko-pytorch-bf16",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/personaplex-7b-v1",
+    "access": "gated (auto)",
+    "exact_files": [
+      "model.safetensors",
+      "tokenizer-e351c8d8-checkpoint125.safetensors"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/personaplex-7b-v1",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "nvidia-open-model-license",
+    "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercially usable subject to NVIDIA license conditions",
+      "basis": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 16.74,
+      "fp8_int8": 8.37,
+      "int4": 4.19
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "personaplex",
+    "variant": "personaplex-7b-v1",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "kyutai/moshiko-pytorch-bf16"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/personaplex-7b-v1",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/personaplex-7b-v1",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/personaplex-7b-v1/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/personaplex-7b-v1/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/personaplex-7b-v1",
+    "rank": 696,
+    "downloads": 186223,
+    "likes": 2778,
+    "last_modified": "2026-03-02T18:03:29+00:00",
+    "created_at": "2025-12-31T17:01:00+00:00",
+    "library_name": "moshi",
+    "pipeline_tag": "audio-to-audio",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "moshi",
+    "pipeline_tag": "audio-to-audio",
+    "declared": [
+      "moshi"
+    ],
+    "mentioned_in_model_card": [
+      "NeMo"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-03-02T18:03:29.000Z",
+    "created_at": "2025-12-31T17:01:00.000Z",
+    "downloads": 186223,
+    "likes": 2778,
+    "sha": "fdaf4090a61cb315c138a1faee287ffd6c716309",
+    "library_name": "moshi",
+    "pipeline_tag": "audio-to-audio",
+    "tags": [
+      "moshi",
+      "safetensors",
+      "personaplex",
+      "speech-to-speech",
+      "agent",
+      "audio-to-audio",
+      "en",
+      "arxiv:2602.06053",
+      "arxiv:2503.04721",
+      "arxiv:2110.13900",
+      "arxiv:2410.00037",
+      "base_model:kyutai/moshiko-pytorch-bf16",
+      "base_model:finetune:kyutai/moshiko-pytorch-bf16",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "id": "nvidia-nemotron-3-embed-1b-bf16",
+  "name": "Nemotron-3-Embed-1B-BF16",
+  "developer": "NVIDIA",
+  "family": "Nemotron-3-Embed",
+  "variant": "Nemotron-3-Embed-1B-BF16",
+  "model": {
+    "parameters": "1.14092B",
+    "total_parameters_billions": 1.140918272,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text embeddings",
+    "tags": [
+      "sentence-transformers",
+      "safetensors",
+      "ministral3",
+      "feature-extraction",
+      "text",
+      "text-embeddings",
+      "retrieval",
+      "semantic-search",
+      "transformers",
+      "rag",
+      "vllm",
+      "sentence-similarity",
+      "multilingual",
+      "en",
+      "ar",
+      "as",
+      "bn",
+      "bg",
+      "zh",
+      "da"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/Nemotron-3-Embed-1B-BF16",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "openmdw-1.1",
+    "url": "https://openmdw.ai/license/1-1/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercially usable subject to NVIDIA license conditions",
+      "basis": "https://openmdw.ai/license/1-1/"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://openmdw.ai/license/1-1/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 2.28,
+      "fp8_int8": 1.14,
+      "int4": 0.57
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Nemotron-3-Embed",
+    "variant": "Nemotron-3-Embed-1B-BF16",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "mistralai/Ministral-3-3B-Instruct-2512"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/Nemotron-3-Embed-1B-BF16",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://openmdw.ai/license/1-1/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/Nemotron-3-Embed-1B-BF16",
+    "rank": 688,
+    "downloads": 400178,
+    "likes": 158,
+    "last_modified": "2026-08-27T23:53:03+00:00",
+    "created_at": "2026-07-14T07:32:18+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "declared": [
+      "Transformers",
+      "sentence-transformers",
+      "vLLM"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-27T23:53:03.000Z",
+    "created_at": "2026-07-14T07:32:18.000Z",
+    "downloads": 400178,
+    "likes": 158,
+    "sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "tags": [
+      "sentence-transformers",
+      "safetensors",
+      "ministral3",
+      "feature-extraction",
+      "text",
+      "text-embeddings",
+      "retrieval",
+      "semantic-search",
+      "transformers",
+      "rag",
+      "vllm",
+      "sentence-similarity",
+      "multilingual",
+      "en",
+      "ar",
+      "as",
+      "bn",
+      "bg",
+      "zh",
+      "da",
+      "nl",
+      "fi",
+      "fr",
+      "de",
+      "hi",
+      "id",
+      "it",
+      "ja",
+      "ko",
+      "ms",
+      "mr",
+      "ne",
+      "no",
+      "fa",
+      "pt",
+      "ro",
+      "ru",
+      "es",
+      "sw",
+      "sv",
+      "ta",
+      "te",
+      "th",
+      "uk",
+      "ur",
+      "vi",
+      "arxiv:2407.14679",
+      "arxiv:2502.13595",
+      "base_model:mistralai/Ministral-3-3B-Instruct-2512",
+      "base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512",
+      "license:other",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

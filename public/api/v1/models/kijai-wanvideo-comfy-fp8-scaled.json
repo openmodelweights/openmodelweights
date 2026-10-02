@@ -1,0 +1,292 @@
+{
+  "id": "kijai-wanvideo-comfy-fp8-scaled",
+  "name": "WanVideo_comfy_fp8_scaled",
+  "developer": "Kijai",
+  "family": "WanVideo_comfy_fp8_scaled",
+  "variant": "WanVideo_comfy_fp8_scaled",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:Wan-AI/Wan2.1-VACE-1.3B",
+      "base_model:finetune:Wan-AI/Wan2.1-VACE-1.3B",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled",
+    "access": "public",
+    "exact_files": [
+      "Bindweave/Wan2_1-I2V-14B-Bindweave_fp8_scaled_KJ.safetensors",
+      "ChronoEdit/Wan2_1-14B-I2V_ChronoEdit_fp8_scaled_KJ.safetensors",
+      "Fun/MTVCrafter/Wan2_1-I2V-14B-MTV-Crafter_fp8_e4m3fn_scaled_KJ.safetensors",
+      "Fun/Wan2_2-Fun-Control-A14B-HIGH_fp8_e4m3fn_scaled_KJ_fixed.safetensors",
+      "Fun/Wan2_2-Fun-Control-A14B-HIGH_fp8_e5m2_scaled_KJ_fixed.safetensors",
+      "Fun/Wan2_2-Fun-Control-A14B-LOW_fp8_e4m3fn_scaled_KJ_fixed.safetensors",
+      "Fun/Wan2_2-Fun-Control-A14B-LOW_fp8_e5m2_scaled_KJ_fixed.safetensors",
+      "Fun/Wan2_2-Fun-Control-Camera-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+      "Fun/Wan2_2-Fun-Control-Camera-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+      "Fun/Wan2_2-Fun-InP-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+      "Fun/Wan2_2-Fun-InP-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+      "HuMo/Wan2_1-HuMo-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "HuMo/Wan2_1-HuMo-14B_fp8_e5m2_scaled_KJ.safetensors",
+      "I2V/AniSora/Wan2_1-I2V-14B-AniSoraV3_fp8_e4m3fn_scaled_KJ.safetensors",
+      "I2V/AniSora/Wan2_1-I2V-14B-AniSoraV3_fp8_e5m2_scaled_KJ.safetensors",
+      "I2V/AniSora/Wan2_2-I2V_AniSoraV3_2_HIGH_14B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "I2V/AniSora/Wan2_2-I2V_AniSoraV3_2_LOW_14B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "I2V/Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors",
+      "I2V/Wan2_1-I2V-14B-480p_fp8_e5m2_scaled_KJ.safetensors",
+      "I2V/Wan2_1-I2V-14B-720p_fp8_e4m3fn_scaled_KJ.safetensors",
+      "I2V/Wan2_1-I2V-14B-720p_fp8_e5m2_scaled_KJ.safetensors",
+      "I2V/Wan2_1-I2V-14B-MAGREF_fp8_e4m3fn_scaled_KJ.safetensors",
+      "I2V/Wan2_1-I2V-14B-MAGREF_fp8_e5m2_scaled_KJ.safetensors",
+      "I2V/Wan2_2-I2V-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+      "I2V/Wan2_2-I2V-A14B-HIGH_fp8_e5m2_scaled_KJ.safetensors",
+      "I2V/Wan2_2-I2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+      "I2V/Wan2_2-I2V-A14B-LOW_fp8_e5m2_scaled_KJ.safetensors",
+      "InfiniteTalk/Wan2_1-InfiniteTalk-Multi_fp8_e4m3fn_scaled_KJ.safetensors",
+      "InfiniteTalk/Wan2_1-InfiniteTalk-Multi_fp8_e5m2_scaled_KJ.safetensors",
+      "InfiniteTalk/Wan2_1-InfiniteTalk-Single_fp8_e4m3fn_scaled_KJ.safetensors",
+      "InfiniteTalk/Wan2_1-InfiniteTalk-Single_fp8_e5m2_scaled_KJ.safetensors",
+      "MoCha/Wan2_1_mocha-14B-preview_fp8_e4m3fn_scaled_KJ.safetensors",
+      "OneToAllAnimation/Wan21-OneToAllAnimation_fp8_e4m3fn_scaled_KJ.safetensors",
+      "S2V/Wan2_1-S2V-14B_fp8_e5m2_scaled_KJ.safetensors",
+      "S2V/Wan2_2-S2V-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "SCAIL/Wan21-14B-SCAIL-preview_fp8_e4m3fn_scaled_KJ.safetensors",
+      "SCAIL/Wan21-14B-SCAIL-preview_fp8_scaled_mixed.safetensors",
+      "SkyReelsV3/Wan21-SkyReelsV3-A2V_fp8_scaled_mixed.safetensors",
+      "SkyReelsV3/Wan21-SkyReelsV3-V2V_fp8_scaled_mixed.safetensors",
+      "SkyReelsV3/Wan21-SkyReelsV3-V2V_shot_fp8_scaled_mixed.safetensors",
+      "SkyReelsV3/Wan21_SkyReelsV3-R2V_fp8_scaled_mixed.safetensors",
+      "SteadyDancer/Wan21_SteadyDancer_fp8_e4m3fn_scaled_KJ.safetensors",
+      "T2V/HoloCine/Wan2_2-T2V-A14B-HIGH-HoloCine-full_fp8_e4m3fn_scaled_KJ.safetensors",
+      "T2V/HoloCine/Wan2_2-T2V-A14B-LOW-HoloCine-full_fp8_e4m3fn_scaled_KJ.safetensors",
+      "T2V/Wan2_1-T2V-14B-FastWan-480p_fp8_e4m3fn_scaled_KJ.safetensors",
+      "T2V/Wan2_1-T2V-14B-Phantom_fp8_e4m3fn_scaled_KJ.safetensors",
+      "T2V/Wan2_1-T2V-14B-Phantom_fp8_e5m2_scaled_KJ.safetensors",
+      "T2V/Wan2_1-T2V-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "T2V/Wan2_1-T2V-14B_fp8_e5m2_scaled_KJ.safetensors",
+      "T2V/Wan2_2-T2V-A14B-HIGH_4_steps-250928-dyno-lightx2v_fp8_e4m3fn_scaled_KJ.safetensors",
+      "T2V/Wan2_2-T2V-A14B-HIGH_fp8_e5m2_scaled_KJ.safetensors",
+      "T2V/Wan2_2-T2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+      "T2V/Wan2_2-T2V-A14B-LOW_fp8_e5m2_scaled_KJ.safetensors",
+      "T2V/Wan2_2-T2V-A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+      "TI2V/Ovi/Wan2_2-5B-Ovi_960x960_10s_fp8_e4m3fn_scaled_KJ.safetensors",
+      "TI2V/Ovi/Wan2_2-5B-Ovi_960x960_fp8_e4m3fn_scaled_KJ.safetensors",
+      "TI2V/Ovi/Wan2_2_Ovi_Audio_fp8_e4m3fn_scaled_KJ.safetensors",
+      "TI2V/Ovi/Wan2_2_Ovi_Video_fp8_e4m3fn_scaled_KJ.safetensors",
+      "TI2V/Wan2_2-TI2V-5B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "TI2V/Wan2_2-TI2V-5B_fp8_e5m2_scaled_KJ.safetensors",
+      "VACE/Wan2_1-VACE-module-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "VACE/Wan2_2_Fun_VACE_module_A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+      "VACE/Wan2_2_Fun_VACE_module_A14B_HIGH_fp8_e5m2_scaled_KJ.safetensors",
+      "VACE/Wan2_2_Fun_VACE_module_A14B_LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+      "VACE/Wan2_2_Fun_VACE_module_A14B_LOW_fp8_e5m2_scaled_KJ.safetensors",
+      "Video-as-prompt/Wan2_1-I2V-14B-VAP_module_fp8_scaled_KJ.safetensors",
+      "Wan22Animate/Wan2_2-Animate-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+      "Wan22Animate/Wan2_2-Animate-14B_fp8_e5m2_scaled_KJ.safetensors",
+      "Wan22Animate/Wan2_2-Animate-14B_fp8_scaled_e4m3fn_KJ_v2.safetensors",
+      "Wan22Animate/Wan2_2-Animate-14B_fp8_scaled_e5m2_KJ_v2.safetensors",
+      "WanMove/Wan21-WanMove_fp8_scaled_e4m3fn_KJ.safetensors"
+    ],
+    "file_count": 71,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Kijai/WanVideo_comfy_fp8_scaled",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "WanVideo_comfy_fp8_scaled",
+    "variant": "WanVideo_comfy_fp8_scaled",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Wan-AI/Wan2.1-VACE-14B",
+        "Wan-AI/Wan2.1-VACE-1.3B"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Kijai/WanVideo_comfy_fp8_scaled",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Kijai/WanVideo_comfy_fp8_scaled",
+    "rank": 425,
+    "downloads": 613943,
+    "likes": 737,
+    "last_modified": "2026-06-13T15:47:09+00:00",
+    "created_at": "2025-07-22T10:39:42+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-06-13T15:47:09.000Z",
+    "created_at": "2025-07-22T10:39:42.000Z",
+    "downloads": 613943,
+    "likes": 737,
+    "sha": "033a4e487f60220b3d6e469599a6aebc46e13cee",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:Wan-AI/Wan2.1-VACE-1.3B",
+      "base_model:finetune:Wan-AI/Wan2.1-VACE-1.3B",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

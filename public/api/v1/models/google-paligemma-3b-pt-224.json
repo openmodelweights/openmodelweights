@@ -1,0 +1,272 @@
+{
+  "id": "google-paligemma-3b-pt-224",
+  "name": "paligemma-3b-pt-224",
+  "developer": "Google",
+  "family": "paligemma",
+  "variant": "paligemma-3b-pt-224",
+  "model": {
+    "parameters": "2.92347B",
+    "total_parameters_billions": 2.92346648,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "paligemma",
+      "image-text-to-text",
+      "arxiv:2310.09199",
+      "arxiv:2303.15343",
+      "arxiv:2403.08295",
+      "arxiv:1706.03762",
+      "arxiv:2010.11929",
+      "arxiv:2209.06794",
+      "arxiv:2209.04372",
+      "arxiv:2103.01913",
+      "arxiv:2205.12522",
+      "arxiv:2110.11624",
+      "arxiv:2108.03353",
+      "arxiv:2010.04295",
+      "arxiv:2401.06209",
+      "arxiv:2305.10355",
+      "arxiv:2203.10244",
+      "arxiv:1810.12440"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/google/paligemma-3b-pt-224",
+    "access": "gated (manual)",
+    "exact_files": [
+      "model-00001-of-00003.safetensors",
+      "model-00002-of-00003.safetensors",
+      "model-00003-of-00003.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/google/paligemma-3b-pt-224",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "gemma",
+    "name": "gemma",
+    "url": "https://ai.google.dev/gemma/terms",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercial use permitted subject to Gemma Terms",
+      "basis": "https://ai.google.dev/gemma/terms"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://ai.google.dev/gemma/terms"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 5.85,
+      "fp8_int8": 2.92,
+      "int4": 1.46
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "paligemma",
+    "variant": "paligemma-3b-pt-224",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/google/paligemma-3b-pt-224",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/google/paligemma-3b-pt-224",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/google/paligemma-3b-pt-224/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/google/paligemma-3b-pt-224/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://ai.google.dev/gemma/terms",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "google/paligemma-3b-pt-224",
+    "rank": 745,
+    "downloads": 273277,
+    "likes": 611,
+    "last_modified": "2024-09-21T10:14:25+00:00",
+    "created_at": "2024-05-12T22:53:40+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-09-21T10:14:25.000Z",
+    "created_at": "2024-05-12T22:53:40.000Z",
+    "downloads": 273277,
+    "likes": 611,
+    "sha": "35e4f46485b4d07967e7e9935bc3786aad50687c",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "paligemma",
+      "image-text-to-text",
+      "arxiv:2310.09199",
+      "arxiv:2303.15343",
+      "arxiv:2403.08295",
+      "arxiv:1706.03762",
+      "arxiv:2010.11929",
+      "arxiv:2209.06794",
+      "arxiv:2209.04372",
+      "arxiv:2103.01913",
+      "arxiv:2205.12522",
+      "arxiv:2110.11624",
+      "arxiv:2108.03353",
+      "arxiv:2010.04295",
+      "arxiv:2401.06209",
+      "arxiv:2305.10355",
+      "arxiv:2203.10244",
+      "arxiv:1810.12440",
+      "arxiv:1905.13648",
+      "arxiv:1608.00272",
+      "arxiv:1908.04913",
+      "arxiv:2407.07726",
+      "license:gemma",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

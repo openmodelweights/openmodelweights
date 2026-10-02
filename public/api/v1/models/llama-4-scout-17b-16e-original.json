@@ -1,0 +1,258 @@
+{
+  "id": "llama-4-scout-17b-16e-original",
+  "name": "Llama-4-Scout-17B-16E-Original",
+  "developer": "Meta",
+  "family": "Llama 4 Scout",
+  "variant": "Llama-4-Scout-17B-16E-Original",
+  "model": {
+    "parameters": "109B",
+    "total_parameters_billions": 109.0,
+    "context": {
+      "value": 128000,
+      "display": "128,000 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "explicit context statement"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "image + text → text",
+      "llama 4 scout"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Original",
+    "access": "gated (manual)",
+    "exact_files": [
+      "consolidated.00.pth",
+      "consolidated.01.pth",
+      "consolidated.02.pth",
+      "consolidated.03.pth",
+      "consolidated.04.pth",
+      "consolidated.05.pth",
+      "consolidated.06.pth",
+      "consolidated.07.pth"
+    ],
+    "file_count": 8,
+    "formats": [
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/meta-llama/Llama-4-Scout-17B-16E-Original",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "llama4",
+    "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercial use allowed subject to Llama community-license conditions",
+      "basis": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 218.0,
+      "fp8_int8": 109.0,
+      "int4": 54.5
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Llama 4 Scout",
+    "variant": "Llama-4-Scout-17B-16E-Original",
+    "parent": "not-yet-verified",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://www.llama.com/llama-downloads",
+        "https://github.com/meta-llama/llama-models/blob/main/README.md",
+        "https://github.com/meta-llama/llama-cookbook",
+        "https://ai.meta.com/research/no-language-left-behind/"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Original",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/meta-llama/Llama-4-Scout-17B-16E-Original",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Original/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Original/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: source-linked."
+      }
+    ],
+    "mode": "repository-revision-unchanged",
+    "full_verified_at": "2026-10-02"
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": null,
+    "declared": [],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-04-05T22:35:07.000Z",
+    "downloads": 10,
+    "likes": 62,
+    "sha": "80eeefb1d87c2cef9341b7e63f53318404e7cb3f",
+    "library_name": null,
+    "pipeline_tag": null,
+    "tags": [
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama",
+      "llama-4",
+      "ar",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "id",
+      "it",
+      "pt",
+      "th",
+      "tl",
+      "vi",
+      "arxiv:2204.05149",
+      "license:other",
+      "region:us"
+    ],
+    "created_at": "2025-04-03T15:06:08.000Z"
+  },
+  "discovery": {
+    "source": "Open Model Weights curated seed",
+    "pinned": true,
+    "repo_id": "meta-llama/Llama-4-Scout-17B-16E-Original"
+  }
+}

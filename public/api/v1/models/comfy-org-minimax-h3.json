@@ -1,0 +1,260 @@
+{
+  "id": "comfy-org-minimax-h3",
+  "name": "MiniMax-H3",
+  "developer": "Comfy-Org",
+  "family": "MiniMax-H3",
+  "variant": "MiniMax-H3",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:MiniMaxAI/MiniMax-H3",
+      "base_model:finetune:MiniMaxAI/MiniMax-H3",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+    "access": "public",
+    "exact_files": [
+      "diffusion_models/minimax_h3_fl2va_bf16.safetensors",
+      "diffusion_models/minimax_h3_fl2va_int8_convrot.safetensors",
+      "diffusion_models/minimax_h3_fl2va_pruned_bf16.safetensors",
+      "diffusion_models/minimax_h3_fl2va_pruned_fp8_scaled.safetensors",
+      "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "diffusion_models/minimax_h3_fl2va_pruned_w6a8.safetensors",
+      "diffusion_models/minimax_h3_ref2va_bf16.safetensors",
+      "diffusion_models/minimax_h3_ref2va_int8_convrot.safetensors",
+      "diffusion_models/minimax_h3_ref2va_pruned_bf16.safetensors",
+      "diffusion_models/minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "diffusion_models/minimax_h3_ref2va_pruned_w6a8.safetensors",
+      "embeddings/minimaxh3_art_is_explosion.safetensors",
+      "embeddings/minimaxh3_blooming_flowers.safetensors",
+      "embeddings/minimaxh3_bullet_time.safetensors",
+      "embeddings/minimaxh3_dark_magic.safetensors",
+      "embeddings/minimaxh3_fire_breath.safetensors",
+      "embeddings/minimaxh3_four_seasons.safetensors",
+      "embeddings/minimaxh3_kiss_camera.safetensors",
+      "embeddings/minimaxh3_spiral_ascent.safetensors",
+      "embeddings/minimaxh3_storm_magic.safetensors",
+      "embeddings/minimaxh3_truman_show.safetensors",
+      "loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+      "loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+      "loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_bf16.safetensors",
+      "model_patches/minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
+      "model_patches/minimax_h3_fun_controlnet_union_pruned_bf16.safetensors",
+      "model_patches/minimax_h3_fun_controlnet_union_pruned_int8_convrot.safetensors",
+      "text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors",
+      "text_encoders/qwen3vl_32b_minimax_h3_int8_convrot.safetensors",
+      "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "vae/minimax_h3_audio_vae_fp32.safetensors",
+      "vae/minimax_h3_video_vae_fp16.safetensors",
+      "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+    ],
+    "file_count": 35,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Comfy-Org/MiniMax-H3",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "minimax-h3-community-license-agreement",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "MiniMax-H3",
+    "variant": "MiniMax-H3",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "MiniMaxAI/MiniMax-H3"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Comfy-Org/MiniMax-H3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Comfy-Org/MiniMax-H3",
+    "rank": 114,
+    "downloads": 22813102,
+    "likes": 2091,
+    "last_modified": "2026-09-29T11:11:09+00:00",
+    "created_at": "2026-07-30T22:36:12+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-29T11:11:09.000Z",
+    "created_at": "2026-07-30T22:36:12.000Z",
+    "downloads": 22813102,
+    "likes": 2091,
+    "sha": "e5eb578a89295337b8ff433a035929ce0279e0b6",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:MiniMaxAI/MiniMax-H3",
+      "base_model:finetune:MiniMaxAI/MiniMax-H3",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

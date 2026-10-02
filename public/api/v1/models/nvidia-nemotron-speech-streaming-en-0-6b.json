@@ -1,0 +1,319 @@
+{
+  "id": "nvidia-nemotron-speech-streaming-en-0-6b",
+  "name": "nemotron-speech-streaming-en-0.6b",
+  "developer": "NVIDIA",
+  "family": "nemotron-speech-streaming-en",
+  "variant": "nemotron-speech-streaming-en-0.6b",
+  "model": {
+    "parameters": "0.618085B",
+    "total_parameters_billions": 0.618084865,
+    "context": {
+      "value": 5000,
+      "display": "5,000 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "encoder_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Audio → text",
+    "tags": [
+      "nemo",
+      "safetensors",
+      "gguf",
+      "nemotron_asr_streaming",
+      "feature-extraction",
+      "transformers",
+      "speech-recognition",
+      "cache-aware ASR",
+      "automatic-speech-recognition",
+      "streaming-asr",
+      "speech",
+      "audio",
+      "FastConformer",
+      "RNNT",
+      "Parakeet",
+      "ASR",
+      "pytorch",
+      "NeMo",
+      "hf-asr-leaderboard",
+      "dataset:nvidia/Granary"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "nemotron-speech-streaming-en-0.6b.nemo",
+      "nemotron-speech-streaming-en-0.6b.q8_0.gguf"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "GGUF",
+      "NeMo"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/nemotron-speech-streaming-en-0.6b",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "nvidia-open-model-license",
+    "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercially usable subject to NVIDIA license conditions",
+      "basis": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.24,
+      "fp8_int8": 0.62,
+      "int4": 0.31
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "nemotron-speech-streaming-en",
+    "variant": "nemotron-speech-streaming-en-0.6b",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://github.com/NVIDIA/NeMo"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "nvidia/Granary",
+        "YTC",
+        "Yodas2",
+        "LibriLight",
+        "librispeech_asr",
+        "fisher_corpus",
+        "Switchboard-1",
+        "WSJ-0",
+        "WSJ-1",
+        "National-Singapore-Corpus-Part-1",
+        "National-Singapore-Corpus-Part-6",
+        "vctk",
+        "voxpopuli",
+        "europarl",
+        "multilingual_librispeech",
+        "fleurs",
+        "mozilla-foundation/common_voice_8_0",
+        "MLCommons/peoples_speech",
+        "google/speech_commands"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/nemotron-speech-streaming-en-0.6b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/nemotron-speech-streaming-en-0.6b",
+    "rank": 609,
+    "downloads": 331849,
+    "likes": 632,
+    "last_modified": "2026-08-05T21:45:11+00:00",
+    "created_at": "2025-12-17T01:07:38+00:00",
+    "library_name": "nemo",
+    "pipeline_tag": "automatic-speech-recognition",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "NeMo",
+    "pipeline_tag": "automatic-speech-recognition",
+    "declared": [
+      "NeMo",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-05T21:45:11.000Z",
+    "created_at": "2025-12-17T01:07:38.000Z",
+    "downloads": 331849,
+    "likes": 632,
+    "sha": "ebe59e5a817142986528bbbee5dba8db7b38ed50",
+    "library_name": "nemo",
+    "pipeline_tag": "automatic-speech-recognition",
+    "tags": [
+      "nemo",
+      "safetensors",
+      "gguf",
+      "nemotron_asr_streaming",
+      "feature-extraction",
+      "transformers",
+      "speech-recognition",
+      "cache-aware ASR",
+      "automatic-speech-recognition",
+      "streaming-asr",
+      "speech",
+      "audio",
+      "FastConformer",
+      "RNNT",
+      "Parakeet",
+      "ASR",
+      "pytorch",
+      "NeMo",
+      "hf-asr-leaderboard",
+      "dataset:nvidia/Granary",
+      "dataset:YTC",
+      "dataset:Yodas2",
+      "dataset:LibriLight",
+      "dataset:librispeech_asr",
+      "dataset:fisher_corpus",
+      "dataset:Switchboard-1",
+      "dataset:WSJ-0",
+      "dataset:WSJ-1",
+      "dataset:National-Singapore-Corpus-Part-1",
+      "dataset:National-Singapore-Corpus-Part-6",
+      "dataset:vctk",
+      "dataset:voxpopuli",
+      "dataset:europarl",
+      "dataset:multilingual_librispeech",
+      "dataset:fleurs",
+      "dataset:mozilla-foundation/common_voice_8_0",
+      "dataset:MLCommons/peoples_speech",
+      "dataset:google/speech_commands",
+      "arxiv:2312.17279",
+      "arxiv:2305.05084",
+      "license:other",
+      "model-index",
+      "region:us"
+    ]
+  }
+}

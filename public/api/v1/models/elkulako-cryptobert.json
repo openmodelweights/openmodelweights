@@ -1,0 +1,272 @@
+{
+  "id": "elkulako-cryptobert",
+  "name": "cryptobert",
+  "developer": "ElKulako",
+  "family": "cryptobert",
+  "variant": "cryptobert",
+  "model": {
+    "parameters": "0.124648B",
+    "total_parameters_billions": 0.124648453,
+    "context": {
+      "value": 514,
+      "display": "514 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text Classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "roberta",
+      "text-classification",
+      "cryptocurrency",
+      "crypto",
+      "BERT",
+      "sentiment classification",
+      "NLP",
+      "bitcoin",
+      "ethereum",
+      "shib",
+      "social media",
+      "sentiment analysis",
+      "cryptocurrency sentiment analysis",
+      "en",
+      "dataset:ElKulako/stocktwits-crypto",
+      "license:mit",
+      "text-embeddings-inference"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/ElKulako/cryptobert",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/ElKulako/cryptobert",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.25,
+      "fp8_int8": 0.12,
+      "int4": 0.06
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "cryptobert",
+    "variant": "cryptobert",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/datasets/ElKulako/stocktwits-crypto"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "ElKulako/stocktwits-crypto"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/ElKulako/cryptobert",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/ElKulako/cryptobert",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/ElKulako/cryptobert/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/ElKulako/cryptobert/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "ElKulako/cryptobert",
+    "rank": 698,
+    "downloads": 452406,
+    "likes": 192,
+    "last_modified": "2025-05-26T11:52:00+00:00",
+    "created_at": "2022-06-20T02:29:26+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-classification",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-05-26T11:52:00.000Z",
+    "created_at": "2022-06-20T02:29:26.000Z",
+    "downloads": 452406,
+    "likes": 192,
+    "sha": "9e37c910fe87727cb842a9ac55c6388256fe0f15",
+    "library_name": "transformers",
+    "pipeline_tag": "text-classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "roberta",
+      "text-classification",
+      "cryptocurrency",
+      "crypto",
+      "BERT",
+      "sentiment classification",
+      "NLP",
+      "bitcoin",
+      "ethereum",
+      "shib",
+      "social media",
+      "sentiment analysis",
+      "cryptocurrency sentiment analysis",
+      "en",
+      "dataset:ElKulako/stocktwits-crypto",
+      "license:mit",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

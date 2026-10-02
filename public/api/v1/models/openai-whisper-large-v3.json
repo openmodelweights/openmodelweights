@@ -1,0 +1,359 @@
+{
+  "id": "openai-whisper-large-v3",
+  "name": "whisper-large-v3",
+  "developer": "OpenAI",
+  "family": "whisper-large-v3",
+  "variant": "whisper-large-v3",
+  "model": {
+    "parameters": "1.54349B",
+    "total_parameters_billions": 1.54349056,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Audio → text",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "jax",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "audio",
+      "hf-asr-leaderboard",
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/openai/whisper-large-v3",
+    "access": "public",
+    "exact_files": [
+      "model.fp32-00001-of-00002.safetensors",
+      "model.fp32-00002-of-00002.safetensors",
+      "model.safetensors",
+      "pytorch_model.bin",
+      "pytorch_model.fp32-00001-of-00002.bin",
+      "pytorch_model.fp32-00002-of-00002.bin"
+    ],
+    "file_count": 6,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16",
+      "FLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/openai/whisper-large-v3",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 3.09,
+      "fp8_int8": 1.54,
+      "int4": 0.77
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "whisper-large-v3",
+    "variant": "whisper-large-v3",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/blog/fine-tune-whisper"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/openai/whisper-large-v3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/openai/whisper-large-v3/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/openai/whisper-large-v3/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "openai/whisper-large-v3",
+    "rank": 156,
+    "downloads": 4213626,
+    "likes": 6532,
+    "last_modified": "2024-08-12T10:20:10+00:00",
+    "created_at": "2023-11-07T18:41:14+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-08-12T10:20:10.000Z",
+    "created_at": "2023-11-07T18:41:14.000Z",
+    "downloads": 4213626,
+    "likes": 6532,
+    "sha": "06f233fe06e710322aca913c1bc4249a0d71fce1",
+    "library_name": "transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "jax",
+      "safetensors",
+      "whisper",
+      "automatic-speech-recognition",
+      "audio",
+      "hf-asr-leaderboard",
+      "en",
+      "zh",
+      "de",
+      "es",
+      "ru",
+      "ko",
+      "fr",
+      "ja",
+      "pt",
+      "tr",
+      "pl",
+      "ca",
+      "nl",
+      "ar",
+      "sv",
+      "it",
+      "id",
+      "hi",
+      "fi",
+      "vi",
+      "he",
+      "uk",
+      "el",
+      "ms",
+      "cs",
+      "ro",
+      "da",
+      "hu",
+      "ta",
+      "no",
+      "th",
+      "ur",
+      "hr",
+      "bg",
+      "lt",
+      "la",
+      "mi",
+      "ml",
+      "cy",
+      "sk",
+      "te",
+      "fa",
+      "lv",
+      "bn",
+      "sr",
+      "az",
+      "sl",
+      "kn",
+      "et",
+      "mk",
+      "br",
+      "eu",
+      "is",
+      "hy",
+      "ne",
+      "mn",
+      "bs",
+      "kk",
+      "sq",
+      "sw",
+      "gl",
+      "mr",
+      "pa",
+      "si",
+      "km",
+      "sn",
+      "yo",
+      "so",
+      "af",
+      "oc",
+      "ka",
+      "be",
+      "tg",
+      "sd",
+      "gu",
+      "am",
+      "yi",
+      "lo",
+      "uz",
+      "fo",
+      "ht",
+      "ps",
+      "tk",
+      "nn",
+      "mt",
+      "sa",
+      "lb",
+      "my",
+      "bo",
+      "tl",
+      "mg",
+      "as",
+      "tt",
+      "haw",
+      "ln",
+      "ha",
+      "ba",
+      "jw",
+      "su",
+      "arxiv:2212.04356",
+      "license:apache-2.0",
+      "eval-results",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "id": "lightricks-ltx-2-3",
+  "name": "LTX-2.3",
+  "developer": "Lightricks",
+  "family": "LTX-2.3",
+  "variant": "LTX-2.3",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image To Video",
+    "tags": [
+      "diffusers",
+      "image-to-video",
+      "text-to-video",
+      "video-to-video",
+      "image-text-to-video",
+      "audio-to-video",
+      "text-to-audio",
+      "video-to-audio",
+      "audio-to-audio",
+      "text-to-audio-video",
+      "image-to-audio-video",
+      "image-text-to-audio-video",
+      "ltx-2",
+      "ltx-video",
+      "ltxv",
+      "lightricks",
+      "ltx",
+      "ltx-2.3",
+      "en",
+      "de"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Lightricks/LTX-2.3",
+    "access": "public",
+    "exact_files": [
+      "ltx-2.3-22b-dev.safetensors",
+      "ltx-2.3-22b-distilled-1.1.safetensors",
+      "ltx-2.3-22b-distilled-lora-384-1.1.safetensors",
+      "ltx-2.3-22b-distilled-lora-384.safetensors",
+      "ltx-2.3-22b-distilled.safetensors",
+      "ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors",
+      "ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
+      "ltx-2.3-temporal-upscaler-x2-1.0.safetensors"
+    ],
+    "file_count": 8,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Lightricks/LTX-2.3",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "ltx-2-community-license-agreement",
+    "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "LTX-2.3",
+    "variant": "LTX-2.3",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Lightricks/LTX-2.3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Lightricks/LTX-2.3",
+    "rank": 268,
+    "downloads": 1062232,
+    "likes": 1925,
+    "last_modified": "2026-08-27T11:32:38+00:00",
+    "created_at": "2026-03-04T22:28:28+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-video",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "image-to-video",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-27T11:32:38.000Z",
+    "created_at": "2026-03-04T22:28:28.000Z",
+    "downloads": 1062232,
+    "likes": 1925,
+    "sha": "5948be4ced3a4493d1f836df64378ff136ddb770",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-video",
+    "tags": [
+      "diffusers",
+      "image-to-video",
+      "text-to-video",
+      "video-to-video",
+      "image-text-to-video",
+      "audio-to-video",
+      "text-to-audio",
+      "video-to-audio",
+      "audio-to-audio",
+      "text-to-audio-video",
+      "image-to-audio-video",
+      "image-text-to-audio-video",
+      "ltx-2",
+      "ltx-video",
+      "ltxv",
+      "lightricks",
+      "ltx",
+      "ltx-2.3",
+      "en",
+      "de",
+      "es",
+      "fr",
+      "ja",
+      "ko",
+      "zh",
+      "it",
+      "pt",
+      "arxiv:2601.03233",
+      "license:other",
+      "eval-results",
+      "region:us"
+    ]
+  }
+}

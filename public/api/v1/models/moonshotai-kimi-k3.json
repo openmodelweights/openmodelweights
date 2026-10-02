@@ -1,0 +1,349 @@
+{
+  "id": "moonshotai-kimi-k3",
+  "name": "Kimi-K3",
+  "developer": "Moonshot AI",
+  "family": "Kimi-K3",
+  "variant": "Kimi-K3",
+  "model": {
+    "parameters": "2779.93B",
+    "total_parameters_billions": 2779.931837184,
+    "context": {
+      "value": 1048576,
+      "display": "1,048,576 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "kimi_k3",
+      "feature-extraction",
+      "compressed-tensors",
+      "conversational",
+      "image-text-to-text",
+      "custom_code",
+      "license:other",
+      "eval-results",
+      "8-bit",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/moonshotai/Kimi-K3",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-000096.safetensors",
+      "model-00002-of-000096.safetensors",
+      "model-00003-of-000096.safetensors",
+      "model-00004-of-000096.safetensors",
+      "model-00005-of-000096.safetensors",
+      "model-00006-of-000096.safetensors",
+      "model-00007-of-000096.safetensors",
+      "model-00008-of-000096.safetensors",
+      "model-00009-of-000096.safetensors",
+      "model-00010-of-000096.safetensors",
+      "model-00011-of-000096.safetensors",
+      "model-00012-of-000096.safetensors",
+      "model-00013-of-000096.safetensors",
+      "model-00014-of-000096.safetensors",
+      "model-00015-of-000096.safetensors",
+      "model-00016-of-000096.safetensors",
+      "model-00017-of-000096.safetensors",
+      "model-00018-of-000096.safetensors",
+      "model-00019-of-000096.safetensors",
+      "model-00020-of-000096.safetensors",
+      "model-00021-of-000096.safetensors",
+      "model-00022-of-000096.safetensors",
+      "model-00023-of-000096.safetensors",
+      "model-00024-of-000096.safetensors",
+      "model-00025-of-000096.safetensors",
+      "model-00026-of-000096.safetensors",
+      "model-00027-of-000096.safetensors",
+      "model-00028-of-000096.safetensors",
+      "model-00029-of-000096.safetensors",
+      "model-00030-of-000096.safetensors",
+      "model-00031-of-000096.safetensors",
+      "model-00032-of-000096.safetensors",
+      "model-00033-of-000096.safetensors",
+      "model-00034-of-000096.safetensors",
+      "model-00035-of-000096.safetensors",
+      "model-00036-of-000096.safetensors",
+      "model-00037-of-000096.safetensors",
+      "model-00038-of-000096.safetensors",
+      "model-00039-of-000096.safetensors",
+      "model-00040-of-000096.safetensors",
+      "model-00041-of-000096.safetensors",
+      "model-00042-of-000096.safetensors",
+      "model-00043-of-000096.safetensors",
+      "model-00044-of-000096.safetensors",
+      "model-00045-of-000096.safetensors",
+      "model-00046-of-000096.safetensors",
+      "model-00047-of-000096.safetensors",
+      "model-00048-of-000096.safetensors",
+      "model-00049-of-000096.safetensors",
+      "model-00050-of-000096.safetensors",
+      "model-00051-of-000096.safetensors",
+      "model-00052-of-000096.safetensors",
+      "model-00053-of-000096.safetensors",
+      "model-00054-of-000096.safetensors",
+      "model-00055-of-000096.safetensors",
+      "model-00056-of-000096.safetensors",
+      "model-00057-of-000096.safetensors",
+      "model-00058-of-000096.safetensors",
+      "model-00059-of-000096.safetensors",
+      "model-00060-of-000096.safetensors",
+      "model-00061-of-000096.safetensors",
+      "model-00062-of-000096.safetensors",
+      "model-00063-of-000096.safetensors",
+      "model-00064-of-000096.safetensors",
+      "model-00065-of-000096.safetensors",
+      "model-00066-of-000096.safetensors",
+      "model-00067-of-000096.safetensors",
+      "model-00068-of-000096.safetensors",
+      "model-00069-of-000096.safetensors",
+      "model-00070-of-000096.safetensors",
+      "model-00071-of-000096.safetensors",
+      "model-00072-of-000096.safetensors",
+      "model-00073-of-000096.safetensors",
+      "model-00074-of-000096.safetensors",
+      "model-00075-of-000096.safetensors",
+      "model-00076-of-000096.safetensors",
+      "model-00077-of-000096.safetensors",
+      "model-00078-of-000096.safetensors",
+      "model-00079-of-000096.safetensors",
+      "model-00080-of-000096.safetensors",
+      "model-00081-of-000096.safetensors",
+      "model-00082-of-000096.safetensors",
+      "model-00083-of-000096.safetensors",
+      "model-00084-of-000096.safetensors",
+      "model-00085-of-000096.safetensors",
+      "model-00086-of-000096.safetensors",
+      "model-00087-of-000096.safetensors",
+      "model-00088-of-000096.safetensors",
+      "model-00089-of-000096.safetensors",
+      "model-00090-of-000096.safetensors",
+      "model-00091-of-000096.safetensors",
+      "model-00092-of-000096.safetensors",
+      "model-00093-of-000096.safetensors",
+      "model-00094-of-000096.safetensors",
+      "model-00095-of-000096.safetensors",
+      "model-00096-of-000096.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 97,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F32",
+      "U8"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/moonshotai/Kimi-K3",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "kimi-k3",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "License text grants broad use including sale, subject to its stated conditions",
+      "basis": "https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/moonshotai/Kimi-K3/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 5559.86,
+      "fp8_int8": 2779.93,
+      "int4": 1389.97
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Kimi-K3",
+    "variant": "Kimi-K3",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://github.com/vllm-project/vllm",
+        "https://recipes.vllm.ai/moonshotai/Kimi-K3",
+        "https://github.com/lightseekorg/tokenspeed",
+        "https://lightseek.org/tokenspeed/recipes/models#kimi-k3"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/moonshotai/Kimi-K3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "moonshotai/Kimi-K3",
+    "rank": 195,
+    "downloads": 1204766,
+    "likes": 11573,
+    "last_modified": "2026-09-02T02:22:41+00:00",
+    "created_at": "2026-06-13T06:42:57+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-02T02:22:41.000Z",
+    "created_at": "2026-06-13T06:42:57.000Z",
+    "downloads": 1204766,
+    "likes": 11573,
+    "sha": "f831ab66814297da540d832a5235f8e904f29d06",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "kimi_k3",
+      "feature-extraction",
+      "compressed-tensors",
+      "conversational",
+      "image-text-to-text",
+      "custom_code",
+      "license:other",
+      "eval-results",
+      "8-bit",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

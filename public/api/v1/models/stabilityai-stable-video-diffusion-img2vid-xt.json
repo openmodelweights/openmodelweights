@@ -1,0 +1,238 @@
+{
+  "id": "stabilityai-stable-video-diffusion-img2vid-xt",
+  "name": "stable-video-diffusion-img2vid-xt",
+  "developer": "Stability AI",
+  "family": "stable-video-diffusion-img2vid-xt",
+  "variant": "stable-video-diffusion-img2vid-xt",
+  "model": {
+    "parameters": "1.52462B",
+    "total_parameters_billions": 1.524623082,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image To Video",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "image-to-video",
+      "license:other",
+      "diffusers:StableVideoDiffusionPipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+    "access": "public",
+    "exact_files": [
+      "image_encoder/model.fp16.safetensors",
+      "image_encoder/model.safetensors",
+      "svd_xt.safetensors",
+      "svd_xt_image_decoder.safetensors",
+      "unet/diffusion_pytorch_model.fp16.safetensors",
+      "unet/diffusion_pytorch_model.safetensors",
+      "vae/diffusion_pytorch_model.fp16.safetensors",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 8,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/stabilityai/stable-video-diffusion-img2vid-xt",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "stable-video-diffusion-community",
+    "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/blob/main/LICENSE.md",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/blob/main/LICENSE.md"
+    },
+    "repository_license_files": [
+      "LICENSE.md"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/blob/main/LICENSE.md"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 3.05,
+      "fp8_int8": 1.52,
+      "int4": 0.76
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "stable-video-diffusion-img2vid-xt",
+    "variant": "stable-video-diffusion-img2vid-xt",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid",
+        "https://huggingface.co/docs/diffusers/api/models/autoencoderkl#loading-from-the-original-format"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/stabilityai/stable-video-diffusion-img2vid-xt",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "LICENSE.md",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "stabilityai/stable-video-diffusion-img2vid-xt",
+    "rank": 701,
+    "downloads": 189258,
+    "likes": 3436,
+    "last_modified": "2024-07-10T11:43:18+00:00",
+    "created_at": "2023-11-20T23:45:55+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-video",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "image-to-video",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-07-10T11:43:18.000Z",
+    "created_at": "2023-11-20T23:45:55.000Z",
+    "downloads": 189258,
+    "likes": 3436,
+    "sha": "9e43909513c6714f1bc78bcb44d96e733cd242aa",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-video",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "image-to-video",
+      "license:other",
+      "diffusers:StableVideoDiffusionPipeline",
+      "region:us"
+    ]
+  }
+}

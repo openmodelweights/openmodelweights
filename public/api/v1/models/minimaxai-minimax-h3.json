@@ -1,0 +1,391 @@
+{
+  "id": "minimaxai-minimax-h3",
+  "name": "MiniMax-H3",
+  "developer": "MiniMax",
+  "family": "MiniMax-H3",
+  "variant": "MiniMax-H3",
+  "model": {
+    "parameters": "33.123B",
+    "total_parameters_billions": 33.122992896,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image Text To Video",
+    "tags": [
+      "minimax-h3",
+      "diffusers",
+      "safetensors",
+      "text-to-video",
+      "image-to-video",
+      "image-text-to-video",
+      "video-to-video",
+      "text-to-audio-video",
+      "image-to-audio-video",
+      "image-text-to-audio-video",
+      "video-to-audio-video",
+      "audio-to-audio-video",
+      "audio-video-generation",
+      "multimodal",
+      "synchronized-audio-video",
+      "reference-to-audio-video",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+    "access": "public",
+    "exact_files": [
+      "FL2VA/audio_vae/model.safetensors",
+      "FL2VA/text_encoder/model-00001-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00002-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00003-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00004-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00005-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00006-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00007-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00008-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00009-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00010-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00011-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00012-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00013-of-00014.safetensors",
+      "FL2VA/text_encoder/model-00014-of-00014.safetensors",
+      "FL2VA/text_encoder/model.safetensors.index.json",
+      "FL2VA/transformer/model-00001-of-00013.safetensors",
+      "FL2VA/transformer/model-00002-of-00013.safetensors",
+      "FL2VA/transformer/model-00003-of-00013.safetensors",
+      "FL2VA/transformer/model-00004-of-00013.safetensors",
+      "FL2VA/transformer/model-00005-of-00013.safetensors",
+      "FL2VA/transformer/model-00006-of-00013.safetensors",
+      "FL2VA/transformer/model-00007-of-00013.safetensors",
+      "FL2VA/transformer/model-00008-of-00013.safetensors",
+      "FL2VA/transformer/model-00009-of-00013.safetensors",
+      "FL2VA/transformer/model-00010-of-00013.safetensors",
+      "FL2VA/transformer/model-00011-of-00013.safetensors",
+      "FL2VA/transformer/model-00012-of-00013.safetensors",
+      "FL2VA/transformer/model-00013-of-00013.safetensors",
+      "FL2VA/transformer/model.safetensors.index.json",
+      "FL2VA/video_vae/source/model.safetensors",
+      "Ref2VA/audio_vae/model.safetensors",
+      "Ref2VA/text_encoder/model-00001-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00002-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00003-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00004-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00005-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00006-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00007-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00008-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00009-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00010-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00011-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00012-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00013-of-00014.safetensors",
+      "Ref2VA/text_encoder/model-00014-of-00014.safetensors",
+      "Ref2VA/text_encoder/model.safetensors.index.json",
+      "Ref2VA/transformer/model-00001-of-00013.safetensors",
+      "Ref2VA/transformer/model-00002-of-00013.safetensors",
+      "Ref2VA/transformer/model-00003-of-00013.safetensors",
+      "Ref2VA/transformer/model-00004-of-00013.safetensors",
+      "Ref2VA/transformer/model-00005-of-00013.safetensors",
+      "Ref2VA/transformer/model-00006-of-00013.safetensors",
+      "Ref2VA/transformer/model-00007-of-00013.safetensors",
+      "Ref2VA/transformer/model-00008-of-00013.safetensors",
+      "Ref2VA/transformer/model-00009-of-00013.safetensors",
+      "Ref2VA/transformer/model-00010-of-00013.safetensors",
+      "Ref2VA/transformer/model-00011-of-00013.safetensors",
+      "Ref2VA/transformer/model-00012-of-00013.safetensors",
+      "Ref2VA/transformer/model-00013-of-00013.safetensors",
+      "Ref2VA/transformer/model.safetensors.index.json",
+      "Ref2VA/video_vae/source/model.safetensors",
+      "audio_vae/diffusion_pytorch_model.safetensors",
+      "text_encoder/model-00001-of-00014.safetensors",
+      "text_encoder/model-00002-of-00014.safetensors",
+      "text_encoder/model-00003-of-00014.safetensors",
+      "text_encoder/model-00004-of-00014.safetensors",
+      "text_encoder/model-00005-of-00014.safetensors",
+      "text_encoder/model-00006-of-00014.safetensors",
+      "text_encoder/model-00007-of-00014.safetensors",
+      "text_encoder/model-00008-of-00014.safetensors",
+      "text_encoder/model-00009-of-00014.safetensors",
+      "text_encoder/model-00010-of-00014.safetensors",
+      "text_encoder/model-00011-of-00014.safetensors",
+      "text_encoder/model-00012-of-00014.safetensors",
+      "text_encoder/model-00013-of-00014.safetensors",
+      "text_encoder/model-00014-of-00014.safetensors",
+      "text_encoder/model.safetensors.index.json",
+      "transformer/diffusion_pytorch_model-00001-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00002-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00003-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00004-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00005-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00006-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00007-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00008-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00009-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00010-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00011-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00012-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00013-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model-00014-of-00014.safetensors",
+      "transformer/diffusion_pytorch_model.safetensors.index.json",
+      "transformer_ref/diffusion_pytorch_model-00001-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00002-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00003-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00004-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00005-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00006-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00007-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00008-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00009-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00010-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00011-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00012-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00013-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model-00014-of-00014.safetensors",
+      "transformer_ref/diffusion_pytorch_model.safetensors.index.json",
+      "vae/diffusion_pytorch_model-00001-of-00003.safetensors",
+      "vae/diffusion_pytorch_model-00002-of-00003.safetensors",
+      "vae/diffusion_pytorch_model-00003-of-00003.safetensors",
+      "vae/diffusion_pytorch_model.safetensors.index.json"
+    ],
+    "file_count": 112,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-H3",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "minimax-h3-community-license-agreement",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 66.25,
+      "fp8_int8": 33.12,
+      "int4": 16.56
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "MiniMax-H3",
+    "variant": "MiniMax-H3",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "recipe-or-training-files-present",
+      "files": [
+        "scripts/readme/full-2k-i2va-h3-base.sh",
+        "scripts/readme/full-2k-i2va-h3-context-ir.sh",
+        "scripts/readme/full-2k-i2va-h3-regenerate-2k.sh",
+        "scripts/readme/full-2k-i2va-reference-2k-result-by-directly-calling-open-platform-api.sh",
+        "scripts/readme/full-2k-i2va-reference-768p-result-by-directly-calling-open-platform-api.sh",
+        "scripts/readme/full-2k-ref2va-h3-api-2k-in-open-platform-for-reference.sh",
+        "scripts/readme/full-2k-ref2va-h3-base.sh",
+        "scripts/readme/full-2k-ref2va-h3-context-ir.sh",
+        "scripts/readme/full-2k-ref2va-reference-2k-result-by-directly-calling-open-platform-api.sh",
+        "scripts/readme/full-2k-ref2va-reference-768p-result-by-directly-calling-open-platform-api.sh",
+        "scripts/readme/full-2k-t2va-h3-base.sh",
+        "scripts/readme/full-2k-t2va-h3-context-ir.sh",
+        "scripts/readme/full-2k-t2va-h3-regenerate-2k.sh",
+        "scripts/readme/full-2k-t2va-reference-2k-result-by-directly-calling-open-platform-api.sh",
+        "scripts/readme/full-2k-t2va-reference-768p-result-by-directly-calling-open-platform-api.sh",
+        "scripts/readme/reproducible-768p-fl2va-request.sh",
+        "scripts/readme/reproducible-768p-ref2va-request.sh",
+        "scripts/readme/reproducible-768p-t2va-request.sh"
+      ],
+      "links": [
+        "https://huggingface.co/docs/diffusers/main/en/api/pipelines/minimax_h3",
+        "https://github.com/vllm-project/vllm",
+        "https://recipes.vllm.ai/MiniMaxAI/MiniMax-H3"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-H3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "LICENSE",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "recipe-or-training-files-present",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "MiniMaxAI/MiniMax-H3",
+    "rank": 157,
+    "downloads": 3567030,
+    "likes": 5828,
+    "last_modified": "2026-08-13T01:46:29+00:00",
+    "created_at": "2026-07-28T10:45:18+00:00",
+    "library_name": "minimax-h3",
+    "pipeline_tag": "image-text-to-video",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "minimax-h3",
+    "pipeline_tag": "image-text-to-video",
+    "declared": [
+      "Diffusers",
+      "minimax-h3"
+    ],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-13T01:46:29.000Z",
+    "created_at": "2026-07-28T10:45:18.000Z",
+    "downloads": 3567030,
+    "likes": 5828,
+    "sha": "42ed227ee7df40d41602854ae760620d6eb651fe",
+    "library_name": "minimax-h3",
+    "pipeline_tag": "image-text-to-video",
+    "tags": [
+      "minimax-h3",
+      "diffusers",
+      "safetensors",
+      "text-to-video",
+      "image-to-video",
+      "image-text-to-video",
+      "video-to-video",
+      "text-to-audio-video",
+      "image-to-audio-video",
+      "image-text-to-audio-video",
+      "video-to-audio-video",
+      "audio-to-audio-video",
+      "audio-video-generation",
+      "multimodal",
+      "synchronized-audio-video",
+      "reference-to-audio-video",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

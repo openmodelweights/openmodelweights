@@ -1,0 +1,268 @@
+{
+  "id": "nvidia-llama-nemotron-rerank-1b-v2",
+  "name": "llama-nemotron-rerank-1b-v2",
+  "developer": "NVIDIA",
+  "family": "llama-nemotron-rerank",
+  "variant": "llama-nemotron-rerank-1b-v2",
+  "model": {
+    "parameters": "1.23582B",
+    "total_parameters_billions": 1.235816448,
+    "context": {
+      "value": 131072,
+      "display": "131,072 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text Ranking",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "llama_bidirec",
+      "text-classification",
+      "text",
+      "reranker",
+      "cross-encoder",
+      "retrieval",
+      "semantic-search",
+      "text-ranking",
+      "custom_code",
+      "multilingual",
+      "license:other",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/llama-nemotron-rerank-1b-v2",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "openmdw-1.1",
+    "url": "https://openmdw.ai/license/1-1/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercially usable subject to NVIDIA license conditions",
+      "basis": "https://openmdw.ai/license/1-1/"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://openmdw.ai/license/1-1/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 2.47,
+      "fp8_int8": 1.24,
+      "int4": 0.62
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "llama-nemotron-rerank",
+    "variant": "llama-nemotron-rerank-1b-v2",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/llama-nemotron-rerank-1b-v2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://openmdw.ai/license/1-1/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/llama-nemotron-rerank-1b-v2",
+    "rank": 583,
+    "downloads": 705162,
+    "likes": 64,
+    "last_modified": "2026-08-26T18:10:29+00:00",
+    "created_at": "2025-10-16T23:09:22+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-ranking",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-ranking",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "NeMo",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-26T18:10:29.000Z",
+    "created_at": "2025-10-16T23:09:22.000Z",
+    "downloads": 705162,
+    "likes": 64,
+    "sha": "828765652b05bd439c9789d2a6d093db1caa1443",
+    "library_name": "transformers",
+    "pipeline_tag": "text-ranking",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "llama_bidirec",
+      "text-classification",
+      "text",
+      "reranker",
+      "cross-encoder",
+      "retrieval",
+      "semantic-search",
+      "text-ranking",
+      "custom_code",
+      "multilingual",
+      "license:other",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

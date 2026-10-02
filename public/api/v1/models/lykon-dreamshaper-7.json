@@ -1,0 +1,248 @@
+{
+  "id": "lykon-dreamshaper-7",
+  "name": "dreamshaper-7",
+  "developer": "Lykon",
+  "family": "dreamshaper-7",
+  "variant": "dreamshaper-7",
+  "model": {
+    "parameters": "0.859521B",
+    "total_parameters_billions": 0.859520964,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "stable-diffusion",
+      "stable-diffusion-diffusers",
+      "text-to-image",
+      "art",
+      "artistic",
+      "anime",
+      "dreamshaper",
+      "en",
+      "license:creativeml-openrail-m",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionPipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Lykon/dreamshaper-7",
+    "access": "public",
+    "exact_files": [
+      "safety_checker/model.fp16.safetensors",
+      "safety_checker/model.safetensors",
+      "text_encoder/model.fp16.safetensors",
+      "text_encoder/model.safetensors",
+      "unet/diffusion_pytorch_model.fp16.safetensors",
+      "unet/diffusion_pytorch_model.safetensors",
+      "vae/diffusion_pytorch_model.fp16.safetensors",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 8,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Lykon/dreamshaper-7",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "creativeml-openrail-m",
+    "name": "creativeml-openrail-m",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.72,
+      "fp8_int8": 0.86,
+      "int4": 0.43
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "dreamshaper-7",
+    "variant": "dreamshaper-7",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://huggingface.co/runwayml/stable-diffusion-v1-5"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Lykon/dreamshaper-7",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Lykon/dreamshaper-7",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Lykon/dreamshaper-7/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Lykon/dreamshaper-7/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Lykon/dreamshaper-7",
+    "rank": 572,
+    "downloads": 884250,
+    "likes": 66,
+    "last_modified": "2023-12-07T10:13:17+00:00",
+    "created_at": "2023-08-26T16:49:11+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "text-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2023-12-07T10:13:17.000Z",
+    "created_at": "2023-08-26T16:49:11.000Z",
+    "downloads": 884250,
+    "likes": 66,
+    "sha": "9b481047f77996efa025e75e03941dbf51f506ad",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "stable-diffusion",
+      "stable-diffusion-diffusers",
+      "text-to-image",
+      "art",
+      "artistic",
+      "anime",
+      "dreamshaper",
+      "en",
+      "license:creativeml-openrail-m",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionPipeline",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "id": "comfy-org-hunyuanvideo-1-5-repackaged",
+  "name": "HunyuanVideo_1.5_repackaged",
+  "developer": "Comfy-Org",
+  "family": "HunyuanVideo_1.5_repackaged",
+  "variant": "HunyuanVideo_1.5_repackaged",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:tencent/HunyuanVideo-1.5",
+      "base_model:finetune:tencent/HunyuanVideo-1.5",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged",
+    "access": "public",
+    "exact_files": [
+      "split_files/clip_vision/sigclip_vision_patch14_384.safetensors",
+      "split_files/diffusion_models/capybara_v0.1.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_1080p_sr_distilled_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_1080p_sr_distilled_fp8_scaled.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_480p_i2v_cfg_distilled_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_480p_i2v_cfg_distilled_fp8_scaled.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_480p_i2v_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_480p_i2v_step_distilled_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_480p_i2v_step_distilled_fp8_scaled.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_480p_t2v_cfg_distilled_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_480p_t2v_cfg_distilled_fp8_scaled.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_480p_t2v_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_720p_i2v_cfg_distilled_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_720p_i2v_cfg_distilled_fp8_scaled.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_720p_i2v_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_720p_sr_distilled_fp16.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_720p_sr_distilled_fp8_scaled.safetensors",
+      "split_files/diffusion_models/hunyuanvideo1.5_720p_t2v_fp16.safetensors",
+      "split_files/latent_upscale_models/hunyuanvideo15_latent_upsampler_1080p.safetensors",
+      "split_files/latent_upscale_models/hunyuanvideo15_latent_upsampler_720p.safetensors",
+      "split_files/loras/hunyuanvideo1.5_t2v_480p_lightx2v_4step_lora_rank_32_bf16.safetensors",
+      "split_files/text_encoders/byt5_small_glyphxl_fp16.safetensors",
+      "split_files/text_encoders/qwen_2.5_vl_7b.safetensors",
+      "split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "split_files/vae/hunyuanvideo15_vae_fp16.safetensors"
+    ],
+    "file_count": 25,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Comfy-Org/HunyuanVideo_1.5_repackaged",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "tencent-hunyuan-community",
+    "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/master/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/master/LICENSE"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/master/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "HunyuanVideo_1.5_repackaged",
+    "variant": "HunyuanVideo_1.5_repackaged",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "tencent/HunyuanVideo-1.5"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Comfy-Org/HunyuanVideo_1.5_repackaged",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/master/LICENSE",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Comfy-Org/HunyuanVideo_1.5_repackaged",
+    "rank": 576,
+    "downloads": 615605,
+    "likes": 101,
+    "last_modified": "2026-09-23T07:59:34+00:00",
+    "created_at": "2025-11-19T18:05:53+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-23T07:59:34.000Z",
+    "created_at": "2025-11-19T18:05:53.000Z",
+    "downloads": 615605,
+    "likes": 101,
+    "sha": "1405a2b738c29b890cf6d03fc038d8d3e92eeed7",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:tencent/HunyuanVideo-1.5",
+      "base_model:finetune:tencent/HunyuanVideo-1.5",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

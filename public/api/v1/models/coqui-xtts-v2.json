@@ -1,0 +1,223 @@
+{
+  "id": "coqui-xtts-v2",
+  "name": "XTTS-v2",
+  "developer": "coqui",
+  "family": "XTTS-v2",
+  "variant": "XTTS-v2",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → audio",
+    "tags": [
+      "coqui",
+      "text-to-speech",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/coqui/XTTS-v2",
+    "access": "public",
+    "exact_files": [
+      "dvae.pth",
+      "mel_stats.pth",
+      "model.pth",
+      "speakers_xtts.pth"
+    ],
+    "file_count": 4,
+    "formats": [
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/coqui/XTTS-v2",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "coqui-public-model-license",
+    "url": "https://coqui.ai/cpml",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://coqui.ai/cpml"
+    },
+    "repository_license_files": [
+      "LICENSE.txt"
+    ],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": "https://coqui.ai/cpml"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "XTTS-v2",
+    "variant": "XTTS-v2",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://github.com/coqui-ai/TTS",
+        "https://tts.readthedocs.io/en/latest/models/xtts.html#training"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/coqui/XTTS-v2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/coqui/XTTS-v2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/coqui/XTTS-v2/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/coqui/XTTS-v2/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://coqui.ai/cpml",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "coqui/XTTS-v2",
+    "rank": 140,
+    "downloads": 6675662,
+    "likes": 3844,
+    "last_modified": "2023-12-11T17:50:00+00:00",
+    "created_at": "2023-10-31T10:11:33+00:00",
+    "library_name": "coqui",
+    "pipeline_tag": "text-to-speech",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "coqui",
+    "pipeline_tag": "text-to-speech",
+    "declared": [
+      "coqui"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2023-12-11T17:50:00.000Z",
+    "created_at": "2023-10-31T10:11:33.000Z",
+    "downloads": 6675662,
+    "likes": 3844,
+    "sha": "6c2b0d75eae4b7047358e3b6bd9325f857d43f77",
+    "library_name": "coqui",
+    "pipeline_tag": "text-to-speech",
+    "tags": [
+      "coqui",
+      "text-to-speech",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

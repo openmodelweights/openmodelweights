@@ -1,0 +1,478 @@
+{
+  "generated_at": "2026-10-02T11:43:20+00:00",
+  "licenses": [
+    {
+      "name": "Apache-2.0",
+      "model_count": 339,
+      "commercial_use": {
+        "allowed": 339
+      }
+    },
+    {
+      "name": "BSD-3-CLAUSE",
+      "model_count": 4,
+      "commercial_use": {
+        "allowed": 4
+      }
+    },
+    {
+      "name": "CC BY 4.0",
+      "model_count": 9,
+      "commercial_use": {
+        "allowed": 9
+      }
+    },
+    {
+      "name": "CC BY-NC 4.0",
+      "model_count": 12,
+      "commercial_use": {
+        "not-allowed": 12
+      }
+    },
+    {
+      "name": "MIT",
+      "model_count": 141,
+      "commercial_use": {
+        "allowed": 141
+      }
+    },
+    {
+      "name": "Mistral Modified MIT License",
+      "model_count": 4,
+      "commercial_use": {
+        "allowed-with-revenue-condition": 4
+      }
+    },
+    {
+      "name": "Mistral Research License",
+      "model_count": 1,
+      "commercial_use": {
+        "not-allowed": 1
+      }
+    },
+    {
+      "name": "Not declared in model-card metadata",
+      "model_count": 30,
+      "commercial_use": {
+        "unknown": 29,
+        "allowed-with-conditions": 1
+      }
+    },
+    {
+      "name": "Qwen Community License 1.0",
+      "model_count": 2,
+      "commercial_use": {
+        "allowed-with-conditions": 2
+      }
+    },
+    {
+      "name": "Qwen Research License",
+      "model_count": 6,
+      "commercial_use": {
+        "separate-license-required": 6
+      }
+    },
+    {
+      "name": "Qwen3.8-Max License",
+      "model_count": 2,
+      "commercial_use": {
+        "allowed-with-conditions": 2
+      }
+    },
+    {
+      "name": "['cc-by-nc-sa-4.0']",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "['cdla-permissive-2.0', 'apache-2.0']",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "['mit', 'other']",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "['mit']",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "['other']",
+      "model_count": 1,
+      "commercial_use": {
+        "allowed-with-conditions": 1
+      }
+    },
+    {
+      "name": "agpl-3.0",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "apache-2.0",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "apple-sample-code-license",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "bigscience-bloom-rail-1.0",
+      "model_count": 2,
+      "commercial_use": {
+        "unknown": 2
+      }
+    },
+    {
+      "name": "bria-rmbg-1.4",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "cc-by-nc-sa-4.0",
+      "model_count": 5,
+      "commercial_use": {
+        "unknown": 5
+      }
+    },
+    {
+      "name": "cc-by-sa-4.0",
+      "model_count": 2,
+      "commercial_use": {
+        "unknown": 2
+      }
+    },
+    {
+      "name": "cc0-1.0",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "circlestone-labs-non-commercial-license",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "coqui-public-model-license",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "creativeml-openrail-m",
+      "model_count": 6,
+      "commercial_use": {
+        "unknown": 6
+      }
+    },
+    {
+      "name": "deepseek",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "deepseek-license",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "dinov3-license",
+      "model_count": 3,
+      "commercial_use": {
+        "allowed-with-conditions": 3
+      }
+    },
+    {
+      "name": "flux-1-dev-non-commercial-license",
+      "model_count": 4,
+      "commercial_use": {
+        "unknown": 4
+      }
+    },
+    {
+      "name": "flux-non-commercial-license",
+      "model_count": 3,
+      "commercial_use": {
+        "unknown": 3
+      }
+    },
+    {
+      "name": "gemma",
+      "model_count": 10,
+      "commercial_use": {
+        "allowed-with-conditions": 7,
+        "unknown": 3
+      }
+    },
+    {
+      "name": "glm-5.3",
+      "model_count": 1,
+      "commercial_use": {
+        "allowed-with-conditions": 1
+      }
+    },
+    {
+      "name": "gpl-3.0",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "health-ai-developer-foundations",
+      "model_count": 2,
+      "commercial_use": {
+        "allowed-with-conditions": 2
+      }
+    },
+    {
+      "name": "ideogram-non-commercial-model-agreement",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "kimi-k3",
+      "model_count": 1,
+      "commercial_use": {
+        "allowed-with-conditions": 1
+      }
+    },
+    {
+      "name": "krea-2-community-license",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "livekit-model-license",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "llama2",
+      "model_count": 4,
+      "commercial_use": {
+        "allowed-with-conditions": 4
+      }
+    },
+    {
+      "name": "llama3",
+      "model_count": 4,
+      "commercial_use": {
+        "allowed-with-conditions": 4
+      }
+    },
+    {
+      "name": "llama3.1",
+      "model_count": 6,
+      "commercial_use": {
+        "allowed-with-conditions": 6
+      }
+    },
+    {
+      "name": "llama3.2",
+      "model_count": 11,
+      "commercial_use": {
+        "allowed-with-conditions": 11
+      }
+    },
+    {
+      "name": "llama3.3",
+      "model_count": 1,
+      "commercial_use": {
+        "allowed-with-conditions": 1
+      }
+    },
+    {
+      "name": "llama4",
+      "model_count": 13,
+      "commercial_use": {
+        "allowed-with-conditions": 13
+      }
+    },
+    {
+      "name": "ltx-2-community-license-agreement",
+      "model_count": 5,
+      "commercial_use": {
+        "unknown": 5
+      }
+    },
+    {
+      "name": "ltx-2.x-community-license-agreement",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "minimax-community",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "minimax-h3-community",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "minimax-h3-community-license-agreement",
+      "model_count": 3,
+      "commercial_use": {
+        "unknown": 3
+      }
+    },
+    {
+      "name": "modified-mit",
+      "model_count": 2,
+      "commercial_use": {
+        "unknown": 2
+      }
+    },
+    {
+      "name": "nvidia-nemotron-open-model-license",
+      "model_count": 5,
+      "commercial_use": {
+        "allowed-with-conditions": 5
+      }
+    },
+    {
+      "name": "nvidia-open-model-agreement",
+      "model_count": 2,
+      "commercial_use": {
+        "allowed-with-conditions": 2
+      }
+    },
+    {
+      "name": "nvidia-open-model-license",
+      "model_count": 6,
+      "commercial_use": {
+        "allowed-with-conditions": 6
+      }
+    },
+    {
+      "name": "openmdw-1.1",
+      "model_count": 7,
+      "commercial_use": {
+        "allowed-with-conditions": 6,
+        "unknown": 1
+      }
+    },
+    {
+      "name": "openmdw1.1-license",
+      "model_count": 1,
+      "commercial_use": {
+        "allowed-with-conditions": 1
+      }
+    },
+    {
+      "name": "openrail",
+      "model_count": 3,
+      "commercial_use": {
+        "unknown": 3
+      }
+    },
+    {
+      "name": "openrail++",
+      "model_count": 3,
+      "commercial_use": {
+        "unknown": 3
+      }
+    },
+    {
+      "name": "other",
+      "model_count": 6,
+      "commercial_use": {
+        "allowed-with-conditions": 3,
+        "unknown": 3
+      }
+    },
+    {
+      "name": "playground-v2dot5-community",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "sai-nc-community",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "stabilityai-ai-community",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "stable-video-diffusion-community",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "tencent-hunyuan-community",
+      "model_count": 2,
+      "commercial_use": {
+        "unknown": 2
+      }
+    },
+    {
+      "name": "timesfm-non-commercial-license-v1.0",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
+      "name": "tongyi-qianwen-license-agreement",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "alibaba-nlp-gte-large-en-v1-5",
+  "name": "gte-large-en-v1.5",
+  "developer": "Alibaba-NLP",
+  "family": "gte-large-en-v1.5",
+  "variant": "gte-large-en-v1.5",
+  "model": {
+    "parameters": "0.434139B",
+    "total_parameters_billions": 0.434139136,
+    "context": {
+      "value": 8192,
+      "display": "8,192 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text embeddings",
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "new",
+      "feature-extraction",
+      "sentence-transformers",
+      "gte",
+      "mteb",
+      "transformers.js",
+      "sentence-similarity",
+      "custom_code",
+      "en",
+      "dataset:allenai/c4",
+      "arxiv:2407.19669",
+      "arxiv:2308.03281",
+      "license:apache-2.0",
+      "model-index",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "onnx/model.onnx",
+      "onnx/model_bnb4.onnx",
+      "onnx/model_fp16.onnx",
+      "onnx/model_int8.onnx",
+      "onnx/model_q4.onnx",
+      "onnx/model_quantized.onnx",
+      "onnx/model_uint8.onnx"
+    ],
+    "file_count": 8,
+    "formats": [
+      "Safetensors",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Alibaba-NLP/gte-large-en-v1.5",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.87,
+      "fp8_int8": 0.43,
+      "int4": 0.22
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "gte-large-en-v1.5",
+    "variant": "gte-large-en-v1.5",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://arxiv.org/pdf/2308.03281.pdf"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "allenai/c4"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Alibaba-NLP/gte-large-en-v1.5",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Alibaba-NLP/gte-large-en-v1.5",
+    "rank": 404,
+    "downloads": 1106854,
+    "likes": 239,
+    "last_modified": "2024-08-09T03:32:05+00:00",
+    "created_at": "2024-04-20T02:54:30+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "sentence-similarity",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "sentence-similarity",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-08-09T03:32:05.000Z",
+    "created_at": "2024-04-20T02:54:30.000Z",
+    "downloads": 1106854,
+    "likes": 239,
+    "sha": "104333d6af6f97649377c2afbde10a7704870c7b",
+    "library_name": "transformers",
+    "pipeline_tag": "sentence-similarity",
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "new",
+      "feature-extraction",
+      "sentence-transformers",
+      "gte",
+      "mteb",
+      "transformers.js",
+      "sentence-similarity",
+      "custom_code",
+      "en",
+      "dataset:allenai/c4",
+      "arxiv:2407.19669",
+      "arxiv:2308.03281",
+      "license:apache-2.0",
+      "model-index",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

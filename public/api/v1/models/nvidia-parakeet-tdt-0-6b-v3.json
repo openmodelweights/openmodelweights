@@ -1,0 +1,313 @@
+{
+  "id": "nvidia-parakeet-tdt-0-6b-v3",
+  "name": "parakeet-tdt-0.6b-v3",
+  "developer": "NVIDIA",
+  "family": "parakeet-tdt",
+  "variant": "parakeet-tdt-0.6b-v3",
+  "model": {
+    "parameters": "0.627057B",
+    "total_parameters_billions": 0.627057286,
+    "context": {
+      "value": 5000,
+      "display": "5,000 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "encoder_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Audio → text",
+    "tags": [
+      "transformers",
+      "nemo",
+      "safetensors",
+      "gguf",
+      "parakeet_tdt",
+      "feature-extraction",
+      "automatic-speech-recognition",
+      "speech",
+      "audio",
+      "Transducer",
+      "Transformer",
+      "TDT",
+      "FastConformer",
+      "Conformer",
+      "pytorch",
+      "NeMo",
+      "hf-asr-leaderboard",
+      "Transformers",
+      "en",
+      "es"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "parakeet-tdt-0.6b-v3.nemo",
+      "parakeet-tdt-0.6b-v3.q8_0.gguf"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "GGUF",
+      "NeMo"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/parakeet-tdt-0.6b-v3",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "cc-by-4.0",
+    "name": "CC BY 4.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed with attribution under CC BY 4.0",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.25,
+      "fp8_int8": 0.63,
+      "int4": 0.31
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "parakeet-tdt",
+    "variant": "parakeet-tdt-0.6b-v3",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "nvidia/Granary",
+        "nemo/asr-set-3.0"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/parakeet-tdt-0.6b-v3",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/parakeet-tdt-0.6b-v3",
+    "rank": 401,
+    "downloads": 569291,
+    "likes": 1170,
+    "last_modified": "2026-08-05T21:46:17+00:00",
+    "created_at": "2025-08-04T13:34:09+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "declared": [
+      "NeMo",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-05T21:46:17.000Z",
+    "created_at": "2025-08-04T13:34:09.000Z",
+    "downloads": 569291,
+    "likes": 1170,
+    "sha": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
+    "library_name": "transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "tags": [
+      "transformers",
+      "nemo",
+      "safetensors",
+      "gguf",
+      "parakeet_tdt",
+      "feature-extraction",
+      "automatic-speech-recognition",
+      "speech",
+      "audio",
+      "Transducer",
+      "Transformer",
+      "TDT",
+      "FastConformer",
+      "Conformer",
+      "pytorch",
+      "NeMo",
+      "hf-asr-leaderboard",
+      "Transformers",
+      "en",
+      "es",
+      "fr",
+      "de",
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "et",
+      "fi",
+      "el",
+      "hu",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "ro",
+      "sk",
+      "sl",
+      "sv",
+      "ru",
+      "uk",
+      "dataset:nvidia/Granary",
+      "dataset:nemo/asr-set-3.0",
+      "arxiv:2509.14128",
+      "arxiv:2505.13404",
+      "arxiv:2305.05084",
+      "arxiv:2304.06795",
+      "arxiv:2410.01036",
+      "arxiv:2406.00899",
+      "arxiv:2205.12446",
+      "arxiv:2012.03411",
+      "arxiv:2007.10310",
+      "arxiv:1510.08484",
+      "license:cc-by-4.0",
+      "model-index",
+      "eval-results",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

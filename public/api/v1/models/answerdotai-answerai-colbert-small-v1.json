@@ -1,0 +1,259 @@
+{
+  "id": "answerdotai-answerai-colbert-small-v1",
+  "name": "answerai-colbert-small-v1",
+  "developer": "answerdotai",
+  "family": "answerai-colbert-small-v1",
+  "variant": "answerai-colbert-small-v1",
+  "model": {
+    "parameters": "0.0333969B",
+    "total_parameters_billions": 0.033396864,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Not declared",
+    "tags": [
+      "sentence-transformers",
+      "onnx",
+      "safetensors",
+      "bert",
+      "ColBERT",
+      "multi-vector",
+      "RAGatouille",
+      "passage-retrieval",
+      "en",
+      "arxiv:2407.20750",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/answerdotai/answerai-colbert-small-v1",
+    "access": "public",
+    "exact_files": [
+      "model.onnx",
+      "model.safetensors",
+      "model_int8.onnx",
+      "onnx/model.onnx",
+      "onnx/model_bnb4.onnx",
+      "onnx/model_fp16.onnx",
+      "onnx/model_int8.onnx",
+      "onnx/model_q4.onnx",
+      "onnx/model_q4f16.onnx",
+      "onnx/model_quantized.onnx",
+      "onnx/model_uint8.onnx",
+      "vespa_colbert.onnx"
+    ],
+    "file_count": 12,
+    "formats": [
+      "Safetensors",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/answerdotai/answerai-colbert-small-v1",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.07,
+      "fp8_int8": 0.03,
+      "int4": 0.02
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "answerai-colbert-small-v1",
+    "variant": "answerai-colbert-small-v1",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://answer.ai",
+        "https://arxiv.org/abs/2407.20750"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/answerdotai/answerai-colbert-small-v1",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/answerdotai/answerai-colbert-small-v1",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/answerdotai/answerai-colbert-small-v1/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/answerdotai/answerai-colbert-small-v1/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "answerdotai/answerai-colbert-small-v1",
+    "rank": 453,
+    "downloads": 863092,
+    "likes": 163,
+    "last_modified": "2026-08-17T21:43:29+00:00",
+    "created_at": "2024-08-12T13:02:24+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": null,
+    "declared": [
+      "ONNX Runtime",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-17T21:43:29.000Z",
+    "created_at": "2024-08-12T13:02:24.000Z",
+    "downloads": 863092,
+    "likes": 163,
+    "sha": "934fa8bb4ce2284f4c2baa232d81aca4d076fa5e",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": null,
+    "tags": [
+      "sentence-transformers",
+      "onnx",
+      "safetensors",
+      "bert",
+      "ColBERT",
+      "multi-vector",
+      "RAGatouille",
+      "passage-retrieval",
+      "en",
+      "arxiv:2407.20750",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

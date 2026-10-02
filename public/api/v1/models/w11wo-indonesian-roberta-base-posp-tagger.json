@@ -1,0 +1,271 @@
+{
+  "id": "w11wo-indonesian-roberta-base-posp-tagger",
+  "name": "indonesian-roberta-base-posp-tagger",
+  "developer": "w11wo",
+  "family": "indonesian-roberta-base-posp-tagger",
+  "variant": "indonesian-roberta-base-posp-tagger",
+  "model": {
+    "parameters": "0.124075B",
+    "total_parameters_billions": 0.124075034,
+    "context": {
+      "value": 514,
+      "display": "514 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "tensorboard",
+      "safetensors",
+      "roberta",
+      "token-classification",
+      "generated_from_trainer",
+      "ind",
+      "dataset:indonlu",
+      "base_model:flax-community/indonesian-roberta-base",
+      "base_model:finetune:flax-community/indonesian-roberta-base",
+      "license:mit",
+      "model-index",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin",
+      "tf_model.h5",
+      "training_args.bin"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/w11wo/indonesian-roberta-base-posp-tagger",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.25,
+      "fp8_int8": 0.12,
+      "int4": 0.06
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "indonesian-roberta-base-posp-tagger",
+    "variant": "indonesian-roberta-base-posp-tagger",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "flax-community/indonesian-roberta-base"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "recipe-or-training-files-present",
+      "files": [
+        "training_args.bin"
+      ],
+      "links": [
+        "https://huggingface.co/flax-community/indonesian-roberta-base"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "indonlu"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/w11wo/indonesian-roberta-base-posp-tagger",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "recipe-or-training-files-present",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "w11wo/indonesian-roberta-base-posp-tagger",
+    "rank": 387,
+    "downloads": 2991467,
+    "likes": 10,
+    "last_modified": "2024-02-19T11:03:26+00:00",
+    "created_at": "2022-03-02T23:29:05+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "token-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "token-classification",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-02-19T11:03:26.000Z",
+    "created_at": "2022-03-02T23:29:05.000Z",
+    "downloads": 2991467,
+    "likes": 10,
+    "sha": "5067796360930a7b9c5e1d76e1ab2b8c6b4cd103",
+    "library_name": "transformers",
+    "pipeline_tag": "token-classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "tensorboard",
+      "safetensors",
+      "roberta",
+      "token-classification",
+      "generated_from_trainer",
+      "ind",
+      "dataset:indonlu",
+      "base_model:flax-community/indonesian-roberta-base",
+      "base_model:finetune:flax-community/indonesian-roberta-base",
+      "license:mit",
+      "model-index",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

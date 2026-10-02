@@ -1,0 +1,263 @@
+{
+  "id": "marqo-marqo-fashionsiglip",
+  "name": "marqo-fashionSigLIP",
+  "developer": "Marqo",
+  "family": "marqo-fashionSigLIP",
+  "variant": "marqo-fashionSigLIP",
+  "model": {
+    "parameters": "0.203156B",
+    "total_parameters_billions": 0.203155968,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Zero Shot Image Classification",
+    "tags": [
+      "open_clip",
+      "onnx",
+      "safetensors",
+      "siglip",
+      "clip",
+      "transformers",
+      "e-commerce",
+      "fashion",
+      "multimodal retrieval",
+      "transformers.js",
+      "zero-shot-image-classification",
+      "custom_code",
+      "en",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Marqo/marqo-fashionSigLIP",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "onnx/text_model.onnx",
+      "onnx/text_model_bnb4.onnx",
+      "onnx/text_model_fp16.onnx",
+      "onnx/text_model_int8.onnx",
+      "onnx/text_model_q4.onnx",
+      "onnx/text_model_q4f16.onnx",
+      "onnx/text_model_quantized.onnx",
+      "onnx/text_model_uint8.onnx",
+      "onnx/vision_model.onnx",
+      "onnx/vision_model_bnb4.onnx",
+      "onnx/vision_model_fp16.onnx",
+      "onnx/vision_model_int8.onnx",
+      "onnx/vision_model_q4.onnx",
+      "onnx/vision_model_q4f16.onnx",
+      "onnx/vision_model_quantized.onnx",
+      "onnx/vision_model_uint8.onnx",
+      "open_clip_model.safetensors",
+      "open_clip_pytorch_model.bin"
+    ],
+    "file_count": 19,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Marqo/marqo-fashionSigLIP",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.41,
+      "fp8_int8": 0.2,
+      "int4": 0.1
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "marqo-fashionSigLIP",
+    "variant": "marqo-fashionSigLIP",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Marqo/marqo-fashionSigLIP",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Marqo/marqo-fashionSigLIP",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Marqo/marqo-fashionSigLIP/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Marqo/marqo-fashionSigLIP/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Marqo/marqo-fashionSigLIP",
+    "rank": 754,
+    "downloads": 426152,
+    "likes": 95,
+    "last_modified": "2026-02-18T03:34:31+00:00",
+    "created_at": "2024-08-09T01:32:22+00:00",
+    "library_name": "open_clip",
+    "pipeline_tag": "zero-shot-image-classification",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "open_clip",
+    "pipeline_tag": "zero-shot-image-classification",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers",
+      "open_clip"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-02-18T03:34:31.000Z",
+    "created_at": "2024-08-09T01:32:22.000Z",
+    "downloads": 426152,
+    "likes": 95,
+    "sha": "c56244cc94f92419e8369fa71efdaf403b124ce8",
+    "library_name": "open_clip",
+    "pipeline_tag": "zero-shot-image-classification",
+    "tags": [
+      "open_clip",
+      "onnx",
+      "safetensors",
+      "siglip",
+      "clip",
+      "transformers",
+      "e-commerce",
+      "fashion",
+      "multimodal retrieval",
+      "transformers.js",
+      "zero-shot-image-classification",
+      "custom_code",
+      "en",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

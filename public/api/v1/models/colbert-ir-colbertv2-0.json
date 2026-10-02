@@ -1,0 +1,255 @@
+{
+  "id": "colbert-ir-colbertv2-0",
+  "name": "colbertv2.0",
+  "developer": "colbert-ir",
+  "family": "colbertv2.0",
+  "variant": "colbertv2.0",
+  "model": {
+    "parameters": "0.109581B",
+    "total_parameters_billions": 0.109581056,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Not declared",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "bert",
+      "ColBERT",
+      "en",
+      "arxiv:2004.12832",
+      "arxiv:2007.00814",
+      "arxiv:2101.00436",
+      "arxiv:2112.01488",
+      "arxiv:2205.09707",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/colbert-ir/colbertv2.0",
+    "access": "public",
+    "exact_files": [
+      "model.onnx",
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/colbert-ir/colbertv2.0",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.22,
+      "fp8_int8": 0.11,
+      "int4": 0.05
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "colbertv2.0",
+    "variant": "colbertv2.0",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/colbert-ir/colbertv2.0",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/colbert-ir/colbertv2.0",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/colbert-ir/colbertv2.0/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/colbert-ir/colbertv2.0/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "colbert-ir/colbertv2.0",
+    "rank": 284,
+    "downloads": 1920078,
+    "likes": 366,
+    "last_modified": "2024-04-05T20:18:44+00:00",
+    "created_at": "2023-06-27T21:31:39+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": null,
+    "declared": [
+      "ONNX Runtime",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-04-05T20:18:44.000Z",
+    "created_at": "2023-06-27T21:31:39.000Z",
+    "downloads": 1920078,
+    "likes": 366,
+    "sha": "c1e84128e85ef755c096a95bdb06b47793b13acf",
+    "library_name": "transformers",
+    "pipeline_tag": null,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "bert",
+      "ColBERT",
+      "en",
+      "arxiv:2004.12832",
+      "arxiv:2007.00814",
+      "arxiv:2101.00436",
+      "arxiv:2112.01488",
+      "arxiv:2205.09707",
+      "license:mit",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

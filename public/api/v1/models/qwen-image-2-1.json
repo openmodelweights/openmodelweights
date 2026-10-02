@@ -1,0 +1,236 @@
+{
+  "id": "qwen-image-2-1",
+  "name": "Qwen-Image-2.1",
+  "developer": "Qwen",
+  "family": "Qwen Image 2.1",
+  "variant": "Qwen-Image-2.1",
+  "model": {
+    "parameters": "7B",
+    "total_parameters_billions": 7.0,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text-to-image",
+    "tags": [
+      "text-to-image",
+      "qwen image 2.1"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "access": "public",
+    "exact_files": [
+      "text_encoder/model-00001-of-00004.safetensors",
+      "text_encoder/model-00002-of-00004.safetensors",
+      "text_encoder/model-00003-of-00004.safetensors",
+      "text_encoder/model-00004-of-00004.safetensors",
+      "text_encoder/model.safetensors.index.json",
+      "transformer/diffusion_pytorch_model-00001-of-00002.safetensors",
+      "transformer/diffusion_pytorch_model-00002-of-00002.safetensors",
+      "transformer/diffusion_pytorch_model.safetensors.index.json",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 9,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Qwen/Qwen-Image-2.1",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "Qwen Research License",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "separate-license-required",
+      "label": "Commercial use requires a separate Qwen license",
+      "basis": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 14.0,
+      "fp8_int8": 7.0,
+      "int4": 3.5
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen Image 2.1",
+    "variant": "Qwen-Image-2.1",
+    "parent": "not-yet-verified",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen-Image-2.1",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "LICENSE",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: source-linked."
+      }
+    ],
+    "mode": "repository-revision-unchanged",
+    "full_verified_at": "2026-10-02"
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "text-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-30T02:14:09.000Z",
+    "downloads": 81738,
+    "likes": 2810,
+    "sha": "d26bb61231c349cf6b7896fa83353113880e1ba3",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "qwen",
+      "image-generation",
+      "image-editing",
+      "rgba",
+      "text-to-image",
+      "license:other",
+      "diffusers:QwenImage21Pipeline",
+      "region:us"
+    ],
+    "created_at": "2026-09-14T03:47:26.000Z"
+  },
+  "discovery": {
+    "source": "Open Model Weights curated seed",
+    "pinned": true,
+    "repo_id": "Qwen/Qwen-Image-2.1"
+  }
+}

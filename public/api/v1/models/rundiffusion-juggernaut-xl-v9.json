@@ -1,0 +1,251 @@
+{
+  "id": "rundiffusion-juggernaut-xl-v9",
+  "name": "Juggernaut-XL-v9",
+  "developer": "RunDiffusion",
+  "family": "Juggernaut-XL-v9",
+  "variant": "Juggernaut-XL-v9",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → image",
+    "tags": [
+      "diffusers",
+      "stable-diffusion",
+      "stable-diffusion-xl",
+      "sdxl",
+      "text-to-image",
+      "photorealistic",
+      "photography",
+      "cinematic",
+      "portrait",
+      "juggernaut",
+      "rundiffusion",
+      "kandooai",
+      "en",
+      "base_model:stabilityai/stable-diffusion-xl-base-1.0",
+      "base_model:finetune:stabilityai/stable-diffusion-xl-base-1.0",
+      "license:creativeml-openrail-m",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionXLPipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9",
+    "access": "public",
+    "exact_files": [
+      "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "text_encoder/model.fp16.safetensors",
+      "text_encoder_2/model.fp16.safetensors",
+      "unet/diffusion_pytorch_model.fp16.safetensors",
+      "vae/diffusion_pytorch_model.fp16.safetensors"
+    ],
+    "file_count": 5,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/RunDiffusion/Juggernaut-XL-v9",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "creativeml-openrail-m",
+    "name": "creativeml-openrail-m",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Juggernaut-XL-v9",
+    "variant": "Juggernaut-XL-v9",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "stabilityai/stable-diffusion-xl-base-1.0"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/RunDiffusion/Juggernaut-XL-v9",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "RunDiffusion/Juggernaut-XL-v9",
+    "rank": 491,
+    "downloads": 564665,
+    "likes": 468,
+    "last_modified": "2026-05-08T17:14:44+00:00",
+    "created_at": "2024-02-18T21:05:03+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "text-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-05-08T17:14:44.000Z",
+    "created_at": "2024-02-18T21:05:03.000Z",
+    "downloads": 564665,
+    "likes": 468,
+    "sha": "cf419233522daa0b9ea36c3aff98fa2cab1fb0fb",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "tags": [
+      "diffusers",
+      "stable-diffusion",
+      "stable-diffusion-xl",
+      "sdxl",
+      "text-to-image",
+      "photorealistic",
+      "photography",
+      "cinematic",
+      "portrait",
+      "juggernaut",
+      "rundiffusion",
+      "kandooai",
+      "en",
+      "base_model:stabilityai/stable-diffusion-xl-base-1.0",
+      "base_model:finetune:stabilityai/stable-diffusion-xl-base-1.0",
+      "license:creativeml-openrail-m",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionXLPipeline",
+      "region:us"
+    ]
+  }
+}

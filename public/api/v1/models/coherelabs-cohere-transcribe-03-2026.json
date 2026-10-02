@@ -1,0 +1,261 @@
+{
+  "id": "coherelabs-cohere-transcribe-03-2026",
+  "name": "cohere-transcribe-03-2026",
+  "developer": "CohereLabs",
+  "family": "cohere-transcribe-03-2026",
+  "variant": "cohere-transcribe-03-2026",
+  "model": {
+    "parameters": "2.0658B",
+    "total_parameters_billions": 2.065804048,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Audio → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "cohere_asr",
+      "automatic-speech-recognition",
+      "audio",
+      "hf-asr-leaderboard",
+      "speech-recognition",
+      "transcription",
+      "custom_code",
+      "ar",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pl"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+    "access": "gated (auto)",
+    "exact_files": [
+      "model.safetensors"
+    ],
+    "file_count": 1,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/CohereLabs/cohere-transcribe-03-2026",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 4.13,
+      "fp8_int8": 2.07,
+      "int4": 1.03
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "cohere-transcribe-03-2026",
+    "variant": "cohere-transcribe-03-2026",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/CohereLabs/cohere-transcribe-03-2026",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "CohereLabs/cohere-transcribe-03-2026",
+    "rank": 708,
+    "downloads": 213049,
+    "likes": 1162,
+    "last_modified": "2026-06-10T15:46:19+00:00",
+    "created_at": "2026-03-24T10:35:54+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "MLX",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-06-10T15:46:19.000Z",
+    "created_at": "2026-03-24T10:35:54.000Z",
+    "downloads": 213049,
+    "likes": 1162,
+    "sha": "b1eacc2686a3d08ceaae5f24a88b1d519620bc09",
+    "library_name": "transformers",
+    "pipeline_tag": "automatic-speech-recognition",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "cohere_asr",
+      "automatic-speech-recognition",
+      "audio",
+      "hf-asr-leaderboard",
+      "speech-recognition",
+      "transcription",
+      "custom_code",
+      "ar",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "pl",
+      "pt",
+      "vi",
+      "zh",
+      "doi:10.57967/hf/8653",
+      "license:apache-2.0",
+      "eval-results",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

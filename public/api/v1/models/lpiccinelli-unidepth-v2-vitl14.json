@@ -1,0 +1,225 @@
+{
+  "id": "lpiccinelli-unidepth-v2-vitl14",
+  "name": "unidepth-v2-vitl14",
+  "developer": "lpiccinelli",
+  "family": "unidepth-v2-vitl14",
+  "variant": "unidepth-v2-vitl14",
+  "model": {
+    "parameters": "0.353831B",
+    "total_parameters_billions": 0.353831043,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "UniDepth",
+      "pytorch",
+      "safetensors",
+      "model_hub_mixin",
+      "monocular-metric-depth-estimation",
+      "pytorch_model_hub_mixin",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/lpiccinelli/unidepth-v2-vitl14",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": null,
+    "name": "Not declared in model-card metadata",
+    "url": null,
+    "status": "not-disclosed",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.71,
+      "fp8_int8": 0.35,
+      "int4": 0.18
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "unidepth-v2-vitl14",
+    "variant": "unidepth-v2-vitl14",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/lpiccinelli/unidepth-v2-vitl14",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "not-disclosed",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "lpiccinelli/unidepth-v2-vitl14",
+    "rank": 660,
+    "downloads": 743727,
+    "likes": 50,
+    "last_modified": "2025-02-28T13:55:37+00:00",
+    "created_at": "2024-06-12T12:39:28+00:00",
+    "library_name": "UniDepth",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "UniDepth",
+    "pipeline_tag": null,
+    "declared": [
+      "UniDepth"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-02-28T13:55:37.000Z",
+    "created_at": "2024-06-12T12:39:28.000Z",
+    "downloads": 743727,
+    "likes": 50,
+    "sha": "52b349b514bd8b47642f67ac78cb7b5dc5c51dd9",
+    "library_name": "UniDepth",
+    "pipeline_tag": null,
+    "tags": [
+      "UniDepth",
+      "pytorch",
+      "safetensors",
+      "model_hub_mixin",
+      "monocular-metric-depth-estimation",
+      "pytorch_model_hub_mixin",
+      "region:us"
+    ]
+  }
+}

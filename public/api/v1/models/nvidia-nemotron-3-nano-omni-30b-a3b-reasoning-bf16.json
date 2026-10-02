@@ -1,0 +1,286 @@
+{
+  "id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-bf16",
+  "name": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+  "developer": "NVIDIA",
+  "family": "Nemotron-3-Nano-Omni",
+  "variant": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+  "model": {
+    "parameters": "33.0156B",
+    "total_parameters_billions": 33.015632214,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "llm_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Any To Any",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "NemotronH_Nano_Omni_Reasoning_V3",
+      "feature-extraction",
+      "nvidia",
+      "pytorch",
+      "multimodal",
+      "any-to-any",
+      "custom_code",
+      "dataset:nvidia/Nemotron-Image-Training-v3",
+      "arxiv:2604.24954",
+      "license:other",
+      "eval-results",
+      "deploy:azure",
+      "region:us",
+      "deploy:sagemaker"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00017.safetensors",
+      "model-00002-of-00017.safetensors",
+      "model-00003-of-00017.safetensors",
+      "model-00004-of-00017.safetensors",
+      "model-00005-of-00017.safetensors",
+      "model-00006-of-00017.safetensors",
+      "model-00007-of-00017.safetensors",
+      "model-00008-of-00017.safetensors",
+      "model-00009-of-00017.safetensors",
+      "model-00010-of-00017.safetensors",
+      "model-00011-of-00017.safetensors",
+      "model-00012-of-00017.safetensors",
+      "model-00013-of-00017.safetensors",
+      "model-00014-of-00017.safetensors",
+      "model-00015-of-00017.safetensors",
+      "model-00016-of-00017.safetensors",
+      "model-00017-of-00017.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 18,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "nvidia-open-model-agreement",
+    "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercially usable subject to NVIDIA license conditions",
+      "basis": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 66.03,
+      "fp8_int8": 33.02,
+      "int4": 16.51
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Nemotron-3-Nano-Omni",
+    "variant": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "nvidia/Nemotron-Image-Training-v3"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+    "rank": 612,
+    "downloads": 362582,
+    "likes": 435,
+    "last_modified": "2026-08-24T23:49:25+00:00",
+    "created_at": "2026-04-20T04:40:42+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "any-to-any",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "any-to-any",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "NeMo",
+      "Ollama",
+      "SGLang",
+      "TensorRT-LLM",
+      "llama.cpp",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-24T23:49:25.000Z",
+    "created_at": "2026-04-20T04:40:42.000Z",
+    "downloads": 362582,
+    "likes": 435,
+    "sha": "e5e9932441de940c9a62185c870ea5bcd4cd24e2",
+    "library_name": "transformers",
+    "pipeline_tag": "any-to-any",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "NemotronH_Nano_Omni_Reasoning_V3",
+      "feature-extraction",
+      "nvidia",
+      "pytorch",
+      "multimodal",
+      "any-to-any",
+      "custom_code",
+      "dataset:nvidia/Nemotron-Image-Training-v3",
+      "arxiv:2604.24954",
+      "license:other",
+      "eval-results",
+      "deploy:azure",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

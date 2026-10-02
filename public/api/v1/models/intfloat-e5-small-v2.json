@@ -1,0 +1,270 @@
+{
+  "id": "intfloat-e5-small-v2",
+  "name": "e5-small-v2",
+  "developer": "intfloat",
+  "family": "e5-small-v2",
+  "variant": "e5-small-v2",
+  "model": {
+    "parameters": "0.0333605B",
+    "total_parameters_billions": 0.033360512,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text embeddings",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "bert",
+      "mteb",
+      "Sentence Transformers",
+      "sentence-similarity",
+      "en",
+      "arxiv:2212.03533",
+      "arxiv:2104.08663",
+      "arxiv:2210.07316",
+      "license:mit",
+      "model-index",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/intfloat/e5-small-v2",
+    "access": "public",
+    "exact_files": [
+      "model.onnx",
+      "model.safetensors",
+      "onnx/model_O4.onnx",
+      "onnx/model_qint8_avx512_vnni.onnx",
+      "openvino/openvino_model.bin",
+      "openvino/openvino_model_qint8_quantized.bin",
+      "pytorch_model.bin",
+      "tf_model.h5"
+    ],
+    "file_count": 8,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/intfloat/e5-small-v2",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.07,
+      "fp8_int8": 0.03,
+      "int4": 0.02
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "e5-small-v2",
+    "variant": "e5-small-v2",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/intfloat/e5-small-v2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/intfloat/e5-small-v2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/intfloat/e5-small-v2/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/intfloat/e5-small-v2/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "intfloat/e5-small-v2",
+    "rank": 585,
+    "downloads": 708287,
+    "likes": 126,
+    "last_modified": "2025-02-17T03:24:44+00:00",
+    "created_at": "2023-05-19T06:45:35+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "declared": [
+      "ONNX Runtime",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-02-17T03:24:44.000Z",
+    "created_at": "2023-05-19T06:45:35.000Z",
+    "downloads": 708287,
+    "likes": 126,
+    "sha": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "bert",
+      "mteb",
+      "Sentence Transformers",
+      "sentence-similarity",
+      "en",
+      "arxiv:2212.03533",
+      "arxiv:2104.08663",
+      "arxiv:2210.07316",
+      "license:mit",
+      "model-index",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

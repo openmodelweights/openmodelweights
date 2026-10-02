@@ -1,0 +1,11 @@
+/api/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+
+/registry.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+
+/openapi.json
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=3600

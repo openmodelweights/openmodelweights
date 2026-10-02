@@ -1,0 +1,286 @@
+{
+  "id": "hexgrad-kokoro-82m",
+  "name": "Kokoro-82M",
+  "developer": "hexgrad",
+  "family": "Kokoro",
+  "variant": "Kokoro-82M",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "plbert.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text → audio",
+    "tags": [
+      "text-to-speech",
+      "en",
+      "arxiv:2306.07691",
+      "arxiv:2203.02395",
+      "base_model:yl4579/StyleTTS2-LJSpeech",
+      "base_model:finetune:yl4579/StyleTTS2-LJSpeech",
+      "doi:10.57967/hf/4329",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "access": "public",
+    "exact_files": [
+      "kokoro-v1_0.pth",
+      "voices/af_alloy.pt",
+      "voices/af_aoede.pt",
+      "voices/af_bella.pt",
+      "voices/af_heart.pt",
+      "voices/af_jessica.pt",
+      "voices/af_kore.pt",
+      "voices/af_nicole.pt",
+      "voices/af_nova.pt",
+      "voices/af_river.pt",
+      "voices/af_sarah.pt",
+      "voices/af_sky.pt",
+      "voices/am_adam.pt",
+      "voices/am_echo.pt",
+      "voices/am_eric.pt",
+      "voices/am_fenrir.pt",
+      "voices/am_liam.pt",
+      "voices/am_michael.pt",
+      "voices/am_onyx.pt",
+      "voices/am_puck.pt",
+      "voices/am_santa.pt",
+      "voices/bf_alice.pt",
+      "voices/bf_emma.pt",
+      "voices/bf_isabella.pt",
+      "voices/bf_lily.pt",
+      "voices/bm_daniel.pt",
+      "voices/bm_fable.pt",
+      "voices/bm_george.pt",
+      "voices/bm_lewis.pt",
+      "voices/ef_dora.pt",
+      "voices/em_alex.pt",
+      "voices/em_santa.pt",
+      "voices/ff_siwis.pt",
+      "voices/hf_alpha.pt",
+      "voices/hf_beta.pt",
+      "voices/hm_omega.pt",
+      "voices/hm_psi.pt",
+      "voices/if_sara.pt",
+      "voices/im_nicola.pt",
+      "voices/jf_alpha.pt",
+      "voices/jf_gongitsune.pt",
+      "voices/jf_nezumi.pt",
+      "voices/jf_tebukuro.pt",
+      "voices/jm_kumo.pt",
+      "voices/pf_dora.pt",
+      "voices/pm_alex.pt",
+      "voices/pm_santa.pt",
+      "voices/zf_xiaobei.pt",
+      "voices/zf_xiaoni.pt",
+      "voices/zf_xiaoxiao.pt",
+      "voices/zf_xiaoyi.pt",
+      "voices/zm_yunjian.pt",
+      "voices/zm_yunxi.pt",
+      "voices/zm_yunxia.pt",
+      "voices/zm_yunyang.pt"
+    ],
+    "file_count": 55,
+    "formats": [
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/hexgrad/Kokoro-82M",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Kokoro",
+    "variant": "Kokoro-82M",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "yl4579/StyleTTS2-LJSpeech"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/hexgrad/Kokoro-82M",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "hexgrad/Kokoro-82M",
+    "rank": 122,
+    "downloads": 11426444,
+    "likes": 7098,
+    "last_modified": "2025-04-10T18:12:48+00:00",
+    "created_at": "2024-12-26T00:20:08+00:00",
+    "library_name": null,
+    "pipeline_tag": "text-to-speech",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": "text-to-speech",
+    "declared": [],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-04-10T18:12:48.000Z",
+    "created_at": "2024-12-26T00:20:08.000Z",
+    "downloads": 11426444,
+    "likes": 7098,
+    "sha": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "library_name": null,
+    "pipeline_tag": "text-to-speech",
+    "tags": [
+      "text-to-speech",
+      "en",
+      "arxiv:2306.07691",
+      "arxiv:2203.02395",
+      "base_model:yl4579/StyleTTS2-LJSpeech",
+      "base_model:finetune:yl4579/StyleTTS2-LJSpeech",
+      "doi:10.57967/hf/4329",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

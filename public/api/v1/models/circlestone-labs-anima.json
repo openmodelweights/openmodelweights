@@ -1,0 +1,245 @@
+{
+  "id": "circlestone-labs-anima",
+  "name": "Anima",
+  "developer": "circlestone-labs",
+  "family": "Anima",
+  "variant": "Anima",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:nvidia/Cosmos-Predict2-2B-Text2Image",
+      "base_model:finetune:nvidia/Cosmos-Predict2-2B-Text2Image",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/circlestone-labs/Anima",
+    "access": "public",
+    "exact_files": [
+      "split_files/diffusion_models/anima-aesthetic-v1.0.safetensors",
+      "split_files/diffusion_models/anima-aesthetic-v1.0b.safetensors",
+      "split_files/diffusion_models/anima-aesthetic-v1.1.safetensors",
+      "split_files/diffusion_models/anima-base-v1.0.safetensors",
+      "split_files/diffusion_models/anima-preview.safetensors",
+      "split_files/diffusion_models/anima-preview2.safetensors",
+      "split_files/diffusion_models/anima-preview3-base.safetensors",
+      "split_files/diffusion_models/anima-turbo-v1.0.safetensors",
+      "split_files/diffusion_models/anima-turbo-v1.1.safetensors",
+      "split_files/text_encoders/qwen_3_06b_base.safetensors",
+      "split_files/vae/qwen_image_vae.safetensors"
+    ],
+    "file_count": 11,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/circlestone-labs/Anima",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "circlestone-labs-non-commercial-license",
+    "url": "https://huggingface.co/circlestone-labs/Anima/blob/main/LICENSE.md",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/circlestone-labs/Anima/blob/main/LICENSE.md"
+    },
+    "repository_license_files": [
+      "LICENSE.md"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/circlestone-labs/Anima/blob/main/LICENSE.md"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Anima",
+    "variant": "Anima",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "nvidia/Cosmos-Predict2-2B-Text2Image"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/circlestone-labs/Anima",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/circlestone-labs/Anima",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/circlestone-labs/Anima/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/circlestone-labs/Anima/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "LICENSE.md",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "circlestone-labs/Anima",
+    "rank": 245,
+    "downloads": 1238203,
+    "likes": 2341,
+    "last_modified": "2026-08-24T23:52:12+00:00",
+    "created_at": "2026-01-29T21:17:57+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-24T23:52:12.000Z",
+    "created_at": "2026-01-29T21:17:57.000Z",
+    "downloads": 1238203,
+    "likes": 2341,
+    "sha": "f973fc41ec7545364ac9776c2440285f43ff2a30",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:nvidia/Cosmos-Predict2-2B-Text2Image",
+      "base_model:finetune:nvidia/Cosmos-Predict2-2B-Text2Image",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "id": "sicariussicariistuff-assistant-pepe-8b",
+  "name": "Assistant_Pepe_8B",
+  "developer": "SicariusSicariiStuff",
+  "family": "Assistant_Pepe",
+  "variant": "Assistant_Pepe_8B",
+  "model": {
+    "parameters": "0.00026624B",
+    "total_parameters_billions": 0.00026624,
+    "context": {
+      "value": 1073152,
+      "display": "1,073,152 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Not declared",
+    "tags": [
+      "safetensors",
+      "llama",
+      "en",
+      "dataset:SicariusSicariiStuff/UBW_Tapestries",
+      "base_model:SicariusSicariiStuff/Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct_Abliterated",
+      "base_model:finetune:SicariusSicariiStuff/Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct_Abliterated",
+      "license:llama3.1",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00004.safetensors",
+      "model-00002-of-00004.safetensors",
+      "model-00003-of-00004.safetensors",
+      "model-00004-of-00004.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 5,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/SicariusSicariiStuff/Assistant_Pepe_8B",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "llama3.1",
+    "name": "llama3.1",
+    "url": "https://www.llama.com/llama3/license/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercial use allowed subject to Llama community-license conditions",
+      "basis": "https://www.llama.com/llama3/license/"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://www.llama.com/llama3/license/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.0,
+      "fp8_int8": 0.0,
+      "int4": 0.0
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Assistant_Pepe",
+    "variant": "Assistant_Pepe_8B",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "SicariusSicariiStuff/Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct_Abliterated"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "SicariusSicariiStuff/UBW_Tapestries"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/SicariusSicariiStuff/Assistant_Pepe_8B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://www.llama.com/llama3/license/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "SicariusSicariiStuff/Assistant_Pepe_8B",
+    "rank": 748,
+    "downloads": 421783,
+    "likes": 87,
+    "last_modified": "2026-05-03T17:00:02+00:00",
+    "created_at": "2026-01-14T13:18:26+00:00",
+    "library_name": null,
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": null,
+    "declared": [],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-05-03T17:00:02.000Z",
+    "created_at": "2026-01-14T13:18:26.000Z",
+    "downloads": 421783,
+    "likes": 87,
+    "sha": "ff7aa0bc217771cb51ec0701ba80d735ff946e24",
+    "library_name": null,
+    "pipeline_tag": null,
+    "tags": [
+      "safetensors",
+      "llama",
+      "en",
+      "dataset:SicariusSicariiStuff/UBW_Tapestries",
+      "base_model:SicariusSicariiStuff/Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct_Abliterated",
+      "base_model:finetune:SicariusSicariiStuff/Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct_Abliterated",
+      "license:llama3.1",
+      "region:us"
+    ]
+  }
+}

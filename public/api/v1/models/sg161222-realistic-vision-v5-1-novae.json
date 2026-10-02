@@ -1,0 +1,231 @@
+{
+  "id": "sg161222-realistic-vision-v5-1-novae",
+  "name": "Realistic_Vision_V5.1_noVAE",
+  "developer": "SG161222",
+  "family": "Realistic_Vision_V5.1_noVAE",
+  "variant": "Realistic_Vision_V5.1_noVAE",
+  "model": {
+    "parameters": "0.859521B",
+    "total_parameters_billions": 0.859520964,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "license:creativeml-openrail-m",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionPipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE",
+    "access": "public",
+    "exact_files": [
+      "Realistic_Vision_V5.1-inpainting.ckpt",
+      "Realistic_Vision_V5.1-inpainting.safetensors",
+      "Realistic_Vision_V5.1.ckpt",
+      "Realistic_Vision_V5.1.safetensors",
+      "Realistic_Vision_V5.1_fp16-no-ema-inpainting.ckpt",
+      "Realistic_Vision_V5.1_fp16-no-ema-inpainting.safetensors",
+      "Realistic_Vision_V5.1_fp16-no-ema.ckpt",
+      "Realistic_Vision_V5.1_fp16-no-ema.safetensors",
+      "text_encoder/model.safetensors",
+      "unet/diffusion_pytorch_model.safetensors",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 11,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/SG161222/Realistic_Vision_V5.1_noVAE",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "creativeml-openrail-m",
+    "name": "creativeml-openrail-m",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.72,
+      "fp8_int8": 0.86,
+      "int4": 0.43
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Realistic_Vision_V5.1_noVAE",
+    "variant": "Realistic_Vision_V5.1_noVAE",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/SG161222/Realistic_Vision_V5.1_noVAE",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "SG161222/Realistic_Vision_V5.1_noVAE",
+    "rank": 617,
+    "downloads": 502622,
+    "likes": 266,
+    "last_modified": "2025-10-30T16:55:47+00:00",
+    "created_at": "2023-07-31T05:20:51+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "text-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-10-30T16:55:47.000Z",
+    "created_at": "2023-07-31T05:20:51.000Z",
+    "downloads": 502622,
+    "likes": 266,
+    "sha": "1e9f017a7b1eaefb63a1900ea6c5953d2739fd21",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "license:creativeml-openrail-m",
+      "endpoints_compatible",
+      "diffusers:StableDiffusionPipeline",
+      "region:us"
+    ]
+  }
+}

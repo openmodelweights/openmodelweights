@@ -1,0 +1,252 @@
+{
+  "id": "stabilityai-sdxl-turbo",
+  "name": "sdxl-turbo",
+  "developer": "Stability AI",
+  "family": "sdxl-turbo",
+  "variant": "sdxl-turbo",
+  "model": {
+    "parameters": "2.56746B",
+    "total_parameters_billions": 2.567463684,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → image",
+    "tags": [
+      "diffusers",
+      "onnx",
+      "safetensors",
+      "text-to-image",
+      "license:other",
+      "diffusers:StableDiffusionXLPipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/stabilityai/sdxl-turbo",
+    "access": "public",
+    "exact_files": [
+      "sd_xl_turbo_1.0.safetensors",
+      "sd_xl_turbo_1.0_fp16.safetensors",
+      "text_encoder/model.fp16.safetensors",
+      "text_encoder/model.onnx",
+      "text_encoder/model.safetensors",
+      "text_encoder_2/model.fp16.safetensors",
+      "text_encoder_2/model.onnx",
+      "text_encoder_2/model.safetensors",
+      "unet/diffusion_pytorch_model.fp16.safetensors",
+      "unet/diffusion_pytorch_model.safetensors",
+      "unet/model.onnx",
+      "vae/diffusion_pytorch_model.fp16.safetensors",
+      "vae/diffusion_pytorch_model.safetensors",
+      "vae_decoder/model.onnx",
+      "vae_encoder/model.onnx"
+    ],
+    "file_count": 15,
+    "formats": [
+      "Safetensors",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/stabilityai/sdxl-turbo",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "sai-nc-community",
+    "url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.md",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.md"
+    },
+    "repository_license_files": [
+      "LICENSE.md"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.md"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 5.13,
+      "fp8_int8": 2.57,
+      "int4": 1.28
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "sdxl-turbo",
+    "variant": "sdxl-turbo",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/stabilityai/sdxl-turbo",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/stabilityai/sdxl-turbo",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.md",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "stabilityai/sdxl-turbo",
+    "rank": 290,
+    "downloads": 1011384,
+    "likes": 2635,
+    "last_modified": "2024-07-10T11:33:43+00:00",
+    "created_at": "2023-11-27T15:19:11+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "text-to-image",
+    "declared": [
+      "Diffusers",
+      "ONNX Runtime"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-07-10T11:33:43.000Z",
+    "created_at": "2023-11-27T15:19:11.000Z",
+    "downloads": 1011384,
+    "likes": 2635,
+    "sha": "71153311d3dbb46851df1931d3ca6e939de83304",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-image",
+    "tags": [
+      "diffusers",
+      "onnx",
+      "safetensors",
+      "text-to-image",
+      "license:other",
+      "diffusers:StableDiffusionXLPipeline",
+      "region:us"
+    ]
+  }
+}

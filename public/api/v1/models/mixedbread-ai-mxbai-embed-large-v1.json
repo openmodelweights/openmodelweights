@@ -1,0 +1,265 @@
+{
+  "id": "mixedbread-ai-mxbai-embed-large-v1",
+  "name": "mxbai-embed-large-v1",
+  "developer": "mixedbread-ai",
+  "family": "mxbai-embed-large-v1",
+  "variant": "mxbai-embed-large-v1",
+  "model": {
+    "parameters": "0.335142B",
+    "total_parameters_billions": 0.335141888,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Embeddings / features",
+    "tags": [
+      "sentence-transformers",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "gguf",
+      "bert",
+      "feature-extraction",
+      "mteb",
+      "transformers.js",
+      "transformers",
+      "en",
+      "arxiv:2309.12871",
+      "license:apache-2.0",
+      "model-index",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1",
+    "access": "public",
+    "exact_files": [
+      "gguf/mxbai-embed-large-v1-f16.gguf",
+      "model.safetensors",
+      "onnx/model.onnx",
+      "onnx/model_fp16.onnx",
+      "onnx/model_quantized.onnx",
+      "openvino/openvino_model.bin",
+      "openvino/openvino_model_qint8_quantized.bin"
+    ],
+    "file_count": 7,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "GGUF",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16",
+      "FLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/mixedbread-ai/mxbai-embed-large-v1",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.67,
+      "fp8_int8": 0.34,
+      "int4": 0.17
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "mxbai-embed-large-v1",
+    "variant": "mxbai-embed-large-v1",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/mixedbread-ai/mxbai-embed-large-v1",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "mixedbread-ai/mxbai-embed-large-v1",
+    "rank": 243,
+    "downloads": 1983334,
+    "likes": 826,
+    "last_modified": "2026-01-23T11:59:58+00:00",
+    "created_at": "2024-03-07T15:45:34+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-01-23T11:59:58.000Z",
+    "created_at": "2024-03-07T15:45:34.000Z",
+    "downloads": 1983334,
+    "likes": 826,
+    "sha": "b33106f585b9ce46904ad7443a3b52b7a63e231c",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "tags": [
+      "sentence-transformers",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "gguf",
+      "bert",
+      "feature-extraction",
+      "mteb",
+      "transformers.js",
+      "transformers",
+      "en",
+      "arxiv:2309.12871",
+      "license:apache-2.0",
+      "model-index",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

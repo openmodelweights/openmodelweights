@@ -1,0 +1,299 @@
+{
+  "id": "llama-3-2-90b-vision-instruct",
+  "name": "Llama-3.2-90B-Vision-Instruct",
+  "developer": "Meta",
+  "family": "Llama 3.2 Vision",
+  "variant": "Llama-3.2-90B-Vision-Instruct",
+  "model": {
+    "parameters": "89B",
+    "total_parameters_billions": 89.0,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "image + text → text",
+      "llama 3.2 vision"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct",
+    "access": "gated (manual)",
+    "exact_files": [
+      "model-00001-of-00037.safetensors",
+      "model-00002-of-00037.safetensors",
+      "model-00003-of-00037.safetensors",
+      "model-00004-of-00037.safetensors",
+      "model-00005-of-00037.safetensors",
+      "model-00006-of-00037.safetensors",
+      "model-00007-of-00037.safetensors",
+      "model-00008-of-00037.safetensors",
+      "model-00009-of-00037.safetensors",
+      "model-00010-of-00037.safetensors",
+      "model-00011-of-00037.safetensors",
+      "model-00012-of-00037.safetensors",
+      "model-00013-of-00037.safetensors",
+      "model-00014-of-00037.safetensors",
+      "model-00015-of-00037.safetensors",
+      "model-00016-of-00037.safetensors",
+      "model-00017-of-00037.safetensors",
+      "model-00018-of-00037.safetensors",
+      "model-00019-of-00037.safetensors",
+      "model-00020-of-00037.safetensors",
+      "model-00021-of-00037.safetensors",
+      "model-00022-of-00037.safetensors",
+      "model-00023-of-00037.safetensors",
+      "model-00024-of-00037.safetensors",
+      "model-00025-of-00037.safetensors",
+      "model-00026-of-00037.safetensors",
+      "model-00027-of-00037.safetensors",
+      "model-00028-of-00037.safetensors",
+      "model-00029-of-00037.safetensors",
+      "model-00030-of-00037.safetensors",
+      "model-00031-of-00037.safetensors",
+      "model-00032-of-00037.safetensors",
+      "model-00033-of-00037.safetensors",
+      "model-00034-of-00037.safetensors",
+      "model-00035-of-00037.safetensors",
+      "model-00036-of-00037.safetensors",
+      "model-00037-of-00037.safetensors",
+      "model.safetensors.index.json",
+      "original/consolidated.00.pth",
+      "original/consolidated.01.pth",
+      "original/consolidated.02.pth",
+      "original/consolidated.03.pth",
+      "original/consolidated.04.pth",
+      "original/consolidated.05.pth",
+      "original/consolidated.06.pth",
+      "original/consolidated.07.pth"
+    ],
+    "file_count": 46,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/meta-llama/Llama-3.2-90B-Vision-Instruct",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "llama3.2",
+    "name": "llama3.2",
+    "url": "https://www.llama.com/llama3/license/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercial use allowed subject to Llama community-license conditions",
+      "basis": "https://www.llama.com/llama3/license/"
+    },
+    "repository_license_files": [
+      "LICENSE.txt"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://www.llama.com/llama3/license/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 178.0,
+      "fp8_int8": 89.0,
+      "int4": 44.5
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Llama 3.2 Vision",
+    "variant": "Llama-3.2-90B-Vision-Instruct",
+    "parent": "not-yet-verified",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://github.com/meta-llama/llama-models/tree/main/models/llama3_2",
+        "https://github.com/meta-llama/llama-recipes",
+        "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/meta-llama/Llama-3.2-90B-Vision-Instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://www.llama.com/llama3/license/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: source-linked."
+      }
+    ],
+    "mode": "repository-revision-unchanged",
+    "full_verified_at": "2026-10-02"
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "Diffusers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-03-04T17:28:46.000Z",
+    "downloads": 1919,
+    "likes": 364,
+    "sha": "e305d2a43a4adc6987308fe7d896fb8ec5f1a5d8",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "mllama",
+      "image-text-to-text",
+      "facebook",
+      "meta",
+      "pytorch",
+      "llama",
+      "llama-3",
+      "conversational",
+      "en",
+      "de",
+      "fr",
+      "it",
+      "pt",
+      "hi",
+      "es",
+      "th",
+      "arxiv:2204.05149",
+      "license:llama3.2",
+      "eval-results",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2024-09-19T16:03:11.000Z"
+  },
+  "discovery": {
+    "source": "Open Model Weights curated seed",
+    "pinned": true,
+    "repo_id": "meta-llama/Llama-3.2-90B-Vision-Instruct"
+  }
+}

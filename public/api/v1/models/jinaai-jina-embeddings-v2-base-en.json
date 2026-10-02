@@ -1,0 +1,271 @@
+{
+  "id": "jinaai-jina-embeddings-v2-base-en",
+  "name": "jina-embeddings-v2-base-en",
+  "developer": "jinaai",
+  "family": "jina-embeddings-v2-base-en",
+  "variant": "jina-embeddings-v2-base-en",
+  "model": {
+    "parameters": "0.137368B",
+    "total_parameters_billions": 0.13736832,
+    "context": {
+      "value": 8192,
+      "display": "8,192 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "model_max_length"
+        }
+      ]
+    },
+    "modality": "Embeddings / features",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "coreml",
+      "onnx",
+      "safetensors",
+      "bert",
+      "feature-extraction",
+      "sentence-similarity",
+      "mteb",
+      "custom_code",
+      "en",
+      "dataset:allenai/c4",
+      "arxiv:2108.12409",
+      "arxiv:2310.19923",
+      "license:apache-2.0",
+      "model-index",
+      "text-embeddings-inference",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
+    "access": "public",
+    "exact_files": [
+      "coreml/float32_model.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+      "coreml/float32_model.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+      "model-w-mean-pooling.onnx",
+      "model.onnx",
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 6,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX",
+      "CoreML"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/jinaai/jina-embeddings-v2-base-en",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.27,
+      "fp8_int8": 0.14,
+      "int4": 0.07
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "jina-embeddings-v2-base-en",
+    "variant": "jina-embeddings-v2-base-en",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "allenai/c4"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/jinaai/jina-embeddings-v2-base-en",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "jinaai/jina-embeddings-v2-base-en",
+    "rank": 642,
+    "downloads": 357436,
+    "likes": 737,
+    "last_modified": "2025-01-06T16:24:38+00:00",
+    "created_at": "2023-09-27T17:04:00+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "declared": [
+      "ONNX Runtime",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-01-06T16:24:38.000Z",
+    "created_at": "2023-09-27T17:04:00.000Z",
+    "downloads": 357436,
+    "likes": 737,
+    "sha": "322d4d7e2f35e84137961a65af894fda0385eb7a",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "feature-extraction",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "coreml",
+      "onnx",
+      "safetensors",
+      "bert",
+      "feature-extraction",
+      "sentence-similarity",
+      "mteb",
+      "custom_code",
+      "en",
+      "dataset:allenai/c4",
+      "arxiv:2108.12409",
+      "arxiv:2310.19923",
+      "license:apache-2.0",
+      "model-index",
+      "text-embeddings-inference",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "id": "comfy-org-krea-2",
+  "name": "Krea-2",
+  "developer": "Comfy-Org",
+  "family": "Krea-2",
+  "variant": "Krea-2",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Not declared",
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:krea/Krea-2-Raw",
+      "base_model:finetune:krea/Krea-2-Raw",
+      "license:other",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Comfy-Org/Krea-2",
+    "access": "public",
+    "exact_files": [
+      "diffusion_models/krea2_raw_bf16.safetensors",
+      "diffusion_models/krea2_raw_fp8_scaled.safetensors",
+      "diffusion_models/krea2_raw_int8_convrot.safetensors",
+      "diffusion_models/krea2_turbo_bf16.safetensors",
+      "diffusion_models/krea2_turbo_fp8_scaled.safetensors",
+      "diffusion_models/krea2_turbo_int8_convrot.safetensors",
+      "diffusion_models/krea2_turbo_mxfp8.safetensors",
+      "diffusion_models/krea2_turbo_nvfp4.safetensors",
+      "loras/krea2_darkbrush.safetensors",
+      "loras/krea2_dotmatrix.safetensors",
+      "loras/krea2_kidsdrawing.safetensors",
+      "loras/krea2_neondrip.safetensors",
+      "loras/krea2_rainywindow.safetensors",
+      "loras/krea2_retroanime.safetensors",
+      "loras/krea2_softwatercolor.safetensors",
+      "loras/krea2_style_reference.safetensors",
+      "loras/krea2_sunsetblur.safetensors",
+      "loras/krea2_turbo_lora_rank_64_bf16.safetensors",
+      "loras/krea2_vintagetarot.safetensors",
+      "text_encoders/qwen3vl_4b_bf16.safetensors",
+      "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+      "vae/qwen_image_vae.safetensors"
+    ],
+    "file_count": 22,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Comfy-Org/Krea-2",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "krea-2-community-license",
+    "url": "https://huggingface.co/krea/Krea-2-Turbo/blob/main/LICENSE.pdf",
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/krea/Krea-2-Turbo/blob/main/LICENSE.pdf"
+    },
+    "repository_license_files": [
+      "LICENSE.pdf"
+    ],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/krea/Krea-2-Turbo/blob/main/LICENSE.pdf"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Krea-2",
+    "variant": "Krea-2",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "krea/Krea-2-Raw",
+        "krea/Krea-2-Turbo"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Comfy-Org/Krea-2",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    },
+    {
+      "type": "license",
+      "url": "https://huggingface.co/krea/Krea-2-Turbo/blob/main/LICENSE.pdf",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Comfy-Org/Krea-2",
+    "rank": 136,
+    "downloads": 9835635,
+    "likes": 632,
+    "last_modified": "2026-09-23T08:03:53+00:00",
+    "created_at": "2026-06-16T22:31:20+00:00",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "diffusion-single-file",
+    "pipeline_tag": null,
+    "declared": [
+      "diffusion-single-file"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-23T08:03:53.000Z",
+    "created_at": "2026-06-16T22:31:20.000Z",
+    "downloads": 9835635,
+    "likes": 632,
+    "sha": "eb1eddd3983a54678545a9b2c178c5853b30f7be",
+    "library_name": "diffusion-single-file",
+    "pipeline_tag": null,
+    "tags": [
+      "diffusion-single-file",
+      "comfyui",
+      "base_model:krea/Krea-2-Raw",
+      "base_model:finetune:krea/Krea-2-Raw",
+      "license:other",
+      "region:us"
+    ]
+  }
+}

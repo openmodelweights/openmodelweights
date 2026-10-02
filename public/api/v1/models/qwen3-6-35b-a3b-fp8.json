@@ -1,0 +1,288 @@
+{
+  "id": "qwen3-6-35b-a3b-fp8",
+  "name": "Qwen3.6-35B-A3B-FP8",
+  "developer": "Qwen",
+  "family": "Qwen3.6",
+  "variant": "35B-A3B-FP8",
+  "model": {
+    "parameters": "36B",
+    "total_parameters_billions": 36.0,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "image + text → text",
+      "qwen3.6"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+    "access": "public",
+    "exact_files": [
+      "layers-0.safetensors",
+      "layers-1.safetensors",
+      "layers-10.safetensors",
+      "layers-11.safetensors",
+      "layers-12.safetensors",
+      "layers-13.safetensors",
+      "layers-14.safetensors",
+      "layers-15.safetensors",
+      "layers-16.safetensors",
+      "layers-17.safetensors",
+      "layers-18.safetensors",
+      "layers-19.safetensors",
+      "layers-2.safetensors",
+      "layers-20.safetensors",
+      "layers-21.safetensors",
+      "layers-22.safetensors",
+      "layers-23.safetensors",
+      "layers-24.safetensors",
+      "layers-25.safetensors",
+      "layers-26.safetensors",
+      "layers-27.safetensors",
+      "layers-28.safetensors",
+      "layers-29.safetensors",
+      "layers-3.safetensors",
+      "layers-30.safetensors",
+      "layers-31.safetensors",
+      "layers-32.safetensors",
+      "layers-33.safetensors",
+      "layers-34.safetensors",
+      "layers-35.safetensors",
+      "layers-36.safetensors",
+      "layers-37.safetensors",
+      "layers-38.safetensors",
+      "layers-39.safetensors",
+      "layers-4.safetensors",
+      "layers-5.safetensors",
+      "layers-6.safetensors",
+      "layers-7.safetensors",
+      "layers-8.safetensors",
+      "layers-9.safetensors",
+      "model.safetensors.index.json",
+      "mtp.safetensors",
+      "outside.safetensors"
+    ],
+    "file_count": 43,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "F8_E4M3"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Qwen/Qwen3.6-35B-A3B-FP8",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 72.0,
+      "fp8_int8": 36.0,
+      "int4": 18.0
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen3.6",
+    "variant": "35B-A3B-FP8",
+    "parent": "not-yet-verified",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://docs.vllm.ai/projects/recipes/en/latest/Qwen/Qwen3.5.html"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3.6-35B-A3B-FP8",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/LICENSE",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: source-linked."
+      }
+    ],
+    "mode": "repository-revision-unchanged",
+    "full_verified_at": "2026-10-02"
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-04-24T02:39:23.000Z",
+    "downloads": 5699454,
+    "likes": 416,
+    "sha": "95a723d08a9490559dae23d0cff1d9466213d989",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "conversational",
+      "base_model:Qwen/Qwen3.6-35B-A3B",
+      "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "fp8",
+      "deploy:azure",
+      "region:us"
+    ],
+    "created_at": "2026-04-15T06:05:13.000Z"
+  },
+  "discovery": {
+    "source": "Open Model Weights curated seed",
+    "pinned": true,
+    "repo_id": "Qwen/Qwen3.6-35B-A3B-FP8"
+  }
+}

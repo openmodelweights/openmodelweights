@@ -1,0 +1,245 @@
+{
+  "id": "ai4bharat-indic-conformer-600m-multilingual",
+  "name": "indic-conformer-600m-multilingual",
+  "developer": "ai4bharat",
+  "family": "indic-conformer",
+  "variant": "indic-conformer-600m-multilingual",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Audio → text",
+    "tags": [
+      "onnx",
+      "automatic-speech-recognition",
+      "custom_code",
+      "license:mit",
+      "eval-results",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+    "access": "gated (auto)",
+    "exact_files": [
+      "assets/ctc_decoder.onnx",
+      "assets/encoder.onnx",
+      "assets/joint_enc.onnx",
+      "assets/joint_post_net_as.onnx",
+      "assets/joint_post_net_bn.onnx",
+      "assets/joint_post_net_brx.onnx",
+      "assets/joint_post_net_doi.onnx",
+      "assets/joint_post_net_gu.onnx",
+      "assets/joint_post_net_hi.onnx",
+      "assets/joint_post_net_kn.onnx",
+      "assets/joint_post_net_kok.onnx",
+      "assets/joint_post_net_ks.onnx",
+      "assets/joint_post_net_mai.onnx",
+      "assets/joint_post_net_ml.onnx",
+      "assets/joint_post_net_mni.onnx",
+      "assets/joint_post_net_mr.onnx",
+      "assets/joint_post_net_ne.onnx",
+      "assets/joint_post_net_or.onnx",
+      "assets/joint_post_net_pa.onnx",
+      "assets/joint_post_net_sa.onnx",
+      "assets/joint_post_net_sat.onnx",
+      "assets/joint_post_net_sd.onnx",
+      "assets/joint_post_net_ta.onnx",
+      "assets/joint_post_net_te.onnx",
+      "assets/joint_post_net_ur.onnx",
+      "assets/joint_pre_net.onnx",
+      "assets/joint_pred.onnx",
+      "assets/rnnt_decoder.onnx"
+    ],
+    "file_count": 28,
+    "formats": [
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/ai4bharat/indic-conformer-600m-multilingual",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "indic-conformer",
+    "variant": "indic-conformer-600m-multilingual",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/ai4bharat/indic-conformer-600m-multilingual",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "ai4bharat/indic-conformer-600m-multilingual",
+    "rank": 577,
+    "downloads": 582343,
+    "likes": 197,
+    "last_modified": "2026-02-07T05:27:29+00:00",
+    "created_at": "2025-03-15T11:04:50+00:00",
+    "library_name": null,
+    "pipeline_tag": "automatic-speech-recognition",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": "automatic-speech-recognition",
+    "declared": [
+      "ONNX Runtime"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-02-07T05:27:29.000Z",
+    "created_at": "2025-03-15T11:04:50.000Z",
+    "downloads": 582343,
+    "likes": 197,
+    "sha": "e9b71b369c048e2c6b634d4c131061c34e441179",
+    "library_name": null,
+    "pipeline_tag": "automatic-speech-recognition",
+    "tags": [
+      "onnx",
+      "automatic-speech-recognition",
+      "custom_code",
+      "license:mit",
+      "eval-results",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "id": "mistralai-mistral-nemo-instruct-2407",
+  "name": "Mistral-Nemo-Instruct-2407",
+  "developer": "Mistral AI",
+  "family": "Mistral-Nemo-Instruct-2407",
+  "variant": "Mistral-Nemo-Instruct-2407",
+  "model": {
+    "parameters": "12.2478B",
+    "total_parameters_billions": 12.2477824,
+    "context": {
+      "value": 131072,
+      "display": "131,072 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Not declared",
+    "tags": [
+      "vllm",
+      "safetensors",
+      "mistral",
+      "mistral-common",
+      "en",
+      "fr",
+      "de",
+      "es",
+      "it",
+      "pt",
+      "ru",
+      "zh",
+      "ja",
+      "base_model:mistralai/Mistral-Nemo-Base-2407",
+      "base_model:finetune:mistralai/Mistral-Nemo-Base-2407",
+      "license:apache-2.0",
+      "eval-results",
+      "region:us",
+      "deploy:sagemaker",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407",
+    "access": "public",
+    "exact_files": [
+      "consolidated.safetensors",
+      "model-00001-of-00005.safetensors",
+      "model-00002-of-00005.safetensors",
+      "model-00003-of-00005.safetensors",
+      "model-00004-of-00005.safetensors",
+      "model-00005-of-00005.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 7,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/mistralai/Mistral-Nemo-Instruct-2407",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 24.5,
+      "fp8_int8": 12.25,
+      "int4": 6.12
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Mistral-Nemo-Instruct-2407",
+    "variant": "Mistral-Nemo-Instruct-2407",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "mistralai/Mistral-Nemo-Base-2407"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-or-recipe-links-present",
+      "files": [],
+      "links": [
+        "https://huggingface.co/mistralai/Mistral-Nemo-Base-2407"
+      ],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/mistralai/Mistral-Nemo-Instruct-2407",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "mistralai/Mistral-Nemo-Instruct-2407",
+    "rank": 564,
+    "downloads": 341021,
+    "likes": 1714,
+    "last_modified": "2025-07-28T17:16:02+00:00",
+    "created_at": "2024-07-17T17:26:49+00:00",
+    "library_name": "vllm",
+    "pipeline_tag": null,
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "vLLM",
+    "pipeline_tag": null,
+    "declared": [
+      "mistral-common",
+      "vLLM"
+    ],
+    "mentioned_in_model_card": [
+      "NeMo",
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-07-28T17:16:02.000Z",
+    "created_at": "2024-07-17T17:26:49.000Z",
+    "downloads": 341021,
+    "likes": 1714,
+    "sha": "04d8a90549d23fc6bd7f642064003592df51e9b3",
+    "library_name": "vllm",
+    "pipeline_tag": null,
+    "tags": [
+      "vllm",
+      "safetensors",
+      "mistral",
+      "mistral-common",
+      "en",
+      "fr",
+      "de",
+      "es",
+      "it",
+      "pt",
+      "ru",
+      "zh",
+      "ja",
+      "base_model:mistralai/Mistral-Nemo-Base-2407",
+      "base_model:finetune:mistralai/Mistral-Nemo-Base-2407",
+      "license:apache-2.0",
+      "eval-results",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

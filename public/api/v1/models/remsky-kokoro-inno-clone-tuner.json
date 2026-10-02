@@ -1,0 +1,265 @@
+{
+  "id": "remsky-kokoro-inno-clone-tuner",
+  "name": "kokoro-inno-clone-tuner",
+  "developer": "remsky",
+  "family": "kokoro-inno-clone-tuner",
+  "variant": "kokoro-inno-clone-tuner",
+  "model": {
+    "parameters": "0.0096534B",
+    "total_parameters_billions": 0.009653396,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → audio",
+    "tags": [
+      "safetensors",
+      "kokoro-inno-reference-tuner",
+      "kokoro",
+      "voice-cloning",
+      "adapter",
+      "styletts2",
+      "text-to-speech",
+      "en",
+      "dataset:parler-tts/libritts_r_filtered",
+      "dataset:facebook/voxpopuli",
+      "dataset:amphion/Emilia-Dataset",
+      "base_model:hexgrad/Kokoro-82M",
+      "base_model:adapter:hexgrad/Kokoro-82M",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/remsky/kokoro-inno-clone-tuner",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "voices/af_ameliaearhart.pt",
+      "voices/af_libritts5338.pt",
+      "voices/am_libritts1272.pt",
+      "voices/am_libritts6241.pt",
+      "voices/am_vincentprice.pt",
+      "voices/bf_janegoodall.pt"
+    ],
+    "file_count": 7,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F16",
+      "F32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/remsky/kokoro-inno-clone-tuner",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": "https://huggingface.co/remsky/kokoro-inno-clone-tuner/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/remsky/kokoro-inno-clone-tuner/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.02,
+      "fp8_int8": 0.01,
+      "int4": 0.0
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "kokoro-inno-clone-tuner",
+    "variant": "kokoro-inno-clone-tuner",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "hexgrad/Kokoro-82M"
+      ],
+      "relation": "adapter",
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "parler-tts/libritts_r_filtered",
+        "facebook/voxpopuli",
+        "amphion/Emilia-Dataset"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/remsky/kokoro-inno-clone-tuner",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "remsky/kokoro-inno-clone-tuner",
+    "rank": 736,
+    "downloads": 659041,
+    "likes": 16,
+    "last_modified": "2026-09-15T17:53:18+00:00",
+    "created_at": "2026-08-31T02:47:06+00:00",
+    "library_name": null,
+    "pipeline_tag": "text-to-speech",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": "text-to-speech",
+    "declared": [],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-15T17:53:18.000Z",
+    "created_at": "2026-08-31T02:47:06.000Z",
+    "downloads": 659041,
+    "likes": 16,
+    "sha": "9b5e3c063fb34a63633d7921067af3c4ee966847",
+    "library_name": null,
+    "pipeline_tag": "text-to-speech",
+    "tags": [
+      "safetensors",
+      "kokoro-inno-reference-tuner",
+      "kokoro",
+      "voice-cloning",
+      "adapter",
+      "styletts2",
+      "text-to-speech",
+      "en",
+      "dataset:parler-tts/libritts_r_filtered",
+      "dataset:facebook/voxpopuli",
+      "dataset:amphion/Emilia-Dataset",
+      "base_model:hexgrad/Kokoro-82M",
+      "base_model:adapter:hexgrad/Kokoro-82M",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

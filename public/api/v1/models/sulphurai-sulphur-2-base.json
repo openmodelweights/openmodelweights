@@ -1,0 +1,246 @@
+{
+  "id": "sulphurai-sulphur-2-base",
+  "name": "Sulphur-2-base",
+  "developer": "SulphurAI",
+  "family": "Sulphur-2",
+  "variant": "Sulphur-2-base",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Text → video",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "gguf",
+      "text-to-video",
+      "base_model:Lightricks/LTX-2.3",
+      "base_model:quantized:Lightricks/LTX-2.3",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+    "access": "public",
+    "exact_files": [
+      "distill_loras/ltx-2.3-22b-distilled-lora-1.1_fro90_ceil72_condsafe.safetensors",
+      "experimental/sulphur_experimental_lora_v1.safetensors",
+      "prompt_enhancer/mmproj-BF16.gguf",
+      "prompt_enhancer/sulphur_prompt_enhancer_model-q8_0.gguf",
+      "prompt_enhancer_uncensored/mmproj-prompt_enhancer_uncensored.gguf",
+      "prompt_enhancer_uncensored/model.safetensors-00001-of-00004.safetensors",
+      "prompt_enhancer_uncensored/model.safetensors-00002-of-00004.safetensors",
+      "prompt_enhancer_uncensored/model.safetensors-00003-of-00004.safetensors",
+      "prompt_enhancer_uncensored/model.safetensors-00004-of-00004.safetensors",
+      "prompt_enhancer_uncensored/model.safetensors.index.json",
+      "prompt_enhancer_uncensored/prompt_enhancer_uncensored-q8_0.gguf",
+      "sulphur_dev_bf16.safetensors",
+      "sulphur_dev_fp8mixed.safetensors",
+      "sulphur_distil_bf16.safetensors",
+      "sulphur_lora_rank_768.safetensors"
+    ],
+    "file_count": 15,
+    "formats": [
+      "Safetensors",
+      "GGUF"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/SulphurAI/Sulphur-2-base",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": null,
+    "name": "Not declared in model-card metadata",
+    "url": "https://huggingface.co/SulphurAI/Sulphur-2-base/blob/main/LICENSE.txt",
+    "status": "not-disclosed",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": "https://huggingface.co/SulphurAI/Sulphur-2-base/blob/main/LICENSE.txt"
+    },
+    "repository_license_files": [
+      "LICENSE.txt"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/SulphurAI/Sulphur-2-base/blob/main/LICENSE.txt"
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "Sulphur-2",
+    "variant": "Sulphur-2-base",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Lightricks/LTX-2.3"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/SulphurAI/Sulphur-2-base",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-2-base/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-2-base/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "not-disclosed",
+      "commercial_use": "unknown",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "SulphurAI/Sulphur-2-base",
+    "rank": 694,
+    "downloads": 184448,
+    "likes": 2087,
+    "last_modified": "2026-08-05T20:28:53+00:00",
+    "created_at": "2026-05-03T00:33:24+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-video",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "text-to-video",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-08-05T20:28:53.000Z",
+    "created_at": "2026-05-03T00:33:24.000Z",
+    "downloads": 184448,
+    "likes": 2087,
+    "sha": "65587bbb38c700622f9434a16e732c8b280c115e",
+    "library_name": "diffusers",
+    "pipeline_tag": "text-to-video",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "gguf",
+      "text-to-video",
+      "base_model:Lightricks/LTX-2.3",
+      "base_model:quantized:Lightricks/LTX-2.3",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ]
+  }
+}

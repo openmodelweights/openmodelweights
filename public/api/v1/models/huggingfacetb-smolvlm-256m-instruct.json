@@ -1,0 +1,293 @@
+{
+  "id": "huggingfacetb-smolvlm-256m-instruct",
+  "name": "SmolVLM-256M-Instruct",
+  "developer": "HuggingFaceTB",
+  "family": "SmolVLM",
+  "variant": "SmolVLM-256M-Instruct",
+  "model": {
+    "parameters": "0.256485B",
+    "total_parameters_billions": 0.256484928,
+    "context": {
+      "value": 8192,
+      "display": "8,192 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "idefics3",
+      "image-text-to-text",
+      "conversational",
+      "en",
+      "dataset:HuggingFaceM4/the_cauldron",
+      "dataset:HuggingFaceM4/Docmatix",
+      "arxiv:2504.05299",
+      "base_model:HuggingFaceTB/SmolLM2-135M-Instruct",
+      "base_model:quantized:HuggingFaceTB/SmolLM2-135M-Instruct",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "onnx/decoder_model_merged.onnx",
+      "onnx/decoder_model_merged_bnb4.onnx",
+      "onnx/decoder_model_merged_fp16.onnx",
+      "onnx/decoder_model_merged_int8.onnx",
+      "onnx/decoder_model_merged_q4.onnx",
+      "onnx/decoder_model_merged_q4f16.onnx",
+      "onnx/decoder_model_merged_quantized.onnx",
+      "onnx/decoder_model_merged_uint8.onnx",
+      "onnx/embed_tokens.onnx",
+      "onnx/embed_tokens_bnb4.onnx",
+      "onnx/embed_tokens_fp16.onnx",
+      "onnx/embed_tokens_int8.onnx",
+      "onnx/embed_tokens_q4.onnx",
+      "onnx/embed_tokens_q4f16.onnx",
+      "onnx/embed_tokens_quantized.onnx",
+      "onnx/embed_tokens_uint8.onnx",
+      "onnx/vision_encoder.onnx",
+      "onnx/vision_encoder_bnb4.onnx",
+      "onnx/vision_encoder_fp16.onnx",
+      "onnx/vision_encoder_int8.onnx",
+      "onnx/vision_encoder_q4.onnx",
+      "onnx/vision_encoder_q4f16.onnx",
+      "onnx/vision_encoder_quantized.onnx",
+      "onnx/vision_encoder_uint8.onnx"
+    ],
+    "file_count": 25,
+    "formats": [
+      "Safetensors",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/HuggingFaceTB/SmolVLM-256M-Instruct",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.51,
+      "fp8_int8": 0.26,
+      "int4": 0.13
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "SmolVLM",
+    "variant": "SmolVLM-256M-Instruct",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "HuggingFaceTB/SmolLM2-135M-Instruct",
+        "google/siglip-base-patch16-512"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://github.com/huggingface/smollm/blob/main/vision/finetuning/Smol_VLM_FT.ipynb"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "HuggingFaceM4/the_cauldron",
+        "HuggingFaceM4/Docmatix"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/HuggingFaceTB/SmolVLM-256M-Instruct",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "HuggingFaceTB/SmolVLM-256M-Instruct",
+    "rank": 620,
+    "downloads": 444889,
+    "likes": 414,
+    "last_modified": "2025-04-08T21:39:50+00:00",
+    "created_at": "2025-01-17T15:40:24+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "ONNX Runtime",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-04-08T21:39:50.000Z",
+    "created_at": "2025-01-17T15:40:24.000Z",
+    "downloads": 444889,
+    "likes": 414,
+    "sha": "7e3e67edbbed1bf9888184d9df282b700a323964",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "onnx",
+      "safetensors",
+      "idefics3",
+      "image-text-to-text",
+      "conversational",
+      "en",
+      "dataset:HuggingFaceM4/the_cauldron",
+      "dataset:HuggingFaceM4/Docmatix",
+      "arxiv:2504.05299",
+      "base_model:HuggingFaceTB/SmolLM2-135M-Instruct",
+      "base_model:quantized:HuggingFaceTB/SmolLM2-135M-Instruct",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

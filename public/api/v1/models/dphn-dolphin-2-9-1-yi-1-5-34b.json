@@ -1,0 +1,296 @@
+{
+  "id": "dphn-dolphin-2-9-1-yi-1-5-34b",
+  "name": "dolphin-2.9.1-yi-1.5-34b",
+  "developer": "dphn",
+  "family": "dolphin-2.9.1-yi-1.5",
+  "variant": "dolphin-2.9.1-yi-1.5-34b",
+  "model": {
+    "parameters": "34.3889B",
+    "total_parameters_billions": 34.388917248,
+    "context": {
+      "value": 8192,
+      "display": "8,192 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer",
+      "axolotl",
+      "conversational",
+      "dataset:cognitivecomputations/Dolphin-2.9",
+      "dataset:teknium/OpenHermes-2.5",
+      "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+      "dataset:cognitivecomputations/dolphin-coder",
+      "dataset:cognitivecomputations/samantha-data",
+      "dataset:microsoft/orca-math-word-problems-200k",
+      "dataset:Locutusque/function-calling-chatml",
+      "dataset:internlm/Agent-FLAN",
+      "base_model:01-ai/Yi-1.5-34B",
+      "base_model:finetune:01-ai/Yi-1.5-34B",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00015.safetensors",
+      "model-00002-of-00015.safetensors",
+      "model-00003-of-00015.safetensors",
+      "model-00004-of-00015.safetensors",
+      "model-00005-of-00015.safetensors",
+      "model-00006-of-00015.safetensors",
+      "model-00007-of-00015.safetensors",
+      "model-00008-of-00015.safetensors",
+      "model-00009-of-00015.safetensors",
+      "model-00010-of-00015.safetensors",
+      "model-00011-of-00015.safetensors",
+      "model-00012-of-00015.safetensors",
+      "model-00013-of-00015.safetensors",
+      "model-00014-of-00015.safetensors",
+      "model-00015-of-00015.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 16,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/dphn/dolphin-2.9.1-yi-1.5-34b",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 68.78,
+      "fp8_int8": 34.39,
+      "int4": 17.19
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "dolphin-2.9.1-yi-1.5",
+    "variant": "dolphin-2.9.1-yi-1.5-34b",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "01-ai/Yi-1.5-34B"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/01-ai/Yi-1.5-34B"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "cognitivecomputations/Dolphin-2.9",
+        "teknium/OpenHermes-2.5",
+        "m-a-p/CodeFeedback-Filtered-Instruction",
+        "cognitivecomputations/dolphin-coder",
+        "cognitivecomputations/samantha-data",
+        "microsoft/orca-math-word-problems-200k",
+        "Locutusque/function-calling-chatml",
+        "internlm/Agent-FLAN"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/dphn/dolphin-2.9.1-yi-1.5-34b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "dphn/dolphin-2.9.1-yi-1.5-34b",
+    "rank": 234,
+    "downloads": 4733097,
+    "likes": 69,
+    "last_modified": "2025-09-08T05:56:56+00:00",
+    "created_at": "2024-05-18T04:50:56+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-09-08T05:56:56.000Z",
+    "created_at": "2024-05-18T04:50:56.000Z",
+    "downloads": 4733097,
+    "likes": 69,
+    "sha": "0141cba238d0faad09bc240ea7af14c9ea5aec44",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "generated_from_trainer",
+      "axolotl",
+      "conversational",
+      "dataset:cognitivecomputations/Dolphin-2.9",
+      "dataset:teknium/OpenHermes-2.5",
+      "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+      "dataset:cognitivecomputations/dolphin-coder",
+      "dataset:cognitivecomputations/samantha-data",
+      "dataset:microsoft/orca-math-word-problems-200k",
+      "dataset:Locutusque/function-calling-chatml",
+      "dataset:internlm/Agent-FLAN",
+      "base_model:01-ai/Yi-1.5-34B",
+      "base_model:finetune:01-ai/Yi-1.5-34B",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

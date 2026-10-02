@@ -1,0 +1,278 @@
+{
+  "id": "nomic-ai-nomic-embed-code",
+  "name": "nomic-embed-code",
+  "developer": "nomic-ai",
+  "family": "nomic-embed-code",
+  "variant": "nomic-embed-code",
+  "model": {
+    "parameters": "7.07062B",
+    "total_parameters_billions": 7.070619136,
+    "context": {
+      "value": 32768,
+      "display": "32,768 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text embeddings",
+    "tags": [
+      "sentence-transformers",
+      "safetensors",
+      "qwen2",
+      "sentence-similarity",
+      "feature-extraction",
+      "dataset:nomic-ai/cornstack-python-v1",
+      "dataset:nomic-ai/cornstack-javascript-v1",
+      "dataset:nomic-ai/cornstack-java-v1",
+      "dataset:nomic-ai/cornstack-go-v1",
+      "dataset:nomic-ai/cornstack-php-v1",
+      "dataset:nomic-ai/cornstack-ruby-v1",
+      "arxiv:2412.01007",
+      "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
+      "base_model:finetune:Qwen/Qwen2.5-Coder-7B-Instruct",
+      "license:apache-2.0",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nomic-ai/nomic-embed-code",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00006.safetensors",
+      "model-00002-of-00006.safetensors",
+      "model-00003-of-00006.safetensors",
+      "model-00004-of-00006.safetensors",
+      "model-00005-of-00006.safetensors",
+      "model-00006-of-00006.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 7,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nomic-ai/nomic-embed-code",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 14.14,
+      "fp8_int8": 7.07,
+      "int4": 3.54
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "nomic-embed-code",
+    "variant": "nomic-embed-code",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "nomic-ai/cornstack-python-v1",
+        "nomic-ai/cornstack-javascript-v1",
+        "nomic-ai/cornstack-java-v1",
+        "nomic-ai/cornstack-go-v1",
+        "nomic-ai/cornstack-php-v1",
+        "nomic-ai/cornstack-ruby-v1"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-code",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nomic-ai/nomic-embed-code",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-code/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-code/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nomic-ai/nomic-embed-code",
+    "rank": 729,
+    "downloads": 456727,
+    "likes": 124,
+    "last_modified": "2025-03-31T18:41:14+00:00",
+    "created_at": "2025-03-24T15:31:52+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "declared": [
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-03-31T18:41:14.000Z",
+    "created_at": "2025-03-24T15:31:52.000Z",
+    "downloads": 456727,
+    "likes": 124,
+    "sha": "11114029805cee545ef111d5144b623787462a52",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "tags": [
+      "sentence-transformers",
+      "safetensors",
+      "qwen2",
+      "sentence-similarity",
+      "feature-extraction",
+      "dataset:nomic-ai/cornstack-python-v1",
+      "dataset:nomic-ai/cornstack-javascript-v1",
+      "dataset:nomic-ai/cornstack-java-v1",
+      "dataset:nomic-ai/cornstack-go-v1",
+      "dataset:nomic-ai/cornstack-php-v1",
+      "dataset:nomic-ai/cornstack-ruby-v1",
+      "arxiv:2412.01007",
+      "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
+      "base_model:finetune:Qwen/Qwen2.5-Coder-7B-Instruct",
+      "license:apache-2.0",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

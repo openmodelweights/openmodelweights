@@ -1,0 +1,331 @@
+{
+  "id": "nvidia-nemotron-3-5-asr-streaming-0-6b",
+  "name": "nemotron-3.5-asr-streaming-0.6b",
+  "developer": "NVIDIA",
+  "family": "nemotron-3.5-asr-streaming",
+  "variant": "nemotron-3.5-asr-streaming-0.6b",
+  "model": {
+    "parameters": "0.637997B",
+    "total_parameters_billions": 0.637997088,
+    "context": {
+      "value": 5000,
+      "display": "5,000 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "encoder_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Audio → text",
+    "tags": [
+      "nemo",
+      "safetensors",
+      "gguf",
+      "nemotron3_5_asr",
+      "feature-extraction",
+      "transformers",
+      "speech-recognition",
+      "cache-aware ASR",
+      "automatic-speech-recognition",
+      "streaming-asr",
+      "multilingual",
+      "speech",
+      "audio",
+      "FastConformer",
+      "RNNT",
+      "Parakeet",
+      "ASR",
+      "pytorch",
+      "NeMo",
+      "en"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "nemotron-3.5-asr-streaming-0.6b.nemo",
+      "nemotron-3.5-asr-streaming-0.6b.q8_0.gguf"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "GGUF",
+      "NeMo"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "openmdw-1.1",
+    "url": "https://openmdw.ai/license/1-1/",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-conditions",
+      "label": "Commercially usable subject to NVIDIA license conditions",
+      "basis": "https://openmdw.ai/license/1-1/"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://openmdw.ai/license/1-1/"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.28,
+      "fp8_int8": 0.64,
+      "int4": 0.32
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "nemotron-3.5-asr-streaming",
+    "variant": "nemotron-3.5-asr-streaming-0.6b",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [
+        "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+        "https://github.com/NVIDIA/NeMo"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "nvidia/Granary",
+        "multilingual_librispeech",
+        "fleurs",
+        "mozilla-foundation/common_voice_8_0",
+        "voxpopuli",
+        "europarl"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://openmdw.ai/license/1-1/",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+    "rank": 264,
+    "downloads": 1240287,
+    "likes": 1157,
+    "last_modified": "2026-09-10T16:49:07+00:00",
+    "created_at": "2026-05-15T21:52:25+00:00",
+    "library_name": "nemo",
+    "pipeline_tag": "automatic-speech-recognition",
+    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "NeMo",
+    "pipeline_tag": "automatic-speech-recognition",
+    "declared": [
+      "NeMo",
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-10T16:49:07.000Z",
+    "created_at": "2026-05-15T21:52:25.000Z",
+    "downloads": 1240287,
+    "likes": 1157,
+    "sha": "ea30d66debe3740a08b573244286791d423d6b3e",
+    "library_name": "nemo",
+    "pipeline_tag": "automatic-speech-recognition",
+    "tags": [
+      "nemo",
+      "safetensors",
+      "gguf",
+      "nemotron3_5_asr",
+      "feature-extraction",
+      "transformers",
+      "speech-recognition",
+      "cache-aware ASR",
+      "automatic-speech-recognition",
+      "streaming-asr",
+      "multilingual",
+      "speech",
+      "audio",
+      "FastConformer",
+      "RNNT",
+      "Parakeet",
+      "ASR",
+      "pytorch",
+      "NeMo",
+      "en",
+      "es",
+      "de",
+      "fr",
+      "it",
+      "ar",
+      "ja",
+      "ko",
+      "pt",
+      "ru",
+      "hi",
+      "zh",
+      "vi",
+      "he",
+      "nl",
+      "cs",
+      "da",
+      "pl",
+      "no",
+      "sv",
+      "th",
+      "tr",
+      "bg",
+      "el",
+      "et",
+      "fi",
+      "hr",
+      "hu",
+      "lt",
+      "lv",
+      "ro",
+      "sk",
+      "uk",
+      "mt",
+      "sl",
+      "dataset:nvidia/Granary",
+      "dataset:multilingual_librispeech",
+      "dataset:fleurs",
+      "dataset:mozilla-foundation/common_voice_8_0",
+      "dataset:voxpopuli",
+      "dataset:europarl",
+      "arxiv:2312.17279",
+      "arxiv:2305.05084",
+      "license:other",
+      "model-index",
+      "eval-results",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}
