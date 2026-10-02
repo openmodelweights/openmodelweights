@@ -10,6 +10,7 @@ Latest verification: 2026-10-02.
 - https://openmodelweights.com/verification/
 
 ## Explorers
+- https://openmodelweights.com/compare/ — compare 2–4 verified model records side by side
 - https://openmodelweights.com/licenses/ — license and commercial-use explorer
 - https://openmodelweights.com/hardware/ — weight-memory explorer
 - https://openmodelweights.com/formats/ — repository format and precision explorer
