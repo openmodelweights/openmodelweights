@@ -1,0 +1,818 @@
+{
+  "generated_at": "2026-10-02T10:31:24+00:00",
+  "events": [
+    {
+      "id": "d051f88cc494c191",
+      "at": "2026-10-02T10:31:24+00:00",
+      "type": "verification",
+      "model_id": null,
+      "model": "Registry verification",
+      "developer": "",
+      "summary": "107/107 records field-verified",
+      "detail": "0 fetch errors; 107 commercial-use classifications.",
+      "url": "/verification/"
+    }
+  ],
+  "publisher_activity": [
+    {
+      "at": "2026-09-30T02:14:09.000Z",
+      "model_id": "qwen-image-2-1",
+      "model": "Qwen-Image-2.1",
+      "developer": "Qwen",
+      "sha": "d26bb61231c349cf6b7896fa83353113880e1ba3",
+      "url": "/models/qwen-image-2-1/"
+    },
+    {
+      "at": "2026-09-27T02:00:18.000Z",
+      "model_id": "qwen3guard-stream-4b",
+      "model": "Qwen3Guard-Stream-4B",
+      "developer": "Qwen",
+      "sha": "0e281784acd1370a2527aece964bcb267927f799",
+      "url": "/models/qwen3guard-stream-4b/"
+    },
+    {
+      "at": "2026-09-27T02:00:16.000Z",
+      "model_id": "qwen3guard-stream-0-6b",
+      "model": "Qwen3Guard-Stream-0.6B",
+      "developer": "Qwen",
+      "sha": "74e1479150e9029d6778993f00491108323bb6f8",
+      "url": "/models/qwen3guard-stream-0-6b/"
+    },
+    {
+      "at": "2026-09-27T02:00:07.000Z",
+      "model_id": "qwen3guard-stream-8b",
+      "model": "Qwen3Guard-Stream-8B",
+      "developer": "Qwen",
+      "sha": "d3438047616e8d782834268cdadecc34064fe4d9",
+      "url": "/models/qwen3guard-stream-8b/"
+    },
+    {
+      "at": "2026-09-20T11:59:48.000Z",
+      "model_id": "qwen-image-2-1-pe-i2i",
+      "model": "Qwen-Image-2.1-PE-I2I",
+      "developer": "Qwen",
+      "sha": "72927bc08afc99b7888ceb7d7d51a12db3700bbd",
+      "url": "/models/qwen-image-2-1-pe-i2i/"
+    },
+    {
+      "at": "2026-09-20T11:59:46.000Z",
+      "model_id": "qwen-image-2-1-pe-t2i",
+      "model": "Qwen-Image-2.1-PE-T2I",
+      "developer": "Qwen",
+      "sha": "f3ed7985c788ad75b3ab7223e0c4c51e2a43545b",
+      "url": "/models/qwen-image-2-1-pe-t2i/"
+    },
+    {
+      "at": "2026-09-11T08:37:56.000Z",
+      "model_id": "mistral-large-3-675b-instruct-2512-nvfp4",
+      "model": "Mistral-Large-3-675B-Instruct-2512-NVFP4",
+      "developer": "Mistral AI",
+      "sha": "6f01426c721bd365f29a108f2389782e9671aab2",
+      "url": "/models/mistral-large-3-675b-instruct-2512-nvfp4/"
+    },
+    {
+      "at": "2026-09-02T06:31:52.000Z",
+      "model_id": "qwen-drive-1-0-4b",
+      "model": "Qwen-Drive-1.0-4B",
+      "developer": "Qwen",
+      "sha": "28484089a7cc8c335cf5089fb0745cf7c49b6eaa",
+      "url": "/models/qwen-drive-1-0-4b/"
+    },
+    {
+      "at": "2026-08-31T08:19:15.000Z",
+      "model_id": "qwen3-8-flash-next-fp8",
+      "model": "Qwen3.8-Flash-Next-FP8",
+      "developer": "Qwen",
+      "sha": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+      "url": "/models/qwen3-8-flash-next-fp8/"
+    },
+    {
+      "at": "2026-08-27T05:03:36.000Z",
+      "model_id": "qwen3-8-flash-next",
+      "model": "Qwen3.8-Flash-Next",
+      "developer": "Qwen",
+      "sha": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+      "url": "/models/qwen3-8-flash-next/"
+    },
+    {
+      "at": "2026-08-24T23:50:04.000Z",
+      "model_id": "nvidia-nemotron-3-nano-30b-a3b",
+      "model": "NVIDIA Nemotron 3 Nano 30B-A3B",
+      "developer": "NVIDIA",
+      "sha": "bf77c3174f68ad409e1c2aa60daeb46e32d1c606",
+      "url": "/models/nvidia-nemotron-3-nano-30b-a3b/"
+    },
+    {
+      "at": "2026-08-14T15:00:01.000Z",
+      "model_id": "qwen3-8-27b",
+      "model": "Qwen3.8-27B",
+      "developer": "Qwen",
+      "sha": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "url": "/models/qwen3-8-27b/"
+    },
+    {
+      "at": "2026-08-14T14:44:41.000Z",
+      "model_id": "qwen3-8-27b-fp8",
+      "model": "Qwen3.8-27B-FP8",
+      "developer": "Qwen",
+      "sha": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+      "url": "/models/qwen3-8-27b-fp8/"
+    },
+    {
+      "at": "2026-08-12T10:24:04.000Z",
+      "model_id": "qwen3-8-2-4t-a95b",
+      "model": "Qwen3.8-2.4T-A95B",
+      "developer": "Qwen",
+      "sha": "207bd685a7e3696cfaff12ded7c6a7ea0f88c996",
+      "url": "/models/qwen3-8-2-4t-a95b/"
+    },
+    {
+      "at": "2026-08-12T10:23:42.000Z",
+      "model_id": "qwen3-8-2-4t-a95b-fp8",
+      "model": "Qwen3.8-2.4T-A95B-FP8",
+      "developer": "Qwen",
+      "sha": "d2dc35658bcf77e66643428cb52e774cc3b5bd29",
+      "url": "/models/qwen3-8-2-4t-a95b-fp8/"
+    },
+    {
+      "at": "2026-08-05T10:06:52.000Z",
+      "model_id": "shieldstral-1-0-3b",
+      "model": "Shieldstral-1.0-3B",
+      "developer": "Mistral AI",
+      "sha": "003ec7e2b0bab5f0e6307edbaf186fa5822b76f5",
+      "url": "/models/shieldstral-1-0-3b/"
+    },
+    {
+      "at": "2026-07-22T11:58:47.000Z",
+      "model_id": "qwen3-asr-0-6b-hf",
+      "model": "Qwen3-ASR-0.6B-hf",
+      "developer": "Qwen",
+      "sha": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+      "url": "/models/qwen3-asr-0-6b-hf/"
+    },
+    {
+      "at": "2026-07-22T11:58:31.000Z",
+      "model_id": "qwen3-asr-1-7b-hf",
+      "model": "Qwen3-ASR-1.7B-hf",
+      "developer": "Qwen",
+      "sha": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+      "url": "/models/qwen3-asr-1-7b-hf/"
+    },
+    {
+      "at": "2026-07-15T12:24:10.000Z",
+      "model_id": "leanstral-1-5-119b-a6b",
+      "model": "Leanstral-1.5-119B-A6B",
+      "developer": "Mistral AI",
+      "sha": "81592da95d94ab0439bfce16df1d55b402e598b6",
+      "url": "/models/leanstral-1-5-119b-a6b/"
+    },
+    {
+      "at": "2026-07-15T12:23:57.000Z",
+      "model_id": "mistral-small-4-119b-2603-eagle",
+      "model": "Mistral-Small-4-119B-2603-eagle",
+      "developer": "Mistral AI",
+      "sha": "9a8ea22dca0161ff7af7879f4a0000f65314797d",
+      "url": "/models/mistral-small-4-119b-2603-eagle/"
+    },
+    {
+      "at": "2026-07-15T12:23:29.000Z",
+      "model_id": "mistral-small-4-119b-a6b",
+      "model": "Mistral Small 4 119B A6B",
+      "developer": "Mistral AI",
+      "sha": "a11f36bebf709121056b1dbcc943d1c6afbe494d",
+      "url": "/models/mistral-small-4-119b-a6b/"
+    },
+    {
+      "at": "2026-07-15T12:23:17.000Z",
+      "model_id": "mistral-medium-3-5-128b",
+      "model": "Mistral-Medium-3.5-128B",
+      "developer": "Mistral AI",
+      "sha": "22b2b868a15677cfa6061277ed2f653d1349a9ab",
+      "url": "/models/mistral-medium-3-5-128b/"
+    },
+    {
+      "at": "2026-07-15T12:22:54.000Z",
+      "model_id": "mistral-large-3-675b-instruct-2512-eagle",
+      "model": "Mistral-Large-3-675B-Instruct-2512-Eagle",
+      "developer": "Mistral AI",
+      "sha": "a2eec8837f6b4b2a434a5bbc27c534c9640aef89",
+      "url": "/models/mistral-large-3-675b-instruct-2512-eagle/"
+    },
+    {
+      "at": "2026-07-15T12:22:43.000Z",
+      "model_id": "mistral-large-3-675b-instruct-2512",
+      "model": "Mistral-Large-3-675B-Instruct-2512",
+      "developer": "Mistral AI",
+      "sha": "383ffea2c7d60dfd44ca960e8e691709d4fdb9cd",
+      "url": "/models/mistral-large-3-675b-instruct-2512/"
+    },
+    {
+      "at": "2026-07-15T12:22:30.000Z",
+      "model_id": "ministral-3-8b-reasoning-2512",
+      "model": "Ministral-3-8B-Reasoning-2512",
+      "developer": "Mistral AI",
+      "sha": "81eaece1948f3875421d9a45bc55487d10e2d894",
+      "url": "/models/ministral-3-8b-reasoning-2512/"
+    },
+    {
+      "at": "2026-07-15T12:22:19.000Z",
+      "model_id": "ministral-3-8b-instruct-2512-bf16",
+      "model": "Ministral-3-8B-Instruct-2512-BF16",
+      "developer": "Mistral AI",
+      "sha": "f6fae9795746f63c9be8344932f01275f3c63734",
+      "url": "/models/ministral-3-8b-instruct-2512-bf16/"
+    },
+    {
+      "at": "2026-07-15T12:22:08.000Z",
+      "model_id": "ministral-3-8b-instruct-2512",
+      "model": "Ministral-3-8B-Instruct-2512",
+      "developer": "Mistral AI",
+      "sha": "5b26027e7b19eeb4b7352e1fed3926375dd2cb4d",
+      "url": "/models/ministral-3-8b-instruct-2512/"
+    },
+    {
+      "at": "2026-07-15T12:21:57.000Z",
+      "model_id": "ministral-3-3b-reasoning-2512",
+      "model": "Ministral-3-3B-Reasoning-2512",
+      "developer": "Mistral AI",
+      "sha": "4a36357c811bf511a7b625d132e12f22408aac91",
+      "url": "/models/ministral-3-3b-reasoning-2512/"
+    },
+    {
+      "at": "2026-07-15T12:21:45.000Z",
+      "model_id": "ministral-3-3b-instruct-2512-bf16",
+      "model": "Ministral-3-3B-Instruct-2512-BF16",
+      "developer": "Mistral AI",
+      "sha": "b6d637bef2393152b3da2b2fde72eecdee30557e",
+      "url": "/models/ministral-3-3b-instruct-2512-bf16/"
+    },
+    {
+      "at": "2026-07-15T12:21:35.000Z",
+      "model_id": "ministral-3-3b-instruct-2512",
+      "model": "Ministral-3-3B-Instruct-2512",
+      "developer": "Mistral AI",
+      "sha": "b35d4dfe56c142746f54dbd64f579faab2744308",
+      "url": "/models/ministral-3-3b-instruct-2512/"
+    },
+    {
+      "at": "2026-07-15T12:21:23.000Z",
+      "model_id": "ministral-3-14b-reasoning-2512",
+      "model": "Ministral-3-14B-Reasoning-2512",
+      "developer": "Mistral AI",
+      "sha": "51f9210f3cd20f3452a80d5819d15dc61cc50630",
+      "url": "/models/ministral-3-14b-reasoning-2512/"
+    },
+    {
+      "at": "2026-07-15T12:21:11.000Z",
+      "model_id": "ministral-3-14b-instruct-2512-bf16",
+      "model": "Ministral-3-14B-Instruct-2512-BF16",
+      "developer": "Mistral AI",
+      "sha": "3cea74c1ebaf5ce5f5a2553de470e2ceab825142",
+      "url": "/models/ministral-3-14b-instruct-2512-bf16/"
+    },
+    {
+      "at": "2026-07-15T12:20:59.000Z",
+      "model_id": "ministral-3-14b-instruct-2512",
+      "model": "Ministral-3-14B-Instruct-2512",
+      "developer": "Mistral AI",
+      "sha": "29439f81c2be264d8d393273f99e7db9c0961120",
+      "url": "/models/ministral-3-14b-instruct-2512/"
+    },
+    {
+      "at": "2026-07-15T12:20:49.000Z",
+      "model_id": "leanstral-2603",
+      "model": "Leanstral-2603",
+      "developer": "Mistral AI",
+      "sha": "410f315f41cdb7e6ed1330dbb5cda88ede250064",
+      "url": "/models/leanstral-2603/"
+    },
+    {
+      "at": "2026-07-15T12:20:36.000Z",
+      "model_id": "devstral-small-2-24b-instruct-2512",
+      "model": "Devstral-Small-2-24B-Instruct-2512",
+      "developer": "Mistral AI",
+      "sha": "55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128",
+      "url": "/models/devstral-small-2-24b-instruct-2512/"
+    },
+    {
+      "at": "2026-07-15T12:19:49.000Z",
+      "model_id": "devstral-2-123b-instruct-2512",
+      "model": "Devstral-2-123B-Instruct-2512",
+      "developer": "Mistral AI",
+      "sha": "1613bf01adb5e1c6fdc196b46e6b173eae75eb4a",
+      "url": "/models/devstral-2-123b-instruct-2512/"
+    },
+    {
+      "at": "2026-06-26T08:42:38.000Z",
+      "model_id": "qwen3-forcedaligner-0-6b-hf",
+      "model": "Qwen3-ForcedAligner-0.6B-hf",
+      "developer": "Qwen",
+      "sha": "c07281df297b9905d24a508279258cccf987a064",
+      "url": "/models/qwen3-forcedaligner-0-6b-hf/"
+    },
+    {
+      "at": "2026-06-25T07:24:16.000Z",
+      "model_id": "qwen-agentworld-35b-a3b",
+      "model": "Qwen-AgentWorld-35B-A3B",
+      "developer": "Qwen",
+      "sha": "60d2b0434a53d2e62a7c00a489586815d94ebffb",
+      "url": "/models/qwen-agentworld-35b-a3b/"
+    },
+    {
+      "at": "2026-06-02T04:46:39.000Z",
+      "model_id": "pixtral-large-instruct-2411",
+      "model": "Pixtral-Large-Instruct-2411",
+      "developer": "Mistral AI",
+      "sha": "c1e51f6f11974a1199685d35c62f5a425c2d001e",
+      "url": "/models/pixtral-large-instruct-2411/"
+    },
+    {
+      "at": "2026-06-02T04:44:58.000Z",
+      "model_id": "pixtral-12b-2409",
+      "model": "Pixtral-12B-2409",
+      "developer": "Mistral AI",
+      "sha": "a5ca2b7a9421a35ea24411c46e970758b8d3c6a7",
+      "url": "/models/pixtral-12b-2409/"
+    },
+    {
+      "at": "2026-05-28T08:07:27.000Z",
+      "model_id": "qwen-image-bench",
+      "model": "Qwen-Image-Bench",
+      "developer": "Qwen",
+      "sha": "1b77ff83564ac4e4e8140769eacff7ff73f35f3c",
+      "url": "/models/qwen-image-bench/"
+    },
+    {
+      "at": "2026-04-30T06:32:10.000Z",
+      "model_id": "mistral-medium-3-5-128b-eagle",
+      "model": "Mistral-Medium-3.5-128B-EAGLE",
+      "developer": "Mistral AI",
+      "sha": "d31694b0f55b51d4d962b5c3dbf0e03d1f019275",
+      "url": "/models/mistral-medium-3-5-128b-eagle/"
+    },
+    {
+      "at": "2026-04-24T02:39:23.000Z",
+      "model_id": "qwen3-6-35b-a3b-fp8",
+      "model": "Qwen3.6-35B-A3B-FP8",
+      "developer": "Qwen",
+      "sha": "95a723d08a9490559dae23d0cff1d9466213d989",
+      "url": "/models/qwen3-6-35b-a3b-fp8/"
+    },
+    {
+      "at": "2026-04-24T02:39:18.000Z",
+      "model_id": "qwen3-6-27b-fp8",
+      "model": "Qwen3.6-27B-FP8",
+      "developer": "Qwen",
+      "sha": "e89b16ebf1988b3d6befa7de50abc2d76f26eb09",
+      "url": "/models/qwen3-6-27b-fp8/"
+    },
+    {
+      "at": "2026-04-24T02:39:16.000Z",
+      "model_id": "qwen3-6-27b",
+      "model": "Qwen3.6-27B",
+      "developer": "Qwen",
+      "sha": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+      "url": "/models/qwen3-6-27b/"
+    },
+    {
+      "at": "2026-04-24T02:38:59.000Z",
+      "model_id": "qwen3-5-35b-a3b-gptq-int4",
+      "model": "Qwen3.5-35B-A3B-GPTQ-Int4",
+      "developer": "Qwen",
+      "sha": "3af5ca2972faf6de1fd6f4efc4d8d319ca751e8b",
+      "url": "/models/qwen3-5-35b-a3b-gptq-int4/"
+    },
+    {
+      "at": "2026-04-24T02:38:57.000Z",
+      "model_id": "qwen3-5-27b-gptq-int4",
+      "model": "Qwen3.5-27B-GPTQ-Int4",
+      "developer": "Qwen",
+      "sha": "8f0c09f227ae570e79617c6d9172b59df9c16081",
+      "url": "/models/qwen3-5-27b-gptq-int4/"
+    },
+    {
+      "at": "2026-04-24T02:38:49.000Z",
+      "model_id": "qwen3-5-35b-a3b-fp8",
+      "model": "Qwen3.5-35B-A3B-FP8",
+      "developer": "Qwen",
+      "sha": "9d1823d2dee688a6b25e77009dc727688c44936e",
+      "url": "/models/qwen3-5-35b-a3b-fp8/"
+    },
+    {
+      "at": "2026-04-24T02:38:46.000Z",
+      "model_id": "qwen3-5-27b-fp8",
+      "model": "Qwen3.5-27B-FP8",
+      "developer": "Qwen",
+      "sha": "97f5941bf617e31c5e237364a8602ce3f03a551a",
+      "url": "/models/qwen3-5-27b-fp8/"
+    },
+    {
+      "at": "2026-04-24T02:38:38.000Z",
+      "model_id": "qwen3-5-35b-a3b",
+      "model": "Qwen3.5-35B-A3B",
+      "developer": "Qwen",
+      "sha": "59d61f3ce65a6d9863b86d2e96597125219dc754",
+      "url": "/models/qwen3-5-35b-a3b/"
+    },
+    {
+      "at": "2026-04-23T12:04:39.000Z",
+      "model_id": "qwen3-5-9b-base",
+      "model": "Qwen3.5-9B-Base",
+      "developer": "Qwen",
+      "sha": "68c46c4b3498877f3ef123c856ecfde50c39f404",
+      "url": "/models/qwen3-5-9b-base/"
+    },
+    {
+      "at": "2026-04-23T11:21:45.000Z",
+      "model_id": "qwen3-5-35b-a3b-base",
+      "model": "Qwen3.5-35B-A3B-Base",
+      "developer": "Qwen",
+      "sha": "0f0813072d2358973511097385626f21fcb6d422",
+      "url": "/models/qwen3-5-35b-a3b-base/"
+    },
+    {
+      "at": "2026-04-23T11:14:09.000Z",
+      "model_id": "qwen3-5-0-8b-base",
+      "model": "Qwen3.5-0.8B-Base",
+      "developer": "Qwen",
+      "sha": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+      "url": "/models/qwen3-5-0-8b-base/"
+    },
+    {
+      "at": "2026-04-23T11:13:46.000Z",
+      "model_id": "qwen3-5-2b-base",
+      "model": "Qwen3.5-2B-Base",
+      "developer": "Qwen",
+      "sha": "b1485b2fa6dfa1287294f269f5fb618e03d52d7c",
+      "url": "/models/qwen3-5-2b-base/"
+    },
+    {
+      "at": "2026-04-23T11:13:30.000Z",
+      "model_id": "qwen3-5-4b-base",
+      "model": "Qwen3.5-4B-Base",
+      "developer": "Qwen",
+      "sha": "1001bb4d826a52d1f399e183466143f4da7b741b",
+      "url": "/models/qwen3-5-4b-base/"
+    },
+    {
+      "at": "2026-04-20T02:45:58.000Z",
+      "model_id": "qwen3-embedding-0-6b",
+      "model": "Qwen3-Embedding-0.6B",
+      "developer": "Qwen",
+      "sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "url": "/models/qwen3-embedding-0-6b/"
+    },
+    {
+      "at": "2026-04-16T08:56:16.000Z",
+      "model_id": "qwen3-reranker-8b",
+      "model": "Qwen3-Reranker-8B",
+      "developer": "Qwen",
+      "sha": "77d193c791ed757ca307ee72715aa132723da912",
+      "url": "/models/qwen3-reranker-8b/"
+    },
+    {
+      "at": "2026-04-16T08:56:07.000Z",
+      "model_id": "qwen3-reranker-4b",
+      "model": "Qwen3-Reranker-4B",
+      "developer": "Qwen",
+      "sha": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+      "url": "/models/qwen3-reranker-4b/"
+    },
+    {
+      "at": "2026-04-16T08:55:59.000Z",
+      "model_id": "qwen3-reranker-0-6b",
+      "model": "Qwen3-Reranker-0.6B",
+      "developer": "Qwen",
+      "sha": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+      "url": "/models/qwen3-reranker-0-6b/"
+    },
+    {
+      "at": "2026-03-31T13:43:59.000Z",
+      "model_id": "voxtral-4b-tts-2603",
+      "model": "Voxtral-4B-TTS-2603",
+      "developer": "Mistral AI",
+      "sha": "b81be46c3777f88621676791b512bb01dc1cb970",
+      "url": "/models/voxtral-4b-tts-2603/"
+    },
+    {
+      "at": "2026-03-11T15:04:02.000Z",
+      "model_id": "voxtral-mini-4b-realtime-2602",
+      "model": "Voxtral-Mini-4B-Realtime-2602",
+      "developer": "Mistral AI",
+      "sha": "2769294da9567371363522aac9bbcfdd19447add",
+      "url": "/models/voxtral-mini-4b-realtime-2602/"
+    },
+    {
+      "at": "2026-02-23T18:04:17.000Z",
+      "model_id": "magistral-small-2509",
+      "model": "Magistral-Small-2509",
+      "developer": "Mistral AI",
+      "sha": "a31cc96ab10cf19bc42c628fedf1e359e0853c49",
+      "url": "/models/magistral-small-2509/"
+    },
+    {
+      "at": "2026-01-15T11:19:37.000Z",
+      "model_id": "ministral-3-3b-instruct-2512-onnx",
+      "model": "Ministral-3-3B-Instruct-2512-ONNX",
+      "developer": "Mistral AI",
+      "sha": "e1128d389145f96bb1c3c2625cb8ca255ffa7034",
+      "url": "/models/ministral-3-3b-instruct-2512-onnx/"
+    },
+    {
+      "at": "2026-01-15T11:19:18.000Z",
+      "model_id": "ministral-3-3b-reasoning-2512-gguf",
+      "model": "Ministral-3-3B-Reasoning-2512-GGUF",
+      "developer": "Mistral AI",
+      "sha": "b432f0a2c144af8a1937b06e2ea7f75ebb4d0b31",
+      "url": "/models/ministral-3-3b-reasoning-2512-gguf/"
+    },
+    {
+      "at": "2026-01-15T11:19:00.000Z",
+      "model_id": "ministral-3-8b-reasoning-2512-gguf",
+      "model": "Ministral-3-8B-Reasoning-2512-GGUF",
+      "developer": "Mistral AI",
+      "sha": "4413bc9b7b091ddad28101650d1395f5e045a328",
+      "url": "/models/ministral-3-8b-reasoning-2512-gguf/"
+    },
+    {
+      "at": "2026-01-15T11:18:21.000Z",
+      "model_id": "ministral-3-3b-instruct-2512-gguf",
+      "model": "Ministral-3-3B-Instruct-2512-GGUF",
+      "developer": "Mistral AI",
+      "sha": "eb599d408350ea2bb60452cb86be7c7b2fc28227",
+      "url": "/models/ministral-3-3b-instruct-2512-gguf/"
+    },
+    {
+      "at": "2026-01-15T11:18:05.000Z",
+      "model_id": "ministral-3-8b-instruct-2512-gguf",
+      "model": "Ministral-3-8B-Instruct-2512-GGUF",
+      "developer": "Mistral AI",
+      "sha": "0102285ad796bd99af90f58de616092e5630e970",
+      "url": "/models/ministral-3-8b-instruct-2512-gguf/"
+    },
+    {
+      "at": "2026-01-15T11:17:42.000Z",
+      "model_id": "ministral-3-14b-instruct-2512-gguf",
+      "model": "Ministral-3-14B-Instruct-2512-GGUF",
+      "developer": "Mistral AI",
+      "sha": "74fac473c43357d7fb2671713608183cc72496d0",
+      "url": "/models/ministral-3-14b-instruct-2512-gguf/"
+    },
+    {
+      "at": "2026-01-15T11:17:21.000Z",
+      "model_id": "ministral-3-3b-base-2512",
+      "model": "Ministral-3-3B-Base-2512",
+      "developer": "Mistral AI",
+      "sha": "6f9c4b12a95b139af68670a6713616b757923735",
+      "url": "/models/ministral-3-3b-base-2512/"
+    },
+    {
+      "at": "2026-01-15T11:17:01.000Z",
+      "model_id": "ministral-3-8b-base-2512",
+      "model": "Ministral-3-8B-Base-2512",
+      "developer": "Mistral AI",
+      "sha": "d4883f9b36aa2e5d775730d3fdba3d30de51a8ef",
+      "url": "/models/ministral-3-8b-base-2512/"
+    },
+    {
+      "at": "2026-01-15T11:16:43.000Z",
+      "model_id": "ministral-3-14b-base-2512",
+      "model": "Ministral-3-14B-Base-2512",
+      "developer": "Mistral AI",
+      "sha": "5b0ceedbb42dff466ae60b258ba296f32da51384",
+      "url": "/models/ministral-3-14b-base-2512/"
+    },
+    {
+      "at": "2025-12-22T10:16:55.000Z",
+      "model_id": "mistral-small-3-2-24b-instruct-2506",
+      "model": "Mistral-Small-3.2-24B-Instruct-2506",
+      "developer": "Mistral AI",
+      "sha": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+      "url": "/models/mistral-small-3-2-24b-instruct-2506/"
+    },
+    {
+      "at": "2025-11-12T21:27:00.000Z",
+      "model_id": "prompt-guard-86m",
+      "model": "Prompt-Guard-86M",
+      "developer": "Meta",
+      "sha": "1209add6ca7d9c1d815171b8e5571587fe3e7b03",
+      "url": "/models/prompt-guard-86m/"
+    },
+    {
+      "at": "2025-08-26T17:25:03.000Z",
+      "model_id": "gpt-oss-120b",
+      "model": "gpt-oss-120b",
+      "developer": "OpenAI",
+      "sha": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "url": "/models/gpt-oss-120b/"
+    },
+    {
+      "at": "2025-07-26T03:45:22.000Z",
+      "model_id": "qwen3-32b",
+      "model": "Qwen3-32B",
+      "developer": "Qwen",
+      "sha": "9216db5781bf21249d130ec9da846c4624c16137",
+      "url": "/models/qwen3-32b/"
+    },
+    {
+      "at": "2025-06-18T23:49:51.000Z",
+      "model_id": "meta-llama-3-8b-instruct",
+      "model": "Meta-Llama-3-8B-Instruct",
+      "developer": "Meta",
+      "sha": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "url": "/models/meta-llama-3-8b-instruct/"
+    },
+    {
+      "at": "2025-06-18T23:49:26.000Z",
+      "model_id": "meta-llama-3-70b-instruct",
+      "model": "Meta-Llama-3-70B-Instruct",
+      "developer": "Meta",
+      "sha": "50fd307e57011801c7833c87efa1984ddf2db42f",
+      "url": "/models/meta-llama-3-70b-instruct/"
+    },
+    {
+      "at": "2025-05-22T23:46:12.000Z",
+      "model_id": "llama-4-maverick-17b-128e-instruct",
+      "model": "Llama-4-Maverick-17B-128E-Instruct",
+      "developer": "Meta",
+      "sha": "73d14711bcc77c16df3470856949c3764056b617",
+      "url": "/models/llama-4-maverick-17b-128e-instruct/"
+    },
+    {
+      "at": "2025-05-22T23:46:03.000Z",
+      "model_id": "llama-4-maverick-17b-128e-instruct-fp8",
+      "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "developer": "Meta",
+      "sha": "94125d2bd83076b21eed33119525e29eaf3894f4",
+      "url": "/models/llama-4-maverick-17b-128e-instruct-fp8/"
+    },
+    {
+      "at": "2025-05-22T23:44:50.000Z",
+      "model_id": "llama-4-scout-17b-16e-instruct",
+      "model": "Llama-4-Scout-17B-16E-Instruct",
+      "developer": "Meta",
+      "sha": "92f3b1597a195b523d8d9e5700e57e4fbb8f20d3",
+      "url": "/models/llama-4-scout-17b-16e-instruct/"
+    },
+    {
+      "at": "2025-05-10T15:08:32.000Z",
+      "model_id": "llama-4-maverick-17b-128e-instruct-original",
+      "model": "Llama-4-Maverick-17B-128E-Instruct-Original",
+      "developer": "Meta",
+      "sha": "67c56dfc0e87cd4ade6ec403b59fa7922b762b13",
+      "url": "/models/llama-4-maverick-17b-128e-instruct-original/"
+    },
+    {
+      "at": "2025-04-29T18:14:44.000Z",
+      "model_id": "llama-guard-4-12b",
+      "model": "Llama-Guard-4-12B",
+      "developer": "Meta",
+      "sha": "87acb4b94e930c3d679e6e7ee9d57e2feab9ea71",
+      "url": "/models/llama-guard-4-12b/"
+    },
+    {
+      "at": "2025-04-29T15:59:55.000Z",
+      "model_id": "llama-prompt-guard-2-86m",
+      "model": "Llama-Prompt-Guard-2-86M",
+      "developer": "Meta",
+      "sha": "a8ded8e697ce7c355e395a0df51f94adb4a2fd27",
+      "url": "/models/llama-prompt-guard-2-86m/"
+    },
+    {
+      "at": "2025-04-29T15:47:24.000Z",
+      "model_id": "llama-prompt-guard-2-22m",
+      "model": "Llama-Prompt-Guard-2-22M",
+      "developer": "Meta",
+      "sha": "11614a155199674a0a95e6602d6ab0417b790ed0",
+      "url": "/models/llama-prompt-guard-2-22m/"
+    },
+    {
+      "at": "2025-04-09T10:41:47.000Z",
+      "model_id": "llama-4-maverick-17b-128e",
+      "model": "Llama-4-Maverick-17B-128E",
+      "developer": "Meta",
+      "sha": "10751cb97a4d7c90f7ed89196b98eb8220cfa1c2",
+      "url": "/models/llama-4-maverick-17b-128e/"
+    },
+    {
+      "at": "2025-04-09T10:41:20.000Z",
+      "model_id": "llama-4-scout-17b-16e",
+      "model": "Llama-4-Scout-17B-16E",
+      "developer": "Meta",
+      "sha": "14d516bdff6ac06cec40678529222f193386189c",
+      "url": "/models/llama-4-scout-17b-16e/"
+    },
+    {
+      "at": "2025-04-05T22:36:07.000Z",
+      "model_id": "llama-4-maverick-17b-128e-original",
+      "model": "Llama-4-Maverick-17B-128E-Original",
+      "developer": "Meta",
+      "sha": "75aef8815de2a5f56187cded0c90eb99584449d0",
+      "url": "/models/llama-4-maverick-17b-128e-original/"
+    },
+    {
+      "at": "2025-04-05T22:35:07.000Z",
+      "model_id": "llama-4-scout-17b-16e-original",
+      "model": "Llama-4-Scout-17B-16E-Original",
+      "developer": "Meta",
+      "sha": "80eeefb1d87c2cef9341b7e63f53318404e7cb3f",
+      "url": "/models/llama-4-scout-17b-16e-original/"
+    },
+    {
+      "at": "2025-04-05T22:34:47.000Z",
+      "model_id": "llama-4-maverick-17b-128e-instruct-fp8-original",
+      "model": "Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+      "developer": "Meta",
+      "sha": "a9fb9bc25a0f8eabc6b1d523c8605bbc2dd5135b",
+      "url": "/models/llama-4-maverick-17b-128e-instruct-fp8-original/"
+    },
+    {
+      "at": "2025-04-05T22:34:23.000Z",
+      "model_id": "llama-4-scout-17b-16e-instruct-original",
+      "model": "Llama-4-Scout-17B-16E-Instruct-Original",
+      "developer": "Meta",
+      "sha": "7f5043965c80ac0318b2e36c37a559a6a4d6b105",
+      "url": "/models/llama-4-scout-17b-16e-instruct-original/"
+    },
+    {
+      "at": "2025-03-27T04:01:59.000Z",
+      "model_id": "deepseek-r1",
+      "model": "DeepSeek-R1",
+      "developer": "DeepSeek",
+      "sha": "56d4cbbb4d29f4355bab4b9a39ccb717a14ad5ad",
+      "url": "/models/deepseek-r1/"
+    },
+    {
+      "at": "2025-03-21T20:29:02.000Z",
+      "model_id": "gemma-3-27b-it",
+      "model": "Gemma 3 27B IT",
+      "developer": "Google",
+      "sha": "005ad3404e59d6023443cb575daa05336842228a",
+      "url": "/models/gemma-3-27b-it/"
+    },
+    {
+      "at": "2025-03-04T17:28:46.000Z",
+      "model_id": "llama-3-2-90b-vision-instruct",
+      "model": "Llama-3.2-90B-Vision-Instruct",
+      "developer": "Meta",
+      "sha": "e305d2a43a4adc6987308fe7d896fb8ec5f1a5d8",
+      "url": "/models/llama-3-2-90b-vision-instruct/"
+    },
+    {
+      "at": "2024-12-21T18:28:01.000Z",
+      "model_id": "llama-3-3-70b-instruct",
+      "model": "Llama 3.3 70B Instruct",
+      "developer": "Meta",
+      "sha": "6f6073b423013f6a7d4d9f39144961bfbfbc386b",
+      "url": "/models/llama-3-3-70b-instruct/"
+    },
+    {
+      "at": "2024-12-15T01:55:33.000Z",
+      "model_id": "llama-3-1-70b-instruct",
+      "model": "Llama-3.1-70B-Instruct",
+      "developer": "Meta",
+      "sha": "1605565b47bb9346c5515c34102e054115b4f98b",
+      "url": "/models/llama-3-1-70b-instruct/"
+    },
+    {
+      "at": "2024-12-06T19:41:17.000Z",
+      "model_id": "llama-3-1-405b-fp8",
+      "model": "Llama-3.1-405B-FP8",
+      "developer": "Meta",
+      "sha": "cb4739810a51170037906b5daa2bb78ed13cd43c",
+      "url": "/models/llama-3-1-405b-fp8/"
+    },
+    {
+      "at": "2024-12-04T01:35:48.000Z",
+      "model_id": "llama-3-2-11b-vision-instruct",
+      "model": "Llama-3.2-11B-Vision-Instruct",
+      "developer": "Meta",
+      "sha": "9eb2daaa8597bf192a8b0e73f848f3a102794df5",
+      "url": "/models/llama-3-2-11b-vision-instruct/"
+    },
+    {
+      "at": "2024-11-18T20:32:57.000Z",
+      "model_id": "llama-3-2-3b-instruct-qlora-int4-eo8",
+      "model": "Llama-3.2-3B-Instruct-QLORA_INT4_EO8",
+      "developer": "Meta",
+      "sha": "2b442a6ebe9dcf816f7b16eaa84a07fec6b6ff7f",
+      "url": "/models/llama-3-2-3b-instruct-qlora-int4-eo8/"
+    },
+    {
+      "at": "2024-11-18T20:32:49.000Z",
+      "model_id": "llama-3-2-3b-instruct-spinquant-int4-eo8",
+      "model": "Llama-3.2-3B-Instruct-SpinQuant_INT4_EO8",
+      "developer": "Meta",
+      "sha": "03820fea9e793d2778564a0242f6b4e4f7b144dc",
+      "url": "/models/llama-3-2-3b-instruct-spinquant-int4-eo8/"
+    },
+    {
+      "at": "2024-11-18T20:32:39.000Z",
+      "model_id": "llama-3-2-1b-instruct-spinquant-int4-eo8",
+      "model": "Llama-3.2-1B-Instruct-SpinQuant_INT4_EO8",
+      "developer": "Meta",
+      "sha": "b8c08c95d0476ccb6fc86e9410818d602ecca19d",
+      "url": "/models/llama-3-2-1b-instruct-spinquant-int4-eo8/"
+    }
+  ]
+}\n

@@ -4,14 +4,17 @@
 Current registry: 107 field-verified model records.
 Latest verification: 2026-10-02.
 
-## Canonical resources
+## Registry
 - https://openmodelweights.com/models/
-- https://openmodelweights.com/developers/
-- https://openmodelweights.com/verification/
-- https://openmodelweights.com/methodology/
 - https://openmodelweights.com/registry.json
-- https://openmodelweights.com/registry.schema.json
+- https://openmodelweights.com/verification/
 
-Each model record contains exact repository weight files, declared license and commercial-use classification, context evidence, formats/precision signals, base-model metadata, training/data disclosure, runtime signals, primary sources and verification history.
+## Explorers
+- https://openmodelweights.com/licenses/ — license and commercial-use explorer
+- https://openmodelweights.com/hardware/ — weight-memory explorer
+- https://openmodelweights.com/formats/ — repository format and precision explorer
+- https://openmodelweights.com/lineage/ — family and declared base-model graph
+- https://openmodelweights.com/changes/ — release / verification change feed
+- https://openmodelweights.com/changes.json — machine-readable change feed
 
 A value such as “not disclosed” means the checked standard metadata/model-card/config sources did not provide it; it is not an inference that the information does not exist elsewhere.
