@@ -14,7 +14,7 @@ on:
       dtype:
         description: vLLM dtype / precision selector
         required: true
-        default: auto
+        default: float16
       tensor_parallel_size:
         description: Number of GPUs used by vLLM
         required: true
@@ -59,7 +59,7 @@ jobs:
             test -n "$request_file"
             echo "model_id=$(jq -r '.model_id' "$request_file")" >> "$GITHUB_OUTPUT"
             echo "repository=$(jq -r '.repository // ""' "$request_file")" >> "$GITHUB_OUTPUT"
-            echo "dtype=$(jq -r '.dtype // "auto"' "$request_file")" >> "$GITHUB_OUTPUT"
+            echo "dtype=$(jq -r '.dtype // "float16"' "$request_file")" >> "$GITHUB_OUTPUT"
             echo "tensor_parallel_size=$(jq -r '.tensor_parallel_size // 1' "$request_file")" >> "$GITHUB_OUTPUT"
             echo "vllm_spec=$(jq -r '.vllm_spec // "vllm"' "$request_file")" >> "$GITHUB_OUTPUT"
           fi
