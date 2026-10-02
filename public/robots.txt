@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://openmodelweights.com/sitemap.xml
+Sitemap: https://openmodelweights.com/sitemap.xml\nSitemap: https://openmodelweights.com/news-sitemap.xml\n

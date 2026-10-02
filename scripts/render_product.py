@@ -71,7 +71,7 @@ def organization_node():
     return {
       "@type":"Organization","@id":ORG_ID,"name":"Open Model Weights","url":SITE+"/",
       "description":"Field-verified intelligence and machine-readable evidence for open-weight AI models.",
-      "logo":{"@type":"ImageObject","url":SITE+"/favicon.svg"},
+      "logo":{"@type":"ImageObject","url":SITE+"/logo.png","width":512,"height":512},
       "sameAs":["https://github.com/openmodelweights/openmodelweights","https://huggingface.co/openmodelweights"]
     }
 
@@ -262,7 +262,13 @@ def _schema_script(nodes):
 
 def _ensure_meta(text,canonical,title,desc):
     additions=[]
-    # Normalize the site identity assets so old/generated pages cannot retain the legacy favicon.
+    # Normalize site identity so generated pages cannot retain the legacy bar mark.
+    text=re.sub(r'<span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span>',
+                '<img class="brand-logo brand-logo-small" src="/favicon.svg" width="24" height="24" alt="">',text)
+    text=re.sub(r'<span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>',
+                '<img class="brand-logo" src="/favicon.svg" width="30" height="30" alt="">',text)
+
+    # Normalize the site identity assets so old/generated pages cannot retain legacy favicon markup.
     text=re.sub(r'<link[^>]+rel=["\'](?:shortcut )?icon["\'][^>]*>','',text,flags=re.I)
     text=re.sub(r'<link[^>]+rel=["\']apple-touch-icon["\'][^>]*>','',text,flags=re.I)
     text=re.sub(r'<link[^>]+rel=["\']manifest["\'][^>]*>','',text,flags=re.I)
@@ -270,10 +276,12 @@ def _ensure_meta(text,canonical,title,desc):
     additions.append('<link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png">')
     additions.append('<link rel="shortcut icon" href="/favicon.ico">')
     additions.append('<link rel="manifest" href="/site.webmanifest">')
+    if 'name="theme-color"' not in text:
+        additions.append('<meta name="theme-color" content="#f7f7f4">')
     if 'rel="canonical"' not in text:
         additions.append(f'<link rel="canonical" href="{esc(canonical)}">')
     if 'name="robots"' not in text:
-        additions.append('<meta name="robots" content="index,follow,max-snippet:-1">')
+        additions.append('<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">')
     if 'property="og:type"' not in text:
         additions.append('<meta property="og:type" content="website">')
     if 'property="og:site_name"' not in text:
@@ -284,12 +292,22 @@ def _ensure_meta(text,canonical,title,desc):
         additions.append(f'<meta property="og:description" content="{esc(desc)}">')
     if 'property="og:url"' not in text:
         additions.append(f'<meta property="og:url" content="{esc(canonical)}">')
+    if 'property="og:image"' not in text:
+        additions.append('<meta property="og:image" content="https://openmodelweights.com/social-card.png">')
+        additions.append('<meta property="og:image:width" content="1200">')
+        additions.append('<meta property="og:image:height" content="630">')
+        additions.append('<meta property="og:image:alt" content="Open Model Weights — The evidence layer for open-weight AI">')
+    text=re.sub(r'<meta\s+name="twitter:card"\s+content="summary"\s*/?>',
+                '<meta name="twitter:card" content="summary_large_image">',text,flags=re.I)
     if 'name="twitter:card"' not in text:
-        additions.append('<meta name="twitter:card" content="summary">')
+        additions.append('<meta name="twitter:card" content="summary_large_image">')
     if 'name="twitter:title"' not in text:
         additions.append(f'<meta name="twitter:title" content="{esc(title)}">')
     if 'name="twitter:description"' not in text:
         additions.append(f'<meta name="twitter:description" content="{esc(desc)}">')
+    if 'name="twitter:image"' not in text:
+        additions.append('<meta name="twitter:image" content="https://openmodelweights.com/social-card.png">')
+        additions.append('<meta name="twitter:image:alt" content="Open Model Weights — The evidence layer for open-weight AI">')
     if additions and "</head>" in text:
         text=text.replace("</head>","".join(additions)+"</head>",1)
     return text
@@ -324,11 +342,11 @@ def header(active=""):
         out.append(f'<a class="nav-link" href="{url}"{cur}>{label}</a>')
     cur=' aria-current="page"' if active=="compare" else ""
     out.append(f'<a class="nav-link nav-compare" href="/compare/"{cur}>Compare <span aria-hidden="true">→</span></a>')
-    mark='<span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>'
+    mark='<img class="brand-logo" src="/favicon.svg" width="30" height="30" alt="">'
     return '<a class="skip-link" href="#main-content">Skip to content</a><header class="site-header"><a class="brand" href="/" aria-label="Open Model Weights home">'+mark+'<span class="brand-wordmark">Open Model Weights</span></a><nav aria-label="Primary navigation">'+''.join(out)+'</nav></header>'
 
 def footer():
-    return '''<footer class="site-footer site-footer-v2"><div class="footer-brand"><div class="footer-brand-line"><span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-nav"><div class="footer-group"><span>Registry</span><a href="/models/">Models</a><a href="/news/">News</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a><a href="/sources/">Sources</a></div><div class="footer-group"><span>Evidence</span><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a><a href="/compatibility/">Compatibility</a></div><div class="footer-group"><span>Machine</span><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="/benchmarks/">Benchmarks</a></div><div class="footer-group"><span>Project</span><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></div></footer>'''
+    return '''<footer class="site-footer site-footer-v2"><div class="footer-brand"><div class="footer-brand-line"><img class="brand-logo brand-logo-small" src="/favicon.svg" width="24" height="24" alt=""><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-nav"><div class="footer-group"><span>Registry</span><a href="/models/">Models</a><a href="/news/">News</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a><a href="/sources/">Sources</a></div><div class="footer-group"><span>Evidence</span><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a><a href="/compatibility/">Compatibility</a></div><div class="footer-group"><span>Machine</span><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="/benchmarks/">Benchmarks</a></div><div class="footer-group"><span>Project</span><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></div></footer>'''
 
 def trust_strip(checked,full=None,mode=None):
     full=full or checked
@@ -600,6 +618,66 @@ def patch_general_pages(generated):
         text=re.sub(r'<footer(?: class="[^"]*")?>.*?</footer>',footer(),text,count=1,flags=re.S)
         p.write_text(text)
 
+def write_brand_assets():
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except Exception as exc:
+        raise RuntimeError("Pillow is required to render Open Model Weights brand assets") from exc
+
+    size=512
+    logo=Image.new("RGBA",(size,size),(0,0,0,0))
+    draw=ImageDraw.Draw(logo)
+    scale=size/64
+    def pts(values):
+        return [(int(x*scale),int(y*scale)) for x,y in values]
+    layers=[
+      ("#116BFF",[(32,5),(56,18),(32,31),(8,18),(32,5)]),
+      ("#45C0F2",[(32,18),(56,31),(32,44),(8,31),(32,18)]),
+      ("#082B57",[(32,31),(56,44),(32,57),(8,44),(32,31)]),
+    ]
+    for color,values in layers:
+        draw.line(pts(values),fill=color,width=int(5.5*scale),joint="curve")
+    draw.line(pts([(32,13),(32,51)]),fill="#0B4FA7",width=int(4*scale))
+    for cy,color in ((15,"#116BFF"),(32,"#45C0F2"),(49,"#082B57")):
+        radius=4.8*scale; cx=32*scale; yy=cy*scale
+        draw.ellipse((cx-radius,yy-radius,cx+radius,yy+radius),fill=color)
+    logo.save(PUBLIC/"logo.png",optimize=True)
+
+    width,height=1200,630
+    card=Image.new("RGB",(width,height),"#f7f7f4")
+    c=ImageDraw.Draw(card)
+    c.rounded_rectangle((24,24,width-24,height-24),radius=30,outline="#d9ddd6",width=2,fill="#fbfbf8")
+    icon=logo.resize((210,210),Image.Resampling.LANCZOS)
+    card.paste(icon,(72,92),icon)
+    font_root=Path("/usr/share/fonts/truetype/dejavu")
+    try:
+        eyebrow=ImageFont.truetype(str(font_root/"DejaVuSans-Bold.ttf"),22)
+        title_font=ImageFont.truetype(str(font_root/"DejaVuSans-Bold.ttf"),58)
+        sub_font=ImageFont.truetype(str(font_root/"DejaVuSans.ttf"),28)
+        small=ImageFont.truetype(str(font_root/"DejaVuSans-Bold.ttf"),18)
+    except Exception:
+        eyebrow=title_font=sub_font=small=ImageFont.load_default()
+    x=340
+    c.text((x,110),"OPEN MODEL WEIGHTS",font=eyebrow,fill="#4f5b52")
+    c.text((x,165),"The evidence layer",font=title_font,fill="#171a17")
+    c.text((x,235),"for open-weight AI.",font=title_font,fill="#171a17")
+    c.text((x,338),"Field-verified model intelligence, source trails,",font=sub_font,fill="#5f6860")
+    c.text((x,378),"change history and machine-readable access.",font=sub_font,fill="#5f6860")
+    c.rounded_rectangle((x,475,x+400,523),radius=24,fill="#171a17")
+    c.text((x+22,487),"SOURCE-FIRST · VERIFIED DAILY",font=small,fill="#f5f7f3")
+    c.text((x,548),"openmodelweights.com",font=small,fill="#116BFF")
+    card.save(PUBLIC/"social-card.png",optimize=True)
+
+def patch_robots():
+    p=PUBLIC/"robots.txt"
+    text=p.read_text() if p.exists() else "User-agent: *\nAllow: /\n"
+    lines=[line.rstrip() for line in text.splitlines()]
+    for sitemap in ("https://openmodelweights.com/sitemap.xml","https://openmodelweights.com/news-sitemap.xml"):
+        line="Sitemap: "+sitemap
+        if line not in lines:
+            lines.append(line)
+    p.write_text("\n".join(lines).rstrip()+"\n")
+
 def patch_sitemap(generated):
     p=PUBLIC/"sitemap.xml"
     if not p.exists():return
@@ -645,6 +723,8 @@ def main():
     reg["api"]={"version":"v1","documentation":"https://openmodelweights.com/api/","models":"https://openmodelweights.com/api/v1/models.json","changes":"https://openmodelweights.com/api/v1/changes.json","history":"https://openmodelweights.com/api/v1/history.json","compatibility":"https://openmodelweights.com/api/v1/compatibility.json","benchmarks":"https://openmodelweights.com/api/v1/benchmarks.json","openapi":"https://openmodelweights.com/openapi.json"}
     reg["intelligence"]={"history":"https://openmodelweights.com/history/","compatibility":"https://openmodelweights.com/compatibility/","benchmarks":"https://openmodelweights.com/benchmarks/","mcp":"https://openmodelweights.com/mcp"}
     REGISTRY.write_text(json.dumps(reg,indent=2,ensure_ascii=False)+"\n")
+    write_brand_assets()
+    patch_robots()
 
     (PUBLIC/"models"/"index.html").write_text(model_discovery_page(models,generated))
     d=PUBLIC/"compare";d.mkdir(parents=True,exist_ok=True);(d/"index.html").write_text(compare_page(len(models),generated))

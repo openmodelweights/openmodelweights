@@ -45,7 +45,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install verifier dependencies
-        run: python -m pip install --disable-pip-version-check requests pyyaml huggingface_hub
+        run: python -m pip install --disable-pip-version-check requests pyyaml huggingface_hub pillow
 
       - name: Discover registry candidates
         env:

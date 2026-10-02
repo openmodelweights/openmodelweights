@@ -206,7 +206,7 @@ def nav_html():
     return '<header class="site-header"><a class="brand" href="/">Open Model Weights</a><nav><a href="/models/">Models</a><a href="/developers/">Developers</a><a href="/explore/">Explore</a><a href="/changes/">Changes</a><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a></nav></header>'
 
 def footer_html():
-    return '''<footer class="site-footer site-footer-v2"><div class="footer-brand"><div class="footer-brand-line"><span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-nav"><div class="footer-group"><span>Registry</span><a href="/models/">Models</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a><a href="/sources/">Sources</a></div><div class="footer-group"><span>Evidence</span><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a><a href="/compatibility/">Compatibility</a></div><div class="footer-group"><span>Machine</span><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="/benchmarks/">Benchmarks</a></div><div class="footer-group"><span>Project</span><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></div></footer>'''
+    return '''<footer class="site-footer site-footer-v2"><div class="footer-brand"><div class="footer-brand-line"><img class="brand-logo brand-logo-small" src="/favicon.svg" width="24" height="24" alt=""><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-nav"><div class="footer-group"><span>Registry</span><a href="/models/">Models</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a><a href="/sources/">Sources</a></div><div class="footer-group"><span>Evidence</span><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a><a href="/compatibility/">Compatibility</a></div><div class="footer-group"><span>Machine</span><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="/benchmarks/">Benchmarks</a></div><div class="footer-group"><span>Project</span><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></div></footer>'''
 
 def page_head(title,desc,canonical,extra=""):
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1"><meta property="og:site_name" content="Open Model Weights"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><link rel="stylesheet" href="/styles.css">{extra}</head>'''
@@ -434,14 +434,46 @@ def home_page_portal(models,report):
 </section>
 </main>{footer_html()}</body></html>'''
 
+def _sitemap_lastmod(value):
+    value=str(value or "")[:10]
+    return value if re.fullmatch(r"\d{4}-\d{2}-\d{2}",value) else None
+
+def _model_source_lastmod(model):
+    hub=model.get("hub") or {}
+    return _sitemap_lastmod(hub.get("last_modified")) or _sitemap_lastmod(hub.get("created_at"))
+
 def write_sitemap(models,groups):
-    urls=["/","/models/","/developers/","/explore/","/licenses/","/hardware/","/formats/","/lineage/","/changes/","/verification/","/methodology/","/about/","/history/","/compatibility/","/benchmarks/","/mcp/"]
-    urls += [f'/models/{m["id"]}/' for m in models]
-    urls += [f'/developers/{re.sub(r"[^a-z0-9]+","-",d.lower()).strip("-")}/' for d in groups]
+    static_urls=[
+      "/","/models/","/developers/","/explore/","/licenses/","/hardware/","/formats/",
+      "/lineage/","/changes/","/verification/","/methodology/","/about/","/history/",
+      "/compatibility/","/benchmarks/","/mcp/","/sources/","/api/"
+    ]
+    model_dates=[d for d in (_model_source_lastmod(m) for m in models) if d]
+    aggregate=max(model_dates) if model_dates else None
+    aggregate_routes={"/","/models/","/developers/","/explore/","/licenses/","/hardware/","/formats/","/lineage/","/changes/","/history/","/compatibility/"}
+
+    def row(path,lastmod=None):
+        suffix=f"<lastmod>{lastmod}</lastmod>" if lastmod else ""
+        return f'<url><loc>https://openmodelweights.com{path}</loc>{suffix}</url>'
+
+    rows=[row(path,aggregate if path in aggregate_routes else None) for path in static_urls]
+    for model in models:
+        rows.append(row(f'/models/{model["id"]}/',_model_source_lastmod(model)))
+
+    by_developer={}
+    for model in models:
+        by_developer.setdefault(model.get("developer","Unknown"),[]).append(model)
+    developer_names=list(groups) if groups else list(by_developer)
+    for developer in developer_names:
+        slug=re.sub(r"[^a-z0-9]+","-",str(developer).lower()).strip("-")
+        dates=[d for d in (_model_source_lastmod(m) for m in by_developer.get(developer,[])) if d]
+        rows.append(row(f"/developers/{slug}/",max(dates) if dates else None))
+
     xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    xml+="\n".join(f'<url><loc>https://openmodelweights.com{u}</loc><lastmod>{TODAY}</lastmod></url>' for u in urls)
+    xml+="\n".join(rows)
     xml+="\n</urlset>\n"
     (PUBLIC/"sitemap.xml").write_text(xml)
+
 
 def main():
     reg=json.loads(REGISTRY.read_text())

@@ -12,7 +12,7 @@ from xml.sax.saxutils import escape as xml_escape
 ROOT=Path(__file__).resolve().parents[1]
 PUBLIC=ROOT/"public"
 DATA=ROOT/"data"/"news.json"
-SITE="https://openmodelweights.com"
+SITE="https://openmodelweights.com"\nSOCIAL_IMAGE=SITE+"/social-card.png"
 
 def esc(v):
     return html.escape(str(v if v is not None else ""),quote=True)
@@ -30,7 +30,7 @@ def pretty_date(v):
 def head(title,desc,canonical,extra="",article=None):
     social=f'<meta property="og:site_name" content="Open Model Weights"><meta property="og:type" content="article" if article else "website">'
     social=social.replace('content="article" if article else "website"',f'content="{"article" if article else "website"}"')
-    social+=f'<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}">'
+    social+=f'<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><meta property="og:image" content="{SOCIAL_IMAGE}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Open Model Weights — The evidence layer for open-weight AI"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}"><meta name="twitter:image" content="{SOCIAL_IMAGE}"><meta name="twitter:image:alt" content="Open Model Weights — The evidence layer for open-weight AI">'
     if article:
         social+=f'<meta property="article:published_time" content="{esc(article["published_at"])}"><meta property="article:modified_time" content="{esc(article["modified_at"])}"><meta property="article:section" content="{esc(article["category"])}">'
     return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">{social}<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png"><link rel="shortcut icon" href="/favicon.ico"><link rel="manifest" href="/site.webmanifest"><link rel="alternate" type="application/rss+xml" title="Open Weight Intelligence" href="/news/feed.xml"><link rel="stylesheet" href="/styles.css">{extra}</head>'
@@ -42,18 +42,18 @@ def header(active="news"):
         cur=' aria-current="page"' if active==key else ""
         out.append(f'<a class="nav-link" href="{url}"{cur}>{label}</a>')
     out.append('<a class="nav-link nav-compare" href="/compare/">Compare <span aria-hidden="true">→</span></a>')
-    mark='<span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>'
+    mark='<img class="brand-logo" src="/favicon.svg" width="30" height="30" alt="">'
     return '<a class="skip-link" href="#main-content">Skip to content</a><header class="site-header"><a class="brand" href="/" aria-label="Open Model Weights home">'+mark+'<span class="brand-wordmark">Open Model Weights</span></a><nav aria-label="Primary navigation">'+''.join(out)+'</nav></header>'
 
 def footer():
-    return '<footer class="site-footer site-footer-v2"><div class="footer-brand"><div class="footer-brand-line"><span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-nav"><div class="footer-group"><span>Registry</span><a href="/models/">Models</a><a href="/news/">News</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a></div><div class="footer-group"><span>Evidence</span><a href="/sources/">Sources</a><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a></div><div class="footer-group"><span>Machine</span><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="/benchmarks/">Benchmarks</a></div><div class="footer-group"><span>Project</span><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></div></footer>'
+    return '<footer class="site-footer site-footer-v2"><div class="footer-brand"><div class="footer-brand-line"><img class="brand-logo brand-logo-small" src="/favicon.svg" width="24" height="24" alt=""><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-nav"><div class="footer-group"><span>Registry</span><a href="/models/">Models</a><a href="/news/">News</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a></div><div class="footer-group"><span>Evidence</span><a href="/sources/">Sources</a><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a></div><div class="footer-group"><span>Machine</span><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="/benchmarks/">Benchmarks</a></div><div class="footer-group"><span>Project</span><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></div></footer>'
 
 def graph_script(nodes):
     raw=json.dumps({"@context":"https://schema.org","@graph":nodes},ensure_ascii=False,separators=(",",":")).replace("</","<\\/")
     return f'<script type="application/ld+json">{raw}</script>'
 
 def org_node():
-    return {"@type":"Organization","@id":SITE+"/#organization","name":"Open Model Weights","url":SITE+"/","logo":{"@type":"ImageObject","url":SITE+"/favicon.svg"}}
+    return {"@type":"Organization","@id":SITE+"/#organization","name":"Open Model Weights","url":SITE+"/","logo":{"@type":"ImageObject","url":SITE+"/logo.png","width":512,"height":512}}
 
 def breadcrumb(items,canonical):
     return {"@type":"BreadcrumbList","@id":canonical+"#breadcrumb","itemListElement":[{"@type":"ListItem","position":i+1,"name":n,"item":u} for i,(n,u) in enumerate(items)]}
@@ -61,8 +61,8 @@ def breadcrumb(items,canonical):
 def article_schema(a):
     canonical=SITE+"/news/"+a["slug"]+"/"
     bc=breadcrumb([("Home",SITE+"/"),("News",SITE+"/news/"),(a["title"],canonical)],canonical)
-    article={"@type":"NewsArticle","@id":canonical+"#article","headline":a["title"],"description":a["dek"],"url":canonical,"mainEntityOfPage":{"@id":canonical+"#webpage"},"datePublished":a["published_at"],"dateModified":a["modified_at"],"articleSection":a["category"],"keywords":a.get("tags",[]),"author":{"@id":SITE+"/#organization"},"publisher":{"@id":SITE+"/#organization"},"isBasedOn":a["source_url"],"citation":[a["source_url"]],"inLanguage":"en"}
-    page={"@type":"WebPage","@id":canonical+"#webpage","url":canonical,"name":a["title"],"description":a["dek"],"isPartOf":{"@id":SITE+"/#website"},"breadcrumb":{"@id":bc["@id"]},"primaryImageOfPage":None}
+    article={"@type":"NewsArticle","@id":canonical+"#article","headline":a["title"],"description":a["dek"],"url":canonical,"mainEntityOfPage":{"@id":canonical+"#webpage"},"datePublished":a["published_at"],"dateModified":a["modified_at"],"articleSection":a["category"],"keywords":a.get("tags",[]),"author":{"@id":SITE+"/#organization"},"publisher":{"@id":SITE+"/#organization"},"image":[SOCIAL_IMAGE],"isBasedOn":a["source_url"],"citation":[a["source_url"]],"inLanguage":"en"}
+    page={"@type":"WebPage","@id":canonical+"#webpage","url":canonical,"name":a["title"],"description":a["dek"],"isPartOf":{"@id":SITE+"/#website"},"breadcrumb":{"@id":bc["@id"]},"primaryImageOfPage":{"@type":"ImageObject","url":SOCIAL_IMAGE}}
     page.pop("primaryImageOfPage",None)
     website={"@type":"WebSite","@id":SITE+"/#website","url":SITE+"/","name":"Open Model Weights","publisher":{"@id":SITE+"/#organization"}}
     return [org_node(),website,page,bc,article]
@@ -155,7 +155,7 @@ def patch_home(articles):
     text=re.sub(r'<section class="section home-news-section">.*?</section>','',text,flags=re.S)
     latest=articles[:3]
     cards="".join(f'<a class="home-news-card" href="/news/{esc(a["slug"])}/"><span>{esc(a["category"])} · {esc(pretty_date(a["published_at"]))}</span><strong>{esc(a["title"])}</strong><p>{esc(a["dek"])}</p><b>Read brief →</b></a>' for a in latest)
-    section=f'<section class="section home-news-section"><div class="section-head"><div><p class="eyebrow">OPEN WEIGHT INTELLIGENCE</p><h2>What changed today.</h2></div><p class="section-kicker">Daily source-first developments tied back to the evidence layer. <a href="/news/">Open all news →</a></p></div><div class="home-news-grid">{cards}</div></section>'
+    section=f'<section class="section home-news-section"><div class="section-head"><div><p class="eyebrow">OPEN WEIGHT INTELLIGENCE</p><h2>What matters now.</h2></div><p class="section-kicker">Daily source-first developments tied back to the evidence layer. <a href="/news/">Open all news →</a></p></div><div class="home-news-grid">{cards}</div></section>'
     m=re.search(r'<section class="[^"]*home-source-section',text)
     if m:
         text=text[:m.start()]+section+text[m.start():]

@@ -2013,3 +2013,20 @@ body{background:var(--bg);letter-spacing:-.006em}
   .news-article-layout{padding-top:36px;gap:26px}
   .news-article-body>p{font-size:16px}
 }
+
+
+/* Brand identity v7.3 */
+.brand-logo{
+  display:block;
+  width:30px;
+  height:30px;
+  flex:0 0 auto;
+  object-fit:contain
+}
+.brand-logo-small{width:24px;height:24px}
+.site-header .brand{gap:10px}
+.footer-brand-line{gap:9px}
+@media(max-width:620px){
+  .brand-logo{width:27px;height:27px}
+  .brand-logo-small{width:22px;height:22px}
+}
