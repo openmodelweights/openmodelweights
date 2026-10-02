@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T14:10:30+00:00",
+  "generated_at": "2026-10-02T14:33:20+00:00",
   "developers": [
     {
-      "name": "ATH-MaaS",
-      "slug": "ath-maas",
+      "name": "AdamCodd",
+      "slug": "adamcodd",
       "model_count": 1,
       "families": [
-        "OvisOCR2"
+        "vit-base-nsfw-detector"
       ],
-      "url": "https://openmodelweights.com/developers/ath-maas/"
+      "url": "https://openmodelweights.com/developers/adamcodd/"
     },
     {
       "name": "Alibaba-NLP",
@@ -28,7 +28,8 @@
       "model_count": 3,
       "families": [
         "Olmo-3",
-        "longformer-base-4096"
+        "longformer-base-4096",
+        "specter2"
       ],
       "url": "https://openmodelweights.com/developers/allenai/"
     },
@@ -50,6 +51,15 @@
         "bge-small-zh-v1.5"
       ],
       "url": "https://openmodelweights.com/developers/baai/"
+    },
+    {
+      "name": "Babelscape",
+      "slug": "babelscape",
+      "model_count": 1,
+      "families": [
+        "wikineural-multilingual-ner"
+      ],
+      "url": "https://openmodelweights.com/developers/babelscape/"
     },
     {
       "name": "BigScience",
@@ -85,25 +95,42 @@
       "url": "https://openmodelweights.com/developers/black-forest-labs/"
     },
     {
-      "name": "CohereLabs",
-      "slug": "coherelabs",
+      "name": "ByteDance-Seed",
+      "slug": "bytedance-seed",
       "model_count": 1,
       "families": [
-        "cohere-transcribe-03-2026"
+        "UI-TARS-1.5"
       ],
-      "url": "https://openmodelweights.com/developers/coherelabs/"
+      "url": "https://openmodelweights.com/developers/bytedance-seed/"
+    },
+    {
+      "name": "CIDAS",
+      "slug": "cidas",
+      "model_count": 1,
+      "families": [
+        "clipseg-rd64-refined"
+      ],
+      "url": "https://openmodelweights.com/developers/cidas/"
+    },
+    {
+      "name": "CMSManhattan",
+      "slug": "cmsmanhattan",
+      "model_count": 1,
+      "families": [
+        "JiRackUltra"
+      ],
+      "url": "https://openmodelweights.com/developers/cmsmanhattan/"
     },
     {
       "name": "Comfy-Org",
       "slug": "comfy-org",
-      "model_count": 25,
+      "model_count": 24,
       "families": [
         "HunyuanVideo_1.5_repackaged",
-        "HunyuanVideo_repackaged",
-        "Ideogram-4",
         "Krea-2",
         "MiniMax-H3",
         "MiniMax-Music-3",
+        "Pixal3D",
         "Qwen-Image-2.1",
         "Qwen-Image-Edit_ComfyUI",
         "Qwen-Image_ComfyUI",
@@ -128,8 +155,9 @@
     {
       "name": "CompVis",
       "slug": "compvis",
-      "model_count": 1,
+      "model_count": 2,
       "families": [
+        "stable-diffusion-safety-checker",
         "stable-diffusion-v1-4"
       ],
       "url": "https://openmodelweights.com/developers/compvis/"
@@ -164,7 +192,8 @@
         "DeepSeek-V4-Flash-DSpark",
         "DeepSeek-V4-Flash-Vision-Exp",
         "DeepSeek-V4-Pro",
-        "DeepSeek-V4.1-Flash"
+        "DeepSeek-V4.1-Flash",
+        "deepseek-coder"
       ],
       "url": "https://openmodelweights.com/developers/deepseek/"
     },
@@ -189,9 +218,11 @@
     {
       "name": "EleutherAI",
       "slug": "eleutherai",
-      "model_count": 4,
+      "model_count": 7,
       "families": [
+        "gpt-j",
         "gpt-neo",
+        "gpt-neox",
         "pythia"
       ],
       "url": "https://openmodelweights.com/developers/eleutherai/"
@@ -238,7 +269,7 @@
     {
       "name": "Google",
       "slug": "google",
-      "model_count": 33,
+      "model_count": 35,
       "families": [
         "Gemma 3",
         "diffusiongemma",
@@ -256,11 +287,11 @@
         "medgemma-1.5",
         "mobilebert-uncased",
         "owlv2-base-patch16-ensemble",
-        "paligemma",
         "siglip-base-patch16-224",
         "siglip-so400m-patch14-384",
         "siglip2-base-patch16-224",
         "siglip2-base-patch16-256",
+        "siglip2-base-patch16-naflex",
         "siglip2-giant-opt-patch16-384",
         "siglip2-so400m-patch14-384",
         "timesfm-2.5",
@@ -284,18 +315,17 @@
     {
       "name": "Helsinki-NLP",
       "slug": "helsinki-nlp",
-      "model_count": 3,
+      "model_count": 2,
       "families": [
-        "opus-mt-en-ru",
         "opus-mt-fr-en",
-        "opus-mt-ru-en"
+        "opus-mt-nl-en"
       ],
       "url": "https://openmodelweights.com/developers/helsinki-nlp/"
     },
     {
       "name": "HuggingFaceTB",
       "slug": "huggingfacetb",
-      "model_count": 6,
+      "model_count": 5,
       "families": [
         "SmolLM2",
         "SmolLM3",
@@ -307,41 +337,31 @@
     {
       "name": "IBM",
       "slug": "ibm",
-      "model_count": 4,
+      "model_count": 2,
       "families": [
         "granite-4.1",
-        "granite-docling",
-        "granite-embedding-small-english-r2",
-        "granite-timeseries-tspulse-r1"
+        "granite-embedding-small-english-r2"
       ],
       "url": "https://openmodelweights.com/developers/ibm/"
     },
     {
       "name": "IDEA-Research",
       "slug": "idea-research",
-      "model_count": 1,
+      "model_count": 2,
       "families": [
-        "grounding-dino"
+        "grounding-dino",
+        "grounding-dino-tiny"
       ],
       "url": "https://openmodelweights.com/developers/idea-research/"
     },
     {
-      "name": "IlyaGusev",
-      "slug": "ilyagusev",
+      "name": "Inferact",
+      "slug": "inferact",
       "model_count": 1,
       "families": [
-        "saiga_llama3"
+        "Qwen3.8"
       ],
-      "url": "https://openmodelweights.com/developers/ilyagusev/"
-    },
-    {
-      "name": "Infomaniak-AI",
-      "slug": "infomaniak-ai",
-      "model_count": 1,
-      "families": [
-        "vllm-translategemma"
-      ],
-      "url": "https://openmodelweights.com/developers/infomaniak-ai/"
+      "url": "https://openmodelweights.com/developers/inferact/"
     },
     {
       "name": "Intel",
@@ -353,15 +373,6 @@
       "url": "https://openmodelweights.com/developers/intel/"
     },
     {
-      "name": "KBLab",
-      "slug": "kblab",
-      "model_count": 1,
-      "families": [
-        "wav2vec2-large-voxrex-swedish"
-      ],
-      "url": "https://openmodelweights.com/developers/kblab/"
-    },
-    {
       "name": "Kijai",
       "slug": "kijai",
       "model_count": 3,
@@ -371,15 +382,6 @@
         "WanVideo_comfy_fp8_scaled"
       ],
       "url": "https://openmodelweights.com/developers/kijai/"
-    },
-    {
-      "name": "LBH-123-AI",
-      "slug": "lbh-123-ai",
-      "model_count": 1,
-      "families": [
-        "Minimax_h3_latent_Upscaler"
-      ],
-      "url": "https://openmodelweights.com/developers/lbh-123-ai/"
     },
     {
       "name": "Lightricks",
@@ -407,7 +409,7 @@
       "slug": "lykon",
       "model_count": 1,
       "families": [
-        "DreamShaper"
+        "dreamshaper-7"
       ],
       "url": "https://openmodelweights.com/developers/lykon/"
     },
@@ -439,18 +441,9 @@
       "url": "https://openmodelweights.com/developers/mahmoudashraf/"
     },
     {
-      "name": "Marqo",
-      "slug": "marqo",
-      "model_count": 1,
-      "families": [
-        "marqo-fashionSigLIP"
-      ],
-      "url": "https://openmodelweights.com/developers/marqo/"
-    },
-    {
       "name": "Meta",
       "slug": "meta",
-      "model_count": 61,
+      "model_count": 55,
       "families": [
         "Llama 3",
         "Llama 3.1",
@@ -466,20 +459,16 @@
         "Meta-Llama-3",
         "Prompt Guard",
         "Prompt Guard 2",
-        "VGGT",
-        "audiobox-aesthetics",
         "bart-large-cnn",
         "bart-large-mnli",
         "contriever",
-        "detr-resnet-50",
-        "dino-vitb16",
         "dinov2",
+        "dinov2-large",
         "dinov2-small",
         "dinov3-vitb16-pretrain-lvd1689m",
         "dinov3-vitl16-pretrain-lvd1689m",
         "dinov3-vits16-pretrain-lvd1689m",
         "esm2_t33",
-        "esm2_t6",
         "esmfold_v1",
         "m2m100",
         "musicgen-medium",
@@ -489,18 +478,20 @@
         "seamless-m4t-v2-large",
         "w2v-bert-2.0",
         "wav2vec2",
-        "wav2vec2-base-960h",
-        "wav2vec2-xls-r"
+        "wav2vec2-base-960h"
       ],
       "url": "https://openmodelweights.com/developers/meta/"
     },
     {
       "name": "Microsoft",
       "slug": "microsoft",
-      "model_count": 19,
+      "model_count": 22,
       "families": [
         "BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
         "Florence-2",
+        "Florence-2-large",
+        "Phi-3-mini-4k",
+        "Phi-3.5-mini",
         "Phi-3.5-vision",
         "Phi-4-mini",
         "Phi-4-multimodal",
@@ -511,33 +502,32 @@
         "deberta-v3",
         "deberta-v3-large",
         "deberta-v3-small",
-        "harrier-oss-v1",
         "layoutlmv3",
         "mdeberta-v3",
         "phi-2",
         "phi-4",
-        "table-transformer-structure-recognition",
-        "tapex-base-finetuned-wikisql"
+        "resnet-50",
+        "table-transformer-detection",
+        "table-transformer-structure-recognition"
       ],
       "url": "https://openmodelweights.com/developers/microsoft/"
     },
     {
       "name": "MiniMax",
       "slug": "minimax",
-      "model_count": 5,
+      "model_count": 4,
       "families": [
         "MiniMax-H3",
         "MiniMax-M2",
         "MiniMax-M2.5",
-        "MiniMax-M2.7",
-        "MiniMax-M3"
+        "MiniMax-M2.7"
       ],
       "url": "https://openmodelweights.com/developers/minimax/"
     },
     {
       "name": "Mistral AI",
       "slug": "mistral-ai",
-      "model_count": 41,
+      "model_count": 42,
       "families": [
         "Devstral 2",
         "Leanstral",
@@ -548,6 +538,7 @@
         "Mistral Medium 3.5",
         "Mistral Small 3.2",
         "Mistral Small 4",
+        "Mistral-Nemo-Instruct-2407",
         "Mistral-Small-3.1",
         "Mixtral-8x7B-Instruct-v0.1",
         "Pixtral",
@@ -559,8 +550,10 @@
     {
       "name": "Moonshot AI",
       "slug": "moonshot-ai",
-      "model_count": 2,
+      "model_count": 4,
       "families": [
+        "Kimi-K2",
+        "Kimi-K2.5",
         "Kimi-K2.6",
         "Kimi-K3"
       ],
@@ -577,21 +570,13 @@
       "url": "https://openmodelweights.com/developers/moritzlaurer/"
     },
     {
-      "name": "Musixmatch",
-      "slug": "musixmatch",
-      "model_count": 1,
-      "families": [
-        "umberto-commoncrawl-cased-v1"
-      ],
-      "url": "https://openmodelweights.com/developers/musixmatch/"
-    },
-    {
       "name": "NVIDIA",
       "slug": "nvidia",
-      "model_count": 28,
+      "model_count": 32,
       "families": [
         "Cosmos-Reason2",
         "Cosmos3-Edge",
+        "GLM-5.2-NVFP4",
         "Gemma-4",
         "NVIDIA-Nemotron-3-Nano",
         "NVIDIA-Nemotron-3-Super",
@@ -605,13 +590,15 @@
         "Qwen3.5",
         "Qwen3.6",
         "Qwen3.8",
-        "Qwen3.8-Flash-Next-NVFP4",
+        "bigvgan_v2_22khz_80band_256x",
+        "bigvgan_v2_44khz_128band_512x",
+        "dragon-multiturn-context-encoder",
+        "dragon-multiturn-query-encoder",
         "llama-nemotron-rerank",
         "nemotron-3.5-asr-streaming",
         "nemotron-speech-streaming-en",
         "parakeet-tdt",
-        "personaplex",
-        "segformer-b0-finetuned-ade-512-512"
+        "personaplex"
       ],
       "url": "https://openmodelweights.com/developers/nvidia/"
     },
@@ -647,9 +634,8 @@
     {
       "name": "OBLITERATUS",
       "slug": "obliteratus",
-      "model_count": 2,
+      "model_count": 1,
       "families": [
-        "Ornith-1.5",
         "Qwen3.8"
       ],
       "url": "https://openmodelweights.com/developers/obliteratus/"
@@ -666,13 +652,14 @@
     {
       "name": "OpenAI",
       "slug": "openai",
-      "model_count": 11,
+      "model_count": 12,
       "families": [
         "clip-vit-base-patch16",
         "clip-vit-base-patch32",
         "clip-vit-large-patch14",
         "clip-vit-large-patch14-336",
         "gpt-oss",
+        "privacy-filter",
         "whisper",
         "whisper-large-v3",
         "whisper-large-v3-turbo",
@@ -689,15 +676,6 @@
         "InternVL2"
       ],
       "url": "https://openmodelweights.com/developers/opengvlab/"
-    },
-    {
-      "name": "OpenMOSS-Team",
-      "slug": "openmoss-team",
-      "model_count": 1,
-      "families": [
-        "MOSS-Transcribe-Diarize"
-      ],
-      "url": "https://openmodelweights.com/developers/openmoss-team/"
     },
     {
       "name": "PaddlePaddle",
@@ -729,8 +707,9 @@
     {
       "name": "Qdrant",
       "slug": "qdrant",
-      "model_count": 2,
+      "model_count": 3,
       "families": [
+        "all-MiniLM-L6-v2-onnx",
         "all_miniLM_L6_v2_with_attentions",
         "bge-small-en-v1.5-onnx-Q"
       ],
@@ -739,13 +718,14 @@
     {
       "name": "Qwen",
       "slug": "qwen",
-      "model_count": 85,
+      "model_count": 91,
       "families": [
         "Qwen",
         "Qwen AgentWorld",
         "Qwen Drive",
         "Qwen Image",
         "Qwen Image 2.1",
+        "Qwen-Image-Edit-2509",
         "Qwen2-VL",
         "Qwen2.5",
         "Qwen2.5-Coder",
@@ -783,10 +763,11 @@
     {
       "name": "RedHatAI",
       "slug": "redhatai",
-      "model_count": 2,
+      "model_count": 3,
       "families": [
         "Qwen3.6",
-        "Qwen3.8"
+        "Qwen3.8",
+        "gemma-4"
       ],
       "url": "https://openmodelweights.com/developers/redhatai/"
     },
@@ -851,33 +832,23 @@
     {
       "name": "Sentence Transformers",
       "slug": "sentence-transformers",
-      "model_count": 14,
+      "model_count": 13,
       "families": [
+        "LaBSE",
         "all-MiniLM-L12-v2",
         "all-MiniLM-L6-v2",
         "all-distilroberta-v1",
         "all-mpnet-base-v2",
-        "all-roberta-large-v1",
         "distiluse-base-multilingual-cased-v1",
         "distiluse-base-multilingual-cased-v2",
+        "multi-qa-MiniLM-L6-cos-v1",
         "multi-qa-mpnet-base-dot-v1",
-        "nli-mpnet-base-v2",
-        "paraphrase-MiniLM-L3-v2",
         "paraphrase-MiniLM-L6-v2",
         "paraphrase-mpnet-base-v2",
         "paraphrase-multilingual-MiniLM-L12-v2",
         "paraphrase-multilingual-mpnet-base-v2"
       ],
       "url": "https://openmodelweights.com/developers/sentence-transformers/"
-    },
-    {
-      "name": "SicariusSicariiStuff",
-      "slug": "sicariussicariistuff",
-      "model_count": 1,
-      "families": [
-        "Assistant_Pepe"
-      ],
-      "url": "https://openmodelweights.com/developers/sicariussicariistuff/"
     },
     {
       "name": "SmilingWolf",
@@ -891,11 +862,10 @@
     {
       "name": "Snowflake",
       "slug": "snowflake",
-      "model_count": 3,
+      "model_count": 2,
       "families": [
         "snowflake-arctic-embed-l",
-        "snowflake-arctic-embed-l-v2.0",
-        "snowflake-arctic-embed-m"
+        "snowflake-arctic-embed-l-v2.0"
       ],
       "url": "https://openmodelweights.com/developers/snowflake/"
     },
@@ -904,8 +874,8 @@
       "slug": "stability-ai",
       "model_count": 4,
       "families": [
+        "sd-turbo",
         "sdxl-turbo",
-        "sdxl-vae",
         "stable-diffusion-xl-base-1.0",
         "stable-video-diffusion-img2vid-xt"
       ],
@@ -936,8 +906,8 @@
       "families": [
         "faster-whisper",
         "faster-whisper-large-v3",
+        "faster-whisper-medium",
         "faster-whisper-small",
-        "faster-whisper-small.en",
         "faster-whisper-tiny"
       ],
       "url": "https://openmodelweights.com/developers/systran/"
@@ -952,6 +922,15 @@
       "url": "https://openmodelweights.com/developers/taylorai/"
     },
     {
+      "name": "Technology Innovation Institute",
+      "slug": "technology-innovation-institute",
+      "model_count": 1,
+      "families": [
+        "falcon"
+      ],
+      "url": "https://openmodelweights.com/developers/technology-innovation-institute/"
+    },
+    {
       "name": "Tencent",
       "slug": "tencent",
       "model_count": 2,
@@ -960,15 +939,6 @@
         "Hy3"
       ],
       "url": "https://openmodelweights.com/developers/tencent/"
-    },
-    {
-      "name": "TencentBAC",
-      "slug": "tencentbac",
-      "model_count": 1,
-      "families": [
-        "Conan-embedding-v1"
-      ],
-      "url": "https://openmodelweights.com/developers/tencentbac/"
     },
     {
       "name": "TinyLlama",
@@ -998,34 +968,34 @@
       "url": "https://openmodelweights.com/developers/warmbloodaban/"
     },
     {
+      "name": "WhereIsAI",
+      "slug": "whereisai",
+      "model_count": 1,
+      "families": [
+        "UAE-Large-V1"
+      ],
+      "url": "https://openmodelweights.com/developers/whereisai/"
+    },
+    {
       "name": "Xenova",
       "slug": "xenova",
-      "model_count": 5,
+      "model_count": 4,
       "families": [
         "all-MiniLM-L6-v2",
         "bge-base-en-v1.5",
-        "paraphrase-multilingual-MiniLM-L12-v2",
         "whisper-tiny",
         "whisper-tiny.en"
       ],
       "url": "https://openmodelweights.com/developers/xenova/"
     },
     {
-      "name": "XiaomiMiMo",
-      "slug": "xiaomimimo",
-      "model_count": 1,
-      "families": [
-        "MiMo-V2.5"
-      ],
-      "url": "https://openmodelweights.com/developers/xiaomimimo/"
-    },
-    {
       "name": "Z.ai",
       "slug": "z-ai",
-      "model_count": 8,
+      "model_count": 10,
       "families": [
         "GLM-4.5-Air",
         "GLM-4.7-Flash",
+        "GLM-5",
         "GLM-5.1",
         "GLM-5.2",
         "GLM-5.3",
@@ -1057,10 +1027,9 @@
     {
       "name": "ai4bharat",
       "slug": "ai4bharat",
-      "model_count": 2,
+      "model_count": 1,
       "families": [
-        "indic-conformer",
-        "indic-parler-tts"
+        "indic-conformer"
       ],
       "url": "https://openmodelweights.com/developers/ai4bharat/"
     },
@@ -1094,23 +1063,16 @@
     {
       "name": "amazon",
       "slug": "amazon",
-      "model_count": 4,
+      "model_count": 6,
       "families": [
         "chronos-2",
+        "chronos-bolt",
         "chronos-bolt-small",
         "chronos-bolt-tiny",
-        "chronos-t5-small"
+        "chronos-t5-small",
+        "chronos-t5-tiny"
       ],
       "url": "https://openmodelweights.com/developers/amazon/"
-    },
-    {
-      "name": "ampixa",
-      "slug": "ampixa",
-      "model_count": 1,
-      "families": [
-        "sanoTTS"
-      ],
-      "url": "https://openmodelweights.com/developers/ampixa/"
     },
     {
       "name": "answerdotai",
@@ -1126,9 +1088,10 @@
     {
       "name": "apple",
       "slug": "apple",
-      "model_count": 1,
+      "model_count": 2,
       "families": [
-        "DFN5B-CLIP-ViT-H-14-378"
+        "DFN5B-CLIP-ViT-H-14-378",
+        "OpenELM-1"
       ],
       "url": "https://openmodelweights.com/developers/apple/"
     },
@@ -1140,15 +1103,6 @@
         "whisperkit-coreml"
       ],
       "url": "https://openmodelweights.com/developers/argmaxinc/"
-    },
-    {
-      "name": "aubmindlab",
-      "slug": "aubmindlab",
-      "model_count": 1,
-      "families": [
-        "bert-base-arabertv02"
-      ],
-      "url": "https://openmodelweights.com/developers/aubmindlab/"
     },
     {
       "name": "audeering",
@@ -1191,15 +1145,6 @@
         "ESMC"
       ],
       "url": "https://openmodelweights.com/developers/biohub/"
-    },
-    {
-      "name": "bkai-foundation-models",
-      "slug": "bkai-foundation-models",
-      "model_count": 1,
-      "families": [
-        "vietnamese-bi-encoder"
-      ],
-      "url": "https://openmodelweights.com/developers/bkai-foundation-models/"
     },
     {
       "name": "briaai",
@@ -1249,15 +1194,6 @@
       "url": "https://openmodelweights.com/developers/circlestone-labs/"
     },
     {
-      "name": "cl-nagoya",
-      "slug": "cl-nagoya",
-      "model_count": 1,
-      "families": [
-        "ruri-v3"
-      ],
-      "url": "https://openmodelweights.com/developers/cl-nagoya/"
-    },
-    {
       "name": "codellama",
       "slug": "codellama",
       "model_count": 1,
@@ -1287,13 +1223,12 @@
     {
       "name": "cross-encoder",
       "slug": "cross-encoder",
-      "model_count": 6,
+      "model_count": 5,
       "families": [
         "mmarco-mMiniLMv2-L12-H384-v1",
         "ms-marco-MiniLM-L12-v2",
         "ms-marco-MiniLM-L4-v2",
         "ms-marco-MiniLM-L6-v2",
-        "ms-marco-electra",
         "nli-deberta-v3"
       ],
       "url": "https://openmodelweights.com/developers/cross-encoder/"
@@ -1319,6 +1254,24 @@
       "url": "https://openmodelweights.com/developers/datasocietyco/"
     },
     {
+      "name": "dbmdz",
+      "slug": "dbmdz",
+      "model_count": 1,
+      "families": [
+        "bert-large-cased-finetuned-conll03-english"
+      ],
+      "url": "https://openmodelweights.com/developers/dbmdz/"
+    },
+    {
+      "name": "deepset",
+      "slug": "deepset",
+      "model_count": 1,
+      "families": [
+        "roberta-base-squad2"
+      ],
+      "url": "https://openmodelweights.com/developers/deepset/"
+    },
+    {
       "name": "depth-anything",
       "slug": "depth-anything",
       "model_count": 1,
@@ -1326,6 +1279,15 @@
         "Depth-Anything-V2-Small-hf"
       ],
       "url": "https://openmodelweights.com/developers/depth-anything/"
+    },
+    {
+      "name": "distil-whisper",
+      "slug": "distil-whisper",
+      "model_count": 1,
+      "families": [
+        "distil-large-v3"
+      ],
+      "url": "https://openmodelweights.com/developers/distil-whisper/"
     },
     {
       "name": "distilbert",
@@ -1400,18 +1362,18 @@
       "slug": "fastino",
       "model_count": 1,
       "families": [
-        "gliner2.5-multi-v1"
+        "gliner2-base-v1"
       ],
       "url": "https://openmodelweights.com/developers/fastino/"
     },
     {
-      "name": "gigant",
-      "slug": "gigant",
+      "name": "gittensor-model-hub",
+      "slug": "gittensor-model-hub",
       "model_count": 1,
       "families": [
-        "romanian-wav2vec2"
+        "Qwen3.8"
       ],
-      "url": "https://openmodelweights.com/developers/gigant/"
+      "url": "https://openmodelweights.com/developers/gittensor-model-hub/"
     },
     {
       "name": "google-bert",
@@ -1483,22 +1445,21 @@
       "url": "https://openmodelweights.com/developers/impira/"
     },
     {
-      "name": "incoai",
-      "slug": "incoai",
+      "name": "indonesian-nlp",
+      "slug": "indonesian-nlp",
       "model_count": 1,
       "families": [
-        "Qwen3.8"
+        "wav2vec2-indonesian-javanese-sundanese"
       ],
-      "url": "https://openmodelweights.com/developers/incoai/"
+      "url": "https://openmodelweights.com/developers/indonesian-nlp/"
     },
     {
       "name": "intfloat",
       "slug": "intfloat",
-      "model_count": 8,
+      "model_count": 7,
       "families": [
-        "e5",
+        "e5-base-v2",
         "e5-large-v2",
-        "e5-mistral",
         "e5-small-v2",
         "multilingual-e5",
         "multilingual-e5-large",
@@ -1525,21 +1486,14 @@
       "url": "https://openmodelweights.com/developers/jhgan/"
     },
     {
-      "name": "jhu-clsp",
-      "slug": "jhu-clsp",
-      "model_count": 1,
-      "families": [
-        "mmBERT"
-      ],
-      "url": "https://openmodelweights.com/developers/jhu-clsp/"
-    },
-    {
       "name": "jinaai",
       "slug": "jinaai",
-      "model_count": 4,
+      "model_count": 6,
       "families": [
         "jina-embeddings-v2-base-en",
+        "jina-embeddings-v2-small-en",
         "jina-embeddings-v3",
+        "jina-embeddings-v5-omni-small",
         "jina-reranker-v2-base-multilingual",
         "jina-reranker-v3"
       ],
@@ -1561,10 +1515,10 @@
       "families": [
         "wav2vec2-large-xlsr-53-arabic",
         "wav2vec2-large-xlsr-53-chinese-zh-cn",
+        "wav2vec2-large-xlsr-53-dutch",
         "wav2vec2-large-xlsr-53-greek",
         "wav2vec2-large-xlsr-53-hungarian",
         "wav2vec2-large-xlsr-53-japanese",
-        "wav2vec2-large-xlsr-53-persian",
         "wav2vec2-large-xlsr-53-polish",
         "wav2vec2-large-xlsr-53-portuguese",
         "wav2vec2-large-xlsr-53-russian"
@@ -1590,24 +1544,6 @@
       "url": "https://openmodelweights.com/developers/kha-white/"
     },
     {
-      "name": "kingabzpro",
-      "slug": "kingabzpro",
-      "model_count": 1,
-      "families": [
-        "wav2vec2-large-xls-r"
-      ],
-      "url": "https://openmodelweights.com/developers/kingabzpro/"
-    },
-    {
-      "name": "kredor",
-      "slug": "kredor",
-      "model_count": 1,
-      "families": [
-        "punctuate-all"
-      ],
-      "url": "https://openmodelweights.com/developers/kredor/"
-    },
-    {
       "name": "kresnik",
       "slug": "kresnik",
       "model_count": 1,
@@ -1619,25 +1555,17 @@
     {
       "name": "laion",
       "slug": "laion",
-      "model_count": 6,
+      "model_count": 7,
       "families": [
         "CLIP-ViT-B-16-laion2B-s34B-b88K",
         "CLIP-ViT-B-32-laion2B-s34B-b79K",
+        "CLIP-ViT-H-14-laion2B-s32B-b79K",
         "CLIP-ViT-L-14-laion2B-s32B-b82K",
         "CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
         "clap-htsat-fused",
         "clap-htsat-unfused"
       ],
       "url": "https://openmodelweights.com/developers/laion/"
-    },
-    {
-      "name": "lightonai",
-      "slug": "lightonai",
-      "model_count": 1,
-      "families": [
-        "LightOnOCR-2"
-      ],
-      "url": "https://openmodelweights.com/developers/lightonai/"
     },
     {
       "name": "lightx2v",
@@ -1660,10 +1588,9 @@
     {
       "name": "llava-hf",
       "slug": "llava-hf",
-      "model_count": 3,
+      "model_count": 2,
       "families": [
         "llava-1.5",
-        "llava-onevision-qwen2",
         "llava-v1.6-mistral"
       ],
       "url": "https://openmodelweights.com/developers/llava-hf/"
@@ -1687,22 +1614,13 @@
       "url": "https://openmodelweights.com/developers/lxyuan/"
     },
     {
-      "name": "madebyollin",
-      "slug": "madebyollin",
+      "name": "meta-models",
+      "slug": "meta-models",
       "model_count": 1,
       "families": [
-        "sdxl-vae-fp16-fix"
+        "Muse-Glimmer"
       ],
-      "url": "https://openmodelweights.com/developers/madebyollin/"
-    },
-    {
-      "name": "mattmdjaga",
-      "slug": "mattmdjaga",
-      "model_count": 1,
-      "families": [
-        "segformer_b2_clothes"
-      ],
-      "url": "https://openmodelweights.com/developers/mattmdjaga/"
+      "url": "https://openmodelweights.com/developers/meta-models/"
     },
     {
       "name": "mixedbread-ai",
@@ -1724,15 +1642,6 @@
       "url": "https://openmodelweights.com/developers/mlx-community/"
     },
     {
-      "name": "mrm8488",
-      "slug": "mrm8488",
-      "model_count": 1,
-      "families": [
-        "distilroberta-finetuned-financial-news-sentiment-analysis"
-      ],
-      "url": "https://openmodelweights.com/developers/mrm8488/"
-    },
-    {
       "name": "naver",
       "slug": "naver",
       "model_count": 1,
@@ -1742,13 +1651,13 @@
       "url": "https://openmodelweights.com/developers/naver/"
     },
     {
-      "name": "nlpai-lab",
-      "slug": "nlpai-lab",
+      "name": "neuralmind",
+      "slug": "neuralmind",
       "model_count": 1,
       "families": [
-        "KURE-v1"
+        "bert-large-portuguese-cased"
       ],
-      "url": "https://openmodelweights.com/developers/nlpai-lab/"
+      "url": "https://openmodelweights.com/developers/neuralmind/"
     },
     {
       "name": "nlpaueb",
@@ -1771,13 +1680,11 @@
     {
       "name": "nomic-ai",
       "slug": "nomic-ai",
-      "model_count": 5,
+      "model_count": 3,
       "families": [
-        "nomic-embed-code",
         "nomic-embed-text-v1",
         "nomic-embed-text-v1.5",
-        "nomic-embed-text-v2-moe",
-        "nomic-embed-vision-v1.5"
+        "nomic-embed-text-v2-moe"
       ],
       "url": "https://openmodelweights.com/developers/nomic-ai/"
     },
@@ -1795,7 +1702,7 @@
       "slug": "onnx-community",
       "model_count": 1,
       "families": [
-        "embeddinggemma"
+        "Kokoro"
       ],
       "url": "https://openmodelweights.com/developers/onnx-community/"
     },
@@ -1812,8 +1719,10 @@
     {
       "name": "openbmb",
       "slug": "openbmb",
-      "model_count": 5,
+      "model_count": 7,
       "families": [
+        "MiniCPM-V-4.6",
+        "MiniCPM-o-2_6",
         "MiniCPM-o-4_5",
         "MiniCPM5",
         "VoxCPM2"
@@ -1832,7 +1741,7 @@
     {
       "name": "ornith-ai",
       "slug": "ornith-ai",
-      "model_count": 6,
+      "model_count": 5,
       "families": [
         "Ornith-1.0",
         "Ornith-1.5"
@@ -1867,13 +1776,13 @@
       "url": "https://openmodelweights.com/developers/playgroundai/"
     },
     {
-      "name": "poolside",
-      "slug": "poolside",
+      "name": "pnnbao-ump",
+      "slug": "pnnbao-ump",
       "model_count": 1,
       "families": [
-        "Laguna-S-2.1-NVFP4"
+        "VieNeu-TTS-v3-Turbo"
       ],
-      "url": "https://openmodelweights.com/developers/poolside/"
+      "url": "https://openmodelweights.com/developers/pnnbao-ump/"
     },
     {
       "name": "prajjwal1",
@@ -1892,6 +1801,15 @@
         "parrot_paraphraser_on_T5"
       ],
       "url": "https://openmodelweights.com/developers/prithivida/"
+    },
+    {
+      "name": "protectai",
+      "slug": "protectai",
+      "model_count": 1,
+      "families": [
+        "deberta-v3-base-prompt-injection-v2"
+      ],
+      "url": "https://openmodelweights.com/developers/protectai/"
     },
     {
       "name": "pyannote",
@@ -1914,15 +1832,6 @@
         "robertuito-sentiment-analysis"
       ],
       "url": "https://openmodelweights.com/developers/pysentimiento/"
-    },
-    {
-      "name": "remsky",
-      "slug": "remsky",
-      "model_count": 1,
-      "families": [
-        "kokoro-inno-clone-tuner"
-      ],
-      "url": "https://openmodelweights.com/developers/remsky/"
     },
     {
       "name": "rizvandwiki",
@@ -1964,9 +1873,10 @@
     {
       "name": "sshleifer",
       "slug": "sshleifer",
-      "model_count": 1,
+      "model_count": 2,
       "families": [
-        "distilbart-cnn-12-6"
+        "distilbart-cnn-12-6",
+        "tiny-gpt2"
       ],
       "url": "https://openmodelweights.com/developers/sshleifer/"
     },
@@ -1991,8 +1901,9 @@
     {
       "name": "swiss-ai",
       "slug": "swiss-ai",
-      "model_count": 1,
+      "model_count": 2,
       "families": [
+        "Apertus",
         "Apertus-v1.5"
       ],
       "url": "https://openmodelweights.com/developers/swiss-ai/"
@@ -2010,20 +1921,18 @@
     {
       "name": "thinkingmachines",
       "slug": "thinkingmachines",
-      "model_count": 3,
+      "model_count": 2,
       "families": [
         "Inkling",
-        "Inkling-Small",
-        "Inkling-Small-NVFP4"
+        "Inkling-Small"
       ],
       "url": "https://openmodelweights.com/developers/thinkingmachines/"
     },
     {
       "name": "timm",
       "slug": "timm",
-      "model_count": 7,
+      "model_count": 6,
       "families": [
-        "efficientnet_b0.ra_in1k",
         "efficientnet_b3.ra2_in1k",
         "mobilenetv3_small_100.lamb_in1k",
         "resnet18.a1_in1k",
@@ -2036,11 +1945,9 @@
     {
       "name": "trl-internal-testing",
       "slug": "trl-internal-testing",
-      "model_count": 3,
+      "model_count": 1,
       "families": [
-        "tiny-Qwen2ForCausalLM-2.5",
-        "tiny-Qwen2ForSequenceClassification-2.5",
-        "tiny-Qwen3ForCausalLM"
+        "tiny-Qwen2ForCausalLM-2.5"
       ],
       "url": "https://openmodelweights.com/developers/trl-internal-testing/"
     },
@@ -2056,9 +1963,8 @@
     {
       "name": "unsloth",
       "slug": "unsloth",
-      "model_count": 5,
+      "model_count": 4,
       "families": [
-        "Llama-3.2",
         "Qwen3.6",
         "Qwen3.8"
       ],
@@ -2072,15 +1978,6 @@
         "vitpose-plus"
       ],
       "url": "https://openmodelweights.com/developers/usyd-community/"
-    },
-    {
-      "name": "utter-project",
-      "slug": "utter-project",
-      "model_count": 1,
-      "families": [
-        "EuroLLM"
-      ],
-      "url": "https://openmodelweights.com/developers/utter-project/"
     },
     {
       "name": "vikhyatk",
@@ -2110,13 +2007,31 @@
       "url": "https://openmodelweights.com/developers/yiyanghkust/"
     },
     {
-      "name": "yuvalkirstain",
-      "slug": "yuvalkirstain",
+      "name": "zed-industries",
+      "slug": "zed-industries",
       "model_count": 1,
       "families": [
-        "PickScore_v1"
+        "zeta"
       ],
-      "url": "https://openmodelweights.com/developers/yuvalkirstain/"
+      "url": "https://openmodelweights.com/developers/zed-industries/"
+    },
+    {
+      "name": "zeroentropy",
+      "slug": "zeroentropy",
+      "model_count": 1,
+      "families": [
+        "zerank-2-reranker"
+      ],
+      "url": "https://openmodelweights.com/developers/zeroentropy/"
+    },
+    {
+      "name": "zhihan1996",
+      "slug": "zhihan1996",
+      "model_count": 1,
+      "families": [
+        "DNABERT-2"
+      ],
+      "url": "https://openmodelweights.com/developers/zhihan1996/"
     }
   ]
 }

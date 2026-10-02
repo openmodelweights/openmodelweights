@@ -1,0 +1,312 @@
+{
+  "id": "moonshotai-kimi-k2-5",
+  "name": "Kimi-K2.5",
+  "developer": "Moonshot AI",
+  "family": "Kimi-K2.5",
+  "variant": "Kimi-K2.5",
+  "model": {
+    "parameters": "1026.88B",
+    "total_parameters_billions": 1026.879376368,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "kimi_k25",
+      "feature-extraction",
+      "compressed-tensors",
+      "image-text-to-text",
+      "conversational",
+      "custom_code",
+      "arxiv:2602.02276",
+      "license:other",
+      "eval-results",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/moonshotai/Kimi-K2.5",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-000064.safetensors",
+      "model-00002-of-000064.safetensors",
+      "model-00003-of-000064.safetensors",
+      "model-00004-of-000064.safetensors",
+      "model-00005-of-000064.safetensors",
+      "model-00006-of-000064.safetensors",
+      "model-00007-of-000064.safetensors",
+      "model-00008-of-000064.safetensors",
+      "model-00009-of-000064.safetensors",
+      "model-00010-of-000064.safetensors",
+      "model-00011-of-000064.safetensors",
+      "model-00012-of-000064.safetensors",
+      "model-00013-of-000064.safetensors",
+      "model-00014-of-000064.safetensors",
+      "model-00015-of-000064.safetensors",
+      "model-00016-of-000064.safetensors",
+      "model-00017-of-000064.safetensors",
+      "model-00018-of-000064.safetensors",
+      "model-00019-of-000064.safetensors",
+      "model-00020-of-000064.safetensors",
+      "model-00021-of-000064.safetensors",
+      "model-00022-of-000064.safetensors",
+      "model-00023-of-000064.safetensors",
+      "model-00024-of-000064.safetensors",
+      "model-00025-of-000064.safetensors",
+      "model-00026-of-000064.safetensors",
+      "model-00027-of-000064.safetensors",
+      "model-00028-of-000064.safetensors",
+      "model-00029-of-000064.safetensors",
+      "model-00030-of-000064.safetensors",
+      "model-00031-of-000064.safetensors",
+      "model-00032-of-000064.safetensors",
+      "model-00033-of-000064.safetensors",
+      "model-00034-of-000064.safetensors",
+      "model-00035-of-000064.safetensors",
+      "model-00036-of-000064.safetensors",
+      "model-00037-of-000064.safetensors",
+      "model-00038-of-000064.safetensors",
+      "model-00039-of-000064.safetensors",
+      "model-00040-of-000064.safetensors",
+      "model-00041-of-000064.safetensors",
+      "model-00042-of-000064.safetensors",
+      "model-00043-of-000064.safetensors",
+      "model-00044-of-000064.safetensors",
+      "model-00045-of-000064.safetensors",
+      "model-00046-of-000064.safetensors",
+      "model-00047-of-000064.safetensors",
+      "model-00048-of-000064.safetensors",
+      "model-00049-of-000064.safetensors",
+      "model-00050-of-000064.safetensors",
+      "model-00051-of-000064.safetensors",
+      "model-00052-of-000064.safetensors",
+      "model-00053-of-000064.safetensors",
+      "model-00054-of-000064.safetensors",
+      "model-00055-of-000064.safetensors",
+      "model-00056-of-000064.safetensors",
+      "model-00057-of-000064.safetensors",
+      "model-00058-of-000064.safetensors",
+      "model-00059-of-000064.safetensors",
+      "model-00060-of-000064.safetensors",
+      "model-00061-of-000064.safetensors",
+      "model-00062-of-000064.safetensors",
+      "model-00063-of-000064.safetensors",
+      "model-00064-of-000064.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 65,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F32",
+      "I32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/moonshotai/Kimi-K2.5",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "other",
+    "name": "Mistral Modified MIT License",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.5/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed-with-revenue-condition",
+      "label": "Commercial use allowed, but the license restricts companies above its revenue threshold without a separate license",
+      "basis": "https://huggingface.co/moonshotai/Kimi-K2.5/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/moonshotai/Kimi-K2.5/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 2053.76,
+      "fp8_int8": 1026.88,
+      "int4": 513.44
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Kimi-K2.5",
+    "variant": "Kimi-K2.5",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/moonshotai/Kimi-K2.5",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T14:32:56+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "moonshotai/Kimi-K2.5",
+    "rank": 498,
+    "downloads": 318752,
+    "likes": 2876,
+    "last_modified": "2026-04-30T03:56:40+00:00",
+    "created_at": "2026-01-01T06:06:03+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-02T14:32:55+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-04-30T03:56:40.000Z",
+    "created_at": "2026-01-01T06:06:03.000Z",
+    "downloads": 318752,
+    "likes": 2876,
+    "sha": "4d01dfe0332d63057c186e0b262165819efb6611",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "kimi_k25",
+      "feature-extraction",
+      "compressed-tensors",
+      "image-text-to-text",
+      "conversational",
+      "custom_code",
+      "arxiv:2602.02276",
+      "license:other",
+      "eval-results",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

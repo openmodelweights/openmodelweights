@@ -1,0 +1,238 @@
+{
+  "id": "qwen-qwen-image-edit-2509",
+  "name": "Qwen-Image-Edit-2509",
+  "developer": "Qwen",
+  "family": "Qwen-Image-Edit-2509",
+  "variant": "Qwen-Image-Edit-2509",
+  "model": {
+    "parameters": "20.4304B",
+    "total_parameters_billions": 20.430401088,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image → image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "image-to-image",
+      "en",
+      "zh",
+      "arxiv:2508.02324",
+      "license:apache-2.0",
+      "diffusers:QwenImageEditPlusPipeline",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509",
+    "access": "public",
+    "exact_files": [
+      "text_encoder/model-00001-of-00004.safetensors",
+      "text_encoder/model-00002-of-00004.safetensors",
+      "text_encoder/model-00003-of-00004.safetensors",
+      "text_encoder/model-00004-of-00004.safetensors",
+      "text_encoder/model.safetensors.index.json",
+      "transformer/diffusion_pytorch_model-00001-of-00005.safetensors",
+      "transformer/diffusion_pytorch_model-00002-of-00005.safetensors",
+      "transformer/diffusion_pytorch_model-00003-of-00005.safetensors",
+      "transformer/diffusion_pytorch_model-00004-of-00005.safetensors",
+      "transformer/diffusion_pytorch_model-00005-of-00005.safetensors",
+      "transformer/diffusion_pytorch_model.safetensors.index.json",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 12,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/Qwen/Qwen-Image-Edit-2509",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 40.86,
+      "fp8_int8": 20.43,
+      "int4": 10.22
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen-Image-Edit-2509",
+    "variant": "Qwen-Image-Edit-2509",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen-Image-Edit-2509",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T14:32:56+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "Qwen/Qwen-Image-Edit-2509",
+    "rank": 499,
+    "downloads": 465425,
+    "likes": 1249,
+    "last_modified": "2025-09-22T13:37:12+00:00",
+    "created_at": "2025-09-22T13:09:40+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-image",
+    "discovered_at": "2026-10-02T14:32:55+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "image-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-09-22T13:37:12.000Z",
+    "created_at": "2025-09-22T13:09:40.000Z",
+    "downloads": 465425,
+    "likes": 1249,
+    "sha": "d3968ef930e841f4c73640fb8afa3b306a78167e",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "image-to-image",
+      "en",
+      "zh",
+      "arxiv:2508.02324",
+      "license:apache-2.0",
+      "diffusers:QwenImageEditPlusPipeline",
+      "region:us"
+    ]
+  }
+}

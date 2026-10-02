@@ -1,0 +1,115 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-dragon-multiturn-query-encoder",
+  "created_at": "2026-10-02T14:33:20+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b4dfda0f262c-6fd2a004da",
+      "observed_at": "2026-10-02T14:33:20+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b4dfda0f262c3441c610e33258b798749e54ed7e",
+      "evidence_hash": "6fd2a004daeda2986d0551586c72b932dd3c96755fbfc5032a3bd74a5b028906",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/dragon-multiturn-query-encoder",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/dragon-multiturn-query-encoder",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/dragon-multiturn-query-encoder",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/dragon-multiturn-query-encoder/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/dragon-multiturn-query-encoder/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "dragon-multiturn-query-encoder",
+          "developer": "NVIDIA",
+          "family": "dragon-multiturn-query-encoder",
+          "variant": "dragon-multiturn-query-encoder"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "['other']",
+          "id": "['other']",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/dragon-multiturn-query-encoder",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "b4dfda0f262c3441c610e33258b798749e54ed7e",
+          "created_at": "2024-04-30T18:44:35.000Z",
+          "last_modified": "2024-05-24T17:37:31.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "dragon-multiturn-query-encoder",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/dragon-multiturn-query-encoder",
+  "current_repository_sha": "b4dfda0f262c3441c610e33258b798749e54ed7e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-dragon-multiturn-query-encoder/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-dragon-multiturn-query-encoder/"
+}

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T14:10:30+00:00",
+  "generated_at": "2026-10-02T14:33:20+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 339,
+      "model_count": 349,
       "commercial_use": {
-        "allowed": 339
+        "allowed": 349
       }
     },
     {
@@ -17,30 +17,30 @@
     },
     {
       "name": "CC BY 4.0",
-      "model_count": 9,
+      "model_count": 7,
       "commercial_use": {
-        "allowed": 9
+        "allowed": 7
       }
     },
     {
       "name": "CC BY-NC 4.0",
-      "model_count": 13,
+      "model_count": 11,
       "commercial_use": {
-        "not-allowed": 13
+        "not-allowed": 11
       }
     },
     {
       "name": "MIT",
-      "model_count": 136,
+      "model_count": 138,
       "commercial_use": {
-        "allowed": 136
+        "allowed": 138
       }
     },
     {
       "name": "Mistral Modified MIT License",
-      "model_count": 4,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-revenue-condition": 4
+        "allowed-with-revenue-condition": 6
       }
     },
     {
@@ -52,9 +52,9 @@
     },
     {
       "name": "Not declared in model-card metadata",
-      "model_count": 32,
+      "model_count": 31,
       "commercial_use": {
-        "unknown": 31,
+        "unknown": 30,
         "allowed-with-conditions": 1
       }
     },
@@ -80,6 +80,13 @@
       }
     },
     {
+      "name": "['cc-by-nc-sa-4.0']",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
       "name": "['cdla-permissive-2.0', 'apache-2.0']",
       "model_count": 1,
       "commercial_use": {
@@ -101,6 +108,13 @@
       }
     },
     {
+      "name": "['other']",
+      "model_count": 2,
+      "commercial_use": {
+        "allowed-with-conditions": 2
+      }
+    },
+    {
       "name": "agpl-3.0",
       "model_count": 1,
       "commercial_use": {
@@ -116,9 +130,9 @@
     },
     {
       "name": "apple-sample-code-license",
-      "model_count": 1,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 1
+        "unknown": 2
       }
     },
     {
@@ -150,13 +164,6 @@
       }
     },
     {
-      "name": "cc0-1.0",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
       "name": "circlestone-labs-non-commercial-license",
       "model_count": 1,
       "commercial_use": {
@@ -172,9 +179,16 @@
     },
     {
       "name": "creativeml-openrail-m",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "unknown": 5
+        "unknown": 6
+      }
+    },
+    {
+      "name": "deepseek",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
       }
     },
     {
@@ -200,17 +214,17 @@
     },
     {
       "name": "flux-non-commercial-license",
-      "model_count": 3,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 3
+        "unknown": 2
       }
     },
     {
       "name": "gemma",
-      "model_count": 12,
+      "model_count": 10,
       "commercial_use": {
         "allowed-with-conditions": 7,
-        "unknown": 5
+        "unknown": 3
       }
     },
     {
@@ -221,24 +235,10 @@
       }
     },
     {
-      "name": "gpl-3.0",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
       "name": "health-ai-developer-foundations",
       "model_count": 2,
       "commercial_use": {
         "allowed-with-conditions": 2
-      }
-    },
-    {
-      "name": "ideogram-non-commercial-model-agreement",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
       }
     },
     {
@@ -271,23 +271,23 @@
     },
     {
       "name": "llama3",
+      "model_count": 4,
+      "commercial_use": {
+        "allowed-with-conditions": 4
+      }
+    },
+    {
+      "name": "llama3.1",
       "model_count": 5,
       "commercial_use": {
         "allowed-with-conditions": 5
       }
     },
     {
-      "name": "llama3.1",
-      "model_count": 6,
-      "commercial_use": {
-        "allowed-with-conditions": 6
-      }
-    },
-    {
       "name": "llama3.2",
-      "model_count": 12,
+      "model_count": 11,
       "commercial_use": {
-        "allowed-with-conditions": 12
+        "allowed-with-conditions": 11
       }
     },
     {
@@ -313,13 +313,6 @@
     },
     {
       "name": "ltx-2.x-community-license-agreement",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
-      "name": "minimax-community",
       "model_count": 1,
       "commercial_use": {
         "unknown": 1
@@ -355,24 +348,23 @@
     },
     {
       "name": "nvidia-open-model-agreement",
-      "model_count": 2,
+      "model_count": 3,
       "commercial_use": {
-        "allowed-with-conditions": 2
+        "allowed-with-conditions": 3
       }
     },
     {
       "name": "nvidia-open-model-license",
-      "model_count": 6,
+      "model_count": 5,
       "commercial_use": {
-        "allowed-with-conditions": 6
+        "allowed-with-conditions": 5
       }
     },
     {
       "name": "openmdw-1.1",
-      "model_count": 7,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 6,
-        "unknown": 1
+        "allowed-with-conditions": 6
       }
     },
     {
@@ -398,10 +390,10 @@
     },
     {
       "name": "other",
-      "model_count": 7,
+      "model_count": 4,
       "commercial_use": {
-        "allowed-with-conditions": 3,
-        "unknown": 4
+        "allowed-with-conditions": 2,
+        "unknown": 2
       }
     },
     {
@@ -434,9 +426,9 @@
     },
     {
       "name": "tencent-hunyuan-community",
-      "model_count": 3,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 3
+        "unknown": 2
       }
     },
     {
