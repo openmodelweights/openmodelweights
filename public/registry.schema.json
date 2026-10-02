@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://openmodelweights.com/registry.schema.json",
-  "title": "Open Model Weights Registry",
+  "title": "Open Model Weights Registry v0.2",
   "type": "object",
   "required": [
     "schema_version",
@@ -15,14 +15,8 @@
     "generated_at": {
       "type": "string"
     },
-    "project": {
-      "type": "string"
-    },
-    "homepage": {
-      "type": "string"
-    },
-    "methodology": {
-      "type": "string"
+    "verification_levels": {
+      "type": "object"
     },
     "models": {
       "type": "array",
@@ -32,33 +26,15 @@
           "id",
           "name",
           "developer",
+          "model",
           "weights",
           "license",
+          "hardware",
+          "lineage",
+          "training_assets",
+          "sources",
           "verification"
-        ],
-        "properties": {
-          "id": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          },
-          "developer": {
-            "type": "string"
-          },
-          "weights": {
-            "type": "object"
-          },
-          "model": {
-            "type": "object"
-          },
-          "license": {
-            "type": "object"
-          },
-          "verification": {
-            "type": "object"
-          }
-        }
+        ]
       }
     }
   }
