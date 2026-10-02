@@ -168,7 +168,7 @@ def api_docs(count,generated):
       ("/registry.json","Canonical full registry JSON.")
     ]
     rows="".join(f'<div class="api-endpoint"><code>{esc(p)}</code><p>{esc(d)}</p></div>' for p,d in endpoints)
-    return f'''{head("Open Model Weights API & JSON documentation","Machine-readable JSON endpoints and schema documentation for the Open Model Weights field-verified registry.","https://openmodelweights.com/api/")}<body>{header()}<main id="main-content"><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / API</div><p class="eyebrow">MACHINE-READABLE LAYER · v1</p><h1>Use the registry as data.</h1><p class="lead">Static, cacheable JSON for {count:,} verified model records plus evidence history, compatibility relationships and benchmark results. The same data is exposed to AI agents through the public MCP endpoint.</p></section>{trust_strip(date(generated),date(generated))}<section class="section api-docs"><div class="api-grid">{rows}</div><div class="content"><h2>Stability</h2><p><code>/api/v1/</code> is the first versioned machine-readable surface. Additive fields may appear without a version bump; breaking shape changes will use a new API version.</p><h2>CORS & caching</h2><p>JSON API paths are configured for cross-origin read access and short public caching. The canonical registry remains available at <code>/registry.json</code>.</p><h2>Evidence semantics</h2><p>Machine-readable values preserve verification status, sources, explicit unknowns and the distinction between repository revision checks and full field verification.</p></div></section></main>{footer()}</body></html>'''
+    return f'''{head("Open Model Weights API & JSON documentation","Machine-readable JSON endpoints and schema documentation for the Open Model Weights field-verified registry.","https://openmodelweights.com/api/")}<body class="api-page">{header()}<main id="main-content"><section class="page-hero api-hero-v3"><div class="breadcrumbs"><a href="/">Home</a> / API</div><p class="eyebrow">MACHINE-READABLE LAYER · v1</p><h1>Use the registry as data.</h1><p class="lead">Static, cacheable JSON for {count:,} verified model records plus evidence history, compatibility relationships and benchmark results. The same data is exposed to AI agents through the public MCP endpoint.</p></section>{trust_strip(date(generated),date(generated))}<section class="section api-docs"><div class="api-grid">{rows}</div><div class="content"><h2>Stability</h2><p><code>/api/v1/</code> is the first versioned machine-readable surface. Additive fields may appear without a version bump; breaking shape changes will use a new API version.</p><h2>CORS & caching</h2><p>JSON API paths are configured for cross-origin read access and short public caching. The canonical registry remains available at <code>/registry.json</code>.</p><h2>Evidence semantics</h2><p>Machine-readable values preserve verification status, sources, explicit unknowns and the distinction between repository revision checks and full field verification.</p></div></section></main>{footer()}</body></html>'''
 
 def compact_model(m):
     return {
@@ -251,6 +251,19 @@ def patch_general_pages(generated):
         text=p.read_text()
         section=route.strip("/").split("/",1)[0] if route.strip("/") else ""
         active=section if section in {"models","explore","developers","changes","sources"} else ""
+        route_classes={
+          "/developers/":"developers-page","/licenses/":"license-page explorer-product-page",
+          "/hardware/":"hardware-page explorer-product-page","/formats/":"formats-page explorer-product-page",
+          "/lineage/":"lineage-page explorer-product-page","/verification/":"verification-page",
+          "/methodology/":"methodology-page","/about/":"about-page"
+        }
+        cls=route_classes.get(route)
+        if route.startswith("/developers/") and route!="/developers/": cls="developer-page"
+        if cls:
+            if re.search(r'<body class="[^"]*">',text):
+                text=re.sub(r'<body class="([^"]*)">',lambda m:'<body class="'+m.group(1)+(' ' if m.group(1) else '')+cls+'">' if cls not in m.group(1).split() else m.group(0),text,count=1)
+            else:
+                text=text.replace("<body>",f'<body class="{cls}">',1)
         text=re.sub(r'(?:<a class="skip-link"[^>]*>.*?</a>)?<header class="site-header">.*?</header>',header(active),text,count=1,flags=re.S)
         if '<main>' in text:
             text=text.replace('<main>','<main id="main-content">',1)
