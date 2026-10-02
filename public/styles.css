@@ -1247,3 +1247,30 @@ body{background:var(--bg);letter-spacing:-.006em}
   margin:0 0 8px;
   box-shadow:none
 }
+
+
+/* Compare scroll refinement v5.2 — single vertical page scroll */
+/* Compare must never create a second vertical scroll area. The page owns vertical scrolling. */
+.compare-page .compare-output{
+  max-height:none;
+  height:auto;
+  overflow-x:auto;
+  overflow-y:visible;
+  overscroll-behavior:auto;
+  border:0;
+  border-radius:0;
+  background:transparent
+}
+.compare-page .compare-table{
+  margin-bottom:2px
+}
+/* Keep column heads visually useful without tying them to an inner vertical scroller. */
+.compare-page .compare-corner,
+.compare-page .compare-model-head{
+  top:78px
+}
+@media(max-width:700px){
+  .compare-page .compare-output{
+    overflow:visible
+  }
+}
