@@ -219,7 +219,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:59:05+00:00",
+    "checked_at_iso": "2026-10-02T16:05:45+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "readme_accessible": true,
     "config_accessible": false,

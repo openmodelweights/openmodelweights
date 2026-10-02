@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T16:00:47+00:00",
+  "generated_at": "2026-10-02T16:08:15+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 351,
+      "model_count": 339,
       "commercial_use": {
-        "allowed": 351
+        "allowed": 339
       }
     },
     {
@@ -17,23 +17,23 @@
     },
     {
       "name": "CC BY 4.0",
-      "model_count": 8,
+      "model_count": 9,
       "commercial_use": {
-        "allowed": 8
+        "allowed": 9
       }
     },
     {
       "name": "CC BY-NC 4.0",
-      "model_count": 13,
+      "model_count": 12,
       "commercial_use": {
-        "not-allowed": 13
+        "not-allowed": 12
       }
     },
     {
       "name": "MIT",
-      "model_count": 138,
+      "model_count": 141,
       "commercial_use": {
-        "allowed": 138
+        "allowed": 141
       }
     },
     {
@@ -52,9 +52,9 @@
     },
     {
       "name": "Not declared in model-card metadata",
-      "model_count": 31,
+      "model_count": 30,
       "commercial_use": {
-        "unknown": 30,
+        "unknown": 29,
         "allowed-with-conditions": 1
       }
     },
@@ -101,6 +101,13 @@
       }
     },
     {
+      "name": "['mit']",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
       "name": "['other']",
       "model_count": 1,
       "commercial_use": {
@@ -123,9 +130,9 @@
     },
     {
       "name": "apple-sample-code-license",
-      "model_count": 2,
+      "model_count": 1,
       "commercial_use": {
-        "unknown": 2
+        "unknown": 1
       }
     },
     {
@@ -157,6 +164,13 @@
       }
     },
     {
+      "name": "cc0-1.0",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
       "name": "circlestone-labs-non-commercial-license",
       "model_count": 1,
       "commercial_use": {
@@ -172,9 +186,9 @@
     },
     {
       "name": "creativeml-openrail-m",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "unknown": 5
+        "unknown": 6
       }
     },
     {
@@ -200,9 +214,9 @@
     },
     {
       "name": "flux-1-dev-non-commercial-license",
-      "model_count": 3,
+      "model_count": 4,
       "commercial_use": {
-        "unknown": 3
+        "unknown": 4
       }
     },
     {
@@ -214,9 +228,9 @@
     },
     {
       "name": "gemma",
-      "model_count": 9,
+      "model_count": 10,
       "commercial_use": {
-        "allowed-with-conditions": 6,
+        "allowed-with-conditions": 7,
         "unknown": 3
       }
     },
@@ -228,10 +242,24 @@
       }
     },
     {
+      "name": "gpl-3.0",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
       "name": "health-ai-developer-foundations",
       "model_count": 2,
       "commercial_use": {
         "allowed-with-conditions": 2
+      }
+    },
+    {
+      "name": "ideogram-non-commercial-model-agreement",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
       }
     },
     {
@@ -271,9 +299,9 @@
     },
     {
       "name": "llama3.1",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 5
+        "allowed-with-conditions": 6
       }
     },
     {
@@ -312,6 +340,13 @@
       }
     },
     {
+      "name": "minimax-community",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
       "name": "minimax-h3-community",
       "model_count": 1,
       "commercial_use": {
@@ -327,9 +362,9 @@
     },
     {
       "name": "modified-mit",
-      "model_count": 1,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 1
+        "unknown": 2
       }
     },
     {
@@ -341,16 +376,16 @@
     },
     {
       "name": "nvidia-open-model-agreement",
-      "model_count": 3,
+      "model_count": 2,
       "commercial_use": {
-        "allowed-with-conditions": 3
+        "allowed-with-conditions": 2
       }
     },
     {
       "name": "nvidia-open-model-license",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 5
+        "allowed-with-conditions": 6
       }
     },
     {
@@ -384,9 +419,9 @@
     },
     {
       "name": "other",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 2,
+        "allowed-with-conditions": 3,
         "unknown": 3
       }
     },

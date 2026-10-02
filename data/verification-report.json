@@ -1,114 +1,66 @@
 {
-  "generated_at": "2026-10-02T16:00:47+00:00",
+  "generated_at": "2026-10-02T16:08:15+00:00",
   "stats": {
     "total_seed_records": 700,
     "field_verified": 700,
-    "errors": 36,
-    "license_declared": 669,
-    "commercial_use_classified": 604,
-    "context_verified": 479,
+    "errors": 56,
+    "license_declared": 670,
+    "commercial_use_classified": 598,
+    "context_verified": 473,
     "exact_weight_lists": 700,
-    "base_model_declared": 222,
-    "training_recipe_signal": 423,
-    "data_disclosure_signal": 246,
-    "runtime_signal": 686
+    "base_model_declared": 221,
+    "training_recipe_signal": 422,
+    "data_disclosure_signal": 248,
+    "runtime_signal": 684
   },
   "errors": [
     {
-      "id": "salesforce-blip2-opt-2-7b",
-      "error": "https://huggingface.co/api/models/Salesforce/blip2-opt-2.7b: HTTP 429"
-    },
-    {
-      "id": "nlptown-bert-base-multilingual-uncased-sentiment",
-      "error": "https://huggingface.co/api/models/nlptown/bert-base-multilingual-uncased-sentiment: HTTP 429"
-    },
-    {
-      "id": "almanach-camembert-base",
-      "error": "https://huggingface.co/api/models/almanach/camembert-base: HTTP 429"
-    },
-    {
-      "id": "prajjwal1-bert-tiny",
-      "error": "https://huggingface.co/api/models/prajjwal1/bert-tiny: HTTP 429"
-    },
-    {
-      "id": "deepseek-ai-deepseek-r1-distill-qwen-32b",
-      "error": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B: HTTP 429"
-    },
-    {
-      "id": "black-forest-labs-flux-1-kontext-dev",
-      "error": "https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev: HTTP 429"
-    },
-    {
-      "id": "nvidia-cosmos-reason2-2b",
-      "error": "https://huggingface.co/api/models/nvidia/Cosmos-Reason2-2B: HTTP 429"
-    },
-    {
-      "id": "rundiffusion-juggernaut-xl-v9",
-      "error": "https://huggingface.co/api/models/RunDiffusion/Juggernaut-XL-v9: HTTP 429"
-    },
-    {
-      "id": "google-gemma-4-e4b",
-      "error": "https://huggingface.co/api/models/google/gemma-4-E4B: HTTP 429"
-    },
-    {
-      "id": "minimaxai-minimax-m2-5",
-      "error": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-M2.5: HTTP 429"
-    },
-    {
       "id": "facebook-dinov2-large",
       "error": "https://huggingface.co/api/models/facebook/dinov2-large: HTTP 429"
-    },
-    {
-      "id": "qwen-qwen3-4b-instruct-2507-fp8",
-      "error": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507-FP8: HTTP 429"
-    },
-    {
-      "id": "moonshotai-kimi-k2-5",
-      "error": "https://huggingface.co/api/models/moonshotai/Kimi-K2.5: HTTP 429"
-    },
-    {
-      "id": "zhihan1996-dnabert-2-117m",
-      "error": "https://huggingface.co/api/models/zhihan1996/DNABERT-2-117M: HTTP 429"
     },
     {
       "id": "nvidia-dragon-multiturn-query-encoder",
       "error": "https://huggingface.co/api/models/nvidia/dragon-multiturn-query-encoder: HTTP 429"
     },
     {
+      "id": "zhihan1996-dnabert-2-117m",
+      "error": "https://huggingface.co/api/models/zhihan1996/DNABERT-2-117M: HTTP 429"
+    },
+    {
       "id": "qwen-qwen-image-edit-2509",
       "error": "https://huggingface.co/api/models/Qwen/Qwen-Image-Edit-2509: HTTP 429"
+    },
+    {
+      "id": "moonshotai-kimi-k2-5",
+      "error": "https://huggingface.co/api/models/moonshotai/Kimi-K2.5: HTTP 429"
     },
     {
       "id": "microsoft-florence-2-large",
       "error": "https://huggingface.co/api/models/microsoft/Florence-2-large: HTTP 429"
     },
     {
-      "id": "eleutherai-pythia-70m-deduped",
-      "error": "https://huggingface.co/api/models/EleutherAI/pythia-70m-deduped: HTTP 429"
-    },
-    {
       "id": "deepset-roberta-base-squad2",
       "error": "https://huggingface.co/api/models/deepset/roberta-base-squad2: HTTP 429"
     },
     {
-      "id": "moonshotai-kimi-k2-instruct",
-      "error": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct: HTTP 429"
+      "id": "eleutherai-pythia-70m-deduped",
+      "error": "https://huggingface.co/api/models/EleutherAI/pythia-70m-deduped: HTTP 429"
     },
     {
       "id": "inferact-qwen3-8-27b-nvfp4",
       "error": "https://huggingface.co/api/models/Inferact/Qwen3.8-27B-NVFP4: HTTP 429"
     },
     {
-      "id": "nvidia-bigvgan-v2-22khz-80band-256x",
-      "error": "https://huggingface.co/api/models/nvidia/bigvgan_v2_22khz_80band_256x: HTTP 429"
+      "id": "moonshotai-kimi-k2-instruct",
+      "error": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct: HTTP 429"
     },
     {
       "id": "bytedance-seed-ui-tars-1-5-7b",
       "error": "https://huggingface.co/api/models/ByteDance-Seed/UI-TARS-1.5-7B: HTTP 429"
     },
     {
-      "id": "protectai-deberta-v3-base-prompt-injection-v2",
-      "error": "https://huggingface.co/api/models/protectai/deberta-v3-base-prompt-injection-v2: HTTP 429"
+      "id": "nvidia-bigvgan-v2-22khz-80band-256x",
+      "error": "https://huggingface.co/api/models/nvidia/bigvgan_v2_22khz_80band_256x: HTTP 429"
     },
     {
       "id": "google-gemma-3-12b-it",
@@ -119,12 +71,16 @@
       "error": "https://huggingface.co/api/models/nvidia/GLM-5.2-NVFP4: HTTP 429"
     },
     {
-      "id": "sshleifer-tiny-gpt2",
-      "error": "https://huggingface.co/api/models/sshleifer/tiny-gpt2: HTTP 429"
+      "id": "protectai-deberta-v3-base-prompt-injection-v2",
+      "error": "https://huggingface.co/api/models/protectai/deberta-v3-base-prompt-injection-v2: HTTP 429"
     },
     {
       "id": "onnx-community-kokoro-82m-v1-0-onnx",
       "error": "https://huggingface.co/api/models/onnx-community/Kokoro-82M-v1.0-ONNX: HTTP 429"
+    },
+    {
+      "id": "sshleifer-tiny-gpt2",
+      "error": "https://huggingface.co/api/models/sshleifer/tiny-gpt2: HTTP 429"
     },
     {
       "id": "qwen-qwen3-5-122b-a10b",
@@ -135,24 +91,148 @@
       "error": "https://huggingface.co/api/models/distil-whisper/distil-large-v3: HTTP 429"
     },
     {
-      "id": "openai-privacy-filter",
-      "error": "https://huggingface.co/api/models/openai/privacy-filter: HTTP 429"
+      "id": "laion-clip-vit-h-14-laion2b-s32b-b79k",
+      "error": "https://huggingface.co/api/models/laion/CLIP-ViT-H-14-laion2B-s32B-b79K: HTTP 429"
     },
     {
       "id": "cidas-clipseg-rd64-refined",
       "error": "https://huggingface.co/api/models/CIDAS/clipseg-rd64-refined: HTTP 429"
     },
     {
+      "id": "openai-privacy-filter",
+      "error": "https://huggingface.co/api/models/openai/privacy-filter: HTTP 429"
+    },
+    {
       "id": "qwen-qwen3-0-6b-base",
       "error": "https://huggingface.co/api/models/Qwen/Qwen3-0.6B-Base: HTTP 429"
     },
     {
-      "id": "laion-clip-vit-h-14-laion2b-s32b-b79k",
-      "error": "https://huggingface.co/api/models/laion/CLIP-ViT-H-14-laion2B-s32B-b79K: HTTP 429"
-    },
-    {
       "id": "amazon-chronos-bolt-base",
       "error": "https://huggingface.co/api/models/amazon/chronos-bolt-base: HTTP 429"
+    },
+    {
+      "id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4",
+      "error": "https://huggingface.co/api/models/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4: HTTP 429"
+    },
+    {
+      "id": "zai-org-glm-5",
+      "error": "https://huggingface.co/api/models/zai-org/GLM-5: HTTP 429"
+    },
+    {
+      "id": "helsinki-nlp-opus-mt-nl-en",
+      "error": "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-nl-en: HTTP 429"
+    },
+    {
+      "id": "qwen-qwen3-235b-a22b",
+      "error": "https://huggingface.co/api/models/Qwen/Qwen3-235B-A22B: HTTP 429"
+    },
+    {
+      "id": "sentence-transformers-labse",
+      "error": "https://huggingface.co/api/models/sentence-transformers/LaBSE: HTTP 429"
+    },
+    {
+      "id": "jonatasgrosman-wav2vec2-large-xlsr-53-dutch",
+      "error": "https://huggingface.co/api/models/jonatasgrosman/wav2vec2-large-xlsr-53-dutch: HTTP 429"
+    },
+    {
+      "id": "qwen-qwen3-5-397b-a17b",
+      "error": "https://huggingface.co/api/models/Qwen/Qwen3.5-397B-A17B: HTTP 429"
+    },
+    {
+      "id": "qwen-qwen3-5-397b-a17b-fp8",
+      "error": "https://huggingface.co/api/models/Qwen/Qwen3.5-397B-A17B-FP8: HTTP 429"
+    },
+    {
+      "id": "jinaai-jina-embeddings-v2-small-en",
+      "error": "https://huggingface.co/api/models/jinaai/jina-embeddings-v2-small-en: HTTP 429"
+    },
+    {
+      "id": "whereisai-uae-large-v1",
+      "error": "https://huggingface.co/api/models/WhereIsAI/UAE-Large-V1: HTTP 429"
+    },
+    {
+      "id": "gittensor-model-hub-qwen3-8-27b-nvfp4-rtx5090",
+      "error": "https://huggingface.co/api/models/gittensor-model-hub/Qwen3.8-27B-NVFP4-RTX5090: HTTP 429"
+    },
+    {
+      "id": "zeroentropy-zerank-2-reranker",
+      "error": "https://huggingface.co/api/models/zeroentropy/zerank-2-reranker: HTTP 429"
+    },
+    {
+      "id": "idea-research-grounding-dino-tiny",
+      "error": "https://huggingface.co/api/models/IDEA-Research/grounding-dino-tiny: HTTP 429"
+    },
+    {
+      "id": "swiss-ai-apertus-8b-instruct-2509",
+      "error": "https://huggingface.co/api/models/swiss-ai/Apertus-8B-Instruct-2509: HTTP 429"
+    },
+    {
+      "id": "apple-openelm-1-1b-instruct",
+      "error": "https://huggingface.co/api/models/apple/OpenELM-1_1B-Instruct: HTTP 429"
+    },
+    {
+      "id": "neuralmind-bert-large-portuguese-cased",
+      "error": "https://huggingface.co/api/models/neuralmind/bert-large-portuguese-cased: HTTP 429"
+    },
+    {
+      "id": "black-forest-labs-flux-2-klein-4b",
+      "error": "https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B: HTTP 429"
+    },
+    {
+      "id": "jinaai-jina-embeddings-v5-omni-small",
+      "error": "https://huggingface.co/api/models/jinaai/jina-embeddings-v5-omni-small: HTTP 429"
+    },
+    {
+      "id": "nvidia-qwen3-6-27b-nvfp4",
+      "error": "https://huggingface.co/api/models/nvidia/Qwen3.6-27B-NVFP4: HTTP 429"
+    },
+    {
+      "id": "allenai-specter2-base",
+      "error": "https://huggingface.co/api/models/allenai/specter2_base: HTTP 429"
+    },
+    {
+      "id": "qdrant-all-minilm-l6-v2-onnx",
+      "error": "https://huggingface.co/api/models/Qdrant/all-MiniLM-L6-v2-onnx: HTTP 429"
+    },
+    {
+      "id": "compvis-stable-diffusion-safety-checker",
+      "error": "https://huggingface.co/api/models/CompVis/stable-diffusion-safety-checker: HTTP 429"
+    },
+    {
+      "id": "pnnbao-ump-vieneu-tts-v3-turbo",
+      "error": "https://huggingface.co/api/models/pnnbao-ump/VieNeu-TTS-v3-Turbo: HTTP 429"
+    },
+    {
+      "id": "indonesian-nlp-wav2vec2-indonesian-javanese-sundanese",
+      "error": "https://huggingface.co/api/models/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese: HTTP 429"
+    },
+    {
+      "id": "adamcodd-vit-base-nsfw-detector",
+      "error": "https://huggingface.co/api/models/AdamCodd/vit-base-nsfw-detector: HTTP 429"
+    },
+    {
+      "id": "sentence-transformers-multi-qa-minilm-l6-cos-v1",
+      "error": "https://huggingface.co/api/models/sentence-transformers/multi-qa-MiniLM-L6-cos-v1: HTTP 429"
+    },
+    {
+      "id": "microsoft-phi-3-5-mini-instruct",
+      "error": "https://huggingface.co/api/models/microsoft/Phi-3.5-mini-instruct: HTTP 429"
+    },
+    {
+      "id": "redhatai-gemma-4-26b-a4b-it-fp8-dynamic",
+      "error": "https://huggingface.co/api/models/RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic: HTTP 429"
+    },
+    {
+      "id": "intfloat-e5-base-v2",
+      "error": "https://huggingface.co/api/models/intfloat/e5-base-v2: HTTP 429"
+    },
+    {
+      "id": "google-siglip2-base-patch16-naflex",
+      "error": "https://huggingface.co/api/models/google/siglip2-base-patch16-naflex: HTTP 429"
+    },
+    {
+      "id": "fastino-gliner2-base-v1",
+      "error": "https://huggingface.co/api/models/fastino/gliner2-base-v1: HTTP 429"
     },
     {
       "id": "numz-seedvr2-comfyui",
@@ -160,7 +240,7 @@
     }
   ],
   "candidate_count": 820,
-  "successful_candidates": 784,
+  "successful_candidates": 764,
   "publication_target": 700,
   "publication_shortfall": 0
 }

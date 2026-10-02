@@ -172,7 +172,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:59:05+00:00",
+    "checked_at_iso": "2026-10-02T16:05:45+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -212,12 +212,12 @@
     "repo_id": "Qwen/Qwen2.5-7B",
     "rank": 471,
     "downloads": 799037,
-    "likes": 322,
+    "likes": 323,
     "last_modified": "2024-09-25T12:32:32+00:00",
     "created_at": "2024-09-15T12:17:40+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T15:59:03+00:00",
+    "discovered_at": "2026-10-02T16:05:44+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -234,7 +234,7 @@
     "last_modified": "2024-09-25T12:32:32.000Z",
     "created_at": "2024-09-15T12:17:40.000Z",
     "downloads": 799037,
-    "likes": 322,
+    "likes": 323,
     "sha": "d149729398750b98c0af14eb82c78cfe92750796",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
