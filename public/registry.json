@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-10-02T09:45:00Z",
+  "project": "Open Model Weights",
+  "homepage": "https://openmodelweights.com",
+  "methodology": "https://openmodelweights.com/methodology/",
+  "models": [
+    {
+      "id": "nvidia-nemotron-3-nano-30b-a3b",
+      "name": "NVIDIA Nemotron 3 Nano 30B-A3B",
+      "developer": "NVIDIA",
+      "weights": {
+        "available": true,
+        "source": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+        "format": "Safetensors",
+        "access": "No gate observed"
+      },
+      "model": {
+        "parameters": "31B total / ~3B active",
+        "context": "—",
+        "modality": "Text",
+        "tags": [
+          "reasoning",
+          "text",
+          "moe"
+        ]
+      },
+      "license": {
+        "name": "NVIDIA Nemotron Open Model License",
+        "commercial_use": "Review custom terms"
+      },
+      "verification": {
+        "status": "source-verified",
+        "checked_at": "2026-10-02",
+        "source_tier": "primary"
+      }
+    },
+    {
+      "id": "mistral-small-4-119b-a6b",
+      "name": "Mistral Small 4 119B A6B",
+      "developer": "Mistral AI",
+      "weights": {
+        "available": true,
+        "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603",
+        "format": "Safetensors",
+        "access": "Public"
+      },
+      "model": {
+        "parameters": "119B total / 6.5B active",
+        "context": "256K",
+        "modality": "Text + image → text",
+        "tags": [
+          "reasoning",
+          "multimodal",
+          "agents",
+          "moe"
+        ]
+      },
+      "license": {
+        "name": "Apache-2.0",
+        "commercial_use": "Allowed under Apache-2.0"
+      },
+      "verification": {
+        "status": "source-verified",
+        "checked_at": "2026-10-02",
+        "source_tier": "primary"
+      }
+    },
+    {
+      "id": "qwen3-32b",
+      "name": "Qwen3-32B",
+      "developer": "Qwen",
+      "weights": {
+        "available": true,
+        "source": "https://huggingface.co/Qwen/Qwen3-32B",
+        "format": "Safetensors",
+        "access": "Public"
+      },
+      "model": {
+        "parameters": "32.8B",
+        "context": "32K native / 131K YaRN",
+        "modality": "Text",
+        "tags": [
+          "reasoning",
+          "text",
+          "agents"
+        ]
+      },
+      "license": {
+        "name": "Apache-2.0",
+        "commercial_use": "Allowed under Apache-2.0"
+      },
+      "verification": {
+        "status": "source-verified",
+        "checked_at": "2026-10-02",
+        "source_tier": "primary"
+      }
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "DeepSeek-R1",
+      "developer": "DeepSeek",
+      "weights": {
+        "available": true,
+        "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+        "format": "Safetensors",
+        "access": "Public"
+      },
+      "model": {
+        "parameters": "671B total / 37B active",
+        "context": "128K",
+        "modality": "Text",
+        "tags": [
+          "reasoning",
+          "text",
+          "moe"
+        ]
+      },
+      "license": {
+        "name": "MIT",
+        "commercial_use": "Allowed under MIT"
+      },
+      "verification": {
+        "status": "source-verified",
+        "checked_at": "2026-10-02",
+        "source_tier": "primary"
+      }
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "developer": "OpenAI",
+      "weights": {
+        "available": true,
+        "source": "https://huggingface.co/openai/gpt-oss-120b",
+        "format": "Safetensors / MXFP4",
+        "access": "Public"
+      },
+      "model": {
+        "parameters": "117B total / 5.1B active",
+        "context": "—",
+        "modality": "Text",
+        "tags": [
+          "reasoning",
+          "text",
+          "agents",
+          "moe"
+        ]
+      },
+      "license": {
+        "name": "Apache-2.0",
+        "commercial_use": "Allowed under Apache-2.0"
+      },
+      "verification": {
+        "status": "source-verified",
+        "checked_at": "2026-10-02",
+        "source_tier": "primary"
+      }
+    },
+    {
+      "id": "gemma-3-27b-it",
+      "name": "Gemma 3 27B IT",
+      "developer": "Google",
+      "weights": {
+        "available": true,
+        "source": "https://huggingface.co/google/gemma-3-27b-it",
+        "format": "Safetensors",
+        "access": "License acceptance required"
+      },
+      "model": {
+        "parameters": "27B",
+        "context": "128K",
+        "modality": "Text + image → text",
+        "tags": [
+          "multimodal",
+          "text",
+          "vision"
+        ]
+      },
+      "license": {
+        "name": "Gemma Terms",
+        "commercial_use": "Review custom terms"
+      },
+      "verification": {
+        "status": "source-verified",
+        "checked_at": "2026-10-02",
+        "source_tier": "primary"
+      }
+    },
+    {
+      "id": "llama-3-3-70b-instruct",
+      "name": "Llama 3.3 70B Instruct",
+      "developer": "Meta",
+      "weights": {
+        "available": true,
+        "source": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+        "format": "Safetensors",
+        "access": "License terms apply"
+      },
+      "model": {
+        "parameters": "70B",
+        "context": "128K",
+        "modality": "Text",
+        "tags": [
+          "text",
+          "multilingual",
+          "instruct"
+        ]
+      },
+      "license": {
+        "name": "Llama 3.3 Community License",
+        "commercial_use": "Review custom terms"
+      },
+      "verification": {
+        "status": "source-verified",
+        "checked_at": "2026-10-02",
+        "source_tier": "primary"
+      }
+    }
+  ]
+}

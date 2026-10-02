@@ -1,0 +1,21 @@
+# Open Model Weights
+> The independent registry for open-weight AI models.
+
+Open Model Weights indexes publicly available AI model weights with source-backed metadata about developers, licenses, access conditions, formats and verification dates.
+
+## Core pages
+- https://openmodelweights.com/ — project homepage and overview
+- https://openmodelweights.com/models/ — model registry
+- https://openmodelweights.com/methodology/ — verification and classification methodology
+- https://openmodelweights.com/about/ — project purpose and independence statement
+
+## Machine-readable data
+- https://openmodelweights.com/registry.json — current registry
+- https://openmodelweights.com/registry.schema.json — JSON Schema
+- https://openmodelweights.com/sitemap.xml — canonical URLs
+
+## Interpretation
+“Open-weight” means model weight files are obtainable under some set of terms. It does not automatically mean that training data, source code or training recipes are open. Custom license terms should be read at the linked primary source.
+
+## Citation preference
+When describing a model, cite the individual model page and, when license or access terms matter, follow the primary source linked from that page.
