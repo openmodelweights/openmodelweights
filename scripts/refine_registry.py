@@ -387,9 +387,9 @@ def write_sitemap(models,groups):
     urls=["/","/models/","/developers/","/explore/","/licenses/","/hardware/","/formats/","/lineage/","/changes/","/verification/","/methodology/","/about/"]
     urls += [f'/models/{m["id"]}/' for m in models]
     urls += [f'/developers/{re.sub(r"[^a-z0-9]+","-",d.lower()).strip("-")}/' for d in groups]
-    xml='<?xml version="1.0" encoding="UTF-8"?>\\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n'
-    xml+="\\n".join(f'<url><loc>https://openmodelweights.com{u}</loc><lastmod>{TODAY}</lastmod></url>' for u in urls)
-    xml+="\\n</urlset>\\n"
+    xml='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    xml+="\n".join(f'<url><loc>https://openmodelweights.com{u}</loc><lastmod>{TODAY}</lastmod></url>' for u in urls)
+    xml+="\n</urlset>\n"
     (PUBLIC/"sitemap.xml").write_text(xml)
 
 def main():
@@ -424,10 +424,10 @@ def main():
       "lineage":"https://openmodelweights.com/lineage/",
       "changes":"https://openmodelweights.com/changes/"
     }
-    REGISTRY.write_text(json.dumps(reg,indent=2,ensure_ascii=False)+"\\n")
-    REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\\n")
-    (ROOT/"data"/"change-feed.json").write_text(json.dumps(feed,indent=2,ensure_ascii=False)+"\\n")
-    (PUBLIC/"changes.json").write_text(json.dumps(feed,indent=2,ensure_ascii=False)+"\\n")
+    REGISTRY.write_text(json.dumps(reg,indent=2,ensure_ascii=False)+"\n")
+    REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n")
+    (ROOT/"data"/"change-feed.json").write_text(json.dumps(feed,indent=2,ensure_ascii=False)+"\n")
+    (PUBLIC/"changes.json").write_text(json.dumps(feed,indent=2,ensure_ascii=False)+"\n")
 
     for m in models:
         d=PUBLIC/"models"/m["id"]; d.mkdir(parents=True,exist_ok=True)
@@ -454,7 +454,7 @@ def main():
     for path,html in pages.items():
         d=PUBLIC/path; d.mkdir(parents=True,exist_ok=True); (d/"index.html").write_text(html)
 
-    (PUBLIC/"registry.schema.json").write_text(json.dumps(schema_doc(),indent=2)+"\\n")
+    (PUBLIC/"registry.schema.json").write_text(json.dumps(schema_doc(),indent=2)+"\n")
     write_sitemap(models,groups)
     (PUBLIC/"llms.txt").write_text(f"""# Open Model Weights
 > Field-verified registry for open-weight AI models.
