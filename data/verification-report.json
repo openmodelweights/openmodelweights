@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-02T10:07:20+00:00",
+  "generated_at": "2026-10-02T10:11:00+00:00",
   "stats": {
     "total_seed_records": 107,
     "field_verified": 107,
     "errors": 0,
     "license_declared": 107,
-    "commercial_use_classified": 96,
+    "commercial_use_classified": 106,
     "context_verified": 86,
     "exact_weight_lists": 107,
     "base_model_declared": 60,
-    "training_recipe_signal": 40,
+    "training_recipe_signal": 59,
     "data_disclosure_signal": 30,
     "runtime_signal": 103
   },

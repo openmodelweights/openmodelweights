@@ -1,26 +1,17 @@
 # Open Model Weights
-> Independent, source-first registry for open-weight AI models.
+> Field-verified registry for open-weight AI models.
 
-Current registry: 107 model records.
-Verification levels: field-verified and source-linked.
+Current registry: 107 field-verified model records.
+Latest verification: 2026-10-02.
 
-## Core
-- https://openmodelweights.com/models/ — searchable model registry
-- https://openmodelweights.com/developers/ — developer indexes
-- https://openmodelweights.com/methodology/ — verification and hardware-estimate methodology
-- https://openmodelweights.com/registry.json — complete machine-readable registry
-- https://openmodelweights.com/registry.schema.json — JSON Schema
+## Canonical resources
+- https://openmodelweights.com/models/
+- https://openmodelweights.com/developers/
+- https://openmodelweights.com/verification/
+- https://openmodelweights.com/methodology/
+- https://openmodelweights.com/registry.json
+- https://openmodelweights.com/registry.schema.json
 
-## Model Detail 2.0
-Each canonical model page contains:
-1. Weights
-2. License
-3. Hardware
-4. Formats
-5. Lineage
-6. Training assets
-7. Sources
-8. Verification history
+Each model record contains exact repository weight files, declared license and commercial-use classification, context evidence, formats/precision signals, base-model metadata, training/data disclosure, runtime signals, primary sources and verification history.
 
-## Interpretation
-A source-linked record confirms that an official developer model listing contained the repository when indexed. It does not imply that every metadata field has been independently verified.
+A value such as “not disclosed” means the checked standard metadata/model-card/config sources did not provide it; it is not an inference that the information does not exist elsewhere.
