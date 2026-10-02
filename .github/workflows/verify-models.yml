@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - "scripts/verify_models.py"
+      - "data/models-source.json"
       - ".github/workflows/verify-models.yml"
 
 permissions:

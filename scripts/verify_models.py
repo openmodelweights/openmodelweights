@@ -18,6 +18,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 REGISTRY = PUBLIC / "registry.json"
+SOURCE = ROOT / "data" / "models-source.json"
 REPORT = ROOT / "data" / "verification-report.json"
 TODAY = dt.datetime.now(dt.timezone.utc).date().isoformat()
 NOW = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
@@ -587,7 +588,8 @@ def build_report(models, errors):
     return {"generated_at": NOW, "stats": stats, "errors": errors}
 
 def main():
-    seed = json.loads(REGISTRY.read_text())
+    seed_path = SOURCE if SOURCE.exists() else REGISTRY
+    seed = json.loads(seed_path.read_text())
     seeds = seed["models"]
     verified, errors = [], []
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
