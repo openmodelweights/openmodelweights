@@ -8,6 +8,7 @@ on:
     paths:
       - "scripts/verify_models.py"
       - "scripts/refine_registry.py"
+      - "scripts/render_extras.py"
       - "data/models-source.json"
       - ".github/workflows/verify-models.yml"
 
@@ -40,11 +41,14 @@ jobs:
       - name: Refine licenses, precision evidence and render final pages
         run: python scripts/refine_registry.py
 
+      - name: Render comparison and developer metadata
+        run: python scripts/render_extras.py
+
       - name: Commit verified data
         run: |
           git config user.name "openmodelweights-bot"
           git config user.email "openmodelweights-bot@users.noreply.github.com"
-          git add public/index.html public/registry.json public/registry.schema.json public/llms.txt public/models public/developers public/verification public/explore public/licenses public/hardware public/formats public/lineage public/changes public/changes.json public/sitemap.xml data/verification-report.json data/change-feed.json
+          git add public/index.html public/registry.json public/registry.schema.json public/llms.txt public/models public/developers public/verification public/explore public/compare public/licenses public/hardware public/formats public/lineage public/changes public/changes.json public/sitemap.xml data/verification-report.json data/change-feed.json
           if git diff --cached --quiet; then
             echo "No verification changes."
           else
