@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen3guard-stream-0-6b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "74e1479150e9-ae3fccb60a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "74e1479150e9029d6778993f00491108323bb6f8",
+      "evidence_hash": "ae3fccb60abfa4736079accaad4cf20fde514ebc46c5f624ef4fcf8c546440d2",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3Guard-Stream-0.6B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3Guard-Stream-0.6B",
+          "developer": "Qwen",
+          "family": "Qwen3Guard",
+          "variant": "Stream-0.6B"
+        },
+        "model": {
+          "parameters": "0.6B",
+          "total_parameters_billions": 0.6,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Safety / feature extraction"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-0.6B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.2,
+            "fp8_int8": 0.6,
+            "int4": 0.3
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "74e1479150e9029d6778993f00491108323bb6f8",
+          "created_at": "2025-09-23T11:46:30.000Z",
+          "last_modified": "2026-09-27T02:00:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3Guard-Stream-0.6B",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B",
+  "current_repository_sha": "74e1479150e9029d6778993f00491108323bb6f8",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen3guard-stream-0-6b/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen3guard-stream-0-6b/"
+}

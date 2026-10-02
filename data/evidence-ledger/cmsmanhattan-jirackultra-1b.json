@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "cmsmanhattan-jirackultra-1b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "18cbff46548f-1bf9d422cf",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "18cbff46548f6f7acea6dc78d997514df50a7ec2",
+      "evidence_hash": "1bf9d422cf2dc2a6039293021d626417b507cbd4bd88c4e0e1f2d178987acaf1",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/CMSManhattan/JiRackUltra_1b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/CMSManhattan/JiRackUltra_1b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/CMSManhattan/JiRackUltra_1b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/CMSManhattan/JiRackUltra_1b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/CMSManhattan/JiRackUltra_1b/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "JiRackUltra_1b",
+          "developer": "CMSManhattan",
+          "family": "JiRackUltra",
+          "variant": "JiRackUltra_1b"
+        },
+        "model": {
+          "parameters": "1.77709B",
+          "total_parameters_billions": 1.777088,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/CMSManhattan/JiRackUltra_1b",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "JiRackUltra_1b.Q6_K.gguf",
+            "JiRackUltra_1b.Q8_0.gguf",
+            "JiRackUltra_1b.gguf",
+            "JiRackUltra_1b_Q3_K_M.gguf",
+            "JiRackUltra_1b_Q4_K_M.gguf",
+            "model.pt",
+            "model.safetensors"
+          ],
+          "formats": [
+            "GGUF",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "gguf"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+            "ONNX Runtime",
+            "Ollama",
+            "llama.cpp"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 3.55,
+            "fp8_int8": 1.78,
+            "int4": 0.89
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "18cbff46548f6f7acea6dc78d997514df50a7ec2",
+          "created_at": "2026-08-02T18:03:05.000Z",
+          "last_modified": "2026-10-01T18:10:57.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "JiRackUltra_1b",
+  "developer": "CMSManhattan",
+  "source_repository": "https://huggingface.co/CMSManhattan/JiRackUltra_1b",
+  "current_repository_sha": "18cbff46548f6f7acea6dc78d997514df50a7ec2",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/cmsmanhattan-jirackultra-1b/history/",
+  "diff_url": "https://openmodelweights.com/diff/cmsmanhattan-jirackultra-1b/"
+}

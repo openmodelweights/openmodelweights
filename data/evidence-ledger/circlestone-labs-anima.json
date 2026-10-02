@@ -1,0 +1,127 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "circlestone-labs-anima",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f973fc41ec75-cd6d7e6b02",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f973fc41ec7545364ac9776c2440285f43ff2a30",
+      "evidence_hash": "cd6d7e6b02a7c6b1c1019b103a59f2dedc992b69b92611c08ec06a460ddb256e",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/circlestone-labs/Anima",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/circlestone-labs/Anima",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/circlestone-labs/Anima",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/circlestone-labs/Anima/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/circlestone-labs/Anima/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "LICENSE.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Anima",
+          "developer": "circlestone-labs",
+          "family": "Anima",
+          "variant": "Anima"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "circlestone-labs-non-commercial-license",
+          "id": "other",
+          "url": "https://huggingface.co/circlestone-labs/Anima/blob/main/LICENSE.md",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/circlestone-labs/Anima",
+          "access": "public",
+          "file_count": 11,
+          "exact_files": [
+            "split_files/diffusion_models/anima-aesthetic-v1.0.safetensors",
+            "split_files/diffusion_models/anima-aesthetic-v1.0b.safetensors",
+            "split_files/diffusion_models/anima-aesthetic-v1.1.safetensors",
+            "split_files/diffusion_models/anima-base-v1.0.safetensors",
+            "split_files/diffusion_models/anima-preview.safetensors",
+            "split_files/diffusion_models/anima-preview2.safetensors",
+            "split_files/diffusion_models/anima-preview3-base.safetensors",
+            "split_files/diffusion_models/anima-turbo-v1.0.safetensors",
+            "split_files/diffusion_models/anima-turbo-v1.1.safetensors",
+            "split_files/text_encoders/qwen_3_06b_base.safetensors",
+            "split_files/vae/qwen_image_vae.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "nvidia/Cosmos-Predict2-2B-Text2Image"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "f973fc41ec7545364ac9776c2440285f43ff2a30",
+          "created_at": "2026-01-29T21:17:57.000Z",
+          "last_modified": "2026-08-24T23:52:12.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Anima",
+  "developer": "circlestone-labs",
+  "source_repository": "https://huggingface.co/circlestone-labs/Anima",
+  "current_repository_sha": "f973fc41ec7545364ac9776c2440285f43ff2a30",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/circlestone-labs-anima/history/",
+  "diff_url": "https://openmodelweights.com/diff/circlestone-labs-anima/"
+}

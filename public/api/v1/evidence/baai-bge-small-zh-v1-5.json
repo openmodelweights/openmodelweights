@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "baai-bge-small-zh-v1-5",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "7999e1d33597-4b4cc3d2ab",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "7999e1d3359715c523056ef9478215996d62a620",
+      "evidence_hash": "4b4cc3d2ab7da7e8609605c995db3b60f18cf170c0c3061df44258811bfdcc8a",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/BAAI/bge-small-zh-v1.5",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/BAAI/bge-small-zh-v1.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bge-small-zh-v1.5",
+          "developer": "BAAI",
+          "family": "bge-small-zh-v1.5",
+          "variant": "bge-small-zh-v1.5"
+        },
+        "model": {
+          "parameters": "0.0239544B",
+          "total_parameters_billions": 0.023954432,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/BAAI/bge-small-zh-v1.5",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.05,
+            "fp8_int8": 0.02,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "7999e1d3359715c523056ef9478215996d62a620",
+          "created_at": "2023-09-12T05:22:29.000Z",
+          "last_modified": "2023-10-12T03:35:59.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bge-small-zh-v1.5",
+  "developer": "BAAI",
+  "source_repository": "https://huggingface.co/BAAI/bge-small-zh-v1.5",
+  "current_repository_sha": "7999e1d3359715c523056ef9478215996d62a620",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/baai-bge-small-zh-v1-5/history/",
+  "diff_url": "https://openmodelweights.com/diff/baai-bge-small-zh-v1-5/"
+}

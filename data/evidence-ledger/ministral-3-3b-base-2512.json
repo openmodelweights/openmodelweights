@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ministral-3-3b-base-2512",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6f9c4b12a95b-fd29f5e47c",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6f9c4b12a95b139af68670a6713616b757923735",
+      "evidence_hash": "fd29f5e47c5b52af46c61c48b5bb4f928fd2dd84fa0362ac2a96a945f5fac4c9",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mistralai/Ministral-3-3B-Base-2512",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Base-2512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Ministral-3-3B-Base-2512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Base-2512/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Base-2512/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Ministral-3-3B-Base-2512",
+          "developer": "Mistral AI",
+          "family": "Ministral 3",
+          "variant": "Ministral-3-3B-Base-2512"
+        },
+        "model": {
+          "parameters": "4B",
+          "total_parameters_billions": 4.0,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mistralai/Ministral-3-3B-Base-2512",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "consolidated.safetensors",
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "mistral-common",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 8.0,
+            "fp8_int8": 4.0,
+            "int4": 2.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6f9c4b12a95b139af68670a6713616b757923735",
+          "created_at": "2025-10-31T08:38:59.000Z",
+          "last_modified": "2026-01-15T11:17:21.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Ministral-3-3B-Base-2512",
+  "developer": "Mistral AI",
+  "source_repository": "https://huggingface.co/mistralai/Ministral-3-3B-Base-2512",
+  "current_repository_sha": "6f9c4b12a95b139af68670a6713616b757923735",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ministral-3-3b-base-2512/history/",
+  "diff_url": "https://openmodelweights.com/diff/ministral-3-3b-base-2512/"
+}

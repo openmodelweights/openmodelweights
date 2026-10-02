@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen-qwen3-tts-12hz-1-7b-customvoice",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "0c0e3051f131-4ffcd7b74c",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+      "evidence_hash": "4ffcd7b74c35d4fed6ff2b9a78436f30b2ebfc1eda06f8267d655a4f53493927",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+          "developer": "Qwen",
+          "family": "Qwen3-TTS-12Hz",
+          "variant": "Qwen3-TTS-12Hz-1.7B-CustomVoice"
+        },
+        "model": {
+          "parameters": "1.91668B",
+          "total_parameters_billions": 1.916676352,
+          "context_tokens": 65536,
+          "context_display": "65,536 tokens",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "speech_tokenizer/model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 3.83,
+            "fp8_int8": 1.92,
+            "int4": 0.96
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+          "created_at": "2026-01-21T08:56:49.000Z",
+          "last_modified": "2026-01-29T08:00:54.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "current_repository_sha": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen-qwen3-tts-12hz-1-7b-customvoice/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen-qwen3-tts-12hz-1-7b-customvoice/"
+}

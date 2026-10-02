@@ -1,0 +1,123 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "dslim-bert-base-ner",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d1a3e8f13f8c-661957963f",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d1a3e8f13f8c3566299d95fcfc9a8d2382a9affc",
+      "evidence_hash": "661957963f78372e11bd29ee6b1ad5b5dffad7e3766ce8395137ad7d89f0cd89",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/dslim/bert-base-NER",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/dslim/bert-base-NER",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/dslim/bert-base-NER",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/dslim/bert-base-NER/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/dslim/bert-base-NER/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bert-base-NER",
+          "developer": "dslim",
+          "family": "bert-base-NER",
+          "variant": "bert-base-NER"
+        },
+        "model": {
+          "parameters": "0.108317B",
+          "total_parameters_billions": 0.108317193,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/dslim/bert-base-NER",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "conll2003"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "d1a3e8f13f8c3566299d95fcfc9a8d2382a9affc",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-10-08T07:51:39.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bert-base-NER",
+  "developer": "dslim",
+  "source_repository": "https://huggingface.co/dslim/bert-base-NER",
+  "current_repository_sha": "d1a3e8f13f8c3566299d95fcfc9a8d2382a9affc",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/dslim-bert-base-ner/history/",
+  "diff_url": "https://openmodelweights.com/diff/dslim-bert-base-ner/"
+}

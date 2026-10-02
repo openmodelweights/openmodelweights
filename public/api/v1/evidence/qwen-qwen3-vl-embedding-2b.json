@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen-qwen3-vl-embedding-2b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "9f2f7e710d6d-55339e31a0",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+      "evidence_hash": "55339e31a062f850f4de3aa0fb9f142ae62cce208db55d125ea0de5b4673b838",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-Embedding-2B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-VL-Embedding-2B",
+          "developer": "Qwen",
+          "family": "Qwen3-VL-Embedding",
+          "variant": "Qwen3-VL-Embedding-2B"
+        },
+        "model": {
+          "parameters": "2.12753B",
+          "total_parameters_billions": 2.127532032,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-VL-2B-Instruct"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "sentence-transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 4.26,
+            "fp8_int8": 2.13,
+            "int4": 1.06
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+          "created_at": "2026-01-07T03:03:25.000Z",
+          "last_modified": "2026-04-16T08:54:25.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-VL-Embedding-2B",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B",
+  "current_repository_sha": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen-qwen3-vl-embedding-2b/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen-qwen3-vl-embedding-2b/"
+}

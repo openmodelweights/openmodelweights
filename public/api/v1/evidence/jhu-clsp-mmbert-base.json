@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "jhu-clsp-mmbert-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "c5955035435e-7c973f9fd6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "c5955035435e2bf121cde7f3c8863ef52ff35d82",
+      "evidence_hash": "7c973f9fd666ddf4cb3f2175bd9bc820c82caa1f332275d1c9b376d0cdf0be46",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/jhu-clsp/mmBERT-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/jhu-clsp/mmBERT-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/jhu-clsp/mmBERT-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/jhu-clsp/mmBERT-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/jhu-clsp/mmBERT-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "mmBERT-base",
+          "developer": "jhu-clsp",
+          "family": "mmBERT",
+          "variant": "mmBERT-base"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/jhu-clsp/mmBERT-base",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "jhu-clsp/mmbert-decay",
+            "jhu-clsp/mmbert-midtraining",
+            "jhu-clsp/mmbert-pretrain-p1-fineweb2-langs",
+            "jhu-clsp/mmbert-pretrain-p2-fineweb2-remaining",
+            "jhu-clsp/mmbert-pretrain-p3-others"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "c5955035435e2bf121cde7f3c8863ef52ff35d82",
+          "created_at": "2025-07-23T19:49:48.000Z",
+          "last_modified": "2025-10-07T14:08:42.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "mmBERT-base",
+  "developer": "jhu-clsp",
+  "source_repository": "https://huggingface.co/jhu-clsp/mmBERT-base",
+  "current_repository_sha": "c5955035435e2bf121cde7f3c8863ef52ff35d82",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/jhu-clsp-mmbert-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/jhu-clsp-mmbert-base/"
+}

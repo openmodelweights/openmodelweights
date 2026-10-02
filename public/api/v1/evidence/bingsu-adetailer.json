@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "bingsu-adetailer",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "53cc19de3820-b6259e486d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "53cc19de382014514d9d4038601d261a7faa9b7b",
+      "evidence_hash": "b6259e486d3a3048e1719c3f701c346dac01691b3737cfe4cd64e96604b4d639",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Bingsu/adetailer",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Bingsu/adetailer",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Bingsu/adetailer",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Bingsu/adetailer/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Bingsu/adetailer/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "adetailer",
+          "developer": "Bingsu",
+          "family": "adetailer",
+          "variant": "adetailer"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Bingsu/adetailer",
+          "access": "public",
+          "file_count": 12,
+          "exact_files": [
+            "deepfashion2_yolov8s-seg.pt",
+            "face_yolov8m.pt",
+            "face_yolov8n.pt",
+            "face_yolov8n_v2.pt",
+            "face_yolov8s.pt",
+            "face_yolov9c.pt",
+            "hand_yolov8n.pt",
+            "hand_yolov8s.pt",
+            "hand_yolov9c.pt",
+            "person_yolov8m-seg.pt",
+            "person_yolov8n-seg.pt",
+            "person_yolov8s-seg.pt"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "skytnt/anime-segmentation",
+            "wider_face"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ultralytics"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "53cc19de382014514d9d4038601d261a7faa9b7b",
+          "created_at": "2023-04-26T00:58:45.000Z",
+          "last_modified": "2024-11-21T12:40:27.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "adetailer",
+  "developer": "Bingsu",
+  "source_repository": "https://huggingface.co/Bingsu/adetailer",
+  "current_repository_sha": "53cc19de382014514d9d4038601d261a7faa9b7b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/bingsu-adetailer/history/",
+  "diff_url": "https://openmodelweights.com/diff/bingsu-adetailer/"
+}

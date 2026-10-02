@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "jinaai-jina-reranker-v3",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d7d7e73b6ea1-46ce56adc2",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d7d7e73b6ea138ced340b83865931b5dfb6c97aa",
+      "evidence_hash": "46ce56adc2a385a518d1cbd46cbf8025f8645a7e18ea1c90022f4a0ef101ce1f",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/jinaai/jina-reranker-v3",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/jinaai/jina-reranker-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/jinaai/jina-reranker-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/jinaai/jina-reranker-v3/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/jinaai/jina-reranker-v3/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "jina-reranker-v3",
+          "developer": "jinaai",
+          "family": "jina-reranker-v3",
+          "variant": "jina-reranker-v3"
+        },
+        "model": {
+          "parameters": "0.596836B",
+          "total_parameters_billions": 0.596836352,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text Ranking"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "id": "cc-by-nc-4.0",
+          "url": null,
+          "commercial_use_status": "not-allowed",
+          "commercial_use_label": "Commercial use is not permitted by CC BY-NC 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/jinaai/jina-reranker-v3",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-0.6B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "MLX",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.19,
+            "fp8_int8": 0.6,
+            "int4": 0.3
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "d7d7e73b6ea138ced340b83865931b5dfb6c97aa",
+          "created_at": "2025-09-18T08:10:25.000Z",
+          "last_modified": "2026-08-10T03:54:29.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "jina-reranker-v3",
+  "developer": "jinaai",
+  "source_repository": "https://huggingface.co/jinaai/jina-reranker-v3",
+  "current_repository_sha": "d7d7e73b6ea138ced340b83865931b5dfb6c97aa",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/jinaai-jina-reranker-v3/history/",
+  "diff_url": "https://openmodelweights.com/diff/jinaai-jina-reranker-v3/"
+}

@@ -1,0 +1,139 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "stabilityai-sdxl-turbo",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "71153311d3db-42bd8c1b34",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "71153311d3dbb46851df1931d3ca6e939de83304",
+      "evidence_hash": "42bd8c1b34f8681a57073118302d12514db6b87f24e0fe94fa14253ee9e4a3ad",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/stabilityai/sdxl-turbo",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/stabilityai/sdxl-turbo",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/stabilityai/sdxl-turbo",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "sdxl-turbo",
+          "developer": "Stability AI",
+          "family": "sdxl-turbo",
+          "variant": "sdxl-turbo"
+        },
+        "model": {
+          "parameters": "2.56746B",
+          "total_parameters_billions": 2.567463684,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → image"
+        },
+        "license": {
+          "name": "sai-nc-community",
+          "id": "other",
+          "url": "https://huggingface.co/stabilityai/sdxl-turbo/blob/main/LICENSE.md",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/stabilityai/sdxl-turbo",
+          "access": "public",
+          "file_count": 15,
+          "exact_files": [
+            "sd_xl_turbo_1.0.safetensors",
+            "sd_xl_turbo_1.0_fp16.safetensors",
+            "text_encoder/model.fp16.safetensors",
+            "text_encoder/model.onnx",
+            "text_encoder/model.safetensors",
+            "text_encoder_2/model.fp16.safetensors",
+            "text_encoder_2/model.onnx",
+            "text_encoder_2/model.safetensors",
+            "unet/diffusion_pytorch_model.fp16.safetensors",
+            "unet/diffusion_pytorch_model.safetensors",
+            "unet/model.onnx",
+            "vae/diffusion_pytorch_model.fp16.safetensors",
+            "vae/diffusion_pytorch_model.safetensors",
+            "vae_decoder/model.onnx",
+            "vae_encoder/model.onnx"
+          ],
+          "formats": [
+            "ONNX",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers",
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 5.13,
+            "fp8_int8": 2.57,
+            "int4": 1.28
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "71153311d3dbb46851df1931d3ca6e939de83304",
+          "created_at": "2023-11-27T15:19:11.000Z",
+          "last_modified": "2024-07-10T11:33:43.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "sdxl-turbo",
+  "developer": "Stability AI",
+  "source_repository": "https://huggingface.co/stabilityai/sdxl-turbo",
+  "current_repository_sha": "71153311d3dbb46851df1931d3ca6e939de83304",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/stabilityai-sdxl-turbo/history/",
+  "diff_url": "https://openmodelweights.com/diff/stabilityai-sdxl-turbo/"
+}

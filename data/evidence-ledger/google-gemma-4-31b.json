@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-gemma-4-31b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5bbc2fb1c1b2-c968b9c208",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5bbc2fb1c1b2c611d06e3d9f23c170ba21659d89",
+      "evidence_hash": "c968b9c20835141f52927ab2997c485df2b91c4018c816ef3eff8ebdb52d9059",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/gemma-4-31B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/gemma-4-31B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/gemma-4-31B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/gemma-4-31B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/gemma-4-31B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gemma-4-31B",
+          "developer": "Google",
+          "family": "gemma-4",
+          "variant": "gemma-4-31B"
+        },
+        "model": {
+          "parameters": "32.6824B",
+          "total_parameters_billions": 32.682372656,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/gemma-4-31B",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "llama.cpp"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 65.36,
+            "fp8_int8": 32.68,
+            "int4": 16.34
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "5bbc2fb1c1b2c611d06e3d9f23c170ba21659d89",
+          "created_at": "2026-03-12T00:38:28.000Z",
+          "last_modified": "2026-07-15T16:42:14.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gemma-4-31B",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/gemma-4-31B",
+  "current_repository_sha": "5bbc2fb1c1b2c611d06e3d9f23c170ba21659d89",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-gemma-4-31b/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-gemma-4-31b/"
+}

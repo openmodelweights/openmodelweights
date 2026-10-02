@@ -1,0 +1,115 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-contriever",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "2bd46a25019a-ff86cbf7c5",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+      "evidence_hash": "ff86cbf7c52213a0e43ad30c91e8fa02fca2dd4c1b1984d1e51d213858aad28c",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/contriever",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/contriever",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/contriever",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/contriever/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/contriever/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "contriever",
+          "developer": "Meta",
+          "family": "contriever",
+          "variant": "contriever"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/contriever",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2022-01-19T17:23:28.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "contriever",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/contriever",
+  "current_repository_sha": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-contriever/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-contriever/"
+}

@@ -1,0 +1,123 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "distilbert-distilbert-base-multilingual-cased",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "45c032ab32cc-4e0d084e9c",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+      "evidence_hash": "4e0d084e9c8dd12facd018632650afbc9e060dae1d338144d7fb7e30016128ee",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/distilbert/distilbert-base-multilingual-cased",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/distilbert/distilbert-base-multilingual-cased",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/distilbert/distilbert-base-multilingual-cased",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/distilbert/distilbert-base-multilingual-cased/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/distilbert/distilbert-base-multilingual-cased/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "distilbert-base-multilingual-cased",
+          "developer": "distilbert",
+          "family": "distilbert-base-multilingual-cased",
+          "variant": "distilbert-base-multilingual-cased"
+        },
+        "model": {
+          "parameters": "0.135446B",
+          "total_parameters_billions": 0.135445755,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/distilbert/distilbert-base-multilingual-cased",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.onnx",
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "wikipedia"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.27,
+            "fp8_int8": 0.14,
+            "int4": 0.07
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2024-05-06T13:46:54.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "distilbert-base-multilingual-cased",
+  "developer": "distilbert",
+  "source_repository": "https://huggingface.co/distilbert/distilbert-base-multilingual-cased",
+  "current_repository_sha": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/distilbert-distilbert-base-multilingual-cased/history/",
+  "diff_url": "https://openmodelweights.com/diff/distilbert-distilbert-base-multilingual-cased/"
+}

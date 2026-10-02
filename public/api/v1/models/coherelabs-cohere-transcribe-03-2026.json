@@ -162,7 +162,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "checked_at_iso": "2026-10-02T13:01:34+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -202,12 +202,12 @@
     "repo_id": "CohereLabs/cohere-transcribe-03-2026",
     "rank": 708,
     "downloads": 213049,
-    "likes": 1162,
+    "likes": 1163,
     "last_modified": "2026-06-10T15:46:19+00:00",
     "created_at": "2026-03-24T10:35:54+00:00",
     "library_name": "transformers",
     "pipeline_tag": "automatic-speech-recognition",
-    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "discovered_at": "2026-10-02T13:01:33+00:00",
     "pinned": false
   },
   "runtime_support": {

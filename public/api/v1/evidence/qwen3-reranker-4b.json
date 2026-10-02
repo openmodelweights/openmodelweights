@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen3-reranker-4b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "22e683669bc0-749d80259e",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+      "evidence_hash": "749d80259ea2ae84e871d48be2ec597abe85180c1f5d48bb7bb404f5c688c4f6",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-Reranker-4B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3-Reranker-4B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-Reranker-4B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3-Reranker-4B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3-Reranker-4B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-Reranker-4B",
+          "developer": "Qwen",
+          "family": "Qwen3 Reranker",
+          "variant": "Qwen3-Reranker-4B"
+        },
+        "model": {
+          "parameters": "4B",
+          "total_parameters_billions": 4.0,
+          "context_tokens": 40960,
+          "context_display": "40,960 tokens",
+          "modality": "Reranking"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3-Reranker-4B",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-4B-Base"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 8.0,
+            "fp8_int8": 4.0,
+            "int4": 2.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+          "created_at": "2025-06-03T14:46:47.000Z",
+          "last_modified": "2026-04-16T08:56:07.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-Reranker-4B",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3-Reranker-4B",
+  "current_repository_sha": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen3-reranker-4b/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen3-reranker-4b/"
+}

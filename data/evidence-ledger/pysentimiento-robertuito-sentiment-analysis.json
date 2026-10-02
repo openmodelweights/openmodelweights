@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "pysentimiento-robertuito-sentiment-analysis",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "a2cc0f67ebd7-a360767f23",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "a2cc0f67ebd705c55191e25a05ba23d885fcc09b",
+      "evidence_hash": "a360767f232f169fc56d457a1b6756d59867fc458d76f58af50071450f8179f0",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/pysentimiento/robertuito-sentiment-analysis",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/pysentimiento/robertuito-sentiment-analysis",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/pysentimiento/robertuito-sentiment-analysis",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/pysentimiento/robertuito-sentiment-analysis/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/pysentimiento/robertuito-sentiment-analysis/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "robertuito-sentiment-analysis",
+          "developer": "pysentimiento",
+          "family": "robertuito-sentiment-analysis",
+          "variant": "robertuito-sentiment-analysis"
+        },
+        "model": {
+          "parameters": "0.108791B",
+          "total_parameters_billions": 0.108791173,
+          "context_tokens": 130,
+          "context_display": "130 tokens",
+          "modality": "Text Classification"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/pysentimiento/robertuito-sentiment-analysis",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5",
+            "training_args.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "pysentimiento"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "a2cc0f67ebd705c55191e25a05ba23d885fcc09b",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-07-08T18:21:10.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "robertuito-sentiment-analysis",
+  "developer": "pysentimiento",
+  "source_repository": "https://huggingface.co/pysentimiento/robertuito-sentiment-analysis",
+  "current_repository_sha": "a2cc0f67ebd705c55191e25a05ba23d885fcc09b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/pysentimiento-robertuito-sentiment-analysis/history/",
+  "diff_url": "https://openmodelweights.com/diff/pysentimiento-robertuito-sentiment-analysis/"
+}

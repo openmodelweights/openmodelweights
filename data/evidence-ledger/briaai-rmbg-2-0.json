@@ -1,0 +1,135 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "briaai-rmbg-2-0",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5df4c9c76d81-72d8b37779",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5df4c9c76d8170882c34f6986e848ee07fd0ba43",
+      "evidence_hash": "72d8b37779eb70ad41f184bc5a2217922dddf5328229f133302cea6b1a43141b",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/briaai/RMBG-2.0",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/briaai/RMBG-2.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/briaai/RMBG-2.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/briaai/RMBG-2.0/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/briaai/RMBG-2.0/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "RMBG-2.0",
+          "developer": "briaai",
+          "family": "RMBG-2.0",
+          "variant": "RMBG-2.0"
+        },
+        "model": {
+          "parameters": "0.2207B",
+          "total_parameters_billions": 0.220700242,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "id": "other",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+          "commercial_use_status": "not-allowed",
+          "commercial_use_label": "Commercial use is not permitted by CC BY-NC 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/briaai/RMBG-2.0",
+          "access": "gated (auto)",
+          "file_count": 10,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_bnb4.onnx",
+            "onnx/model_fp16.onnx",
+            "onnx/model_int8.onnx",
+            "onnx/model_q4.onnx",
+            "onnx/model_q4f16.onnx",
+            "onnx/model_quantized.onnx",
+            "onnx/model_uint8.onnx",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.44,
+            "fp8_int8": 0.22,
+            "int4": 0.11
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "5df4c9c76d8170882c34f6986e848ee07fd0ba43",
+          "created_at": "2024-10-29T12:14:36.000Z",
+          "last_modified": "2026-04-06T15:27:43.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "RMBG-2.0",
+  "developer": "briaai",
+  "source_repository": "https://huggingface.co/briaai/RMBG-2.0",
+  "current_repository_sha": "5df4c9c76d8170882c34f6986e848ee07fd0ba43",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/briaai-rmbg-2-0/history/",
+  "diff_url": "https://openmodelweights.com/diff/briaai-rmbg-2-0/"
+}

@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen3-asr-0-6b-hf",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "7f1569a48a89-2d248d8c7d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+      "evidence_hash": "2d248d8c7dbdeba103f457253565a9619f83bfb4d767d0fb2faf3539c529841b",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-ASR-0.6B-hf",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-ASR-0.6B-hf",
+          "developer": "Qwen",
+          "family": "Qwen3 ASR",
+          "variant": "Qwen3-ASR-0.6B-hf"
+        },
+        "model": {
+          "parameters": "0.8B",
+          "total_parameters_billions": 0.8,
+          "context_tokens": 65536,
+          "context_display": "65,536 tokens",
+          "modality": "Automatic speech recognition"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.6,
+            "fp8_int8": 0.8,
+            "int4": 0.4
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+          "created_at": "2026-06-26T08:39:00.000Z",
+          "last_modified": "2026-07-22T11:58:47.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-ASR-0.6B-hf",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B-hf",
+  "current_repository_sha": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen3-asr-0-6b-hf/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen3-asr-0-6b-hf/"
+}

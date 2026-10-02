@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "w11wo-indonesian-roberta-base-posp-tagger",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "506779636093-8dc7f635d7",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5067796360930a7b9c5e1d76e1ab2b8c6b4cd103",
+      "evidence_hash": "8dc7f635d73014a4188579a404f6d5ac08a7845548fa9ea61dc8b8fbd36da091",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/w11wo/indonesian-roberta-base-posp-tagger",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "indonesian-roberta-base-posp-tagger",
+          "developer": "w11wo",
+          "family": "indonesian-roberta-base-posp-tagger",
+          "variant": "indonesian-roberta-base-posp-tagger"
+        },
+        "model": {
+          "parameters": "0.124075B",
+          "total_parameters_billions": 0.124075034,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5",
+            "training_args.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "flax-community/indonesian-roberta-base"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "indonlu"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.25,
+            "fp8_int8": 0.12,
+            "int4": 0.06
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "5067796360930a7b9c5e1d76e1ab2b8c6b4cd103",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-02-19T11:03:26.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "indonesian-roberta-base-posp-tagger",
+  "developer": "w11wo",
+  "source_repository": "https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger",
+  "current_repository_sha": "5067796360930a7b9c5e1d76e1ab2b8c6b4cd103",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/w11wo-indonesian-roberta-base-posp-tagger/history/",
+  "diff_url": "https://openmodelweights.com/diff/w11wo-indonesian-roberta-base-posp-tagger/"
+}

@@ -1,0 +1,130 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "snowflake-snowflake-arctic-embed-l-v2-0",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ac6544c8a46e-f2cc79b49d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ac6544c8a46e00af67e330e85a9028c66b8cfd9a",
+      "evidence_hash": "f2cc79b49d97bbe3b9bc5d19baef663d5e2b05f384822995cf660307b6349463",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Snowflake/snowflake-arctic-embed-l-v2.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "snowflake-arctic-embed-l-v2.0",
+          "developer": "Snowflake",
+          "family": "snowflake-arctic-embed-l-v2.0",
+          "variant": "snowflake-arctic-embed-l-v2.0"
+        },
+        "model": {
+          "parameters": "0.567755B",
+          "total_parameters_billions": 0.567754752,
+          "context_tokens": 8194,
+          "context_display": "8,194 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0",
+          "access": "public",
+          "file_count": 10,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_bnb4.onnx",
+            "onnx/model_fp16.onnx",
+            "onnx/model_int8.onnx",
+            "onnx/model_q4.onnx",
+            "onnx/model_q4f16.onnx",
+            "onnx/model_quantized.onnx",
+            "onnx/model_uint8.onnx"
+          ],
+          "formats": [
+            "ONNX",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.14,
+            "fp8_int8": 0.57,
+            "int4": 0.28
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ac6544c8a46e00af67e330e85a9028c66b8cfd9a",
+          "created_at": "2024-11-08T16:55:31.000Z",
+          "last_modified": "2025-07-28T14:00:58.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "snowflake-arctic-embed-l-v2.0",
+  "developer": "Snowflake",
+  "source_repository": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0",
+  "current_repository_sha": "ac6544c8a46e00af67e330e85a9028c66b8cfd9a",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/snowflake-snowflake-arctic-embed-l-v2-0/history/",
+  "diff_url": "https://openmodelweights.com/diff/snowflake-snowflake-arctic-embed-l-v2-0/"
+}

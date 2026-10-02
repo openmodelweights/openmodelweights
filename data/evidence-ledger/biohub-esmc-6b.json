@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "biohub-esmc-6b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "af1602ba7406-9e43dd941a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "af1602ba7406f521b11bf8f81d52af378cde09e4",
+      "evidence_hash": "9e43dd941a461b5bf9400a07e773a2b6e9350c4f96aabafe3620b38c90bdae0d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/biohub/ESMC-6B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/biohub/ESMC-6B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/biohub/ESMC-6B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/biohub/ESMC-6B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/biohub/ESMC-6B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://github.com/Biohub/esm/blob/main/THIRD_PARTY_NOTICE.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "ESMC-6B",
+          "developer": "biohub",
+          "family": "ESMC",
+          "variant": "ESMC-6B"
+        },
+        "model": {
+          "parameters": "6.35201B",
+          "total_parameters_billions": 6.352005184,
+          "context_tokens": 2048,
+          "context_display": "2,048 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "['mit', 'other']",
+          "id": "['mit', 'other']",
+          "url": "https://github.com/Biohub/esm/blob/main/THIRD_PARTY_NOTICE.md",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/biohub/ESMC-6B",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "model-00001-of-00006.safetensors",
+            "model-00002-of-00006.safetensors",
+            "model-00003-of-00006.safetensors",
+            "model-00004-of-00006.safetensors",
+            "model-00005-of-00006.safetensors",
+            "model-00006-of-00006.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 12.7,
+            "fp8_int8": 6.35,
+            "int4": 3.18
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "af1602ba7406f521b11bf8f81d52af378cde09e4",
+          "created_at": "2026-05-19T23:26:54.000Z",
+          "last_modified": "2026-09-16T18:35:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "ESMC-6B",
+  "developer": "biohub",
+  "source_repository": "https://huggingface.co/biohub/ESMC-6B",
+  "current_repository_sha": "af1602ba7406f521b11bf8f81d52af378cde09e4",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/biohub-esmc-6b/history/",
+  "diff_url": "https://openmodelweights.com/diff/biohub-esmc-6b/"
+}

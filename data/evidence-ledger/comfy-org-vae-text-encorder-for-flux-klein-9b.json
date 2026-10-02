@@ -1,0 +1,120 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "comfy-org-vae-text-encorder-for-flux-klein-9b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "3f62d9d8ae1f-ddc922bc43",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "3f62d9d8ae1fec33c6e91453d5c712855b096b55",
+      "evidence_hash": "ddc922bc4392da0d223812ba07bb75230d2dc2a4650c758c0a6c0745ab3e58bc",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Comfy-Org/vae-text-encorder-for-flux-klein-9b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/blob/main/LICENSE.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "vae-text-encorder-for-flux-klein-9b",
+          "developer": "Comfy-Org",
+          "family": "vae-text-encorder-for-flux-klein",
+          "variant": "vae-text-encorder-for-flux-klein-9b"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "flux-non-commercial-license",
+          "id": "other",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/blob/main/LICENSE.md",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "split_files/text_encoders/qwen_3_8b.safetensors",
+            "split_files/text_encoders/qwen_3_8b_fp4mixed.safetensors",
+            "split_files/text_encoders/qwen_3_8b_fp8mixed.safetensors",
+            "split_files/vae/flux2-vae.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "black-forest-labs/FLUX.2-klein-9B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "3f62d9d8ae1fec33c6e91453d5c712855b096b55",
+          "created_at": "2026-01-15T15:50:37.000Z",
+          "last_modified": "2026-08-17T06:14:59.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "vae-text-encorder-for-flux-klein-9b",
+  "developer": "Comfy-Org",
+  "source_repository": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b",
+  "current_repository_sha": "3f62d9d8ae1fec33c6e91453d5c712855b096b55",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/comfy-org-vae-text-encorder-for-flux-klein-9b/history/",
+  "diff_url": "https://openmodelweights.com/diff/comfy-org-vae-text-encorder-for-flux-klein-9b/"
+}

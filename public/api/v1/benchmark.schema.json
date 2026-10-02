@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openmodelweights.com/api/v1/benchmark.schema.json",
+  "title": "Open Model Weights deployment benchmark result",
+  "type": "object",
+  "required": [
+    "result_id",
+    "model_id",
+    "source_repository_sha",
+    "date_utc",
+    "runtime",
+    "hardware",
+    "artifact",
+    "metrics",
+    "evidence_url",
+    "measured_runs"
+  ],
+  "properties": {
+    "result_id": {
+      "type": "string",
+      "minLength": 6
+    },
+    "model_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_repository_sha": {
+      "type": "string",
+      "minLength": 7
+    },
+    "date_utc": {
+      "type": "string"
+    },
+    "runtime": {
+      "type": "object",
+      "required": [
+        "name",
+        "version"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "command_or_config": {
+          "type": "string"
+        }
+      }
+    },
+    "hardware": {
+      "type": "object",
+      "required": [
+        "vendor",
+        "model",
+        "device_count",
+        "device_memory_gb"
+      ],
+      "properties": {
+        "vendor": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "device_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "device_memory_gb": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "required": [
+        "precision_or_quantization"
+      ],
+      "properties": {
+        "precision_or_quantization": {
+          "type": "string"
+        },
+        "weight_file_or_variant": {
+          "type": "string"
+        }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "time_to_first_token_ms",
+        "output_tokens_per_second",
+        "peak_device_memory_gb"
+      ],
+      "properties": {
+        "time_to_first_token_ms": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "output_tokens_per_second": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "peak_device_memory_gb": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "peak_host_memory_gb": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "measured_runs": {
+      "type": "integer",
+      "minimum": 3
+    },
+    "evidence_url": {
+      "type": "string",
+      "pattern": "^https://"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "apple-dfn5b-clip-vit-h-14-378",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "01b771ed0d13-f9bb83863a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "01b771ed0d1395ca5ffdd279897d665ebe00dfd2",
+      "evidence_hash": "f9bb83863a6ba754555cbdaf6de8c0ab8413b47a41f8df1408f39dc836ca22ce",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/apple/DFN5B-CLIP-ViT-H-14-378",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/apple/DFN5B-CLIP-ViT-H-14-378",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/apple/DFN5B-CLIP-ViT-H-14-378",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/apple/DFN5B-CLIP-ViT-H-14-378/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/apple/DFN5B-CLIP-ViT-H-14-378/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "DFN5B-CLIP-ViT-H-14-378",
+          "developer": "apple",
+          "family": "DFN5B-CLIP-ViT-H-14-378",
+          "variant": "DFN5B-CLIP-ViT-H-14-378"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 77,
+          "context_display": "77 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "apple-sample-code-license",
+          "id": "apple-amlr",
+          "url": "https://huggingface.co/apple/DFN5B-CLIP-ViT-H-14-378/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/apple/DFN5B-CLIP-ViT-H-14-378",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "open_clip_pytorch_model.bin",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "open_clip"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "01b771ed0d1395ca5ffdd279897d665ebe00dfd2",
+          "created_at": "2023-10-30T23:08:21.000Z",
+          "last_modified": "2025-02-28T18:39:32.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "DFN5B-CLIP-ViT-H-14-378",
+  "developer": "apple",
+  "source_repository": "https://huggingface.co/apple/DFN5B-CLIP-ViT-H-14-378",
+  "current_repository_sha": "01b771ed0d1395ca5ffdd279897d665ebe00dfd2",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/apple-dfn5b-clip-vit-h-14-378/history/",
+  "diff_url": "https://openmodelweights.com/diff/apple-dfn5b-clip-vit-h-14-378/"
+}

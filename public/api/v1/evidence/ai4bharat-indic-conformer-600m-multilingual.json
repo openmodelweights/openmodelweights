@@ -1,0 +1,139 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ai4bharat-indic-conformer-600m-multilingual",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e9b71b369c04-bad163641e",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e9b71b369c048e2c6b634d4c131061c34e441179",
+      "evidence_hash": "bad163641e1991de45f8f3b042a250663bde8ea9f225b89a0ac276e9913b655f",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/ai4bharat/indic-conformer-600m-multilingual",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "indic-conformer-600m-multilingual",
+          "developer": "ai4bharat",
+          "family": "indic-conformer",
+          "variant": "indic-conformer-600m-multilingual"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+          "access": "gated (auto)",
+          "file_count": 28,
+          "exact_files": [
+            "assets/ctc_decoder.onnx",
+            "assets/encoder.onnx",
+            "assets/joint_enc.onnx",
+            "assets/joint_post_net_as.onnx",
+            "assets/joint_post_net_bn.onnx",
+            "assets/joint_post_net_brx.onnx",
+            "assets/joint_post_net_doi.onnx",
+            "assets/joint_post_net_gu.onnx",
+            "assets/joint_post_net_hi.onnx",
+            "assets/joint_post_net_kn.onnx",
+            "assets/joint_post_net_kok.onnx",
+            "assets/joint_post_net_ks.onnx",
+            "assets/joint_post_net_mai.onnx",
+            "assets/joint_post_net_ml.onnx",
+            "assets/joint_post_net_mni.onnx",
+            "assets/joint_post_net_mr.onnx",
+            "assets/joint_post_net_ne.onnx",
+            "assets/joint_post_net_or.onnx",
+            "assets/joint_post_net_pa.onnx",
+            "assets/joint_post_net_sa.onnx",
+            "assets/joint_post_net_sat.onnx",
+            "assets/joint_post_net_sd.onnx",
+            "assets/joint_post_net_ta.onnx",
+            "assets/joint_post_net_te.onnx",
+            "assets/joint_post_net_ur.onnx",
+            "assets/joint_pre_net.onnx",
+            "assets/joint_pred.onnx",
+            "assets/rnnt_decoder.onnx"
+          ],
+          "formats": [
+            "ONNX"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "e9b71b369c048e2c6b634d4c131061c34e441179",
+          "created_at": "2025-03-15T11:04:50.000Z",
+          "last_modified": "2026-02-07T05:27:29.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "indic-conformer-600m-multilingual",
+  "developer": "ai4bharat",
+  "source_repository": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+  "current_repository_sha": "e9b71b369c048e2c6b634d4c131061c34e441179",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ai4bharat-indic-conformer-600m-multilingual/history/",
+  "diff_url": "https://openmodelweights.com/diff/ai4bharat-indic-conformer-600m-multilingual/"
+}

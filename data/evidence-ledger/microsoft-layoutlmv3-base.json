@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-layoutlmv3-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "cfbbbff0762e-d055c58a7f",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "cfbbbff0762e6aab37086fdd4739ad14fe7d5db4",
+      "evidence_hash": "d055c58a7f2b7d6783a82035b5d8ed322af67226a2a6f153014e6c93b3ce952b",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/layoutlmv3-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/layoutlmv3-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/layoutlmv3-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/layoutlmv3-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/layoutlmv3-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "layoutlmv3-base",
+          "developer": "Microsoft",
+          "family": "layoutlmv3",
+          "variant": "layoutlmv3-base"
+        },
+        "model": {
+          "parameters": "0.125327B",
+          "total_parameters_billions": 0.12532749,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "cc-by-nc-sa-4.0",
+          "id": "cc-by-nc-sa-4.0",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/layoutlmv3-base",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.onnx",
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.25,
+            "fp8_int8": 0.13,
+            "int4": 0.06
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "cfbbbff0762e6aab37086fdd4739ad14fe7d5db4",
+          "created_at": "2022-04-18T06:53:05.000Z",
+          "last_modified": "2024-04-10T14:20:22.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "layoutlmv3-base",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/layoutlmv3-base",
+  "current_repository_sha": "cfbbbff0762e6aab37086fdd4739ad14fe7d5db4",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-layoutlmv3-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-layoutlmv3-base/"
+}

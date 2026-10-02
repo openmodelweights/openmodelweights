@@ -1,0 +1,144 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sentence-transformers-multi-qa-mpnet-base-dot-v1",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "17997f24dca0-344dc84fc8",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "17997f24dca0df1a4fed68894fb0e1e133e60482",
+      "evidence_hash": "344dc84fc8d886ecc9d912a8b419039f82c3e51446af01280b6353ff1b927494",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/sentence-transformers/multi-qa-mpnet-base-dot-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "multi-qa-mpnet-base-dot-v1",
+          "developer": "Sentence Transformers",
+          "family": "multi-qa-mpnet-base-dot-v1",
+          "variant": "multi-qa-mpnet-base-dot-v1"
+        },
+        "model": {
+          "parameters": "0.109487B",
+          "total_parameters_billions": 0.109486978,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1",
+          "access": "public",
+          "file_count": 13,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O1.onnx",
+            "onnx/model_O2.onnx",
+            "onnx/model_O3.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_arm64.onnx",
+            "onnx/model_qint8_avx512.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "onnx/model_quint8_avx2.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "eli5",
+            "embedding-data/Amazon-QA",
+            "embedding-data/PAQ_pairs",
+            "embedding-data/QQP",
+            "embedding-data/WikiAnswers",
+            "flax-sentence-embeddings/stackexchange_xml",
+            "gooaq",
+            "ms_marco",
+            "natural_questions",
+            "search_qa",
+            "trivia_qa",
+            "yahoo_answers_topics"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "17997f24dca0df1a4fed68894fb0e1e133e60482",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2025-08-19T10:21:26.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "multi-qa-mpnet-base-dot-v1",
+  "developer": "Sentence Transformers",
+  "source_repository": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1",
+  "current_repository_sha": "17997f24dca0df1a4fed68894fb0e1e133e60482",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sentence-transformers-multi-qa-mpnet-base-dot-v1/history/",
+  "diff_url": "https://openmodelweights.com/diff/sentence-transformers-multi-qa-mpnet-base-dot-v1/"
+}

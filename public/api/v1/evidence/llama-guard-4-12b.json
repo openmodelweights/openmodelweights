@@ -1,0 +1,126 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "llama-guard-4-12b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "87acb4b94e93-30e8e0c04c",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "87acb4b94e930c3d679e6e7ee9d57e2feab9ea71",
+      "evidence_hash": "30e8e0c04cdfaaf18f1822827b6719f7562a0b01f87c0db1e78d28574eb91139",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/meta-llama/Llama-Guard-4-12B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Llama-Guard-4-12B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-Guard-4-12B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Llama-Guard-4-12B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Llama-Guard-4-12B/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Llama-Guard-4-12B",
+          "developer": "Meta",
+          "family": "Llama Guard 4",
+          "variant": "Llama-Guard-4-12B"
+        },
+        "model": {
+          "parameters": "12B",
+          "total_parameters_billions": 12.0,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image + text → text / safety"
+        },
+        "license": {
+          "name": "llama4",
+          "id": "other",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/meta-llama/Llama-Guard-4-12B",
+          "access": "gated (manual)",
+          "file_count": 6,
+          "exact_files": [
+            "model-00001-of-00005.safetensors",
+            "model-00002-of-00005.safetensors",
+            "model-00003-of-00005.safetensors",
+            "model-00004-of-00005.safetensors",
+            "model-00005-of-00005.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 24.0,
+            "fp8_int8": 12.0,
+            "int4": 6.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "87acb4b94e930c3d679e6e7ee9d57e2feab9ea71",
+          "created_at": "2025-04-23T11:30:25.000Z",
+          "last_modified": "2025-04-29T18:14:44.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Llama-Guard-4-12B",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/meta-llama/Llama-Guard-4-12B",
+  "current_repository_sha": "87acb4b94e930c3d679e6e7ee9d57e2feab9ea71",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/llama-guard-4-12b/history/",
+  "diff_url": "https://openmodelweights.com/diff/llama-guard-4-12b/"
+}

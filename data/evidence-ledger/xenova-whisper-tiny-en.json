@@ -1,0 +1,148 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "xenova-whisper-tiny-en",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "79fb389fc764-6c7c695f7f",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "79fb389fc764e7c395bd330e9531d9d32ada7049",
+      "evidence_hash": "6c7c695f7f584bb6d7aa3fd51acc499cf127b9630e6ae30f4d112e3ec73e5297",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Xenova/whisper-tiny.en",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Xenova/whisper-tiny.en",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Xenova/whisper-tiny.en",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Xenova/whisper-tiny.en/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Xenova/whisper-tiny.en/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "whisper-tiny.en",
+          "developer": "Xenova",
+          "family": "whisper-tiny.en",
+          "variant": "whisper-tiny.en"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Xenova/whisper-tiny.en",
+          "access": "public",
+          "file_count": 31,
+          "exact_files": [
+            "onnx/decoder_model.onnx",
+            "onnx/decoder_model_bnb4.onnx",
+            "onnx/decoder_model_fp16.onnx",
+            "onnx/decoder_model_int8.onnx",
+            "onnx/decoder_model_merged.onnx",
+            "onnx/decoder_model_merged_bnb4.onnx",
+            "onnx/decoder_model_merged_fp16.onnx",
+            "onnx/decoder_model_merged_int8.onnx",
+            "onnx/decoder_model_merged_q4.onnx",
+            "onnx/decoder_model_merged_q4f16.onnx",
+            "onnx/decoder_model_merged_quantized.onnx",
+            "onnx/decoder_model_merged_uint8.onnx",
+            "onnx/decoder_model_q4.onnx",
+            "onnx/decoder_model_q4f16.onnx",
+            "onnx/decoder_model_quantized.onnx",
+            "onnx/decoder_model_uint8.onnx",
+            "onnx/decoder_with_past_model.onnx",
+            "onnx/decoder_with_past_model_bnb4.onnx",
+            "onnx/decoder_with_past_model_fp16.onnx",
+            "onnx/decoder_with_past_model_int8.onnx",
+            "onnx/decoder_with_past_model_q4.onnx",
+            "onnx/decoder_with_past_model_q4f16.onnx",
+            "onnx/decoder_with_past_model_quantized.onnx",
+            "onnx/decoder_with_past_model_uint8.onnx",
+            "onnx/encoder_model.onnx",
+            "onnx/encoder_model_bnb4.onnx",
+            "onnx/encoder_model_fp16.onnx",
+            "onnx/encoder_model_q4.onnx",
+            "onnx/encoder_model_q4f16.onnx",
+            "onnx/encoder_model_quantized.onnx",
+            "onnx/encoder_model_uint8.onnx"
+          ],
+          "formats": [
+            "ONNX"
+          ],
+          "precision": [
+            "fp16",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "openai/whisper-tiny.en"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "transformers.js"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "79fb389fc764e7c395bd330e9531d9d32ada7049",
+          "created_at": "2023-05-02T21:37:47.000Z",
+          "last_modified": "2025-12-16T18:46:53.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "whisper-tiny.en",
+  "developer": "Xenova",
+  "source_repository": "https://huggingface.co/Xenova/whisper-tiny.en",
+  "current_repository_sha": "79fb389fc764e7c395bd330e9531d9d32ada7049",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/xenova-whisper-tiny-en/history/",
+  "diff_url": "https://openmodelweights.com/diff/xenova-whisper-tiny-en/"
+}

@@ -1,0 +1,126 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "deepseek-ai-deepseek-coder-v2-lite-instruct",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e434a23f91ba-4e5c453011",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11",
+      "evidence_hash": "4e5c453011f065d038f7fa994b794c3b5a0d936f02d9fcfe1e768a77079067f8",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "DeepSeek-Coder-V2-Lite-Instruct",
+          "developer": "DeepSeek",
+          "family": "DeepSeek-Coder-V2-Lite",
+          "variant": "DeepSeek-Coder-V2-Lite-Instruct"
+        },
+        "model": {
+          "parameters": "15.7065B",
+          "total_parameters_billions": 15.706484224,
+          "context_tokens": 163840,
+          "context_display": "163,840 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "deepseek-license",
+          "id": "other",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-000004.safetensors",
+            "model-00002-of-000004.safetensors",
+            "model-00003-of-000004.safetensors",
+            "model-00004-of-000004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 31.41,
+            "fp8_int8": 15.71,
+            "int4": 7.85
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11",
+          "created_at": "2024-06-14T06:23:33.000Z",
+          "last_modified": "2024-07-03T05:16:11.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "DeepSeek-Coder-V2-Lite-Instruct",
+  "developer": "DeepSeek",
+  "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+  "current_repository_sha": "e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/deepseek-ai-deepseek-coder-v2-lite-instruct/history/",
+  "diff_url": "https://openmodelweights.com/diff/deepseek-ai-deepseek-coder-v2-lite-instruct/"
+}

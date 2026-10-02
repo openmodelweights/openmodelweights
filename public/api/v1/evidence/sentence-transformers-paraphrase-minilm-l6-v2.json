@@ -1,0 +1,132 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sentence-transformers-paraphrase-minilm-l6-v2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "c9a2bfebc254-21b8632e6e",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "c9a2bfebc254878aee8c3aca9e6844d5bbb102d1",
+      "evidence_hash": "21b8632e6e702428f33159bd8f128fbda5ab373c1d0ec7f77a754ebe330d7762",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/sentence-transformers/paraphrase-MiniLM-L6-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "paraphrase-MiniLM-L6-v2",
+          "developer": "Sentence Transformers",
+          "family": "paraphrase-MiniLM-L6-v2",
+          "variant": "paraphrase-MiniLM-L6-v2"
+        },
+        "model": {
+          "parameters": "0.0227137B",
+          "total_parameters_billions": 0.022713728,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2",
+          "access": "public",
+          "file_count": 14,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O1.onnx",
+            "onnx/model_O2.onnx",
+            "onnx/model_O3.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_arm64.onnx",
+            "onnx/model_qint8_avx512.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "onnx/model_quint8_avx2.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.05,
+            "fp8_int8": 0.02,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "c9a2bfebc254878aee8c3aca9e6844d5bbb102d1",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2025-03-06T13:26:35.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "paraphrase-MiniLM-L6-v2",
+  "developer": "Sentence Transformers",
+  "source_repository": "https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2",
+  "current_repository_sha": "c9a2bfebc254878aee8c3aca9e6844d5bbb102d1",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sentence-transformers-paraphrase-minilm-l6-v2/history/",
+  "diff_url": "https://openmodelweights.com/diff/sentence-transformers-paraphrase-minilm-l6-v2/"
+}

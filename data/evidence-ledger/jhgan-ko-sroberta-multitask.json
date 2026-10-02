@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "jhgan-ko-sroberta-multitask",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8fca7c9c98c2-fe75462f4c",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+      "evidence_hash": "fe75462f4c87387468cd52fd0b3d644fcd4f4dda2850a8f68414bcf6233a9231",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/jhgan/ko-sroberta-multitask",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/jhgan/ko-sroberta-multitask",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/jhgan/ko-sroberta-multitask",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/jhgan/ko-sroberta-multitask/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/jhgan/ko-sroberta-multitask/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "ko-sroberta-multitask",
+          "developer": "jhgan",
+          "family": "ko-sroberta-multitask",
+          "variant": "ko-sroberta-multitask"
+        },
+        "model": {
+          "parameters": "0.110619B",
+          "total_parameters_billions": 0.110618626,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/jhgan/ko-sroberta-multitask",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "openvino/openvino_model.bin",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.06
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2026-06-16T00:32:36.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "ko-sroberta-multitask",
+  "developer": "jhgan",
+  "source_repository": "https://huggingface.co/jhgan/ko-sroberta-multitask",
+  "current_repository_sha": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/jhgan-ko-sroberta-multitask/history/",
+  "diff_url": "https://openmodelweights.com/diff/jhgan-ko-sroberta-multitask/"
+}

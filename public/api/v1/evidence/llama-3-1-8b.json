@@ -1,0 +1,127 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "llama-3-1-8b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d04e592bb4f6-aa0c058a30",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "evidence_hash": "aa0c058a30981ce95d57e9a173076ba53f79e1177c89cdd28ead6a317606d169",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Llama-3.1-8B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Llama-3.1-8B/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Llama-3.1-8B",
+          "developer": "Meta",
+          "family": "Llama 3.1",
+          "variant": "Llama-3.1-8B"
+        },
+        "model": {
+          "parameters": "8B",
+          "total_parameters_billions": 8.0,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "llama3.1",
+          "id": "llama3.1",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+          "access": "gated (manual)",
+          "file_count": 6,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json",
+            "original/consolidated.00.pth"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 16.0,
+            "fp8_int8": 8.0,
+            "int4": 4.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+          "created_at": "2024-07-14T22:20:15.000Z",
+          "last_modified": "2024-10-16T22:00:37.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Llama-3.1-8B",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+  "current_repository_sha": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/llama-3-1-8b/history/",
+  "diff_url": "https://openmodelweights.com/diff/llama-3-1-8b/"
+}

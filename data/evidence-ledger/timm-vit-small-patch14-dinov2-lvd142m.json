@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "timm-vit-small-patch14-dinov2-lvd142m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "4610ca143709-9822060394",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "4610ca143709d58a633b6397a74412c2c3842454",
+      "evidence_hash": "98220603945847dd223ec3458a0e71b644f42bb60ef37ebfca5644e763c00c90",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/timm/vit_small_patch14_dinov2.lvd142m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "vit_small_patch14_dinov2.lvd142m",
+          "developer": "timm",
+          "family": "vit_small_patch14_dinov2.lvd142m",
+          "variant": "vit_small_patch14_dinov2.lvd142m"
+        },
+        "model": {
+          "parameters": "0.0220562B",
+          "total_parameters_billions": 0.022056192,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image Feature Extraction"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "timm"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.04,
+            "fp8_int8": 0.02,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "4610ca143709d58a633b6397a74412c2c3842454",
+          "created_at": "2023-05-09T21:09:24.000Z",
+          "last_modified": "2025-01-21T21:13:22.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "vit_small_patch14_dinov2.lvd142m",
+  "developer": "timm",
+  "source_repository": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m",
+  "current_repository_sha": "4610ca143709d58a633b6397a74412c2c3842454",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/timm-vit-small-patch14-dinov2-lvd142m/history/",
+  "diff_url": "https://openmodelweights.com/diff/timm-vit-small-patch14-dinov2-lvd142m/"
+}

@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "coherelabs-cohere-transcribe-03-2026",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b1eacc2686a3-42ff71c684",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b1eacc2686a3d08ceaae5f24a88b1d519620bc09",
+      "evidence_hash": "42ff71c68496f3dc73ba4ef5699c6e23c806f93b28ef33c4c222dcda0843e68d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/CohereLabs/cohere-transcribe-03-2026",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "cohere-transcribe-03-2026",
+          "developer": "CohereLabs",
+          "family": "cohere-transcribe-03-2026",
+          "variant": "cohere-transcribe-03-2026"
+        },
+        "model": {
+          "parameters": "2.0658B",
+          "total_parameters_billions": 2.065804048,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+          "access": "gated (auto)",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "MLX",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 4.13,
+            "fp8_int8": 2.07,
+            "int4": 1.03
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "b1eacc2686a3d08ceaae5f24a88b1d519620bc09",
+          "created_at": "2026-03-24T10:35:54.000Z",
+          "last_modified": "2026-06-10T15:46:19.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "cohere-transcribe-03-2026",
+  "developer": "CohereLabs",
+  "source_repository": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+  "current_repository_sha": "b1eacc2686a3d08ceaae5f24a88b1d519620bc09",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/coherelabs-cohere-transcribe-03-2026/history/",
+  "diff_url": "https://openmodelweights.com/diff/coherelabs-cohere-transcribe-03-2026/"
+}

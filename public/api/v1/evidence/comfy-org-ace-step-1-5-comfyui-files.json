@@ -1,0 +1,123 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "comfy-org-ace-step-1-5-comfyui-files",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6707deb277e9-74d3ef4298",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6707deb277e9e0907fd9c14ce6b6f1d695c6a3fc",
+      "evidence_hash": "74d3ef42983f1d0970c42ab9b89764fb38937715002eeaec1d1eccb653a49de6",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Comfy-Org/ace_step_1.5_ComfyUI_files",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "ace_step_1.5_ComfyUI_files",
+          "developer": "Comfy-Org",
+          "family": "ace_step_1.5_ComfyUI_files",
+          "variant": "ace_step_1.5_ComfyUI_files"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files",
+          "access": "public",
+          "file_count": 10,
+          "exact_files": [
+            "checkpoints/ace_step_1.5_turbo_aio.safetensors",
+            "split_files/diffusion_models/acestep_v1.5_base.safetensors",
+            "split_files/diffusion_models/acestep_v1.5_turbo.safetensors",
+            "split_files/diffusion_models/acestep_v1.5_xl_base_bf16.safetensors",
+            "split_files/diffusion_models/acestep_v1.5_xl_sft_bf16.safetensors",
+            "split_files/diffusion_models/acestep_v1.5_xl_turbo_bf16.safetensors",
+            "split_files/text_encoders/qwen_0.6b_ace15.safetensors",
+            "split_files/text_encoders/qwen_1.7b_ace15.safetensors",
+            "split_files/text_encoders/qwen_4b_ace15.safetensors",
+            "split_files/vae/ace_1.5_vae.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "ACE-Step/Ace-Step1.5"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "6707deb277e9e0907fd9c14ce6b6f1d695c6a3fc",
+          "created_at": "2026-02-03T04:57:10.000Z",
+          "last_modified": "2026-09-23T08:00:33.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "ace_step_1.5_ComfyUI_files",
+  "developer": "Comfy-Org",
+  "source_repository": "https://huggingface.co/Comfy-Org/ace_step_1.5_ComfyUI_files",
+  "current_repository_sha": "6707deb277e9e0907fd9c14ce6b6f1d695c6a3fc",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/comfy-org-ace-step-1-5-comfyui-files/history/",
+  "diff_url": "https://openmodelweights.com/diff/comfy-org-ace-step-1-5-comfyui-files/"
+}

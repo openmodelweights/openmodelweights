@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-cosmos-reason2-2b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "9ce19a195e42-0d5dc8af23",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "9ce19a195e423419c349abfc86fd07178b230561",
+      "evidence_hash": "0d5dc8af23bc77bf5eaab4edd2ba493acdb10bbbd26f085718eb27ac5e7f7939",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Cosmos-Reason2-2B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Cosmos-Reason2-2B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Cosmos-Reason2-2B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Cosmos-Reason2-2B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Cosmos-Reason2-2B/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Cosmos-Reason2-2B",
+          "developer": "NVIDIA",
+          "family": "Cosmos-Reason2",
+          "variant": "Cosmos-Reason2-2B"
+        },
+        "model": {
+          "parameters": "2.4387B",
+          "total_parameters_billions": 2.43869696,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "nvidia-open-model-license",
+          "id": "other",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Cosmos-Reason2-2B",
+          "access": "gated (auto)",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-VL-2B-Instruct"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "cosmos"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 4.88,
+            "fp8_int8": 2.44,
+            "int4": 1.22
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "9ce19a195e423419c349abfc86fd07178b230561",
+          "created_at": "2025-12-12T17:50:45.000Z",
+          "last_modified": "2026-04-30T03:14:52.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Cosmos-Reason2-2B",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Cosmos-Reason2-2B",
+  "current_repository_sha": "9ce19a195e423419c349abfc86fd07178b230561",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-cosmos-reason2-2b/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-cosmos-reason2-2b/"
+}

@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-detr-resnet-50",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1d5f47bd3bdd-f5692decea",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1d5f47bd3bdd2c4bbfa585418ffe6da5028b4c0b",
+      "evidence_hash": "f5692decea18249bba284e4324b57748728677c35a9ad080d240e05e99779241",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/detr-resnet-50",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/detr-resnet-50",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/detr-resnet-50",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/detr-resnet-50/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/detr-resnet-50/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "detr-resnet-50",
+          "developer": "Meta",
+          "family": "detr-resnet-50",
+          "variant": "detr-resnet-50"
+        },
+        "model": {
+          "parameters": "0.041631B",
+          "total_parameters_billions": 0.041631008,
+          "context_tokens": 1024,
+          "context_display": "1,024 tokens",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/detr-resnet-50",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "coco"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.08,
+            "fp8_int8": 0.04,
+            "int4": 0.02
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "1d5f47bd3bdd2c4bbfa585418ffe6da5028b4c0b",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-04-10T13:56:31.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "detr-resnet-50",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/detr-resnet-50",
+  "current_repository_sha": "1d5f47bd3bdd2c4bbfa585418ffe6da5028b4c0b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-detr-resnet-50/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-detr-resnet-50/"
+}

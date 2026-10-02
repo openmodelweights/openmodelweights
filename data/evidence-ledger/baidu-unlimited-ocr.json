@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "baidu-unlimited-ocr",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "07dea832e22a-6acea0d91a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "07dea832e22aefee32ad281d4b80551282e1c168",
+      "evidence_hash": "6acea0d91a9efc7d3110e0c6fda77bb4311ef5ea905ec3912eedf49092075ea3",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/baidu/Unlimited-OCR",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/baidu/Unlimited-OCR",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Unlimited-OCR",
+          "developer": "baidu",
+          "family": "Unlimited-OCR",
+          "variant": "Unlimited-OCR"
+        },
+        "model": {
+          "parameters": "3.33611B",
+          "total_parameters_billions": 3.33610624,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/baidu/Unlimited-OCR",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model-00001-of-000001.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 6.67,
+            "fp8_int8": 3.34,
+            "int4": 1.67
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "07dea832e22aefee32ad281d4b80551282e1c168",
+          "created_at": "2026-06-19T09:40:33.000Z",
+          "last_modified": "2026-07-29T04:34:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Unlimited-OCR",
+  "developer": "baidu",
+  "source_repository": "https://huggingface.co/baidu/Unlimited-OCR",
+  "current_repository_sha": "07dea832e22aefee32ad281d4b80551282e1c168",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/baidu-unlimited-ocr/history/",
+  "diff_url": "https://openmodelweights.com/diff/baidu-unlimited-ocr/"
+}

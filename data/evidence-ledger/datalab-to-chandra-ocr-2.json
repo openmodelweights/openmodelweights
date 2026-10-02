@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "datalab-to-chandra-ocr-2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "af93b47dba1b-2241721dab",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "af93b47dba1b47b6640c86ccf487ed2260ab9a09",
+      "evidence_hash": "2241721dabc49c8d3228bc1e2322d411a632e57d2050e619243db303c8c82158",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/datalab-to/chandra-ocr-2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/datalab-to/chandra-ocr-2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/datalab-to/chandra-ocr-2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/datalab-to/chandra-ocr-2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/datalab-to/chandra-ocr-2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "chandra-ocr-2",
+          "developer": "datalab-to",
+          "family": "chandra-ocr-2",
+          "variant": "chandra-ocr-2"
+        },
+        "model": {
+          "parameters": "5.29556B",
+          "total_parameters_billions": 5.295564288,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "openrail",
+          "id": "openrail",
+          "url": "https://huggingface.co/datalab-to/chandra-ocr-2/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/datalab-to/chandra-ocr-2",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 10.59,
+            "fp8_int8": 5.3,
+            "int4": 2.65
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "af93b47dba1b47b6640c86ccf487ed2260ab9a09",
+          "created_at": "2026-03-16T20:47:07.000Z",
+          "last_modified": "2026-06-26T10:30:43.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "chandra-ocr-2",
+  "developer": "datalab-to",
+  "source_repository": "https://huggingface.co/datalab-to/chandra-ocr-2",
+  "current_repository_sha": "af93b47dba1b47b6640c86ccf487ed2260ab9a09",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/datalab-to-chandra-ocr-2/history/",
+  "diff_url": "https://openmodelweights.com/diff/datalab-to-chandra-ocr-2/"
+}

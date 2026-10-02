@@ -1,24 +1,28 @@
 {
   "api_version": "v1",
-  "registry_schema": "0.7.0",
-  "generated_at": "2026-10-02T12:26:49+00:00",
+  "registry_schema": "0.8.0",
+  "generated_at": "2026-10-02T13:04:27+00:00",
   "model_count": 700,
   "verification": {
     "total_seed_records": 700,
     "field_verified": 700,
-    "errors": 105,
-    "license_declared": 663,
-    "commercial_use_classified": 590,
-    "context_verified": 485,
+    "errors": 61,
+    "license_declared": 669,
+    "commercial_use_classified": 596,
+    "context_verified": 475,
     "exact_weight_lists": 700,
-    "base_model_declared": 228,
-    "training_recipe_signal": 425,
-    "data_disclosure_signal": 248,
-    "runtime_signal": 685
+    "base_model_declared": 222,
+    "training_recipe_signal": 422,
+    "data_disclosure_signal": 250,
+    "runtime_signal": 684
   },
   "links": {
     "models": "https://openmodelweights.com/api/v1/models.json",
     "changes": "https://openmodelweights.com/api/v1/changes.json",
+    "history": "https://openmodelweights.com/api/v1/history.json",
+    "compatibility": "https://openmodelweights.com/api/v1/compatibility.json",
+    "benchmarks": "https://openmodelweights.com/api/v1/benchmarks.json",
+    "mcp": "https://openmodelweights.com/mcp",
     "openapi": "https://openmodelweights.com/openapi.json",
     "registry": "https://openmodelweights.com/registry.json"
   }

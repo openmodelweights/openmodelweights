@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebookai-roberta-large",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "722cf37b1afa-728e888c41",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+      "evidence_hash": "728e888c41efbfa565126dcc0b0a52ad09502d31394c33a840f2c378a2b923ca",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/FacebookAI/roberta-large",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/FacebookAI/roberta-large",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/FacebookAI/roberta-large",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/FacebookAI/roberta-large/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/FacebookAI/roberta-large/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "roberta-large",
+          "developer": "FacebookAI",
+          "family": "roberta-large",
+          "variant": "roberta-large"
+        },
+        "model": {
+          "parameters": "0.355413B",
+          "total_parameters_billions": 0.355412571,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/FacebookAI/roberta-large",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.onnx",
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "bookcorpus",
+            "wikipedia"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.71,
+            "fp8_int8": 0.36,
+            "int4": 0.18
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2024-02-19T12:47:04.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "roberta-large",
+  "developer": "FacebookAI",
+  "source_repository": "https://huggingface.co/FacebookAI/roberta-large",
+  "current_repository_sha": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebookai-roberta-large/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebookai-roberta-large/"
+}

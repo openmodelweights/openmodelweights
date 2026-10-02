@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "llama-guard-3-11b-vision",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "62d4275543ec-0d30081f4b",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "62d4275543ec7503de66c486de1c0c2103e365ac",
+      "evidence_hash": "0d30081f4b4635f86d94f985ba39d8b3c21545c93755d89d6a308508cf50f1b6",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/meta-llama/Llama-Guard-3-11B-Vision",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Llama-Guard-3-11B-Vision",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-Guard-3-11B-Vision",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Llama-Guard-3-11B-Vision/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Llama-Guard-3-11B-Vision/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Llama-Guard-3-11B-Vision",
+          "developer": "Meta",
+          "family": "Llama Guard 3",
+          "variant": "Llama-Guard-3-11B-Vision"
+        },
+        "model": {
+          "parameters": "11B",
+          "total_parameters_billions": 11.0,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image + text → text / safety"
+        },
+        "license": {
+          "name": "llama3.2",
+          "id": "llama3.2",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/meta-llama/Llama-Guard-3-11B-Vision",
+          "access": "gated (manual)",
+          "file_count": 7,
+          "exact_files": [
+            "model-00001-of-00005.safetensors",
+            "model-00002-of-00005.safetensors",
+            "model-00003-of-00005.safetensors",
+            "model-00004-of-00005.safetensors",
+            "model-00005-of-00005.safetensors",
+            "model.safetensors.index.json",
+            "original/consolidated.pth"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 22.0,
+            "fp8_int8": 11.0,
+            "int4": 5.5
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "62d4275543ec7503de66c486de1c0c2103e365ac",
+          "created_at": "2024-09-20T15:42:27.000Z",
+          "last_modified": "2024-11-18T15:36:42.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Llama-Guard-3-11B-Vision",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/meta-llama/Llama-Guard-3-11B-Vision",
+  "current_repository_sha": "62d4275543ec7503de66c486de1c0c2103e365ac",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/llama-guard-3-11b-vision/history/",
+  "diff_url": "https://openmodelweights.com/diff/llama-guard-3-11b-vision/"
+}

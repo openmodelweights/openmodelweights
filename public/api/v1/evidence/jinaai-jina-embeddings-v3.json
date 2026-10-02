@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "jinaai-jina-embeddings-v3",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ab036b023d30-a3eafafa0e",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ab036b023d30b4d1138c4c3bfa9f0c445ab455d6",
+      "evidence_hash": "a3eafafa0ea96c7bef4db47a5c65d70333467550dd07a978881b91541ef576a3",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v3",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/jinaai/jina-embeddings-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v3/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v3/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "jina-embeddings-v3",
+          "developer": "jinaai",
+          "family": "jina-embeddings-v3",
+          "variant": "jina-embeddings-v3"
+        },
+        "model": {
+          "parameters": "0.57231B",
+          "total_parameters_billions": 0.572310396,
+          "context_tokens": 8194,
+          "context_display": "8,194 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "id": "cc-by-nc-4.0",
+          "url": null,
+          "commercial_use_status": "not-allowed",
+          "commercial_use_label": "Commercial use is not permitted by CC BY-NC 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/jinaai/jina-embeddings-v3",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_fp16.onnx",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.14,
+            "fp8_int8": 0.57,
+            "int4": 0.29
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ab036b023d30b4d1138c4c3bfa9f0c445ab455d6",
+          "created_at": "2024-09-05T11:56:46.000Z",
+          "last_modified": "2026-04-08T14:04:08.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "jina-embeddings-v3",
+  "developer": "jinaai",
+  "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v3",
+  "current_repository_sha": "ab036b023d30b4d1138c4c3bfa9f0c445ab455d6",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/jinaai-jina-embeddings-v3/history/",
+  "diff_url": "https://openmodelweights.com/diff/jinaai-jina-embeddings-v3/"
+}

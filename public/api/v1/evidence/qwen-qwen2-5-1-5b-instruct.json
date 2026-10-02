@@ -1,0 +1,123 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen-qwen2-5-1-5b-instruct",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "989aa7980e4c-b394e1f5f1",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "evidence_hash": "b394e1f5f1e7e14035ef536431c446fffd0db7474f54ae8771939176eb7d49d4",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen2.5-1.5B-Instruct",
+          "developer": "Qwen",
+          "family": "Qwen2.5",
+          "variant": "Qwen2.5-1.5B-Instruct"
+        },
+        "model": {
+          "parameters": "1.54371B",
+          "total_parameters_billions": 1.543714304,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen2.5-1.5B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 3.09,
+            "fp8_int8": 1.54,
+            "int4": 0.77
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+          "created_at": "2024-09-17T14:10:29.000Z",
+          "last_modified": "2024-09-25T12:32:50.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen2.5-1.5B-Instruct",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+  "current_repository_sha": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen-qwen2-5-1-5b-instruct/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen-qwen2-5-1-5b-instruct/"
+}

@@ -1,0 +1,120 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "bigscience-bloomz-560m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "a2845d7e13dd-2ecb12f814",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "a2845d7e13dd12efae154a9f1c63fcc2e0cc4b05",
+      "evidence_hash": "2ecb12f8146257a52cebdf517c04637d1e926a78095e18b02fe657179e44affa",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/bigscience/bloomz-560m",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/bigscience/bloomz-560m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/bigscience/bloomz-560m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/bigscience/bloomz-560m/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/bigscience/bloomz-560m/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bloomz-560m",
+          "developer": "BigScience",
+          "family": "bloomz",
+          "variant": "bloomz-560m"
+        },
+        "model": {
+          "parameters": "0.559215B",
+          "total_parameters_billions": 0.559214592,
+          "context_tokens": 2048,
+          "context_display": "2,048 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "bigscience-bloom-rail-1.0",
+          "id": "bigscience-bloom-rail-1.0",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/bigscience/bloomz-560m",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "bigscience/xP3"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.12,
+            "fp8_int8": 0.56,
+            "int4": 0.28
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "a2845d7e13dd12efae154a9f1c63fcc2e0cc4b05",
+          "created_at": "2022-10-08T16:14:42.000Z",
+          "last_modified": "2023-05-27T17:27:11.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bloomz-560m",
+  "developer": "BigScience",
+  "source_repository": "https://huggingface.co/bigscience/bloomz-560m",
+  "current_repository_sha": "a2845d7e13dd12efae154a9f1c63fcc2e0cc4b05",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/bigscience-bloomz-560m/history/",
+  "diff_url": "https://openmodelweights.com/diff/bigscience-bloomz-560m/"
+}

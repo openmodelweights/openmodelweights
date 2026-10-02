@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "mahmoudashraf-mms-300m-1130-forced-aligner",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "49402e9577b1-822ea8c979",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "49402e9577b1158620820667c218cd494cc44486",
+      "evidence_hash": "822ea8c9796c3cfeb1bf779d189ec9caad3e96bb8a4f3d0e8cd6e4c3502ef3a4",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/MahmoudAshraf/mms-300m-1130-forced-aligner",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "mms-300m-1130-forced-aligner",
+          "developer": "MahmoudAshraf",
+          "family": "mms",
+          "variant": "mms-300m-1130-forced-aligner"
+        },
+        "model": {
+          "parameters": "0.315469B",
+          "total_parameters_billions": 0.315469471,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "id": "cc-by-nc-4.0",
+          "url": null,
+          "commercial_use_status": "not-allowed",
+          "commercial_use_label": "Commercial use is not permitted by CC BY-NC 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.63,
+            "fp8_int8": 0.32,
+            "int4": 0.16
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "49402e9577b1158620820667c218cd494cc44486",
+          "created_at": "2024-05-02T21:02:39.000Z",
+          "last_modified": "2026-04-15T14:57:12.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "mms-300m-1130-forced-aligner",
+  "developer": "MahmoudAshraf",
+  "source_repository": "https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner",
+  "current_repository_sha": "49402e9577b1158620820667c218cd494cc44486",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/mahmoudashraf-mms-300m-1130-forced-aligner/history/",
+  "diff_url": "https://openmodelweights.com/diff/mahmoudashraf-mms-300m-1130-forced-aligner/"
+}

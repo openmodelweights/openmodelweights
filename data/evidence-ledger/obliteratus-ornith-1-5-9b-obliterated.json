@@ -1,0 +1,135 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "obliteratus-ornith-1-5-9b-obliterated",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "82df4702cc5e-d8154d344d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "82df4702cc5e716cf7573a8942fee28ae8f65088",
+      "evidence_hash": "d8154d344da81df5f9616ed507bd93e5eff7200e059dc4b5a8361f2eb445488e",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Ornith-1.5-9B-OBLITERATED",
+          "developer": "OBLITERATUS",
+          "family": "Ornith-1.5",
+          "variant": "Ornith-1.5-9B-OBLITERATED"
+        },
+        "model": {
+          "parameters": "9.6531B",
+          "total_parameters_billions": 9.653104368,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+          "access": "public",
+          "file_count": 14,
+          "exact_files": [
+            "Ornith-1.5-9B-OBLITERATED-IQ4_XS.gguf",
+            "Ornith-1.5-9B-OBLITERATED-Q2_K.gguf",
+            "Ornith-1.5-9B-OBLITERATED-Q3_K_M.gguf",
+            "Ornith-1.5-9B-OBLITERATED-Q4_K_M.gguf",
+            "Ornith-1.5-9B-OBLITERATED-Q5_K_M.gguf",
+            "Ornith-1.5-9B-OBLITERATED-Q6_K.gguf",
+            "Ornith-1.5-9B-OBLITERATED-Q8_0.gguf",
+            "Ornith-1.5-9B-OBLITERATED-bf16.gguf",
+            "mmproj-Ornith-1.5-9B-bf16.gguf",
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "GGUF",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "gguf"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "ornith-ai/Ornith-1.5-9B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+            "Transformers",
+            "llama.cpp"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 19.31,
+            "fp8_int8": 9.65,
+            "int4": 4.83
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "82df4702cc5e716cf7573a8942fee28ae8f65088",
+          "created_at": "2026-08-27T00:52:50.000Z",
+          "last_modified": "2026-08-27T04:00:49.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Ornith-1.5-9B-OBLITERATED",
+  "developer": "OBLITERATUS",
+  "source_repository": "https://huggingface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+  "current_repository_sha": "82df4702cc5e716cf7573a8942fee28ae8f65088",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/obliteratus-ornith-1-5-9b-obliterated/history/",
+  "diff_url": "https://openmodelweights.com/diff/obliteratus-ornith-1-5-9b-obliterated/"
+}

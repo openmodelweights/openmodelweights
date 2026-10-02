@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "cl-nagoya-ruri-v3-310m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "18b60fb8c2b9-25d28740c0",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "18b60fb8c2b9df296fb4212bb7d23ef94e579cd3",
+      "evidence_hash": "25d28740c021fc379604920ffc16c91f8610c29422486d229cd9beb9721ee89e",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/cl-nagoya/ruri-v3-310m",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/cl-nagoya/ruri-v3-310m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/cl-nagoya/ruri-v3-310m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/cl-nagoya/ruri-v3-310m/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/cl-nagoya/ruri-v3-310m/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "ruri-v3-310m",
+          "developer": "cl-nagoya",
+          "family": "ruri-v3",
+          "variant": "ruri-v3-310m"
+        },
+        "model": {
+          "parameters": "0.314612B",
+          "total_parameters_billions": 0.314611968,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/cl-nagoya/ruri-v3-310m",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "cl-nagoya/ruri-v3-pt-310m"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "cl-nagoya/ruri-v3-dataset-ft"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.63,
+            "fp8_int8": 0.31,
+            "int4": 0.16
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "18b60fb8c2b9df296fb4212bb7d23ef94e579cd3",
+          "created_at": "2025-04-09T04:11:45.000Z",
+          "last_modified": "2025-04-17T09:38:05.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "ruri-v3-310m",
+  "developer": "cl-nagoya",
+  "source_repository": "https://huggingface.co/cl-nagoya/ruri-v3-310m",
+  "current_repository_sha": "18b60fb8c2b9df296fb4212bb7d23ef94e579cd3",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/cl-nagoya-ruri-v3-310m/history/",
+  "diff_url": "https://openmodelweights.com/diff/cl-nagoya-ruri-v3-310m/"
+}

@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "mixedbread-ai-mxbai-rerank-xsmall-v1",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b5c6e9da73ab-c41366c9db",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b5c6e9da73abc3711f593f705371cdbe9e0fe422",
+      "evidence_hash": "c41366c9dbf012493cb727b7e16e5b40dd8c21e3cfee5fc4c09c89ad681d6987",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mixedbread-ai/mxbai-rerank-xsmall-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "mxbai-rerank-xsmall-v1",
+          "developer": "mixedbread-ai",
+          "family": "mxbai-rerank-xsmall-v1",
+          "variant": "mxbai-rerank-xsmall-v1"
+        },
+        "model": {
+          "parameters": "0.0708303B",
+          "total_parameters_billions": 0.070830337,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text Ranking"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_quantized.onnx"
+          ],
+          "formats": [
+            "ONNX",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.14,
+            "fp8_int8": 0.07,
+            "int4": 0.04
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "b5c6e9da73abc3711f593f705371cdbe9e0fe422",
+          "created_at": "2024-02-29T10:31:57.000Z",
+          "last_modified": "2025-04-02T14:42:01.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "mxbai-rerank-xsmall-v1",
+  "developer": "mixedbread-ai",
+  "source_repository": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1",
+  "current_repository_sha": "b5c6e9da73abc3711f593f705371cdbe9e0fe422",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/mixedbread-ai-mxbai-rerank-xsmall-v1/history/",
+  "diff_url": "https://openmodelweights.com/diff/mixedbread-ai-mxbai-rerank-xsmall-v1/"
+}

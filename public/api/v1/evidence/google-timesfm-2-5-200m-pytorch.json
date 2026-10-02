@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-timesfm-2-5-200m-pytorch",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1d952420fba8-6be826a14f",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "evidence_hash": "6be826a14f79e617a3880415b85c9dae64b7e7787c3bcf74d78b1dd201878305",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/timesfm-2.5-200m-pytorch",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/timesfm-2.5-200m-pytorch",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "timesfm-2.5-200m-pytorch",
+          "developer": "Google",
+          "family": "timesfm-2.5",
+          "variant": "timesfm-2.5-200m-pytorch"
+        },
+        "model": {
+          "parameters": "0.231289B",
+          "total_parameters_billions": 0.23128928,
+          "context_tokens": 16384,
+          "context_display": "16,384 tokens",
+          "modality": "Time Series Forecasting"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/timesfm-2.5-200m-pytorch",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "timesfm"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.46,
+            "fp8_int8": 0.23,
+            "int4": 0.12
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+          "created_at": "2025-09-02T18:55:45.000Z",
+          "last_modified": "2025-10-02T17:21:38.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "timesfm-2.5-200m-pytorch",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/timesfm-2.5-200m-pytorch",
+  "current_repository_sha": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-timesfm-2-5-200m-pytorch/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-timesfm-2-5-200m-pytorch/"
+}

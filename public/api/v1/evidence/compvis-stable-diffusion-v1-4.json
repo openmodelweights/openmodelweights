@@ -1,0 +1,135 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "compvis-stable-diffusion-v1-4",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "133a221b8aa7-475648aa35",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "133a221b8aa7292a167afc5127cb63fb5005638b",
+      "evidence_hash": "475648aa35402292772848c0c6e1e2618c5313c6f9a19adbe0096c801eb78fac",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/CompVis/stable-diffusion-v1-4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "stable-diffusion-v1-4",
+          "developer": "CompVis",
+          "family": "stable-diffusion-v1-4",
+          "variant": "stable-diffusion-v1-4"
+        },
+        "model": {
+          "parameters": "0.859521B",
+          "total_parameters_billions": 0.859520964,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → image"
+        },
+        "license": {
+          "name": "creativeml-openrail-m",
+          "id": "creativeml-openrail-m",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+          "access": "public",
+          "file_count": 18,
+          "exact_files": [
+            "safety_checker/model.fp16.safetensors",
+            "safety_checker/model.safetensors",
+            "safety_checker/pytorch_model.bin",
+            "safety_checker/pytorch_model.fp16.bin",
+            "text_encoder/model.fp16.safetensors",
+            "text_encoder/model.safetensors",
+            "text_encoder/pytorch_model.bin",
+            "text_encoder/pytorch_model.fp16.bin",
+            "unet/diffusion_pytorch_model.bin",
+            "unet/diffusion_pytorch_model.fp16.bin",
+            "unet/diffusion_pytorch_model.fp16.safetensors",
+            "unet/diffusion_pytorch_model.non_ema.bin",
+            "unet/diffusion_pytorch_model.non_ema.safetensors",
+            "unet/diffusion_pytorch_model.safetensors",
+            "vae/diffusion_pytorch_model.bin",
+            "vae/diffusion_pytorch_model.fp16.bin",
+            "vae/diffusion_pytorch_model.fp16.safetensors",
+            "vae/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.72,
+            "fp8_int8": 0.86,
+            "int4": 0.43
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "133a221b8aa7292a167afc5127cb63fb5005638b",
+          "created_at": "2022-08-20T13:26:13.000Z",
+          "last_modified": "2023-08-23T21:15:42.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "stable-diffusion-v1-4",
+  "developer": "CompVis",
+  "source_repository": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+  "current_repository_sha": "133a221b8aa7292a167afc5127cb63fb5005638b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/compvis-stable-diffusion-v1-4/history/",
+  "diff_url": "https://openmodelweights.com/diff/compvis-stable-diffusion-v1-4/"
+}

@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-parakeet-tdt-0-6b-v3",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "541d1f99c6b0-bfe14ff587",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
+      "evidence_hash": "bfe14ff587174fcabea8dbf055ac79971e686a4d1f8d5819fe7f27f1b3052e27",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/parakeet-tdt-0.6b-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "parakeet-tdt-0.6b-v3",
+          "developer": "NVIDIA",
+          "family": "parakeet-tdt",
+          "variant": "parakeet-tdt-0.6b-v3"
+        },
+        "model": {
+          "parameters": "0.627057B",
+          "total_parameters_billions": 0.627057286,
+          "context_tokens": 5000,
+          "context_display": "5,000 tokens",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "CC BY 4.0",
+          "id": "cc-by-4.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed with attribution under CC BY 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "parakeet-tdt-0.6b-v3.nemo",
+            "parakeet-tdt-0.6b-v3.q8_0.gguf"
+          ],
+          "formats": [
+            "GGUF",
+            "NeMo",
+            "Safetensors"
+          ],
+          "precision": [
+            "gguf"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "nemo/asr-set-3.0",
+            "nvidia/Granary"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+            "NeMo",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.25,
+            "fp8_int8": 0.63,
+            "int4": 0.31
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
+          "created_at": "2025-08-04T13:34:09.000Z",
+          "last_modified": "2026-08-05T21:46:17.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "parakeet-tdt-0.6b-v3",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+  "current_repository_sha": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-parakeet-tdt-0-6b-v3/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-parakeet-tdt-0-6b-v3/"
+}

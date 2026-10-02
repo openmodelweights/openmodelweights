@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-gemma-4-31b-it-nvfp4",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "4135a98a9b72-93fd145e0c",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "4135a98a9b728a548947683219633b25682223ac",
+      "evidence_hash": "93fd145e0c7f040d1ff322b3c78a3ca837ccb1af86fa290c3ea718ac14d71092",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Gemma-4-31B-IT-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://ai.google.dev/gemma/apache_2",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Gemma-4-31B-IT-NVFP4",
+          "developer": "NVIDIA",
+          "family": "Gemma-4",
+          "variant": "Gemma-4-31B-IT-NVFP4"
+        },
+        "model": {
+          "parameters": "20.8686B",
+          "total_parameters_billions": 20.868591152,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "other",
+          "url": "https://ai.google.dev/gemma/apache_2",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "google/gemma-4-31B-it"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Model Optimizer",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 41.74,
+            "fp8_int8": 20.87,
+            "int4": 10.43
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "4135a98a9b728a548947683219633b25682223ac",
+          "created_at": "2026-04-02T16:47:30.000Z",
+          "last_modified": "2026-07-13T22:33:54.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Gemma-4-31B-IT-NVFP4",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+  "current_repository_sha": "4135a98a9b728a548947683219633b25682223ac",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-gemma-4-31b-it-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-gemma-4-31b-it-nvfp4/"
+}

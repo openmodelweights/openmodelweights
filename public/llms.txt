@@ -20,6 +20,15 @@ Latest verification: 2026-10-02.
 
 A value such as “not disclosed” means the checked standard metadata/model-card/config sources did not provide it; it is not an inference that the information does not exist elsewhere.
 
+## Evidence intelligence
+- https://openmodelweights.com/history/ — versioned evidence ledger and model diffs
+- https://openmodelweights.com/compatibility/ — compatibility graph
+- https://openmodelweights.com/benchmarks/ — reproducible deployment benchmark protocol/results
+- https://openmodelweights.com/api/v1/compatibility.json — machine-readable compatibility graph
+- https://openmodelweights.com/api/v1/evidence-runs.json — daily evidence manifests
+- https://openmodelweights.com/mcp — MCP Streamable HTTP endpoint
+- https://openmodelweights.com/mcp/ — MCP documentation
+
 
 ## Machine-readable
 - https://openmodelweights.com/api/ — API documentation

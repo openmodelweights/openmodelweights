@@ -1,0 +1,120 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "timm-tf-efficientnetv2-s-in21k-ft-in1k",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ea9abc143ea2-542b2c2e06",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
+      "evidence_hash": "542b2c2e065695b5497c7ffe768c4120f9eceb5ee25db3d8c37d8bc1f8b56157",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/timm/tf_efficientnetv2_s.in21k_ft_in1k",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/timm/tf_efficientnetv2_s.in21k_ft_in1k",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/timm/tf_efficientnetv2_s.in21k_ft_in1k",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/timm/tf_efficientnetv2_s.in21k_ft_in1k/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/timm/tf_efficientnetv2_s.in21k_ft_in1k/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "tf_efficientnetv2_s.in21k_ft_in1k",
+          "developer": "timm",
+          "family": "tf_efficientnetv2_s.in21k_ft_in1k",
+          "variant": "tf_efficientnetv2_s.in21k_ft_in1k"
+        },
+        "model": {
+          "parameters": "0.0216124B",
+          "total_parameters_billions": 0.02161236,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/timm/tf_efficientnetv2_s.in21k_ft_in1k",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "imagenet-1k",
+            "imagenet-21k"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "timm"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.04,
+            "fp8_int8": 0.02,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
+          "created_at": "2022-12-13T00:19:21.000Z",
+          "last_modified": "2025-01-21T18:20:45.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "tf_efficientnetv2_s.in21k_ft_in1k",
+  "developer": "timm",
+  "source_repository": "https://huggingface.co/timm/tf_efficientnetv2_s.in21k_ft_in1k",
+  "current_repository_sha": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/timm-tf-efficientnetv2-s-in21k-ft-in1k/history/",
+  "diff_url": "https://openmodelweights.com/diff/timm-tf-efficientnetv2-s-in21k-ft-in1k/"
+}

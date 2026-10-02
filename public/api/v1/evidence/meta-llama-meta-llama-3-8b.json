@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "meta-llama-meta-llama-3-8b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8cde5ca83804-1d57b1f0b1",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+      "evidence_hash": "1d57b1f0b1d436ced9b8df30f03552cc7f8bf12a5df72cfd13381c5776519545",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Meta-Llama-3-8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Meta-Llama-3-8B",
+          "developer": "Meta",
+          "family": "Meta-Llama-3",
+          "variant": "Meta-Llama-3-8B"
+        },
+        "model": {
+          "parameters": "8.03026B",
+          "total_parameters_billions": 8.030261248,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "llama3",
+          "id": "llama3",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+          "access": "gated (manual)",
+          "file_count": 6,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json",
+            "original/consolidated.00.pth"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "TGI",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 16.06,
+            "fp8_int8": 8.03,
+            "int4": 4.02
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+          "created_at": "2024-04-17T09:35:16.000Z",
+          "last_modified": "2024-09-27T15:52:33.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Meta-Llama-3-8B",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+  "current_repository_sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/meta-llama-meta-llama-3-8b/history/",
+  "diff_url": "https://openmodelweights.com/diff/meta-llama-meta-llama-3-8b/"
+}

@@ -1,0 +1,168 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "lightricks-ltx-2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "dfcc2108383f-a35672a4fd",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "dfcc2108383fe1aaa0584bdf55d368a4bdadd90c",
+      "evidence_hash": "a35672a4fdf2c458548c2c065b3480b438b93b298e6b67173eee0bda9a35d902",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Lightricks/LTX-2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Lightricks/LTX-2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Lightricks/LTX-2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Lightricks/LTX-2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Lightricks/LTX-2/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "LTX-2",
+          "developer": "Lightricks",
+          "family": "LTX-2",
+          "variant": "LTX-2"
+        },
+        "model": {
+          "parameters": "18.8762B",
+          "total_parameters_billions": 18.876174592,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image To Video"
+        },
+        "license": {
+          "name": "ltx-2-community-license-agreement",
+          "id": "other",
+          "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Lightricks/LTX-2",
+          "access": "public",
+          "file_count": 47,
+          "exact_files": [
+            "audio_vae/diffusion_pytorch_model.safetensors",
+            "connectors/diffusion_pytorch_model.safetensors",
+            "latent_upsampler/diffusion_pytorch_model.safetensors",
+            "ltx-2-19b-dev-fp4.safetensors",
+            "ltx-2-19b-dev-fp8.safetensors",
+            "ltx-2-19b-dev.safetensors",
+            "ltx-2-19b-distilled-fp8.safetensors",
+            "ltx-2-19b-distilled-lora-384.safetensors",
+            "ltx-2-19b-distilled.safetensors",
+            "ltx-2-spatial-upscaler-x2-1.0.safetensors",
+            "ltx-2-temporal-upscaler-x2-1.0.safetensors",
+            "text_encoder/diffusion_pytorch_model-00001-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00002-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00003-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00004-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00005-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00006-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00007-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00008-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00009-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00010-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00011-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model-00012-of-00012.safetensors",
+            "text_encoder/diffusion_pytorch_model.safetensors.index.json",
+            "text_encoder/model-00001-of-00011.safetensors",
+            "text_encoder/model-00002-of-00011.safetensors",
+            "text_encoder/model-00003-of-00011.safetensors",
+            "text_encoder/model-00004-of-00011.safetensors",
+            "text_encoder/model-00005-of-00011.safetensors",
+            "text_encoder/model-00006-of-00011.safetensors",
+            "text_encoder/model-00007-of-00011.safetensors",
+            "text_encoder/model-00008-of-00011.safetensors",
+            "text_encoder/model-00009-of-00011.safetensors",
+            "text_encoder/model-00010-of-00011.safetensors",
+            "text_encoder/model-00011-of-00011.safetensors",
+            "text_encoder/model.safetensors.index.json",
+            "transformer/diffusion_pytorch_model-00001-of-00008.safetensors",
+            "transformer/diffusion_pytorch_model-00002-of-00008.safetensors",
+            "transformer/diffusion_pytorch_model-00003-of-00008.safetensors",
+            "transformer/diffusion_pytorch_model-00004-of-00008.safetensors",
+            "transformer/diffusion_pytorch_model-00005-of-00008.safetensors",
+            "transformer/diffusion_pytorch_model-00006-of-00008.safetensors",
+            "transformer/diffusion_pytorch_model-00007-of-00008.safetensors",
+            "transformer/diffusion_pytorch_model-00008-of-00008.safetensors",
+            "transformer/diffusion_pytorch_model.safetensors.index.json",
+            "vae/diffusion_pytorch_model.safetensors",
+            "vocoder/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 37.75,
+            "fp8_int8": 18.88,
+            "int4": 9.44
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "dfcc2108383fe1aaa0584bdf55d368a4bdadd90c",
+          "created_at": "2026-01-03T10:23:39.000Z",
+          "last_modified": "2026-08-04T07:30:59.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "LTX-2",
+  "developer": "Lightricks",
+  "source_repository": "https://huggingface.co/Lightricks/LTX-2",
+  "current_repository_sha": "dfcc2108383fe1aaa0584bdf55d368a4bdadd90c",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/lightricks-ltx-2/history/",
+  "diff_url": "https://openmodelweights.com/diff/lightricks-ltx-2/"
+}

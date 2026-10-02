@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "usyd-community-vitpose-plus-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "92be54d7a29e-d85cc4030e",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "92be54d7a29e42fad47b6e2ca01dd9e685a61e0d",
+      "evidence_hash": "d85cc4030ed3b4ee7781ba98d664fa7118db2366953accab8d460f51a26bf86c",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/usyd-community/vitpose-plus-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/usyd-community/vitpose-plus-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/usyd-community/vitpose-plus-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/usyd-community/vitpose-plus-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/usyd-community/vitpose-plus-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "vitpose-plus-base",
+          "developer": "usyd-community",
+          "family": "vitpose-plus",
+          "variant": "vitpose-plus-base"
+        },
+        "model": {
+          "parameters": "0.125396B",
+          "total_parameters_billions": 0.125396497,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Keypoint Detection"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/usyd-community/vitpose-plus-base",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.25,
+            "fp8_int8": 0.13,
+            "int4": 0.06
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "92be54d7a29e42fad47b6e2ca01dd9e685a61e0d",
+          "created_at": "2025-01-08T12:42:22.000Z",
+          "last_modified": "2025-01-08T12:42:35.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "vitpose-plus-base",
+  "developer": "usyd-community",
+  "source_repository": "https://huggingface.co/usyd-community/vitpose-plus-base",
+  "current_repository_sha": "92be54d7a29e42fad47b6e2ca01dd9e685a61e0d",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/usyd-community-vitpose-plus-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/usyd-community-vitpose-plus-base/"
+}

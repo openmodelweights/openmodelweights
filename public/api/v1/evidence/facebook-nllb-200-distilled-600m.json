@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-nllb-200-distilled-600m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f8d333a098d1-300508947d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+      "evidence_hash": "300508947dd9f1b926caf702b24d6bc1ca6f04161fcecb4b457177c48523fa07",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/nllb-200-distilled-600M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/nllb-200-distilled-600M/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/nllb-200-distilled-600M/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "nllb-200-distilled-600M",
+          "developer": "Meta",
+          "family": "nllb-200-distilled",
+          "variant": "nllb-200-distilled-600M"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 1024,
+          "context_display": "1,024 tokens",
+          "modality": "Translation"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "id": "cc-by-nc-4.0",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "not-allowed",
+          "commercial_use_label": "Commercial use is not permitted by CC BY-NC 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "flores-200"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+          "created_at": "2022-07-08T09:43:57.000Z",
+          "last_modified": "2024-02-14T17:18:36.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "nllb-200-distilled-600M",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+  "current_repository_sha": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-nllb-200-distilled-600m/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-nllb-200-distilled-600m/"
+}

@@ -1,0 +1,112 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "laion-clip-convnext-base-w-laion2b-s13b-b82k-augreg",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f231e88547aa-f36066b208",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f231e88547aac0dd86ad224432612fcf91aa4226",
+      "evidence_hash": "f36066b208a5fe9a937c93a496e5b7d3e6fcea12f8164d60dc1cfcdaa4cd7d84",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
+          "developer": "laion",
+          "family": "CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
+          "variant": "CLIP-convnext_base_w-laion2B-s13B-b82K-augreg"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Zero Shot Image Classification"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "open_clip_model.safetensors",
+            "open_clip_pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "open_clip"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "f231e88547aac0dd86ad224432612fcf91aa4226",
+          "created_at": "2023-01-10T01:34:39.000Z",
+          "last_modified": "2023-04-18T22:05:22.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
+  "developer": "laion",
+  "source_repository": "https://huggingface.co/laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
+  "current_repository_sha": "f231e88547aac0dd86ad224432612fcf91aa4226",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/laion-clip-convnext-base-w-laion2b-s13b-b82k-augreg/history/",
+  "diff_url": "https://openmodelweights.com/diff/laion-clip-convnext-base-w-laion2b-s13b-b82k-augreg/"
+}

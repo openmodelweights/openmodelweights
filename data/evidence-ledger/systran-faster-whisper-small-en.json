@@ -1,0 +1,111 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "systran-faster-whisper-small-en",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d1d751a5f827-31bed44ef4",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+      "evidence_hash": "31bed44ef4c4f826b4214000ce71637bbcd1ca07b18dd6dd5e9ee8ea9c515574",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Systran/faster-whisper-small.en",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Systran/faster-whisper-small.en",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Systran/faster-whisper-small.en",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Systran/faster-whisper-small.en/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Systran/faster-whisper-small.en/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "faster-whisper-small.en",
+          "developer": "Systran",
+          "family": "faster-whisper-small.en",
+          "variant": "faster-whisper-small.en"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Systran/faster-whisper-small.en",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "ctranslate2"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+          "created_at": "2023-11-23T09:55:25.000Z",
+          "last_modified": "2023-11-23T11:00:00.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "faster-whisper-small.en",
+  "developer": "Systran",
+  "source_repository": "https://huggingface.co/Systran/faster-whisper-small.en",
+  "current_repository_sha": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/systran-faster-whisper-small-en/history/",
+  "diff_url": "https://openmodelweights.com/diff/systran-faster-whisper-small-en/"
+}

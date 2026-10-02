@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "radixark-kimi-k3-dspark",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "3c5bac301d9c-4de35efdfe",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "3c5bac301d9cf392706189d82ed947feca6c2f0f",
+      "evidence_hash": "4de35efdfeb700a7e72af20c26711127f4e882574fef936daa609ceb579b39a6",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/RadixArk/Kimi-K3-DSpark",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/RadixArk/Kimi-K3-DSpark",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/RadixArk/Kimi-K3-DSpark",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/RadixArk/Kimi-K3-DSpark/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/RadixArk/Kimi-K3-DSpark/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Kimi-K3-DSpark",
+          "developer": "RadixArk",
+          "family": "Kimi-K3-DSpark",
+          "variant": "Kimi-K3-DSpark"
+        },
+        "model": {
+          "parameters": "2.24929B",
+          "total_parameters_billions": 2.249289601,
+          "context_tokens": 1048576,
+          "context_display": "1,048,576 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/RadixArk/Kimi-K3-DSpark",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 4.5,
+            "fp8_int8": 2.25,
+            "int4": 1.12
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "3c5bac301d9cf392706189d82ed947feca6c2f0f",
+          "created_at": "2026-07-27T10:51:18.000Z",
+          "last_modified": "2026-08-16T16:23:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Kimi-K3-DSpark",
+  "developer": "RadixArk",
+  "source_repository": "https://huggingface.co/RadixArk/Kimi-K3-DSpark",
+  "current_repository_sha": "3c5bac301d9cf392706189d82ed947feca6c2f0f",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/radixark-kimi-k3-dspark/history/",
+  "diff_url": "https://openmodelweights.com/diff/radixark-kimi-k3-dspark/"
+}

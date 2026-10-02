@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "salesforce-blip-vqa-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "787b3d35d57e-70703ca1fe",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "787b3d35d57e49572baabd22884b3d5a05acf072",
+      "evidence_hash": "70703ca1fee549edbcc518da39aca2dea02aeaed01640f9eb940a34502a1a92e",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Salesforce/blip-vqa-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Salesforce/blip-vqa-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Salesforce/blip-vqa-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Salesforce/blip-vqa-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Salesforce/blip-vqa-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "blip-vqa-base",
+          "developer": "Salesforce",
+          "family": "blip-vqa",
+          "variant": "blip-vqa-base"
+        },
+        "model": {
+          "parameters": "0.384674B",
+          "total_parameters_billions": 0.384673596,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "BSD-3-CLAUSE",
+          "id": "bsd-3-clause",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under BSD-3-CLAUSE conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Salesforce/blip-vqa-base",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.77,
+            "fp8_int8": 0.38,
+            "int4": 0.19
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "787b3d35d57e49572baabd22884b3d5a05acf072",
+          "created_at": "2022-12-12T17:51:53.000Z",
+          "last_modified": "2025-02-03T06:44:34.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "blip-vqa-base",
+  "developer": "Salesforce",
+  "source_repository": "https://huggingface.co/Salesforce/blip-vqa-base",
+  "current_repository_sha": "787b3d35d57e49572baabd22884b3d5a05acf072",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/salesforce-blip-vqa-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/salesforce-blip-vqa-base/"
+}

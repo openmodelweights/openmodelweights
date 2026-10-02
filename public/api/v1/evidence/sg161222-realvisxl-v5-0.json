@@ -1,0 +1,127 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sg161222-realvisxl-v5-0",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ac93e0dda1f6-974a9eb169",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ac93e0dda1f6d448cae19bbfab8c5e720a5e48bc",
+      "evidence_hash": "974a9eb169617e99075ec83302f950e771de2739dd34428406b763747f15ef05",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/SG161222/RealVisXL_V5.0",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/SG161222/RealVisXL_V5.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/SG161222/RealVisXL_V5.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/SG161222/RealVisXL_V5.0/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/SG161222/RealVisXL_V5.0/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "RealVisXL_V5.0",
+          "developer": "SG161222",
+          "family": "RealVisXL_V5.0",
+          "variant": "RealVisXL_V5.0"
+        },
+        "model": {
+          "parameters": "2.56746B",
+          "total_parameters_billions": 2.567463684,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → image"
+        },
+        "license": {
+          "name": "openrail++",
+          "id": "openrail++",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/SG161222/RealVisXL_V5.0",
+          "access": "public",
+          "file_count": 12,
+          "exact_files": [
+            "RealVisXL_V5.0_fp16.safetensors",
+            "RealVisXL_V5.0_fp32.safetensors",
+            "text_encoder/model.fp16.safetensors",
+            "text_encoder/model.safetensors",
+            "text_encoder_2/model.fp16.safetensors",
+            "text_encoder_2/model.safetensors",
+            "unet/diffusion_pytorch_model-00001-of-00002.safetensors",
+            "unet/diffusion_pytorch_model-00002-of-00002.safetensors",
+            "unet/diffusion_pytorch_model.fp16.safetensors",
+            "unet/diffusion_pytorch_model.safetensors.index.json",
+            "vae/diffusion_pytorch_model.fp16.safetensors",
+            "vae/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 5.13,
+            "fp8_int8": 2.57,
+            "int4": 1.28
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ac93e0dda1f6d448cae19bbfab8c5e720a5e48bc",
+          "created_at": "2024-08-05T03:49:17.000Z",
+          "last_modified": "2024-10-08T16:34:25.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "RealVisXL_V5.0",
+  "developer": "SG161222",
+  "source_repository": "https://huggingface.co/SG161222/RealVisXL_V5.0",
+  "current_repository_sha": "ac93e0dda1f6d448cae19bbfab8c5e720a5e48bc",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sg161222-realvisxl-v5-0/history/",
+  "diff_url": "https://openmodelweights.com/diff/sg161222-realvisxl-v5-0/"
+}

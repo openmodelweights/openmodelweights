@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-siglip2-so400m-patch14-384",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e8e487298228-b899933c41",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e8e487298228002f3d8a82e0cd5c8ea9c567f57f",
+      "evidence_hash": "b899933c416d6beb40681b6f8ef67c53a74226317c8aef18b826eca98fb67e59",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/siglip2-so400m-patch14-384",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/siglip2-so400m-patch14-384",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/siglip2-so400m-patch14-384",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/siglip2-so400m-patch14-384/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/siglip2-so400m-patch14-384/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "siglip2-so400m-patch14-384",
+          "developer": "Google",
+          "family": "siglip2-so400m-patch14-384",
+          "variant": "siglip2-so400m-patch14-384"
+        },
+        "model": {
+          "parameters": "1.13601B",
+          "total_parameters_billions": 1.136008498,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Zero Shot Image Classification"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/siglip2-so400m-patch14-384",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2.27,
+            "fp8_int8": 1.14,
+            "int4": 0.57
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "e8e487298228002f3d8a82e0cd5c8ea9c567f57f",
+          "created_at": "2025-02-17T20:54:32.000Z",
+          "last_modified": "2025-02-21T04:03:58.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "siglip2-so400m-patch14-384",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/siglip2-so400m-patch14-384",
+  "current_repository_sha": "e8e487298228002f3d8a82e0cd5c8ea9c567f57f",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-siglip2-so400m-patch14-384/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-siglip2-so400m-patch14-384/"
+}

@@ -1,0 +1,111 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-electra-base-discriminator",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1ae76a97c7e8-c07745b2b7",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1ae76a97c7e84a4e640876a07453fccd636f0667",
+      "evidence_hash": "c07745b2b7a1e1b85c4a1eedc6b1045c81eb6a60fb563d3a9e25220a5e85f9d6",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/electra-base-discriminator",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/electra-base-discriminator",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/electra-base-discriminator",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/electra-base-discriminator/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/electra-base-discriminator/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "electra-base-discriminator",
+          "developer": "Google",
+          "family": "electra-base-discriminator",
+          "variant": "electra-base-discriminator"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/electra-base-discriminator",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "1ae76a97c7e84a4e640876a07453fccd636f0667",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-02-29T10:20:20.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "electra-base-discriminator",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/electra-base-discriminator",
+  "current_repository_sha": "1ae76a97c7e84a4e640876a07453fccd636f0667",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-electra-base-discriminator/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-electra-base-discriminator/"
+}

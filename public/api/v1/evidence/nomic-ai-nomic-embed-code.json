@@ -1,0 +1,130 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nomic-ai-nomic-embed-code",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "11114029805c-9ebf19834b",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "11114029805cee545ef111d5144b623787462a52",
+      "evidence_hash": "9ebf19834b2c5edb3a8a94c8c89d1f6c9837f8d694c1aeb297914a708069e1d0",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nomic-ai/nomic-embed-code",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nomic-ai/nomic-embed-code",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nomic-ai/nomic-embed-code",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nomic-ai/nomic-embed-code/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nomic-ai/nomic-embed-code/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "nomic-embed-code",
+          "developer": "nomic-ai",
+          "family": "nomic-embed-code",
+          "variant": "nomic-embed-code"
+        },
+        "model": {
+          "parameters": "7.07062B",
+          "total_parameters_billions": 7.070619136,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nomic-ai/nomic-embed-code",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "model-00001-of-00006.safetensors",
+            "model-00002-of-00006.safetensors",
+            "model-00003-of-00006.safetensors",
+            "model-00004-of-00006.safetensors",
+            "model-00005-of-00006.safetensors",
+            "model-00006-of-00006.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen2.5-Coder-7B-Instruct"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "nomic-ai/cornstack-go-v1",
+            "nomic-ai/cornstack-java-v1",
+            "nomic-ai/cornstack-javascript-v1",
+            "nomic-ai/cornstack-php-v1",
+            "nomic-ai/cornstack-python-v1",
+            "nomic-ai/cornstack-ruby-v1"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 14.14,
+            "fp8_int8": 7.07,
+            "int4": 3.54
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "11114029805cee545ef111d5144b623787462a52",
+          "created_at": "2025-03-24T15:31:52.000Z",
+          "last_modified": "2025-03-31T18:41:14.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "nomic-embed-code",
+  "developer": "nomic-ai",
+  "source_repository": "https://huggingface.co/nomic-ai/nomic-embed-code",
+  "current_repository_sha": "11114029805cee545ef111d5144b623787462a52",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nomic-ai-nomic-embed-code/history/",
+  "diff_url": "https://openmodelweights.com/diff/nomic-ai-nomic-embed-code/"
+}

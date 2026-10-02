@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nousresearch-hermes-3-llama-3-1-8b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "896ea440e5a9-522f98b2a2",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "896ea440e5a9e6070e3d8a2774daf2b481ab425b",
+      "evidence_hash": "522f98b2a29465796e8507ac78c42c9e23dd68a65b2ab864d5798166e3dd921f",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/NousResearch/Hermes-3-Llama-3.1-8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Hermes-3-Llama-3.1-8B",
+          "developer": "NousResearch",
+          "family": "Hermes-3-Llama-3.1",
+          "variant": "Hermes-3-Llama-3.1-8B"
+        },
+        "model": {
+          "parameters": "8.03026B",
+          "total_parameters_billions": 8.030261248,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "llama3",
+          "id": "llama3",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "meta-llama/Meta-Llama-3.1-8B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 16.06,
+            "fp8_int8": 8.03,
+            "int4": 4.02
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "896ea440e5a9e6070e3d8a2774daf2b481ab425b",
+          "created_at": "2024-07-28T06:00:57.000Z",
+          "last_modified": "2024-09-08T07:39:55.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Hermes-3-Llama-3.1-8B",
+  "developer": "NousResearch",
+  "source_repository": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+  "current_repository_sha": "896ea440e5a9e6070e3d8a2774daf2b481ab425b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nousresearch-hermes-3-llama-3-1-8b/history/",
+  "diff_url": "https://openmodelweights.com/diff/nousresearch-hermes-3-llama-3-1-8b/"
+}

@@ -1,0 +1,111 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "docling-project-docling-models",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "2199320848bb-127103853d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "2199320848bb9a8a519d22e4b528185a4f9a6f64",
+      "evidence_hash": "127103853d4f1301f646073364121852aba5ef2e2353eb35c40052113a6885a2",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/docling-project/docling-models",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/docling-project/docling-models",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/docling-project/docling-models",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/docling-project/docling-models/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/docling-project/docling-models/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "docling-models",
+          "developer": "docling-project",
+          "family": "docling-models",
+          "variant": "docling-models"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "['cdla-permissive-2.0', 'apache-2.0']",
+          "id": "['cdla-permissive-2.0', 'apache-2.0']",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/docling-project/docling-models",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+            "model_artifacts/tableformer/fast/tableformer_fast.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "2199320848bb9a8a519d22e4b528185a4f9a6f64",
+          "created_at": "2024-07-02T12:26:11.000Z",
+          "last_modified": "2025-12-03T10:16:37.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "docling-models",
+  "developer": "docling-project",
+  "source_repository": "https://huggingface.co/docling-project/docling-models",
+  "current_repository_sha": "2199320848bb9a8a519d22e4b528185a4f9a6f64",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/docling-project-docling-models/history/",
+  "diff_url": "https://openmodelweights.com/diff/docling-project-docling-models/"
+}

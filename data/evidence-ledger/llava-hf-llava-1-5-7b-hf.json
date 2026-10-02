@@ -1,0 +1,126 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "llava-hf-llava-1-5-7b-hf",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b234b804b114-e834b28f92",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b234b804b114d9e37bb655e11cbbb5f5e971b7a9",
+      "evidence_hash": "e834b28f92e203b272746136ae4ccbed2274f12c44c252646ec28ddf48a38540",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/llava-hf/llava-1.5-7b-hf",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/llava-hf/llava-1.5-7b-hf",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/llava-hf/llava-1.5-7b-hf",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/llava-hf/llava-1.5-7b-hf/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/llava-hf/llava-1.5-7b-hf/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "llava-1.5-7b-hf",
+          "developer": "llava-hf",
+          "family": "llava-1.5",
+          "variant": "llava-1.5-7b-hf"
+        },
+        "model": {
+          "parameters": "7.06343B",
+          "total_parameters_billions": 7.063427072,
+          "context_tokens": 4096,
+          "context_display": "4,096 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "llama2",
+          "id": "llama2",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/llava-hf/llava-1.5-7b-hf",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model-00001-of-00003.safetensors",
+            "model-00002-of-00003.safetensors",
+            "model-00003-of-00003.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "liuhaotian/LLaVA-Instruct-150K"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 14.13,
+            "fp8_int8": 7.06,
+            "int4": 3.53
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "b234b804b114d9e37bb655e11cbbb5f5e971b7a9",
+          "created_at": "2023-12-05T09:31:24.000Z",
+          "last_modified": "2025-06-06T08:42:20.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "llava-1.5-7b-hf",
+  "developer": "llava-hf",
+  "source_repository": "https://huggingface.co/llava-hf/llava-1.5-7b-hf",
+  "current_repository_sha": "b234b804b114d9e37bb655e11cbbb5f5e971b7a9",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/llava-hf-llava-1-5-7b-hf/history/",
+  "diff_url": "https://openmodelweights.com/diff/llava-hf-llava-1-5-7b-hf/"
+}

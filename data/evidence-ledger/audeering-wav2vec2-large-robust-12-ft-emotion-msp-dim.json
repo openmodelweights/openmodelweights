@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "audeering-wav2vec2-large-robust-12-ft-emotion-msp-dim",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6eba34a2485e-853228ed1a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6eba34a2485ea31cb03600241787c3a5edab8626",
+      "evidence_hash": "853228ed1a5e1b2e4b578e8be2ed5505c0149d7aef91913630cfe44c27b131bf",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "wav2vec2-large-robust-12-ft-emotion-msp-dim",
+          "developer": "audeering",
+          "family": "wav2vec2-large-robust-12-ft-emotion-msp-dim",
+          "variant": "wav2vec2-large-robust-12-ft-emotion-msp-dim"
+        },
+        "model": {
+          "parameters": "0.165337B",
+          "total_parameters_billions": 0.165336707,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio Classification"
+        },
+        "license": {
+          "name": "cc-by-nc-sa-4.0",
+          "id": "cc-by-nc-sa-4.0",
+          "url": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "msp-podcast"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.33,
+            "fp8_int8": 0.17,
+            "int4": 0.08
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6eba34a2485ea31cb03600241787c3a5edab8626",
+          "created_at": "2022-04-06T12:40:02.000Z",
+          "last_modified": "2024-09-19T08:07:19.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "wav2vec2-large-robust-12-ft-emotion-msp-dim",
+  "developer": "audeering",
+  "source_repository": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+  "current_repository_sha": "6eba34a2485ea31cb03600241787c3a5edab8626",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/audeering-wav2vec2-large-robust-12-ft-emotion-msp-dim/history/",
+  "diff_url": "https://openmodelweights.com/diff/audeering-wav2vec2-large-robust-12-ft-emotion-msp-dim/"
+}

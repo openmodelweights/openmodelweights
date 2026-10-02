@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-vibevoice-1-5b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "c00898d257e6-27fa234ecd",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "c00898d257e6b46004e3e2866a47534085fb685a",
+      "evidence_hash": "27fa234ecd49209943b2e2a3ab14ddc016ad99438368cb924d473c3ad186ff47",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/VibeVoice-1.5B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/VibeVoice-1.5B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/VibeVoice-1.5B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/VibeVoice-1.5B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/VibeVoice-1.5B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "VibeVoice-1.5B",
+          "developer": "Microsoft",
+          "family": "VibeVoice",
+          "variant": "VibeVoice-1.5B"
+        },
+        "model": {
+          "parameters": "2.70402B",
+          "total_parameters_billions": 2.704021985,
+          "context_tokens": 65536,
+          "context_display": "65,536 tokens",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/VibeVoice-1.5B",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model-00001-of-00003.safetensors",
+            "model-00002-of-00003.safetensors",
+            "model-00003-of-00003.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 5.41,
+            "fp8_int8": 2.7,
+            "int4": 1.35
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "c00898d257e6b46004e3e2866a47534085fb685a",
+          "created_at": "2025-08-25T13:46:48.000Z",
+          "last_modified": "2026-01-22T07:22:28.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "VibeVoice-1.5B",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/VibeVoice-1.5B",
+  "current_repository_sha": "c00898d257e6b46004e3e2866a47534085fb685a",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-vibevoice-1-5b/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-vibevoice-1-5b/"
+}

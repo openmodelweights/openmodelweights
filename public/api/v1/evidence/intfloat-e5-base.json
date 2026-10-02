@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "intfloat-e5-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b533fe4636f4-799c07236d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b533fe4636f4a2507c08ddab40644d20b0006d6a",
+      "evidence_hash": "799c07236d3ffb3d02b375fd7048797c229f3f10be46706b579ef782d9a4513a",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/intfloat/e5-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/intfloat/e5-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/intfloat/e5-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/intfloat/e5-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/intfloat/e5-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "e5-base",
+          "developer": "intfloat",
+          "family": "e5",
+          "variant": "e5-base"
+        },
+        "model": {
+          "parameters": "0.109483B",
+          "total_parameters_billions": 0.109482752,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/intfloat/e5-base",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "b533fe4636f4a2507c08ddab40644d20b0006d6a",
+          "created_at": "2022-12-26T05:58:05.000Z",
+          "last_modified": "2023-08-07T04:59:19.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "e5-base",
+  "developer": "intfloat",
+  "source_repository": "https://huggingface.co/intfloat/e5-base",
+  "current_repository_sha": "b533fe4636f4a2507c08ddab40644d20b0006d6a",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/intfloat-e5-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/intfloat-e5-base/"
+}

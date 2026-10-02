@@ -1,0 +1,123 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-florence-2-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5ca5edf5bd01-5866142818",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5ca5edf5bd017b9919c05d08aebef5e4c7ac3bac",
+      "evidence_hash": "586614281891f58b583350c52825e3a4014130e6db4839db96db13d79ec7776d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/Florence-2-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/Florence-2-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/Florence-2-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/Florence-2-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/Florence-2-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/microsoft/Florence-2-base/resolve/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Florence-2-base",
+          "developer": "Microsoft",
+          "family": "Florence-2",
+          "variant": "Florence-2-base"
+        },
+        "model": {
+          "parameters": "0.231568B",
+          "total_parameters_billions": 0.231567705,
+          "context_tokens": 1024,
+          "context_display": "1,024 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/microsoft/Florence-2-base/resolve/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/Florence-2-base",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.46,
+            "fp8_int8": 0.23,
+            "int4": 0.12
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "5ca5edf5bd017b9919c05d08aebef5e4c7ac3bac",
+          "created_at": "2024-06-15T00:57:24.000Z",
+          "last_modified": "2025-08-04T17:36:57.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Florence-2-base",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/Florence-2-base",
+  "current_repository_sha": "5ca5edf5bd017b9919c05d08aebef5e4c7ac3bac",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-florence-2-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-florence-2-base/"
+}

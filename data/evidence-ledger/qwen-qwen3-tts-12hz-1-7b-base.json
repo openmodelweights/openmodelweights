@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen-qwen3-tts-12hz-1-7b-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "fd4b25438912-ca4dbb02e1",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "fd4b254389122332181a7c3db7f27e918eec64e3",
+      "evidence_hash": "ca4dbb02e16fda258d5e72cd07120bae4127dc9f84692c2c1d5e4967a3c65fe7",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-TTS-12Hz-1.7B-Base",
+          "developer": "Qwen",
+          "family": "Qwen3-TTS-12Hz",
+          "variant": "Qwen3-TTS-12Hz-1.7B-Base"
+        },
+        "model": {
+          "parameters": "1.92868B",
+          "total_parameters_billions": 1.92867744,
+          "context_tokens": 65536,
+          "context_display": "65,536 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "speech_tokenizer/model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 3.86,
+            "fp8_int8": 1.93,
+            "int4": 0.96
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "fd4b254389122332181a7c3db7f27e918eec64e3",
+          "created_at": "2026-01-21T08:57:11.000Z",
+          "last_modified": "2026-01-23T05:25:33.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-TTS-12Hz-1.7B-Base",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+  "current_repository_sha": "fd4b254389122332181a7c3db7f27e918eec64e3",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen-qwen3-tts-12hz-1-7b-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen-qwen3-tts-12hz-1-7b-base/"
+}

@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "distilbert-distilgpt2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "2290a62682d0-9ec0bb5b78",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "2290a62682d06624634c1f46a6ad5be0f47f38aa",
+      "evidence_hash": "9ec0bb5b7830508394ea291a7214a57bbce822102716272b2f96455aa9ede889",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/distilbert/distilgpt2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/distilbert/distilgpt2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/distilbert/distilgpt2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/distilbert/distilgpt2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/distilbert/distilgpt2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "distilgpt2",
+          "developer": "distilbert",
+          "family": "distilgpt2",
+          "variant": "distilgpt2"
+        },
+        "model": {
+          "parameters": "0.088204B",
+          "total_parameters_billions": 0.088204032,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/distilbert/distilgpt2",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "64.tflite",
+            "coreml/text-generation/float32_model.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+            "coreml/text-generation/float32_model.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+            "coreml_model.mlmodel",
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "CoreML",
+            "PyTorch",
+            "Safetensors",
+            "TFLite"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "openwebtext"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.18,
+            "fp8_int8": 0.09,
+            "int4": 0.04
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "2290a62682d06624634c1f46a6ad5be0f47f38aa",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2024-02-19T11:09:53.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "distilgpt2",
+  "developer": "distilbert",
+  "source_repository": "https://huggingface.co/distilbert/distilgpt2",
+  "current_repository_sha": "2290a62682d06624634c1f46a6ad5be0f47f38aa",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/distilbert-distilgpt2/history/",
+  "diff_url": "https://openmodelweights.com/diff/distilbert-distilgpt2/"
+}

@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-harrier-oss-v1-0-6b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f9b9dc8d367d-7bb17be31a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+      "evidence_hash": "7bb17be31ae817dde63aa49f7d0b89d0addb7c15bfe8145d4fc37ece4209e2c6",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/harrier-oss-v1-0.6b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "harrier-oss-v1-0.6b",
+          "developer": "Microsoft",
+          "family": "harrier-oss-v1",
+          "variant": "harrier-oss-v1-0.6b"
+        },
+        "model": {
+          "parameters": "0.59605B",
+          "total_parameters_billions": 0.59604992,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.19,
+            "fp8_int8": 0.6,
+            "int4": 0.3
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+          "created_at": "2026-03-30T08:00:39.000Z",
+          "last_modified": "2026-03-30T08:00:59.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "harrier-oss-v1-0.6b",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+  "current_repository_sha": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-harrier-oss-v1-0-6b/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-harrier-oss-v1-0-6b/"
+}

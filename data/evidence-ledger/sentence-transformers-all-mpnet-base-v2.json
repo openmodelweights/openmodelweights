@@ -1,0 +1,153 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sentence-transformers-all-mpnet-base-v2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e8c3b32edf54-9b14dc0d7a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "evidence_hash": "9b14dc0d7a8f35822a1ae1a803c33116f88ab2c18772e43d0f7abd2389dfa5cf",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "all-mpnet-base-v2",
+          "developer": "Sentence Transformers",
+          "family": "all-mpnet-base-v2",
+          "variant": "all-mpnet-base-v2"
+        },
+        "model": {
+          "parameters": "0.109487B",
+          "total_parameters_billions": 0.109486978,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+          "access": "public",
+          "file_count": 13,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O1.onnx",
+            "onnx/model_O2.onnx",
+            "onnx/model_O3.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_arm64.onnx",
+            "onnx/model_qint8_avx512.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "onnx/model_quint8_avx2.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "code_search_net",
+            "eli5",
+            "embedding-data/PAQ_pairs",
+            "embedding-data/QQP",
+            "embedding-data/SPECTER",
+            "embedding-data/WikiAnswers",
+            "embedding-data/altlex",
+            "embedding-data/flickr30k-captions",
+            "embedding-data/sentence-compression",
+            "embedding-data/simple-wiki",
+            "flax-sentence-embeddings/stackexchange_xml",
+            "gooaq",
+            "ms_marco",
+            "multi_nli",
+            "natural_questions",
+            "s2orc",
+            "search_qa",
+            "snli",
+            "trivia_qa",
+            "wikihow",
+            "yahoo_answers_topics"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2025-08-19T10:14:25.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "all-mpnet-base-v2",
+  "developer": "Sentence Transformers",
+  "source_repository": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+  "current_repository_sha": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sentence-transformers-all-mpnet-base-v2/history/",
+  "diff_url": "https://openmodelweights.com/diff/sentence-transformers-all-mpnet-base-v2/"
+}

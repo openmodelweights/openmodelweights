@@ -1,0 +1,156 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sentence-transformers-all-minilm-l6-v2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1110a243fdf4-0aad10d843",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "evidence_hash": "0aad10d843a3c91dceabc5c8ff1c81a3cc8c42b6731e5783473e366bc05acc93",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "all-MiniLM-L6-v2",
+          "developer": "Sentence Transformers",
+          "family": "all-MiniLM-L6-v2",
+          "variant": "all-MiniLM-L6-v2"
+        },
+        "model": {
+          "parameters": "0.0227137B",
+          "total_parameters_billions": 0.022713728,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+          "access": "public",
+          "file_count": 14,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O1.onnx",
+            "onnx/model_O2.onnx",
+            "onnx/model_O3.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_arm64.onnx",
+            "onnx/model_qint8_avx512.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "onnx/model_quint8_avx2.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "nreimers/MiniLM-L6-H384-uncased"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "code_search_net",
+            "eli5",
+            "embedding-data/PAQ_pairs",
+            "embedding-data/QQP",
+            "embedding-data/SPECTER",
+            "embedding-data/WikiAnswers",
+            "embedding-data/altlex",
+            "embedding-data/flickr30k-captions",
+            "embedding-data/sentence-compression",
+            "embedding-data/simple-wiki",
+            "flax-sentence-embeddings/stackexchange_xml",
+            "gooaq",
+            "ms_marco",
+            "multi_nli",
+            "natural_questions",
+            "s2orc",
+            "search_qa",
+            "snli",
+            "trivia_qa",
+            "wikihow",
+            "yahoo_answers_topics"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.05,
+            "fp8_int8": 0.02,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2026-06-01T06:29:13.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "all-MiniLM-L6-v2",
+  "developer": "Sentence Transformers",
+  "source_repository": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+  "current_repository_sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sentence-transformers-all-minilm-l6-v2/history/",
+  "diff_url": "https://openmodelweights.com/diff/sentence-transformers-all-minilm-l6-v2/"
+}

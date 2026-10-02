@@ -1,0 +1,156 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-nemotron-3-nano-30b-a3b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "bf77c3174f68-64872f4ca5",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "bf77c3174f68ad409e1c2aa60daeb46e32d1c606",
+      "evidence_hash": "64872f4ca50188f2bfec0da19a44b43091f5646e94a63a23adc33b5d2c718521",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "NVIDIA Nemotron 3 Nano 30B-A3B",
+          "developer": "NVIDIA",
+          "family": "Nemotron 3",
+          "variant": "Nano 30B-A3B"
+        },
+        "model": {
+          "parameters": "31B total / ~3B active",
+          "total_parameters_billions": 31.0,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "nvidia-nemotron-open-model-license",
+          "id": "other",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+          "access": "public",
+          "file_count": 14,
+          "exact_files": [
+            "model-00001-of-00013.safetensors",
+            "model-00002-of-00013.safetensors",
+            "model-00003-of-00013.safetensors",
+            "model-00004-of-00013.safetensors",
+            "model-00005-of-00013.safetensors",
+            "model-00006-of-00013.safetensors",
+            "model-00007-of-00013.safetensors",
+            "model-00008-of-00013.safetensors",
+            "model-00009-of-00013.safetensors",
+            "model-00010-of-00013.safetensors",
+            "model-00011-of-00013.safetensors",
+            "model-00012-of-00013.safetensors",
+            "model-00013-of-00013.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "nvidia/Nemotron-3-Nano-RL-Training-Blend",
+            "nvidia/Nemotron-Agentic-v1",
+            "nvidia/Nemotron-CC-Code-v1",
+            "nvidia/Nemotron-CC-Math-v1",
+            "nvidia/Nemotron-CC-v2",
+            "nvidia/Nemotron-CC-v2.1",
+            "nvidia/Nemotron-Competitive-Programming-v1",
+            "nvidia/Nemotron-Instruction-Following-Chat-v1",
+            "nvidia/Nemotron-Math-Proofs-v1",
+            "nvidia/Nemotron-Math-v2",
+            "nvidia/Nemotron-Pretraining-Code-v1",
+            "nvidia/Nemotron-Pretraining-Code-v2",
+            "nvidia/Nemotron-Pretraining-Dataset-sample",
+            "nvidia/Nemotron-Pretraining-SFT-v1",
+            "nvidia/Nemotron-Pretraining-Specialized-v1",
+            "nvidia/Nemotron-Science-v1"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "NeMo",
+            "SGLang",
+            "TensorRT-LLM",
+            "Transformers",
+            "llama.cpp",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 62.0,
+            "fp8_int8": 31.0,
+            "int4": 15.5
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "bf77c3174f68ad409e1c2aa60daeb46e32d1c606",
+          "created_at": "2025-12-04T03:37:11.000Z",
+          "last_modified": "2026-08-24T23:50:04.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "NVIDIA Nemotron 3 Nano 30B-A3B",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+  "current_repository_sha": "bf77c3174f68ad409e1c2aa60daeb46e32d1c606",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-nemotron-3-nano-30b-a3b/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-nemotron-3-nano-30b-a3b/"
+}

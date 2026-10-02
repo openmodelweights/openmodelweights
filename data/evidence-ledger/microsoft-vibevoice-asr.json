@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-vibevoice-asr",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d0c9efdb8d61-da8c4c6c2a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d0c9efdb8d614685062c04425d91e01b6f37d944",
+      "evidence_hash": "da8c4c6c2a5e778dc8ae18833daf86e5b2b757584c3b5ae304e490acf1539b57",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/VibeVoice-ASR",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/VibeVoice-ASR",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/VibeVoice-ASR",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/VibeVoice-ASR/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/VibeVoice-ASR/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "VibeVoice-ASR",
+          "developer": "Microsoft",
+          "family": "VibeVoice-ASR",
+          "variant": "VibeVoice-ASR"
+        },
+        "model": {
+          "parameters": "8.67402B",
+          "total_parameters_billions": 8.674021857,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/VibeVoice-ASR",
+          "access": "public",
+          "file_count": 9,
+          "exact_files": [
+            "model-00001-of-00008.safetensors",
+            "model-00002-of-00008.safetensors",
+            "model-00003-of-00008.safetensors",
+            "model-00004-of-00008.safetensors",
+            "model-00005-of-00008.safetensors",
+            "model-00006-of-00008.safetensors",
+            "model-00007-of-00008.safetensors",
+            "model-00008-of-00008.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 17.35,
+            "fp8_int8": 8.67,
+            "int4": 4.34
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "d0c9efdb8d614685062c04425d91e01b6f37d944",
+          "created_at": "2026-01-21T15:04:18.000Z",
+          "last_modified": "2026-01-27T13:12:22.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "VibeVoice-ASR",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/VibeVoice-ASR",
+  "current_repository_sha": "d0c9efdb8d614685062c04425d91e01b6f37d944",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-vibevoice-asr/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-vibevoice-asr/"
+}

@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "hauhaucs-gemma4-12b-qat-uncensored-hauhaucs-balanced",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ae8045ac2bd2-a05991f5ff",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ae8045ac2bd216293ca49a3065da2c942dde4b68",
+      "evidence_hash": "a05991f5ff86db66c89bb50bfb574662c76d3daa17da221c4e78b61bb0dc12a8",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+          "developer": "HauhauCS",
+          "family": "Gemma4",
+          "variant": "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "gemma",
+          "id": "gemma",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced-Q4_K_M.gguf",
+            "mmproj-Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced-BF16.gguf",
+            "mtp-gemma-4-12B-it.gguf"
+          ],
+          "formats": [
+            "GGUF"
+          ],
+          "precision": [
+            "bf16",
+            "gguf"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "google/gemma-4-12B-it"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+            "llama.cpp"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "ae8045ac2bd216293ca49a3065da2c942dde4b68",
+          "created_at": "2026-06-22T14:32:34.000Z",
+          "last_modified": "2026-06-25T00:22:34.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+  "developer": "HauhauCS",
+  "source_repository": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+  "current_repository_sha": "ae8045ac2bd216293ca49a3065da2c942dde4b68",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/hauhaucs-gemma4-12b-qat-uncensored-hauhaucs-balanced/history/",
+  "diff_url": "https://openmodelweights.com/diff/hauhaucs-gemma4-12b-qat-uncensored-hauhaucs-balanced/"
+}

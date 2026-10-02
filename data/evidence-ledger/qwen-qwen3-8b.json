@@ -1,0 +1,133 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen-qwen3-8b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b968826d9c46-2d4a587c74",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b968826d9c46dd6066d109eabc6255188de91218",
+      "evidence_hash": "2d4a587c741361db5eaf5da7306f79b222e31534b3ae6bcf8228c8c0f2aef818",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-8B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3-8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3-8B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3-8B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-8B",
+          "developer": "Qwen",
+          "family": "Qwen3",
+          "variant": "Qwen3-8B"
+        },
+        "model": {
+          "parameters": "8.19074B",
+          "total_parameters_billions": 8.19073536,
+          "context_tokens": 40960,
+          "context_display": "40,960 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3-8B",
+          "access": "public",
+          "file_count": 6,
+          "exact_files": [
+            "model-00001-of-00005.safetensors",
+            "model-00002-of-00005.safetensors",
+            "model-00003-of-00005.safetensors",
+            "model-00004-of-00005.safetensors",
+            "model-00005-of-00005.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-8B-Base"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "MLX",
+            "Ollama",
+            "SGLang",
+            "Transformers",
+            "llama.cpp",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 16.38,
+            "fp8_int8": 8.19,
+            "int4": 4.1
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "b968826d9c46dd6066d109eabc6255188de91218",
+          "created_at": "2025-04-27T03:42:21.000Z",
+          "last_modified": "2025-07-26T03:49:13.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-8B",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3-8B",
+  "current_repository_sha": "b968826d9c46dd6066d109eabc6255188de91218",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen-qwen3-8b/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen-qwen3-8b/"
+}

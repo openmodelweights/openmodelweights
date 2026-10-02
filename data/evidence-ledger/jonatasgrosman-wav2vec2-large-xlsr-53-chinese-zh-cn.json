@@ -1,0 +1,112 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "jonatasgrosman-wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "99ccb2737be2-5103445ee2",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+      "evidence_hash": "5103445ee295728fa07e0240791ede4248c413d62aa46e74e6039396dbb0cf6b",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "wav2vec2-large-xlsr-53-chinese-zh-cn",
+          "developer": "jonatasgrosman",
+          "family": "wav2vec2-large-xlsr-53-chinese-zh-cn",
+          "variant": "wav2vec2-large-xlsr-53-chinese-zh-cn"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "common_voice"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2022-12-14T01:58:32.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "developer": "jonatasgrosman",
+  "source_repository": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn",
+  "current_repository_sha": "99ccb2737be22b8bb50dcfcc39ad4d567fb90cfd",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/jonatasgrosman-wav2vec2-large-xlsr-53-chinese-zh-cn/history/",
+  "diff_url": "https://openmodelweights.com/diff/jonatasgrosman-wav2vec2-large-xlsr-53-chinese-zh-cn/"
+}

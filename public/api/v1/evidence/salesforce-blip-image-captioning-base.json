@@ -1,0 +1,111 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "salesforce-blip-image-captioning-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "82a37760796d-06b819a40a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "82a37760796d32b1411fe092ab5d4e227313294b",
+      "evidence_hash": "06b819a40a013dcca54def4aaf2c10c6bd3319715d8b6b0ea4eb48e4b4b13120",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Salesforce/blip-image-captioning-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Salesforce/blip-image-captioning-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Salesforce/blip-image-captioning-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Salesforce/blip-image-captioning-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Salesforce/blip-image-captioning-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "blip-image-captioning-base",
+          "developer": "Salesforce",
+          "family": "blip-image-captioning",
+          "variant": "blip-image-captioning-base"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Image To Text"
+        },
+        "license": {
+          "name": "BSD-3-CLAUSE",
+          "id": "bsd-3-clause",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under BSD-3-CLAUSE conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Salesforce/blip-image-captioning-base",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "82a37760796d32b1411fe092ab5d4e227313294b",
+          "created_at": "2022-12-12T15:19:02.000Z",
+          "last_modified": "2025-02-03T06:45:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "blip-image-captioning-base",
+  "developer": "Salesforce",
+  "source_repository": "https://huggingface.co/Salesforce/blip-image-captioning-base",
+  "current_repository_sha": "82a37760796d32b1411fe092ab5d4e227313294b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/salesforce-blip-image-captioning-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/salesforce-blip-image-captioning-base/"
+}

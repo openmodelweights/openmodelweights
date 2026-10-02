@@ -1,0 +1,57 @@
+{
+  "protocol_version": "1.0.0",
+  "benchmark_id": "omw-deployment-v1",
+  "purpose": "Reproducible deployment-performance evidence for open-weight model artifacts; not a general intelligence or quality ranking.",
+  "measurement": {
+    "warmup_runs": 2,
+    "measured_runs": 5,
+    "concurrency": 1,
+    "temperature": 0,
+    "max_new_tokens": 128,
+    "report_aggregation": "median across measured runs; retain per-run raw values in evidence artifact"
+  },
+  "required_environment": [
+    "model_id",
+    "source_repository_sha",
+    "weight_artifact_or_quantization",
+    "runtime_name",
+    "runtime_version",
+    "runtime_command_or_config",
+    "hardware_vendor",
+    "hardware_model",
+    "device_count",
+    "device_memory_gb",
+    "driver_version",
+    "framework_versions",
+    "operating_system",
+    "input_tokens",
+    "output_tokens",
+    "date_utc"
+  ],
+  "required_metrics": [
+    {
+      "name": "time_to_first_token_ms",
+      "unit": "ms"
+    },
+    {
+      "name": "output_tokens_per_second",
+      "unit": "tokens/s"
+    },
+    {
+      "name": "peak_device_memory_gb",
+      "unit": "GB"
+    },
+    {
+      "name": "peak_host_memory_gb",
+      "unit": "GB",
+      "optional": true
+    }
+  ],
+  "rules": [
+    "No extrapolated or vendor-marketing numbers.",
+    "Every accepted result must identify the exact source repository revision and runtime version.",
+    "Results from different precisions, quantizations, runtimes or hardware are separate observations.",
+    "Weight-only memory estimates from the registry are not benchmark measurements.",
+    "Raw command/config and a public evidence artifact URL are required for accepted community submissions."
+  ]
+}

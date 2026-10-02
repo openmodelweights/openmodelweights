@@ -1,0 +1,129 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "openai-community-gpt2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "607a30d783df-5dd71e9ec0",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "evidence_hash": "5dd71e9ec059ac5dd93bbe576fc1733ec5ac1ac7bf47af57fa74f98581a81d51",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/openai-community/gpt2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/openai-community/gpt2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/openai-community/gpt2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/openai-community/gpt2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/openai-community/gpt2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gpt2",
+          "developer": "openai-community",
+          "family": "gpt2",
+          "variant": "gpt2"
+        },
+        "model": {
+          "parameters": "0.137023B",
+          "total_parameters_billions": 0.13702272,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/openai-community/gpt2",
+          "access": "public",
+          "file_count": 9,
+          "exact_files": [
+            "64-8bits.tflite",
+            "64-fp16.tflite",
+            "64.tflite",
+            "model.safetensors",
+            "onnx/decoder_model.onnx",
+            "onnx/decoder_model_merged.onnx",
+            "onnx/decoder_with_past_model.onnx",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors",
+            "TFLite"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.27,
+            "fp8_int8": 0.14,
+            "int4": 0.07
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2024-02-19T10:57:45.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gpt2",
+  "developer": "openai-community",
+  "source_repository": "https://huggingface.co/openai-community/gpt2",
+  "current_repository_sha": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/openai-community-gpt2/history/",
+  "diff_url": "https://openmodelweights.com/diff/openai-community-gpt2/"
+}

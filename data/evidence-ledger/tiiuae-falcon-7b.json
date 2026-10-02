@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "tiiuae-falcon-7b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ec89142b67d7-c8de932315",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ec89142b67d748a1865ea4451372db8313ada0d8",
+      "evidence_hash": "c8de93231535c9dc79045d44e7e33e240529c15e0587149fc2aacf4f19d71e26",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/tiiuae/falcon-7b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/tiiuae/falcon-7b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/tiiuae/falcon-7b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/tiiuae/falcon-7b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/tiiuae/falcon-7b/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "falcon-7b",
+          "developer": "Technology Innovation Institute",
+          "family": "falcon",
+          "variant": "falcon-7b"
+        },
+        "model": {
+          "parameters": "7.21719B",
+          "total_parameters_billions": 7.21718976,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/tiiuae/falcon-7b",
+          "access": "public",
+          "file_count": 6,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json",
+            "pytorch_model-00001-of-00002.bin",
+            "pytorch_model-00002-of-00002.bin",
+            "pytorch_model.bin.index.json"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "tiiuae/falcon-refinedweb"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "TGI",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 14.43,
+            "fp8_int8": 7.22,
+            "int4": 3.61
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ec89142b67d748a1865ea4451372db8313ada0d8",
+          "created_at": "2023-04-24T16:36:24.000Z",
+          "last_modified": "2024-10-12T13:20:18.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "falcon-7b",
+  "developer": "Technology Innovation Institute",
+  "source_repository": "https://huggingface.co/tiiuae/falcon-7b",
+  "current_repository_sha": "ec89142b67d748a1865ea4451372db8313ada0d8",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/tiiuae-falcon-7b/history/",
+  "diff_url": "https://openmodelweights.com/diff/tiiuae-falcon-7b/"
+}

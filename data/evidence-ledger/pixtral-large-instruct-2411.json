@@ -1,0 +1,169 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "pixtral-large-instruct-2411",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "c1e51f6f1197-6cee3cda79",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "c1e51f6f11974a1199685d35c62f5a425c2d001e",
+      "evidence_hash": "6cee3cda7985cbf3e6d73355f0065378b527d365822a0fab798d1f0eb7df0165",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Pixtral-Large-Instruct-2411",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://mistral.ai/licenses/MRL-0.1.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Pixtral-Large-Instruct-2411",
+          "developer": "Mistral AI",
+          "family": "Pixtral",
+          "variant": "Large-Instruct-2411"
+        },
+        "model": {
+          "parameters": "—",
+          "total_parameters_billions": null,
+          "context_tokens": 128000,
+          "context_display": "128,000 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "Mistral Research License",
+          "id": "other",
+          "url": "https://mistral.ai/licenses/MRL-0.1.md",
+          "commercial_use_status": "not-allowed",
+          "commercial_use_label": "Commercial use is not permitted without a separate Mistral commercial license"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411",
+          "access": "public",
+          "file_count": 53,
+          "exact_files": [
+            "consolidated-00001-of-00052.safetensors",
+            "consolidated-00002-of-00052.safetensors",
+            "consolidated-00003-of-00052.safetensors",
+            "consolidated-00004-of-00052.safetensors",
+            "consolidated-00005-of-00052.safetensors",
+            "consolidated-00006-of-00052.safetensors",
+            "consolidated-00007-of-00052.safetensors",
+            "consolidated-00008-of-00052.safetensors",
+            "consolidated-00009-of-00052.safetensors",
+            "consolidated-00010-of-00052.safetensors",
+            "consolidated-00011-of-00052.safetensors",
+            "consolidated-00012-of-00052.safetensors",
+            "consolidated-00013-of-00052.safetensors",
+            "consolidated-00014-of-00052.safetensors",
+            "consolidated-00015-of-00052.safetensors",
+            "consolidated-00016-of-00052.safetensors",
+            "consolidated-00017-of-00052.safetensors",
+            "consolidated-00018-of-00052.safetensors",
+            "consolidated-00019-of-00052.safetensors",
+            "consolidated-00020-of-00052.safetensors",
+            "consolidated-00021-of-00052.safetensors",
+            "consolidated-00022-of-00052.safetensors",
+            "consolidated-00023-of-00052.safetensors",
+            "consolidated-00024-of-00052.safetensors",
+            "consolidated-00025-of-00052.safetensors",
+            "consolidated-00026-of-00052.safetensors",
+            "consolidated-00027-of-00052.safetensors",
+            "consolidated-00028-of-00052.safetensors",
+            "consolidated-00029-of-00052.safetensors",
+            "consolidated-00030-of-00052.safetensors",
+            "consolidated-00031-of-00052.safetensors",
+            "consolidated-00032-of-00052.safetensors",
+            "consolidated-00033-of-00052.safetensors",
+            "consolidated-00034-of-00052.safetensors",
+            "consolidated-00035-of-00052.safetensors",
+            "consolidated-00036-of-00052.safetensors",
+            "consolidated-00037-of-00052.safetensors",
+            "consolidated-00038-of-00052.safetensors",
+            "consolidated-00039-of-00052.safetensors",
+            "consolidated-00040-of-00052.safetensors",
+            "consolidated-00041-of-00052.safetensors",
+            "consolidated-00042-of-00052.safetensors",
+            "consolidated-00043-of-00052.safetensors",
+            "consolidated-00044-of-00052.safetensors",
+            "consolidated-00045-of-00052.safetensors",
+            "consolidated-00046-of-00052.safetensors",
+            "consolidated-00047-of-00052.safetensors",
+            "consolidated-00048-of-00052.safetensors",
+            "consolidated-00049-of-00052.safetensors",
+            "consolidated-00050-of-00052.safetensors",
+            "consolidated-00051-of-00052.safetensors",
+            "consolidated-00052-of-00052.safetensors",
+            "consolidated.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "mistral-common",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "c1e51f6f11974a1199685d35c62f5a425c2d001e",
+          "created_at": "2024-11-14T20:07:26.000Z",
+          "last_modified": "2026-06-02T04:46:39.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Pixtral-Large-Instruct-2411",
+  "developer": "Mistral AI",
+  "source_repository": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411",
+  "current_repository_sha": "c1e51f6f11974a1199685d35c62f5a425c2d001e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/pixtral-large-instruct-2411/history/",
+  "diff_url": "https://openmodelweights.com/diff/pixtral-large-instruct-2411/"
+}

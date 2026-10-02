@@ -1,0 +1,127 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "comfy-org-stable-diffusion-3-5-fp8",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "934251d1e616-39782bd035",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "934251d1e6168bcb45a069abc5bd5cdd5f8fea00",
+      "evidence_hash": "39782bd0357ee573e1ca3c5b6645203f81d31a2a3f43184743d61eb6a2668196",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Comfy-Org/stable-diffusion-3.5-fp8",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large/blob/main/LICENSE.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "stable-diffusion-3.5-fp8",
+          "developer": "Comfy-Org",
+          "family": "stable-diffusion-3.5",
+          "variant": "stable-diffusion-3.5-fp8"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "stabilityai-ai-community",
+          "id": "other",
+          "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large/blob/main/LICENSE.md",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "sd3.5_large_fp8_scaled.safetensors",
+            "sd3.5_medium_incl_clips_t5xxlfp8scaled.safetensors",
+            "text_encoders/clip_g.safetensors",
+            "text_encoders/clip_l.safetensors",
+            "text_encoders/t5xxl_fp16.safetensors",
+            "text_encoders/t5xxl_fp8_e4m3fn.safetensors",
+            "text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "stabilityai/stable-diffusion-3.5-large",
+            "stabilityai/stable-diffusion-3.5-medium"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "934251d1e6168bcb45a069abc5bd5cdd5f8fea00",
+          "created_at": "2024-10-22T01:30:14.000Z",
+          "last_modified": "2026-09-23T07:53:11.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "stable-diffusion-3.5-fp8",
+  "developer": "Comfy-Org",
+  "source_repository": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8",
+  "current_repository_sha": "934251d1e6168bcb45a069abc5bd5cdd5f8fea00",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/comfy-org-stable-diffusion-3-5-fp8/history/",
+  "diff_url": "https://openmodelweights.com/diff/comfy-org-stable-diffusion-3-5-fp8/"
+}

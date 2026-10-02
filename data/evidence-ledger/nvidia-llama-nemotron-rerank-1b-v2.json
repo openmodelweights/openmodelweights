@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-llama-nemotron-rerank-1b-v2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "828765652b05-1c5b2f8411",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "828765652b05bd439c9789d2a6d093db1caa1443",
+      "evidence_hash": "1c5b2f84119e08c965aed84ec8056228b40e04bffaaa1944cf79fb6e55eb6cf6",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/llama-nemotron-rerank-1b-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://openmdw.ai/license/1-1/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "llama-nemotron-rerank-1b-v2",
+          "developer": "NVIDIA",
+          "family": "llama-nemotron-rerank",
+          "variant": "llama-nemotron-rerank-1b-v2"
+        },
+        "model": {
+          "parameters": "1.23582B",
+          "total_parameters_billions": 1.235816448,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text Ranking"
+        },
+        "license": {
+          "name": "openmdw-1.1",
+          "id": "other",
+          "url": "https://openmdw.ai/license/1-1/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "NeMo",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2.47,
+            "fp8_int8": 1.24,
+            "int4": 0.62
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "828765652b05bd439c9789d2a6d093db1caa1443",
+          "created_at": "2025-10-16T23:09:22.000Z",
+          "last_modified": "2026-08-26T18:10:29.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "llama-nemotron-rerank-1b-v2",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/llama-nemotron-rerank-1b-v2",
+  "current_repository_sha": "828765652b05bd439c9789d2a6d093db1caa1443",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-llama-nemotron-rerank-1b-v2/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-llama-nemotron-rerank-1b-v2/"
+}

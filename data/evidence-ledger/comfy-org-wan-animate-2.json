@@ -1,0 +1,123 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "comfy-org-wan-animate-2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e7181fe1896b-cbc53d7520",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e7181fe1896b7f2ce34120d1a3663413548240d7",
+      "evidence_hash": "cbc53d7520d42354cab65c9ed82810ead733b5f73e6dfb293b168e965eee3310",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Comfy-Org/Wan-Animate-2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Comfy-Org/Wan-Animate-2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Comfy-Org/Wan-Animate-2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Comfy-Org/Wan-Animate-2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Comfy-Org/Wan-Animate-2/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Wan-Animate-2",
+          "developer": "Comfy-Org",
+          "family": "Wan-Animate-2",
+          "variant": "Wan-Animate-2"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Comfy-Org/Wan-Animate-2",
+          "access": "public",
+          "file_count": 9,
+          "exact_files": [
+            "clip_vision/clip_vision_h.safetensors",
+            "diffusion_models/wan_animate_2_bf16.safetensors",
+            "diffusion_models/wan_animate_2_distill_bf16.safetensors",
+            "diffusion_models/wan_animate_2_distill_int8_convrot.safetensors",
+            "diffusion_models/wan_animate_2_int8_convrot.safetensors",
+            "loras/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors",
+            "text_encoders/umt5_xxl_fp16.safetensors",
+            "text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+            "vae/Wan2_1_VAE_bf16.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp16",
+            "fp8",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "e7181fe1896b7f2ce34120d1a3663413548240d7",
+          "created_at": "2026-07-14T23:36:50.000Z",
+          "last_modified": "2026-09-23T08:04:43.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Wan-Animate-2",
+  "developer": "Comfy-Org",
+  "source_repository": "https://huggingface.co/Comfy-Org/Wan-Animate-2",
+  "current_repository_sha": "e7181fe1896b7f2ce34120d1a3663413548240d7",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/comfy-org-wan-animate-2/history/",
+  "diff_url": "https://openmodelweights.com/diff/comfy-org-wan-animate-2/"
+}

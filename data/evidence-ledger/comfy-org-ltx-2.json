@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "comfy-org-ltx-2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ccde4ba417d7-8a55e97370",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ccde4ba417d7900669fd56dd292a883cee11ff37",
+      "evidence_hash": "8a55e97370e632567a04b9951248ed66af43ebfaeb479b2ef28ebc670742ea38",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Comfy-Org/ltx-2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Comfy-Org/ltx-2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Comfy-Org/ltx-2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Comfy-Org/ltx-2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Comfy-Org/ltx-2/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "ltx-2",
+          "developer": "Comfy-Org",
+          "family": "ltx-2",
+          "variant": "ltx-2"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "ltx-2-community-license-agreement",
+          "id": "other",
+          "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Comfy-Org/ltx-2",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "split_files/loras/gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors",
+            "split_files/loras/gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors",
+            "split_files/loras/ltx2-squish.safetensors",
+            "split_files/text_encoders/gemma_3_12B_it.safetensors",
+            "split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors",
+            "split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors",
+            "split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "google/gemma-3-12b-it",
+            "mlabonne/gemma-3-12b-it-abliterated",
+            "ovi054/LTX-2-19b-Squish-LoRA"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "ccde4ba417d7900669fd56dd292a883cee11ff37",
+          "created_at": "2026-01-05T21:35:46.000Z",
+          "last_modified": "2026-09-23T08:00:08.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "ltx-2",
+  "developer": "Comfy-Org",
+  "source_repository": "https://huggingface.co/Comfy-Org/ltx-2",
+  "current_repository_sha": "ccde4ba417d7900669fd56dd292a883cee11ff37",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/comfy-org-ltx-2/history/",
+  "diff_url": "https://openmodelweights.com/diff/comfy-org-ltx-2/"
+}

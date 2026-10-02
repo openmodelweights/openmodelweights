@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "mistralai-mistral-7b-instruct-v0-2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "63a8b0818953-d1b2f44d84",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "63a8b081895390a26e140280378bc85ec8bce07a",
+      "evidence_hash": "d1b2f44d8468037d4cd02259d01ede00e8aa3349f584806e7a8933331918bdae",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Mistral-7B-Instruct-v0.2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Mistral-7B-Instruct-v0.2",
+          "developer": "Mistral AI",
+          "family": "Mistral",
+          "variant": "Mistral-7B-Instruct-v0.2"
+        },
+        "model": {
+          "parameters": "7.24173B",
+          "total_parameters_billions": 7.241732096,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+          "access": "public",
+          "file_count": 8,
+          "exact_files": [
+            "model-00001-of-00003.safetensors",
+            "model-00002-of-00003.safetensors",
+            "model-00003-of-00003.safetensors",
+            "model.safetensors.index.json",
+            "pytorch_model-00001-of-00003.bin",
+            "pytorch_model-00002-of-00003.bin",
+            "pytorch_model-00003-of-00003.bin",
+            "pytorch_model.bin.index.json"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "mistral-common"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 14.48,
+            "fp8_int8": 7.24,
+            "int4": 3.62
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "63a8b081895390a26e140280378bc85ec8bce07a",
+          "created_at": "2023-12-11T13:18:44.000Z",
+          "last_modified": "2025-07-24T16:57:21.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Mistral-7B-Instruct-v0.2",
+  "developer": "Mistral AI",
+  "source_repository": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+  "current_repository_sha": "63a8b081895390a26e140280378bc85ec8bce07a",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/mistralai-mistral-7b-instruct-v0-2/history/",
+  "diff_url": "https://openmodelweights.com/diff/mistralai-mistral-7b-instruct-v0-2/"
+}

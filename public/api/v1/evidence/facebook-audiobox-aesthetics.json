@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-audiobox-aesthetics",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "9b1dd8e5df9a-221044fc80",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "9b1dd8e5df9af7216e836a98974fe3b82c56ded6",
+      "evidence_hash": "221044fc80441756eb34b212f112a098c9b3d28551c50b377ed3bc280e2da09f",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/audiobox-aesthetics",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/audiobox-aesthetics",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/audiobox-aesthetics",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/audiobox-aesthetics/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/audiobox-aesthetics/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "audiobox-aesthetics",
+          "developer": "Meta",
+          "family": "audiobox-aesthetics",
+          "variant": "audiobox-aesthetics"
+        },
+        "model": {
+          "parameters": "0.103859B",
+          "total_parameters_billions": 0.103859112,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio Classification"
+        },
+        "license": {
+          "name": "CC BY 4.0",
+          "id": "cc-by-4.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed with attribution under CC BY 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/audiobox-aesthetics",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "checkpoint.pt",
+            "model.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": []
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.21,
+            "fp8_int8": 0.1,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "9b1dd8e5df9af7216e836a98974fe3b82c56ded6",
+          "created_at": "2025-02-13T23:07:40.000Z",
+          "last_modified": "2025-03-04T21:32:30.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "audiobox-aesthetics",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/audiobox-aesthetics",
+  "current_repository_sha": "9b1dd8e5df9af7216e836a98974fe3b82c56ded6",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-audiobox-aesthetics/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-audiobox-aesthetics/"
+}

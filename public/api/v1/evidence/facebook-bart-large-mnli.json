@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-bart-large-mnli",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d7645e127eaf-64bde281b2",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+      "evidence_hash": "64bde281b2974fbba846a1ca8157500a6626f05086046944630039786e9427b5",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/bart-large-mnli",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/bart-large-mnli",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/bart-large-mnli",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/bart-large-mnli/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/bart-large-mnli/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bart-large-mnli",
+          "developer": "Meta",
+          "family": "bart-large-mnli",
+          "variant": "bart-large-mnli"
+        },
+        "model": {
+          "parameters": "0.407344B",
+          "total_parameters_billions": 0.407344133,
+          "context_tokens": 1024,
+          "context_display": "1,024 tokens",
+          "modality": "Zero Shot Classification"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/bart-large-mnli",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "multi_nli"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.81,
+            "fp8_int8": 0.41,
+            "int4": 0.2
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2023-09-05T14:49:34.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bart-large-mnli",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/bart-large-mnli",
+  "current_repository_sha": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-bart-large-mnli/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-bart-large-mnli/"
+}

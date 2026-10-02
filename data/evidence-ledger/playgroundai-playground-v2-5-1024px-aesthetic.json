@@ -1,0 +1,140 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "playgroundai-playground-v2-5-1024px-aesthetic",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1e032f13f2fe-3f0a3d973d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1e032f13f2fe6db2dc49947dbdbd196e753de573",
+      "evidence_hash": "3f0a3d973d3940497dba40c3e3cf7e11dca16ffdd12bcd5777ffd0944c8064d7",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/playgroundai/playground-v2.5-1024px-aesthetic",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic/blob/main/LICENSE.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "playground-v2.5-1024px-aesthetic",
+          "developer": "playgroundai",
+          "family": "playground-v2.5-1024px-aesthetic",
+          "variant": "playground-v2.5-1024px-aesthetic"
+        },
+        "model": {
+          "parameters": "2.56746B",
+          "total_parameters_billions": 2.567463684,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → image"
+        },
+        "license": {
+          "name": "playground-v2dot5-community",
+          "id": "other",
+          "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic/blob/main/LICENSE.md",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
+          "access": "public",
+          "file_count": 18,
+          "exact_files": [
+            "playground-v2.5-1024px-aesthetic.fp16.safetensors",
+            "playground-v2.5-1024px-aesthetic.safetensors",
+            "text_encoder/model.fp16.safetensors",
+            "text_encoder/model.safetensors",
+            "text_encoder/pytorch_model.bin",
+            "text_encoder/pytorch_model.fp16.bin",
+            "text_encoder_2/model.fp16.safetensors",
+            "text_encoder_2/model.safetensors",
+            "text_encoder_2/pytorch_model.bin",
+            "text_encoder_2/pytorch_model.fp16.bin",
+            "unet/diffusion_pytorch_model.bin",
+            "unet/diffusion_pytorch_model.fp16.bin",
+            "unet/diffusion_pytorch_model.fp16.safetensors",
+            "unet/diffusion_pytorch_model.safetensors",
+            "vae/diffusion_pytorch_model.bin",
+            "vae/diffusion_pytorch_model.fp16.bin",
+            "vae/diffusion_pytorch_model.fp16.safetensors",
+            "vae/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 5.13,
+            "fp8_int8": 2.57,
+            "int4": 1.28
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "1e032f13f2fe6db2dc49947dbdbd196e753de573",
+          "created_at": "2024-02-16T18:46:17.000Z",
+          "last_modified": "2024-03-15T00:00:20.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "playground-v2.5-1024px-aesthetic",
+  "developer": "playgroundai",
+  "source_repository": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
+  "current_repository_sha": "1e032f13f2fe6db2dc49947dbdbd196e753de573",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/playgroundai-playground-v2-5-1024px-aesthetic/history/",
+  "diff_url": "https://openmodelweights.com/diff/playgroundai-playground-v2-5-1024px-aesthetic/"
+}

@@ -1,0 +1,127 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sicariussicariistuff-assistant-pepe-8b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ff7aa0bc2177-9eadc77fe2",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ff7aa0bc217771cb51ec0701ba80d735ff946e24",
+      "evidence_hash": "9eadc77fe2778c50eb2668bfcbd6b43270603ce3863b2af5395f19d3b82cb02c",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/SicariusSicariiStuff/Assistant_Pepe_8B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Assistant_Pepe_8B",
+          "developer": "SicariusSicariiStuff",
+          "family": "Assistant_Pepe",
+          "variant": "Assistant_Pepe_8B"
+        },
+        "model": {
+          "parameters": "0.00026624B",
+          "total_parameters_billions": 0.00026624,
+          "context_tokens": 1073152,
+          "context_display": "1,073,152 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "llama3.1",
+          "id": "llama3.1",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "SicariusSicariiStuff/Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct_Abliterated"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "SicariusSicariiStuff/UBW_Tapestries"
+          ]
+        },
+        "runtime": {
+          "signals": []
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.0,
+            "fp8_int8": 0.0,
+            "int4": 0.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ff7aa0bc217771cb51ec0701ba80d735ff946e24",
+          "created_at": "2026-01-14T13:18:26.000Z",
+          "last_modified": "2026-05-03T17:00:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Assistant_Pepe_8B",
+  "developer": "SicariusSicariiStuff",
+  "source_repository": "https://huggingface.co/SicariusSicariiStuff/Assistant_Pepe_8B",
+  "current_repository_sha": "ff7aa0bc217771cb51ec0701ba80d735ff946e24",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sicariussicariistuff-assistant-pepe-8b/history/",
+  "diff_url": "https://openmodelweights.com/diff/sicariussicariistuff-assistant-pepe-8b/"
+}

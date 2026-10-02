@@ -1,0 +1,148 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen-agentworld-35b-a3b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "60d2b0434a53-5a7b3d33fa",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "60d2b0434a53d2e62a7c00a489586815d94ebffb",
+      "evidence_hash": "5a7b3d33fae438bfc11a571763cfdaf17ef406095df8207aa59689630941276b",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen-AgentWorld-35B-A3B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen-AgentWorld-35B-A3B",
+          "developer": "Qwen",
+          "family": "Qwen AgentWorld",
+          "variant": "Qwen-AgentWorld-35B-A3B"
+        },
+        "model": {
+          "parameters": "35B",
+          "total_parameters_billions": 35.0,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+          "access": "public",
+          "file_count": 22,
+          "exact_files": [
+            "model-00001-of-00021.safetensors",
+            "model-00002-of-00021.safetensors",
+            "model-00003-of-00021.safetensors",
+            "model-00004-of-00021.safetensors",
+            "model-00005-of-00021.safetensors",
+            "model-00006-of-00021.safetensors",
+            "model-00007-of-00021.safetensors",
+            "model-00008-of-00021.safetensors",
+            "model-00009-of-00021.safetensors",
+            "model-00010-of-00021.safetensors",
+            "model-00011-of-00021.safetensors",
+            "model-00012-of-00021.safetensors",
+            "model-00013-of-00021.safetensors",
+            "model-00014-of-00021.safetensors",
+            "model-00015-of-00021.safetensors",
+            "model-00016-of-00021.safetensors",
+            "model-00017-of-00021.safetensors",
+            "model-00018-of-00021.safetensors",
+            "model-00019-of-00021.safetensors",
+            "model-00020-of-00021.safetensors",
+            "model-00021-of-00021.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3.5-35B-A3B-Base"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "Qwen/AgentWorldBench"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 70.0,
+            "fp8_int8": 35.0,
+            "int4": 17.5
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "60d2b0434a53d2e62a7c00a489586815d94ebffb",
+          "created_at": "2026-06-22T14:49:37.000Z",
+          "last_modified": "2026-06-25T07:24:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen-AgentWorld-35B-A3B",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+  "current_repository_sha": "60d2b0434a53d2e62a7c00a489586815d94ebffb",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen-agentworld-35b-a3b/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen-agentworld-35b-a3b/"
+}

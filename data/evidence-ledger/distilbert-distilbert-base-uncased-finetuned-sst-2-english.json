@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "distilbert-distilbert-base-uncased-finetuned-sst-2-english",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "714eb0fa89d2-ace92ba37b",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "714eb0fa89d2f80546fda750413ed43d93601a13",
+      "evidence_hash": "ace92ba37b43aa7e4c448f9d040139427a074f49991245760528760c34377254",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "distilbert-base-uncased-finetuned-sst-2-english",
+          "developer": "distilbert",
+          "family": "distilbert-base-uncased-finetuned-sst-2-english",
+          "variant": "distilbert-base-uncased-finetuned-sst-2-english"
+        },
+        "model": {
+          "parameters": "0.066955B",
+          "total_parameters_billions": 0.06695501,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text Classification"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "glue",
+            "sst2"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.13,
+            "fp8_int8": 0.07,
+            "int4": 0.03
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "714eb0fa89d2f80546fda750413ed43d93601a13",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2023-12-19T16:29:37.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "distilbert-base-uncased-finetuned-sst-2-english",
+  "developer": "distilbert",
+  "source_repository": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+  "current_repository_sha": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/distilbert-distilbert-base-uncased-finetuned-sst-2-english/history/",
+  "diff_url": "https://openmodelweights.com/diff/distilbert-distilbert-base-uncased-finetuned-sst-2-english/"
+}

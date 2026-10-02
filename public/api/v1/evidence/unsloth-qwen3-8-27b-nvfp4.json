@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "unsloth-qwen3-8-27b-nvfp4",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f0b7c9e722f5-2e99c94a0a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
+      "evidence_hash": "2e99c94a0a242e9545d25ab16cbb4b27929d2045ddc0e29a99da157a44e4d10d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/unsloth/Qwen3.8-27B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3.8-27B-NVFP4",
+          "developer": "unsloth",
+          "family": "Qwen3.8",
+          "variant": "Qwen3.8-27B-NVFP4"
+        },
+        "model": {
+          "parameters": "19.8699B",
+          "total_parameters_billions": 19.869895952,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "model.safetensors.index.json",
+            "model_mtp.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3.8-27B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 39.74,
+            "fp8_int8": 19.87,
+            "int4": 9.93
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
+          "created_at": "2026-08-13T08:28:51.000Z",
+          "last_modified": "2026-09-08T23:09:24.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3.8-27B-NVFP4",
+  "developer": "unsloth",
+  "source_repository": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
+  "current_repository_sha": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/unsloth-qwen3-8-27b-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/unsloth-qwen3-8-27b-nvfp4/"
+}

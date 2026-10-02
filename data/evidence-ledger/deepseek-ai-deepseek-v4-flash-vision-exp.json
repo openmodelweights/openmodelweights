@@ -1,0 +1,167 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "deepseek-ai-deepseek-v4-flash-vision-exp",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6821d6ad3681-3d2e664be9",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6821d6ad3681a4b137b066b76094fa82ebd0a380",
+      "evidence_hash": "3d2e664be9494a57a17404433760effd377714419e5d8f78a57c1b385eed7d76",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "DeepSeek-V4-Flash-Vision-Exp",
+          "developer": "DeepSeek",
+          "family": "DeepSeek-V4-Flash-Vision-Exp",
+          "variant": "DeepSeek-V4-Flash-Vision-Exp"
+        },
+        "model": {
+          "parameters": "304.647B",
+          "total_parameters_billions": 304.646824126,
+          "context_tokens": 1048576,
+          "context_display": "1,048,576 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+          "access": "public",
+          "file_count": 49,
+          "exact_files": [
+            "model-00001-of-00048.safetensors",
+            "model-00002-of-00048.safetensors",
+            "model-00003-of-00048.safetensors",
+            "model-00004-of-00048.safetensors",
+            "model-00005-of-00048.safetensors",
+            "model-00006-of-00048.safetensors",
+            "model-00007-of-00048.safetensors",
+            "model-00008-of-00048.safetensors",
+            "model-00009-of-00048.safetensors",
+            "model-00010-of-00048.safetensors",
+            "model-00011-of-00048.safetensors",
+            "model-00012-of-00048.safetensors",
+            "model-00013-of-00048.safetensors",
+            "model-00014-of-00048.safetensors",
+            "model-00015-of-00048.safetensors",
+            "model-00016-of-00048.safetensors",
+            "model-00017-of-00048.safetensors",
+            "model-00018-of-00048.safetensors",
+            "model-00019-of-00048.safetensors",
+            "model-00020-of-00048.safetensors",
+            "model-00021-of-00048.safetensors",
+            "model-00022-of-00048.safetensors",
+            "model-00023-of-00048.safetensors",
+            "model-00024-of-00048.safetensors",
+            "model-00025-of-00048.safetensors",
+            "model-00026-of-00048.safetensors",
+            "model-00027-of-00048.safetensors",
+            "model-00028-of-00048.safetensors",
+            "model-00029-of-00048.safetensors",
+            "model-00030-of-00048.safetensors",
+            "model-00031-of-00048.safetensors",
+            "model-00032-of-00048.safetensors",
+            "model-00033-of-00048.safetensors",
+            "model-00034-of-00048.safetensors",
+            "model-00035-of-00048.safetensors",
+            "model-00036-of-00048.safetensors",
+            "model-00037-of-00048.safetensors",
+            "model-00038-of-00048.safetensors",
+            "model-00039-of-00048.safetensors",
+            "model-00040-of-00048.safetensors",
+            "model-00041-of-00048.safetensors",
+            "model-00042-of-00048.safetensors",
+            "model-00043-of-00048.safetensors",
+            "model-00044-of-00048.safetensors",
+            "model-00045-of-00048.safetensors",
+            "model-00046-of-00048.safetensors",
+            "model-00047-of-00048.safetensors",
+            "model-00048-of-00048.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 609.29,
+            "fp8_int8": 304.65,
+            "int4": 152.32
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6821d6ad3681a4b137b066b76094fa82ebd0a380",
+          "created_at": "2026-08-31T06:16:18.000Z",
+          "last_modified": "2026-09-01T09:22:10.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "DeepSeek-V4-Flash-Vision-Exp",
+  "developer": "DeepSeek",
+  "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+  "current_repository_sha": "6821d6ad3681a4b137b066b76094fa82ebd0a380",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/deepseek-ai-deepseek-v4-flash-vision-exp/history/",
+  "diff_url": "https://openmodelweights.com/diff/deepseek-ai-deepseek-v4-flash-vision-exp/"
+}

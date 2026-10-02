@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-segformer-b0-finetuned-ade-512-512",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "489d5cd81a0b-033f5c9185",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "489d5cd81a0b59fab9b7ea758d3548ebe99677da",
+      "evidence_hash": "033f5c91851ed4cbc99f8b0b8b7bbe82a2061a1d06951840477582e54f2dbd6b",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/segformer-b0-finetuned-ade-512-512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "segformer-b0-finetuned-ade-512-512",
+          "developer": "NVIDIA",
+          "family": "segformer-b0-finetuned-ade-512-512",
+          "variant": "segformer-b0-finetuned-ade-512-512"
+        },
+        "model": {
+          "parameters": "0.00375321B",
+          "total_parameters_billions": 0.003753206,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "other",
+          "id": "other",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "scene_parse_150"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.01,
+            "fp8_int8": 0.0,
+            "int4": 0.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "489d5cd81a0b59fab9b7ea758d3548ebe99677da",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-01-14T10:46:46.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "segformer-b0-finetuned-ade-512-512",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512",
+  "current_repository_sha": "489d5cd81a0b59fab9b7ea758d3548ebe99677da",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-segformer-b0-finetuned-ade-512-512/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-segformer-b0-finetuned-ade-512-512/"
+}

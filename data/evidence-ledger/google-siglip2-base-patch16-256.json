@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-siglip2-base-patch16-256",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "3f9f96cb90da-95e679e5ee",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab",
+      "evidence_hash": "95e679e5ee27346ff1c2000eda4c4bed6661c3c1f2f61c0687cf68c390db2c25",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/siglip2-base-patch16-256",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/siglip2-base-patch16-256",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/siglip2-base-patch16-256",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/siglip2-base-patch16-256/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/siglip2-base-patch16-256/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "siglip2-base-patch16-256",
+          "developer": "Google",
+          "family": "siglip2-base-patch16-256",
+          "variant": "siglip2-base-patch16-256"
+        },
+        "model": {
+          "parameters": "0.375234B",
+          "total_parameters_billions": 0.37523405,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Zero Shot Image Classification"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/siglip2-base-patch16-256",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.75,
+            "fp8_int8": 0.38,
+            "int4": 0.19
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab",
+          "created_at": "2025-02-17T20:01:17.000Z",
+          "last_modified": "2025-02-21T04:03:37.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "siglip2-base-patch16-256",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/siglip2-base-patch16-256",
+  "current_repository_sha": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-siglip2-base-patch16-256/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-siglip2-base-patch16-256/"
+}

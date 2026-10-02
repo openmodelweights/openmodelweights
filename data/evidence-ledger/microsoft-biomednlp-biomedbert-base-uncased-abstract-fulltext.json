@@ -1,0 +1,110 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-biomednlp-biomedbert-base-uncased-abstract-fulltext",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e1354b7a3a09-e2462ff28c",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+      "evidence_hash": "e2462ff28c849f7a03775d16f9f8895950de4551cbfa3d86d1fc45fabf8d7633",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+          "developer": "Microsoft",
+          "family": "BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+          "variant": "BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext/blob/main/LICENSE.md",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2023-11-06T18:03:43.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "current_repository_sha": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-biomednlp-biomedbert-base-uncased-abstract-fulltext/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-biomednlp-biomedbert-base-uncased-abstract-fulltext/"
+}

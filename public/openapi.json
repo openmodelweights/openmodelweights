@@ -80,6 +80,66 @@
           }
         }
       }
+    },
+    "/api/v1/history.json": {
+      "get": {
+        "summary": "Evidence-ledger index",
+        "responses": {
+          "200": {
+            "description": "History index"
+          }
+        }
+      }
+    },
+    "/api/v1/evidence/{id}.json": {
+      "get": {
+        "summary": "Observed model evidence history",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Evidence ledger"
+          }
+        }
+      }
+    },
+    "/api/v1/evidence-runs.json": {
+      "get": {
+        "summary": "Daily evidence manifests",
+        "responses": {
+          "200": {
+            "description": "Evidence run index"
+          }
+        }
+      }
+    },
+    "/api/v1/compatibility.json": {
+      "get": {
+        "summary": "Compatibility relationship graph",
+        "responses": {
+          "200": {
+            "description": "Compatibility graph"
+          }
+        }
+      }
+    },
+    "/api/v1/benchmarks.json": {
+      "get": {
+        "summary": "Accepted deployment benchmark results",
+        "responses": {
+          "200": {
+            "description": "Benchmark results"
+          }
+        }
+      }
     }
   }
 }

@@ -1,0 +1,136 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-fp8",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "0acd4b1c237e-7ef963f475",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "0acd4b1c237eab45d3977b1b46631919e9a75774",
+      "evidence_hash": "7ef963f4751057bade83372d45bd8b20f4560462f0de18968b399b865dc1a7be",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+          "developer": "NVIDIA",
+          "family": "Nemotron-3-Nano-Omni",
+          "variant": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8"
+        },
+        "model": {
+          "parameters": "33.0137B",
+          "total_parameters_billions": 33.01367904,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Any To Any"
+        },
+        "license": {
+          "name": "nvidia-open-model-agreement",
+          "id": "other",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "nvidia/Nemotron-Image-Training-v3"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "NeMo",
+            "Ollama",
+            "SGLang",
+            "TensorRT-LLM",
+            "Transformers",
+            "llama.cpp",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 66.03,
+            "fp8_int8": 33.01,
+            "int4": 16.51
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "0acd4b1c237eab45d3977b1b46631919e9a75774",
+          "created_at": "2026-04-24T16:10:28.000Z",
+          "last_modified": "2026-08-25T15:47:39.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "current_repository_sha": "0acd4b1c237eab45d3977b1b46631919e9a75774",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-fp8/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-fp8/"
+}

@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "warmbloodaban-minimax-h3-singularity",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "af671d9214a6-e7fe73ee67",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "af671d9214a6e41ab8c2f43e9f871ea56246115f",
+      "evidence_hash": "e7fe73ee67a3eeb439d34df02f046c3dc72427e795acdec2dbdce574a81c1cd1",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/WarmBloodAban/Minimax-h3_Singularity",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Minimax-h3_Singularity",
+          "developer": "WarmBloodAban",
+          "family": "Minimax-h3_Singularity",
+          "variant": "Minimax-h3_Singularity"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image To Video"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "Minimax-h3_Singularity_ref2va_Pruned_v1.3_int8.safetensors",
+            "Minimax-h3_Singularity_ref2va_v1.3_Pruned_w4a8.safetensors",
+            "Minimax-h3_Singularity_ref2va_v1.3_int8.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "MiniMaxAI/MiniMax-H3"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "minimax-h3"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "af671d9214a6e41ab8c2f43e9f871ea56246115f",
+          "created_at": "2026-09-05T18:51:01.000Z",
+          "last_modified": "2026-09-18T16:17:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Minimax-h3_Singularity",
+  "developer": "WarmBloodAban",
+  "source_repository": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
+  "current_repository_sha": "af671d9214a6e41ab8c2f43e9f871ea56246115f",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/warmbloodaban-minimax-h3-singularity/history/",
+  "diff_url": "https://openmodelweights.com/diff/warmbloodaban-minimax-h3-singularity/"
+}

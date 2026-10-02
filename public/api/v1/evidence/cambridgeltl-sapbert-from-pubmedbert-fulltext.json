@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "cambridgeltl-sapbert-from-pubmedbert-fulltext",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "090663c3ae57-eeb3ece2f6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "090663c3ae57bf35ffe4d0d468a2a88d03051a4d",
+      "evidence_hash": "eeb3ece2f6ef4101ac9f16b9287a08c471cf9be3b26a6bb1384433e56ddcbaa1",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "SapBERT-from-PubMedBERT-fulltext",
+          "developer": "cambridgeltl",
+          "family": "SapBERT-from-PubMedBERT-fulltext",
+          "variant": "SapBERT-from-PubMedBERT-fulltext"
+        },
+        "model": {
+          "parameters": "0.109483B",
+          "total_parameters_billions": 0.109482752,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "090663c3ae57bf35ffe4d0d468a2a88d03051a4d",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2023-06-14T19:03:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "SapBERT-from-PubMedBERT-fulltext",
+  "developer": "cambridgeltl",
+  "source_repository": "https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+  "current_repository_sha": "090663c3ae57bf35ffe4d0d468a2a88d03051a4d",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/cambridgeltl-sapbert-from-pubmedbert-fulltext/history/",
+  "diff_url": "https://openmodelweights.com/diff/cambridgeltl-sapbert-from-pubmedbert-fulltext/"
+}

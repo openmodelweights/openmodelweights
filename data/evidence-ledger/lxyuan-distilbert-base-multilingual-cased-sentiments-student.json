@@ -1,0 +1,123 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "lxyuan-distilbert-base-multilingual-cased-sentiments-student",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "cf991100d706-484c36c313",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "cf991100d706c13c0a080c097134c05b7f436c45",
+      "evidence_hash": "484c36c313e06acc8c3352d9d25416a4d2c189321759a560bcbb754a47080b70",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/lxyuan/distilbert-base-multilingual-cased-sentiments-student",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "distilbert-base-multilingual-cased-sentiments-student",
+          "developer": "lxyuan",
+          "family": "distilbert-base-multilingual-cased-sentiments-student",
+          "variant": "distilbert-base-multilingual-cased-sentiments-student"
+        },
+        "model": {
+          "parameters": "0.135327B",
+          "total_parameters_billions": 0.135326979,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text Classification"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "pytorch_model.bin",
+            "training_args.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "tyqiangz/multilingual-sentiments"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.27,
+            "fp8_int8": 0.14,
+            "int4": 0.07
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "cf991100d706c13c0a080c097134c05b7f436c45",
+          "created_at": "2023-05-05T16:22:55.000Z",
+          "last_modified": "2025-03-03T02:06:53.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "distilbert-base-multilingual-cased-sentiments-student",
+  "developer": "lxyuan",
+  "source_repository": "https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student",
+  "current_repository_sha": "cf991100d706c13c0a080c097134c05b7f436c45",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/lxyuan-distilbert-base-multilingual-cased-sentiments-student/history/",
+  "diff_url": "https://openmodelweights.com/diff/lxyuan-distilbert-base-multilingual-cased-sentiments-student/"
+}

@@ -1,0 +1,179 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "obliteratus-qwen3-8-27b-obliterated",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "a58c3b53b3ce-50c3c3c356",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8",
+      "evidence_hash": "50c3c3c356bf0dfe9f27d7a3a8eea718cf23019704334dc13c896394d6da7224",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3.8-27B-OBLITERATED",
+          "developer": "OBLITERATUS",
+          "family": "Qwen3.8",
+          "variant": "Qwen3.8-27B-OBLITERATED"
+        },
+        "model": {
+          "parameters": "27.7814B",
+          "total_parameters_billions": 27.781427952,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+          "access": "public",
+          "file_count": 56,
+          "exact_files": [
+            "Qwen3.8-27B-OBLITERATED-IQ4_XS.gguf",
+            "Qwen3.8-27B-OBLITERATED-Q2_K.gguf",
+            "Qwen3.8-27B-OBLITERATED-Q3_K_M.gguf",
+            "Qwen3.8-27B-OBLITERATED-Q4_K_M.gguf",
+            "Qwen3.8-27B-OBLITERATED-Q5_K_M.gguf",
+            "Qwen3.8-27B-OBLITERATED-Q6_K.gguf",
+            "Qwen3.8-27B-OBLITERATED-Q8_0.gguf",
+            "mmproj-model-bf16.gguf",
+            "model-00001-of-00018.safetensors",
+            "model-00001-of-00028.safetensors",
+            "model-00002-of-00018.safetensors",
+            "model-00002-of-00028.safetensors",
+            "model-00003-of-00018.safetensors",
+            "model-00003-of-00028.safetensors",
+            "model-00004-of-00018.safetensors",
+            "model-00004-of-00028.safetensors",
+            "model-00005-of-00018.safetensors",
+            "model-00005-of-00028.safetensors",
+            "model-00006-of-00018.safetensors",
+            "model-00006-of-00028.safetensors",
+            "model-00007-of-00018.safetensors",
+            "model-00007-of-00028.safetensors",
+            "model-00008-of-00018.safetensors",
+            "model-00008-of-00028.safetensors",
+            "model-00009-of-00018.safetensors",
+            "model-00009-of-00028.safetensors",
+            "model-00010-of-00018.safetensors",
+            "model-00010-of-00028.safetensors",
+            "model-00011-of-00018.safetensors",
+            "model-00011-of-00028.safetensors",
+            "model-00012-of-00018.safetensors",
+            "model-00012-of-00028.safetensors",
+            "model-00013-of-00018.safetensors",
+            "model-00013-of-00028.safetensors",
+            "model-00014-of-00018.safetensors",
+            "model-00014-of-00028.safetensors",
+            "model-00015-of-00018.safetensors",
+            "model-00015-of-00028.safetensors",
+            "model-00016-of-00018.safetensors",
+            "model-00016-of-00028.safetensors",
+            "model-00017-of-00018.safetensors",
+            "model-00017-of-00028.safetensors",
+            "model-00018-of-00018.safetensors",
+            "model-00018-of-00028.safetensors",
+            "model-00019-of-00028.safetensors",
+            "model-00020-of-00028.safetensors",
+            "model-00021-of-00028.safetensors",
+            "model-00022-of-00028.safetensors",
+            "model-00023-of-00028.safetensors",
+            "model-00024-of-00028.safetensors",
+            "model-00025-of-00028.safetensors",
+            "model-00026-of-00028.safetensors",
+            "model-00027-of-00028.safetensors",
+            "model-00028-of-00028.safetensors",
+            "model-extra-00001-of-00001.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "GGUF",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "gguf"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3.8-27B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+            "MLX",
+            "Ollama",
+            "Transformers",
+            "llama.cpp"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 55.56,
+            "fp8_int8": 27.78,
+            "int4": 13.89
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8",
+          "created_at": "2026-08-19T14:53:08.000Z",
+          "last_modified": "2026-08-24T17:47:52.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3.8-27B-OBLITERATED",
+  "developer": "OBLITERATUS",
+  "source_repository": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+  "current_repository_sha": "a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/obliteratus-qwen3-8-27b-obliterated/history/",
+  "diff_url": "https://openmodelweights.com/diff/obliteratus-qwen3-8-27b-obliterated/"
+}

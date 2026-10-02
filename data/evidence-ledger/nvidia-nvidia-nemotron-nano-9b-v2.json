@@ -1,0 +1,138 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-nvidia-nemotron-nano-9b-v2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6533e8de2c68-ce675621f6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6533e8de2c68e4536bf7c411d7a3ce5734111476",
+      "evidence_hash": "ce675621f665cb863190e995e5a005aaf135828f44f391c79781f25fd2f86fda",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "NVIDIA-Nemotron-Nano-9B-v2",
+          "developer": "NVIDIA",
+          "family": "NVIDIA-Nemotron-Nano",
+          "variant": "NVIDIA-Nemotron-Nano-9B-v2"
+        },
+        "model": {
+          "parameters": "8.88823B",
+          "total_parameters_billions": 8.888227328,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "nvidia-open-model-license",
+          "id": "other",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "nvidia/NVIDIA-Nemotron-Nano-12B-v2",
+            "nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "nvidia/Nemotron-CC-Math-v1",
+            "nvidia/Nemotron-CC-v2",
+            "nvidia/Nemotron-Post-Training-Dataset-v1",
+            "nvidia/Nemotron-Post-Training-Dataset-v2",
+            "nvidia/Nemotron-Pretraining-Dataset-sample",
+            "nvidia/Nemotron-Pretraining-SFT-v1"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "NeMo",
+            "TensorRT-LLM",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 17.78,
+            "fp8_int8": 8.89,
+            "int4": 4.44
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6533e8de2c68e4536bf7c411d7a3ce5734111476",
+          "created_at": "2025-08-12T22:43:32.000Z",
+          "last_modified": "2026-03-05T14:59:25.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "NVIDIA-Nemotron-Nano-9B-v2",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+  "current_repository_sha": "6533e8de2c68e4536bf7c411d7a3ce5734111476",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-nvidia-nemotron-nano-9b-v2/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-nvidia-nemotron-nano-9b-v2/"
+}

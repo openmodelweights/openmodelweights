@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "bkai-foundation-models-vietnamese-bi-encoder",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "84f9d9ada0d1-aaa62f2dc6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+      "evidence_hash": "aaa62f2dc6d0003669b7fa9581ad4919672ca48ad8e90071f8d2f9a65c6513a5",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/bkai-foundation-models/vietnamese-bi-encoder",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "vietnamese-bi-encoder",
+          "developer": "bkai-foundation-models",
+          "family": "vietnamese-bi-encoder",
+          "variant": "vietnamese-bi-encoder"
+        },
+        "model": {
+          "parameters": "0.134998B",
+          "total_parameters_billions": 0.134998272,
+          "context_tokens": 258,
+          "context_display": "258 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "generic"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.27,
+            "fp8_int8": 0.13,
+            "int4": 0.07
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+          "created_at": "2023-09-09T04:19:59.000Z",
+          "last_modified": "2024-03-11T06:56:35.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "vietnamese-bi-encoder",
+  "developer": "bkai-foundation-models",
+  "source_repository": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder",
+  "current_repository_sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/bkai-foundation-models-vietnamese-bi-encoder/history/",
+  "diff_url": "https://openmodelweights.com/diff/bkai-foundation-models-vietnamese-bi-encoder/"
+}

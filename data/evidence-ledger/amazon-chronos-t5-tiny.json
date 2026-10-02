@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "amazon-chronos-t5-tiny",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "29d808298f1a-78e1117ac1",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "29d808298f1a62493e7b9a5e08529d0d930fa189",
+      "evidence_hash": "78e1117ac18292a9dab08461d545b5d6d43bc8b040f902d7125a6491fae0f3bb",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/amazon/chronos-t5-tiny",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/amazon/chronos-t5-tiny",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/amazon/chronos-t5-tiny",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/amazon/chronos-t5-tiny/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/amazon/chronos-t5-tiny/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "chronos-t5-tiny",
+          "developer": "amazon",
+          "family": "chronos-t5-tiny",
+          "variant": "chronos-t5-tiny"
+        },
+        "model": {
+          "parameters": "0.0083945B",
+          "total_parameters_billions": 0.008394496,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Time Series Forecasting"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/amazon/chronos-t5-tiny",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "chronos-forecasting"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.02,
+            "fp8_int8": 0.01,
+            "int4": 0.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "29d808298f1a62493e7b9a5e08529d0d930fa189",
+          "created_at": "2024-02-28T07:51:45.000Z",
+          "last_modified": "2025-11-21T12:55:21.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "chronos-t5-tiny",
+  "developer": "amazon",
+  "source_repository": "https://huggingface.co/amazon/chronos-t5-tiny",
+  "current_repository_sha": "29d808298f1a62493e7b9a5e08529d0d930fa189",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/amazon-chronos-t5-tiny/history/",
+  "diff_url": "https://openmodelweights.com/diff/amazon-chronos-t5-tiny/"
+}

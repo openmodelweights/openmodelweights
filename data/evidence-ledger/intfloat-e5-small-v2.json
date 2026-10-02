@@ -1,0 +1,126 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "intfloat-e5-small-v2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ffb93f3bd404-e18bb43662",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "evidence_hash": "e18bb43662866c33b2b88883b0e18c1718e84f8c7db62d6e29db4b842ddcba75",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/intfloat/e5-small-v2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/intfloat/e5-small-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/intfloat/e5-small-v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/intfloat/e5-small-v2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/intfloat/e5-small-v2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "e5-small-v2",
+          "developer": "intfloat",
+          "family": "e5-small-v2",
+          "variant": "e5-small-v2"
+        },
+        "model": {
+          "parameters": "0.0333605B",
+          "total_parameters_billions": 0.033360512,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/intfloat/e5-small-v2",
+          "access": "public",
+          "file_count": 8,
+          "exact_files": [
+            "model.onnx",
+            "model.safetensors",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.07,
+            "fp8_int8": 0.03,
+            "int4": 0.02
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+          "created_at": "2023-05-19T06:45:35.000Z",
+          "last_modified": "2025-02-17T03:24:44.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "e5-small-v2",
+  "developer": "intfloat",
+  "source_repository": "https://huggingface.co/intfloat/e5-small-v2",
+  "current_repository_sha": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/intfloat-e5-small-v2/history/",
+  "diff_url": "https://openmodelweights.com/diff/intfloat-e5-small-v2/"
+}

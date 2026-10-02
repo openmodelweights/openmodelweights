@@ -1,0 +1,131 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "openbmb-minicpm5-2b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f97400052a43-97258734be",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f97400052a43d642bbc6e9975e2397e3ae6a6b52",
+      "evidence_hash": "97258734bede450ac205114fc77f1f52fde6ca6595a984bf0161e5191167a83d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/openbmb/MiniCPM5-2B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-2B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-2B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "MiniCPM5-2B",
+          "developer": "openbmb",
+          "family": "MiniCPM5",
+          "variant": "MiniCPM5-2B"
+        },
+        "model": {
+          "parameters": "2.51676B",
+          "total_parameters_billions": 2.51675648,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/openbmb/MiniCPM5-2B",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model-00000-of-00001.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "openbmb/Ultra-FineWeb",
+            "openbmb/Ultra-FineWeb-L3",
+            "openbmb/UltraData-Code",
+            "openbmb/UltraData-Math",
+            "openbmb/UltraData-RL-2609",
+            "openbmb/UltraData-SFT-2605",
+            "openbmb/UltraData-SFT-Agent-2609",
+            "openbmb/UltraX-Preview"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "MLX",
+            "Ollama",
+            "SGLang",
+            "Transformers",
+            "llama.cpp",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 5.03,
+            "fp8_int8": 2.52,
+            "int4": 1.26
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "f97400052a43d642bbc6e9975e2397e3ae6a6b52",
+          "created_at": "2026-09-06T11:12:19.000Z",
+          "last_modified": "2026-09-29T06:12:33.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "MiniCPM5-2B",
+  "developer": "openbmb",
+  "source_repository": "https://huggingface.co/openbmb/MiniCPM5-2B",
+  "current_repository_sha": "f97400052a43d642bbc6e9975e2397e3ae6a6b52",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/openbmb-minicpm5-2b/history/",
+  "diff_url": "https://openmodelweights.com/diff/openbmb-minicpm5-2b/"
+}

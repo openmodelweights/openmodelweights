@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "resembleai-chatterbox",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5bb1f6ee58e5-55e0622a1b",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5bb1f6ee58e50c3b8d408bc82a6d3740c2db6e18",
+      "evidence_hash": "55e0622a1b36951bd65a67f80bbb974081f9457d4d8c714e6e4e28e3c9cadd7c",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/ResembleAI/chatterbox",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/ResembleAI/chatterbox",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/ResembleAI/chatterbox",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/ResembleAI/chatterbox/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/ResembleAI/chatterbox/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "chatterbox",
+          "developer": "ResembleAI",
+          "family": "chatterbox",
+          "variant": "chatterbox"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/ResembleAI/chatterbox",
+          "access": "public",
+          "file_count": 12,
+          "exact_files": [
+            "conds.pt",
+            "s3gen.pt",
+            "s3gen.safetensors",
+            "s3gen_v3.pt",
+            "s3gen_v3.safetensors",
+            "t3_23lang.safetensors",
+            "t3_cfg.pt",
+            "t3_cfg.safetensors",
+            "t3_mtl23ls_v2.safetensors",
+            "t3_mtl23ls_v3.safetensors",
+            "ve.pt",
+            "ve.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "chatterbox"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "5bb1f6ee58e50c3b8d408bc82a6d3740c2db6e18",
+          "created_at": "2025-04-24T12:03:33.000Z",
+          "last_modified": "2026-06-10T21:16:06.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "chatterbox",
+  "developer": "ResembleAI",
+  "source_repository": "https://huggingface.co/ResembleAI/chatterbox",
+  "current_repository_sha": "5bb1f6ee58e50c3b8d408bc82a6d3740c2db6e18",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/resembleai-chatterbox/history/",
+  "diff_url": "https://openmodelweights.com/diff/resembleai-chatterbox/"
+}

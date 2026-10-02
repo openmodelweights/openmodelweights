@@ -1,0 +1,134 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sentence-transformers-distiluse-base-multilingual-cased-v1",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "826fee3d516e-388c1bb33b",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "826fee3d516ebb14987355af373f5b69101c7006",
+      "evidence_hash": "388c1bb33b452c194d7ed46dd56dc55b4b7522c983d1dacaf0c9e10f4581990d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v1",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/sentence-transformers/distiluse-base-multilingual-cased-v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v1/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v1/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "distiluse-base-multilingual-cased-v1",
+          "developer": "Sentence Transformers",
+          "family": "distiluse-base-multilingual-cased-v1",
+          "variant": "distiluse-base-multilingual-cased-v1"
+        },
+        "model": {
+          "parameters": "0.134734B",
+          "total_parameters_billions": 0.13473408,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v1",
+          "access": "public",
+          "file_count": 16,
+          "exact_files": [
+            "2_Dense/model.safetensors",
+            "2_Dense/pytorch_model.bin",
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O1.onnx",
+            "onnx/model_O2.onnx",
+            "onnx/model_O3.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_arm64.onnx",
+            "onnx/model_qint8_avx512.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "onnx/model_quint8_avx2.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.27,
+            "fp8_int8": 0.13,
+            "int4": 0.07
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "826fee3d516ebb14987355af373f5b69101c7006",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2025-03-06T13:32:06.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "distiluse-base-multilingual-cased-v1",
+  "developer": "Sentence Transformers",
+  "source_repository": "https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v1",
+  "current_repository_sha": "826fee3d516ebb14987355af373f5b69101c7006",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sentence-transformers-distiluse-base-multilingual-cased-v1/history/",
+  "diff_url": "https://openmodelweights.com/diff/sentence-transformers-distiluse-base-multilingual-cased-v1/"
+}

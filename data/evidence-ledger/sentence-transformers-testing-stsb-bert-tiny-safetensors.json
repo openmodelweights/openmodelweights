@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sentence-transformers-testing-stsb-bert-tiny-safetensors",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f3cb857cba53-2326589360",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f3cb857cba53019a20df283396bcca179cf051a4",
+      "evidence_hash": "2326589360ec0eb633e6bca4be38577e847c8d013a3077d8694c294d140e4ec8",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/sentence-transformers-testing/stsb-bert-tiny-safetensors",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/sentence-transformers-testing/stsb-bert-tiny-safetensors",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/sentence-transformers-testing/stsb-bert-tiny-safetensors",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/sentence-transformers-testing/stsb-bert-tiny-safetensors/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/sentence-transformers-testing/stsb-bert-tiny-safetensors/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "stsb-bert-tiny-safetensors",
+          "developer": "sentence-transformers-testing",
+          "family": "stsb-bert-tiny-safetensors",
+          "variant": "stsb-bert-tiny-safetensors"
+        },
+        "model": {
+          "parameters": "0.00438592B",
+          "total_parameters_billions": 0.00438592,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/sentence-transformers-testing/stsb-bert-tiny-safetensors",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.01,
+            "fp8_int8": 0.0,
+            "int4": 0.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "f3cb857cba53019a20df283396bcca179cf051a4",
+          "created_at": "2023-11-06T13:20:57.000Z",
+          "last_modified": "2024-01-17T11:47:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "stsb-bert-tiny-safetensors",
+  "developer": "sentence-transformers-testing",
+  "source_repository": "https://huggingface.co/sentence-transformers-testing/stsb-bert-tiny-safetensors",
+  "current_repository_sha": "f3cb857cba53019a20df283396bcca179cf051a4",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sentence-transformers-testing-stsb-bert-tiny-safetensors/history/",
+  "diff_url": "https://openmodelweights.com/diff/sentence-transformers-testing-stsb-bert-tiny-safetensors/"
+}

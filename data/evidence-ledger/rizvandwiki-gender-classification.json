@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "rizvandwiki-gender-classification",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "380b17658cc0-44317d1241",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "380b17658cc037b246aab0b62a20deb7dd607e65",
+      "evidence_hash": "44317d124150a93049987117afe17778d9135d70d90db4f1d1b86197df6c48dc",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/rizvandwiki/gender-classification",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/rizvandwiki/gender-classification",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/rizvandwiki/gender-classification",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/rizvandwiki/gender-classification/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/rizvandwiki/gender-classification/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gender-classification",
+          "developer": "rizvandwiki",
+          "family": "gender-classification",
+          "variant": "gender-classification"
+        },
+        "model": {
+          "parameters": "0.0858002B",
+          "total_parameters_billions": 0.085800194,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/rizvandwiki/gender-classification",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.17,
+            "fp8_int8": 0.09,
+            "int4": 0.04
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "380b17658cc037b246aab0b62a20deb7dd607e65",
+          "created_at": "2022-12-06T08:53:43.000Z",
+          "last_modified": "2023-05-18T11:16:33.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gender-classification",
+  "developer": "rizvandwiki",
+  "source_repository": "https://huggingface.co/rizvandwiki/gender-classification",
+  "current_repository_sha": "380b17658cc037b246aab0b62a20deb7dd607e65",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/rizvandwiki-gender-classification/history/",
+  "diff_url": "https://openmodelweights.com/diff/rizvandwiki-gender-classification/"
+}

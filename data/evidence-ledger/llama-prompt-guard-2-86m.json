@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "llama-prompt-guard-2-86m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "a8ded8e697ce-963a6cd424",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "a8ded8e697ce7c355e395a0df51f94adb4a2fd27",
+      "evidence_hash": "963a6cd42495749f35261902f613376a6d2e3559a8cfb783853cb0aff72022f5",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-Prompt-Guard-2-86M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Llama-Prompt-Guard-2-86M",
+          "developer": "Meta",
+          "family": "Prompt Guard 2",
+          "variant": "Llama-Prompt-Guard-2-86M"
+        },
+        "model": {
+          "parameters": "86M",
+          "total_parameters_billions": 0.086,
+          "context_tokens": 2000000,
+          "context_display": "2,000,000 tokens",
+          "modality": "Text classification"
+        },
+        "license": {
+          "name": "llama4",
+          "id": "other",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M",
+          "access": "gated (manual)",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.17,
+            "fp8_int8": 0.09,
+            "int4": 0.04
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "a8ded8e697ce7c355e395a0df51f94adb4a2fd27",
+          "created_at": "2025-04-28T07:16:35.000Z",
+          "last_modified": "2025-04-29T15:59:55.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Llama-Prompt-Guard-2-86M",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M",
+  "current_repository_sha": "a8ded8e697ce7c355e395a0df51f94adb4a2fd27",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/llama-prompt-guard-2-86m/history/",
+  "diff_url": "https://openmodelweights.com/diff/llama-prompt-guard-2-86m/"
+}

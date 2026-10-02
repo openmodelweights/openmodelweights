@@ -1,0 +1,112 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "laion-clip-vit-b-16-laion2b-s34b-b88k",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "7288da5a0d6f-d22b22afa7",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "7288da5a0d6f0b51c4a2b27c624837a9236d0112",
+      "evidence_hash": "d22b22afa7d71095bcd0358ede0a18bc03d0ff8425fdef54830764912d181fcd",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/laion/CLIP-ViT-B-16-laion2B-s34B-b88K",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/laion/CLIP-ViT-B-16-laion2B-s34B-b88K",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/laion/CLIP-ViT-B-16-laion2B-s34B-b88K",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/laion/CLIP-ViT-B-16-laion2B-s34B-b88K/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/laion/CLIP-ViT-B-16-laion2B-s34B-b88K/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "CLIP-ViT-B-16-laion2B-s34B-b88K",
+          "developer": "laion",
+          "family": "CLIP-ViT-B-16-laion2B-s34B-b88K",
+          "variant": "CLIP-ViT-B-16-laion2B-s34B-b88K"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Zero Shot Image Classification"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/laion/CLIP-ViT-B-16-laion2B-s34B-b88K",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "open_clip_model.safetensors",
+            "open_clip_pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "open_clip"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "7288da5a0d6f0b51c4a2b27c624837a9236d0112",
+          "created_at": "2023-01-03T00:16:18.000Z",
+          "last_modified": "2023-04-19T18:55:10.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "CLIP-ViT-B-16-laion2B-s34B-b88K",
+  "developer": "laion",
+  "source_repository": "https://huggingface.co/laion/CLIP-ViT-B-16-laion2B-s34B-b88K",
+  "current_repository_sha": "7288da5a0d6f0b51c4a2b27c624837a9236d0112",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/laion-clip-vit-b-16-laion2b-s34b-b88k/history/",
+  "diff_url": "https://openmodelweights.com/diff/laion-clip-vit-b-16-laion2b-s34b-b88k/"
+}

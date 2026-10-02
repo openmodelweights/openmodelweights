@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "zai-org-glm-ocr",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "2e85a62840cc-60539f2d8a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "2e85a62840ccac27daa451df36c736c4636b8628",
+      "evidence_hash": "60539f2d8a83c10b49f1a6398968a320412e2d457f5cd92780418805ba2b7bfb",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/zai-org/GLM-OCR",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/zai-org/GLM-OCR",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/zai-org/GLM-OCR",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/zai-org/GLM-OCR/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/zai-org/GLM-OCR/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "GLM-OCR",
+          "developer": "Z.ai",
+          "family": "GLM-OCR",
+          "variant": "GLM-OCR"
+        },
+        "model": {
+          "parameters": "1.32526B",
+          "total_parameters_billions": 1.32525824,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Image To Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/zai-org/GLM-OCR",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Ollama",
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2.65,
+            "fp8_int8": 1.33,
+            "int4": 0.66
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "2e85a62840ccac27daa451df36c736c4636b8628",
+          "created_at": "2026-01-30T04:24:21.000Z",
+          "last_modified": "2026-09-11T11:59:14.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "GLM-OCR",
+  "developer": "Z.ai",
+  "source_repository": "https://huggingface.co/zai-org/GLM-OCR",
+  "current_repository_sha": "2e85a62840ccac27daa451df36c736c4636b8628",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/zai-org-glm-ocr/history/",
+  "diff_url": "https://openmodelweights.com/diff/zai-org-glm-ocr/"
+}

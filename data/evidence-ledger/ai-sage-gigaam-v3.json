@@ -1,0 +1,110 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ai-sage-gigaam-v3",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ec1dc1f01d0d-0024ea0c99",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ec1dc1f01d0d627ab2c0d3acc1e235702300d95e",
+      "evidence_hash": "0024ea0c99db41852c7fe7181fc19d635ec41678d9b676fd0fc59398af106f7b",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/ai-sage/GigaAM-v3",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/ai-sage/GigaAM-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/ai-sage/GigaAM-v3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/ai-sage/GigaAM-v3/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/ai-sage/GigaAM-v3/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "GigaAM-v3",
+          "developer": "ai-sage",
+          "family": "GigaAM-v3",
+          "variant": "GigaAM-v3"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/ai-sage/GigaAM-v3",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "ec1dc1f01d0d627ab2c0d3acc1e235702300d95e",
+          "created_at": "2025-11-19T20:38:07.000Z",
+          "last_modified": "2025-11-19T21:45:34.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "GigaAM-v3",
+  "developer": "ai-sage",
+  "source_repository": "https://huggingface.co/ai-sage/GigaAM-v3",
+  "current_repository_sha": "ec1dc1f01d0d627ab2c0d3acc1e235702300d95e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ai-sage-gigaam-v3/history/",
+  "diff_url": "https://openmodelweights.com/diff/ai-sage-gigaam-v3/"
+}

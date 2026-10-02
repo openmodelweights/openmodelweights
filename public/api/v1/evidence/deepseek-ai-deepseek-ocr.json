@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "deepseek-ai-deepseek-ocr",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "9f30c71f441d-24312e9550",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "9f30c71f441d010e5429c532364a86705536c53a",
+      "evidence_hash": "24312e95500f0433789858897bf159825c26a0acd95a1e1d288f8ab7fce23fb9",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-OCR",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "DeepSeek-OCR",
+          "developer": "DeepSeek",
+          "family": "DeepSeek-OCR",
+          "variant": "DeepSeek-OCR"
+        },
+        "model": {
+          "parameters": "3.33611B",
+          "total_parameters_billions": 3.33610624,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model-00001-of-000001.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 6.67,
+            "fp8_int8": 3.34,
+            "int4": 1.67
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "9f30c71f441d010e5429c532364a86705536c53a",
+          "created_at": "2025-10-17T06:22:05.000Z",
+          "last_modified": "2025-11-04T02:36:12.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "DeepSeek-OCR",
+  "developer": "DeepSeek",
+  "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
+  "current_repository_sha": "9f30c71f441d010e5429c532364a86705536c53a",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/deepseek-ai-deepseek-ocr/history/",
+  "diff_url": "https://openmodelweights.com/diff/deepseek-ai-deepseek-ocr/"
+}

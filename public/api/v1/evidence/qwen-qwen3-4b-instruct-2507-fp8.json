@@ -1,0 +1,130 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen-qwen3-4b-instruct-2507-fp8",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8591804019c8-dc101b3c5d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8591804019c8b22094c3b5b4454e0edc05dffc98",
+      "evidence_hash": "dc101b3c5d983ea42879db1346b3399f4e2a3cdd5f7a7d77d205bd5ca0bd018d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507-FP8",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-4B-Instruct-2507-FP8",
+          "developer": "Qwen",
+          "family": "Qwen3",
+          "variant": "Qwen3-4B-Instruct-2507-FP8"
+        },
+        "model": {
+          "parameters": "4.41165B",
+          "total_parameters_billions": 4.411646016,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-4B-Instruct-2507"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "MLX",
+            "Ollama",
+            "SGLang",
+            "Transformers",
+            "llama.cpp",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 8.82,
+            "fp8_int8": 4.41,
+            "int4": 2.21
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8591804019c8b22094c3b5b4454e0edc05dffc98",
+          "created_at": "2025-08-06T06:51:43.000Z",
+          "last_modified": "2025-09-17T06:57:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-4B-Instruct-2507-FP8",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8",
+  "current_repository_sha": "8591804019c8b22094c3b5b4454e0edc05dffc98",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen-qwen3-4b-instruct-2507-fp8/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen-qwen3-4b-instruct-2507-fp8/"
+}

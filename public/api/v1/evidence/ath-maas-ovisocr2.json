@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ath-maas-ovisocr2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1fc9221b7823-b91c99cca6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1fc9221b7823a371d6e97f92d527cc847e24e107",
+      "evidence_hash": "b91c99cca6b8fa05caa94773255462b6ef0e88c3754fd77a2af25ab1e1966be3",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/ATH-MaaS/OvisOCR2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/ATH-MaaS/OvisOCR2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/ATH-MaaS/OvisOCR2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/ATH-MaaS/OvisOCR2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/ATH-MaaS/OvisOCR2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "OvisOCR2",
+          "developer": "ATH-MaaS",
+          "family": "OvisOCR2",
+          "variant": "OvisOCR2"
+        },
+        "model": {
+          "parameters": "0.852986B",
+          "total_parameters_billions": 0.85298592,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/ATH-MaaS/OvisOCR2/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/ATH-MaaS/OvisOCR2",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3.5-0.8B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.71,
+            "fp8_int8": 0.85,
+            "int4": 0.43
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "1fc9221b7823a371d6e97f92d527cc847e24e107",
+          "created_at": "2026-07-13T05:43:32.000Z",
+          "last_modified": "2026-08-28T08:46:00.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "OvisOCR2",
+  "developer": "ATH-MaaS",
+  "source_repository": "https://huggingface.co/ATH-MaaS/OvisOCR2",
+  "current_repository_sha": "1fc9221b7823a371d6e97f92d527cc847e24e107",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ath-maas-ovisocr2/history/",
+  "diff_url": "https://openmodelweights.com/diff/ath-maas-ovisocr2/"
+}

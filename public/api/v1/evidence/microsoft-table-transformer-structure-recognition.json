@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-table-transformer-structure-recognition",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f4d4bdc85c3f-4544b28f5c",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f4d4bdc85c3fe4b1fa49658882a5d38bbdd0f343",
+      "evidence_hash": "4544b28f5c4a2427db638ed92a9c7710d094ba0a4dabbca9c0df20c3238b2308",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/table-transformer-structure-recognition",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/table-transformer-structure-recognition",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/table-transformer-structure-recognition",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/table-transformer-structure-recognition/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/table-transformer-structure-recognition/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "table-transformer-structure-recognition",
+          "developer": "Microsoft",
+          "family": "table-transformer-structure-recognition",
+          "variant": "table-transformer-structure-recognition"
+        },
+        "model": {
+          "parameters": "0.0288478B",
+          "total_parameters_billions": 0.028847819,
+          "context_tokens": 1024,
+          "context_display": "1,024 tokens",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/table-transformer-structure-recognition",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.06,
+            "fp8_int8": 0.03,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "f4d4bdc85c3fe4b1fa49658882a5d38bbdd0f343",
+          "created_at": "2022-10-14T09:19:57.000Z",
+          "last_modified": "2023-09-06T14:50:49.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "table-transformer-structure-recognition",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/table-transformer-structure-recognition",
+  "current_repository_sha": "f4d4bdc85c3fe4b1fa49658882a5d38bbdd0f343",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-table-transformer-structure-recognition/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-table-transformer-structure-recognition/"
+}

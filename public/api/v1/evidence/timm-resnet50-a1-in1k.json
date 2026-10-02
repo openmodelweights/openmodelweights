@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "timm-resnet50-a1-in1k",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "767268603ca0-6f09ed8b09",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "767268603ca0cb0bfe326fa87277f19c419566ef",
+      "evidence_hash": "6f09ed8b092a95b7042046ad69369c2550a4267f1515fd0a26fa61060a36d927",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/timm/resnet50.a1_in1k",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/timm/resnet50.a1_in1k",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/timm/resnet50.a1_in1k",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/timm/resnet50.a1_in1k/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/timm/resnet50.a1_in1k/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "resnet50.a1_in1k",
+          "developer": "timm",
+          "family": "resnet50.a1_in1k",
+          "variant": "resnet50.a1_in1k"
+        },
+        "model": {
+          "parameters": "0.0256102B",
+          "total_parameters_billions": 0.025610152,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/timm/resnet50.a1_in1k",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "timm"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.05,
+            "fp8_int8": 0.03,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "767268603ca0cb0bfe326fa87277f19c419566ef",
+          "created_at": "2023-04-05T18:07:45.000Z",
+          "last_modified": "2025-07-11T18:17:03.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "resnet50.a1_in1k",
+  "developer": "timm",
+  "source_repository": "https://huggingface.co/timm/resnet50.a1_in1k",
+  "current_repository_sha": "767268603ca0cb0bfe326fa87277f19c419566ef",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/timm-resnet50-a1-in1k/history/",
+  "diff_url": "https://openmodelweights.com/diff/timm-resnet50-a1-in1k/"
+}

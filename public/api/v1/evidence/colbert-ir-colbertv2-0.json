@@ -1,0 +1,120 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "colbert-ir-colbertv2-0",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "c1e84128e85e-a74062ef5e",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "c1e84128e85ef755c096a95bdb06b47793b13acf",
+      "evidence_hash": "a74062ef5e5d5e1dab4017947a3de8c4c1ec416e6d8064b9bffb5a8dd41d2d13",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/colbert-ir/colbertv2.0",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/colbert-ir/colbertv2.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/colbert-ir/colbertv2.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/colbert-ir/colbertv2.0/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/colbert-ir/colbertv2.0/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "colbertv2.0",
+          "developer": "colbert-ir",
+          "family": "colbertv2.0",
+          "variant": "colbertv2.0"
+        },
+        "model": {
+          "parameters": "0.109581B",
+          "total_parameters_billions": 0.109581056,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/colbert-ir/colbertv2.0",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.onnx",
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "c1e84128e85ef755c096a95bdb06b47793b13acf",
+          "created_at": "2023-06-27T21:31:39.000Z",
+          "last_modified": "2024-04-05T20:18:44.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "colbertv2.0",
+  "developer": "colbert-ir",
+  "source_repository": "https://huggingface.co/colbert-ir/colbertv2.0",
+  "current_repository_sha": "c1e84128e85ef755c096a95bdb06b47793b13acf",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/colbert-ir-colbertv2-0/history/",
+  "diff_url": "https://openmodelweights.com/diff/colbert-ir-colbertv2-0/"
+}

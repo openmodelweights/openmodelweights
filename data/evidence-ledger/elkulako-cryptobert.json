@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "elkulako-cryptobert",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "9e37c910fe87-120742e4c8",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "9e37c910fe87727cb842a9ac55c6388256fe0f15",
+      "evidence_hash": "120742e4c82629f21c33023a08ad7448b1b3a2151af14378c200799da57240b3",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/ElKulako/cryptobert",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/ElKulako/cryptobert",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/ElKulako/cryptobert",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/ElKulako/cryptobert/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/ElKulako/cryptobert/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "cryptobert",
+          "developer": "ElKulako",
+          "family": "cryptobert",
+          "variant": "cryptobert"
+        },
+        "model": {
+          "parameters": "0.124648B",
+          "total_parameters_billions": 0.124648453,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text Classification"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/ElKulako/cryptobert",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "ElKulako/stocktwits-crypto"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.25,
+            "fp8_int8": 0.12,
+            "int4": 0.06
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "9e37c910fe87727cb842a9ac55c6388256fe0f15",
+          "created_at": "2022-06-20T02:29:26.000Z",
+          "last_modified": "2025-05-26T11:52:00.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "cryptobert",
+  "developer": "ElKulako",
+  "source_repository": "https://huggingface.co/ElKulako/cryptobert",
+  "current_repository_sha": "9e37c910fe87727cb842a9ac55c6388256fe0f15",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/elkulako-cryptobert/history/",
+  "diff_url": "https://openmodelweights.com/diff/elkulako-cryptobert/"
+}

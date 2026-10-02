@@ -1,0 +1,142 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "dphn-dolphin-2-9-1-yi-1-5-34b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "0141cba238d0-25bb98976e",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "0141cba238d0faad09bc240ea7af14c9ea5aec44",
+      "evidence_hash": "25bb98976e2ef876f6c7a68e161c38193079b5616be7aecbf229d815af43f404",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/dphn/dolphin-2.9.1-yi-1.5-34b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "dolphin-2.9.1-yi-1.5-34b",
+          "developer": "dphn",
+          "family": "dolphin-2.9.1-yi-1.5",
+          "variant": "dolphin-2.9.1-yi-1.5-34b"
+        },
+        "model": {
+          "parameters": "34.3889B",
+          "total_parameters_billions": 34.388917248,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b",
+          "access": "public",
+          "file_count": 16,
+          "exact_files": [
+            "model-00001-of-00015.safetensors",
+            "model-00002-of-00015.safetensors",
+            "model-00003-of-00015.safetensors",
+            "model-00004-of-00015.safetensors",
+            "model-00005-of-00015.safetensors",
+            "model-00006-of-00015.safetensors",
+            "model-00007-of-00015.safetensors",
+            "model-00008-of-00015.safetensors",
+            "model-00009-of-00015.safetensors",
+            "model-00010-of-00015.safetensors",
+            "model-00011-of-00015.safetensors",
+            "model-00012-of-00015.safetensors",
+            "model-00013-of-00015.safetensors",
+            "model-00014-of-00015.safetensors",
+            "model-00015-of-00015.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "01-ai/Yi-1.5-34B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "Locutusque/function-calling-chatml",
+            "cognitivecomputations/Dolphin-2.9",
+            "cognitivecomputations/dolphin-coder",
+            "cognitivecomputations/samantha-data",
+            "internlm/Agent-FLAN",
+            "m-a-p/CodeFeedback-Filtered-Instruction",
+            "microsoft/orca-math-word-problems-200k",
+            "teknium/OpenHermes-2.5"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 68.78,
+            "fp8_int8": 34.39,
+            "int4": 17.19
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "0141cba238d0faad09bc240ea7af14c9ea5aec44",
+          "created_at": "2024-05-18T04:50:56.000Z",
+          "last_modified": "2025-09-08T05:56:56.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "dolphin-2.9.1-yi-1.5-34b",
+  "developer": "dphn",
+  "source_repository": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b",
+  "current_repository_sha": "0141cba238d0faad09bc240ea7af14c9ea5aec44",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/dphn-dolphin-2-9-1-yi-1-5-34b/history/",
+  "diff_url": "https://openmodelweights.com/diff/dphn-dolphin-2-9-1-yi-1-5-34b/"
+}

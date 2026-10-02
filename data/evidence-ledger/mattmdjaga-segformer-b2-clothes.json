@@ -1,0 +1,126 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "mattmdjaga-segformer-b2-clothes",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "584abc1e1d26-efc9c7b51d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "584abc1e1d260e23c0fc627c5217a09b2b461046",
+      "evidence_hash": "efc9c7b51dbfc79878236416f6830b83df2a7d02d1663a56eceb763e86b2e8b9",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mattmdjaga/segformer_b2_clothes",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mattmdjaga/segformer_b2_clothes",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mattmdjaga/segformer_b2_clothes",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "segformer_b2_clothes",
+          "developer": "mattmdjaga",
+          "family": "segformer_b2_clothes",
+          "variant": "segformer_b2_clothes"
+        },
+        "model": {
+          "parameters": "0.027362B",
+          "total_parameters_billions": 0.027362002,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image"
+        },
+        "license": {
+          "name": "other",
+          "id": "other",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mattmdjaga/segformer_b2_clothes",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "optimizer.pt",
+            "pytorch_model.bin",
+            "rng_state.pth",
+            "scheduler.pt",
+            "training_args.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "mattmdjaga/human_parsing_dataset"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.05,
+            "fp8_int8": 0.03,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "584abc1e1d260e23c0fc627c5217a09b2b461046",
+          "created_at": "2022-11-24T09:48:16.000Z",
+          "last_modified": "2025-09-19T07:21:11.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "segformer_b2_clothes",
+  "developer": "mattmdjaga",
+  "source_repository": "https://huggingface.co/mattmdjaga/segformer_b2_clothes",
+  "current_repository_sha": "584abc1e1d260e23c0fc627c5217a09b2b461046",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/mattmdjaga-segformer-b2-clothes/history/",
+  "diff_url": "https://openmodelweights.com/diff/mattmdjaga-segformer-b2-clothes/"
+}

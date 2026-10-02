@@ -1,0 +1,120 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "madebyollin-sdxl-vae-fp16-fix",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "207b116dae70-fe3fa96010",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "207b116dae70ace3637169f1ddd2434b91b3a8cd",
+      "evidence_hash": "fe3fa96010abd7177d6a290e2bca2975cc046f576ae688f6fffc7393e67bf45a",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/madebyollin/sdxl-vae-fp16-fix",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "sdxl-vae-fp16-fix",
+          "developer": "madebyollin",
+          "family": "sdxl-vae-fp16-fix",
+          "variant": "sdxl-vae-fp16-fix"
+        },
+        "model": {
+          "parameters": "0.0836539B",
+          "total_parameters_billions": 0.083653863,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "diffusion_pytorch_model.bin",
+            "diffusion_pytorch_model.safetensors",
+            "sdxl.vae.safetensors",
+            "sdxl_vae.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.17,
+            "fp8_int8": 0.08,
+            "int4": 0.04
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "207b116dae70ace3637169f1ddd2434b91b3a8cd",
+          "created_at": "2023-07-11T04:03:50.000Z",
+          "last_modified": "2024-02-03T17:10:22.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "sdxl-vae-fp16-fix",
+  "developer": "madebyollin",
+  "source_repository": "https://huggingface.co/madebyollin/sdxl-vae-fp16-fix",
+  "current_repository_sha": "207b116dae70ace3637169f1ddd2434b91b3a8cd",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/madebyollin-sdxl-vae-fp16-fix/history/",
+  "diff_url": "https://openmodelweights.com/diff/madebyollin-sdxl-vae-fp16-fix/"
+}

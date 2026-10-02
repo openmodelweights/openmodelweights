@@ -1,0 +1,151 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "huggingfacetb-smolvlm-256m-instruct",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "7e3e67edbbed-f7ee5f6fbc",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "7e3e67edbbed1bf9888184d9df282b700a323964",
+      "evidence_hash": "f7ee5f6fbc1c4ed75edc89ee7a3ffa9a73364361486d145425f3fbaac39e64dd",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/HuggingFaceTB/SmolVLM-256M-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "SmolVLM-256M-Instruct",
+          "developer": "HuggingFaceTB",
+          "family": "SmolVLM",
+          "variant": "SmolVLM-256M-Instruct"
+        },
+        "model": {
+          "parameters": "0.256485B",
+          "total_parameters_billions": 0.256484928,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+          "access": "public",
+          "file_count": 25,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/decoder_model_merged.onnx",
+            "onnx/decoder_model_merged_bnb4.onnx",
+            "onnx/decoder_model_merged_fp16.onnx",
+            "onnx/decoder_model_merged_int8.onnx",
+            "onnx/decoder_model_merged_q4.onnx",
+            "onnx/decoder_model_merged_q4f16.onnx",
+            "onnx/decoder_model_merged_quantized.onnx",
+            "onnx/decoder_model_merged_uint8.onnx",
+            "onnx/embed_tokens.onnx",
+            "onnx/embed_tokens_bnb4.onnx",
+            "onnx/embed_tokens_fp16.onnx",
+            "onnx/embed_tokens_int8.onnx",
+            "onnx/embed_tokens_q4.onnx",
+            "onnx/embed_tokens_q4f16.onnx",
+            "onnx/embed_tokens_quantized.onnx",
+            "onnx/embed_tokens_uint8.onnx",
+            "onnx/vision_encoder.onnx",
+            "onnx/vision_encoder_bnb4.onnx",
+            "onnx/vision_encoder_fp16.onnx",
+            "onnx/vision_encoder_int8.onnx",
+            "onnx/vision_encoder_q4.onnx",
+            "onnx/vision_encoder_q4f16.onnx",
+            "onnx/vision_encoder_quantized.onnx",
+            "onnx/vision_encoder_uint8.onnx"
+          ],
+          "formats": [
+            "ONNX",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp16",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "HuggingFaceTB/SmolLM2-135M-Instruct",
+            "google/siglip-base-patch16-512"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "HuggingFaceM4/Docmatix",
+            "HuggingFaceM4/the_cauldron"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.51,
+            "fp8_int8": 0.26,
+            "int4": 0.13
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "7e3e67edbbed1bf9888184d9df282b700a323964",
+          "created_at": "2025-01-17T15:40:24.000Z",
+          "last_modified": "2025-04-08T21:39:50.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "SmolVLM-256M-Instruct",
+  "developer": "HuggingFaceTB",
+  "source_repository": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+  "current_repository_sha": "7e3e67edbbed1bf9888184d9df282b700a323964",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/huggingfacetb-smolvlm-256m-instruct/history/",
+  "diff_url": "https://openmodelweights.com/diff/huggingfacetb-smolvlm-256m-instruct/"
+}

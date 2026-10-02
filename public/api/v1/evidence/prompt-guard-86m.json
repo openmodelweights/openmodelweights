@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "prompt-guard-86m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1209add6ca7d-6326be9010",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1209add6ca7d9c1d815171b8e5571587fe3e7b03",
+      "evidence_hash": "6326be901040b67064665589a6b8e983e8ecabfc62d1588ec0ca10889b541743",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/meta-llama/Prompt-Guard-86M",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Prompt-Guard-86M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Prompt-Guard-86M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Prompt-Guard-86M/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Prompt-Guard-86M/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Prompt-Guard-86M",
+          "developer": "Meta",
+          "family": "Prompt Guard",
+          "variant": "Prompt-Guard-86M"
+        },
+        "model": {
+          "parameters": "0.3B",
+          "total_parameters_billions": 0.3,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text classification"
+        },
+        "license": {
+          "name": "llama3.1",
+          "id": "llama3.1",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/meta-llama/Prompt-Guard-86M",
+          "access": "gated (manual)",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.6,
+            "fp8_int8": 0.3,
+            "int4": 0.15
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "1209add6ca7d9c1d815171b8e5571587fe3e7b03",
+          "created_at": "2024-07-21T19:18:13.000Z",
+          "last_modified": "2025-11-12T21:27:00.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Prompt-Guard-86M",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/meta-llama/Prompt-Guard-86M",
+  "current_repository_sha": "1209add6ca7d9c1d815171b8e5571587fe3e7b03",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/prompt-guard-86m/history/",
+  "diff_url": "https://openmodelweights.com/diff/prompt-guard-86m/"
+}

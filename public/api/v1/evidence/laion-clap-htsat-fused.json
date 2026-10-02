@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "laion-clap-htsat-fused",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "365dea6ef167-27da645584",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "365dea6ef167def6676140ed93bbc43f84dabb28",
+      "evidence_hash": "27da645584c0cba2b8d91f1196cb4d61f04808755e0c5964deb9904289761a9c",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/laion/clap-htsat-fused",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/laion/clap-htsat-fused",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/laion/clap-htsat-fused",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/laion/clap-htsat-fused/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/laion/clap-htsat-fused/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "clap-htsat-fused",
+          "developer": "laion",
+          "family": "clap-htsat-fused",
+          "variant": "clap-htsat-fused"
+        },
+        "model": {
+          "parameters": "0.153558B",
+          "total_parameters_billions": 0.153558316,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Audio Classification"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/laion/clap-htsat-fused",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.31,
+            "fp8_int8": 0.15,
+            "int4": 0.08
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "365dea6ef167def6676140ed93bbc43f84dabb28",
+          "created_at": "2023-02-16T20:45:11.000Z",
+          "last_modified": "2026-01-12T00:41:49.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "clap-htsat-fused",
+  "developer": "laion",
+  "source_repository": "https://huggingface.co/laion/clap-htsat-fused",
+  "current_repository_sha": "365dea6ef167def6676140ed93bbc43f84dabb28",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/laion-clap-htsat-fused/history/",
+  "diff_url": "https://openmodelweights.com/diff/laion-clap-htsat-fused/"
+}

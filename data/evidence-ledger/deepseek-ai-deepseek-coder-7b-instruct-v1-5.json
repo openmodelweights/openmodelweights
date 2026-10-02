@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "deepseek-ai-deepseek-coder-7b-instruct-v1-5",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "2a050a4c59d6-578c7503ba",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "2a050a4c59d687a85324d32e147517992117ed30",
+      "evidence_hash": "578c7503ba513850fde73a8f2ffb199b671096a36a12278fe632a2c8871f5808",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "deepseek-coder-7b-instruct-v1.5",
+          "developer": "DeepSeek",
+          "family": "deepseek-coder",
+          "variant": "deepseek-coder-7b-instruct-v1.5"
+        },
+        "model": {
+          "parameters": "6.91037B",
+          "total_parameters_billions": 6.910365696,
+          "context_tokens": 4096,
+          "context_display": "4,096 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "deepseek",
+          "id": "other",
+          "url": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model-00001-of-00003.safetensors",
+            "model-00002-of-00003.safetensors",
+            "model-00003-of-00003.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 13.82,
+            "fp8_int8": 6.91,
+            "int4": 3.46
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "2a050a4c59d687a85324d32e147517992117ed30",
+          "created_at": "2024-01-25T15:51:02.000Z",
+          "last_modified": "2024-02-05T03:38:36.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "deepseek-coder-7b-instruct-v1.5",
+  "developer": "DeepSeek",
+  "source_repository": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+  "current_repository_sha": "2a050a4c59d687a85324d32e147517992117ed30",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/deepseek-ai-deepseek-coder-7b-instruct-v1-5/history/",
+  "diff_url": "https://openmodelweights.com/diff/deepseek-ai-deepseek-coder-7b-instruct-v1-5/"
+}

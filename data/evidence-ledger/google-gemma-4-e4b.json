@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-gemma-4-e4b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "411aa17b749a-80cc321063",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "411aa17b749aa952df1359d2dcea73917a544d9a",
+      "evidence_hash": "80cc3210634c546d69c215d44c456ac70988a9768c5ba5fb24887c11a00f1ad7",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/gemma-4-E4B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/gemma-4-E4B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/gemma-4-E4B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/gemma-4-E4B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/gemma-4-E4B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gemma-4-E4B",
+          "developer": "Google",
+          "family": "gemma-4-E4B",
+          "variant": "gemma-4-E4B"
+        },
+        "model": {
+          "parameters": "7.99616B",
+          "total_parameters_billions": 7.99615649,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Any To Any"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/gemma-4-E4B",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "llama.cpp"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 15.99,
+            "fp8_int8": 8.0,
+            "int4": 4.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "411aa17b749aa952df1359d2dcea73917a544d9a",
+          "created_at": "2026-03-02T19:57:53.000Z",
+          "last_modified": "2026-07-15T16:40:09.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gemma-4-E4B",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/gemma-4-E4B",
+  "current_repository_sha": "411aa17b749aa952df1359d2dcea73917a544d9a",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-gemma-4-e4b/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-gemma-4-e4b/"
+}

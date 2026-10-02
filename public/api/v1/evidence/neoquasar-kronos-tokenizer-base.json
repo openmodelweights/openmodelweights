@@ -1,0 +1,114 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "neoquasar-kronos-tokenizer-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "0e0117387f39-d27c5976bc",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "0e0117387f39004a9016484a186a908917e22426",
+      "evidence_hash": "d27c5976bc133035adb82288058b1017415f573343ab8ea8eceffefc8e47ef24",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/NeoQuasar/Kronos-Tokenizer-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/NeoQuasar/Kronos-Tokenizer-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/NeoQuasar/Kronos-Tokenizer-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/NeoQuasar/Kronos-Tokenizer-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/NeoQuasar/Kronos-Tokenizer-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Kronos-Tokenizer-base",
+          "developer": "NeoQuasar",
+          "family": "Kronos-Tokenizer",
+          "variant": "Kronos-Tokenizer-base"
+        },
+        "model": {
+          "parameters": "0.00395826B",
+          "total_parameters_billions": 0.003958258,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Time Series Forecasting"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/NeoQuasar/Kronos-Tokenizer-base",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "pytorch"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.01,
+            "fp8_int8": 0.0,
+            "int4": 0.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "0e0117387f39004a9016484a186a908917e22426",
+          "created_at": "2025-06-30T16:55:43.000Z",
+          "last_modified": "2025-09-09T14:10:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Kronos-Tokenizer-base",
+  "developer": "NeoQuasar",
+  "source_repository": "https://huggingface.co/NeoQuasar/Kronos-Tokenizer-base",
+  "current_repository_sha": "0e0117387f39004a9016484a186a908917e22426",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/neoquasar-kronos-tokenizer-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/neoquasar-kronos-tokenizer-base/"
+}

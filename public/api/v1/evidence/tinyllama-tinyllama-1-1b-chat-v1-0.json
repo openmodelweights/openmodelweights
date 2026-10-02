@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "tinyllama-tinyllama-1-1b-chat-v1-0",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "fe8a4ea1ffed-a1ac5fac0a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+      "evidence_hash": "a1ac5fac0a2e31a76fa8e53520c95b98c2c5dd34e02d5e4b6818fd15277dfedf",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "TinyLlama-1.1B-Chat-v1.0",
+          "developer": "TinyLlama",
+          "family": "TinyLlama",
+          "variant": "TinyLlama-1.1B-Chat-v1.0"
+        },
+        "model": {
+          "parameters": "1.10005B",
+          "total_parameters_billions": 1.100048384,
+          "context_tokens": 2048,
+          "context_display": "2,048 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "HuggingFaceH4/ultrachat_200k",
+            "HuggingFaceH4/ultrafeedback_binarized",
+            "bigcode/starcoderdata",
+            "cerebras/SlimPajama-627B"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2.2,
+            "fp8_int8": 1.1,
+            "int4": 0.55
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+          "created_at": "2023-12-30T06:27:30.000Z",
+          "last_modified": "2024-03-17T05:07:08.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "TinyLlama-1.1B-Chat-v1.0",
+  "developer": "TinyLlama",
+  "source_repository": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "current_repository_sha": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/tinyllama-tinyllama-1-1b-chat-v1-0/history/",
+  "diff_url": "https://openmodelweights.com/diff/tinyllama-tinyllama-1-1b-chat-v1-0/"
+}

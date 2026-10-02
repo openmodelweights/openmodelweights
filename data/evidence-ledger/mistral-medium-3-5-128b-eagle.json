@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "mistral-medium-3-5-128b-eagle",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d31694b0f55b-a03804beb0",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d31694b0f55b51d4d962b5c3dbf0e03d1f019275",
+      "evidence_hash": "a03804beb09bc9c781e5cae3fdfb58925fea1efe2d198742d094c15b90212605",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Mistral-Medium-3.5-128B-EAGLE",
+          "developer": "Mistral AI",
+          "family": "Mistral Medium 3.5",
+          "variant": "Mistral-Medium-3.5-128B-EAGLE"
+        },
+        "model": {
+          "parameters": "128B",
+          "total_parameters_billions": 128.0,
+          "context_tokens": 256000,
+          "context_display": "256,000 tokens",
+          "modality": "Speculative decoding asset"
+        },
+        "license": {
+          "name": "Mistral Modified MIT License",
+          "id": "other",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE/blob/main/LICENSE",
+          "commercial_use_status": "allowed-with-revenue-condition",
+          "commercial_use_label": "Commercial use allowed, but the license restricts companies above its revenue threshold without a separate license"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "consolidated.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "mistralai/Mistral-Medium-3.5-128B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "mistral-common",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 256.0,
+            "fp8_int8": 128.0,
+            "int4": 64.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "d31694b0f55b51d4d962b5c3dbf0e03d1f019275",
+          "created_at": "2026-04-27T13:35:34.000Z",
+          "last_modified": "2026-04-30T06:32:10.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Mistral-Medium-3.5-128B-EAGLE",
+  "developer": "Mistral AI",
+  "source_repository": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+  "current_repository_sha": "d31694b0f55b51d4d962b5c3dbf0e03d1f019275",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/mistral-medium-3-5-128b-eagle/history/",
+  "diff_url": "https://openmodelweights.com/diff/mistral-medium-3-5-128b-eagle/"
+}

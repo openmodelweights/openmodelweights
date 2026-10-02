@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ministral-3-8b-instruct-2512-bf16",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f6fae9795746-ea83e0e1a7",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f6fae9795746f63c9be8344932f01275f3c63734",
+      "evidence_hash": "ea83e0e1a70ea57efe43582303d83a23abbd083a0adac90a89eb6b1736466e44",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Ministral-3-8B-Instruct-2512-BF16",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Ministral-3-8B-Instruct-2512-BF16",
+          "developer": "Mistral AI",
+          "family": "Ministral 3",
+          "variant": "Ministral-3-8B-Instruct-2512-BF16"
+        },
+        "model": {
+          "parameters": "9B",
+          "total_parameters_billions": 9.0,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16",
+          "access": "public",
+          "file_count": 6,
+          "exact_files": [
+            "consolidated.safetensors",
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "mistralai/Ministral-3-8B-Base-2512"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "mistral-common",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 18.0,
+            "fp8_int8": 9.0,
+            "int4": 4.5
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "f6fae9795746f63c9be8344932f01275f3c63734",
+          "created_at": "2025-10-31T08:41:17.000Z",
+          "last_modified": "2026-07-15T12:22:19.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Ministral-3-8B-Instruct-2512-BF16",
+  "developer": "Mistral AI",
+  "source_repository": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16",
+  "current_repository_sha": "f6fae9795746f63c9be8344932f01275f3c63734",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ministral-3-8b-instruct-2512-bf16/history/",
+  "diff_url": "https://openmodelweights.com/diff/ministral-3-8b-instruct-2512-bf16/"
+}

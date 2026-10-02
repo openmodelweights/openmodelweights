@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "intfloat-multilingual-e5-large",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "3d7cfbdacd47-66c770d597",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+      "evidence_hash": "66c770d5972312415a306b807455963c9f089d824ab81d84d5abaf0b44a35736",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/intfloat/multilingual-e5-large",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/intfloat/multilingual-e5-large",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/intfloat/multilingual-e5-large",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/intfloat/multilingual-e5-large/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/intfloat/multilingual-e5-large/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "multilingual-e5-large",
+          "developer": "intfloat",
+          "family": "multilingual-e5-large",
+          "variant": "multilingual-e5-large"
+        },
+        "model": {
+          "parameters": "0.559891B",
+          "total_parameters_billions": 0.559890946,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/intfloat/multilingual-e5-large",
+          "access": "public",
+          "file_count": 6,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "openvino/openvino_model.bin",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.12,
+            "fp8_int8": 0.56,
+            "int4": 0.28
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+          "created_at": "2023-06-30T07:38:19.000Z",
+          "last_modified": "2026-04-02T02:16:59.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "multilingual-e5-large",
+  "developer": "intfloat",
+  "source_repository": "https://huggingface.co/intfloat/multilingual-e5-large",
+  "current_repository_sha": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/intfloat-multilingual-e5-large/history/",
+  "diff_url": "https://openmodelweights.com/diff/intfloat-multilingual-e5-large/"
+}

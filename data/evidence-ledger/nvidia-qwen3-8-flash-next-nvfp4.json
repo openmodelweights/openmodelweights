@@ -1,0 +1,137 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-qwen3-8-flash-next-nvfp4",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "fc694b54fb01-800d944553",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "fc694b54fb0174e0913e6adf86691ef85a4ead47",
+      "evidence_hash": "800d944553438bee7ab8058baa29d2e26aa0f0ec110154c2740094962cd2adef",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Qwen3.8-Flash-Next-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3.8-Flash-Next-NVFP4",
+          "developer": "NVIDIA",
+          "family": "Qwen3.8-Flash-Next-NVFP4",
+          "variant": "Qwen3.8-Flash-Next-NVFP4"
+        },
+        "model": {
+          "parameters": "119.602B",
+          "total_parameters_billions": 119.602003859,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "nvidia-open-model-license",
+          "id": "other",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+          "access": "public",
+          "file_count": 12,
+          "exact_files": [
+            "model-00001-of-00010.safetensors",
+            "model-00002-of-00010.safetensors",
+            "model-00003-of-00010.safetensors",
+            "model-00004-of-00010.safetensors",
+            "model-00005-of-00010.safetensors",
+            "model-00006-of-00010.safetensors",
+            "model-00007-of-00010.safetensors",
+            "model-00008-of-00010.safetensors",
+            "model-00009-of-00010.safetensors",
+            "model-00010-of-00010.safetensors",
+            "model-fp8-mtp-ple.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3.8-Flash-Next"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Model Optimizer",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 239.2,
+            "fp8_int8": 119.6,
+            "int4": 59.8
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "fc694b54fb0174e0913e6adf86691ef85a4ead47",
+          "created_at": "2026-09-02T04:03:35.000Z",
+          "last_modified": "2026-09-05T23:36:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3.8-Flash-Next-NVFP4",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+  "current_repository_sha": "fc694b54fb0174e0913e6adf86691ef85a4ead47",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-qwen3-8-flash-next-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-qwen3-8-flash-next-nvfp4/"
+}

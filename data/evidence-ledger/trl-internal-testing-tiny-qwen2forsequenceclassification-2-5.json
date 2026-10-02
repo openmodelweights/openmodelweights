@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "trl-internal-testing-tiny-qwen2forsequenceclassification-2-5",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "9f98188909b0-45ebebebf1",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "9f98188909b03e8d8d1dd624474b87ae41ee3bd8",
+      "evidence_hash": "45ebebebf1227c5cd5d38bbbddfc97db904275a9221f0c55b84c4034d066877d",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "tiny-Qwen2ForSequenceClassification-2.5",
+          "developer": "trl-internal-testing",
+          "family": "tiny-Qwen2ForSequenceClassification-2.5",
+          "variant": "tiny-Qwen2ForSequenceClassification-2.5"
+        },
+        "model": {
+          "parameters": "0.00243779B",
+          "total_parameters_billions": 0.002437792,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Text Classification"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.0,
+            "fp8_int8": 0.0,
+            "int4": 0.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "9f98188909b03e8d8d1dd624474b87ae41ee3bd8",
+          "created_at": "2025-01-14T11:08:22.000Z",
+          "last_modified": "2025-12-19T19:12:08.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "tiny-Qwen2ForSequenceClassification-2.5",
+  "developer": "trl-internal-testing",
+  "source_repository": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForSequenceClassification-2.5",
+  "current_repository_sha": "9f98188909b03e8d8d1dd624474b87ae41ee3bd8",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/trl-internal-testing-tiny-qwen2forsequenceclassification-2-5/history/",
+  "diff_url": "https://openmodelweights.com/diff/trl-internal-testing-tiny-qwen2forsequenceclassification-2-5/"
+}

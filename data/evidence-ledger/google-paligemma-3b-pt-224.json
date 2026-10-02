@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-paligemma-3b-pt-224",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "35e4f46485b4-bd767e86a8",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "35e4f46485b4d07967e7e9935bc3786aad50687c",
+      "evidence_hash": "bd767e86a8272c516fb5e97324aa81caefd42f0e42487afbbf1b7e3beb7d0254",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/paligemma-3b-pt-224",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/paligemma-3b-pt-224",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/paligemma-3b-pt-224",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/paligemma-3b-pt-224/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/paligemma-3b-pt-224/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://ai.google.dev/gemma/terms",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "paligemma-3b-pt-224",
+          "developer": "Google",
+          "family": "paligemma",
+          "variant": "paligemma-3b-pt-224"
+        },
+        "model": {
+          "parameters": "2.92347B",
+          "total_parameters_billions": 2.92346648,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "gemma",
+          "id": "gemma",
+          "url": "https://ai.google.dev/gemma/terms",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use permitted subject to Gemma Terms"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/paligemma-3b-pt-224",
+          "access": "gated (manual)",
+          "file_count": 4,
+          "exact_files": [
+            "model-00001-of-00003.safetensors",
+            "model-00002-of-00003.safetensors",
+            "model-00003-of-00003.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 5.85,
+            "fp8_int8": 2.92,
+            "int4": 1.46
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "35e4f46485b4d07967e7e9935bc3786aad50687c",
+          "created_at": "2024-05-12T22:53:40.000Z",
+          "last_modified": "2024-09-21T10:14:25.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "paligemma-3b-pt-224",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/paligemma-3b-pt-224",
+  "current_repository_sha": "35e4f46485b4d07967e7e9935bc3786aad50687c",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-paligemma-3b-pt-224/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-paligemma-3b-pt-224/"
+}

@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "opengvlab-internvl2-2b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e4f6747bd20f-476b1f7941",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e4f6747bd20f139e637642c6a058c6bd00b36919",
+      "evidence_hash": "476b1f79412b20d4c6a4ee0a2d537e0ed4bb9ea2ee219dd521f8711d0b500dc3",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/OpenGVLab/InternVL2-2B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/OpenGVLab/InternVL2-2B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/OpenGVLab/InternVL2-2B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/OpenGVLab/InternVL2-2B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/OpenGVLab/InternVL2-2B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "InternVL2-2B",
+          "developer": "OpenGVLab",
+          "family": "InternVL2",
+          "variant": "InternVL2-2B"
+        },
+        "model": {
+          "parameters": "2.20575B",
+          "total_parameters_billions": 2.205754368,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/OpenGVLab/InternVL2-2B",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "OpenGVLab/InternViT-300M-448px",
+            "internlm/internlm2-chat-1_8b"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 4.41,
+            "fp8_int8": 2.21,
+            "int4": 1.1
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "e4f6747bd20f139e637642c6a058c6bd00b36919",
+          "created_at": "2024-06-27T09:59:37.000Z",
+          "last_modified": "2025-03-25T05:55:24.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "InternVL2-2B",
+  "developer": "OpenGVLab",
+  "source_repository": "https://huggingface.co/OpenGVLab/InternVL2-2B",
+  "current_repository_sha": "e4f6747bd20f139e637642c6a058c6bd00b36919",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/opengvlab-internvl2-2b/history/",
+  "diff_url": "https://openmodelweights.com/diff/opengvlab-internvl2-2b/"
+}

@@ -1,0 +1,110 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "unitary-unbiased-toxic-roberta",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "36295dd80b42-fec4feac1b",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "36295dd80b422dc49f40052021430dae76241adc",
+      "evidence_hash": "fec4feac1bb0b8adef2c4d3d869fe742448fdfa2efc3543fb9d9cd6c9ec3769c",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/unitary/unbiased-toxic-roberta",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/unitary/unbiased-toxic-roberta",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/unitary/unbiased-toxic-roberta",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/unitary/unbiased-toxic-roberta/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/unitary/unbiased-toxic-roberta/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "unbiased-toxic-roberta",
+          "developer": "unitary",
+          "family": "unbiased-toxic-roberta",
+          "variant": "unbiased-toxic-roberta"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text Classification"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/unitary/unbiased-toxic-roberta",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "36295dd80b422dc49f40052021430dae76241adc",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2023-08-18T10:43:39.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "unbiased-toxic-roberta",
+  "developer": "unitary",
+  "source_repository": "https://huggingface.co/unitary/unbiased-toxic-roberta",
+  "current_repository_sha": "36295dd80b422dc49f40052021430dae76241adc",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/unitary-unbiased-toxic-roberta/history/",
+  "diff_url": "https://openmodelweights.com/diff/unitary-unbiased-toxic-roberta/"
+}

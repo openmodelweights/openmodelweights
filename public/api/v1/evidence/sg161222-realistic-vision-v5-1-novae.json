@@ -1,0 +1,126 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sg161222-realistic-vision-v5-1-novae",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1e9f017a7b1e-b3b86ce6e1",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1e9f017a7b1eaefb63a1900ea6c5953d2739fd21",
+      "evidence_hash": "b3b86ce6e185c35bad8e11dd36d2b08dfb7211832318ae9968503a6fa19a8e67",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/SG161222/Realistic_Vision_V5.1_noVAE",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Realistic_Vision_V5.1_noVAE",
+          "developer": "SG161222",
+          "family": "Realistic_Vision_V5.1_noVAE",
+          "variant": "Realistic_Vision_V5.1_noVAE"
+        },
+        "model": {
+          "parameters": "0.859521B",
+          "total_parameters_billions": 0.859520964,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → image"
+        },
+        "license": {
+          "name": "creativeml-openrail-m",
+          "id": "creativeml-openrail-m",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE",
+          "access": "public",
+          "file_count": 11,
+          "exact_files": [
+            "Realistic_Vision_V5.1-inpainting.ckpt",
+            "Realistic_Vision_V5.1-inpainting.safetensors",
+            "Realistic_Vision_V5.1.ckpt",
+            "Realistic_Vision_V5.1.safetensors",
+            "Realistic_Vision_V5.1_fp16-no-ema-inpainting.ckpt",
+            "Realistic_Vision_V5.1_fp16-no-ema-inpainting.safetensors",
+            "Realistic_Vision_V5.1_fp16-no-ema.ckpt",
+            "Realistic_Vision_V5.1_fp16-no-ema.safetensors",
+            "text_encoder/model.safetensors",
+            "unet/diffusion_pytorch_model.safetensors",
+            "vae/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.72,
+            "fp8_int8": 0.86,
+            "int4": 0.43
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "1e9f017a7b1eaefb63a1900ea6c5953d2739fd21",
+          "created_at": "2023-07-31T05:20:51.000Z",
+          "last_modified": "2025-10-30T16:55:47.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Realistic_Vision_V5.1_noVAE",
+  "developer": "SG161222",
+  "source_repository": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE",
+  "current_repository_sha": "1e9f017a7b1eaefb63a1900ea6c5953d2739fd21",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sg161222-realistic-vision-v5-1-novae/history/",
+  "diff_url": "https://openmodelweights.com/diff/sg161222-realistic-vision-v5-1-novae/"
+}

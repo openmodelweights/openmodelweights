@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "airesearch-wav2vec2-large-xlsr-53-th",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "3155938c549b-66fbc6d885",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "3155938c549b23eee16b1d4b55dcb161b7fe4bcf",
+      "evidence_hash": "66fbc6d885581ff547a93b2c66ce1c0c072ced5950bde66f0345e85e17215874",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/airesearch/wav2vec2-large-xlsr-53-th",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "wav2vec2-large-xlsr-53-th",
+          "developer": "airesearch",
+          "family": "wav2vec2-large-xlsr-53-th",
+          "variant": "wav2vec2-large-xlsr-53-th"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "cc-by-sa-4.0",
+          "id": "cc-by-sa-4.0",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "pytorch_model.bin",
+            "rng_state.pth",
+            "scaler.pt",
+            "scheduler.pt",
+            "training_args.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "common_voice"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "3155938c549b23eee16b1d4b55dcb161b7fe4bcf",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2022-03-23T18:24:45.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "wav2vec2-large-xlsr-53-th",
+  "developer": "airesearch",
+  "source_repository": "https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th",
+  "current_repository_sha": "3155938c549b23eee16b1d4b55dcb161b7fe4bcf",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/airesearch-wav2vec2-large-xlsr-53-th/history/",
+  "diff_url": "https://openmodelweights.com/diff/airesearch-wav2vec2-large-xlsr-53-th/"
+}

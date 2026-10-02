@@ -1,0 +1,123 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "numind-numarkdown-8b-thinking",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8dfc5236ae68-13b86a3cf6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8dfc5236ae68b799d86308aae2f9717fdb50286e",
+      "evidence_hash": "13b86a3cf693031ce5cf2865214f7150f89c03bfd9dd920f4917ea96a96fdd7f",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/numind/NuMarkdown-8B-Thinking",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/numind/NuMarkdown-8B-Thinking",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/numind/NuMarkdown-8B-Thinking",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/numind/NuMarkdown-8B-Thinking/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/numind/NuMarkdown-8B-Thinking/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "NuMarkdown-8B-Thinking",
+          "developer": "numind",
+          "family": "NuMarkdown",
+          "variant": "NuMarkdown-8B-Thinking"
+        },
+        "model": {
+          "parameters": "8.29217B",
+          "total_parameters_billions": 8.292166656,
+          "context_tokens": 128000,
+          "context_display": "128,000 tokens",
+          "modality": "Image To Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/numind/NuMarkdown-8B-Thinking",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen2.5-VL-7B-Instruct"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 16.58,
+            "fp8_int8": 8.29,
+            "int4": 4.15
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8dfc5236ae68b799d86308aae2f9717fdb50286e",
+          "created_at": "2025-07-29T18:39:08.000Z",
+          "last_modified": "2026-06-05T12:59:54.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "NuMarkdown-8B-Thinking",
+  "developer": "numind",
+  "source_repository": "https://huggingface.co/numind/NuMarkdown-8B-Thinking",
+  "current_repository_sha": "8dfc5236ae68b799d86308aae2f9717fdb50286e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/numind-numarkdown-8b-thinking/history/",
+  "diff_url": "https://openmodelweights.com/diff/numind-numarkdown-8b-thinking/"
+}

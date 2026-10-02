@@ -1,0 +1,111 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "prosusai-finbert",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "4556d1301521-2f9ede633d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "4556d13015211d73dccd3fdd39d39232506f3e43",
+      "evidence_hash": "2f9ede633dc0ff40d44594520ed0f9d2b82ef7d2fc0833fc891d3a9fa50982d5",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/ProsusAI/finbert",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/ProsusAI/finbert",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/ProsusAI/finbert",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/ProsusAI/finbert/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/ProsusAI/finbert/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "finbert",
+          "developer": "ProsusAI",
+          "family": "finbert",
+          "variant": "finbert"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text Classification"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/ProsusAI/finbert",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "4556d13015211d73dccd3fdd39d39232506f3e43",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2023-05-23T12:43:35.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "finbert",
+  "developer": "ProsusAI",
+  "source_repository": "https://huggingface.co/ProsusAI/finbert",
+  "current_repository_sha": "4556d13015211d73dccd3fdd39d39232506f3e43",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/prosusai-finbert/history/",
+  "diff_url": "https://openmodelweights.com/diff/prosusai-finbert/"
+}

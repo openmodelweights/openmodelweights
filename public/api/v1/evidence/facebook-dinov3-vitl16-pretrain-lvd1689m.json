@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-dinov3-vitl16-pretrain-lvd1689m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ea8dc2863c51-5a1d6d04c0",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+      "evidence_hash": "5a1d6d04c0276999b17f1b87d9bf3574cb5f04255df9327cba67cfd1750a39cc",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/dinov3-vitl16-pretrain-lvd1689m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://ai.meta.com/resources/models-and-libraries/dinov3-license",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "dinov3-vitl16-pretrain-lvd1689m",
+          "developer": "Meta",
+          "family": "dinov3-vitl16-pretrain-lvd1689m",
+          "variant": "dinov3-vitl16-pretrain-lvd1689m"
+        },
+        "model": {
+          "parameters": "0.30313B",
+          "total_parameters_billions": 0.3031296,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image Feature Extraction"
+        },
+        "license": {
+          "name": "dinov3-license",
+          "id": "other",
+          "url": "https://ai.meta.com/resources/models-and-libraries/dinov3-license",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+          "access": "gated (manual)",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "facebook/dinov3-vit7b16-pretrain-lvd1689m"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.61,
+            "fp8_int8": 0.3,
+            "int4": 0.15
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+          "created_at": "2025-08-06T06:19:51.000Z",
+          "last_modified": "2025-08-19T09:00:52.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "dinov3-vitl16-pretrain-lvd1689m",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "current_repository_sha": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-dinov3-vitl16-pretrain-lvd1689m/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-dinov3-vitl16-pretrain-lvd1689m/"
+}

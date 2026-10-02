@@ -1,0 +1,129 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "mistral-medium-3-5-128b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "22b2b868a156-a439d26a49",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "22b2b868a15677cfa6061277ed2f653d1349a9ab",
+      "evidence_hash": "a439d26a49a2a891485851bd5734c8c34315e3ea9ec0965c884e6e7aca7870f5",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Mistral-Medium-3.5-128B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Mistral-Medium-3.5-128B",
+          "developer": "Mistral AI",
+          "family": "Mistral Medium 3.5",
+          "variant": "Mistral-Medium-3.5-128B"
+        },
+        "model": {
+          "parameters": "128B",
+          "total_parameters_billions": 128.0,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Mistral Modified MIT License",
+          "id": "other",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B/blob/main/LICENSE",
+          "commercial_use_status": "allowed-with-revenue-condition",
+          "commercial_use_label": "Commercial use allowed, but the license restricts companies above its revenue threshold without a separate license"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+          "access": "public",
+          "file_count": 8,
+          "exact_files": [
+            "consolidated-00001-of-00003.safetensors",
+            "consolidated-00002-of-00003.safetensors",
+            "consolidated-00003-of-00003.safetensors",
+            "consolidated.safetensors.index.json",
+            "model-00001-of-00003.safetensors",
+            "model-00002-of-00003.safetensors",
+            "model-00003-of-00003.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Ollama",
+            "SGLang",
+            "Transformers",
+            "llama.cpp",
+            "mistral-common",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 256.0,
+            "fp8_int8": 128.0,
+            "int4": 64.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "22b2b868a15677cfa6061277ed2f653d1349a9ab",
+          "created_at": "2026-03-31T09:50:20.000Z",
+          "last_modified": "2026-07-15T12:23:17.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Mistral-Medium-3.5-128B",
+  "developer": "Mistral AI",
+  "source_repository": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+  "current_repository_sha": "22b2b868a15677cfa6061277ed2f653d1349a9ab",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/mistral-medium-3-5-128b/history/",
+  "diff_url": "https://openmodelweights.com/diff/mistral-medium-3-5-128b/"
+}

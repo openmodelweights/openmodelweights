@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-trellis-2-4b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "af44b45f2e35-8cbf863f7b",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "af44b45f2e35a493886929c6d786e563ec68364d",
+      "evidence_hash": "8cbf863f7b69edd090b6adb0de5c99fb7c1a69865b49bbe4ba094b48a477b1dc",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/TRELLIS.2-4B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/TRELLIS.2-4B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/TRELLIS.2-4B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/TRELLIS.2-4B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/TRELLIS.2-4B/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "TRELLIS.2-4B",
+          "developer": "Microsoft",
+          "family": "TRELLIS.2",
+          "variant": "TRELLIS.2-4B"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image To 3D"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/TRELLIS.2-4B",
+          "access": "public",
+          "file_count": 9,
+          "exact_files": [
+            "ckpts/shape_dec_next_dc_f16c32_fp16.safetensors",
+            "ckpts/shape_enc_next_dc_f16c32_fp16.safetensors",
+            "ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors",
+            "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors",
+            "ckpts/slat_flow_imgshape2tex_dit_1_3B_1024_bf16.safetensors",
+            "ckpts/slat_flow_imgshape2tex_dit_1_3B_512_bf16.safetensors",
+            "ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors",
+            "ckpts/tex_dec_next_dc_f16c32_fp16.safetensors",
+            "ckpts/tex_enc_next_dc_f16c32_fp16.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "trellis2"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "af44b45f2e35a493886929c6d786e563ec68364d",
+          "created_at": "2025-12-01T02:25:40.000Z",
+          "last_modified": "2025-12-27T13:21:56.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "TRELLIS.2-4B",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/TRELLIS.2-4B",
+  "current_repository_sha": "af44b45f2e35a493886929c6d786e563ec68364d",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-trellis-2-4b/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-trellis-2-4b/"
+}

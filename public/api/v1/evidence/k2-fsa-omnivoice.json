@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "k2-fsa-omnivoice",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "c5fdb5ccb189-340c9811cb",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "c5fdb5ccb189668d56333f77ba2629f4cd7535f4",
+      "evidence_hash": "340c9811cbfb204bc15fd7bfedfbdac4e9161ee56e76faa37b032937707f9583",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/k2-fsa/OmniVoice",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/k2-fsa/OmniVoice",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/k2-fsa/OmniVoice",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/k2-fsa/OmniVoice/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/k2-fsa/OmniVoice/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "OmniVoice",
+          "developer": "k2-fsa",
+          "family": "OmniVoice",
+          "variant": "OmniVoice"
+        },
+        "model": {
+          "parameters": "0.612577B",
+          "total_parameters_billions": 0.612577288,
+          "context_tokens": 40960,
+          "context_display": "40,960 tokens",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": "https://huggingface.co/k2-fsa/OmniVoice/blob/main/audio_tokenizer/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/k2-fsa/OmniVoice",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "audio_tokenizer/model.safetensors",
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-0.6B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "omnivoice"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.23,
+            "fp8_int8": 0.61,
+            "int4": 0.31
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "c5fdb5ccb189668d56333f77ba2629f4cd7535f4",
+          "created_at": "2026-03-30T13:43:33.000Z",
+          "last_modified": "2026-07-03T03:32:17.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "OmniVoice",
+  "developer": "k2-fsa",
+  "source_repository": "https://huggingface.co/k2-fsa/OmniVoice",
+  "current_repository_sha": "c5fdb5ccb189668d56333f77ba2629f4cd7535f4",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/k2-fsa-omnivoice/history/",
+  "diff_url": "https://openmodelweights.com/diff/k2-fsa-omnivoice/"
+}

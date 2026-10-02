@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen-qwen3-vl-4b-instruct",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ebb281ec70b0-7dd1ba9fe9",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+      "evidence_hash": "7dd1ba9fe91a98a6f9a579bd6d4ac4fec93f7857e0de2b063594f54b0a96395e",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3-VL-4B-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-VL-4B-Instruct",
+          "developer": "Qwen",
+          "family": "Qwen3-VL",
+          "variant": "Qwen3-VL-4B-Instruct"
+        },
+        "model": {
+          "parameters": "4.43782B",
+          "total_parameters_billions": 4.437815808,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 8.88,
+            "fp8_int8": 4.44,
+            "int4": 2.22
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "created_at": "2025-10-11T07:23:22.000Z",
+          "last_modified": "2025-10-15T16:15:55.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-VL-4B-Instruct",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
+  "current_repository_sha": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen-qwen3-vl-4b-instruct/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen-qwen3-vl-4b-instruct/"
+}

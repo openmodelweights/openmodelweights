@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "matlowai-minimax-h3-fused-turbo-int8-convrot",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8a8dffaa0cd9-d312be83e8",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8a8dffaa0cd99c6184833ae0a3b4e9b0089c17b3",
+      "evidence_hash": "d312be83e813a08ebefcd292116be67a6aea401012dd672a64acc4c2fd7ef0e7",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/MATLOWAI/minimax-h3-fused-turbo-int8-convrot",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/MATLOWAI/minimax-h3-fused-turbo-int8-convrot",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/MATLOWAI/minimax-h3-fused-turbo-int8-convrot",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/MATLOWAI/minimax-h3-fused-turbo-int8-convrot/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/MATLOWAI/minimax-h3-fused-turbo-int8-convrot/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "minimax-h3-fused-turbo-int8-convrot",
+          "developer": "MATLOWAI",
+          "family": "minimax-h3-fused-turbo-int8-convrot",
+          "variant": "minimax-h3-fused-turbo-int8-convrot"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image Text To Video"
+        },
+        "license": {
+          "name": "minimax-h3-community-license-agreement",
+          "id": "other",
+          "url": "https://huggingface.co/MATLOWAI/minimax-h3-fused-turbo-int8-convrot/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/MATLOWAI/minimax-h3-fused-turbo-int8-convrot",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "diffusion_models/minimax_h3_fused_refdelta_r1024_turbo8_mystic07_int8_convrot.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Comfy-Org/MiniMax-H3",
+            "MiniMaxAI/MiniMax-H3",
+            "diffusers-modular/MiniMax-H3-Pruned-Ref-Delta-Fused-r1024",
+            "xmarre/MiniMax-H3-Pruned-Ref-Delta-Fused-r1024-ComfyUI"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers",
+            "Transformers",
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "8a8dffaa0cd99c6184833ae0a3b4e9b0089c17b3",
+          "created_at": "2026-08-29T22:04:12.000Z",
+          "last_modified": "2026-08-30T01:25:46.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "minimax-h3-fused-turbo-int8-convrot",
+  "developer": "MATLOWAI",
+  "source_repository": "https://huggingface.co/MATLOWAI/minimax-h3-fused-turbo-int8-convrot",
+  "current_repository_sha": "8a8dffaa0cd99c6184833ae0a3b4e9b0089c17b3",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/matlowai-minimax-h3-fused-turbo-int8-convrot/history/",
+  "diff_url": "https://openmodelweights.com/diff/matlowai-minimax-h3-fused-turbo-int8-convrot/"
+}

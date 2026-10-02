@@ -215,7 +215,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "checked_at_iso": "2026-10-02T13:01:34+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -255,12 +255,12 @@
     "repo_id": "deepseek-ai/DeepSeek-V4.1-Flash",
     "rank": 279,
     "downloads": 767871,
-    "likes": 4002,
+    "likes": 4003,
     "last_modified": "2026-10-01T05:56:24+00:00",
     "created_at": "2026-09-10T02:17:58+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",
-    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "discovered_at": "2026-10-02T13:01:33+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -277,7 +277,7 @@
     "last_modified": "2026-10-01T05:56:24.000Z",
     "created_at": "2026-09-10T02:17:58.000Z",
     "downloads": 767871,
-    "likes": 4002,
+    "likes": 4003,
     "sha": "2cba9e42aa026125f3ed06c6d98c1db82f7ca027",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",

@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebookai-xlm-roberta-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "e73636d4f797-817022745a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "evidence_hash": "817022745abfdc2369fc85f5b93eadd3273b8a1c395388dd24902a925ffae32c",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/FacebookAI/xlm-roberta-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/FacebookAI/xlm-roberta-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/FacebookAI/xlm-roberta-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "xlm-roberta-base",
+          "developer": "FacebookAI",
+          "family": "xlm-roberta",
+          "variant": "xlm-roberta-base"
+        },
+        "model": {
+          "parameters": "0.278886B",
+          "total_parameters_billions": 0.278885778,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/FacebookAI/xlm-roberta-base",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.onnx",
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.56,
+            "fp8_int8": 0.28,
+            "int4": 0.14
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2024-02-19T12:48:21.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "xlm-roberta-base",
+  "developer": "FacebookAI",
+  "source_repository": "https://huggingface.co/FacebookAI/xlm-roberta-base",
+  "current_repository_sha": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebookai-xlm-roberta-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebookai-xlm-roberta-base/"
+}

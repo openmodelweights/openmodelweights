@@ -1,0 +1,134 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-nemotron-3-5-asr-streaming-0-6b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ea30d66debe3-1db104725a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ea30d66debe3740a08b573244286791d423d6b3e",
+      "evidence_hash": "1db104725a5c0c40136512a9d627b7e935ca0aae48e708fddeff3aed6570148f",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/nemotron-3.5-asr-streaming-0.6b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://openmdw.ai/license/1-1/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "nemotron-3.5-asr-streaming-0.6b",
+          "developer": "NVIDIA",
+          "family": "nemotron-3.5-asr-streaming",
+          "variant": "nemotron-3.5-asr-streaming-0.6b"
+        },
+        "model": {
+          "parameters": "0.637997B",
+          "total_parameters_billions": 0.637997088,
+          "context_tokens": 5000,
+          "context_display": "5,000 tokens",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "openmdw-1.1",
+          "id": "other",
+          "url": "https://openmdw.ai/license/1-1/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "nemotron-3.5-asr-streaming-0.6b.nemo",
+            "nemotron-3.5-asr-streaming-0.6b.q8_0.gguf"
+          ],
+          "formats": [
+            "GGUF",
+            "NeMo",
+            "Safetensors"
+          ],
+          "precision": [
+            "gguf"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "europarl",
+            "fleurs",
+            "mozilla-foundation/common_voice_8_0",
+            "multilingual_librispeech",
+            "nvidia/Granary",
+            "voxpopuli"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+            "NeMo",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.28,
+            "fp8_int8": 0.64,
+            "int4": 0.32
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ea30d66debe3740a08b573244286791d423d6b3e",
+          "created_at": "2026-05-15T21:52:25.000Z",
+          "last_modified": "2026-09-10T16:49:07.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "nemotron-3.5-asr-streaming-0.6b",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+  "current_repository_sha": "ea30d66debe3740a08b573244286791d423d6b3e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-nemotron-3-5-asr-streaming-0-6b/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-nemotron-3-5-asr-streaming-0-6b/"
+}

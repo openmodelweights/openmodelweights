@@ -1,0 +1,129 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "comfy-org-qwen-image-comfyui",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1f12b17be14c-705b551d49",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1f12b17be14c89b026c51a91d67c32f84bb047bc",
+      "evidence_hash": "705b551d49c7b8553c61002e05f2f217c3465391ffa2a08406cfda3ec778243e",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Comfy-Org/Qwen-Image_ComfyUI",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen-Image_ComfyUI",
+          "developer": "Comfy-Org",
+          "family": "Qwen-Image_ComfyUI",
+          "variant": "Qwen-Image_ComfyUI"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+          "access": "public",
+          "file_count": 13,
+          "exact_files": [
+            "non_official/diffusion_models/qwen_image_distill_full_bf16.safetensors",
+            "non_official/diffusion_models/qwen_image_distill_full_fp8_e4m3fn.safetensors",
+            "split_files/diffusion_models/qwen_image_2512_bf16.safetensors",
+            "split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors",
+            "split_files/diffusion_models/qwen_image_bf16.safetensors",
+            "split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors",
+            "split_files/diffusion_models/qwen_image_fp8_hq.safetensors",
+            "split_files/diffusion_models/qwen_image_fp8mixed.safetensors",
+            "split_files/diffusion_models/qwen_image_nvfp4.safetensors",
+            "split_files/text_encoders/qwen_2.5_vl_7b.safetensors",
+            "split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+            "split_files/text_encoders/qwen_2.5_vl_7b_nvfp4.safetensors",
+            "split_files/vae/qwen_image_vae.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "DiffSynth-Studio/Qwen-Image-Distill-Full",
+            "Qwen/Qwen-Image",
+            "Qwen/Qwen-Image-2512"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "1f12b17be14c89b026c51a91d67c32f84bb047bc",
+          "created_at": "2025-08-05T02:44:50.000Z",
+          "last_modified": "2026-09-23T08:06:14.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen-Image_ComfyUI",
+  "developer": "Comfy-Org",
+  "source_repository": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI",
+  "current_repository_sha": "1f12b17be14c89b026c51a91d67c32f84bb047bc",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/comfy-org-qwen-image-comfyui/history/",
+  "diff_url": "https://openmodelweights.com/diff/comfy-org-qwen-image-comfyui/"
+}

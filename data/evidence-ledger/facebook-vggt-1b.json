@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-vggt-1b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "860abec7937d-e72bacc3ba",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+      "evidence_hash": "e72bacc3baa909bd1e98f9245a5cadc025202a5d57838623889c990dbf5a9fd5",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/VGGT-1B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/VGGT-1B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/VGGT-1B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/VGGT-1B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/VGGT-1B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "VGGT-1B",
+          "developer": "Meta",
+          "family": "VGGT",
+          "variant": "VGGT-1B"
+        },
+        "model": {
+          "parameters": "1.25654B",
+          "total_parameters_billions": 1.256537516,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image To 3D"
+        },
+        "license": {
+          "name": "CC BY-NC 4.0",
+          "id": "cc-by-nc-4.0",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "not-allowed",
+          "commercial_use_label": "Commercial use is not permitted by CC BY-NC 4.0"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/VGGT-1B",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.pt",
+            "model.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": []
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2.51,
+            "fp8_int8": 1.26,
+            "int4": 0.63
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+          "created_at": "2025-03-11T21:59:25.000Z",
+          "last_modified": "2025-03-17T12:18:15.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "VGGT-1B",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/VGGT-1B",
+  "current_repository_sha": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-vggt-1b/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-vggt-1b/"
+}

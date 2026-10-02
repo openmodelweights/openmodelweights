@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "baai-bge-m3",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5617a9f61b02-8fda684379",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5617a9f61b028005a4858fdac845db406aefb181",
+      "evidence_hash": "8fda68437988b9a558f12b77fd4a1c9354e32d29904ad89eabcc6db59b530114",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/BAAI/bge-m3",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/BAAI/bge-m3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/BAAI/bge-m3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/BAAI/bge-m3/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/BAAI/bge-m3/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bge-m3",
+          "developer": "BAAI",
+          "family": "bge-m3",
+          "variant": "bge-m3"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 8194,
+          "context_display": "8,194 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/BAAI/bge-m3",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "colbert_linear.pt",
+            "onnx/model.onnx",
+            "pytorch_model.bin",
+            "sparse_linear.pt"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "5617a9f61b028005a4858fdac845db406aefb181",
+          "created_at": "2024-01-27T17:07:29.000Z",
+          "last_modified": "2024-07-03T14:50:10.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bge-m3",
+  "developer": "BAAI",
+  "source_repository": "https://huggingface.co/BAAI/bge-m3",
+  "current_repository_sha": "5617a9f61b028005a4858fdac845db406aefb181",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/baai-bge-m3/history/",
+  "diff_url": "https://openmodelweights.com/diff/baai-bge-m3/"
+}

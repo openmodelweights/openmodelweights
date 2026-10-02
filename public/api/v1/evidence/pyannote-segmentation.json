@@ -1,0 +1,110 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "pyannote-segmentation",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "660b9e20307a-54e64aa66f",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "660b9e20307a2b0cdb400d0f80aadc04a701fc54",
+      "evidence_hash": "54e64aa66f08b909f87d2f731fc79b88223ea73531c8b749cccf46350b290c27",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/pyannote/segmentation",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/pyannote/segmentation",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/pyannote/segmentation",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/pyannote/segmentation/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/pyannote/segmentation/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "segmentation",
+          "developer": "pyannote",
+          "family": "segmentation",
+          "variant": "segmentation"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Voice Activity Detection"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/pyannote/segmentation/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/pyannote/segmentation",
+          "access": "gated (auto)",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "pyannote-audio"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "660b9e20307a2b0cdb400d0f80aadc04a701fc54",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-05-10T19:38:44.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "segmentation",
+  "developer": "pyannote",
+  "source_repository": "https://huggingface.co/pyannote/segmentation",
+  "current_repository_sha": "660b9e20307a2b0cdb400d0f80aadc04a701fc54",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/pyannote-segmentation/history/",
+  "diff_url": "https://openmodelweights.com/diff/pyannote-segmentation/"
+}

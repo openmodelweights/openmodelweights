@@ -1,0 +1,131 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "sulphurai-sulphur-2-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "65587bbb38c7-b1edf6153e",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "65587bbb38c700622f9434a16e732c8b280c115e",
+      "evidence_hash": "b1edf6153e79973d05d685e0131345eb5895af42c8259a128e7c93da3df47663",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/SulphurAI/Sulphur-2-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/SulphurAI/Sulphur-2-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/SulphurAI/Sulphur-2-base/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Sulphur-2-base",
+          "developer": "SulphurAI",
+          "family": "Sulphur-2",
+          "variant": "Sulphur-2-base"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → video"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": "https://huggingface.co/SulphurAI/Sulphur-2-base/blob/main/LICENSE.txt",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+          "access": "public",
+          "file_count": 15,
+          "exact_files": [
+            "distill_loras/ltx-2.3-22b-distilled-lora-1.1_fro90_ceil72_condsafe.safetensors",
+            "experimental/sulphur_experimental_lora_v1.safetensors",
+            "prompt_enhancer/mmproj-BF16.gguf",
+            "prompt_enhancer/sulphur_prompt_enhancer_model-q8_0.gguf",
+            "prompt_enhancer_uncensored/mmproj-prompt_enhancer_uncensored.gguf",
+            "prompt_enhancer_uncensored/model.safetensors-00001-of-00004.safetensors",
+            "prompt_enhancer_uncensored/model.safetensors-00002-of-00004.safetensors",
+            "prompt_enhancer_uncensored/model.safetensors-00003-of-00004.safetensors",
+            "prompt_enhancer_uncensored/model.safetensors-00004-of-00004.safetensors",
+            "prompt_enhancer_uncensored/model.safetensors.index.json",
+            "prompt_enhancer_uncensored/prompt_enhancer_uncensored-q8_0.gguf",
+            "sulphur_dev_bf16.safetensors",
+            "sulphur_dev_fp8mixed.safetensors",
+            "sulphur_distil_bf16.safetensors",
+            "sulphur_lora_rank_768.safetensors"
+          ],
+          "formats": [
+            "GGUF",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "gguf"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Lightricks/LTX-2.3"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers",
+            "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "65587bbb38c700622f9434a16e732c8b280c115e",
+          "created_at": "2026-05-03T00:33:24.000Z",
+          "last_modified": "2026-08-05T20:28:53.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Sulphur-2-base",
+  "developer": "SulphurAI",
+  "source_repository": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+  "current_repository_sha": "65587bbb38c700622f9434a16e732c8b280c115e",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/sulphurai-sulphur-2-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/sulphurai-sulphur-2-base/"
+}

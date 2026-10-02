@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "laion-clip-vit-b-32-laion2b-s34b-b79k",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "1a25a446712b-6272c3780a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+      "evidence_hash": "6272c3780a90d4423533c2f424474b960cd4a05f409e42aa0ba52b81ebc4e42f",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "CLIP-ViT-B-32-laion2B-s34B-b79K",
+          "developer": "laion",
+          "family": "CLIP-ViT-B-32-laion2B-s34B-b79K",
+          "variant": "CLIP-ViT-B-32-laion2B-s34B-b79K"
+        },
+        "model": {
+          "parameters": "0.151277B",
+          "total_parameters_billions": 0.151277439,
+          "context_tokens": 77,
+          "context_display": "77 tokens",
+          "modality": "Zero Shot Image Classification"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "open_clip_model.safetensors",
+            "open_clip_pytorch_model.bin",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "open_clip"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.3,
+            "fp8_int8": 0.15,
+            "int4": 0.08
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+          "created_at": "2022-09-14T22:49:28.000Z",
+          "last_modified": "2025-01-22T04:41:33.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "CLIP-ViT-B-32-laion2B-s34B-b79K",
+  "developer": "laion",
+  "source_repository": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+  "current_repository_sha": "1a25a446712ba5ee05982a381eed697ef9b435cf",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/laion-clip-vit-b-32-laion2b-s34b-b79k/history/",
+  "diff_url": "https://openmodelweights.com/diff/laion-clip-vit-b-32-laion2b-s34b-b79k/"
+}

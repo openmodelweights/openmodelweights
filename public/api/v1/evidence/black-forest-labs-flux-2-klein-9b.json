@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "black-forest-labs-flux-2-klein-9b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "92196c8e11f7-b8c7bfb619",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "92196c8e11f7b6cf2b7493e037d8c5345c559216",
+      "evidence_hash": "b8c7bfb619049f562370bb4725d48bcd31e20b8a055d582ee24167aa9ef7c543",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-9B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "FLUX.2-klein-9B",
+          "developer": "Black Forest Labs",
+          "family": "FLUX.2-klein",
+          "variant": "FLUX.2-klein-9B"
+        },
+        "model": {
+          "parameters": "9.07858B",
+          "total_parameters_billions": 9.078581248,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image → image"
+        },
+        "license": {
+          "name": "flux-non-commercial-license",
+          "id": "other",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/blob/main/LICENSE.md",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B",
+          "access": "gated (auto)",
+          "file_count": 10,
+          "exact_files": [
+            "flux-2-klein-9b.safetensors",
+            "text_encoder/model-00001-of-00004.safetensors",
+            "text_encoder/model-00002-of-00004.safetensors",
+            "text_encoder/model-00003-of-00004.safetensors",
+            "text_encoder/model-00004-of-00004.safetensors",
+            "text_encoder/model.safetensors.index.json",
+            "transformer/diffusion_pytorch_model-00001-of-00002.safetensors",
+            "transformer/diffusion_pytorch_model-00002-of-00002.safetensors",
+            "transformer/diffusion_pytorch_model.safetensors.index.json",
+            "vae/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 18.16,
+            "fp8_int8": 9.08,
+            "int4": 4.54
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "92196c8e11f7b6cf2b7493e037d8c5345c559216",
+          "created_at": "2026-01-14T13:24:26.000Z",
+          "last_modified": "2026-02-24T00:17:09.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "FLUX.2-klein-9B",
+  "developer": "Black Forest Labs",
+  "source_repository": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B",
+  "current_repository_sha": "92196c8e11f7b6cf2b7493e037d8c5345c559216",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/black-forest-labs-flux-2-klein-9b/history/",
+  "diff_url": "https://openmodelweights.com/diff/black-forest-labs-flux-2-klein-9b/"
+}

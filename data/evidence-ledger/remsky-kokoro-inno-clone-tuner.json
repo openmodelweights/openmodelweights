@@ -1,0 +1,127 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "remsky-kokoro-inno-clone-tuner",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "9b5e3c063fb3-d8ea9f530d",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "9b5e3c063fb34a63633d7921067af3c4ee966847",
+      "evidence_hash": "d8ea9f530d848678c9d7add7245d02f068fb1566eb3921e6d08fe77256a1653a",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/remsky/kokoro-inno-clone-tuner",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/remsky/kokoro-inno-clone-tuner",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "kokoro-inno-clone-tuner",
+          "developer": "remsky",
+          "family": "kokoro-inno-clone-tuner",
+          "variant": "kokoro-inno-clone-tuner"
+        },
+        "model": {
+          "parameters": "0.0096534B",
+          "total_parameters_billions": 0.009653396,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/remsky/kokoro-inno-clone-tuner/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/remsky/kokoro-inno-clone-tuner",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "model.safetensors",
+            "voices/af_ameliaearhart.pt",
+            "voices/af_libritts5338.pt",
+            "voices/am_libritts1272.pt",
+            "voices/am_libritts6241.pt",
+            "voices/am_vincentprice.pt",
+            "voices/bf_janegoodall.pt"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "hexgrad/Kokoro-82M"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "amphion/Emilia-Dataset",
+            "facebook/voxpopuli",
+            "parler-tts/libritts_r_filtered"
+          ]
+        },
+        "runtime": {
+          "signals": []
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.02,
+            "fp8_int8": 0.01,
+            "int4": 0.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "9b5e3c063fb34a63633d7921067af3c4ee966847",
+          "created_at": "2026-08-31T02:47:06.000Z",
+          "last_modified": "2026-09-15T17:53:18.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "kokoro-inno-clone-tuner",
+  "developer": "remsky",
+  "source_repository": "https://huggingface.co/remsky/kokoro-inno-clone-tuner",
+  "current_repository_sha": "9b5e3c063fb34a63633d7921067af3c4ee966847",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/remsky-kokoro-inno-clone-tuner/history/",
+  "diff_url": "https://openmodelweights.com/diff/remsky-kokoro-inno-clone-tuner/"
+}

@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "openbmb-voxcpm2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "32279effe8c1-50481acce6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "32279effe8c19989596f05d353d1447f51d9e915",
+      "evidence_hash": "50481acce66323b8444fc31ccabc87d3590248591b006d47016d5a54da913506",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/openbmb/VoxCPM2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/openbmb/VoxCPM2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/openbmb/VoxCPM2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/openbmb/VoxCPM2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/openbmb/VoxCPM2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "VoxCPM2",
+          "developer": "openbmb",
+          "family": "VoxCPM2",
+          "variant": "VoxCPM2"
+        },
+        "model": {
+          "parameters": "2.29B",
+          "total_parameters_billions": 2.290004544,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/openbmb/VoxCPM2",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "audiovae.pth",
+            "model.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "vLLM",
+            "voxcpm"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 4.58,
+            "fp8_int8": 2.29,
+            "int4": 1.15
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "32279effe8c19989596f05d353d1447f51d9e915",
+          "created_at": "2026-04-03T05:25:50.000Z",
+          "last_modified": "2026-08-18T07:37:17.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "VoxCPM2",
+  "developer": "openbmb",
+  "source_repository": "https://huggingface.co/openbmb/VoxCPM2",
+  "current_repository_sha": "32279effe8c19989596f05d353d1447f51d9e915",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/openbmb-voxcpm2/history/",
+  "diff_url": "https://openmodelweights.com/diff/openbmb-voxcpm2/"
+}

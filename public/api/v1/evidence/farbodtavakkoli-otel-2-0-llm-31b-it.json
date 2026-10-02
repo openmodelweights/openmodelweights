@@ -1,0 +1,153 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "farbodtavakkoli-otel-2-0-llm-31b-it",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6d425c390399-81a1582834",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6d425c3903997f9540be33f507ad363848b0fa06",
+      "evidence_hash": "81a1582834d8d07b2fa8fc5d8fde318e0bce75433c41dd1af2ed2d6b109d61fb",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "OTel-2.0-LLM-31B-IT",
+          "developer": "farbodtavakkoli",
+          "family": "OTel-2.0-LLM",
+          "variant": "OTel-2.0-LLM-31B-IT"
+        },
+        "model": {
+          "parameters": "31.2731B",
+          "total_parameters_billions": 31.273088876,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+          "access": "public",
+          "file_count": 30,
+          "exact_files": [
+            "model-00001-of-00014.safetensors",
+            "model-00001-of-00015.safetensors",
+            "model-00002-of-00014.safetensors",
+            "model-00002-of-00015.safetensors",
+            "model-00003-of-00014.safetensors",
+            "model-00003-of-00015.safetensors",
+            "model-00004-of-00014.safetensors",
+            "model-00004-of-00015.safetensors",
+            "model-00005-of-00014.safetensors",
+            "model-00005-of-00015.safetensors",
+            "model-00006-of-00014.safetensors",
+            "model-00006-of-00015.safetensors",
+            "model-00007-of-00014.safetensors",
+            "model-00007-of-00015.safetensors",
+            "model-00008-of-00014.safetensors",
+            "model-00008-of-00015.safetensors",
+            "model-00009-of-00014.safetensors",
+            "model-00009-of-00015.safetensors",
+            "model-00010-of-00014.safetensors",
+            "model-00010-of-00015.safetensors",
+            "model-00011-of-00014.safetensors",
+            "model-00011-of-00015.safetensors",
+            "model-00012-of-00014.safetensors",
+            "model-00012-of-00015.safetensors",
+            "model-00013-of-00014.safetensors",
+            "model-00013-of-00015.safetensors",
+            "model-00014-of-00014.safetensors",
+            "model-00014-of-00015.safetensors",
+            "model-00015-of-00015.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "google/gemma-4-31b-it"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 62.55,
+            "fp8_int8": 31.27,
+            "int4": 15.64
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6d425c3903997f9540be33f507ad363848b0fa06",
+          "created_at": "2026-07-23T11:27:39.000Z",
+          "last_modified": "2026-09-08T05:51:57.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "OTel-2.0-LLM-31B-IT",
+  "developer": "farbodtavakkoli",
+  "source_repository": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+  "current_repository_sha": "6d425c3903997f9540be33f507ad363848b0fa06",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/farbodtavakkoli-otel-2-0-llm-31b-it/history/",
+  "diff_url": "https://openmodelweights.com/diff/farbodtavakkoli-otel-2-0-llm-31b-it/"
+}

@@ -1,0 +1,131 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "moritzlaurer-mdeberta-v3-base-xnli-multilingual-nli-2mil7",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "b5113eb38ab6-91ca033db6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "b5113eb38ab63efdd7f280f8c144ea8b13f978ce",
+      "evidence_hash": "91ca033db6110f7ff292abd8bbd8ce056f8fe6e4421c305377e383cb2550a7c9",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+          "developer": "MoritzLaurer",
+          "family": "mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+          "variant": "mDeBERTa-v3-base-xnli-multilingual-nli-2mil7"
+        },
+        "model": {
+          "parameters": "0.278812B",
+          "total_parameters_billions": 0.278812163,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Zero Shot Classification"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_quantized.onnx",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "MoritzLaurer/multilingual-NLI-26lang-2mil7",
+            "alisawuffles/WANLI",
+            "facebook/anli",
+            "fever",
+            "lingnli",
+            "multi_nli",
+            "xnli"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.56,
+            "fp8_int8": 0.28,
+            "int4": 0.14
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "b5113eb38ab63efdd7f280f8c144ea8b13f978ce",
+          "created_at": "2022-08-22T16:59:35.000Z",
+          "last_modified": "2024-04-11T13:49:19.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "developer": "MoritzLaurer",
+  "source_repository": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "current_repository_sha": "b5113eb38ab63efdd7f280f8c144ea8b13f978ce",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/moritzlaurer-mdeberta-v3-base-xnli-multilingual-nli-2mil7/history/",
+  "diff_url": "https://openmodelweights.com/diff/moritzlaurer-mdeberta-v3-base-xnli-multilingual-nli-2mil7/"
+}

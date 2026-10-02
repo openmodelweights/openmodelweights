@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "samlowe-roberta-base-go-emotions",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d75048347613-1e3d85f9ae",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d75048347613a25d77de8cf6412eaae9fa7b26be",
+      "evidence_hash": "1e3d85f9aeecf14e0e3286a1a531ce78f43d2d8c37b2676119be17b4b5997a7a",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/SamLowe/roberta-base-go_emotions",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/SamLowe/roberta-base-go_emotions",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/SamLowe/roberta-base-go_emotions",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/SamLowe/roberta-base-go_emotions/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/SamLowe/roberta-base-go_emotions/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "roberta-base-go_emotions",
+          "developer": "SamLowe",
+          "family": "roberta-base-go_emotions",
+          "variant": "roberta-base-go_emotions"
+        },
+        "model": {
+          "parameters": "0.124668B",
+          "total_parameters_billions": 0.124667678,
+          "context_tokens": 514,
+          "context_display": "514 tokens",
+          "modality": "Text Classification"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/SamLowe/roberta-base-go_emotions/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/SamLowe/roberta-base-go_emotions",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "go_emotions"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.25,
+            "fp8_int8": 0.12,
+            "int4": 0.06
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "d75048347613a25d77de8cf6412eaae9fa7b26be",
+          "created_at": "2022-09-15T13:04:21.000Z",
+          "last_modified": "2026-05-13T18:23:34.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "roberta-base-go_emotions",
+  "developer": "SamLowe",
+  "source_repository": "https://huggingface.co/SamLowe/roberta-base-go_emotions",
+  "current_repository_sha": "d75048347613a25d77de8cf6412eaae9fa7b26be",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/samlowe-roberta-base-go-emotions/history/",
+  "diff_url": "https://openmodelweights.com/diff/samlowe-roberta-base-go-emotions/"
+}

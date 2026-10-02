@@ -1,0 +1,129 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "jinaai-jina-embeddings-v2-base-en",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "322d4d7e2f35-c354992a4f",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "322d4d7e2f35e84137961a65af894fda0385eb7a",
+      "evidence_hash": "c354992a4f7f724d2bb471f71daf99d057458072e9254b4e3d0c0b613497f987",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/jinaai/jina-embeddings-v2-base-en",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "jina-embeddings-v2-base-en",
+          "developer": "jinaai",
+          "family": "jina-embeddings-v2-base-en",
+          "variant": "jina-embeddings-v2-base-en"
+        },
+        "model": {
+          "parameters": "0.137368B",
+          "total_parameters_billions": 0.13736832,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
+          "access": "public",
+          "file_count": 6,
+          "exact_files": [
+            "coreml/float32_model.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+            "coreml/float32_model.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+            "model-w-mean-pooling.onnx",
+            "model.onnx",
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "CoreML",
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "allenai/c4"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.27,
+            "fp8_int8": 0.14,
+            "int4": 0.07
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "322d4d7e2f35e84137961a65af894fda0385eb7a",
+          "created_at": "2023-09-27T17:04:00.000Z",
+          "last_modified": "2025-01-06T16:24:38.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "jina-embeddings-v2-base-en",
+  "developer": "jinaai",
+  "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v2-base-en",
+  "current_repository_sha": "322d4d7e2f35e84137961a65af894fda0385eb7a",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/jinaai-jina-embeddings-v2-base-en/history/",
+  "diff_url": "https://openmodelweights.com/diff/jinaai-jina-embeddings-v2-base-en/"
+}

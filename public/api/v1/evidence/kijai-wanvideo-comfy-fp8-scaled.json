@@ -1,0 +1,185 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "kijai-wanvideo-comfy-fp8-scaled",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "033a4e487f60-ec95438dd3",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "033a4e487f60220b3d6e469599a6aebc46e13cee",
+      "evidence_hash": "ec95438dd3f432cbc1eca5c212bc8a0213caab27971c0c5c706c836266fc0576",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Kijai/WanVideo_comfy_fp8_scaled",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "WanVideo_comfy_fp8_scaled",
+          "developer": "Kijai",
+          "family": "WanVideo_comfy_fp8_scaled",
+          "variant": "WanVideo_comfy_fp8_scaled"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled",
+          "access": "public",
+          "file_count": 71,
+          "exact_files": [
+            "Bindweave/Wan2_1-I2V-14B-Bindweave_fp8_scaled_KJ.safetensors",
+            "ChronoEdit/Wan2_1-14B-I2V_ChronoEdit_fp8_scaled_KJ.safetensors",
+            "Fun/MTVCrafter/Wan2_1-I2V-14B-MTV-Crafter_fp8_e4m3fn_scaled_KJ.safetensors",
+            "Fun/Wan2_2-Fun-Control-A14B-HIGH_fp8_e4m3fn_scaled_KJ_fixed.safetensors",
+            "Fun/Wan2_2-Fun-Control-A14B-HIGH_fp8_e5m2_scaled_KJ_fixed.safetensors",
+            "Fun/Wan2_2-Fun-Control-A14B-LOW_fp8_e4m3fn_scaled_KJ_fixed.safetensors",
+            "Fun/Wan2_2-Fun-Control-A14B-LOW_fp8_e5m2_scaled_KJ_fixed.safetensors",
+            "Fun/Wan2_2-Fun-Control-Camera-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+            "Fun/Wan2_2-Fun-Control-Camera-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+            "Fun/Wan2_2-Fun-InP-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+            "Fun/Wan2_2-Fun-InP-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+            "HuMo/Wan2_1-HuMo-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+            "HuMo/Wan2_1-HuMo-14B_fp8_e5m2_scaled_KJ.safetensors",
+            "I2V/AniSora/Wan2_1-I2V-14B-AniSoraV3_fp8_e4m3fn_scaled_KJ.safetensors",
+            "I2V/AniSora/Wan2_1-I2V-14B-AniSoraV3_fp8_e5m2_scaled_KJ.safetensors",
+            "I2V/AniSora/Wan2_2-I2V_AniSoraV3_2_HIGH_14B_fp8_e4m3fn_scaled_KJ.safetensors",
+            "I2V/AniSora/Wan2_2-I2V_AniSoraV3_2_LOW_14B_fp8_e4m3fn_scaled_KJ.safetensors",
+            "I2V/Wan2_1-I2V-14B-480p_fp8_e4m3fn_scaled_KJ.safetensors",
+            "I2V/Wan2_1-I2V-14B-480p_fp8_e5m2_scaled_KJ.safetensors",
+            "I2V/Wan2_1-I2V-14B-720p_fp8_e4m3fn_scaled_KJ.safetensors",
+            "I2V/Wan2_1-I2V-14B-720p_fp8_e5m2_scaled_KJ.safetensors",
+            "I2V/Wan2_1-I2V-14B-MAGREF_fp8_e4m3fn_scaled_KJ.safetensors",
+            "I2V/Wan2_1-I2V-14B-MAGREF_fp8_e5m2_scaled_KJ.safetensors",
+            "I2V/Wan2_2-I2V-A14B-HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+            "I2V/Wan2_2-I2V-A14B-HIGH_fp8_e5m2_scaled_KJ.safetensors",
+            "I2V/Wan2_2-I2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+            "I2V/Wan2_2-I2V-A14B-LOW_fp8_e5m2_scaled_KJ.safetensors",
+            "InfiniteTalk/Wan2_1-InfiniteTalk-Multi_fp8_e4m3fn_scaled_KJ.safetensors",
+            "InfiniteTalk/Wan2_1-InfiniteTalk-Multi_fp8_e5m2_scaled_KJ.safetensors",
+            "InfiniteTalk/Wan2_1-InfiniteTalk-Single_fp8_e4m3fn_scaled_KJ.safetensors",
+            "InfiniteTalk/Wan2_1-InfiniteTalk-Single_fp8_e5m2_scaled_KJ.safetensors",
+            "MoCha/Wan2_1_mocha-14B-preview_fp8_e4m3fn_scaled_KJ.safetensors",
+            "OneToAllAnimation/Wan21-OneToAllAnimation_fp8_e4m3fn_scaled_KJ.safetensors",
+            "S2V/Wan2_1-S2V-14B_fp8_e5m2_scaled_KJ.safetensors",
+            "S2V/Wan2_2-S2V-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+            "SCAIL/Wan21-14B-SCAIL-preview_fp8_e4m3fn_scaled_KJ.safetensors",
+            "SCAIL/Wan21-14B-SCAIL-preview_fp8_scaled_mixed.safetensors",
+            "SkyReelsV3/Wan21-SkyReelsV3-A2V_fp8_scaled_mixed.safetensors",
+            "SkyReelsV3/Wan21-SkyReelsV3-V2V_fp8_scaled_mixed.safetensors",
+            "SkyReelsV3/Wan21-SkyReelsV3-V2V_shot_fp8_scaled_mixed.safetensors",
+            "SkyReelsV3/Wan21_SkyReelsV3-R2V_fp8_scaled_mixed.safetensors",
+            "SteadyDancer/Wan21_SteadyDancer_fp8_e4m3fn_scaled_KJ.safetensors",
+            "T2V/HoloCine/Wan2_2-T2V-A14B-HIGH-HoloCine-full_fp8_e4m3fn_scaled_KJ.safetensors",
+            "T2V/HoloCine/Wan2_2-T2V-A14B-LOW-HoloCine-full_fp8_e4m3fn_scaled_KJ.safetensors",
+            "T2V/Wan2_1-T2V-14B-FastWan-480p_fp8_e4m3fn_scaled_KJ.safetensors",
+            "T2V/Wan2_1-T2V-14B-Phantom_fp8_e4m3fn_scaled_KJ.safetensors",
+            "T2V/Wan2_1-T2V-14B-Phantom_fp8_e5m2_scaled_KJ.safetensors",
+            "T2V/Wan2_1-T2V-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+            "T2V/Wan2_1-T2V-14B_fp8_e5m2_scaled_KJ.safetensors",
+            "T2V/Wan2_2-T2V-A14B-HIGH_4_steps-250928-dyno-lightx2v_fp8_e4m3fn_scaled_KJ.safetensors",
+            "T2V/Wan2_2-T2V-A14B-HIGH_fp8_e5m2_scaled_KJ.safetensors",
+            "T2V/Wan2_2-T2V-A14B-LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+            "T2V/Wan2_2-T2V-A14B-LOW_fp8_e5m2_scaled_KJ.safetensors",
+            "T2V/Wan2_2-T2V-A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+            "TI2V/Ovi/Wan2_2-5B-Ovi_960x960_10s_fp8_e4m3fn_scaled_KJ.safetensors",
+            "TI2V/Ovi/Wan2_2-5B-Ovi_960x960_fp8_e4m3fn_scaled_KJ.safetensors",
+            "TI2V/Ovi/Wan2_2_Ovi_Audio_fp8_e4m3fn_scaled_KJ.safetensors",
+            "TI2V/Ovi/Wan2_2_Ovi_Video_fp8_e4m3fn_scaled_KJ.safetensors",
+            "TI2V/Wan2_2-TI2V-5B_fp8_e4m3fn_scaled_KJ.safetensors",
+            "TI2V/Wan2_2-TI2V-5B_fp8_e5m2_scaled_KJ.safetensors",
+            "VACE/Wan2_1-VACE-module-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+            "VACE/Wan2_2_Fun_VACE_module_A14B_HIGH_fp8_e4m3fn_scaled_KJ.safetensors",
+            "VACE/Wan2_2_Fun_VACE_module_A14B_HIGH_fp8_e5m2_scaled_KJ.safetensors",
+            "VACE/Wan2_2_Fun_VACE_module_A14B_LOW_fp8_e4m3fn_scaled_KJ.safetensors",
+            "VACE/Wan2_2_Fun_VACE_module_A14B_LOW_fp8_e5m2_scaled_KJ.safetensors",
+            "Video-as-prompt/Wan2_1-I2V-14B-VAP_module_fp8_scaled_KJ.safetensors",
+            "Wan22Animate/Wan2_2-Animate-14B_fp8_e4m3fn_scaled_KJ.safetensors",
+            "Wan22Animate/Wan2_2-Animate-14B_fp8_e5m2_scaled_KJ.safetensors",
+            "Wan22Animate/Wan2_2-Animate-14B_fp8_scaled_e4m3fn_KJ_v2.safetensors",
+            "Wan22Animate/Wan2_2-Animate-14B_fp8_scaled_e5m2_KJ_v2.safetensors",
+            "WanMove/Wan21-WanMove_fp8_scaled_e4m3fn_KJ.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Wan-AI/Wan2.1-VACE-1.3B",
+            "Wan-AI/Wan2.1-VACE-14B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "033a4e487f60220b3d6e469599a6aebc46e13cee",
+          "created_at": "2025-07-22T10:39:42.000Z",
+          "last_modified": "2026-06-13T15:47:09.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "WanVideo_comfy_fp8_scaled",
+  "developer": "Kijai",
+  "source_repository": "https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled",
+  "current_repository_sha": "033a4e487f60220b3d6e469599a6aebc46e13cee",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/kijai-wanvideo-comfy-fp8-scaled/history/",
+  "diff_url": "https://openmodelweights.com/diff/kijai-wanvideo-comfy-fp8-scaled/"
+}

@@ -1,0 +1,133 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "lightricks-ltx-2-5",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5e6e71018ee1-db3df7e167",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5e6e71018ee1756ed329b697a7b4aedc934dfce9",
+      "evidence_hash": "db3df7e16732e42ba7121d54aaae200b4c76ff8a6412995824d6a57aa056e1a2",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Lightricks/LTX-2.5",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Lightricks/LTX-2.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "LTX-2.5",
+          "developer": "Lightricks",
+          "family": "LTX-2.5",
+          "variant": "LTX-2.5"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image To Video"
+        },
+        "license": {
+          "name": "ltx-2.x-community-license-agreement",
+          "id": "other",
+          "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2_x",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Lightricks/LTX-2.5",
+          "access": "gated (auto)",
+          "file_count": 14,
+          "exact_files": [
+            "diffusion_models/ltx-2.5-22b-dev-transformer-bf16.safetensors",
+            "diffusion_models/ltx-2.5-22b-dev-transformer-comfy-int8-convrot.safetensors",
+            "diffusion_models/ltx-2.5-22b-distilled-transformer-bf16.safetensors",
+            "diffusion_models/ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors",
+            "diffusion_models/ltx-2.5-22b-distilled-transformer-nvfp4.safetensors",
+            "latent_upscale_models/ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors",
+            "latent_upscale_models/ltx-2.5-latent-temporal-upscaler-x2-bf16-1.0.safetensors",
+            "loras/ltx-2.5-22b-distilled-lora-450-bf16.safetensors",
+            "model_patches/ltx-2.5-duration-head-bf16.safetensors",
+            "text_encoders/gemma4-12b-with-proj-ltx-2.5-bf16.safetensors",
+            "text_encoders/gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors",
+            "vae/ltx-2.5-audio-vae-bf16.safetensors",
+            "vae/ltx-2.5-video-vae-bf16.safetensors",
+            "vae/ltx-2.5-video-vae-conv-bf16.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers",
+            "Transformers",
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "5e6e71018ee1756ed329b697a7b4aedc934dfce9",
+          "created_at": "2026-07-23T07:55:24.000Z",
+          "last_modified": "2026-09-01T06:29:03.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "LTX-2.5",
+  "developer": "Lightricks",
+  "source_repository": "https://huggingface.co/Lightricks/LTX-2.5",
+  "current_repository_sha": "5e6e71018ee1756ed329b697a7b4aedc934dfce9",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/lightricks-ltx-2-5/history/",
+  "diff_url": "https://openmodelweights.com/diff/lightricks-ltx-2-5/"
+}

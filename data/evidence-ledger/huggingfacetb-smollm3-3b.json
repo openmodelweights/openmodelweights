@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "huggingfacetb-smollm3-3b",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "a07cc9a04f16-5ab4ae523f",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+      "evidence_hash": "5ab4ae523f50f369f70fa4aabec46c3423efb871295ee32d04de672ca9fd241f",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/HuggingFaceTB/SmolLM3-3B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "SmolLM3-3B",
+          "developer": "HuggingFaceTB",
+          "family": "SmolLM3",
+          "variant": "SmolLM3-3B"
+        },
+        "model": {
+          "parameters": "3.0751B",
+          "total_parameters_billions": 3.075098624,
+          "context_tokens": 65536,
+          "context_display": "65,536 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "HuggingFaceTB/SmolLM3-3B-Base"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "MLX",
+            "ONNX Runtime",
+            "SGLang",
+            "Transformers",
+            "llama.cpp",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 6.15,
+            "fp8_int8": 3.08,
+            "int4": 1.54
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+          "created_at": "2025-07-08T10:11:45.000Z",
+          "last_modified": "2025-09-10T12:28:11.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "SmolLM3-3B",
+  "developer": "HuggingFaceTB",
+  "source_repository": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+  "current_repository_sha": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/huggingfacetb-smollm3-3b/history/",
+  "diff_url": "https://openmodelweights.com/diff/huggingfacetb-smollm3-3b/"
+}

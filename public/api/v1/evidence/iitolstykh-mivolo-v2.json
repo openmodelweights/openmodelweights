@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "iitolstykh-mivolo-v2",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "53393526c220-89582457e3",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "53393526c220e34cdd7b722b36d22b6f9e5f4241",
+      "evidence_hash": "89582457e345b7f07bd5d82084538ae14f9375366284e271f5b68ca57259598d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/iitolstykh/mivolo_v2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/iitolstykh/mivolo_v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/iitolstykh/mivolo_v2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/iitolstykh/mivolo_v2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/iitolstykh/mivolo_v2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "mivolo_v2",
+          "developer": "iitolstykh",
+          "family": "mivolo_v2",
+          "variant": "mivolo_v2"
+        },
+        "model": {
+          "parameters": "0.0287618B",
+          "total_parameters_billions": 0.028761822,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/iitolstykh/mivolo_v2",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "mivolo"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.06,
+            "fp8_int8": 0.03,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "53393526c220e34cdd7b722b36d22b6f9e5f4241",
+          "created_at": "2024-03-05T12:50:28.000Z",
+          "last_modified": "2026-03-11T13:56:40.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "mivolo_v2",
+  "developer": "iitolstykh",
+  "source_repository": "https://huggingface.co/iitolstykh/mivolo_v2",
+  "current_repository_sha": "53393526c220e34cdd7b722b36d22b6f9e5f4241",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/iitolstykh-mivolo-v2/history/",
+  "diff_url": "https://openmodelweights.com/diff/iitolstykh-mivolo-v2/"
+}

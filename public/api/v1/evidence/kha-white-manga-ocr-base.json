@@ -1,0 +1,112 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "kha-white-manga-ocr-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "aa6573bd10b0-637dff8664",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "aa6573bd10b0d446cbf622e29c3e084914df9741",
+      "evidence_hash": "637dff86649a970a4e05f191131425e5f16f838b6211c61d2d74bd75362eeb6e",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/kha-white/manga-ocr-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/kha-white/manga-ocr-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/kha-white/manga-ocr-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/kha-white/manga-ocr-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/kha-white/manga-ocr-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "manga-ocr-base",
+          "developer": "kha-white",
+          "family": "manga-ocr",
+          "variant": "manga-ocr-base"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Image To Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/kha-white/manga-ocr-base",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "manga109s"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "aa6573bd10b0d446cbf622e29c3e084914df9741",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2022-06-22T15:34:05.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "manga-ocr-base",
+  "developer": "kha-white",
+  "source_repository": "https://huggingface.co/kha-white/manga-ocr-base",
+  "current_repository_sha": "aa6573bd10b0d446cbf622e29c3e084914df9741",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/kha-white-manga-ocr-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/kha-white-manga-ocr-base/"
+}

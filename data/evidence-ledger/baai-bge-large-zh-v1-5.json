@@ -1,0 +1,111 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "baai-bge-large-zh-v1-5",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "79e7739b6ab9-bc63d5f062",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "79e7739b6ab944e86d6171e44d24c997fc1e0116",
+      "evidence_hash": "bc63d5f06293e4a4e25ef2730cfb5d28e14ebfb811b7c6d33926c349de2a4ca2",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/BAAI/bge-large-zh-v1.5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/BAAI/bge-large-zh-v1.5/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/BAAI/bge-large-zh-v1.5/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bge-large-zh-v1.5",
+          "developer": "BAAI",
+          "family": "bge-large-zh-v1.5",
+          "variant": "bge-large-zh-v1.5"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "79e7739b6ab944e86d6171e44d24c997fc1e0116",
+          "created_at": "2023-09-12T05:22:11.000Z",
+          "last_modified": "2024-04-02T14:00:04.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bge-large-zh-v1.5",
+  "developer": "BAAI",
+  "source_repository": "https://huggingface.co/BAAI/bge-large-zh-v1.5",
+  "current_repository_sha": "79e7739b6ab944e86d6171e44d24c997fc1e0116",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/baai-bge-large-zh-v1-5/history/",
+  "diff_url": "https://openmodelweights.com/diff/baai-bge-large-zh-v1-5/"
+}

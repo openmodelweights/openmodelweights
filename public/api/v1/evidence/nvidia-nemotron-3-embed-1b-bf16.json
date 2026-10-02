@@ -1,0 +1,126 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-nemotron-3-embed-1b-bf16",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "c0c9fea93ea4-db2cf3b0c6",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
+      "evidence_hash": "db2cf3b0c688993d95a98b240eec97fc67c1db509db6c0f24572e148d5de2837",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Nemotron-3-Embed-1B-BF16",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://openmdw.ai/license/1-1/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Nemotron-3-Embed-1B-BF16",
+          "developer": "NVIDIA",
+          "family": "Nemotron-3-Embed",
+          "variant": "Nemotron-3-Embed-1B-BF16"
+        },
+        "model": {
+          "parameters": "1.14092B",
+          "total_parameters_billions": 1.140918272,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "openmdw-1.1",
+          "id": "other",
+          "url": "https://openmdw.ai/license/1-1/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "mistralai/Ministral-3-3B-Instruct-2512"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2.28,
+            "fp8_int8": 1.14,
+            "int4": 0.57
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
+          "created_at": "2026-07-14T07:32:18.000Z",
+          "last_modified": "2026-08-27T23:53:03.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Nemotron-3-Embed-1B-BF16",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+  "current_repository_sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-nemotron-3-embed-1b-bf16/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-nemotron-3-embed-1b-bf16/"
+}

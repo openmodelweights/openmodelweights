@@ -1,0 +1,125 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ministral-3-14b-base-2512",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5b0ceedbb42d-7891932c9c",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5b0ceedbb42dff466ae60b258ba296f32da51384",
+      "evidence_hash": "7891932c9c540b465204595514196d37a5e1c68b65d4d2b73a5e120dc9c082f0",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mistralai/Ministral-3-14B-Base-2512",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Ministral-3-14B-Base-2512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Ministral-3-14B-Base-2512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Ministral-3-14B-Base-2512/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Ministral-3-14B-Base-2512/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Ministral-3-14B-Base-2512",
+          "developer": "Mistral AI",
+          "family": "Ministral 3",
+          "variant": "Ministral-3-14B-Base-2512"
+        },
+        "model": {
+          "parameters": "14B",
+          "total_parameters_billions": 14.0,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mistralai/Ministral-3-14B-Base-2512",
+          "access": "public",
+          "file_count": 8,
+          "exact_files": [
+            "consolidated.safetensors",
+            "model-00001-of-00006.safetensors",
+            "model-00002-of-00006.safetensors",
+            "model-00003-of-00006.safetensors",
+            "model-00004-of-00006.safetensors",
+            "model-00005-of-00006.safetensors",
+            "model-00006-of-00006.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "mistral-common",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 28.0,
+            "fp8_int8": 14.0,
+            "int4": 7.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "5b0ceedbb42dff466ae60b258ba296f32da51384",
+          "created_at": "2025-10-31T08:41:49.000Z",
+          "last_modified": "2026-01-15T11:16:43.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Ministral-3-14B-Base-2512",
+  "developer": "Mistral AI",
+  "source_repository": "https://huggingface.co/mistralai/Ministral-3-14B-Base-2512",
+  "current_repository_sha": "5b0ceedbb42dff466ae60b258ba296f32da51384",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ministral-3-14b-base-2512/history/",
+  "diff_url": "https://openmodelweights.com/diff/ministral-3-14b-base-2512/"
+}

@@ -1,0 +1,168 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "qwen3-6-35b-a3b-fp8",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "95a723d08a94-203ff65391",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "95a723d08a9490559dae23d0cff1d9466213d989",
+      "evidence_hash": "203ff65391a02e631cfb07316e26edae953194b0115cac1187013d4d4f9f4b55",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Qwen/Qwen3.6-35B-A3B-FP8",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3.6-35B-A3B-FP8",
+          "developer": "Qwen",
+          "family": "Qwen3.6",
+          "variant": "35B-A3B-FP8"
+        },
+        "model": {
+          "parameters": "36B",
+          "total_parameters_billions": 36.0,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/blob/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+          "access": "public",
+          "file_count": 43,
+          "exact_files": [
+            "layers-0.safetensors",
+            "layers-1.safetensors",
+            "layers-10.safetensors",
+            "layers-11.safetensors",
+            "layers-12.safetensors",
+            "layers-13.safetensors",
+            "layers-14.safetensors",
+            "layers-15.safetensors",
+            "layers-16.safetensors",
+            "layers-17.safetensors",
+            "layers-18.safetensors",
+            "layers-19.safetensors",
+            "layers-2.safetensors",
+            "layers-20.safetensors",
+            "layers-21.safetensors",
+            "layers-22.safetensors",
+            "layers-23.safetensors",
+            "layers-24.safetensors",
+            "layers-25.safetensors",
+            "layers-26.safetensors",
+            "layers-27.safetensors",
+            "layers-28.safetensors",
+            "layers-29.safetensors",
+            "layers-3.safetensors",
+            "layers-30.safetensors",
+            "layers-31.safetensors",
+            "layers-32.safetensors",
+            "layers-33.safetensors",
+            "layers-34.safetensors",
+            "layers-35.safetensors",
+            "layers-36.safetensors",
+            "layers-37.safetensors",
+            "layers-38.safetensors",
+            "layers-39.safetensors",
+            "layers-4.safetensors",
+            "layers-5.safetensors",
+            "layers-6.safetensors",
+            "layers-7.safetensors",
+            "layers-8.safetensors",
+            "layers-9.safetensors",
+            "model.safetensors.index.json",
+            "mtp.safetensors",
+            "outside.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3.6-35B-A3B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 72.0,
+            "fp8_int8": 36.0,
+            "int4": 18.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "95a723d08a9490559dae23d0cff1d9466213d989",
+          "created_at": "2026-04-15T06:05:13.000Z",
+          "last_modified": "2026-04-24T02:39:23.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3.6-35B-A3B-FP8",
+  "developer": "Qwen",
+  "source_repository": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+  "current_repository_sha": "95a723d08a9490559dae23d0cff1d9466213d989",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/qwen3-6-35b-a3b-fp8/history/",
+  "diff_url": "https://openmodelweights.com/diff/qwen3-6-35b-a3b-fp8/"
+}

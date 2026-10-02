@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "alibaba-nlp-gte-multilingual-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "9bbca17d9273-0af2575396",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+      "evidence_hash": "0af2575396675e2ed99ba21b6cae6278d01f71f796960ad602af0af37269f2ef",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Alibaba-NLP/gte-multilingual-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gte-multilingual-base",
+          "developer": "Alibaba-NLP",
+          "family": "gte-multilingual",
+          "variant": "gte-multilingual-base"
+        },
+        "model": {
+          "parameters": "0.305369B",
+          "total_parameters_billions": 0.305369089,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.61,
+            "fp8_int8": 0.31,
+            "int4": 0.15
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+          "created_at": "2024-07-20T08:37:28.000Z",
+          "last_modified": "2025-07-05T01:38:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gte-multilingual-base",
+  "developer": "Alibaba-NLP",
+  "source_repository": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base",
+  "current_repository_sha": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/alibaba-nlp-gte-multilingual-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/alibaba-nlp-gte-multilingual-base/"
+}

@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "lpiccinelli-unidepth-v2-vitl14",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "52b349b514bd-3b194d65c1",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "52b349b514bd8b47642f67ac78cb7b5dc5c51dd9",
+      "evidence_hash": "3b194d65c1d77691162802f1faf772e29346011906f5639c049a7cc7b80224f3",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/lpiccinelli/unidepth-v2-vitl14",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "unidepth-v2-vitl14",
+          "developer": "lpiccinelli",
+          "family": "unidepth-v2-vitl14",
+          "variant": "unidepth-v2-vitl14"
+        },
+        "model": {
+          "parameters": "0.353831B",
+          "total_parameters_billions": 0.353831043,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "UniDepth"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.71,
+            "fp8_int8": 0.35,
+            "int4": 0.18
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "52b349b514bd8b47642f67ac78cb7b5dc5c51dd9",
+          "created_at": "2024-06-12T12:39:28.000Z",
+          "last_modified": "2025-02-28T13:55:37.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "unidepth-v2-vitl14",
+  "developer": "lpiccinelli",
+  "source_repository": "https://huggingface.co/lpiccinelli/unidepth-v2-vitl14",
+  "current_repository_sha": "52b349b514bd8b47642f67ac78cb7b5dc5c51dd9",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/lpiccinelli-unidepth-v2-vitl14/history/",
+  "diff_url": "https://openmodelweights.com/diff/lpiccinelli-unidepth-v2-vitl14/"
+}

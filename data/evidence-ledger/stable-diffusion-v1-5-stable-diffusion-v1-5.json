@@ -1,0 +1,138 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "stable-diffusion-v1-5-stable-diffusion-v1-5",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "451f4fe16113-2a7d7e2ab2",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+      "evidence_hash": "2a7d7e2ab2252d0f40fa5e02178af700b7442b41bfa8f291a51c32b6c1bddd99",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/stable-diffusion-v1-5/stable-diffusion-v1-5",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "stable-diffusion-v1-5",
+          "developer": "stable-diffusion-v1-5",
+          "family": "stable-diffusion-v1-5",
+          "variant": "stable-diffusion-v1-5"
+        },
+        "model": {
+          "parameters": "0.859521B",
+          "total_parameters_billions": 0.859520964,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → image"
+        },
+        "license": {
+          "name": "creativeml-openrail-m",
+          "id": "creativeml-openrail-m",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+          "access": "public",
+          "file_count": 22,
+          "exact_files": [
+            "safety_checker/model.fp16.safetensors",
+            "safety_checker/model.safetensors",
+            "safety_checker/pytorch_model.bin",
+            "safety_checker/pytorch_model.fp16.bin",
+            "text_encoder/model.fp16.safetensors",
+            "text_encoder/model.safetensors",
+            "text_encoder/pytorch_model.bin",
+            "text_encoder/pytorch_model.fp16.bin",
+            "unet/diffusion_pytorch_model.bin",
+            "unet/diffusion_pytorch_model.fp16.bin",
+            "unet/diffusion_pytorch_model.fp16.safetensors",
+            "unet/diffusion_pytorch_model.non_ema.bin",
+            "unet/diffusion_pytorch_model.non_ema.safetensors",
+            "unet/diffusion_pytorch_model.safetensors",
+            "v1-5-pruned-emaonly.ckpt",
+            "v1-5-pruned-emaonly.safetensors",
+            "v1-5-pruned.ckpt",
+            "v1-5-pruned.safetensors",
+            "vae/diffusion_pytorch_model.bin",
+            "vae/diffusion_pytorch_model.fp16.bin",
+            "vae/diffusion_pytorch_model.fp16.safetensors",
+            "vae/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.72,
+            "fp8_int8": 0.86,
+            "int4": 0.43
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+          "created_at": "2024-08-30T09:48:48.000Z",
+          "last_modified": "2024-09-07T16:20:30.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "stable-diffusion-v1-5",
+  "developer": "stable-diffusion-v1-5",
+  "source_repository": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "current_repository_sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/stable-diffusion-v1-5-stable-diffusion-v1-5/history/",
+  "diff_url": "https://openmodelweights.com/diff/stable-diffusion-v1-5-stable-diffusion-v1-5/"
+}

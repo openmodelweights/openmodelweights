@@ -1,0 +1,111 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "helsinki-nlp-opus-mt-en-ru",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "bb09c99d1800-bd46e9a9ec",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "bb09c99d180016eac6819df3dae68edb1690fdee",
+      "evidence_hash": "bd46e9a9ec4dc0e4336c0042af4dcb0e6e26638e6ce3f7752be27b1ab89fd939",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Helsinki-NLP/opus-mt-en-ru",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-ru",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-ru",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-ru/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-ru/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "opus-mt-en-ru",
+          "developer": "Helsinki-NLP",
+          "family": "opus-mt-en-ru",
+          "variant": "opus-mt-en-ru"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Translation"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Helsinki-NLP/opus-mt-en-ru",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "bb09c99d180016eac6819df3dae68edb1690fdee",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2023-08-16T11:30:58.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "opus-mt-en-ru",
+  "developer": "Helsinki-NLP",
+  "source_repository": "https://huggingface.co/Helsinki-NLP/opus-mt-en-ru",
+  "current_repository_sha": "bb09c99d180016eac6819df3dae68edb1690fdee",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/helsinki-nlp-opus-mt-en-ru/history/",
+  "diff_url": "https://openmodelweights.com/diff/helsinki-nlp-opus-mt-en-ru/"
+}

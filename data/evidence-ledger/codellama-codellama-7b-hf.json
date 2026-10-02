@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "codellama-codellama-7b-hf",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6c284d1468fe-14e92d5166",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6c284d1468fe6c413cf56183e69b194dcfa27fe6",
+      "evidence_hash": "14e92d51663055eb655d43f33cb965c2820968b4c0fe2518306730d088638c69",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/codellama/CodeLlama-7b-hf",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/codellama/CodeLlama-7b-hf",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/codellama/CodeLlama-7b-hf",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/codellama/CodeLlama-7b-hf/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/codellama/CodeLlama-7b-hf/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "CodeLlama-7b-hf",
+          "developer": "codellama",
+          "family": "CodeLlama",
+          "variant": "CodeLlama-7b-hf"
+        },
+        "model": {
+          "parameters": "6.73855B",
+          "total_parameters_billions": 6.738546688,
+          "context_tokens": 16384,
+          "context_display": "16,384 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "llama2",
+          "id": "llama2",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/codellama/CodeLlama-7b-hf",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json",
+            "pytorch_model-00001-of-00003.bin",
+            "pytorch_model-00002-of-00003.bin",
+            "pytorch_model-00003-of-00003.bin",
+            "pytorch_model.bin.index.json"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 13.48,
+            "fp8_int8": 6.74,
+            "int4": 3.37
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6c284d1468fe6c413cf56183e69b194dcfa27fe6",
+          "created_at": "2023-08-24T16:31:11.000Z",
+          "last_modified": "2024-04-12T14:17:26.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "CodeLlama-7b-hf",
+  "developer": "codellama",
+  "source_repository": "https://huggingface.co/codellama/CodeLlama-7b-hf",
+  "current_repository_sha": "6c284d1468fe6c413cf56183e69b194dcfa27fe6",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/codellama-codellama-7b-hf/history/",
+  "diff_url": "https://openmodelweights.com/diff/codellama-codellama-7b-hf/"
+}

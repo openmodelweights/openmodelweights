@@ -1,0 +1,120 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "kblab-wav2vec2-large-voxrex-swedish",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ca70e31c06a2-4cf81dea51",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ca70e31c06a2617bf7fe3b4fb5d387d2b19b2983",
+      "evidence_hash": "4cf81dea5176e33477e8f19a83a39467e7397ffa0bccfb610a9f069b49a9b7c3",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/KBLab/wav2vec2-large-voxrex-swedish",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "wav2vec2-large-voxrex-swedish",
+          "developer": "KBLab",
+          "family": "wav2vec2-large-voxrex-swedish",
+          "variant": "wav2vec2-large-voxrex-swedish"
+        },
+        "model": {
+          "parameters": "0.315486B",
+          "total_parameters_billions": 0.31548587,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Audio → text"
+        },
+        "license": {
+          "name": "cc0-1.0",
+          "id": "cc0-1.0",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "NST_Swedish_ASR_Database",
+            "P4",
+            "common_voice"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.63,
+            "fp8_int8": 0.32,
+            "int4": 0.16
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ca70e31c06a2617bf7fe3b4fb5d387d2b19b2983",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2025-05-22T20:24:41.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "wav2vec2-large-voxrex-swedish",
+  "developer": "KBLab",
+  "source_repository": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish",
+  "current_repository_sha": "ca70e31c06a2617bf7fe3b4fb5d387d2b19b2983",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/kblab-wav2vec2-large-voxrex-swedish/history/",
+  "diff_url": "https://openmodelweights.com/diff/kblab-wav2vec2-large-voxrex-swedish/"
+}

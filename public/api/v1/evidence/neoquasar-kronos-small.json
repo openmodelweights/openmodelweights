@@ -1,0 +1,112 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "neoquasar-kronos-small",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "901c26c13326-0c73587c8e",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "901c26c1332695a2a8f243eb2f37243a37bea320",
+      "evidence_hash": "0c73587c8e21ff0231084a6c6060a9a6cf401dbccb59a5d83d838a7eaa05456b",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/NeoQuasar/Kronos-small",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/NeoQuasar/Kronos-small",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/NeoQuasar/Kronos-small",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/NeoQuasar/Kronos-small/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/NeoQuasar/Kronos-small/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Kronos-small",
+          "developer": "NeoQuasar",
+          "family": "Kronos-small",
+          "variant": "Kronos-small"
+        },
+        "model": {
+          "parameters": "0.0247417B",
+          "total_parameters_billions": 0.024741696,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Time Series Forecasting"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/NeoQuasar/Kronos-small",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": []
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.05,
+            "fp8_int8": 0.02,
+            "int4": 0.01
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "901c26c1332695a2a8f243eb2f37243a37bea320",
+          "created_at": "2025-06-30T15:32:30.000Z",
+          "last_modified": "2025-09-09T14:10:26.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Kronos-small",
+  "developer": "NeoQuasar",
+  "source_repository": "https://huggingface.co/NeoQuasar/Kronos-small",
+  "current_repository_sha": "901c26c1332695a2a8f243eb2f37243a37bea320",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/neoquasar-kronos-small/history/",
+  "diff_url": "https://openmodelweights.com/diff/neoquasar-kronos-small/"
+}

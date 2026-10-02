@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "onnx-community-embeddinggemma-300m-onnx",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5090578d9565-9e979267dc",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5090578d9565bb06545b4552f76e6bc2c93e4a66",
+      "evidence_hash": "9e979267dcd949362cfe46f8df8c54d944ec10b0bf0d65cf9d0b3db8de773357",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/onnx-community/embeddinggemma-300m-ONNX",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "embeddinggemma-300m-ONNX",
+          "developer": "onnx-community",
+          "family": "embeddinggemma",
+          "variant": "embeddinggemma-300m-ONNX"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 2048,
+          "context_display": "2,048 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "gemma",
+          "id": "gemma",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX",
+          "access": "public",
+          "file_count": 6,
+          "exact_files": [
+            "onnx/model.onnx",
+            "onnx/model_fp16.onnx",
+            "onnx/model_no_gather_q4.onnx",
+            "onnx/model_q4.onnx",
+            "onnx/model_q4f16.onnx",
+            "onnx/model_quantized.onnx"
+          ],
+          "formats": [
+            "ONNX"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "google/embeddinggemma-300m"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "transformers.js"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "5090578d9565bb06545b4552f76e6bc2c93e4a66",
+          "created_at": "2025-08-22T16:41:16.000Z",
+          "last_modified": "2025-09-04T15:43:56.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "embeddinggemma-300m-ONNX",
+  "developer": "onnx-community",
+  "source_repository": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX",
+  "current_repository_sha": "5090578d9565bb06545b4552f76e6bc2c93e4a66",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/onnx-community-embeddinggemma-300m-onnx/history/",
+  "diff_url": "https://openmodelweights.com/diff/onnx-community-embeddinggemma-300m-onnx/"
+}

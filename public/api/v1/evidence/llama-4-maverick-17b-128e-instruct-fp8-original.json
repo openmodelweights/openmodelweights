@@ -1,0 +1,138 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "llama-4-maverick-17b-128e-instruct-fp8-original",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "a9fb9bc25a0f-d84f8a353a",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "a9fb9bc25a0f8eabc6b1d523c8605bbc2dd5135b",
+      "evidence_hash": "d84f8a353a1d27fbb320919768711369a9128b35a906762cb81be5af8253e8cd",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+          "developer": "Meta",
+          "family": "Llama 4 Maverick",
+          "variant": "Llama-4-Maverick-17B-128E-Instruct-FP8-Original"
+        },
+        "model": {
+          "parameters": "402B",
+          "total_parameters_billions": 402.0,
+          "context_tokens": 128000,
+          "context_display": "128,000 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "llama4",
+          "id": "other",
+          "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+          "access": "gated (manual)",
+          "file_count": 16,
+          "exact_files": [
+            "consolidated.00.pth",
+            "consolidated.01.pth",
+            "consolidated.02.pth",
+            "consolidated.03.pth",
+            "consolidated.04.pth",
+            "consolidated.05.pth",
+            "consolidated.06.pth",
+            "consolidated.07.pth",
+            "fp8_scales_0.pt",
+            "fp8_scales_1.pt",
+            "fp8_scales_2.pt",
+            "fp8_scales_3.pt",
+            "fp8_scales_4.pt",
+            "fp8_scales_5.pt",
+            "fp8_scales_6.pt",
+            "fp8_scales_7.pt"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": [
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 804.0,
+            "fp8_int8": 402.0,
+            "int4": 201.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "a9fb9bc25a0f8eabc6b1d523c8605bbc2dd5135b",
+          "created_at": "2025-04-04T10:03:43.000Z",
+          "last_modified": "2025-04-05T22:34:47.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8-Original",
+  "current_repository_sha": "a9fb9bc25a0f8eabc6b1d523c8605bbc2dd5135b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/llama-4-maverick-17b-128e-instruct-fp8-original/history/",
+  "diff_url": "https://openmodelweights.com/diff/llama-4-maverick-17b-128e-instruct-fp8-original/"
+}

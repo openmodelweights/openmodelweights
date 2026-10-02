@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "bigscience-bloom-560m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ac2ae5fab2ce-364c14cddf",
+      "observed_at": "2026-10-02T13:04:27+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
+      "evidence_hash": "364c14cddf1c035e22ef845a9f85763b8a03c0a6391e1a446e4a7170e29c1b42",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/bigscience/bloom-560m",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/bigscience/bloom-560m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/bigscience/bloom-560m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/bigscience/bloom-560m/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/bigscience/bloom-560m/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bloom-560m",
+          "developer": "BigScience",
+          "family": "bloom",
+          "variant": "bloom-560m"
+        },
+        "model": {
+          "parameters": "0.559215B",
+          "total_parameters_billions": 0.559214592,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "bigscience-bloom-rail-1.0",
+          "id": "bigscience-bloom-rail-1.0",
+          "url": "https://huggingface.co/bigscience/bloom-560m/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/bigscience/bloom-560m",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/decoder_model.onnx",
+            "onnx/decoder_model_merged.onnx",
+            "onnx/decoder_with_past_model.onnx",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.12,
+            "fp8_int8": 0.56,
+            "int4": 0.28
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
+          "created_at": "2022-05-19T11:51:24.000Z",
+          "last_modified": "2023-09-26T09:16:49.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bloom-560m",
+  "developer": "BigScience",
+  "source_repository": "https://huggingface.co/bigscience/bloom-560m",
+  "current_repository_sha": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/bigscience-bloom-560m/history/",
+  "diff_url": "https://openmodelweights.com/diff/bigscience-bloom-560m/"
+}

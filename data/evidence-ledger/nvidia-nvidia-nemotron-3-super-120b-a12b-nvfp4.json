@@ -1,0 +1,146 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-nvidia-nemotron-3-super-120b-a12b-nvfp4",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ff433f5493e2-14eefeccd9",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ff433f5493e25d631c9f12b5d55c674229923d02",
+      "evidence_hash": "14eefeccd95fb941cc970c06e71cb6b3ccaa1218e579409dd6e6cbc3ccf88ebd",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+          "developer": "NVIDIA",
+          "family": "NVIDIA-Nemotron-3-Super",
+          "variant": "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4"
+        },
+        "model": {
+          "parameters": "67.2286B",
+          "total_parameters_billions": 67.228556288,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "nvidia-nemotron-open-model-license",
+          "id": "other",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+          "access": "public",
+          "file_count": 18,
+          "exact_files": [
+            "model-00001-of-00017.safetensors",
+            "model-00002-of-00017.safetensors",
+            "model-00003-of-00017.safetensors",
+            "model-00004-of-00017.safetensors",
+            "model-00005-of-00017.safetensors",
+            "model-00006-of-00017.safetensors",
+            "model-00007-of-00017.safetensors",
+            "model-00008-of-00017.safetensors",
+            "model-00009-of-00017.safetensors",
+            "model-00010-of-00017.safetensors",
+            "model-00011-of-00017.safetensors",
+            "model-00012-of-00017.safetensors",
+            "model-00013-of-00017.safetensors",
+            "model-00014-of-00017.safetensors",
+            "model-00015-of-00017.safetensors",
+            "model-00016-of-00017.safetensors",
+            "model-00017-of-00017.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "nvidia/nemotron-post-training-v3",
+            "nvidia/nemotron-pre-training-datasets"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "NeMo",
+            "SGLang",
+            "TensorRT-LLM",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 134.46,
+            "fp8_int8": 67.23,
+            "int4": 33.61
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ff433f5493e25d631c9f12b5d55c674229923d02",
+          "created_at": "2026-03-10T18:33:04.000Z",
+          "last_modified": "2026-08-24T23:47:52.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+  "current_repository_sha": "ff433f5493e25d631c9f12b5d55c674229923d02",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-nvidia-nemotron-3-super-120b-a12b-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-nvidia-nemotron-3-super-120b-a12b-nvfp4/"
+}

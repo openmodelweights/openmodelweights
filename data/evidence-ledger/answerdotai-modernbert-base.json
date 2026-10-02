@@ -1,0 +1,130 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "answerdotai-modernbert-base",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8949b909ec90-eaf08844c4",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+      "evidence_hash": "eaf08844c4f82342dada610a9806e654977309272e7ff06ae731dc79fa732e3a",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/answerdotai/ModernBERT-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/answerdotai/ModernBERT-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/answerdotai/ModernBERT-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/answerdotai/ModernBERT-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/answerdotai/ModernBERT-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "ModernBERT-base",
+          "developer": "answerdotai",
+          "family": "ModernBERT",
+          "variant": "ModernBERT-base"
+        },
+        "model": {
+          "parameters": "0.149655B",
+          "total_parameters_billions": 0.149655232,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/answerdotai/ModernBERT-base",
+          "access": "public",
+          "file_count": 10,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_bnb4.onnx",
+            "onnx/model_fp16.onnx",
+            "onnx/model_int8.onnx",
+            "onnx/model_q4.onnx",
+            "onnx/model_q4f16.onnx",
+            "onnx/model_quantized.onnx",
+            "onnx/model_uint8.onnx",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.3,
+            "fp8_int8": 0.15,
+            "int4": 0.07
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+          "created_at": "2024-12-11T11:38:06.000Z",
+          "last_modified": "2025-01-15T20:11:48.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "ModernBERT-base",
+  "developer": "answerdotai",
+  "source_repository": "https://huggingface.co/answerdotai/ModernBERT-base",
+  "current_repository_sha": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/answerdotai-modernbert-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/answerdotai-modernbert-base/"
+}

@@ -1,0 +1,130 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-qwen3-5-122b-a10b-nvfp4",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "98915d837c4e-bd1174ad41",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "98915d837c4e7c87ac8296d02e89de19b3207e6d",
+      "evidence_hash": "bd1174ad41f51e6eb2213f456713c77532ef2887ffe49abc759a6cf83c8b2f97",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Qwen3.5-122B-A10B-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Qwen3.5-122B-A10B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Qwen3.5-122B-A10B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Qwen3.5-122B-A10B-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Qwen3.5-122B-A10B-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3.5-122B-A10B-NVFP4",
+          "developer": "NVIDIA",
+          "family": "Qwen3.5",
+          "variant": "Qwen3.5-122B-A10B-NVFP4"
+        },
+        "model": {
+          "parameters": "64.5808B",
+          "total_parameters_billions": 64.58075928,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Qwen3.5-122B-A10B-NVFP4",
+          "access": "public",
+          "file_count": 10,
+          "exact_files": [
+            "model-00001-of-00009.safetensors",
+            "model-00002-of-00009.safetensors",
+            "model-00003-of-00009.safetensors",
+            "model-00004-of-00009.safetensors",
+            "model-00005-of-00009.safetensors",
+            "model-00006-of-00009.safetensors",
+            "model-00007-of-00009.safetensors",
+            "model-00008-of-00009.safetensors",
+            "model-00009-of-00009.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3.5-122B-A10B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Model Optimizer",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 129.16,
+            "fp8_int8": 64.58,
+            "int4": 32.29
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "98915d837c4e7c87ac8296d02e89de19b3207e6d",
+          "created_at": "2026-05-13T21:13:54.000Z",
+          "last_modified": "2026-06-02T22:08:04.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3.5-122B-A10B-NVFP4",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Qwen3.5-122B-A10B-NVFP4",
+  "current_repository_sha": "98915d837c4e7c87ac8296d02e89de19b3207e6d",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-qwen3-5-122b-a10b-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-qwen3-5-122b-a10b-nvfp4/"
+}

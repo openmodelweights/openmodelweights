@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-embeddinggemma-300m",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "57c266a740f5-47be57a6de",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "57c266a740f537b4dc058e1b0cda161fd15afa75",
+      "evidence_hash": "47be57a6dec66f420db8ce2a69a6afc97e22481bb65637d29f5274f035341c2e",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/embeddinggemma-300m",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/embeddinggemma-300m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/embeddinggemma-300m",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/embeddinggemma-300m/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/embeddinggemma-300m/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://ai.google.dev/gemma/terms",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "embeddinggemma-300m",
+          "developer": "Google",
+          "family": "embeddinggemma",
+          "variant": "embeddinggemma-300m"
+        },
+        "model": {
+          "parameters": "0.302863B",
+          "total_parameters_billions": 0.302863104,
+          "context_tokens": 2048,
+          "context_display": "2,048 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "gemma",
+          "id": "gemma",
+          "url": "https://ai.google.dev/gemma/terms",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use permitted subject to Gemma Terms"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/embeddinggemma-300m",
+          "access": "gated (manual)",
+          "file_count": 3,
+          "exact_files": [
+            "2_Dense/model.safetensors",
+            "3_Dense/model.safetensors",
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.61,
+            "fp8_int8": 0.3,
+            "int4": 0.15
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "57c266a740f537b4dc058e1b0cda161fd15afa75",
+          "created_at": "2025-07-17T19:53:55.000Z",
+          "last_modified": "2025-09-25T15:11:17.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "embeddinggemma-300m",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/embeddinggemma-300m",
+  "current_repository_sha": "57c266a740f537b4dc058e1b0cda161fd15afa75",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-embeddinggemma-300m/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-embeddinggemma-300m/"
+}

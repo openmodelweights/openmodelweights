@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "pixtral-12b-2409",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "a5ca2b7a9421-8b7fabcbb7",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "a5ca2b7a9421a35ea24411c46e970758b8d3c6a7",
+      "evidence_hash": "8b7fabcbb7f2e2637334f0f9ee01ff7227e5120036463e784135934393a983f0",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/mistralai/Pixtral-12B-2409",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Pixtral-12B-2409",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Pixtral-12B-2409",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Pixtral-12B-2409/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Pixtral-12B-2409/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Pixtral-12B-2409",
+          "developer": "Mistral AI",
+          "family": "Pixtral",
+          "variant": "12B-2409"
+        },
+        "model": {
+          "parameters": "12B",
+          "total_parameters_billions": 12.0,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/mistralai/Pixtral-12B-2409",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "consolidated.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "mistralai/Pixtral-12B-Base-2409"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "mistral-common",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 24.0,
+            "fp8_int8": 12.0,
+            "int4": 6.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "a5ca2b7a9421a35ea24411c46e970758b8d3c6a7",
+          "created_at": "2024-09-11T18:11:16.000Z",
+          "last_modified": "2026-06-02T04:44:58.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Pixtral-12B-2409",
+  "developer": "Mistral AI",
+  "source_repository": "https://huggingface.co/mistralai/Pixtral-12B-2409",
+  "current_repository_sha": "a5ca2b7a9421a35ea24411c46e970758b8d3c6a7",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/pixtral-12b-2409/history/",
+  "diff_url": "https://openmodelweights.com/diff/pixtral-12b-2409/"
+}

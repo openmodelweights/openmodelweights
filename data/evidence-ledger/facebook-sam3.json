@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-sam3",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "3c879f39826c-f4ec053d01",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "3c879f39826c281e95690f02c7821c4de09afae7",
+      "evidence_hash": "f4ec053d01fc6ec2e6190beeb1cd26093f2090e01a20a80874b169f5d137afd9",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/sam3",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/sam3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/sam3",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/sam3/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/sam3/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "sam3",
+          "developer": "Meta",
+          "family": "sam3",
+          "variant": "sam3"
+        },
+        "model": {
+          "parameters": "0.859922B",
+          "total_parameters_billions": 0.85992236,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Mask Generation"
+        },
+        "license": {
+          "name": "other",
+          "id": "other",
+          "url": "https://www.llama.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/sam3",
+          "access": "gated (manual)",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "sam3.pt"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.72,
+            "fp8_int8": 0.86,
+            "int4": 0.43
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "3c879f39826c281e95690f02c7821c4de09afae7",
+          "created_at": "2025-11-07T05:17:48.000Z",
+          "last_modified": "2025-11-20T22:05:08.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "sam3",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/sam3",
+  "current_repository_sha": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-sam3/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-sam3/"
+}

@@ -1,0 +1,127 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-phi-4",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "2db69c1c3e91-4726ad04d1",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+      "evidence_hash": "4726ad04d1bcd55a416a2c7226d07c25df6f24da3e123a005a73edcc1b7d2c8d",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/phi-4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/phi-4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/phi-4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/phi-4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/phi-4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/microsoft/phi-4/resolve/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "phi-4",
+          "developer": "Microsoft",
+          "family": "phi-4",
+          "variant": "phi-4"
+        },
+        "model": {
+          "parameters": "14.6595B",
+          "total_parameters_billions": 14.6595072,
+          "context_tokens": 16384,
+          "context_display": "16,384 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": "https://huggingface.co/microsoft/phi-4/resolve/main/LICENSE",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/phi-4",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "model-00001-of-00006.safetensors",
+            "model-00002-of-00006.safetensors",
+            "model-00003-of-00006.safetensors",
+            "model-00004-of-00006.safetensors",
+            "model-00005-of-00006.safetensors",
+            "model-00006-of-00006.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 29.32,
+            "fp8_int8": 14.66,
+            "int4": 7.33
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+          "created_at": "2024-12-11T11:47:29.000Z",
+          "last_modified": "2026-07-14T14:22:25.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "phi-4",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/phi-4",
+  "current_repository_sha": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-phi-4/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-phi-4/"
+}

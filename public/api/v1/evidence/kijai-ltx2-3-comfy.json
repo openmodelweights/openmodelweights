@@ -1,0 +1,143 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "kijai-ltx2-3-comfy",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6d980fde0d33-af0d4110eb",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6d980fde0d330f2fed6ff8dfdfddb06d88a004e5",
+      "evidence_hash": "af0d4110ebc702ebf23dd09193af1f997925984ec01cf48cd322ef28e300c273",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Kijai/LTX2.3_comfy",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Kijai/LTX2.3_comfy",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Kijai/LTX2.3_comfy",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Kijai/LTX2.3_comfy/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Kijai/LTX2.3_comfy/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "LTX2.3_comfy",
+          "developer": "Kijai",
+          "family": "LTX2.3_comfy",
+          "variant": "LTX2.3_comfy"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "ltx-2-community-license-agreement",
+          "id": "other",
+          "url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Kijai/LTX2.3_comfy",
+          "access": "public",
+          "file_count": 23,
+          "exact_files": [
+            "diffusion_models/experimental/ltx-2.3-22b-distilled_transformer_only_mxfp8_block32.safetensors",
+            "diffusion_models/ltx-2-3-22b-dev_transformer_only_fp8_input_scaled.safetensors",
+            "diffusion_models/ltx-2.3-22b-dev_transformer_only_bf16.safetensors",
+            "diffusion_models/ltx-2.3-22b-dev_transformer_only_fp8_scaled.safetensors",
+            "diffusion_models/ltx-2.3-22b-dev_transformer_only_int8_convrot.safetensors",
+            "diffusion_models/ltx-2.3-22b-dev_transformer_only_mxfp8_block32.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled-1.1_transformer_only_bf16.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled-1.1_transformer_only_fp8_scaled.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled-1.1_transformer_only_int8_convrot.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled-1.1_transformer_only_mxfp8_block32.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled_transformer_only_bf16.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled_v2.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled_v3.safetensors",
+            "diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_scaled.safetensors",
+            "loras/LTX-2.3-OmniNFT-RL-Lora_bf16.safetensors",
+            "loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
+            "loras/ltx-2.3-22b-distilled-lora-dynamic_fro09_avg_rank_105_bf16.safetensors",
+            "text_encoders/ltx-2.3_text_projection_bf16.safetensors",
+            "vae/LTX23_audio_vae_bf16.safetensors",
+            "vae/LTX23_video_vae_bf16.safetensors",
+            "vae/pruna_ltx2.3_vae_comfy_bf16.safetensors",
+            "vae/taeltx2_3.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Lightricks/LTX-2.3"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "6d980fde0d330f2fed6ff8dfdfddb06d88a004e5",
+          "created_at": "2026-03-05T15:20:18.000Z",
+          "last_modified": "2026-07-28T20:47:36.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "LTX2.3_comfy",
+  "developer": "Kijai",
+  "source_repository": "https://huggingface.co/Kijai/LTX2.3_comfy",
+  "current_repository_sha": "6d980fde0d330f2fed6ff8dfdfddb06d88a004e5",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/kijai-ltx2-3-comfy/history/",
+  "diff_url": "https://openmodelweights.com/diff/kijai-ltx2-3-comfy/"
+}

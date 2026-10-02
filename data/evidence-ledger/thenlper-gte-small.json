@@ -1,0 +1,131 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "thenlper-gte-small",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "17e1f347d17f-947d68e94b",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "17e1f347d17fe144873b1201da91788898c639cd",
+      "evidence_hash": "947d68e94bbb0a3da7cb896251a1f53c821832fac79500db22c274cbfbff2cfb",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/thenlper/gte-small",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/thenlper/gte-small",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/thenlper/gte-small",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/thenlper/gte-small/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/thenlper/gte-small/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gte-small",
+          "developer": "thenlper",
+          "family": "gte-small",
+          "variant": "gte-small"
+        },
+        "model": {
+          "parameters": "0.0333605B",
+          "total_parameters_billions": 0.033360512,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/thenlper/gte-small",
+          "access": "public",
+          "file_count": 10,
+          "exact_files": [
+            "coreml/feature-extraction/float32_model.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+            "coreml/feature-extraction/float32_model.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "CoreML",
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.07,
+            "fp8_int8": 0.03,
+            "int4": 0.02
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "17e1f347d17fe144873b1201da91788898c639cd",
+          "created_at": "2023-07-27T10:14:55.000Z",
+          "last_modified": "2024-11-16T08:17:33.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gte-small",
+  "developer": "thenlper",
+  "source_repository": "https://huggingface.co/thenlper/gte-small",
+  "current_repository_sha": "17e1f347d17fe144873b1201da91788898c639cd",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/thenlper-gte-small/history/",
+  "diff_url": "https://openmodelweights.com/diff/thenlper-gte-small/"
+}

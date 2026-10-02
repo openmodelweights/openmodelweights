@@ -1,0 +1,127 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "comfy-org-flux2-dev",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ed33133cd564-96ef19f1c2",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ed33133cd56476eac818c0943b6f9419b3e4a3a1",
+      "evidence_hash": "96ef19f1c2a68dab6db72680ac03f8f9040a2944c3e334aff88d24cd259f14a1",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Comfy-Org/flux2-dev",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Comfy-Org/flux2-dev",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Comfy-Org/flux2-dev",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Comfy-Org/flux2-dev/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Comfy-Org/flux2-dev/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev/blob/main/LICENSE.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "flux2-dev",
+          "developer": "Comfy-Org",
+          "family": "flux2-dev",
+          "variant": "flux2-dev"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "flux-1-dev-non-commercial-license",
+          "id": "other",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev/blob/main/LICENSE.md",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Comfy-Org/flux2-dev",
+          "access": "public",
+          "file_count": 7,
+          "exact_files": [
+            "split_files/diffusion_models/flux2_dev_fp8mixed.safetensors",
+            "split_files/loras/Flux2TurboComfyv2.safetensors",
+            "split_files/loras/Flux_2-Turbo-LoRA_comfyui.safetensors",
+            "split_files/text_encoders/mistral_3_small_flux2_bf16.safetensors",
+            "split_files/text_encoders/mistral_3_small_flux2_fp4_mixed.safetensors",
+            "split_files/text_encoders/mistral_3_small_flux2_fp8.safetensors",
+            "split_files/vae/flux2-vae.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "ByteZSzn/Flux.2-Turbo-ComfyUI",
+            "black-forest-labs/FLUX.2-dev"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "ed33133cd56476eac818c0943b6f9419b3e4a3a1",
+          "created_at": "2025-11-25T02:18:57.000Z",
+          "last_modified": "2026-09-23T07:58:36.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "flux2-dev",
+  "developer": "Comfy-Org",
+  "source_repository": "https://huggingface.co/Comfy-Org/flux2-dev",
+  "current_repository_sha": "ed33133cd56476eac818c0943b6f9419b3e4a3a1",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/comfy-org-flux2-dev/history/",
+  "diff_url": "https://openmodelweights.com/diff/comfy-org-flux2-dev/"
+}

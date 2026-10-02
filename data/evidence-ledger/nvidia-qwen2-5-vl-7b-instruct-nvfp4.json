@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-qwen2-5-vl-7b-instruct-nvfp4",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "d13bb1f2d8fb-8a8c38e57e",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "d13bb1f2d8fbbd9f16cbb7688c8d6b6932d797d7",
+      "evidence_hash": "8a8c38e57e1fb4b1ae910579e6bf3984660a24befaa990d83b3391dcde4efdb8",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Qwen2.5-VL-7B-Instruct-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Qwen2.5-VL-7B-Instruct-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen2.5-VL-7B-Instruct-NVFP4",
+          "developer": "NVIDIA",
+          "family": "Qwen2.5-VL",
+          "variant": "Qwen2.5-VL-7B-Instruct-NVFP4"
+        },
+        "model": {
+          "parameters": "5.02952B",
+          "total_parameters_billions": 5.029522432,
+          "context_tokens": 128000,
+          "context_display": "128,000 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "nvidia-open-model-license",
+          "id": "other",
+          "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercially usable subject to NVIDIA license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen2.5-VL-7B-Instruct"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Model Optimizer",
+            "TensorRT-LLM",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 10.06,
+            "fp8_int8": 5.03,
+            "int4": 2.51
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "d13bb1f2d8fbbd9f16cbb7688c8d6b6932d797d7",
+          "created_at": "2025-09-10T03:04:44.000Z",
+          "last_modified": "2025-12-06T00:51:49.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen2.5-VL-7B-Instruct-NVFP4",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Qwen2.5-VL-7B-Instruct-NVFP4",
+  "current_repository_sha": "d13bb1f2d8fbbd9f16cbb7688c8d6b6932d797d7",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-qwen2-5-vl-7b-instruct-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-qwen2-5-vl-7b-instruct-nvfp4/"
+}

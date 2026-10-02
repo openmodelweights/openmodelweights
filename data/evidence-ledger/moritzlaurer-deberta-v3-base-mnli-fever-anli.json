@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "moritzlaurer-deberta-v3-base-mnli-fever-anli",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6f5cf0a2b59c-36ed109a93",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+      "evidence_hash": "36ed109a93dab366a155997dc44decab8ee2b2064254627cc9221e075034d1e2",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "DeBERTa-v3-base-mnli-fever-anli",
+          "developer": "MoritzLaurer",
+          "family": "DeBERTa-v3-base-mnli-fever-anli",
+          "variant": "DeBERTa-v3-base-mnli-fever-anli"
+        },
+        "model": {
+          "parameters": "0.184425B",
+          "total_parameters_billions": 0.184424963,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Zero Shot Classification"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "facebook/anli",
+            "fever",
+            "multi_nli"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.37,
+            "fp8_int8": 0.18,
+            "int4": 0.09
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2024-04-11T13:47:27.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "DeBERTa-v3-base-mnli-fever-anli",
+  "developer": "MoritzLaurer",
+  "source_repository": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "current_repository_sha": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/moritzlaurer-deberta-v3-base-mnli-fever-anli/history/",
+  "diff_url": "https://openmodelweights.com/diff/moritzlaurer-deberta-v3-base-mnli-fever-anli/"
+}

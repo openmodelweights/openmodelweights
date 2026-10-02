@@ -1,0 +1,110 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-esmfold-v1",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "75a3841ee059-3e943daace",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "75a3841ee059df2bf4d56688166c8fb459ddd97a",
+      "evidence_hash": "3e943daaceb431c4fb7aa4232f414b41705b14307e2ed4d899d5fc9359fc3426",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/esmfold_v1",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/esmfold_v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/esmfold_v1",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/esmfold_v1/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/esmfold_v1/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "esmfold_v1",
+          "developer": "Meta",
+          "family": "esmfold_v1",
+          "variant": "esmfold_v1"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 1026,
+          "context_display": "1,026 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/esmfold_v1",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "75a3841ee059df2bf4d56688166c8fb459ddd97a",
+          "created_at": "2022-11-01T18:24:14.000Z",
+          "last_modified": "2023-03-22T17:39:28.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "esmfold_v1",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/esmfold_v1",
+  "current_repository_sha": "75a3841ee059df2bf4d56688166c8fb459ddd97a",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-esmfold-v1/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-esmfold-v1/"
+}

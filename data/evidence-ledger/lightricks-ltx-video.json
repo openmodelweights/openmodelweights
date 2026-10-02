@@ -1,0 +1,144 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "lightricks-ltx-video",
+  "created_at": "2026-10-02T13:04:27+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8984fa25007f-8dd69ee060",
+      "observed_at": "2026-10-02T12:26:49+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8984fa25007f376c1a299016d0957a37a2f797bb",
+      "evidence_hash": "8dd69ee0603593d6feef4a5167ae0e685734a7ced8c7807a2432b6887ee53f2b",
+      "verification_mode": "repository-revision-unchanged",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Lightricks/LTX-Video",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Lightricks/LTX-Video",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Lightricks/LTX-Video",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Lightricks/LTX-Video/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Lightricks/LTX-Video/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "LTX-Video",
+          "developer": "Lightricks",
+          "family": "LTX-Video",
+          "variant": "LTX-Video"
+        },
+        "model": {
+          "parameters": "1.92339B",
+          "total_parameters_billions": 1.923385472,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image To Video"
+        },
+        "license": {
+          "name": "other",
+          "id": "other",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Lightricks/LTX-Video",
+          "access": "public",
+          "file_count": 29,
+          "exact_files": [
+            "ltx-video-2b-v0.9.1.safetensors",
+            "ltx-video-2b-v0.9.5.safetensors",
+            "ltx-video-2b-v0.9.safetensors",
+            "ltxv-13b-0.9.7-dev-fp8.safetensors",
+            "ltxv-13b-0.9.7-dev.safetensors",
+            "ltxv-13b-0.9.7-distilled-fp8.safetensors",
+            "ltxv-13b-0.9.7-distilled-lora128.safetensors",
+            "ltxv-13b-0.9.7-distilled.safetensors",
+            "ltxv-13b-0.9.8-dev-fp8.safetensors",
+            "ltxv-13b-0.9.8-dev.safetensors",
+            "ltxv-13b-0.9.8-distilled-fp8.safetensors",
+            "ltxv-13b-0.9.8-distilled.safetensors",
+            "ltxv-2b-0.9.6-dev-04-25.safetensors",
+            "ltxv-2b-0.9.6-distilled-04-25.safetensors",
+            "ltxv-2b-0.9.8-distilled-fp8.safetensors",
+            "ltxv-2b-0.9.8-distilled.safetensors",
+            "ltxv-spatial-upscaler-0.9.7.safetensors",
+            "ltxv-spatial-upscaler-0.9.8.safetensors",
+            "ltxv-temporal-upscaler-0.9.7.safetensors",
+            "ltxv-temporal-upscaler-0.9.8.safetensors",
+            "text_encoder/model-00001-of-00004.safetensors",
+            "text_encoder/model-00002-of-00004.safetensors",
+            "text_encoder/model-00003-of-00004.safetensors",
+            "text_encoder/model-00004-of-00004.safetensors",
+            "text_encoder/model.safetensors.index.json",
+            "transformer/diffusion_pytorch_model-00001-of-00002.safetensors",
+            "transformer/diffusion_pytorch_model-00002-of-00002.safetensors",
+            "transformer/diffusion_pytorch_model.safetensors.index.json",
+            "vae/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 3.85,
+            "fp8_int8": 1.92,
+            "int4": 0.96
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8984fa25007f376c1a299016d0957a37a2f797bb",
+          "created_at": "2024-10-31T12:36:00.000Z",
+          "last_modified": "2025-07-16T14:32:35.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "LTX-Video",
+  "developer": "Lightricks",
+  "source_repository": "https://huggingface.co/Lightricks/LTX-Video",
+  "current_repository_sha": "8984fa25007f376c1a299016d0957a37a2f797bb",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/lightricks-ltx-video/history/",
+  "diff_url": "https://openmodelweights.com/diff/lightricks-ltx-video/"
+}
