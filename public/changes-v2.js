@@ -3,6 +3,19 @@
   const q=$('#changes-search'),type=$('#changes-type'),dev=$('#changes-developer'),range=$('#changes-range'),count=$('#changes-count'),items=$$('.change-item');
   if(!q)return;
   const norm=v=>(v||'').toString().toLowerCase();
+  function humanDate(v){
+    const d=new Date(v);
+    if(Number.isNaN(d.getTime())) return v||'';
+    return d.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
+  }
+  $('.change-item time,.upstream-row time').forEach(el=>{
+    const raw=el.getAttribute('datetime')||el.textContent.trim();
+    if(raw){
+      if(!el.getAttribute('datetime')) el.setAttribute('datetime',raw);
+      el.title=raw;
+      el.textContent=humanDate(raw);
+    }
+  });
   function run(){
     const query=norm(q.value),t=type.value,d=dev.value,days=Number(range.value||0),cut=days?Date.now()-days*86400000:0;let n=0;
     items.forEach(x=>{const at=Date.parse(x.dataset.at||0)||0;const ok=(!query||norm(x.dataset.search).includes(query))&&(!t||x.dataset.type===t)&&(!d||x.dataset.developer===d)&&(!cut||at>=cut);x.hidden=!ok;if(ok)n++});
