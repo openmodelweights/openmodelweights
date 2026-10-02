@@ -63,7 +63,6 @@ def article_schema(a):
     bc=breadcrumb([("Home",SITE+"/"),("News",SITE+"/news/"),(a["title"],canonical)],canonical)
     article={"@type":"NewsArticle","@id":canonical+"#article","headline":a["title"],"description":a["dek"],"url":canonical,"mainEntityOfPage":{"@id":canonical+"#webpage"},"datePublished":a["published_at"],"dateModified":a["modified_at"],"articleSection":a["category"],"keywords":a.get("tags",[]),"author":{"@id":SITE+"/#organization"},"publisher":{"@id":SITE+"/#organization"},"image":[SOCIAL_IMAGE],"isBasedOn":a["source_url"],"citation":[a["source_url"]],"inLanguage":"en"}
     page={"@type":"WebPage","@id":canonical+"#webpage","url":canonical,"name":a["title"],"description":a["dek"],"isPartOf":{"@id":SITE+"/#website"},"breadcrumb":{"@id":bc["@id"]},"primaryImageOfPage":{"@type":"ImageObject","url":SOCIAL_IMAGE}}
-    page.pop("primaryImageOfPage",None)
     website={"@type":"WebSite","@id":SITE+"/#website","url":SITE+"/","name":"Open Model Weights","publisher":{"@id":SITE+"/#organization"}}
     return [org_node(),website,page,bc,article]
 
