@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "openmodelweights-bot"
           git config user.email "openmodelweights-bot@users.noreply.github.com"
-          git add public/index.html public/registry.json public/registry.schema.json public/llms.txt public/models public/developers public/verification public/sitemap.xml data/verification-report.json
+          git add public/index.html public/registry.json public/registry.schema.json public/llms.txt public/models public/developers public/verification public/explore public/licenses public/hardware public/formats public/lineage public/changes public/changes.json public/sitemap.xml data/verification-report.json data/change-feed.json
           if git diff --cached --quiet; then
             echo "No verification changes."
           else

@@ -193,6 +193,205 @@ def schema_doc():
       }
     }
 
+
+def git_json(path):
+    try:
+        raw=subprocess.check_output(["git","show",f"HEAD:{path}"],text=True)
+        return json.loads(raw)
+    except Exception:
+        return None
+
+def nav_html():
+    return '<header class="site-header"><a class="brand" href="/">Open Model Weights</a><nav><a href="/models/">Models</a><a href="/developers/">Developers</a><a href="/explore/">Explore</a><a href="/changes/">Changes</a><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a></nav></header>'
+
+def footer_html():
+    return '<footer><div><strong>Open Model Weights</strong><p>The independent registry for open-weight AI.</p></div><div class="footer-links"><a href="/licenses/">Licenses</a><a href="/hardware/">Hardware</a><a href="/formats/">Formats</a><a href="/lineage/">Lineage</a><a href="/changes/">Changes</a><a href="/registry.json">Registry JSON</a></div></footer>'
+
+def page_head(title,desc,canonical,extra=""):
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1"><meta property="og:site_name" content="Open Model Weights"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><link rel="stylesheet" href="/styles.css">{extra}</head>'''
+
+def commercial_label(status):
+    return {
+        "allowed":"Commercial use allowed",
+        "allowed-with-conditions":"Commercial use with conditions",
+        "allowed-with-revenue-condition":"Commercial use with revenue condition",
+        "separate-license-required":"Separate commercial license required",
+        "not-allowed":"Commercial use not allowed",
+        "unknown":"Manual review required",
+    }.get(status,status.replace("-"," ").title())
+
+def explore_page(models,feed):
+    modules=[
+      ("License Explorer","/licenses/","Compare declared licenses and commercial-use conditions across the registry.",len(set(m["license"]["name"] for m in models))),
+      ("Hardware Explorer","/hardware/","Compare weight-only memory estimates across BF16/FP16, FP8/INT8 and INT4.",sum(m.get("hardware",{}).get("status")=="estimated" for m in models)),
+      ("Format Explorer","/formats/","See which weight formats and precision artifacts are actually observed in official repositories.",len(set(x for m in models for x in m["weights"].get("formats",[])))),
+      ("Family / Lineage Graph","/lineage/","Explore declared base-model relationships and model families as an interactive graph.",sum(bool(m["lineage"]["base_model"].get("models")) for m in models)),
+      ("What changed?","/changes/","Publisher repository activity plus field-level differences between verification runs.",len(feed.get("events",[]))),
+    ]
+    cards="".join(f'<a class="tool-card" href="{url}"><span>{count}</span><h2>{esc(name)}</h2><p>{esc(desc)}</p><strong>Open explorer →</strong></a>' for name,url,desc,count in modules)
+    return f'''{page_head("Explore open-weight AI — licenses, hardware, formats & lineage | Open Model Weights","Explore the verified open-weight registry by license, hardware requirements, formats, model lineage and verification changes.","https://openmodelweights.com/explore/")}<body>{nav_html()}<main><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / Explore</div><p class="eyebrow">REGISTRY EXPLORERS</p><h1>Interrogate the registry.</h1><p class="lead">Five views over the same field-verified dataset — each optimized for a different technical or legal question.</p></section><section class="section"><div class="tool-grid">{cards}</div></section></main>{footer_html()}</body></html>'''
+
+def license_page(models):
+    groups={}
+    for m in models:
+        key=m["license"]["name"]
+        g=groups.setdefault(key,{"models":[],"statuses":set(),"url":m["license"].get("url")})
+        g["models"].append(m); g["statuses"].add(m["license"]["commercial_use"]["status"])
+        if not g["url"] and m["license"].get("url"): g["url"]=m["license"]["url"]
+    records=[]
+    for name,g in sorted(groups.items(),key=lambda kv:(-len(kv[1]["models"]),kv[0].lower())):
+        statuses=sorted(g["statuses"])
+        status=statuses[0] if len(statuses)==1 else "mixed"
+        status_text=commercial_label(status) if status!="mixed" else "Mixed commercial-use classifications"
+        model_links="".join(f'<a href="/models/{esc(m["id"])}/">{esc(m["name"])}</a>' for m in sorted(g["models"],key=lambda x:x["name"].lower()))
+        source=f'<a class="evidence-link" href="{esc(g["url"])}" rel="noopener">License source ↗</a>' if g["url"] else ""
+        search=name+" "+" ".join(m["name"]+" "+m["developer"] for m in g["models"])
+        records.append(f'''<article class="license-record explorer-card" data-search="{esc(search.lower())}" data-status="{esc(status)}"><div class="explorer-card-head"><div><span class="kicker">{len(g["models"])} model{"s" if len(g["models"])!=1 else ""}</span><h2>{esc(name)}</h2></div><span class="commercial-badge {esc(status)}">{esc(status_text)}</span></div><div class="model-link-cloud">{model_links}</div>{source}</article>''')
+    status_options=sorted(set(next(iter({m["license"]["commercial_use"]["status"] for m in models if m["license"]["name"]==name}),"unknown") for name in groups))
+    options="".join(f'<option value="{esc(s)}">{esc(commercial_label(s))}</option>' for s in status_options)
+    return f'''{page_head("License Explorer — open-weight AI licenses & commercial use | Open Model Weights",f"Compare {len(groups)} verified model licenses across {len(models)} open-weight AI records, including commercial-use conditions and primary license sources.","https://openmodelweights.com/licenses/",'<script src="/explorer.js" defer></script>')}<body>{nav_html()}<main><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/explore/">Explore</a> / Licenses</div><p class="eyebrow">LICENSE EXPLORER · {len(groups)} LICENSE LABELS</p><h1>Licenses, without the hand-waving.</h1><p class="lead">Compare what publishers actually declare and how commercial use is classified. This is a source-backed index, not legal advice.</p></section><section class="section explorer-section"><div class="explorer-controls"><input id="license-search" type="search" placeholder="Search license, model or developer…"><select id="commercial-filter"><option value="">All commercial-use classes</option>{options}</select></div><div class="explorer-stack">{''.join(records)}</div></section></main>{footer_html()}</body></html>'''
+
+def hardware_page(models):
+    estimated=[m for m in models if m.get("hardware",{}).get("status")=="estimated" and m["hardware"].get("weight_only_gb")]
+    estimated.sort(key=lambda m:m["hardware"]["weight_only_gb"].get("int4",10**9))
+    developers=sorted(set(m["developer"] for m in estimated))
+    options="".join(f'<option value="{esc(d.lower())}">{esc(d)}</option>' for d in developers)
+    rows=[]
+    for m in estimated:
+        h=m["hardware"]["weight_only_gb"]
+        rows.append(f'''<a class="hardware-row explorer-table-row" href="/models/{esc(m["id"])}/" data-search="{esc((m["name"]+" "+m["developer"]+" "+str(m.get("family",""))).lower())}" data-developer="{esc(m["developer"].lower())}" data-bf16="{h.get("bf16_fp16","")}" data-fp8="{h.get("fp8_int8","")}" data-int4="{h.get("int4","")}"><div><strong>{esc(m["name"])}</strong><span>{esc(m["developer"])} · {esc(m["model"].get("parameters"))}</span></div><div>{h.get("bf16_fp16",0):,.1f} GB</div><div>{h.get("fp8_int8",0):,.1f} GB</div><div>{h.get("int4",0):,.1f} GB</div></a>''')
+    return f'''{page_head("Hardware Explorer — AI model memory estimates | Open Model Weights",f"Compare weight-only memory estimates for {len(estimated)} verified open-weight AI models at BF16/FP16, FP8/INT8 and INT4.","https://openmodelweights.com/hardware/",'<script src="/explorer.js" defer></script>')}<body>{nav_html()}<main><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/explore/">Explore</a> / Hardware</div><p class="eyebrow">HARDWARE EXPLORER · WEIGHT-ONLY MEMORY</p><h1>How much memory do the weights need?</h1><p class="lead">Filter by a hardware budget and precision. Estimates cover model weights only — not KV cache, activations, runtime overhead or sharding.</p></section><section class="section explorer-section"><div class="explorer-controls hardware-controls"><input id="hardware-search" type="search" placeholder="Search model or family…"><select id="hardware-developer"><option value="">All developers</option>{options}</select><select id="hardware-precision"><option value="bf16">BF16 / FP16</option><option value="fp8">FP8 / INT8</option><option value="int4" selected>INT4</option></select><select id="hardware-budget"><option value="">Any memory budget</option><option value="8">≤ 8 GB</option><option value="16">≤ 16 GB</option><option value="24">≤ 24 GB</option><option value="32">≤ 32 GB</option><option value="48">≤ 48 GB</option><option value="80">≤ 80 GB</option><option value="96">≤ 96 GB</option><option value="192">≤ 192 GB</option></select></div><p class="explorer-result-count"><strong id="hardware-count">{len(estimated)}</strong> models match</p><div class="explorer-table"><div class="explorer-table-head"><div>Model</div><div>BF16 / FP16</div><div>FP8 / INT8</div><div>INT4</div></div>{''.join(rows)}</div><p class="note">Decimal GB estimate: parameter count × bytes per weight. This is a comparison aid, not a deployment guarantee.</p></section></main>{footer_html()}</body></html>'''
+
+def format_page(models):
+    format_counts={}
+    precision_counts={k:0 for k in ["bf16","fp16","fp8","int8","int4","gguf"]}
+    for m in models:
+        for f in m["weights"].get("formats",[]): format_counts[f]=format_counts.get(f,0)+1
+        for k,v in m["weights"].get("precision_availability",{}).items():
+            if k in precision_counts and v.get("available"): precision_counts[k]+=1
+    cards="".join(f'<div class="metric-card"><span>{count}</span><strong>{esc(name)}</strong><p>Official repositories with this observed format.</p></div>' for name,count in sorted(format_counts.items(),key=lambda x:-x[1]))
+    p_cards="".join(f'<div class="metric-card"><span>{count}</span><strong>{k.upper()}</strong><p>Records with a positive precision/artifact signal.</p></div>' for k,count in precision_counts.items())
+    all_filters=sorted(set(format_counts)|{k.upper() for k,v in precision_counts.items() if v})
+    options="".join(f'<option value="{esc(x)}">{esc(x)}</option>' for x in all_filters)
+    rows=[]
+    for m in models:
+        observed=list(m["weights"].get("formats",[]))
+        observed += [k.upper() for k,v in m["weights"].get("precision_availability",{}).items() if v.get("available")]
+        observed=list(dict.fromkeys(observed))
+        chips="".join(f"<span>{esc(x)}</span>" for x in observed)
+        rows.append(f'''<a class="format-row explorer-table-row" href="/models/{esc(m["id"])}/" data-search="{esc((m["name"]+" "+m["developer"]+" "+" ".join(observed)).lower())}" data-formats="{esc("|".join(observed))}"><div><strong>{esc(m["name"])}</strong><span>{esc(m["developer"])}</span></div><div class="chips compact-chips">{chips}</div><div>{m["weights"].get("file_count",0)} files</div><div>{esc(m["weights"].get("access",""))}</div></a>''')
+    return f'''{page_head("Format Explorer — BF16, FP8, GGUF, Safetensors & more | Open Model Weights",f"Explore observed formats and precision artifacts across {len(models)} field-verified open-weight model repositories.","https://openmodelweights.com/formats/",'<script src="/explorer.js" defer></script>')}<body>{nav_html()}<main><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/explore/">Explore</a> / Formats</div><p class="eyebrow">FORMAT EXPLORER</p><h1>What files are actually published?</h1><p class="lead">Repository evidence for Safetensors, GGUF, ONNX and precision signals such as BF16, FP8 and INT4. “Not observed” never means a third-party conversion cannot exist.</p></section><section class="section explorer-section"><h2 class="explorer-title">Repository formats</h2><div class="metric-card-grid">{cards}</div><h2 class="explorer-title">Precision signals</h2><div class="metric-card-grid">{p_cards}</div><div class="explorer-controls"><input id="format-search" type="search" placeholder="Search model, developer or format…"><select id="format-filter"><option value="">All formats / precisions</option>{options}</select></div><p class="explorer-result-count"><strong id="format-count">{len(models)}</strong> models match</p><div class="explorer-table"><div class="explorer-table-head format-head"><div>Model</div><div>Observed</div><div>Weight files</div><div>Access</div></div>{''.join(rows)}</div></section></main>{footer_html()}</body></html>'''
+
+def lineage_page(models):
+    families={}
+    for m in models: families[m.get("family") or "Unclassified"]=families.get(m.get("family") or "Unclassified",0)+1
+    default=max(families,key=families.get)
+    fopts="".join(f'<option value="{esc(f)}"{" selected" if f==default else ""}>{esc(f)} ({n})</option>' for f,n in sorted(families.items(),key=lambda x:(-x[1],x[0])))
+    devs=sorted(set(m["developer"] for m in models))
+    dopts="".join(f'<option value="{esc(d)}">{esc(d)}</option>' for d in devs)
+    nodes=[]
+    for m in models:
+        repo=m["weights"]["repository"].split("huggingface.co/",1)[-1].strip("/")
+        nodes.append({"id":m["id"],"name":m["name"],"developer":m["developer"],"family":m.get("family") or "Unclassified","repo":repo,"url":f'/models/{m["id"]}/',"parents":m["lineage"]["base_model"].get("models") or []})
+    data=json.dumps({"models":nodes},ensure_ascii=False).replace("</","<\\/")
+    declared=sum(bool(x["parents"]) for x in nodes)
+    return f'''{page_head("Model Family & Lineage Graph — Open Model Weights",f"Explore declared base-model relationships across {len(models)} verified open-weight AI model records and {len(families)} model families.","https://openmodelweights.com/lineage/",'<script src="/lineage.js" defer></script>')}<body>{nav_html()}<main><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/explore/">Explore</a> / Lineage</div><p class="eyebrow">MODEL FAMILY / LINEAGE GRAPH · {declared} DECLARED RELATIONSHIPS</p><h1>See where a model comes from.</h1><p class="lead">An interactive view of publisher-declared <code>base_model</code> metadata. Missing edges mean no base model was declared in the checked standard metadata.</p></section><section class="section explorer-section"><div class="explorer-controls"><select id="lineage-family">{fopts}</select><select id="lineage-developer"><option value="">All developers</option>{dopts}</select></div><p id="lineage-summary" class="explorer-result-count"></p><div class="lineage-shell"><svg id="lineage-svg" role="img" aria-label="Model lineage graph"></svg><p id="lineage-empty" class="note" hidden>No models match this selection.</p></div><script id="lineage-data" type="application/json">{data}</script></section></main>{footer_html()}</body></html>'''
+
+def comparable_model(m):
+    return {
+      "sha":m.get("hub",{}).get("sha"),
+      "license":[m["license"].get("name"),m["license"].get("commercial_use",{}).get("status")],
+      "context":m["model"].get("context",{}).get("display") if isinstance(m["model"].get("context"),dict) else m["model"].get("context"),
+      "weight_files":sorted(m["weights"].get("exact_files",[])),
+      "formats":sorted(m["weights"].get("formats",[])),
+      "precision":{k:v.get("available") for k,v in sorted(m["weights"].get("precision_availability",{}).items())},
+      "base":sorted(m["lineage"].get("base_model",{}).get("models",[])),
+      "recipe":m["training_assets"].get("training_recipe",{}).get("status"),
+      "data":m["training_assets"].get("data_disclosure",{}).get("status"),
+      "runtime":sorted(set((m.get("runtime_support",{}).get("declared") or [])+(m.get("runtime_support",{}).get("mentioned_in_model_card") or []))),
+    }
+
+def change_id(parts):
+    import hashlib
+    return hashlib.sha1("|".join(str(x) for x in parts).encode()).hexdigest()[:16]
+
+def build_change_feed(models,report):
+    previous=git_json("public/registry.json") or {"models":[]}
+    old_feed=git_json("data/change-feed.json") or {"events":[]}
+    old={m["id"]:m for m in previous.get("models",[])}
+    cur={m["id"]:m for m in models}
+    events=[]
+    events.append({"id":change_id([NOW,"verification-run"]),"at":NOW,"type":"verification","model_id":None,"model":"Registry verification","developer":"","summary":f'{report["stats"]["field_verified"]}/{report["stats"]["total_seed_records"]} records field-verified',"detail":f'{report["stats"]["errors"]} fetch errors; {report["stats"]["commercial_use_classified"]} commercial-use classifications.',"url":"/verification/"})
+    for mid,m in cur.items():
+        if mid not in old:
+            events.append({"id":change_id([NOW,mid,"added"]),"at":NOW,"type":"added","model_id":mid,"model":m["name"],"developer":m["developer"],"summary":"Model added to registry","detail":"New canonical model record entered the source registry.","url":f"/models/{mid}/"})
+            continue
+        a=comparable_model(old[mid]); b=comparable_model(m)
+        if a["sha"] and b["sha"] and a["sha"]!=b["sha"]:
+            events.append({"id":change_id([NOW,mid,"sha",b["sha"]]),"at":NOW,"type":"release","model_id":mid,"model":m["name"],"developer":m["developer"],"summary":"Publisher repository revision changed","detail":f'{a["sha"][:8]} → {b["sha"][:8]}',"url":f"/models/{mid}/"})
+        checks=[
+          ("license","license","License classification changed"),
+          ("context","metadata","Context metadata changed"),
+          ("formats","metadata","Published format set changed"),
+          ("precision","metadata","Precision evidence changed"),
+          ("base","metadata","Base-model declaration changed"),
+          ("recipe","metadata","Training-recipe disclosure changed"),
+          ("data","metadata","Training-data disclosure changed"),
+          ("runtime","metadata","Runtime-support evidence changed"),
+        ]
+        for key,typ,label in checks:
+            if a[key]!=b[key]:
+                events.append({"id":change_id([NOW,mid,key,json.dumps(b[key],sort_keys=True)]),"at":NOW,"type":typ,"model_id":mid,"model":m["name"],"developer":m["developer"],"summary":label,"detail":f'{a[key]} → {b[key]}',"url":f"/models/{mid}/"})
+        if a["weight_files"]!=b["weight_files"]:
+            added=len(set(b["weight_files"])-set(a["weight_files"])); removed=len(set(a["weight_files"])-set(b["weight_files"]))
+            events.append({"id":change_id([NOW,mid,"weights",len(b["weight_files"])]),"at":NOW,"type":"release","model_id":mid,"model":m["name"],"developer":m["developer"],"summary":"Official weight-file set changed","detail":f'+{added} / -{removed} recognized weight files.',"url":f"/models/{mid}/"})
+    for mid,m in old.items():
+        if mid not in cur:
+            events.append({"id":change_id([NOW,mid,"removed"]),"at":NOW,"type":"removed","model_id":mid,"model":m["name"],"developer":m["developer"],"summary":"Model removed from generated registry","detail":"Record no longer appears in the current generated verification output.","url":"/changes/"})
+    seen=set()
+    merged=[]
+    for e in events + old_feed.get("events",[]):
+        if e["id"] not in seen:
+            seen.add(e["id"]); merged.append(e)
+    merged=merged[:500]
+    publisher=[]
+    for m in models:
+        lm=m.get("hub",{}).get("last_modified")
+        if lm:
+            publisher.append({"at":lm,"model_id":m["id"],"model":m["name"],"developer":m["developer"],"sha":m.get("hub",{}).get("sha"),"url":f'/models/{m["id"]}/'})
+    publisher.sort(key=lambda x:x["at"],reverse=True)
+    return {"generated_at":NOW,"events":merged,"publisher_activity":publisher[:100]}
+
+def changes_page(feed,models):
+    devs=sorted(set(m["developer"] for m in models))
+    dopts="".join(f'<option value="{esc(d.lower())}">{esc(d)}</option>' for d in devs)
+    types=sorted(set(e["type"] for e in feed.get("events",[])))
+    topts="".join(f'<option value="{esc(t)}">{esc(t.title())}</option>' for t in types)
+    items=[]
+    for e in feed.get("events",[])[:200]:
+        items.append(f'''<article class="change-item" data-type="{esc(e["type"])}" data-developer="{esc((e.get("developer") or "").lower())}" data-search="{esc((e.get("model","")+" "+e.get("summary","")+" "+e.get("detail","")+" "+e.get("developer","")).lower())}"><time>{esc(e["at"])}</time><div><span class="change-type">{esc(e["type"])}</span><h3><a href="{esc(e["url"])}">{esc(e["model"])}</a></h3><strong>{esc(e["summary"])}</strong><p>{esc(e["detail"])}</p></div></article>''')
+    upstream=[]
+    for e in feed.get("publisher_activity",[])[:40]:
+        upstream.append(f'''<a class="upstream-row" href="{esc(e["url"])}"><time>{esc(e["at"])}</time><div><strong>{esc(e["model"])}</strong><span>{esc(e["developer"])}</span></div><code>{esc((e.get("sha") or "")[:10])}</code></a>''')
+    return f'''{page_head("What changed? — open-weight model release & verification feed | Open Model Weights","Track publisher repository activity and field-level changes discovered by Open Model Weights verification runs.","https://openmodelweights.com/changes/",'<script src="/explorer.js" defer></script>')}<body>{nav_html()}<main><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/explore/">Explore</a> / Changes</div><p class="eyebrow">RELEASE / VERIFICATION FEED</p><h1>What changed?</h1><p class="lead">A diff-oriented feed: publisher repository revisions, changes in verified metadata and a record of each registry verification run.</p></section><section class="section explorer-section"><div class="explorer-controls"><input id="changes-search" type="search" placeholder="Search changes…"><select id="changes-type"><option value="">All change types</option>{topts}</select><select id="changes-developer"><option value="">All developers</option>{dopts}</select></div><div class="changes-layout"><div><h2 class="explorer-title">Registry changes</h2><div class="change-feed">{''.join(items)}</div></div><aside><h2 class="explorer-title">Recent publisher activity</h2><div class="upstream-feed">{''.join(upstream)}</div><p class="note">Publisher activity reflects Hugging Face repository <code>lastModified</code> metadata, not a claim about semantic model releases.</p></aside></div></section></main>{footer_html()}</body></html>'''
+
+def home_page_portal(models,report):
+    s=report["stats"]
+    featured=models[:6]
+    cards="".join(f'<a class="model-card" href="/models/{esc(m["id"])}/"><div class="card-top"><span class="org">{esc(m["developer"])}</span><span class="status-dot verified">● field-verified</span></div><h3>{esc(m["name"])}</h3><p>{esc(m["model"]["context"]["display"])} · {esc(m["license"]["name"])}</p><div class="chips"><span>{esc(m["model"].get("parameters"))}</span><span>{m["weights"]["file_count"]} weight files</span></div></a>' for m in featured)
+    tools=[("License Explorer","/licenses/","License and commercial use"),("Hardware Explorer","/hardware/","Weight-memory estimates"),("Format Explorer","/formats/","Published files and precisions"),("Lineage Graph","/lineage/","Declared base-model relations"),("What changed?","/changes/","Release & verification feed")]
+    t="".join(f'<a class="mini-tool" href="{url}"><strong>{esc(name)}</strong><span>{esc(desc)} →</span></a>' for name,url,desc in tools)
+    return f'''{page_head("Open Model Weights — field-verified open-weight AI registry","Field-verified open-weight AI registry with exact weights, licenses, commercial-use conditions, hardware estimates, formats, lineage and change history.","https://openmodelweights.com/")}<body>{nav_html()}<main><section class="hero home-hero"><p class="eyebrow">FIELD-VERIFIED OPEN-WEIGHT REGISTRY</p><h1>Open model weights,<br>with evidence.</h1><p class="lead">A source-first registry for exact weight artifacts, licenses, commercial-use conditions, context, formats, lineage, training assets and runtime support.</p><form class="hero-search" action="/models/" method="get"><input name="q" type="search" placeholder="Search {len(models)} verified models…"><button type="submit">Search models</button></form><div class="hero-actions"><a class="button primary" href="/models/">Explore {len(models)} models</a><a class="button" href="/explore/">Open explorers</a></div></section><section class="metric-strip"><div><span>Field-verified</span><strong>{s["field_verified"]} / {s["total_seed_records"]}</strong></div><div><span>Exact weight lists</span><strong>{s["exact_weight_lists"]}</strong></div><div><span>Commercial-use classified</span><strong>{s["commercial_use_classified"]}</strong></div><div><span>Context declared</span><strong>{s["context_verified"]}</strong></div></section><section class="section"><p class="eyebrow">EXPLORE THE REGISTRY</p><h2>Ask a different question.</h2><div class="mini-tool-grid">{t}</div></section><section class="section"><div class="section-head"><div><p class="eyebrow">VERIFIED RECORDS</p><h2>Every claim points back to a source.</h2></div><a class="text-link" href="/models/">Browse all →</a></div><div class="model-grid">{cards}</div></section></main>{footer_html()}</body></html>'''
+
+def write_sitemap(models,groups):
+    urls=["/","/models/","/developers/","/explore/","/licenses/","/hardware/","/formats/","/lineage/","/changes/","/verification/","/methodology/","/about/"]
+    urls += [f'/models/{m["id"]}/' for m in models]
+    urls += [f'/developers/{re.sub(r"[^a-z0-9]+","-",d.lower()).strip("-")}/' for d in groups]
+    xml='<?xml version="1.0" encoding="UTF-8"?>\\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n'
+    xml+="\\n".join(f'<url><loc>https://openmodelweights.com{u}</loc><lastmod>{TODAY}</lastmod></url>' for u in urls)
+    xml+="\\n</urlset>\\n"
+    (PUBLIC/"sitemap.xml").write_text(xml)
+
 def main():
     reg=json.loads(REGISTRY.read_text())
     models=reg["models"]
@@ -215,10 +414,20 @@ def main():
         m["verification"]["fields"]["commercial_use"]="classified" if m["license"]["commercial_use"]["status"]!="unknown" else "unknown"
 
     report=recalc_report(models)
-    reg["schema_version"]="0.3.1"
+    feed=build_change_feed(models,report)
+    reg["schema_version"]="0.4.0"
     reg["generated_at"]=NOW
-    REGISTRY.write_text(json.dumps(reg,indent=2,ensure_ascii=False)+"\n")
-    REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n")
+    reg["explorers"]={
+      "licenses":"https://openmodelweights.com/licenses/",
+      "hardware":"https://openmodelweights.com/hardware/",
+      "formats":"https://openmodelweights.com/formats/",
+      "lineage":"https://openmodelweights.com/lineage/",
+      "changes":"https://openmodelweights.com/changes/"
+    }
+    REGISTRY.write_text(json.dumps(reg,indent=2,ensure_ascii=False)+"\\n")
+    REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\\n")
+    (ROOT/"data"/"change-feed.json").write_text(json.dumps(feed,indent=2,ensure_ascii=False)+"\\n")
+    (PUBLIC/"changes.json").write_text(json.dumps(feed,indent=2,ensure_ascii=False)+"\\n")
 
     for m in models:
         d=PUBLIC/"models"/m["id"]; d.mkdir(parents=True,exist_ok=True)
@@ -232,27 +441,43 @@ def main():
         (d/"index.html").write_text(page)
     (PUBLIC/"developers"/"index.html").write_text(developer_index(models))
     (PUBLIC/"verification"/"index.html").write_text(verification_page(report))
-    (PUBLIC/"index.html").write_text(home_page(models,report))
-    (PUBLIC/"registry.schema.json").write_text(json.dumps(schema_doc(),indent=2)+"\n")
+    (PUBLIC/"index.html").write_text(home_page_portal(models,report))
+
+    pages={
+      "explore":explore_page(models,feed),
+      "licenses":license_page(models),
+      "hardware":hardware_page(models),
+      "formats":format_page(models),
+      "lineage":lineage_page(models),
+      "changes":changes_page(feed,models),
+    }
+    for path,html in pages.items():
+        d=PUBLIC/path; d.mkdir(parents=True,exist_ok=True); (d/"index.html").write_text(html)
+
+    (PUBLIC/"registry.schema.json").write_text(json.dumps(schema_doc(),indent=2)+"\\n")
+    write_sitemap(models,groups)
     (PUBLIC/"llms.txt").write_text(f"""# Open Model Weights
 > Field-verified registry for open-weight AI models.
 
 Current registry: {len(models)} field-verified model records.
 Latest verification: {TODAY}.
 
-## Canonical resources
+## Registry
 - https://openmodelweights.com/models/
-- https://openmodelweights.com/developers/
-- https://openmodelweights.com/verification/
-- https://openmodelweights.com/methodology/
 - https://openmodelweights.com/registry.json
-- https://openmodelweights.com/registry.schema.json
+- https://openmodelweights.com/verification/
 
-Each model record contains exact repository weight files, declared license and commercial-use classification, context evidence, formats/precision signals, base-model metadata, training/data disclosure, runtime signals, primary sources and verification history.
+## Explorers
+- https://openmodelweights.com/licenses/ — license and commercial-use explorer
+- https://openmodelweights.com/hardware/ — weight-memory explorer
+- https://openmodelweights.com/formats/ — repository format and precision explorer
+- https://openmodelweights.com/lineage/ — family and declared base-model graph
+- https://openmodelweights.com/changes/ — release / verification change feed
+- https://openmodelweights.com/changes.json — machine-readable change feed
 
 A value such as “not disclosed” means the checked standard metadata/model-card/config sources did not provide it; it is not an inference that the information does not exist elsewhere.
 """)
-    print(json.dumps(report,indent=2))
+    print(json.dumps({"verification":report,"change_events":len(feed["events"])},indent=2))
 
 if __name__=="__main__":
     main()
