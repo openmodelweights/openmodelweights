@@ -318,13 +318,20 @@ def change_id(parts):
 def build_change_feed(models,report):
     previous=git_json("public/registry.json") or {"models":[]}
     old_feed=git_json("data/change-feed.json") or {"events":[]}
+    old_events=old_feed.get("events",[])
+    # Drop bootstrap noise from the first baseline build and collapse repeated same-day verification runs.
+    if sum(1 for e in old_events if e.get("type")=="added") >= max(20,int(len(models)*0.75)):
+        old_events=[e for e in old_events if e.get("type")!="added"]
+    old_events=[e for e in old_events if not (e.get("type")=="verification" and str(e.get("at",""))[:10]==TODAY)]
     old={m["id"]:m for m in previous.get("models",[])}
+    bootstrap=not bool(old)
     cur={m["id"]:m for m in models}
     events=[]
     events.append({"id":change_id([NOW,"verification-run"]),"at":NOW,"type":"verification","model_id":None,"model":"Registry verification","developer":"","summary":f'{report["stats"]["field_verified"]}/{report["stats"]["total_seed_records"]} records field-verified',"detail":f'{report["stats"]["errors"]} fetch errors; {report["stats"]["commercial_use_classified"]} commercial-use classifications.',"url":"/verification/"})
     for mid,m in cur.items():
         if mid not in old:
-            events.append({"id":change_id([NOW,mid,"added"]),"at":NOW,"type":"added","model_id":mid,"model":m["name"],"developer":m["developer"],"summary":"Model added to registry","detail":"New canonical model record entered the source registry.","url":f"/models/{mid}/"})
+            if not bootstrap:
+                events.append({"id":change_id([NOW,mid,"added"]),"at":NOW,"type":"added","model_id":mid,"model":m["name"],"developer":m["developer"],"summary":"Model added to registry","detail":"New canonical model record entered the source registry.","url":f"/models/{mid}/"})
             continue
         a=comparable_model(old[mid]); b=comparable_model(m)
         if a["sha"] and b["sha"] and a["sha"]!=b["sha"]:
@@ -350,7 +357,7 @@ def build_change_feed(models,report):
             events.append({"id":change_id([NOW,mid,"removed"]),"at":NOW,"type":"removed","model_id":mid,"model":m["name"],"developer":m["developer"],"summary":"Model removed from generated registry","detail":"Record no longer appears in the current generated verification output.","url":"/changes/"})
     seen=set()
     merged=[]
-    for e in events + old_feed.get("events",[]):
+    for e in events + old_events:
         if e["id"] not in seen:
             seen.add(e["id"]); merged.append(e)
     merged=merged[:500]
