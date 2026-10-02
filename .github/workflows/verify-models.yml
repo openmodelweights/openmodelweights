@@ -60,14 +60,14 @@ jobs:
       - name: Render comparison and developer metadata
         run: python scripts/render_extras.py
 
+      - name: Render mature product surfaces
+        run: python scripts/render_product.py
+
       - name: Validate benchmark evidence
         run: python scripts/validate_benchmarks.py
 
       - name: Build evidence intelligence layer
         run: python scripts/build_intelligence.py
-
-      - name: Render mature product surfaces
-        run: python scripts/render_product.py
 
       - name: Validate MCP Worker bundle
         run: |
