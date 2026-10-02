@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0.0",
   "date": "2026-10-02",
-  "generated_at": "2026-10-02T16:45:34+00:00",
+  "generated_at": "2026-10-02T16:55:19+00:00",
   "registry_schema": "0.8.0",
   "model_count": 700,
   "note": "One canonical evidence manifest per UTC day. Re-running on the same day replaces that day's manifest with the latest successful registry state.",
@@ -1511,17 +1511,17 @@
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "facebook-bart-large-mnli",
-      "repository_sha": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
-      "evidence_hash": "64bde281b2974fbba846a1ca8157500a6626f05086046944630039786e9427b5",
+      "model_id": "lightricks-ltx-2-5",
+      "repository_sha": "5e6e71018ee1756ed329b697a7b4aedc934dfce9",
+      "evidence_hash": "db3df7e16732e42ba7121d54aaae200b4c76ff8a6412995824d6a57aa056e1a2",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "lightricks-ltx-2-5",
-      "repository_sha": "5e6e71018ee1756ed329b697a7b4aedc934dfce9",
-      "evidence_hash": "db3df7e16732e42ba7121d54aaae200b4c76ff8a6412995824d6a57aa056e1a2",
+      "model_id": "facebook-bart-large-mnli",
+      "repository_sha": "d7645e127eaf1aefc7862fd59a17a5aa8558b8ce",
+      "evidence_hash": "64bde281b2974fbba846a1ca8157500a6626f05086046944630039786e9427b5",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
@@ -3959,50 +3959,10 @@
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "facebook-dinov2-large",
-      "repository_sha": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
-      "evidence_hash": "ec774b630264e9bb35820ba94effe5aa381b1cc994c207f3c5c9ac7f4f0227cc",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-dragon-multiturn-query-encoder",
-      "repository_sha": "b4dfda0f262c3441c610e33258b798749e54ed7e",
-      "evidence_hash": "6fd2a004daeda2986d0551586c72b932dd3c96755fbfc5032a3bd74a5b028906",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "zhihan1996-dnabert-2-117m",
-      "repository_sha": "7bce263b15377fc15361f52cfab88f8b586abda0",
-      "evidence_hash": "2599b84355ed5096a834dd370cb3fa98225d5a4ae4ddcdac73cb428afad71dd7",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "moonshotai-kimi-k2-5",
-      "repository_sha": "4d01dfe0332d63057c186e0b262165819efb6611",
-      "evidence_hash": "4d755a37a9384794ffd4267ff35b5a694db771f773182b2dcd8c318e1bea57ae",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "qwen-qwen-image-edit-2509",
-      "repository_sha": "d3968ef930e841f4c73640fb8afa3b306a78167e",
-      "evidence_hash": "03733ce02c61a866bf08547f77f27db672f54a49683681f483812dbb3d8ba325",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
       "model_id": "microsoft-florence-2-large",
       "repository_sha": "21a599d414c4d928c9032694c424fb94458e3594",
       "evidence_hash": "50c2dc69937fd8205ba06bdc4ebf1e9cda5698af61642378b57c904ccf9409ea",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4010,7 +3970,7 @@
       "model_id": "deepset-roberta-base-squad2",
       "repository_sha": "adc3b06f79f797d1c575d5479d6f5efe54a9e3b4",
       "evidence_hash": "24a8053d0a08a835ecc7ddbca260f24fa1caa83dff356e8138be0e31467001c8",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4018,7 +3978,7 @@
       "model_id": "eleutherai-pythia-70m-deduped",
       "repository_sha": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
       "evidence_hash": "043eb8226511ba23141ed25db2f256653da634e5f99d8e978528317529c176cf",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4026,7 +3986,7 @@
       "model_id": "moonshotai-kimi-k2-instruct",
       "repository_sha": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
       "evidence_hash": "f41dcbb443d807e2511ba7e437d930855246348dd72d4ad07479ef78e03b5751",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4034,7 +3994,7 @@
       "model_id": "inferact-qwen3-8-27b-nvfp4",
       "repository_sha": "6128240ebaf4eaa7bad2b3d1c72c37d677c5f462",
       "evidence_hash": "a721353e16922a875821c120afbeea0be01c07d082cde340360994a3adc9723f",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4042,7 +4002,7 @@
       "model_id": "bytedance-seed-ui-tars-1-5-7b",
       "repository_sha": "683d002dd99d8f95104d31e70391a39348857f4e",
       "evidence_hash": "11bd86716e516c2c55e733453249d3058e146171a682e7cc783879d4b05716b4",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4050,7 +4010,7 @@
       "model_id": "nvidia-bigvgan-v2-22khz-80band-256x",
       "repository_sha": "633ff708ed5b74903e86ff1298cf4a98e921c513",
       "evidence_hash": "8f48cceb8aafddadfc4e5b6c50117f83eb8ae4cb1ef50dbd6be56710c5c69279",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4058,7 +4018,7 @@
       "model_id": "google-gemma-3-12b-it",
       "repository_sha": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
       "evidence_hash": "841b5f62b25c6df6aa4a35dcf7dcbb30d6ccef0dca2e78e9b86cef54cbe4f155",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4066,7 +4026,7 @@
       "model_id": "protectai-deberta-v3-base-prompt-injection-v2",
       "repository_sha": "90c9989b1a342275dd0d1a95aad283c04e075671",
       "evidence_hash": "6f6053c9f81fa1078ad399409586d96b44dd22908702cf0e881f042622235642",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4074,7 +4034,7 @@
       "model_id": "nvidia-glm-5-2-nvfp4",
       "repository_sha": "53e0691e21895a3863a606dfd12910c69eba94ab",
       "evidence_hash": "3dce98dbc9f17537a570c8eb1eb9effcd2f45ae2f81ec530e726bfa20f4c134f",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4082,7 +4042,7 @@
       "model_id": "onnx-community-kokoro-82m-v1-0-onnx",
       "repository_sha": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
       "evidence_hash": "2c05d6779a67f62db5e27a730644df70515b48952fd28dd10ee7a2b2b8e5c532",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4090,7 +4050,7 @@
       "model_id": "sshleifer-tiny-gpt2",
       "repository_sha": "5f91d94bd9cd7190a9f3216ff93cd1dd95f2c7be",
       "evidence_hash": "75aeb6bdb610940f946e5490efba569c00596ec837f9d55b052460c558a6838b",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4098,7 +4058,7 @@
       "model_id": "qwen-qwen3-5-122b-a10b",
       "repository_sha": "dc4d348443bc740c68e2d77492492c11606384d5",
       "evidence_hash": "5d6d2b342a1f3278626e7d582efc951870de13e2b8c3a3291d81270612258c26",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4106,7 +4066,7 @@
       "model_id": "distil-whisper-distil-large-v3",
       "repository_sha": "8031d2e6ce6631b7fc45629dddfc00271116d981",
       "evidence_hash": "64506c68ddcd6f0b11fbf9491968a1c694c0bd1206a89691956b15cf1674c8eb",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4114,7 +4074,7 @@
       "model_id": "laion-clip-vit-h-14-laion2b-s32b-b79k",
       "repository_sha": "1c2b8495b28150b8a4922ee1c8edee224c284c0c",
       "evidence_hash": "4143dcd895647a805e41a8cb2ec443a88912360c437105bec714c1d616241f7e",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4122,7 +4082,7 @@
       "model_id": "cidas-clipseg-rd64-refined",
       "repository_sha": "999e0328d9e10b484360c477313983f9afdd7050",
       "evidence_hash": "719668265c553aa8c37b53744fcb6f006c6c260c976c834f77e77d859909fbb8",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4130,7 +4090,7 @@
       "model_id": "openai-privacy-filter",
       "repository_sha": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
       "evidence_hash": "015c66d19f126b6cf4dba3d95be6dc262ea73e4802fce2a60d37c43b8ce6a054",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4138,7 +4098,7 @@
       "model_id": "qwen-qwen3-0-6b-base",
       "repository_sha": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
       "evidence_hash": "3a1ce0789fde4177568172ffc9c9f5ef37a906d3ce3ce6d0d31f26139d9d6dc5",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4146,7 +4106,7 @@
       "model_id": "amazon-chronos-bolt-base",
       "repository_sha": "5d9f166d69f47aef3401367a7b842e78fe97b121",
       "evidence_hash": "5116bcd077961b3a7d8ec10af2e3984a6896e3c13bc0979ddd8608048b74dfe7",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4154,7 +4114,7 @@
       "model_id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4",
       "repository_sha": "16993199e436da4ba75ddc410855f87e0d996ee6",
       "evidence_hash": "1a74fa18eebba49f2b8f29004918ce70fde33c4a9e07271c9e5ab9c329b8a640",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4162,7 +4122,7 @@
       "model_id": "qwen-qwen3-235b-a22b",
       "repository_sha": "8efa61729e24bd65b1d152b5ab5409052aa80e65",
       "evidence_hash": "ac5ea599e9e16108c627873d547a8bba54aada69eb0b2341eaf70dd399bbf751",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4170,7 +4130,7 @@
       "model_id": "zai-org-glm-5",
       "repository_sha": "c183ef8c61faee82855eca1ed9bb3a9a7ce3b0b2",
       "evidence_hash": "b34a03e292bb6b7d68768243b1e2ba39233ba39fc446b994ee65a8a33285b40c",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4178,7 +4138,7 @@
       "model_id": "helsinki-nlp-opus-mt-nl-en",
       "repository_sha": "48af999f2c59b10c05ca6e008dcedc07677a9b15",
       "evidence_hash": "8c56b233c13710839c6c8e16299a64847292c1ddda9434600ca1251d5af0eff2",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4186,7 +4146,7 @@
       "model_id": "sentence-transformers-labse",
       "repository_sha": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
       "evidence_hash": "2b1f26d405b2df176da7b1db400afe7c0db664507ee10656d0bc5880863ac563",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4194,7 +4154,7 @@
       "model_id": "jonatasgrosman-wav2vec2-large-xlsr-53-dutch",
       "repository_sha": "46f221381d200f7bef268309b3f02023ccf11fcc",
       "evidence_hash": "99ba8aaeed37d18319695335d1327d7959b4ab49bca7d01b25223a4c00045c9f",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -5424,9 +5384,9 @@
     },
     {
       "model_id": "deepbeepmeep-minimax-h3",
-      "repository_sha": "579065b9448c95ae5cc558c5f787ba8271227db4",
-      "evidence_hash": "1250a737d59632f86a6110210e4e0249fcd16ab92e38342913cbf96a9e2194b2",
-      "verification_mode": "repository-revision-unchanged",
+      "repository_sha": "50763a51c575663b32a4d7b64d103ab7aae81061",
+      "evidence_hash": "b64d788554ff07453e68d882284629575c2f02927392294e054527af6d7b38fc",
+      "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -5487,121 +5447,161 @@
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "ornith-ai-ornith-1-5-35b-a3b-fp8",
-      "repository_sha": "fab11c26e2325a42f4b32da0249c819a0bade1b1",
-      "evidence_hash": "2cbe484ad805743cd1661002e9ad1a022782857464993c1c6ab23e2e3dd31695",
+      "model_id": "laion-clip-vit-b-16-laion2b-s34b-b88k",
+      "repository_sha": "7288da5a0d6f0b51c4a2b27c624837a9236d0112",
+      "evidence_hash": "d22b22afa7d71095bcd0358ede0a18bc03d0ff8425fdef54830764912d181fcd",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "google-bert-bert-base-german-cased",
-      "repository_sha": "0b061b4f7ce140d10dce6b6bd8a77da8ec80931b",
-      "evidence_hash": "498557e4b4c1629a7bb887bb1992e5ce3ee8f660c8bbed8e68b5f6c16545c48c",
+      "model_id": "nvidia-nemotron-3-embed-1b-bf16",
+      "repository_sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
+      "evidence_hash": "db2cf3b0c688993d95a98b240eec97fc67c1db509db6c0f24572e148d5de2837",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "nvidia-qwen3-14b-nvfp4",
-      "repository_sha": "bc39319a4dc265d9bbb9a9731bc52c4988d9ece7",
-      "evidence_hash": "8bd317443282cc6a1ce7bacc606491a83d19df31cb3f6584c3e8a09fe66e363c",
+      "model_id": "facebook-dinov3-vits16-pretrain-lvd1689m",
+      "repository_sha": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+      "evidence_hash": "50316f00972ef4918f4adedeeaf40453fff82d9dc3f28fa360f2993cf4c0aabe",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "bahushruth-qwen3-6-35b-a3b-abliterated-v4",
-      "repository_sha": "1c28f5014d7e9c20170af40e5aa028679fb30bfb",
-      "evidence_hash": "812eb0ed802cabdb5d702dc981f9253304412b326ab848f4d0bc70826db8f2a8",
+      "model_id": "zai-org-glm-4-5-air",
+      "repository_sha": "a24ceef6ce4f3536971efe9b778bdaa1bab18daa",
+      "evidence_hash": "92a63763923f3d4ff00932e352e45b37f93a0ee6714f51b5ba1601576d9979d2",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "fastvideo-fastvideo-fasth3-comfy",
-      "repository_sha": "ec1e3aa374a91c57b0b94a1623b7e657c0498cf2",
-      "evidence_hash": "b811afba6f2c40d9aef7cd3353f09d035528cfa7252c03f512cedc6524fa1afa",
+      "model_id": "hubertsiuzdak-snac-24khz",
+      "repository_sha": "d73ad176a12188fcf4f360ba3bf2c2fbbe8f58ec",
+      "evidence_hash": "9063db2541f0682af26e40ccbe31ec81dd5a18e2a211caa6aea30d8a88fdf588",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "allenai-olmo-2-0425-1b",
-      "repository_sha": "a1847dff35000b4271fa70afc5db10fd29fedbdf",
-      "evidence_hash": "0d3fb8c0a31238a519b5854f191fb2b5872ba54ab0e804c2dba26e4586e94754",
+      "model_id": "apple-dfn5b-clip-vit-h-14-378",
+      "repository_sha": "01b771ed0d1395ca5ffdd279897d665ebe00dfd2",
+      "evidence_hash": "f9bb83863a6ba754555cbdaf6de8c0ab8413b47a41f8df1408f39dc836ca22ce",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "facebook-sam-vit-huge",
-      "repository_sha": "87aecf0df4ce6b30cd7de76e87673c49644bdf67",
-      "evidence_hash": "8cf40333c4c8d7ef3332ef701272158f1a2dda59c3e66a9ffa221be17d6d7d03",
+      "model_id": "comfy-org-scail-2",
+      "repository_sha": "fe3c728bc793ba21ca674688f822afb709ad44fb",
+      "evidence_hash": "792c4a4c407a32253f96b3e8f8b95bb4a0e5933da8d25a5c9caacaba7b73857c",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "ornith-ai-ornith-1-0-397b-fp8",
-      "repository_sha": "8b61f97a8512d9d01bff1a9625c9a16730e115bb",
-      "evidence_hash": "d9fe53906c6c52bc8f7b6f6bb786f9d41be4ae7da9b241aec4e0518bb920afc8",
+      "model_id": "sulphurai-sulphur-2-base",
+      "repository_sha": "65587bbb38c700622f9434a16e732c8b280c115e",
+      "evidence_hash": "b1edf6153e79973d05d685e0131345eb5895af42c8259a128e7c93da3df47663",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "google-gemma-4-31b-it-assistant",
-      "repository_sha": "627c5ec1458b9086b841a91e0512fd31fd2fbbf1",
-      "evidence_hash": "e7ca3ec7cc80eb45270230cc31130e553579a844209e9abb272f82c3df85b9d2",
+      "model_id": "qdrant-all-minilm-l6-v2-with-attentions",
+      "repository_sha": "e6e0a7e86dfd9b3abe92d5d25abd609aa7b20040",
+      "evidence_hash": "a01f3714713403be99770fee97c3827f82b241b2184451e1f19d6dff052cacd8",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "google-fnet-base",
-      "repository_sha": "d89b6fad3cf5384848b783dc480f9685f49d008c",
-      "evidence_hash": "3eaa4c28949344b014971fc658bb250f1671dcd3882a64fa55510e44f7f0c4e5",
+      "model_id": "nvidia-personaplex-7b-v1",
+      "repository_sha": "fdaf4090a61cb315c138a1faee287ffd6c716309",
+      "evidence_hash": "681e4160b2b461ea7e5df5487edbc3ade535edb8824f99e04ee752bdd37fdd12",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "zai-org-glm-4-1v-9b-thinking",
-      "repository_sha": "3c1471e51dc811b589d4d12b1c1c7c1c941267c2",
-      "evidence_hash": "33751bcbae7a13b46fcbc3187f8f8ce0a3d8033b3dfe4f36a7b3768aae6a2aa0",
+      "model_id": "pekingu-rtdetr-r101vd-coco-o365",
+      "repository_sha": "ff44b69152a72cc752677665fb4539507d56a99d",
+      "evidence_hash": "fea2aa35f81978a31c6af4d0290147cdc188039072c05ffdcb3ec573637f190a",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "facebook-fasttext-language-identification",
-      "repository_sha": "3af127d4124fc58b75666f3594bb5143b9757e78",
-      "evidence_hash": "7a605d48c789854bf0d96758bda72385e4127cb55f1f377f49acf9d791c39cef",
+      "model_id": "elkulako-cryptobert",
+      "repository_sha": "9e37c910fe87727cb842a9ac55c6388256fe0f15",
+      "evidence_hash": "120742e4c82629f21c33023a08ad7448b1b3a2151af14378c200799da57240b3",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "z-lab-qwen3-8-27b-dflash2",
-      "repository_sha": "50307d4c4cde6860d4eee73e2547cd786fe8e8a4",
-      "evidence_hash": "449c9bad0d548c3585256cdee48429a38af7ec6cefab127d3a3d7522c6302ab2",
+      "model_id": "lilarest-gemma-4-31b-it-nvfp4-turbo",
+      "repository_sha": "782d58ea7f9cf3a148be86e153f5689a2d73238b",
+      "evidence_hash": "4b3b5a6d9059e77f465e4d367f36eb0263b5381342e89889f280740ab8b5b3f1",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "ornith-ai-ornith-1-0-35b-fp8",
-      "repository_sha": "1ab57ce0b44950e498a88756f40ad1ed4d0f30ca",
-      "evidence_hash": "02a53e828fbdac333d6643c1e907dee31b2b0d9a45b8d74e1395c6795bcae29e",
+      "model_id": "audeering-wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "repository_sha": "6eba34a2485ea31cb03600241787c3a5edab8626",
+      "evidence_hash": "853228ed1a5e1b2e4b578e8be2ed5505c0149d7aef91913630cfe44c27b131bf",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "microsoft-vibevoice-realtime-0-5b",
-      "repository_sha": "6bce5f06044837fe6d2c5d7a71a84f0416bd57e4",
-      "evidence_hash": "2f9e59982115d4f1b299afa58bee6088935b525441ef3265eaa3d776e32a990e",
+      "model_id": "stabilityai-stable-video-diffusion-img2vid-xt",
+      "repository_sha": "9e43909513c6714f1bc78bcb44d96e733cd242aa",
+      "evidence_hash": "4799cc3a70c132ee1ca704220e67986100fb8e9d9ed7884e3c66310a40abdc78",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "facebook-detr-resnet-50",
+      "repository_sha": "1d5f47bd3bdd2c4bbfa585418ffe6da5028b4c0b",
+      "evidence_hash": "f5692decea18249bba284e4324b57748728677c35a9ad080d240e05e99779241",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "sentence-transformers-all-roberta-large-v1",
+      "repository_sha": "cf74d8acd4f198de950bf004b262e6accfed5d2c",
+      "evidence_hash": "e2d7e655f60a5ac366c769c7e4fb1888a815ee44cb1e9a4a9f607493c6db5a63",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "cl-nagoya-ruri-v3-310m",
+      "repository_sha": "18b60fb8c2b9df296fb4212bb7d23ef94e579cd3",
+      "evidence_hash": "25d28740c021fc379604920ffc16c91f8610c29422486d229cd9beb9721ee89e",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "facebook-vggt-1b",
+      "repository_sha": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+      "evidence_hash": "e72bacc3baa909bd1e98f9245a5cadc025202a5d57838623889c990dbf5a9fd5",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "facebook-wav2vec2-xls-r-300m",
+      "repository_sha": "1a640f32ac3e39899438a2931f9924c02f080a54",
+      "evidence_hash": "e9431546cc00f070a04155d02be89c06c0dce1f53caaccb69e99e48c5cff2e68",
       "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"

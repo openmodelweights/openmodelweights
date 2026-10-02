@@ -188,7 +188,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:40:26+00:00",
+    "checked_at_iso": "2026-10-02T16:54:43+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -228,12 +228,12 @@
     "repo_id": "google/gemma-3-4b-it",
     "rank": 281,
     "downloads": 1275100,
-    "likes": 1544,
+    "likes": 1545,
     "last_modified": "2025-03-21T20:20:53+00:00",
     "created_at": "2025-02-20T21:20:07+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",
-    "discovered_at": "2026-10-02T16:40:24+00:00",
+    "discovered_at": "2026-10-02T16:54:41+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -250,7 +250,7 @@
     "last_modified": "2025-03-21T20:20:53.000Z",
     "created_at": "2025-02-20T21:20:07.000Z",
     "downloads": 1275100,
-    "likes": 1544,
+    "likes": 1545,
     "sha": "093f9f388b31de276ce2de164bdc2081324b9767",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",

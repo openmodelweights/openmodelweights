@@ -1,16 +1,478 @@
 {
-  "generated_at": "2026-10-02T16:45:34+00:00",
+  "generated_at": "2026-10-02T16:55:19+00:00",
   "events": [
     {
-      "id": "b4e60a9f808726fc",
-      "at": "2026-10-02T16:45:34+00:00",
+      "id": "28655c20e3baeb16",
+      "at": "2026-10-02T16:55:19+00:00",
       "type": "verification",
       "model_id": null,
       "model": "Registry verification",
       "developer": "",
       "summary": "700/700 records field-verified",
-      "detail": "120 fetch errors; 606 commercial-use classifications.",
+      "detail": "6 fetch errors; 603 commercial-use classifications.",
       "url": "/verification/"
+    },
+    {
+      "id": "1ac16ccd36ae1808",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "release",
+      "model_id": "deepbeepmeep-minimax-h3",
+      "model": "MiniMax-H3",
+      "developer": "DeepBeepMeep",
+      "summary": "Publisher repository revision changed",
+      "detail": "579065b9 → 50763a51",
+      "url": "/models/deepbeepmeep-minimax-h3/"
+    },
+    {
+      "id": "d1f90911b948d72a",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "release",
+      "model_id": "deepbeepmeep-minimax-h3",
+      "model": "MiniMax-H3",
+      "developer": "DeepBeepMeep",
+      "summary": "Official weight-file set changed",
+      "detail": "+1 / -0 recognized weight files.",
+      "url": "/models/deepbeepmeep-minimax-h3/"
+    },
+    {
+      "id": "35bd26fde506b6cd",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "laion-clip-vit-b-16-laion2b-s34b-b88k",
+      "model": "CLIP-ViT-B-16-laion2B-s34B-b88K",
+      "developer": "laion",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/laion-clip-vit-b-16-laion2b-s34b-b88k/"
+    },
+    {
+      "id": "43ae1907738628cf",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "nvidia-nemotron-3-embed-1b-bf16",
+      "model": "Nemotron-3-Embed-1B-BF16",
+      "developer": "NVIDIA",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nvidia-nemotron-3-embed-1b-bf16/"
+    },
+    {
+      "id": "70bc49517f01e249",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "facebook-dinov3-vits16-pretrain-lvd1689m",
+      "model": "dinov3-vits16-pretrain-lvd1689m",
+      "developer": "Meta",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/facebook-dinov3-vits16-pretrain-lvd1689m/"
+    },
+    {
+      "id": "35b508329b9eb490",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "zai-org-glm-4-5-air",
+      "model": "GLM-4.5-Air",
+      "developer": "Z.ai",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/zai-org-glm-4-5-air/"
+    },
+    {
+      "id": "fbe81c9e3c43a23c",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "hubertsiuzdak-snac-24khz",
+      "model": "snac_24khz",
+      "developer": "hubertsiuzdak",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/hubertsiuzdak-snac-24khz/"
+    },
+    {
+      "id": "86ce45a8b17f80e4",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "apple-dfn5b-clip-vit-h-14-378",
+      "model": "DFN5B-CLIP-ViT-H-14-378",
+      "developer": "apple",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/apple-dfn5b-clip-vit-h-14-378/"
+    },
+    {
+      "id": "7b89c116d124442a",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "comfy-org-scail-2",
+      "model": "SCAIL-2",
+      "developer": "Comfy-Org",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/comfy-org-scail-2/"
+    },
+    {
+      "id": "48685f4faedd5245",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "sulphurai-sulphur-2-base",
+      "model": "Sulphur-2-base",
+      "developer": "SulphurAI",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/sulphurai-sulphur-2-base/"
+    },
+    {
+      "id": "d39d31d6ce105855",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "qdrant-all-minilm-l6-v2-with-attentions",
+      "model": "all_miniLM_L6_v2_with_attentions",
+      "developer": "Qdrant",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/qdrant-all-minilm-l6-v2-with-attentions/"
+    },
+    {
+      "id": "fde8789dc1bbc01f",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "nvidia-personaplex-7b-v1",
+      "model": "personaplex-7b-v1",
+      "developer": "NVIDIA",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nvidia-personaplex-7b-v1/"
+    },
+    {
+      "id": "a428296afa6ea339",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "pekingu-rtdetr-r101vd-coco-o365",
+      "model": "rtdetr_r101vd_coco_o365",
+      "developer": "PekingU",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/pekingu-rtdetr-r101vd-coco-o365/"
+    },
+    {
+      "id": "23100094f474c6a3",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "elkulako-cryptobert",
+      "model": "cryptobert",
+      "developer": "ElKulako",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/elkulako-cryptobert/"
+    },
+    {
+      "id": "02bd04f1bdd0509f",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "lilarest-gemma-4-31b-it-nvfp4-turbo",
+      "model": "gemma-4-31B-it-NVFP4-turbo",
+      "developer": "LilaRest",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/lilarest-gemma-4-31b-it-nvfp4-turbo/"
+    },
+    {
+      "id": "ceaa999cebf2a57c",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "audeering-wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "model": "wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "developer": "audeering",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/audeering-wav2vec2-large-robust-12-ft-emotion-msp-dim/"
+    },
+    {
+      "id": "81fa8a256280fd00",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "stabilityai-stable-video-diffusion-img2vid-xt",
+      "model": "stable-video-diffusion-img2vid-xt",
+      "developer": "Stability AI",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/stabilityai-stable-video-diffusion-img2vid-xt/"
+    },
+    {
+      "id": "f8aed1565142e2c3",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "facebook-detr-resnet-50",
+      "model": "detr-resnet-50",
+      "developer": "Meta",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/facebook-detr-resnet-50/"
+    },
+    {
+      "id": "79d184479adfeb49",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "sentence-transformers-all-roberta-large-v1",
+      "model": "all-roberta-large-v1",
+      "developer": "Sentence Transformers",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/sentence-transformers-all-roberta-large-v1/"
+    },
+    {
+      "id": "201c508ad27c1bd8",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "cl-nagoya-ruri-v3-310m",
+      "model": "ruri-v3-310m",
+      "developer": "cl-nagoya",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/cl-nagoya-ruri-v3-310m/"
+    },
+    {
+      "id": "d180bf864c3efa05",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "facebook-vggt-1b",
+      "model": "VGGT-1B",
+      "developer": "Meta",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/facebook-vggt-1b/"
+    },
+    {
+      "id": "c56fdeb785c656f9",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "added",
+      "model_id": "facebook-wav2vec2-xls-r-300m",
+      "model": "wav2vec2-xls-r-300m",
+      "developer": "Meta",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/facebook-wav2vec2-xls-r-300m/"
+    },
+    {
+      "id": "dbc1a50cecb525b9",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "facebook-dinov2-large",
+      "model": "dinov2-large",
+      "developer": "Meta",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "f76117c317b36c60",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "nvidia-dragon-multiturn-query-encoder",
+      "model": "dragon-multiturn-query-encoder",
+      "developer": "NVIDIA",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "5ffc7b812380b68d",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "zhihan1996-dnabert-2-117m",
+      "model": "DNABERT-2-117M",
+      "developer": "zhihan1996",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "3e19104916fd590e",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "moonshotai-kimi-k2-5",
+      "model": "Kimi-K2.5",
+      "developer": "Moonshot AI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "af5c636c444df231",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "qwen-qwen-image-edit-2509",
+      "model": "Qwen-Image-Edit-2509",
+      "developer": "Qwen",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "3ee03ddcae9aa4f8",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "ornith-ai-ornith-1-5-35b-a3b-fp8",
+      "model": "Ornith-1.5-35B-A3B-FP8",
+      "developer": "ornith-ai",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "a258a23762f329ce",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "google-bert-bert-base-german-cased",
+      "model": "bert-base-german-cased",
+      "developer": "google-bert",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "dc2a512a0fb7c211",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "nvidia-qwen3-14b-nvfp4",
+      "model": "Qwen3-14B-NVFP4",
+      "developer": "NVIDIA",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "c5bf7bb1b2e556f0",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "bahushruth-qwen3-6-35b-a3b-abliterated-v4",
+      "model": "Qwen3.6-35B-A3B-abliterated-v4",
+      "developer": "Bahushruth",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "63c8a03545754a81",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "fastvideo-fastvideo-fasth3-comfy",
+      "model": "FastVideo-FastH3-Comfy",
+      "developer": "FastVideo",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "104e1e8441be9bc3",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "allenai-olmo-2-0425-1b",
+      "model": "OLMo-2-0425-1B",
+      "developer": "AllenAI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "9749b35702e98424",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "facebook-sam-vit-huge",
+      "model": "sam-vit-huge",
+      "developer": "Meta",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "7ec6ccf6e7b0b050",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "ornith-ai-ornith-1-0-397b-fp8",
+      "model": "Ornith-1.0-397B-FP8",
+      "developer": "ornith-ai",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "9a57e15e2388d024",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "google-gemma-4-31b-it-assistant",
+      "model": "gemma-4-31B-it-assistant",
+      "developer": "Google",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "34cf039aa654a2a8",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "google-fnet-base",
+      "model": "fnet-base",
+      "developer": "Google",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "a90e9160bb6d64db",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "zai-org-glm-4-1v-9b-thinking",
+      "model": "GLM-4.1V-9B-Thinking",
+      "developer": "Z.ai",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "ba7eff9023c01d2b",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "facebook-fasttext-language-identification",
+      "model": "fasttext-language-identification",
+      "developer": "Meta",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "22b76c19df081ce3",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "z-lab-qwen3-8-27b-dflash2",
+      "model": "Qwen3.8-27B-DFlash2",
+      "developer": "z-lab",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "6e8d8f095dcfb090",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "ornith-ai-ornith-1-0-35b-fp8",
+      "model": "Ornith-1.0-35B-FP8",
+      "developer": "ornith-ai",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "ef002e9b8e2dba1d",
+      "at": "2026-10-02T16:55:19+00:00",
+      "type": "removed",
+      "model_id": "microsoft-vibevoice-realtime-0-5b",
+      "model": "VibeVoice-Realtime-0.5B",
+      "developer": "Microsoft",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
     },
     {
       "id": "78a0fbddba7b67d9",
@@ -11961,6 +12423,14 @@
   ],
   "publisher_activity": [
     {
+      "at": "2026-10-02T16:43:18.000Z",
+      "model_id": "deepbeepmeep-minimax-h3",
+      "model": "MiniMax-H3",
+      "developer": "DeepBeepMeep",
+      "sha": "50763a51c575663b32a4d7b64d103ab7aae81061",
+      "url": "/models/deepbeepmeep-minimax-h3/"
+    },
+    {
       "at": "2026-10-02T04:18:32.000Z",
       "model_id": "orcarouter-qwen3-8-27b-uncensored-fp8",
       "model": "Qwen3.8-27B-Uncensored-FP8",
@@ -12025,14 +12495,6 @@
       "url": "/models/comfy-org-minimax-h3/"
     },
     {
-      "at": "2026-09-29T10:40:04.000Z",
-      "model_id": "deepbeepmeep-minimax-h3",
-      "model": "MiniMax-H3",
-      "developer": "DeepBeepMeep",
-      "sha": "579065b9448c95ae5cc558c5f787ba8271227db4",
-      "url": "/models/deepbeepmeep-minimax-h3/"
-    },
-    {
       "at": "2026-09-29T06:12:33.000Z",
       "model_id": "openbmb-minicpm5-2b",
       "model": "MiniCPM5-2B",
@@ -12055,6 +12517,14 @@
       "developer": "fastino",
       "sha": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
       "url": "/models/fastino-gliner2-base-v1/"
+    },
+    {
+      "at": "2026-09-27T19:14:34.000Z",
+      "model_id": "qdrant-all-minilm-l6-v2-with-attentions",
+      "model": "all_miniLM_L6_v2_with_attentions",
+      "developer": "Qdrant",
+      "sha": "e6e0a7e86dfd9b3abe92d5d25abd609aa7b20040",
+      "url": "/models/qdrant-all-minilm-l6-v2-with-attentions/"
     },
     {
       "at": "2026-09-27T12:39:50.000Z",
@@ -12159,6 +12629,14 @@
       "developer": "Comfy-Org",
       "sha": "eb1eddd3983a54678545a9b2c178c5853b30f7be",
       "url": "/models/comfy-org-krea-2/"
+    },
+    {
+      "at": "2026-09-23T08:03:24.000Z",
+      "model_id": "comfy-org-scail-2",
+      "model": "SCAIL-2",
+      "developer": "Comfy-Org",
+      "sha": "fe3c728bc793ba21ca674688f822afb709ad44fb",
+      "url": "/models/comfy-org-scail-2/"
     },
     {
       "at": "2026-09-23T08:02:57.000Z",
@@ -12303,14 +12781,6 @@
       "developer": "biohub",
       "sha": "af1602ba7406f521b11bf8f81d52af378cde09e4",
       "url": "/models/biohub-esmc-6b/"
-    },
-    {
-      "at": "2026-09-16T16:26:02.000Z",
-      "model_id": "fastvideo-fastvideo-fasth3-comfy",
-      "model": "FastVideo-FastH3-Comfy",
-      "developer": "FastVideo",
-      "sha": "ec1e3aa374a91c57b0b94a1623b7e657c0498cf2",
-      "url": "/models/fastvideo-fastvideo-fasth3-comfy/"
     },
     {
       "at": "2026-09-11T11:59:14.000Z",
@@ -12521,6 +12991,14 @@
       "url": "/models/tencent-hunyuanocr/"
     },
     {
+      "at": "2026-08-27T23:53:03.000Z",
+      "model_id": "nvidia-nemotron-3-embed-1b-bf16",
+      "model": "Nemotron-3-Embed-1B-BF16",
+      "developer": "NVIDIA",
+      "sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
+      "url": "/models/nvidia-nemotron-3-embed-1b-bf16/"
+    },
+    {
       "at": "2026-08-27T12:57:35.000Z",
       "model_id": "jinaai-jina-embeddings-v5-omni-small",
       "model": "jina-embeddings-v5-omni-small",
@@ -12649,14 +13127,6 @@
       "url": "/models/obliteratus-qwen3-8-27b-obliterated/"
     },
     {
-      "at": "2026-08-24T02:10:37.000Z",
-      "model_id": "ornith-ai-ornith-1-5-35b-a3b-fp8",
-      "model": "Ornith-1.5-35B-A3B-FP8",
-      "developer": "ornith-ai",
-      "sha": "fab11c26e2325a42f4b32da0249c819a0bade1b1",
-      "url": "/models/ornith-ai-ornith-1-5-35b-a3b-fp8/"
-    },
-    {
       "at": "2026-08-23T06:24:01.000Z",
       "model_id": "ornith-ai-ornith-1-5-9b",
       "model": "Ornith-1.5-9B",
@@ -12687,14 +13157,6 @@
       "developer": "argmaxinc",
       "sha": "0f63a7800b00dd0226abd051b906c246e1907482",
       "url": "/models/argmaxinc-whisperkit-coreml/"
-    },
-    {
-      "at": "2026-08-19T02:52:37.000Z",
-      "model_id": "z-lab-qwen3-8-27b-dflash2",
-      "model": "Qwen3.8-27B-DFlash2",
-      "developer": "z-lab",
-      "sha": "50307d4c4cde6860d4eee73e2547cd786fe8e8a4",
-      "url": "/models/z-lab-qwen3-8-27b-dflash2/"
     },
     {
       "at": "2026-08-18T07:37:17.000Z",
@@ -12889,6 +13351,14 @@
       "url": "/models/nvidia-nemotron-speech-streaming-en-0-6b/"
     },
     {
+      "at": "2026-08-05T20:28:53.000Z",
+      "model_id": "sulphurai-sulphur-2-base",
+      "model": "Sulphur-2-base",
+      "developer": "SulphurAI",
+      "sha": "65587bbb38c700622f9434a16e732c8b280c115e",
+      "url": "/models/sulphurai-sulphur-2-base/"
+    },
+    {
       "at": "2026-08-05T10:06:52.000Z",
       "model_id": "shieldstral-1-0-3b",
       "model": "Shieldstral-1.0-3B",
@@ -12977,14 +13447,6 @@
       "url": "/models/qwen3-asr-1-7b-hf/"
     },
     {
-      "at": "2026-07-22T11:38:50.000Z",
-      "model_id": "zai-org-glm-4-1v-9b-thinking",
-      "model": "GLM-4.1V-9B-Thinking",
-      "developer": "Z.ai",
-      "sha": "3c1471e51dc811b589d4d12b1c1c7c1c941267c2",
-      "url": "/models/zai-org-glm-4-1v-9b-thinking/"
-    },
-    {
       "at": "2026-07-20T16:43:34.000Z",
       "model_id": "google-gemma-4-12b-it-qat-w4a16-ct",
       "model": "gemma-4-12B-it-qat-w4a16-ct",
@@ -13041,20 +13503,20 @@
       "url": "/models/tencent-hy3/"
     },
     {
+      "at": "2026-07-18T17:48:08.000Z",
+      "model_id": "lilarest-gemma-4-31b-it-nvfp4-turbo",
+      "model": "gemma-4-31B-it-NVFP4-turbo",
+      "developer": "LilaRest",
+      "sha": "782d58ea7f9cf3a148be86e153f5689a2d73238b",
+      "url": "/models/lilarest-gemma-4-31b-it-nvfp4-turbo/"
+    },
+    {
       "at": "2026-07-17T08:57:20.000Z",
       "model_id": "swiss-ai-apertus-8b-instruct-2509",
       "model": "Apertus-8B-Instruct-2509",
       "developer": "swiss-ai",
       "sha": "b946d40447b2b597999b9c86d44bee0b452c919f",
       "url": "/models/swiss-ai-apertus-8b-instruct-2509/"
-    },
-    {
-      "at": "2026-07-15T16:42:27.000Z",
-      "model_id": "google-gemma-4-31b-it-assistant",
-      "model": "gemma-4-31B-it-assistant",
-      "developer": "Google",
-      "sha": "627c5ec1458b9086b841a91e0512fd31fd2fbbf1",
-      "url": "/models/google-gemma-4-31b-it-assistant/"
     },
     {
       "at": "2026-07-15T16:42:14.000Z",
@@ -13281,14 +13743,6 @@
       "url": "/models/deepseek-ai-deepseek-v4-flash-dspark/"
     },
     {
-      "at": "2026-07-03T09:54:42.000Z",
-      "model_id": "bahushruth-qwen3-6-35b-a3b-abliterated-v4",
-      "model": "Qwen3.6-35B-A3B-abliterated-v4",
-      "developer": "Bahushruth",
-      "sha": "1c28f5014d7e9c20170af40e5aa028679fb30bfb",
-      "url": "/models/bahushruth-qwen3-6-35b-a3b-abliterated-v4/"
-    },
-    {
       "at": "2026-07-03T03:32:17.000Z",
       "model_id": "k2-fsa-omnivoice",
       "model": "OmniVoice",
@@ -13321,28 +13775,12 @@
       "url": "/models/qwen3-forcedaligner-0-6b-hf/"
     },
     {
-      "at": "2026-06-26T03:49:39.000Z",
-      "model_id": "ornith-ai-ornith-1-0-35b-fp8",
-      "model": "Ornith-1.0-35B-FP8",
-      "developer": "ornith-ai",
-      "sha": "1ab57ce0b44950e498a88756f40ad1ed4d0f30ca",
-      "url": "/models/ornith-ai-ornith-1-0-35b-fp8/"
-    },
-    {
       "at": "2026-06-25T21:41:37.000Z",
       "model_id": "allenai-olmo-3-7b-instruct",
       "model": "Olmo-3-7B-Instruct",
       "developer": "AllenAI",
       "sha": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc",
       "url": "/models/allenai-olmo-3-7b-instruct/"
-    },
-    {
-      "at": "2026-06-25T15:24:53.000Z",
-      "model_id": "ornith-ai-ornith-1-0-397b-fp8",
-      "model": "Ornith-1.0-397B-FP8",
-      "developer": "ornith-ai",
-      "sha": "8b61f97a8512d9d01bff1a9625c9a16730e115bb",
-      "url": "/models/ornith-ai-ornith-1-0-397b-fp8/"
     },
     {
       "at": "2026-06-25T14:30:28.000Z",
@@ -13559,14 +13997,6 @@
       "developer": "Mistral AI",
       "sha": "d31694b0f55b51d4d962b5c3dbf0e03d1f019275",
       "url": "/models/mistral-medium-3-5-128b-eagle/"
-    },
-    {
-      "at": "2026-04-30T03:56:40.000Z",
-      "model_id": "moonshotai-kimi-k2-5",
-      "model": "Kimi-K2.5",
-      "developer": "Moonshot AI",
-      "sha": "4d01dfe0332d63057c186e0b262165819efb6611",
-      "url": "/models/moonshotai-kimi-k2-5/"
     },
     {
       "at": "2026-04-30T03:14:52.000Z",
@@ -13977,6 +14407,14 @@
       "url": "/models/nvidia-nvidia-nemotron-nano-9b-v2/"
     },
     {
+      "at": "2026-03-02T18:03:29.000Z",
+      "model_id": "nvidia-personaplex-7b-v1",
+      "model": "personaplex-7b-v1",
+      "developer": "NVIDIA",
+      "sha": "fdaf4090a61cb315c138a1faee287ffd6c716309",
+      "url": "/models/nvidia-personaplex-7b-v1/"
+    },
+    {
       "at": "2026-03-02T11:26:58.000Z",
       "model_id": "qwen-qwen3-5-0-8b",
       "model": "Qwen3.5-0.8B",
@@ -14329,14 +14767,6 @@
       "url": "/models/xenova-whisper-tiny/"
     },
     {
-      "at": "2025-12-12T15:35:46.000Z",
-      "model_id": "microsoft-vibevoice-realtime-0-5b",
-      "model": "VibeVoice-Realtime-0.5B",
-      "developer": "Microsoft",
-      "sha": "6bce5f06044837fe6d2c5d7a71a84f0416bd57e4",
-      "url": "/models/microsoft-vibevoice-realtime-0-5b/"
-    },
-    {
       "at": "2025-12-10T20:24:40.000Z",
       "model_id": "microsoft-phi-4-mini-instruct",
       "model": "Phi-4-mini-instruct",
@@ -14681,14 +15111,6 @@
       "url": "/models/qwen-qwen3-omni-30b-a3b-instruct/"
     },
     {
-      "at": "2025-09-22T13:37:12.000Z",
-      "model_id": "qwen-qwen-image-edit-2509",
-      "model": "Qwen-Image-Edit-2509",
-      "developer": "Qwen",
-      "sha": "d3968ef930e841f4c73640fb8afa3b306a78167e",
-      "url": "/models/qwen-qwen-image-edit-2509/"
-    },
-    {
       "at": "2025-09-17T06:57:02.000Z",
       "model_id": "qwen-qwen3-4b-instruct-2507-fp8",
       "model": "Qwen3-4B-Instruct-2507-FP8",
@@ -14727,14 +15149,6 @@
       "developer": "HuggingFaceTB",
       "sha": "a07cc9a04f16550a088caea529712d1d335b0ac1",
       "url": "/models/huggingfacetb-smollm3-3b/"
-    },
-    {
-      "at": "2025-09-09T21:16:04.000Z",
-      "model_id": "nvidia-qwen3-14b-nvfp4",
-      "model": "Qwen3-14B-NVFP4",
-      "developer": "NVIDIA",
-      "sha": "bc39319a4dc265d9bbb9a9731bc52c4988d9ece7",
-      "url": "/models/nvidia-qwen3-14b-nvfp4/"
     },
     {
       "at": "2025-09-09T14:10:26.000Z",
@@ -14841,6 +15255,14 @@
       "url": "/models/sentence-transformers-all-mpnet-base-v2/"
     },
     {
+      "at": "2025-08-19T09:01:01.000Z",
+      "model_id": "facebook-dinov3-vits16-pretrain-lvd1689m",
+      "model": "dinov3-vits16-pretrain-lvd1689m",
+      "developer": "Meta",
+      "sha": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+      "url": "/models/facebook-dinov3-vits16-pretrain-lvd1689m/"
+    },
+    {
       "at": "2025-08-19T09:00:52.000Z",
       "model_id": "facebook-dinov3-vitl16-pretrain-lvd1689m",
       "model": "dinov3-vitl16-pretrain-lvd1689m",
@@ -14863,6 +15285,14 @@
       "developer": "mlx-community",
       "sha": "ed2b7e8c15f9aaa0b5772e2efb986255eaef7e15",
       "url": "/models/mlx-community-parakeet-tdt-0-6b-v3/"
+    },
+    {
+      "at": "2025-08-11T13:25:37.000Z",
+      "model_id": "zai-org-glm-4-5-air",
+      "model": "GLM-4.5-Air",
+      "developer": "Z.ai",
+      "sha": "a24ceef6ce4f3536971efe9b778bdaa1bab18daa",
+      "url": "/models/zai-org-glm-4-5-air/"
     },
     {
       "at": "2025-08-04T17:36:57.000Z",
@@ -15089,14 +15519,6 @@
       "url": "/models/google-bert-bert-base-chinese/"
     },
     {
-      "at": "2025-06-30T21:44:21.000Z",
-      "model_id": "zhihan1996-dnabert-2-117m",
-      "model": "DNABERT-2-117M",
-      "developer": "zhihan1996",
-      "sha": "7bce263b15377fc15361f52cfab88f8b586abda0",
-      "url": "/models/zhihan1996-dnabert-2-117m/"
-    },
-    {
       "at": "2025-06-30T15:26:15.000Z",
       "model_id": "naver-splade-cocondenser-selfdistil",
       "model": "splade-cocondenser-selfdistil",
@@ -15169,20 +15591,20 @@
       "url": "/models/deepseek-ai-deepseek-r1-0528-qwen3-8b/"
     },
     {
-      "at": "2025-05-28T20:35:45.000Z",
-      "model_id": "allenai-olmo-2-0425-1b",
-      "model": "OLMo-2-0425-1B",
-      "developer": "AllenAI",
-      "sha": "a1847dff35000b4271fa70afc5db10fd29fedbdf",
-      "url": "/models/allenai-olmo-2-0425-1b/"
-    },
-    {
       "at": "2025-05-28T13:11:05.000Z",
       "model_id": "alibaba-nlp-gte-qwen2-1-5b-instruct",
       "model": "gte-Qwen2-1.5B-instruct",
       "developer": "Alibaba-NLP",
       "sha": "a9af15a6372d7d6b25e9fb07c2ccb9e1fe645644",
       "url": "/models/alibaba-nlp-gte-qwen2-1-5b-instruct/"
+    },
+    {
+      "at": "2025-05-26T11:52:00.000Z",
+      "model_id": "elkulako-cryptobert",
+      "model": "cryptobert",
+      "developer": "ElKulako",
+      "sha": "9e37c910fe87727cb842a9ac55c6388256fe0f15",
+      "url": "/models/elkulako-cryptobert/"
     },
     {
       "at": "2025-05-22T23:46:12.000Z",
@@ -15255,6 +15677,14 @@
       "developer": "ByteDance-Seed",
       "sha": "683d002dd99d8f95104d31e70391a39348857f4e",
       "url": "/models/bytedance-seed-ui-tars-1-5-7b/"
+    },
+    {
+      "at": "2025-04-17T09:38:05.000Z",
+      "model_id": "cl-nagoya-ruri-v3-310m",
+      "model": "ruri-v3-310m",
+      "developer": "cl-nagoya",
+      "sha": "18b60fb8c2b9df296fb4212bb7d23ef94e579cd3",
+      "url": "/models/cl-nagoya-ruri-v3-310m/"
     },
     {
       "at": "2025-04-15T08:03:02.000Z",
@@ -15473,6 +15903,14 @@
       "url": "/models/swivid-f5-tts/"
     },
     {
+      "at": "2025-03-17T12:18:15.000Z",
+      "model_id": "facebook-vggt-1b",
+      "model": "VGGT-1B",
+      "developer": "Meta",
+      "sha": "860abec7937da0a4c03c41d3c269c366e82abdf9",
+      "url": "/models/facebook-vggt-1b/"
+    },
+    {
       "at": "2025-03-10T18:30:39.000Z",
       "model_id": "eleutherai-pythia-6-9b",
       "model": "pythia-6.9b",
@@ -15495,6 +15933,14 @@
       "developer": "Sentence Transformers",
       "sha": "842eaed40bee4d61673a81c92d5689a8fed7a09f",
       "url": "/models/sentence-transformers-all-distilroberta-v1/"
+    },
+    {
+      "at": "2025-03-06T13:35:32.000Z",
+      "model_id": "sentence-transformers-all-roberta-large-v1",
+      "model": "all-roberta-large-v1",
+      "developer": "Sentence Transformers",
+      "sha": "cf74d8acd4f198de950bf004b262e6accfed5d2c",
+      "url": "/models/sentence-transformers-all-roberta-large-v1/"
     },
     {
       "at": "2025-03-06T13:32:06.000Z",
@@ -15535,6 +15981,14 @@
       "developer": "lxyuan",
       "sha": "cf991100d706c13c0a080c097134c05b7f436c45",
       "url": "/models/lxyuan-distilbert-base-multilingual-cased-sentiments-student/"
+    },
+    {
+      "at": "2025-02-28T18:39:32.000Z",
+      "model_id": "apple-dfn5b-clip-vit-h-14-378",
+      "model": "DFN5B-CLIP-ViT-H-14-378",
+      "developer": "apple",
+      "sha": "01b771ed0d1395ca5ffdd279897d665ebe00dfd2",
+      "url": "/models/apple-dfn5b-clip-vit-h-14-378/"
     },
     {
       "at": "2025-02-28T18:31:24.000Z",
@@ -15959,6 +16413,14 @@
       "developer": "Meta",
       "sha": "2b442a6ebe9dcf816f7b16eaa84a07fec6b6ff7f",
       "url": "/models/llama-3-2-3b-instruct-qlora-int4-eo8/"
+    },
+    {
+      "at": "2024-11-18T20:32:49.000Z",
+      "model_id": "llama-3-2-3b-instruct-spinquant-int4-eo8",
+      "model": "Llama-3.2-3B-Instruct-SpinQuant_INT4_EO8",
+      "developer": "Meta",
+      "sha": "03820fea9e793d2778564a0242f6b4e4f7b144dc",
+      "url": "/models/llama-3-2-3b-instruct-spinquant-int4-eo8/"
     }
   ],
   "retention": {

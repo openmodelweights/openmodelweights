@@ -160,7 +160,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:40:26+00:00",
+    "checked_at_iso": "2026-10-02T16:54:43+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "readme_accessible": true,
     "config_accessible": false,
@@ -210,7 +210,7 @@
   "hub": {
     "last_modified": "2026-09-30T02:14:09.000Z",
     "downloads": 81738,
-    "likes": 2818,
+    "likes": 2819,
     "sha": "d26bb61231c349cf6b7896fa83353113880e1ba3",
     "library_name": "diffusers",
     "pipeline_tag": "text-to-image",
