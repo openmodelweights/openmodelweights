@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-vibevoice-realtime-0-5b",
+  "created_at": "2026-10-02T15:25:58+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6bce5f060448-2f9e599821",
+      "observed_at": "2026-10-02T15:25:58+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6bce5f06044837fe6d2c5d7a71a84f0416bd57e4",
+      "evidence_hash": "2f9e59982115d4f1b299afa58bee6088935b525441ef3265eaa3d776e32a990e",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/VibeVoice-Realtime-0.5B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "VibeVoice-Realtime-0.5B",
+          "developer": "Microsoft",
+          "family": "VibeVoice-Realtime",
+          "variant": "VibeVoice-Realtime-0.5B"
+        },
+        "model": {
+          "parameters": "1.01763B",
+          "total_parameters_billions": 1.017626722,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen2.5-0.5B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 2.04,
+            "fp8_int8": 1.02,
+            "int4": 0.51
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6bce5f06044837fe6d2c5d7a71a84f0416bd57e4",
+          "created_at": "2025-12-04T05:32:08.000Z",
+          "last_modified": "2025-12-12T15:35:46.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "VibeVoice-Realtime-0.5B",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B",
+  "current_repository_sha": "6bce5f06044837fe6d2c5d7a71a84f0416bd57e4",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-vibevoice-realtime-0-5b/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-vibevoice-realtime-0-5b/"
+}

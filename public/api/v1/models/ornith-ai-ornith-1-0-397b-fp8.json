@@ -1,0 +1,368 @@
+{
+  "id": "ornith-ai-ornith-1-0-397b-fp8",
+  "name": "Ornith-1.0-397B-FP8",
+  "developer": "ornith-ai",
+  "family": "Ornith-1.0",
+  "variant": "Ornith-1.0-397B-FP8",
+  "model": {
+    "parameters": "396.802B",
+    "total_parameters_billions": 396.802360816,
+    "context": {
+      "value": 262144,
+      "display": "262,144 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "text_config.max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "text-generation",
+      "conversational",
+      "license:mit",
+      "endpoints_compatible",
+      "compressed-tensors",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/ornith-ai/Ornith-1.0-397B-FP8",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00122.safetensors",
+      "model-00002-of-00122.safetensors",
+      "model-00003-of-00122.safetensors",
+      "model-00004-of-00122.safetensors",
+      "model-00005-of-00122.safetensors",
+      "model-00006-of-00122.safetensors",
+      "model-00007-of-00122.safetensors",
+      "model-00008-of-00122.safetensors",
+      "model-00009-of-00122.safetensors",
+      "model-00010-of-00122.safetensors",
+      "model-00011-of-00122.safetensors",
+      "model-00012-of-00122.safetensors",
+      "model-00013-of-00122.safetensors",
+      "model-00014-of-00122.safetensors",
+      "model-00015-of-00122.safetensors",
+      "model-00016-of-00122.safetensors",
+      "model-00017-of-00122.safetensors",
+      "model-00018-of-00122.safetensors",
+      "model-00019-of-00122.safetensors",
+      "model-00020-of-00122.safetensors",
+      "model-00021-of-00122.safetensors",
+      "model-00022-of-00122.safetensors",
+      "model-00023-of-00122.safetensors",
+      "model-00024-of-00122.safetensors",
+      "model-00025-of-00122.safetensors",
+      "model-00026-of-00122.safetensors",
+      "model-00027-of-00122.safetensors",
+      "model-00028-of-00122.safetensors",
+      "model-00029-of-00122.safetensors",
+      "model-00030-of-00122.safetensors",
+      "model-00031-of-00122.safetensors",
+      "model-00032-of-00122.safetensors",
+      "model-00033-of-00122.safetensors",
+      "model-00034-of-00122.safetensors",
+      "model-00035-of-00122.safetensors",
+      "model-00036-of-00122.safetensors",
+      "model-00037-of-00122.safetensors",
+      "model-00038-of-00122.safetensors",
+      "model-00039-of-00122.safetensors",
+      "model-00040-of-00122.safetensors",
+      "model-00041-of-00122.safetensors",
+      "model-00042-of-00122.safetensors",
+      "model-00043-of-00122.safetensors",
+      "model-00044-of-00122.safetensors",
+      "model-00045-of-00122.safetensors",
+      "model-00046-of-00122.safetensors",
+      "model-00047-of-00122.safetensors",
+      "model-00048-of-00122.safetensors",
+      "model-00049-of-00122.safetensors",
+      "model-00050-of-00122.safetensors",
+      "model-00051-of-00122.safetensors",
+      "model-00052-of-00122.safetensors",
+      "model-00053-of-00122.safetensors",
+      "model-00054-of-00122.safetensors",
+      "model-00055-of-00122.safetensors",
+      "model-00056-of-00122.safetensors",
+      "model-00057-of-00122.safetensors",
+      "model-00058-of-00122.safetensors",
+      "model-00059-of-00122.safetensors",
+      "model-00060-of-00122.safetensors",
+      "model-00061-of-00122.safetensors",
+      "model-00062-of-00122.safetensors",
+      "model-00063-of-00122.safetensors",
+      "model-00064-of-00122.safetensors",
+      "model-00065-of-00122.safetensors",
+      "model-00066-of-00122.safetensors",
+      "model-00067-of-00122.safetensors",
+      "model-00068-of-00122.safetensors",
+      "model-00069-of-00122.safetensors",
+      "model-00070-of-00122.safetensors",
+      "model-00071-of-00122.safetensors",
+      "model-00072-of-00122.safetensors",
+      "model-00073-of-00122.safetensors",
+      "model-00074-of-00122.safetensors",
+      "model-00075-of-00122.safetensors",
+      "model-00076-of-00122.safetensors",
+      "model-00077-of-00122.safetensors",
+      "model-00078-of-00122.safetensors",
+      "model-00079-of-00122.safetensors",
+      "model-00080-of-00122.safetensors",
+      "model-00081-of-00122.safetensors",
+      "model-00082-of-00122.safetensors",
+      "model-00083-of-00122.safetensors",
+      "model-00084-of-00122.safetensors",
+      "model-00085-of-00122.safetensors",
+      "model-00086-of-00122.safetensors",
+      "model-00087-of-00122.safetensors",
+      "model-00088-of-00122.safetensors",
+      "model-00089-of-00122.safetensors",
+      "model-00090-of-00122.safetensors",
+      "model-00091-of-00122.safetensors",
+      "model-00092-of-00122.safetensors",
+      "model-00093-of-00122.safetensors",
+      "model-00094-of-00122.safetensors",
+      "model-00095-of-00122.safetensors",
+      "model-00096-of-00122.safetensors",
+      "model-00097-of-00122.safetensors",
+      "model-00098-of-00122.safetensors",
+      "model-00099-of-00122.safetensors",
+      "model-00100-of-00122.safetensors",
+      "model-00101-of-00122.safetensors",
+      "model-00102-of-00122.safetensors",
+      "model-00103-of-00122.safetensors",
+      "model-00104-of-00122.safetensors",
+      "model-00105-of-00122.safetensors",
+      "model-00106-of-00122.safetensors",
+      "model-00107-of-00122.safetensors",
+      "model-00108-of-00122.safetensors",
+      "model-00109-of-00122.safetensors",
+      "model-00110-of-00122.safetensors",
+      "model-00111-of-00122.safetensors",
+      "model-00112-of-00122.safetensors",
+      "model-00113-of-00122.safetensors",
+      "model-00114-of-00122.safetensors",
+      "model-00115-of-00122.safetensors",
+      "model-00116-of-00122.safetensors",
+      "model-00117-of-00122.safetensors",
+      "model-00118-of-00122.safetensors",
+      "model-00119-of-00122.safetensors",
+      "model-00120-of-00122.safetensors",
+      "model-00121-of-00122.safetensors",
+      "model-00122-of-00122.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 123,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F8_E4M3"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/ornith-ai/Ornith-1.0-397B-FP8",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-397B-FP8/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-397B-FP8/blob/main/LICENSE"
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-397B-FP8/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 793.6,
+      "fp8_int8": 396.8,
+      "int4": 198.4
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Ornith-1.0",
+    "variant": "Ornith-1.0-397B-FP8",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.0-397B-FP8",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/ornith-ai/Ornith-1.0-397B-FP8",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.0-397B-FP8/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.0-397B-FP8/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "license",
+      "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-397B-FP8/blob/main/LICENSE",
+      "tier": "primary-or-declared"
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T15:20:56+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "ornith-ai/Ornith-1.0-397B-FP8",
+    "rank": 813,
+    "downloads": 279684,
+    "likes": 186,
+    "last_modified": "2026-06-25T15:24:53+00:00",
+    "created_at": "2026-06-25T04:55:47+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T15:20:54+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "SGLang",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-06-25T15:24:53.000Z",
+    "created_at": "2026-06-25T04:55:47.000Z",
+    "downloads": 279684,
+    "likes": 186,
+    "sha": "8b61f97a8512d9d01bff1a9625c9a16730e115bb",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5_moe",
+      "image-text-to-text",
+      "text-generation",
+      "conversational",
+      "license:mit",
+      "endpoints_compatible",
+      "compressed-tensors",
+      "region:us"
+    ]
+  }
+}

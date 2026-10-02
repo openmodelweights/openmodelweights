@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "facebook-sam-vit-huge",
+  "created_at": "2026-10-02T15:25:58+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "87aecf0df4ce-8cf40333c4",
+      "observed_at": "2026-10-02T15:25:58+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "87aecf0df4ce6b30cd7de76e87673c49644bdf67",
+      "evidence_hash": "8cf40333c4c8d7ef3332ef701272158f1a2dda59c3e66a9ffa221be17d6d7d03",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/facebook/sam-vit-huge",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/facebook/sam-vit-huge",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/facebook/sam-vit-huge",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/facebook/sam-vit-huge/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/facebook/sam-vit-huge/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "sam-vit-huge",
+          "developer": "Meta",
+          "family": "sam-vit-huge",
+          "variant": "sam-vit-huge"
+        },
+        "model": {
+          "parameters": "0.641091B",
+          "total_parameters_billions": 0.641090864,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Mask Generation"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/facebook/sam-vit-huge",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.28,
+            "fp8_int8": 0.64,
+            "int4": 0.32
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "87aecf0df4ce6b30cd7de76e87673c49644bdf67",
+          "created_at": "2023-04-10T13:51:24.000Z",
+          "last_modified": "2024-01-11T19:23:32.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "sam-vit-huge",
+  "developer": "Meta",
+  "source_repository": "https://huggingface.co/facebook/sam-vit-huge",
+  "current_repository_sha": "87aecf0df4ce6b30cd7de76e87673c49644bdf67",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/facebook-sam-vit-huge/history/",
+  "diff_url": "https://openmodelweights.com/diff/facebook-sam-vit-huge/"
+}

@@ -1,0 +1,124 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "nvidia-qwen3-14b-nvfp4",
+  "created_at": "2026-10-02T15:25:58+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "bc39319a4dc2-8bd3174432",
+      "observed_at": "2026-10-02T15:25:58+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "bc39319a4dc265d9bbb9a9731bc52c4988d9ece7",
+      "evidence_hash": "8bd317443282cc6a1ce7bacc606491a83d19df31cb3f6584c3e8a09fe66e363c",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/nvidia/Qwen3-14B-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Qwen3-14B-NVFP4",
+          "developer": "NVIDIA",
+          "family": "Qwen3",
+          "variant": "Qwen3-14B-NVFP4"
+        },
+        "model": {
+          "parameters": "8.16228B",
+          "total_parameters_billions": 8.1622784,
+          "context_tokens": 40960,
+          "context_display": "40,960 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model-00001-of-00003.safetensors",
+            "model-00002-of-00003.safetensors",
+            "model-00003-of-00003.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "Qwen/Qwen3-14B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Model Optimizer",
+            "TensorRT-LLM",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 16.32,
+            "fp8_int8": 8.16,
+            "int4": 4.08
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "bc39319a4dc265d9bbb9a9731bc52c4988d9ece7",
+          "created_at": "2025-09-09T21:16:04.000Z",
+          "last_modified": "2025-09-09T21:16:04.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Qwen3-14B-NVFP4",
+  "developer": "NVIDIA",
+  "source_repository": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4",
+  "current_repository_sha": "bc39319a4dc265d9bbb9a9731bc52c4988d9ece7",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/nvidia-qwen3-14b-nvfp4/history/",
+  "diff_url": "https://openmodelweights.com/diff/nvidia-qwen3-14b-nvfp4/"
+}

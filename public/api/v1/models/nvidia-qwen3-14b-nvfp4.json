@@ -1,0 +1,271 @@
+{
+  "id": "nvidia-qwen3-14b-nvfp4",
+  "name": "Qwen3-14B-NVFP4",
+  "developer": "NVIDIA",
+  "family": "Qwen3",
+  "variant": "Qwen3-14B-NVFP4",
+  "model": {
+    "parameters": "8.16228B",
+    "total_parameters_billions": 8.1622784,
+    "context": {
+      "value": 40960,
+      "display": "40,960 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "Model Optimizer",
+      "safetensors",
+      "qwen3",
+      "nvidia",
+      "ModelOpt",
+      "Qwen3",
+      "quantized",
+      "FP4",
+      "fp4",
+      "text-generation",
+      "conversational",
+      "base_model:Qwen/Qwen3-14B",
+      "base_model:quantized:Qwen/Qwen3-14B",
+      "license:apache-2.0",
+      "8-bit",
+      "modelopt",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00003.safetensors",
+      "model-00002-of-00003.safetensors",
+      "model-00003-of-00003.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 4,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F8_E4M3",
+      "U8"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nvidia/Qwen3-14B-NVFP4",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 16.32,
+      "fp8_int8": 8.16,
+      "int4": 4.08
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Qwen3",
+    "variant": "Qwen3-14B-NVFP4",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3-14B"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nvidia/Qwen3-14B-NVFP4",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nvidia/Qwen3-14B-NVFP4/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T15:20:56+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nvidia/Qwen3-14B-NVFP4",
+    "rank": 808,
+    "downloads": 670553,
+    "likes": 17,
+    "last_modified": "2025-09-09T21:16:04+00:00",
+    "created_at": "2025-09-09T21:16:04+00:00",
+    "library_name": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T15:20:54+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Model Optimizer"
+    ],
+    "mentioned_in_model_card": [
+      "TensorRT-LLM",
+      "Transformers"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-09-09T21:16:04.000Z",
+    "created_at": "2025-09-09T21:16:04.000Z",
+    "downloads": 670553,
+    "likes": 17,
+    "sha": "bc39319a4dc265d9bbb9a9731bc52c4988d9ece7",
+    "library_name": "Model Optimizer",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "Model Optimizer",
+      "safetensors",
+      "qwen3",
+      "nvidia",
+      "ModelOpt",
+      "Qwen3",
+      "quantized",
+      "FP4",
+      "fp4",
+      "text-generation",
+      "conversational",
+      "base_model:Qwen/Qwen3-14B",
+      "base_model:quantized:Qwen/Qwen3-14B",
+      "license:apache-2.0",
+      "8-bit",
+      "modelopt",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "fastvideo-fastvideo-fasth3-comfy",
+  "created_at": "2026-10-02T15:25:58+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ec1e3aa374a9-b811afba6f",
+      "observed_at": "2026-10-02T15:25:58+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ec1e3aa374a91c57b0b94a1623b7e657c0498cf2",
+      "evidence_hash": "b811afba6f2c40d9aef7cd3353f09d035528cfa7252c03f512cedc6524fa1afa",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/FastVideo/FastVideo-FastH3-Comfy",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-Comfy",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/FastVideo/FastVideo-FastH3-Comfy",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-Comfy/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-Comfy/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "FastVideo-FastH3-Comfy",
+          "developer": "FastVideo",
+          "family": "FastVideo-FastH3-Comfy",
+          "variant": "FastVideo-FastH3-Comfy"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "minimax-h3-community-license-agreement",
+          "id": "other",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/FastVideo/FastVideo-FastH3-Comfy",
+          "access": "public",
+          "file_count": 8,
+          "exact_files": [
+            "diffusion_models/fastvideo_fasth3_8step_v2_pruned_bf16.safetensors",
+            "diffusion_models/fastvideo_fasth3_8step_v2_pruned_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp16",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "MiniMaxAI/MiniMax-H3"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "diffusion-single-file"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "ec1e3aa374a91c57b0b94a1623b7e657c0498cf2",
+          "created_at": "2026-09-08T23:53:22.000Z",
+          "last_modified": "2026-09-16T16:26:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "FastVideo-FastH3-Comfy",
+  "developer": "FastVideo",
+  "source_repository": "https://huggingface.co/FastVideo/FastVideo-FastH3-Comfy",
+  "current_repository_sha": "ec1e3aa374a91c57b0b94a1623b7e657c0498cf2",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/fastvideo-fastvideo-fasth3-comfy/history/",
+  "diff_url": "https://openmodelweights.com/diff/fastvideo-fastvideo-fasth3-comfy/"
+}

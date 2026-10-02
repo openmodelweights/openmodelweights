@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-bert-bert-base-german-cased",
+  "created_at": "2026-10-02T15:25:58+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "0b061b4f7ce1-498557e4b4",
+      "observed_at": "2026-10-02T15:25:58+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "0b061b4f7ce140d10dce6b6bd8a77da8ec80931b",
+      "evidence_hash": "498557e4b4c1629a7bb887bb1992e5ce3ee8f660c8bbed8e68b5f6c16545c48c",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google-bert/bert-base-german-cased",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google-bert/bert-base-german-cased",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google-bert/bert-base-german-cased",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google-bert/bert-base-german-cased/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google-bert/bert-base-german-cased/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bert-base-german-cased",
+          "developer": "google-bert",
+          "family": "bert-base-german-cased",
+          "variant": "bert-base-german-cased"
+        },
+        "model": {
+          "parameters": "0.109705B",
+          "total_parameters_billions": 0.10970501,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google-bert/bert-base-german-cased",
+          "access": "public",
+          "file_count": 4,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "pytorch_model.bin",
+            "tf_model.h5"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "0b061b4f7ce140d10dce6b6bd8a77da8ec80931b",
+          "created_at": "2022-03-02T23:29:04.000Z",
+          "last_modified": "2024-02-19T11:03:41.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bert-base-german-cased",
+  "developer": "google-bert",
+  "source_repository": "https://huggingface.co/google-bert/bert-base-german-cased",
+  "current_repository_sha": "0b061b4f7ce140d10dce6b6bd8a77da8ec80931b",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-bert-bert-base-german-cased/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-bert-bert-base-german-cased/"
+}

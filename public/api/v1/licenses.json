@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-02T15:15:22+00:00",
+  "generated_at": "2026-10-02T15:25:58+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 339,
+      "model_count": 340,
       "commercial_use": {
-        "allowed": 339
+        "allowed": 340
       }
     },
     {
       "name": "BSD-3-CLAUSE",
-      "model_count": 4,
+      "model_count": 3,
       "commercial_use": {
-        "allowed": 4
+        "allowed": 3
       }
     },
     {
@@ -24,9 +24,9 @@
     },
     {
       "name": "CC BY-NC 4.0",
-      "model_count": 12,
+      "model_count": 16,
       "commercial_use": {
-        "not-allowed": 12
+        "not-allowed": 16
       }
     },
     {
@@ -52,9 +52,9 @@
     },
     {
       "name": "Not declared in model-card metadata",
-      "model_count": 31,
+      "model_count": 35,
       "commercial_use": {
-        "unknown": 30,
+        "unknown": 34,
         "allowed-with-conditions": 1
       }
     },
@@ -80,13 +80,6 @@
       }
     },
     {
-      "name": "['cc-by-nc-sa-4.0']",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
       "name": "['cdla-permissive-2.0', 'apache-2.0']",
       "model_count": 1,
       "commercial_use": {
@@ -105,13 +98,6 @@
       "model_count": 1,
       "commercial_use": {
         "unknown": 1
-      }
-    },
-    {
-      "name": "['other']",
-      "model_count": 1,
-      "commercial_use": {
-        "allowed-with-conditions": 1
       }
     },
     {
@@ -137,13 +123,6 @@
     },
     {
       "name": "bigscience-bloom-rail-1.0",
-      "model_count": 2,
-      "commercial_use": {
-        "unknown": 2
-      }
-    },
-    {
-      "name": "bria-rmbg-1.4",
       "model_count": 1,
       "commercial_use": {
         "unknown": 1
@@ -186,9 +165,9 @@
     },
     {
       "name": "creativeml-openrail-m",
-      "model_count": 6,
+      "model_count": 5,
       "commercial_use": {
-        "unknown": 6
+        "unknown": 5
       }
     },
     {
@@ -200,9 +179,16 @@
     },
     {
       "name": "dinov3-license",
-      "model_count": 3,
+      "model_count": 2,
       "commercial_use": {
-        "allowed-with-conditions": 3
+        "allowed-with-conditions": 2
+      }
+    },
+    {
+      "name": "exaone",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
       }
     },
     {
@@ -221,10 +207,10 @@
     },
     {
       "name": "gemma",
-      "model_count": 12,
+      "model_count": 13,
       "commercial_use": {
         "allowed-with-conditions": 7,
-        "unknown": 5
+        "unknown": 6
       }
     },
     {
@@ -285,9 +271,9 @@
     },
     {
       "name": "llama3",
-      "model_count": 5,
+      "model_count": 4,
       "commercial_use": {
-        "allowed-with-conditions": 5
+        "allowed-with-conditions": 4
       }
     },
     {
@@ -320,9 +306,9 @@
     },
     {
       "name": "ltx-2-community-license-agreement",
-      "model_count": 5,
+      "model_count": 3,
       "commercial_use": {
-        "unknown": 5
+        "unknown": 3
       }
     },
     {
@@ -348,9 +334,9 @@
     },
     {
       "name": "minimax-h3-community-license-agreement",
-      "model_count": 3,
+      "model_count": 4,
       "commercial_use": {
-        "unknown": 3
+        "unknown": 4
       }
     },
     {
@@ -369,9 +355,9 @@
     },
     {
       "name": "nvidia-open-model-agreement",
-      "model_count": 2,
+      "model_count": 1,
       "commercial_use": {
-        "allowed-with-conditions": 2
+        "allowed-with-conditions": 1
       }
     },
     {
@@ -383,9 +369,9 @@
     },
     {
       "name": "openmdw-1.1",
-      "model_count": 7,
+      "model_count": 5,
       "commercial_use": {
-        "allowed-with-conditions": 6,
+        "allowed-with-conditions": 4,
         "unknown": 1
       }
     },
@@ -412,10 +398,10 @@
     },
     {
       "name": "other",
-      "model_count": 7,
+      "model_count": 8,
       "commercial_use": {
         "allowed-with-conditions": 3,
-        "unknown": 4
+        "unknown": 5
       }
     },
     {

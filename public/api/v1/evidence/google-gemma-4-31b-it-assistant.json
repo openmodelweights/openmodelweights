@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "google-gemma-4-31b-it-assistant",
+  "created_at": "2026-10-02T15:25:58+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "627c5ec1458b-e7ca3ec7cc",
+      "observed_at": "2026-10-02T15:25:58+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "627c5ec1458b9086b841a91e0512fd31fd2fbbf1",
+      "evidence_hash": "e7ca3ec7cc80eb45270230cc31130e553579a844209e9abb272f82c3df85b9d2",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/google/gemma-4-31B-it-assistant",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/google/gemma-4-31B-it-assistant/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/google/gemma-4-31B-it-assistant/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "gemma-4-31B-it-assistant",
+          "developer": "Google",
+          "family": "gemma-4",
+          "variant": "gemma-4-31B-it-assistant"
+        },
+        "model": {
+          "parameters": "0.469519B",
+          "total_parameters_billions": 0.469518596,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Any To Any"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://ai.google.dev/gemma/docs/gemma_4_license",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "llama.cpp"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.94,
+            "fp8_int8": 0.47,
+            "int4": 0.23
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "627c5ec1458b9086b841a91e0512fd31fd2fbbf1",
+          "created_at": "2026-04-23T18:55:29.000Z",
+          "last_modified": "2026-07-15T16:42:27.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "gemma-4-31B-it-assistant",
+  "developer": "Google",
+  "source_repository": "https://huggingface.co/google/gemma-4-31B-it-assistant",
+  "current_repository_sha": "627c5ec1458b9086b841a91e0512fd31fd2fbbf1",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/google-gemma-4-31b-it-assistant/history/",
+  "diff_url": "https://openmodelweights.com/diff/google-gemma-4-31b-it-assistant/"
+}
