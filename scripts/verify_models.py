@@ -412,7 +412,10 @@ def verify_one(seed):
         reused.setdefault("verification",{})
         reused["verification"]["checked_at"]=TODAY
         reused["verification"]["checked_at_iso"]=NOW
+        reused["verification"].setdefault("full_verified_at",(prev.get("verification") or {}).get("checked_at",TODAY))
         reused["verification"]["mode"]="repository-revision-unchanged"
+        if model.get("discovery"):
+            reused["discovery"]=copy.deepcopy(model["discovery"])
         history=reused["verification"].setdefault("history",[])
         event={"date":TODAY,"event":"Repository revision check","detail":"Official Hugging Face repository SHA unchanged; prior field evidence retained."}
         if not history or history[0].get("date")!=TODAY or history[0].get("event")!="Repository revision check":
@@ -491,6 +494,7 @@ def verify_one(seed):
         "checked_at_iso": NOW,
         "method": "Hugging Face API + repository file list + model card + config.json",
         "mode": "full-field-verification",
+        "full_verified_at": TODAY,
         "readme_accessible": bool(readme),
         "config_accessible": bool(config),
         "fields": {
