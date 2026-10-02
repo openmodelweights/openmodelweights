@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T11:17:03+00:00",
+  "generated_at": "2026-10-02T11:30:31+00:00",
   "events": [
     {
-      "id": "df1bb11d50912004",
-      "at": "2026-10-02T11:17:03+00:00",
+      "id": "d9463354a600448e",
+      "at": "2026-10-02T11:30:31+00:00",
       "type": "verification",
       "model_id": null,
       "model": "Registry verification",
@@ -813,6 +813,66 @@
       "developer": "Meta",
       "sha": "b8c08c95d0476ccb6fc86e9410818d602ecca19d",
       "url": "/models/llama-3-2-1b-instruct-spinquant-int4-eo8/"
+    },
+    {
+      "at": "2024-11-18T20:29:29.000Z",
+      "model_id": "llama-3-2-1b-instruct-qlora-int4-eo8",
+      "model": "Llama-3.2-1B-Instruct-QLORA_INT4_EO8",
+      "developer": "Meta",
+      "sha": "3fdf98b6bc1069f632a468b0676299a0a1b65071",
+      "url": "/models/llama-3-2-1b-instruct-qlora-int4-eo8/"
+    },
+    {
+      "at": "2024-11-18T15:36:42.000Z",
+      "model_id": "llama-guard-3-11b-vision",
+      "model": "Llama-Guard-3-11B-Vision",
+      "developer": "Meta",
+      "sha": "62d4275543ec7503de66c486de1c0c2103e365ac",
+      "url": "/models/llama-guard-3-11b-vision/"
+    },
+    {
+      "at": "2024-10-24T15:08:03.000Z",
+      "model_id": "llama-3-2-1b",
+      "model": "Llama-3.2-1B",
+      "developer": "Meta",
+      "sha": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+      "url": "/models/llama-3-2-1b/"
+    },
+    {
+      "at": "2024-10-24T15:07:51.000Z",
+      "model_id": "llama-3-2-1b-instruct",
+      "model": "Llama-3.2-1B-Instruct",
+      "developer": "Meta",
+      "sha": "9213176726f574b556790deb65791e0c5aa438b6",
+      "url": "/models/llama-3-2-1b-instruct/"
+    },
+    {
+      "at": "2024-10-24T15:07:40.000Z",
+      "model_id": "llama-3-2-3b",
+      "model": "Llama-3.2-3B",
+      "developer": "Meta",
+      "sha": "13afe5124825b4f3751f836b40dafda64c1ed062",
+      "url": "/models/llama-3-2-3b/"
+    },
+    {
+      "at": "2024-10-24T15:07:29.000Z",
+      "model_id": "llama-3-2-3b-instruct",
+      "model": "Llama-3.2-3B-Instruct",
+      "developer": "Meta",
+      "sha": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+      "url": "/models/llama-3-2-3b-instruct/"
+    },
+    {
+      "at": "2024-10-16T22:00:37.000Z",
+      "model_id": "llama-3-1-8b",
+      "model": "Llama-3.1-8B",
+      "developer": "Meta",
+      "sha": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "url": "/models/llama-3-1-8b/"
     }
-  ]
+  ],
+  "retention": {
+    "max_events": 5000,
+    "policy": "rolling verification history"
+  }
 }

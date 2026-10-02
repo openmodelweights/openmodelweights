@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:17:03+00:00",
+  "generated_at": "2026-10-02T11:30:31+00:00",
   "stats": {
     "total_seed_records": 107,
     "field_verified": 107,
@@ -13,5 +13,9 @@
     "data_disclosure_signal": 30,
     "runtime_signal": 103
   },
-  "errors": []
+  "errors": [],
+  "candidate_count": 107,
+  "successful_candidates": 107,
+  "publication_target": 700,
+  "publication_shortfall": 593
 }
