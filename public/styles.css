@@ -1716,3 +1716,82 @@ body{background:var(--bg);letter-spacing:-.006em}
   .developers-page .developer-grid,.api-page .api-grid,.mcp-page .mcp-tool-grid{grid-template-columns:1fr}
   .api-page .content,.verification-page .content,.methodology-page .content,.about-page .content{padding:22px}
 }
+
+
+/* Developers search v7.1 */
+.developers-directory-section{padding-top:42px}
+.developer-search-panel{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:10px;
+  align-items:end;
+  margin-bottom:12px;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:rgba(255,255,255,.76);
+  box-shadow:0 10px 32px rgba(20,28,20,.035)
+}
+.developer-search-panel>div{display:flex;flex-direction:column;gap:7px}
+.developer-search-panel label{
+  padding-left:2px;
+  color:#757d75;
+  font-size:9px;
+  font-weight:820;
+  letter-spacing:.1em;
+  text-transform:uppercase
+}
+.developer-search-panel input{
+  width:100%;
+  min-height:54px;
+  padding:0 16px;
+  border:1px solid var(--line-strong);
+  border-radius:13px;
+  background:#fff;
+  color:var(--text);
+  font-size:15px;
+  outline:none
+}
+.developer-search-panel input:focus{
+  border-color:#9aa5d9;
+  box-shadow:0 0 0 3px rgba(49,87,232,.08)
+}
+.developer-search-panel button{
+  min-height:54px;
+  padding:0 17px;
+  border:1px solid var(--line);
+  border-radius:13px;
+  background:#f5f6f2;
+  color:var(--text);
+  font-size:11px;
+  font-weight:720;
+  cursor:pointer
+}
+.developer-directory-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:18px;
+  margin:0 2px 22px
+}
+.developer-directory-meta p,.developer-directory-meta span{
+  margin:0;
+  color:#7b837b;
+  font-size:10px
+}
+.developer-directory-meta strong{color:var(--text);font-size:11px}
+.developer-card[hidden]{display:none!important}
+.developer-empty{
+  margin:20px 0 0;
+  padding:28px;
+  border:1px dashed var(--line-strong);
+  border-radius:15px;
+  color:var(--muted);
+  text-align:center;
+  font-size:12px
+}
+@media(max-width:620px){
+  .developer-search-panel{grid-template-columns:1fr;padding:14px}
+  .developer-search-panel button{min-height:42px}
+  .developer-directory-meta{align-items:flex-start;flex-direction:column;gap:5px}
+}
