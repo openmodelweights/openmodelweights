@@ -1,0 +1,302 @@
+{
+  "id": "utter-project-eurollm-22b-instruct-2512",
+  "name": "EuroLLM-22B-Instruct-2512",
+  "developer": "utter-project",
+  "family": "EuroLLM",
+  "variant": "EuroLLM-22B-Instruct-2512",
+  "model": {
+    "parameters": "22.6373B",
+    "total_parameters_billions": 22.637328384,
+    "context": {
+      "value": 32768,
+      "display": "32,768 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational",
+      "en",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "pt",
+      "pl",
+      "nl",
+      "tr",
+      "sv",
+      "cs",
+      "el",
+      "hu",
+      "ro",
+      "fi"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00010.safetensors",
+      "model-00002-of-00010.safetensors",
+      "model-00003-of-00010.safetensors",
+      "model-00004-of-00010.safetensors",
+      "model-00005-of-00010.safetensors",
+      "model-00006-of-00010.safetensors",
+      "model-00007-of-00010.safetensors",
+      "model-00008-of-00010.safetensors",
+      "model-00009-of-00010.safetensors",
+      "model-00010-of-00010.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 11,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/utter-project/EuroLLM-22B-Instruct-2512",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 45.27,
+      "fp8_int8": 22.64,
+      "int4": 11.32
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "EuroLLM",
+    "variant": "EuroLLM-22B-Instruct-2512",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "utter-project/EuroLLM-22B-2512"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/utter-project/EuroLLM-22B-Instruct-2512",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "utter-project/EuroLLM-22B-Instruct-2512",
+    "rank": 773,
+    "downloads": 382940,
+    "likes": 85,
+    "last_modified": "2026-07-31T17:18:02+00:00",
+    "created_at": "2025-12-05T02:33:37+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-07-31T17:18:02.000Z",
+    "created_at": "2025-12-05T02:33:37.000Z",
+    "downloads": 382940,
+    "likes": 85,
+    "sha": "8c6ed5c8d18527d9daed994f645032b86c53f0bb",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "conversational",
+      "en",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "pt",
+      "pl",
+      "nl",
+      "tr",
+      "sv",
+      "cs",
+      "el",
+      "hu",
+      "ro",
+      "fi",
+      "uk",
+      "sl",
+      "sk",
+      "da",
+      "lt",
+      "lv",
+      "et",
+      "bg",
+      "no",
+      "ca",
+      "hr",
+      "ga",
+      "mt",
+      "gl",
+      "zh",
+      "ru",
+      "ko",
+      "ja",
+      "ar",
+      "hi",
+      "arxiv:2602.05879",
+      "base_model:utter-project/EuroLLM-22B-2512",
+      "base_model:finetune:utter-project/EuroLLM-22B-2512",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "id": "jinaai-jina-embeddings-v5-text-small",
+  "name": "jina-embeddings-v5-text-small",
+  "developer": "jinaai",
+  "family": "jina-embeddings-v5-text-small",
+  "variant": "jina-embeddings-v5-text-small",
+  "model": {
+    "parameters": "0.59605B",
+    "total_parameters_billions": 0.59604992,
+    "context": {
+      "value": 32768,
+      "display": "32,768 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Embeddings / features",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "jina_embeddings_v5",
+      "feature-extraction",
+      "mteb",
+      "sentence-transformers",
+      "custom_code",
+      "multilingual",
+      "arxiv:2602.15547",
+      "base_model:Qwen/Qwen3-0.6B-Base",
+      "base_model:finetune:Qwen/Qwen3-0.6B-Base",
+      "license:cc-by-nc-4.0",
+      "region:eu"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/jinaai/jina-embeddings-v5-text-small",
+    "access": "public",
+    "exact_files": [
+      "adapters/classification/adapter_model.safetensors",
+      "adapters/clustering/adapter_model.safetensors",
+      "adapters/retrieval/adapter_model.safetensors",
+      "adapters/text-matching/adapter_model.safetensors",
+      "model.safetensors"
+    ],
+    "file_count": 5,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/jinaai/jina-embeddings-v5-text-small",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "cc-by-nc-4.0",
+    "name": "CC BY-NC 4.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "not-allowed",
+      "label": "Commercial use is not permitted by CC BY-NC 4.0",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1.19,
+      "fp8_int8": 0.6,
+      "int4": 0.3
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "jina-embeddings-v5-text-small",
+    "variant": "jina-embeddings-v5-text-small",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen3-0.6B-Base"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v5-text-small",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/jinaai/jina-embeddings-v5-text-small",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v5-text-small/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v5-text-small/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "jinaai/jina-embeddings-v5-text-small",
+    "rank": 800,
+    "downloads": 291486,
+    "likes": 201,
+    "last_modified": "2026-04-15T09:14:28+00:00",
+    "created_at": "2026-01-22T09:42:41+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "feature-extraction",
+    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "feature-extraction",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "ONNX Runtime",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-04-15T09:14:28.000Z",
+    "created_at": "2026-01-22T09:42:41.000Z",
+    "downloads": 291486,
+    "likes": 201,
+    "sha": "dd76d535f5447ca3897a9c893fb1e612ead98192",
+    "library_name": "transformers",
+    "pipeline_tag": "feature-extraction",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "jina_embeddings_v5",
+      "feature-extraction",
+      "mteb",
+      "sentence-transformers",
+      "custom_code",
+      "multilingual",
+      "arxiv:2602.15547",
+      "base_model:Qwen/Qwen3-0.6B-Base",
+      "base_model:finetune:Qwen/Qwen3-0.6B-Base",
+      "license:cc-by-nc-4.0",
+      "region:eu"
+    ]
+  }
+}

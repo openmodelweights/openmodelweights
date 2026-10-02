@@ -1,0 +1,257 @@
+{
+  "id": "alefiury-wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+  "name": "wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+  "developer": "alefiury",
+  "family": "wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+  "variant": "wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+  "model": {
+    "parameters": "0.315702B",
+    "total_parameters_billions": 0.315701634,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Audio Classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "wav2vec2",
+      "audio-classification",
+      "generated_from_trainer",
+      "dataset:librispeech_asr",
+      "base_model:facebook/wav2vec2-xls-r-300m",
+      "base_model:finetune:facebook/wav2vec2-xls-r-300m",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin",
+      "training_args.bin"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.63,
+      "fp8_int8": 0.32,
+      "int4": 0.16
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+    "variant": "wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "facebook/wav2vec2-xls-r-300m"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "recipe-or-training-files-present",
+      "files": [
+        "training_args.bin"
+      ],
+      "links": [
+        "https://huggingface.co/facebook/wav2vec2-xls-r-300m"
+      ],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "librispeech_asr"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "recipe-or-training-files-present",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+    "rank": 783,
+    "downloads": 533562,
+    "likes": 48,
+    "last_modified": "2024-03-23T20:43:05+00:00",
+    "created_at": "2023-04-24T02:39:47+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "audio-classification",
+    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "audio-classification",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-03-23T20:43:05.000Z",
+    "created_at": "2023-04-24T02:39:47.000Z",
+    "downloads": 533562,
+    "likes": 48,
+    "sha": "7a28165f33e1dbb37adbce09c0a9afcd6095dd4d",
+    "library_name": "transformers",
+    "pipeline_tag": "audio-classification",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "wav2vec2",
+      "audio-classification",
+      "generated_from_trainer",
+      "dataset:librispeech_asr",
+      "base_model:facebook/wav2vec2-xls-r-300m",
+      "base_model:finetune:facebook/wav2vec2-xls-r-300m",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

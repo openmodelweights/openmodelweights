@@ -1,0 +1,249 @@
+{
+  "id": "bkai-foundation-models-vietnamese-bi-encoder",
+  "name": "vietnamese-bi-encoder",
+  "developer": "bkai-foundation-models",
+  "family": "vietnamese-bi-encoder",
+  "variant": "vietnamese-bi-encoder",
+  "model": {
+    "parameters": "0.134998B",
+    "total_parameters_billions": 0.134998272,
+    "context": {
+      "value": 258,
+      "display": "258 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text embeddings",
+    "tags": [
+      "generic",
+      "pytorch",
+      "safetensors",
+      "roberta",
+      "feature-extraction",
+      "sentence-transformers",
+      "sentence-similarity",
+      "transformers",
+      "vi",
+      "arxiv:2403.01616",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/bkai-foundation-models/vietnamese-bi-encoder",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.27,
+      "fp8_int8": 0.13,
+      "int4": 0.07
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "vietnamese-bi-encoder",
+    "variant": "vietnamese-bi-encoder",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/bkai-foundation-models/vietnamese-bi-encoder",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "bkai-foundation-models/vietnamese-bi-encoder",
+    "rank": 761,
+    "downloads": 481350,
+    "likes": 82,
+    "last_modified": "2024-03-11T06:56:35+00:00",
+    "created_at": "2023-09-09T04:19:59+00:00",
+    "library_name": "generic",
+    "pipeline_tag": "sentence-similarity",
+    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "generic",
+    "pipeline_tag": "sentence-similarity",
+    "declared": [
+      "Transformers",
+      "generic"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2024-03-11T06:56:35.000Z",
+    "created_at": "2023-09-09T04:19:59.000Z",
+    "downloads": 481350,
+    "likes": 82,
+    "sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+    "library_name": "generic",
+    "pipeline_tag": "sentence-similarity",
+    "tags": [
+      "generic",
+      "pytorch",
+      "safetensors",
+      "roberta",
+      "feature-extraction",
+      "sentence-transformers",
+      "sentence-similarity",
+      "transformers",
+      "vi",
+      "arxiv:2403.01616",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

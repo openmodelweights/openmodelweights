@@ -182,7 +182,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T12:09:36+00:00",
+    "checked_at_iso": "2026-10-02T12:22:24+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -222,12 +222,12 @@
     "repo_id": "ElKulako/cryptobert",
     "rank": 698,
     "downloads": 452406,
-    "likes": 192,
+    "likes": 193,
     "last_modified": "2025-05-26T11:52:00+00:00",
     "created_at": "2022-06-20T02:29:26+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-classification",
-    "discovered_at": "2026-10-02T12:09:34+00:00",
+    "discovered_at": "2026-10-02T12:22:22+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -244,7 +244,7 @@
     "last_modified": "2025-05-26T11:52:00.000Z",
     "created_at": "2022-06-20T02:29:26.000Z",
     "downloads": 452406,
-    "likes": 192,
+    "likes": 193,
     "sha": "9e37c910fe87727cb842a9ac55c6388256fe0f15",
     "library_name": "transformers",
     "pipeline_tag": "text-classification",

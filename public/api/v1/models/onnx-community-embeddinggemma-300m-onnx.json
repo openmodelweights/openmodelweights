@@ -1,0 +1,253 @@
+{
+  "id": "onnx-community-embeddinggemma-300m-onnx",
+  "name": "embeddinggemma-300m-ONNX",
+  "developer": "onnx-community",
+  "family": "embeddinggemma",
+  "variant": "embeddinggemma-300m-ONNX",
+  "model": {
+    "parameters": "Pending verification",
+    "total_parameters_billions": null,
+    "context": {
+      "value": 2048,
+      "display": "2,048 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text embeddings",
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gemma3_text",
+      "feature-extraction",
+      "text-embeddings-inference",
+      "sentence-similarity",
+      "base_model:google/embeddinggemma-300m",
+      "base_model:quantized:google/embeddinggemma-300m",
+      "license:gemma",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX",
+    "access": "public",
+    "exact_files": [
+      "onnx/model.onnx",
+      "onnx/model_fp16.onnx",
+      "onnx/model_no_gather_q4.onnx",
+      "onnx/model_q4.onnx",
+      "onnx/model_q4f16.onnx",
+      "onnx/model_quantized.onnx"
+    ],
+    "file_count": 6,
+    "formats": [
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/onnx-community/embeddinggemma-300m-ONNX",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "gemma",
+    "name": "gemma",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "not-calculated",
+    "note": "Total parameter count unavailable."
+  },
+  "lineage": {
+    "family": "embeddinggemma",
+    "variant": "embeddinggemma-300m-ONNX",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "google/embeddinggemma-300m"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "described-in-model-card",
+      "datasets": [],
+      "evidence": [
+        {
+          "source": "README.md",
+          "detail": "data/dataset section present"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/onnx-community/embeddinggemma-300m-ONNX",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "unknown",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "described-in-model-card",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "onnx-community/embeddinggemma-300m-ONNX",
+    "rank": 757,
+    "downloads": 498061,
+    "likes": 74,
+    "last_modified": "2025-09-04T15:43:56+00:00",
+    "created_at": "2025-08-22T16:41:16+00:00",
+    "library_name": "transformers.js",
+    "pipeline_tag": "sentence-similarity",
+    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "transformers.js",
+    "pipeline_tag": "sentence-similarity",
+    "declared": [
+      "ONNX Runtime",
+      "transformers.js"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-09-04T15:43:56.000Z",
+    "created_at": "2025-08-22T16:41:16.000Z",
+    "downloads": 498061,
+    "likes": 74,
+    "sha": "5090578d9565bb06545b4552f76e6bc2c93e4a66",
+    "library_name": "transformers.js",
+    "pipeline_tag": "sentence-similarity",
+    "tags": [
+      "transformers.js",
+      "onnx",
+      "gemma3_text",
+      "feature-extraction",
+      "text-embeddings-inference",
+      "sentence-similarity",
+      "base_model:google/embeddinggemma-300m",
+      "base_model:quantized:google/embeddinggemma-300m",
+      "license:gemma",
+      "region:us"
+    ]
+  }
+}
