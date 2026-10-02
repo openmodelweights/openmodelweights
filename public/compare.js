@@ -51,17 +51,19 @@
     let different=0;
     let html='<div class="compare-table" style="--compare-cols:'+ms.length+'"><div class="compare-corner">Field</div>';
     ms.forEach(m=>html+='<div class="compare-model-head"><span>'+esc(m.developer)+'</span><strong>'+esc(m.name)+'</strong><a href="/models/'+encodeURIComponent(m.id)+'/">Verified record →</a></div>');
+    let previousSection='';
     rows.forEach(([section,label,fn])=>{
       const vals=ms.map(fn),same=vals.every(v=>v===vals[0]);if(!same)different++;
-      const cls=same?'same':'different';
-      html+='<div class="compare-row '+cls+'" data-same="'+same+'"><div class="compare-label '+cls+'"><span>'+esc(section)+'</span><strong>'+esc(label)+'</strong></div>'+
-        vals.map((v,i)=>'<div class="compare-value '+cls+'" data-model="'+esc(ms[i].name)+'">'+esc(v)+'</div>').join('')+'</div>';
+      const cls=same?'same':'different',group=section!==previousSection?' group-start':'';
+      html+='<div class="compare-row '+cls+group+'" data-same="'+same+'" data-section="'+esc(section)+'"><div class="compare-label '+cls+group+'"><span>'+esc(section)+'</span><strong>'+esc(label)+'</strong></div>'+
+        vals.map((v,i)=>'<div class="compare-value '+cls+group+'" data-model="'+esc(ms[i].name)+'">'+esc(v)+'</div>').join('')+'</div>';
+      previousSection=section;
     });
     html+='</div>';output.innerHTML=html;
     if(summary)summary.innerHTML='<strong>'+different+'</strong> of '+rows.length+' fields differ · differences are highlighted, not ranked';
     applyDiff();
   }
-  fetch('/registry.json',{cache:'no-store'}).then(r=>r.json()).then(reg=>{
+  output.innerHTML='<div class="compare-loading" aria-hidden="true"><i></i><i></i><i></i><i></i></div>';fetch('/registry.json',{cache:'no-store'}).then(r=>r.json()).then(reg=>{
     models=[...(reg.models||[])].sort((a,b)=>(a.developer+' '+a.name).localeCompare(b.developer+' '+b.name));map=new Map(models.map(m=>[m.id,m]));
     const raw=new URL(location.href).searchParams.get('models');
     let ids=raw?raw.split(',').filter(id=>map.has(id)).slice(0,4):['qwen3-32b','mistral-small-4-119b-a6b'].filter(id=>map.has(id));
