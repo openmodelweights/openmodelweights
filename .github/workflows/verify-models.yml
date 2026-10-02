@@ -65,8 +65,10 @@ jobs:
       - name: Render mature product surfaces
         run: python scripts/render_product.py
 
-      - name: Validate benchmark evidence
-        run: python scripts/validate_benchmarks.py
+      - name: Validate benchmark evidence and runner
+        run: |
+          python -m py_compile benchmarks/runner/omw_vllm_benchmark.py
+          python scripts/validate_benchmarks.py
 
       - name: Build evidence intelligence layer
         run: python scripts/build_intelligence.py
