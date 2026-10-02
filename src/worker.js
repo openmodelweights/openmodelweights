@@ -92,7 +92,7 @@ function createServer(env){
 export default {
   fetch(request,env,ctx){
     const url=new URL(request.url);
-    if(url.pathname==="/mcp"||url.pathname.startsWith("/mcp/")){
+    if(url.pathname==="/mcp"){
       const handler=createMcpHandler(()=>createServer(env),{
         route:"/mcp",
         allowedHostnames:["openmodelweights.com","www.openmodelweights.com"],
