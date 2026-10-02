@@ -126,3 +126,6 @@ svg{max-width:100%}
   .site-header{padding-left:14px;padding-right:14px}
   .home-hero h1{font-size:clamp(44px,14vw,64px)}
 }
+
+/* Registry filtering */
+.registry-row[hidden]{display:none!important}.registry-result-count{font-size:13px;color:var(--muted);margin:-14px 0 18px}.registry-result-count strong{color:var(--text)}
