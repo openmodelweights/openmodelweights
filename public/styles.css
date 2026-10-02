@@ -580,3 +580,18 @@ body{background:var(--bg);letter-spacing:-.006em}
   .hero-proof{margin-top:38px}
   .home-trust{border-radius:0}
 }
+
+
+/* Brand hierarchy v3.2 — product name anchors the hero */
+.hero-brand-label{
+  margin:0 0 20px;
+  font-size:13px;
+  line-height:1;
+  font-weight:850;
+  letter-spacing:.18em;
+  color:var(--text)
+}
+.home-hero-v3 .hero-status{margin-bottom:20px}
+@media(max-width:800px){
+  .hero-brand-label{margin-bottom:17px;font-size:11px;letter-spacing:.16em}
+}
