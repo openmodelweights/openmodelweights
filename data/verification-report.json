@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-02T10:06:08+00:00",
+  "generated_at": "2026-10-02T10:07:20+00:00",
   "stats": {
-    "total_seed_records": 94,
-    "field_verified": 94,
+    "total_seed_records": 107,
+    "field_verified": 107,
     "errors": 0,
-    "license_declared": 94,
-    "commercial_use_classified": 84,
-    "context_verified": 73,
-    "exact_weight_lists": 94,
-    "base_model_declared": 51,
+    "license_declared": 107,
+    "commercial_use_classified": 96,
+    "context_verified": 86,
+    "exact_weight_lists": 107,
+    "base_model_declared": 60,
     "training_recipe_signal": 40,
     "data_disclosure_signal": 30,
-    "runtime_signal": 90
+    "runtime_signal": 103
   },
   "errors": []
 }

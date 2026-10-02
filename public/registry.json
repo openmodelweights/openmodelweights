@@ -1,6 +1,6 @@
 {
   "schema_version": "0.3.0",
-  "generated_at": "2026-10-02T10:06:08+00:00",
+  "generated_at": "2026-10-02T10:07:20+00:00",
   "project": "Open Model Weights",
   "homepage": "https://openmodelweights.com",
   "methodology": "https://openmodelweights.com/methodology/",
@@ -205,7 +205,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -229,7 +229,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: verified."
           }
         ]
       },
@@ -463,7 +463,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -487,7 +487,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: verified."
           }
         ]
       },
@@ -722,7 +722,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -746,7 +746,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: verified."
           }
         ]
       },
@@ -1111,7 +1111,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -1135,7 +1135,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: verified."
           }
         ]
       },
@@ -1359,7 +1359,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -1383,7 +1383,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: verified."
           }
         ]
       },
@@ -1606,7 +1606,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -1630,7 +1630,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: verified."
           }
         ]
       },
@@ -1911,7 +1911,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -1935,7 +1935,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: verified."
           }
         ]
       },
@@ -2143,7 +2143,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -2167,7 +2167,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -2369,7 +2369,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -2393,7 +2393,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -2596,7 +2596,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -2620,7 +2620,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -2827,7 +2827,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -2851,7 +2851,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -3052,7 +3052,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3076,7 +3076,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -3270,7 +3270,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3294,7 +3294,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -3486,7 +3486,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3510,7 +3510,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -3851,7 +3851,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3875,7 +3875,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -4206,7 +4206,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4230,7 +4230,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -4440,7 +4440,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4464,7 +4464,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -4732,7 +4732,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4756,7 +4756,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -5169,7 +5169,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5193,7 +5193,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -5612,7 +5612,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5636,7 +5636,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -5826,7 +5826,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5850,7 +5850,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -6065,7 +6065,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6089,7 +6089,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -6301,7 +6301,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6325,7 +6325,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -6559,7 +6559,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6583,7 +6583,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -6788,7 +6788,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6812,7 +6812,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -7063,7 +7063,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7087,7 +7087,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -7358,7 +7358,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7382,7 +7382,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -7595,7 +7595,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7619,7 +7619,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -7838,7 +7838,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7862,7 +7862,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -8073,7 +8073,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8097,7 +8097,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -8316,7 +8316,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8340,7 +8340,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -8557,7 +8557,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8581,7 +8581,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -8801,7 +8801,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8825,7 +8825,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -9025,7 +9025,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9049,7 +9049,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -9256,7 +9256,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9280,7 +9280,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -9474,7 +9474,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9498,7 +9498,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -9692,7 +9692,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9716,7 +9716,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -9911,7 +9911,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9935,7 +9935,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -10130,7 +10130,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10154,7 +10154,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -10360,7 +10360,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10384,7 +10384,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -10581,7 +10581,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10605,7 +10605,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -10803,7 +10803,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10827,7 +10827,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -10863,6 +10863,500 @@
           "base_model:finetune:Qwen/Qwen3-0.6B-Base",
           "license:apache-2.0",
           "endpoints_compatible",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "id": "mistral-large-3-675b-instruct-2512-nvfp4",
+      "name": "Mistral-Large-3-675B-Instruct-2512-NVFP4",
+      "developer": "Mistral AI",
+      "family": "Mistral Large 3",
+      "variant": "Mistral-Large-3-675B-Instruct-2512-NVFP4",
+      "model": {
+        "parameters": "675B",
+        "total_parameters_billions": 675.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text",
+        "tags": [
+          "text",
+          "mistral large 3"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+        "access": "public",
+        "exact_files": [
+          "consolidated-00001-of-00273.safetensors",
+          "consolidated-00002-of-00273.safetensors",
+          "consolidated-00003-of-00273.safetensors",
+          "consolidated-00004-of-00273.safetensors",
+          "consolidated-00005-of-00273.safetensors",
+          "consolidated-00006-of-00273.safetensors",
+          "consolidated-00007-of-00273.safetensors",
+          "consolidated-00008-of-00273.safetensors",
+          "consolidated-00009-of-00273.safetensors",
+          "consolidated-00010-of-00273.safetensors",
+          "consolidated-00011-of-00273.safetensors",
+          "consolidated-00012-of-00273.safetensors",
+          "consolidated-00013-of-00273.safetensors",
+          "consolidated-00014-of-00273.safetensors",
+          "consolidated-00015-of-00273.safetensors",
+          "consolidated-00016-of-00273.safetensors",
+          "consolidated-00017-of-00273.safetensors",
+          "consolidated-00018-of-00273.safetensors",
+          "consolidated-00019-of-00273.safetensors",
+          "consolidated-00020-of-00273.safetensors",
+          "consolidated-00021-of-00273.safetensors",
+          "consolidated-00022-of-00273.safetensors",
+          "consolidated-00023-of-00273.safetensors",
+          "consolidated-00024-of-00273.safetensors",
+          "consolidated-00025-of-00273.safetensors",
+          "consolidated-00026-of-00273.safetensors",
+          "consolidated-00027-of-00273.safetensors",
+          "consolidated-00028-of-00273.safetensors",
+          "consolidated-00029-of-00273.safetensors",
+          "consolidated-00030-of-00273.safetensors",
+          "consolidated-00031-of-00273.safetensors",
+          "consolidated-00032-of-00273.safetensors",
+          "consolidated-00033-of-00273.safetensors",
+          "consolidated-00034-of-00273.safetensors",
+          "consolidated-00035-of-00273.safetensors",
+          "consolidated-00036-of-00273.safetensors",
+          "consolidated-00037-of-00273.safetensors",
+          "consolidated-00038-of-00273.safetensors",
+          "consolidated-00039-of-00273.safetensors",
+          "consolidated-00040-of-00273.safetensors",
+          "consolidated-00041-of-00273.safetensors",
+          "consolidated-00042-of-00273.safetensors",
+          "consolidated-00043-of-00273.safetensors",
+          "consolidated-00044-of-00273.safetensors",
+          "consolidated-00045-of-00273.safetensors",
+          "consolidated-00046-of-00273.safetensors",
+          "consolidated-00047-of-00273.safetensors",
+          "consolidated-00048-of-00273.safetensors",
+          "consolidated-00049-of-00273.safetensors",
+          "consolidated-00050-of-00273.safetensors",
+          "consolidated-00051-of-00273.safetensors",
+          "consolidated-00052-of-00273.safetensors",
+          "consolidated-00053-of-00273.safetensors",
+          "consolidated-00054-of-00273.safetensors",
+          "consolidated-00055-of-00273.safetensors",
+          "consolidated-00056-of-00273.safetensors",
+          "consolidated-00057-of-00273.safetensors",
+          "consolidated-00058-of-00273.safetensors",
+          "consolidated-00059-of-00273.safetensors",
+          "consolidated-00060-of-00273.safetensors",
+          "consolidated-00061-of-00273.safetensors",
+          "consolidated-00062-of-00273.safetensors",
+          "consolidated-00063-of-00273.safetensors",
+          "consolidated-00064-of-00273.safetensors",
+          "consolidated-00065-of-00273.safetensors",
+          "consolidated-00066-of-00273.safetensors",
+          "consolidated-00067-of-00273.safetensors",
+          "consolidated-00068-of-00273.safetensors",
+          "consolidated-00069-of-00273.safetensors",
+          "consolidated-00070-of-00273.safetensors",
+          "consolidated-00071-of-00273.safetensors",
+          "consolidated-00072-of-00273.safetensors",
+          "consolidated-00073-of-00273.safetensors",
+          "consolidated-00074-of-00273.safetensors",
+          "consolidated-00075-of-00273.safetensors",
+          "consolidated-00076-of-00273.safetensors",
+          "consolidated-00077-of-00273.safetensors",
+          "consolidated-00078-of-00273.safetensors",
+          "consolidated-00079-of-00273.safetensors",
+          "consolidated-00080-of-00273.safetensors",
+          "consolidated-00081-of-00273.safetensors",
+          "consolidated-00082-of-00273.safetensors",
+          "consolidated-00083-of-00273.safetensors",
+          "consolidated-00084-of-00273.safetensors",
+          "consolidated-00085-of-00273.safetensors",
+          "consolidated-00086-of-00273.safetensors",
+          "consolidated-00087-of-00273.safetensors",
+          "consolidated-00088-of-00273.safetensors",
+          "consolidated-00089-of-00273.safetensors",
+          "consolidated-00090-of-00273.safetensors",
+          "consolidated-00091-of-00273.safetensors",
+          "consolidated-00092-of-00273.safetensors",
+          "consolidated-00093-of-00273.safetensors",
+          "consolidated-00094-of-00273.safetensors",
+          "consolidated-00095-of-00273.safetensors",
+          "consolidated-00096-of-00273.safetensors",
+          "consolidated-00097-of-00273.safetensors",
+          "consolidated-00098-of-00273.safetensors",
+          "consolidated-00099-of-00273.safetensors",
+          "consolidated-00100-of-00273.safetensors",
+          "consolidated-00101-of-00273.safetensors",
+          "consolidated-00102-of-00273.safetensors",
+          "consolidated-00103-of-00273.safetensors",
+          "consolidated-00104-of-00273.safetensors",
+          "consolidated-00105-of-00273.safetensors",
+          "consolidated-00106-of-00273.safetensors",
+          "consolidated-00107-of-00273.safetensors",
+          "consolidated-00108-of-00273.safetensors",
+          "consolidated-00109-of-00273.safetensors",
+          "consolidated-00110-of-00273.safetensors",
+          "consolidated-00111-of-00273.safetensors",
+          "consolidated-00112-of-00273.safetensors",
+          "consolidated-00113-of-00273.safetensors",
+          "consolidated-00114-of-00273.safetensors",
+          "consolidated-00115-of-00273.safetensors",
+          "consolidated-00116-of-00273.safetensors",
+          "consolidated-00117-of-00273.safetensors",
+          "consolidated-00118-of-00273.safetensors",
+          "consolidated-00119-of-00273.safetensors",
+          "consolidated-00120-of-00273.safetensors",
+          "consolidated-00121-of-00273.safetensors",
+          "consolidated-00122-of-00273.safetensors",
+          "consolidated-00123-of-00273.safetensors",
+          "consolidated-00124-of-00273.safetensors",
+          "consolidated-00125-of-00273.safetensors",
+          "consolidated-00126-of-00273.safetensors",
+          "consolidated-00127-of-00273.safetensors",
+          "consolidated-00128-of-00273.safetensors",
+          "consolidated-00129-of-00273.safetensors",
+          "consolidated-00130-of-00273.safetensors",
+          "consolidated-00131-of-00273.safetensors",
+          "consolidated-00132-of-00273.safetensors",
+          "consolidated-00133-of-00273.safetensors",
+          "consolidated-00134-of-00273.safetensors",
+          "consolidated-00135-of-00273.safetensors",
+          "consolidated-00136-of-00273.safetensors",
+          "consolidated-00137-of-00273.safetensors",
+          "consolidated-00138-of-00273.safetensors",
+          "consolidated-00139-of-00273.safetensors",
+          "consolidated-00140-of-00273.safetensors",
+          "consolidated-00141-of-00273.safetensors",
+          "consolidated-00142-of-00273.safetensors",
+          "consolidated-00143-of-00273.safetensors",
+          "consolidated-00144-of-00273.safetensors",
+          "consolidated-00145-of-00273.safetensors",
+          "consolidated-00146-of-00273.safetensors",
+          "consolidated-00147-of-00273.safetensors",
+          "consolidated-00148-of-00273.safetensors",
+          "consolidated-00149-of-00273.safetensors",
+          "consolidated-00150-of-00273.safetensors",
+          "consolidated-00151-of-00273.safetensors",
+          "consolidated-00152-of-00273.safetensors",
+          "consolidated-00153-of-00273.safetensors",
+          "consolidated-00154-of-00273.safetensors",
+          "consolidated-00155-of-00273.safetensors",
+          "consolidated-00156-of-00273.safetensors",
+          "consolidated-00157-of-00273.safetensors",
+          "consolidated-00158-of-00273.safetensors",
+          "consolidated-00159-of-00273.safetensors",
+          "consolidated-00160-of-00273.safetensors",
+          "consolidated-00161-of-00273.safetensors",
+          "consolidated-00162-of-00273.safetensors",
+          "consolidated-00163-of-00273.safetensors",
+          "consolidated-00164-of-00273.safetensors",
+          "consolidated-00165-of-00273.safetensors",
+          "consolidated-00166-of-00273.safetensors",
+          "consolidated-00167-of-00273.safetensors",
+          "consolidated-00168-of-00273.safetensors",
+          "consolidated-00169-of-00273.safetensors",
+          "consolidated-00170-of-00273.safetensors",
+          "consolidated-00171-of-00273.safetensors",
+          "consolidated-00172-of-00273.safetensors",
+          "consolidated-00173-of-00273.safetensors",
+          "consolidated-00174-of-00273.safetensors",
+          "consolidated-00175-of-00273.safetensors",
+          "consolidated-00176-of-00273.safetensors",
+          "consolidated-00177-of-00273.safetensors",
+          "consolidated-00178-of-00273.safetensors",
+          "consolidated-00179-of-00273.safetensors",
+          "consolidated-00180-of-00273.safetensors",
+          "consolidated-00181-of-00273.safetensors",
+          "consolidated-00182-of-00273.safetensors",
+          "consolidated-00183-of-00273.safetensors",
+          "consolidated-00184-of-00273.safetensors",
+          "consolidated-00185-of-00273.safetensors",
+          "consolidated-00186-of-00273.safetensors",
+          "consolidated-00187-of-00273.safetensors",
+          "consolidated-00188-of-00273.safetensors",
+          "consolidated-00189-of-00273.safetensors",
+          "consolidated-00190-of-00273.safetensors",
+          "consolidated-00191-of-00273.safetensors",
+          "consolidated-00192-of-00273.safetensors",
+          "consolidated-00193-of-00273.safetensors",
+          "consolidated-00194-of-00273.safetensors",
+          "consolidated-00195-of-00273.safetensors",
+          "consolidated-00196-of-00273.safetensors",
+          "consolidated-00197-of-00273.safetensors",
+          "consolidated-00198-of-00273.safetensors",
+          "consolidated-00199-of-00273.safetensors",
+          "consolidated-00200-of-00273.safetensors",
+          "consolidated-00201-of-00273.safetensors",
+          "consolidated-00202-of-00273.safetensors",
+          "consolidated-00203-of-00273.safetensors",
+          "consolidated-00204-of-00273.safetensors",
+          "consolidated-00205-of-00273.safetensors",
+          "consolidated-00206-of-00273.safetensors",
+          "consolidated-00207-of-00273.safetensors",
+          "consolidated-00208-of-00273.safetensors",
+          "consolidated-00209-of-00273.safetensors",
+          "consolidated-00210-of-00273.safetensors",
+          "consolidated-00211-of-00273.safetensors",
+          "consolidated-00212-of-00273.safetensors",
+          "consolidated-00213-of-00273.safetensors",
+          "consolidated-00214-of-00273.safetensors",
+          "consolidated-00215-of-00273.safetensors",
+          "consolidated-00216-of-00273.safetensors",
+          "consolidated-00217-of-00273.safetensors",
+          "consolidated-00218-of-00273.safetensors",
+          "consolidated-00219-of-00273.safetensors",
+          "consolidated-00220-of-00273.safetensors",
+          "consolidated-00221-of-00273.safetensors",
+          "consolidated-00222-of-00273.safetensors",
+          "consolidated-00223-of-00273.safetensors",
+          "consolidated-00224-of-00273.safetensors",
+          "consolidated-00225-of-00273.safetensors",
+          "consolidated-00226-of-00273.safetensors",
+          "consolidated-00227-of-00273.safetensors",
+          "consolidated-00228-of-00273.safetensors",
+          "consolidated-00229-of-00273.safetensors",
+          "consolidated-00230-of-00273.safetensors",
+          "consolidated-00231-of-00273.safetensors",
+          "consolidated-00232-of-00273.safetensors",
+          "consolidated-00233-of-00273.safetensors",
+          "consolidated-00234-of-00273.safetensors",
+          "consolidated-00235-of-00273.safetensors",
+          "consolidated-00236-of-00273.safetensors",
+          "consolidated-00237-of-00273.safetensors",
+          "consolidated-00238-of-00273.safetensors",
+          "consolidated-00239-of-00273.safetensors",
+          "consolidated-00240-of-00273.safetensors",
+          "consolidated-00241-of-00273.safetensors",
+          "consolidated-00242-of-00273.safetensors",
+          "consolidated-00243-of-00273.safetensors",
+          "consolidated-00244-of-00273.safetensors",
+          "consolidated-00245-of-00273.safetensors",
+          "consolidated-00246-of-00273.safetensors",
+          "consolidated-00247-of-00273.safetensors",
+          "consolidated-00248-of-00273.safetensors",
+          "consolidated-00249-of-00273.safetensors",
+          "consolidated-00250-of-00273.safetensors",
+          "consolidated-00251-of-00273.safetensors",
+          "consolidated-00252-of-00273.safetensors",
+          "consolidated-00253-of-00273.safetensors",
+          "consolidated-00254-of-00273.safetensors",
+          "consolidated-00255-of-00273.safetensors",
+          "consolidated-00256-of-00273.safetensors",
+          "consolidated-00257-of-00273.safetensors",
+          "consolidated-00258-of-00273.safetensors",
+          "consolidated-00259-of-00273.safetensors",
+          "consolidated-00260-of-00273.safetensors",
+          "consolidated-00261-of-00273.safetensors",
+          "consolidated-00262-of-00273.safetensors",
+          "consolidated-00263-of-00273.safetensors",
+          "consolidated-00264-of-00273.safetensors",
+          "consolidated-00265-of-00273.safetensors",
+          "consolidated-00266-of-00273.safetensors",
+          "consolidated-00267-of-00273.safetensors",
+          "consolidated-00268-of-00273.safetensors",
+          "consolidated-00269-of-00273.safetensors",
+          "consolidated-00270-of-00273.safetensors",
+          "consolidated-00271-of-00273.safetensors",
+          "consolidated-00272-of-00273.safetensors",
+          "consolidated-00273-of-00273.safetensors",
+          "consolidated.safetensors.index.json"
+        ],
+        "file_count": 274,
+        "formats": [
+          "Safetensors"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": false,
+            "status": "not-observed"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 1350.0,
+          "fp8_int8": 675.0,
+          "int4": 337.5
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Mistral Large 3",
+        "variant": "Mistral-Large-3-675B-Instruct-2512-NVFP4",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Mistral-Large-3-675B-Base-2512"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-09-11T08:37:56.000Z",
+        "downloads": 11798,
+        "likes": 78,
+        "sha": "6f01426c721bd365f29a108f2389782e9671aab2",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "compressed-tensors",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "base_model:mistralai/Mistral-Large-3-675B-Base-2512",
+          "base_model:finetune:mistralai/Mistral-Large-3-675B-Base-2512",
+          "license:apache-2.0",
           "region:us"
         ]
       }
@@ -11023,7 +11517,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11047,7 +11541,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -11258,7 +11752,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -11282,7 +11776,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -11310,6 +11804,239 @@
           "vllm",
           "base_model:mistralai/Leanstral-2603",
           "base_model:finetune:mistralai/Leanstral-2603",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "id": "mistral-small-4-119b-2603-eagle",
+      "name": "Mistral-Small-4-119B-2603-eagle",
+      "developer": "Mistral AI",
+      "family": "Mistral Small 4",
+      "variant": "Mistral-Small-4-119B-2603-eagle",
+      "model": {
+        "parameters": "119B",
+        "total_parameters_billions": 119.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Speculative decoding asset",
+        "tags": [
+          "speculative decoding asset",
+          "mistral small 4"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-eagle",
+        "access": "public",
+        "exact_files": [
+          "consolidated.safetensors"
+        ],
+        "file_count": 1,
+        "formats": [
+          "Safetensors"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": false,
+            "status": "not-observed"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Mistral-Small-4-119B-2603-eagle",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 238.0,
+          "fp8_int8": 119.0,
+          "int4": 59.5
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Mistral Small 4",
+        "variant": "Mistral-Small-4-119B-2603-eagle",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Mistral-Small-4-119B-2603"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-eagle",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Mistral-Small-4-119B-2603-eagle",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-eagle/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-eagle/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": null,
+        "pipeline_tag": null,
+        "declared": [
+          "vLLM"
+        ],
+        "mentioned_in_model_card": [
+          "Transformers",
+          "mistral-common"
+        ],
+        "artifact_signals": [],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-07-15T12:23:57.000Z",
+        "downloads": 328,
+        "likes": 62,
+        "sha": "9a8ea22dca0161ff7af7879f4a0000f65314797d",
+        "library_name": null,
+        "pipeline_tag": null,
+        "tags": [
+          "vLLM",
+          "en",
+          "fr",
+          "de",
+          "es",
+          "pt",
+          "it",
+          "ja",
+          "ko",
+          "ru",
+          "zh",
+          "ar",
+          "fa",
+          "id",
+          "ms",
+          "ne",
+          "pl",
+          "ro",
+          "sr",
+          "sv",
+          "tr",
+          "uk",
+          "vi",
+          "hi",
+          "bn",
+          "base_model:mistralai/Mistral-Small-4-119B-2603",
+          "base_model:finetune:mistralai/Mistral-Small-4-119B-2603",
           "license:apache-2.0",
           "region:us"
         ]
@@ -11475,7 +12202,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11499,7 +12226,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -11557,6 +12284,713 @@
           "license:other",
           "eval-results",
           "fp8",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "id": "mistral-large-3-675b-instruct-2512-eagle",
+      "name": "Mistral-Large-3-675B-Instruct-2512-Eagle",
+      "developer": "Mistral AI",
+      "family": "Mistral Large 3",
+      "variant": "Mistral-Large-3-675B-Instruct-2512-Eagle",
+      "model": {
+        "parameters": "675B",
+        "total_parameters_billions": 675.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Speculative decoding asset",
+        "tags": [
+          "speculative decoding asset",
+          "mistral large 3"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle",
+        "access": "public",
+        "exact_files": [
+          "consolidated.safetensors"
+        ],
+        "file_count": 1,
+        "formats": [
+          "Safetensors"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": false,
+            "status": "not-observed"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 1350.0,
+          "fp8_int8": 675.0,
+          "int4": 337.5
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Mistral Large 3",
+        "variant": "Mistral-Large-3-675B-Instruct-2512-Eagle",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "not-declared",
+          "models": [],
+          "relation": null,
+          "evidence": []
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "not-declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-07-15T12:22:54.000Z",
+        "downloads": 167,
+        "likes": 30,
+        "sha": "a2eec8837f6b4b2a434a5bbc27c534c9640aef89",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "id": "mistral-large-3-675b-instruct-2512",
+      "name": "Mistral-Large-3-675B-Instruct-2512",
+      "developer": "Mistral AI",
+      "family": "Mistral Large 3",
+      "variant": "Mistral-Large-3-675B-Instruct-2512",
+      "model": {
+        "parameters": "675B",
+        "total_parameters_billions": 675.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text",
+        "tags": [
+          "text",
+          "mistral large 3"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
+        "access": "public",
+        "exact_files": [
+          "consolidated-00001-of-00272.safetensors",
+          "consolidated-00002-of-00272.safetensors",
+          "consolidated-00003-of-00272.safetensors",
+          "consolidated-00004-of-00272.safetensors",
+          "consolidated-00005-of-00272.safetensors",
+          "consolidated-00006-of-00272.safetensors",
+          "consolidated-00007-of-00272.safetensors",
+          "consolidated-00008-of-00272.safetensors",
+          "consolidated-00009-of-00272.safetensors",
+          "consolidated-00010-of-00272.safetensors",
+          "consolidated-00011-of-00272.safetensors",
+          "consolidated-00012-of-00272.safetensors",
+          "consolidated-00013-of-00272.safetensors",
+          "consolidated-00014-of-00272.safetensors",
+          "consolidated-00015-of-00272.safetensors",
+          "consolidated-00016-of-00272.safetensors",
+          "consolidated-00017-of-00272.safetensors",
+          "consolidated-00018-of-00272.safetensors",
+          "consolidated-00019-of-00272.safetensors",
+          "consolidated-00020-of-00272.safetensors",
+          "consolidated-00021-of-00272.safetensors",
+          "consolidated-00022-of-00272.safetensors",
+          "consolidated-00023-of-00272.safetensors",
+          "consolidated-00024-of-00272.safetensors",
+          "consolidated-00025-of-00272.safetensors",
+          "consolidated-00026-of-00272.safetensors",
+          "consolidated-00027-of-00272.safetensors",
+          "consolidated-00028-of-00272.safetensors",
+          "consolidated-00029-of-00272.safetensors",
+          "consolidated-00030-of-00272.safetensors",
+          "consolidated-00031-of-00272.safetensors",
+          "consolidated-00032-of-00272.safetensors",
+          "consolidated-00033-of-00272.safetensors",
+          "consolidated-00034-of-00272.safetensors",
+          "consolidated-00035-of-00272.safetensors",
+          "consolidated-00036-of-00272.safetensors",
+          "consolidated-00037-of-00272.safetensors",
+          "consolidated-00038-of-00272.safetensors",
+          "consolidated-00039-of-00272.safetensors",
+          "consolidated-00040-of-00272.safetensors",
+          "consolidated-00041-of-00272.safetensors",
+          "consolidated-00042-of-00272.safetensors",
+          "consolidated-00043-of-00272.safetensors",
+          "consolidated-00044-of-00272.safetensors",
+          "consolidated-00045-of-00272.safetensors",
+          "consolidated-00046-of-00272.safetensors",
+          "consolidated-00047-of-00272.safetensors",
+          "consolidated-00048-of-00272.safetensors",
+          "consolidated-00049-of-00272.safetensors",
+          "consolidated-00050-of-00272.safetensors",
+          "consolidated-00051-of-00272.safetensors",
+          "consolidated-00052-of-00272.safetensors",
+          "consolidated-00053-of-00272.safetensors",
+          "consolidated-00054-of-00272.safetensors",
+          "consolidated-00055-of-00272.safetensors",
+          "consolidated-00056-of-00272.safetensors",
+          "consolidated-00057-of-00272.safetensors",
+          "consolidated-00058-of-00272.safetensors",
+          "consolidated-00059-of-00272.safetensors",
+          "consolidated-00060-of-00272.safetensors",
+          "consolidated-00061-of-00272.safetensors",
+          "consolidated-00062-of-00272.safetensors",
+          "consolidated-00063-of-00272.safetensors",
+          "consolidated-00064-of-00272.safetensors",
+          "consolidated-00065-of-00272.safetensors",
+          "consolidated-00066-of-00272.safetensors",
+          "consolidated-00067-of-00272.safetensors",
+          "consolidated-00068-of-00272.safetensors",
+          "consolidated-00069-of-00272.safetensors",
+          "consolidated-00070-of-00272.safetensors",
+          "consolidated-00071-of-00272.safetensors",
+          "consolidated-00072-of-00272.safetensors",
+          "consolidated-00073-of-00272.safetensors",
+          "consolidated-00074-of-00272.safetensors",
+          "consolidated-00075-of-00272.safetensors",
+          "consolidated-00076-of-00272.safetensors",
+          "consolidated-00077-of-00272.safetensors",
+          "consolidated-00078-of-00272.safetensors",
+          "consolidated-00079-of-00272.safetensors",
+          "consolidated-00080-of-00272.safetensors",
+          "consolidated-00081-of-00272.safetensors",
+          "consolidated-00082-of-00272.safetensors",
+          "consolidated-00083-of-00272.safetensors",
+          "consolidated-00084-of-00272.safetensors",
+          "consolidated-00085-of-00272.safetensors",
+          "consolidated-00086-of-00272.safetensors",
+          "consolidated-00087-of-00272.safetensors",
+          "consolidated-00088-of-00272.safetensors",
+          "consolidated-00089-of-00272.safetensors",
+          "consolidated-00090-of-00272.safetensors",
+          "consolidated-00091-of-00272.safetensors",
+          "consolidated-00092-of-00272.safetensors",
+          "consolidated-00093-of-00272.safetensors",
+          "consolidated-00094-of-00272.safetensors",
+          "consolidated-00095-of-00272.safetensors",
+          "consolidated-00096-of-00272.safetensors",
+          "consolidated-00097-of-00272.safetensors",
+          "consolidated-00098-of-00272.safetensors",
+          "consolidated-00099-of-00272.safetensors",
+          "consolidated-00100-of-00272.safetensors",
+          "consolidated-00101-of-00272.safetensors",
+          "consolidated-00102-of-00272.safetensors",
+          "consolidated-00103-of-00272.safetensors",
+          "consolidated-00104-of-00272.safetensors",
+          "consolidated-00105-of-00272.safetensors",
+          "consolidated-00106-of-00272.safetensors",
+          "consolidated-00107-of-00272.safetensors",
+          "consolidated-00108-of-00272.safetensors",
+          "consolidated-00109-of-00272.safetensors",
+          "consolidated-00110-of-00272.safetensors",
+          "consolidated-00111-of-00272.safetensors",
+          "consolidated-00112-of-00272.safetensors",
+          "consolidated-00113-of-00272.safetensors",
+          "consolidated-00114-of-00272.safetensors",
+          "consolidated-00115-of-00272.safetensors",
+          "consolidated-00116-of-00272.safetensors",
+          "consolidated-00117-of-00272.safetensors",
+          "consolidated-00118-of-00272.safetensors",
+          "consolidated-00119-of-00272.safetensors",
+          "consolidated-00120-of-00272.safetensors",
+          "consolidated-00121-of-00272.safetensors",
+          "consolidated-00122-of-00272.safetensors",
+          "consolidated-00123-of-00272.safetensors",
+          "consolidated-00124-of-00272.safetensors",
+          "consolidated-00125-of-00272.safetensors",
+          "consolidated-00126-of-00272.safetensors",
+          "consolidated-00127-of-00272.safetensors",
+          "consolidated-00128-of-00272.safetensors",
+          "consolidated-00129-of-00272.safetensors",
+          "consolidated-00130-of-00272.safetensors",
+          "consolidated-00131-of-00272.safetensors",
+          "consolidated-00132-of-00272.safetensors",
+          "consolidated-00133-of-00272.safetensors",
+          "consolidated-00134-of-00272.safetensors",
+          "consolidated-00135-of-00272.safetensors",
+          "consolidated-00136-of-00272.safetensors",
+          "consolidated-00137-of-00272.safetensors",
+          "consolidated-00138-of-00272.safetensors",
+          "consolidated-00139-of-00272.safetensors",
+          "consolidated-00140-of-00272.safetensors",
+          "consolidated-00141-of-00272.safetensors",
+          "consolidated-00142-of-00272.safetensors",
+          "consolidated-00143-of-00272.safetensors",
+          "consolidated-00144-of-00272.safetensors",
+          "consolidated-00145-of-00272.safetensors",
+          "consolidated-00146-of-00272.safetensors",
+          "consolidated-00147-of-00272.safetensors",
+          "consolidated-00148-of-00272.safetensors",
+          "consolidated-00149-of-00272.safetensors",
+          "consolidated-00150-of-00272.safetensors",
+          "consolidated-00151-of-00272.safetensors",
+          "consolidated-00152-of-00272.safetensors",
+          "consolidated-00153-of-00272.safetensors",
+          "consolidated-00154-of-00272.safetensors",
+          "consolidated-00155-of-00272.safetensors",
+          "consolidated-00156-of-00272.safetensors",
+          "consolidated-00157-of-00272.safetensors",
+          "consolidated-00158-of-00272.safetensors",
+          "consolidated-00159-of-00272.safetensors",
+          "consolidated-00160-of-00272.safetensors",
+          "consolidated-00161-of-00272.safetensors",
+          "consolidated-00162-of-00272.safetensors",
+          "consolidated-00163-of-00272.safetensors",
+          "consolidated-00164-of-00272.safetensors",
+          "consolidated-00165-of-00272.safetensors",
+          "consolidated-00166-of-00272.safetensors",
+          "consolidated-00167-of-00272.safetensors",
+          "consolidated-00168-of-00272.safetensors",
+          "consolidated-00169-of-00272.safetensors",
+          "consolidated-00170-of-00272.safetensors",
+          "consolidated-00171-of-00272.safetensors",
+          "consolidated-00172-of-00272.safetensors",
+          "consolidated-00173-of-00272.safetensors",
+          "consolidated-00174-of-00272.safetensors",
+          "consolidated-00175-of-00272.safetensors",
+          "consolidated-00176-of-00272.safetensors",
+          "consolidated-00177-of-00272.safetensors",
+          "consolidated-00178-of-00272.safetensors",
+          "consolidated-00179-of-00272.safetensors",
+          "consolidated-00180-of-00272.safetensors",
+          "consolidated-00181-of-00272.safetensors",
+          "consolidated-00182-of-00272.safetensors",
+          "consolidated-00183-of-00272.safetensors",
+          "consolidated-00184-of-00272.safetensors",
+          "consolidated-00185-of-00272.safetensors",
+          "consolidated-00186-of-00272.safetensors",
+          "consolidated-00187-of-00272.safetensors",
+          "consolidated-00188-of-00272.safetensors",
+          "consolidated-00189-of-00272.safetensors",
+          "consolidated-00190-of-00272.safetensors",
+          "consolidated-00191-of-00272.safetensors",
+          "consolidated-00192-of-00272.safetensors",
+          "consolidated-00193-of-00272.safetensors",
+          "consolidated-00194-of-00272.safetensors",
+          "consolidated-00195-of-00272.safetensors",
+          "consolidated-00196-of-00272.safetensors",
+          "consolidated-00197-of-00272.safetensors",
+          "consolidated-00198-of-00272.safetensors",
+          "consolidated-00199-of-00272.safetensors",
+          "consolidated-00200-of-00272.safetensors",
+          "consolidated-00201-of-00272.safetensors",
+          "consolidated-00202-of-00272.safetensors",
+          "consolidated-00203-of-00272.safetensors",
+          "consolidated-00204-of-00272.safetensors",
+          "consolidated-00205-of-00272.safetensors",
+          "consolidated-00206-of-00272.safetensors",
+          "consolidated-00207-of-00272.safetensors",
+          "consolidated-00208-of-00272.safetensors",
+          "consolidated-00209-of-00272.safetensors",
+          "consolidated-00210-of-00272.safetensors",
+          "consolidated-00211-of-00272.safetensors",
+          "consolidated-00212-of-00272.safetensors",
+          "consolidated-00213-of-00272.safetensors",
+          "consolidated-00214-of-00272.safetensors",
+          "consolidated-00215-of-00272.safetensors",
+          "consolidated-00216-of-00272.safetensors",
+          "consolidated-00217-of-00272.safetensors",
+          "consolidated-00218-of-00272.safetensors",
+          "consolidated-00219-of-00272.safetensors",
+          "consolidated-00220-of-00272.safetensors",
+          "consolidated-00221-of-00272.safetensors",
+          "consolidated-00222-of-00272.safetensors",
+          "consolidated-00223-of-00272.safetensors",
+          "consolidated-00224-of-00272.safetensors",
+          "consolidated-00225-of-00272.safetensors",
+          "consolidated-00226-of-00272.safetensors",
+          "consolidated-00227-of-00272.safetensors",
+          "consolidated-00228-of-00272.safetensors",
+          "consolidated-00229-of-00272.safetensors",
+          "consolidated-00230-of-00272.safetensors",
+          "consolidated-00231-of-00272.safetensors",
+          "consolidated-00232-of-00272.safetensors",
+          "consolidated-00233-of-00272.safetensors",
+          "consolidated-00234-of-00272.safetensors",
+          "consolidated-00235-of-00272.safetensors",
+          "consolidated-00236-of-00272.safetensors",
+          "consolidated-00237-of-00272.safetensors",
+          "consolidated-00238-of-00272.safetensors",
+          "consolidated-00239-of-00272.safetensors",
+          "consolidated-00240-of-00272.safetensors",
+          "consolidated-00241-of-00272.safetensors",
+          "consolidated-00242-of-00272.safetensors",
+          "consolidated-00243-of-00272.safetensors",
+          "consolidated-00244-of-00272.safetensors",
+          "consolidated-00245-of-00272.safetensors",
+          "consolidated-00246-of-00272.safetensors",
+          "consolidated-00247-of-00272.safetensors",
+          "consolidated-00248-of-00272.safetensors",
+          "consolidated-00249-of-00272.safetensors",
+          "consolidated-00250-of-00272.safetensors",
+          "consolidated-00251-of-00272.safetensors",
+          "consolidated-00252-of-00272.safetensors",
+          "consolidated-00253-of-00272.safetensors",
+          "consolidated-00254-of-00272.safetensors",
+          "consolidated-00255-of-00272.safetensors",
+          "consolidated-00256-of-00272.safetensors",
+          "consolidated-00257-of-00272.safetensors",
+          "consolidated-00258-of-00272.safetensors",
+          "consolidated-00259-of-00272.safetensors",
+          "consolidated-00260-of-00272.safetensors",
+          "consolidated-00261-of-00272.safetensors",
+          "consolidated-00262-of-00272.safetensors",
+          "consolidated-00263-of-00272.safetensors",
+          "consolidated-00264-of-00272.safetensors",
+          "consolidated-00265-of-00272.safetensors",
+          "consolidated-00266-of-00272.safetensors",
+          "consolidated-00267-of-00272.safetensors",
+          "consolidated-00268-of-00272.safetensors",
+          "consolidated-00269-of-00272.safetensors",
+          "consolidated-00270-of-00272.safetensors",
+          "consolidated-00271-of-00272.safetensors",
+          "consolidated-00272-of-00272.safetensors",
+          "consolidated.safetensors.index.json"
+        ],
+        "file_count": 273,
+        "formats": [
+          "Safetensors"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": false,
+            "status": "not-observed"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Mistral-Large-3-675B-Instruct-2512",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 1350.0,
+          "fp8_int8": 675.0,
+          "int4": 337.5
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Mistral Large 3",
+        "variant": "Mistral-Large-3-675B-Instruct-2512",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Mistral-Large-3-675B-Base-2512"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Mistral-Large-3-675B-Instruct-2512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [
+          "Transformers"
+        ],
+        "artifact_signals": [],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-07-15T12:22:43.000Z",
+        "downloads": 1707,
+        "likes": 252,
+        "sha": "383ffea2c7d60dfd44ca960e8e691709d4fdb9cd",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "compressed-tensors",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "base_model:mistralai/Mistral-Large-3-675B-Base-2512",
+          "base_model:finetune:mistralai/Mistral-Large-3-675B-Base-2512",
+          "license:apache-2.0",
+          "eval-results",
           "region:us"
         ]
       }
@@ -11721,7 +13155,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11745,7 +13179,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -11954,7 +13388,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11978,7 +13412,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -12186,7 +13620,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12210,7 +13644,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -12419,7 +13853,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12443,7 +13877,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -12650,7 +14084,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12674,7 +14108,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -12879,7 +14313,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12903,7 +14337,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -13117,7 +14551,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -13141,7 +14575,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -13352,7 +14786,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -13376,7 +14810,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -13585,7 +15019,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -13609,7 +15043,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -13807,7 +15241,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -13831,7 +15265,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -14029,7 +15463,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14053,7 +15487,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -14302,7 +15736,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14326,7 +15760,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -14361,6 +15795,270 @@
           "mistral-common",
           "license:other",
           "fp8",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "id": "pixtral-large-instruct-2411",
+      "name": "Pixtral-Large-Instruct-2411",
+      "developer": "Mistral AI",
+      "family": "Pixtral",
+      "variant": "Large-Instruct-2411",
+      "model": {
+        "parameters": "—",
+        "total_parameters_billions": null,
+        "context": {
+          "value": 128000,
+          "display": "128,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Image + text → text",
+        "tags": [
+          "image + text → text",
+          "pixtral"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411",
+        "access": "public",
+        "exact_files": [
+          "consolidated-00001-of-00052.safetensors",
+          "consolidated-00002-of-00052.safetensors",
+          "consolidated-00003-of-00052.safetensors",
+          "consolidated-00004-of-00052.safetensors",
+          "consolidated-00005-of-00052.safetensors",
+          "consolidated-00006-of-00052.safetensors",
+          "consolidated-00007-of-00052.safetensors",
+          "consolidated-00008-of-00052.safetensors",
+          "consolidated-00009-of-00052.safetensors",
+          "consolidated-00010-of-00052.safetensors",
+          "consolidated-00011-of-00052.safetensors",
+          "consolidated-00012-of-00052.safetensors",
+          "consolidated-00013-of-00052.safetensors",
+          "consolidated-00014-of-00052.safetensors",
+          "consolidated-00015-of-00052.safetensors",
+          "consolidated-00016-of-00052.safetensors",
+          "consolidated-00017-of-00052.safetensors",
+          "consolidated-00018-of-00052.safetensors",
+          "consolidated-00019-of-00052.safetensors",
+          "consolidated-00020-of-00052.safetensors",
+          "consolidated-00021-of-00052.safetensors",
+          "consolidated-00022-of-00052.safetensors",
+          "consolidated-00023-of-00052.safetensors",
+          "consolidated-00024-of-00052.safetensors",
+          "consolidated-00025-of-00052.safetensors",
+          "consolidated-00026-of-00052.safetensors",
+          "consolidated-00027-of-00052.safetensors",
+          "consolidated-00028-of-00052.safetensors",
+          "consolidated-00029-of-00052.safetensors",
+          "consolidated-00030-of-00052.safetensors",
+          "consolidated-00031-of-00052.safetensors",
+          "consolidated-00032-of-00052.safetensors",
+          "consolidated-00033-of-00052.safetensors",
+          "consolidated-00034-of-00052.safetensors",
+          "consolidated-00035-of-00052.safetensors",
+          "consolidated-00036-of-00052.safetensors",
+          "consolidated-00037-of-00052.safetensors",
+          "consolidated-00038-of-00052.safetensors",
+          "consolidated-00039-of-00052.safetensors",
+          "consolidated-00040-of-00052.safetensors",
+          "consolidated-00041-of-00052.safetensors",
+          "consolidated-00042-of-00052.safetensors",
+          "consolidated-00043-of-00052.safetensors",
+          "consolidated-00044-of-00052.safetensors",
+          "consolidated-00045-of-00052.safetensors",
+          "consolidated-00046-of-00052.safetensors",
+          "consolidated-00047-of-00052.safetensors",
+          "consolidated-00048-of-00052.safetensors",
+          "consolidated-00049-of-00052.safetensors",
+          "consolidated-00050-of-00052.safetensors",
+          "consolidated-00051-of-00052.safetensors",
+          "consolidated-00052-of-00052.safetensors",
+          "consolidated.safetensors.index.json"
+        ],
+        "file_count": 53,
+        "formats": [
+          "Safetensors"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": false,
+            "status": "not-observed"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Pixtral-Large-Instruct-2411",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "other",
+        "name": "mrl",
+        "url": "https://mistral.ai/licenses/MRL-0.1.md",
+        "status": "verified",
+        "commercial_use": {
+          "status": "not-allowed-without-commercial-license",
+          "label": "Non-commercial research only without a separate commercial license",
+          "basis": "https://mistral.ai/licenses/MRL-0.1.md"
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "not-calculated",
+        "note": "Total parameter count unavailable."
+      },
+      "lineage": {
+        "family": "Pixtral",
+        "variant": "Large-Instruct-2411",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "not-declared",
+          "models": [],
+          "relation": null,
+          "evidence": []
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Pixtral-Large-Instruct-2411",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://mistral.ai/licenses/MRL-0.1.md",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "not-declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [
+          "Transformers"
+        ],
+        "artifact_signals": [],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-06-02T04:46:39.000Z",
+        "downloads": 215,
+        "likes": 435,
+        "sha": "c1e51f6f11974a1199685d35c62f5a425c2d001e",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "mistral-common",
+          "en",
+          "fr",
+          "de",
+          "es",
+          "it",
+          "pt",
+          "zh",
+          "ja",
+          "ru",
+          "ko",
+          "license:other",
           "region:us"
         ]
       }
@@ -14512,7 +16210,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -14536,7 +16234,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -14576,6 +16274,243 @@
           "license:apache-2.0",
           "deploy:sagemaker",
           "deploy:azure",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "id": "mistral-medium-3-5-128b-eagle",
+      "name": "Mistral-Medium-3.5-128B-EAGLE",
+      "developer": "Mistral AI",
+      "family": "Mistral Medium 3.5",
+      "variant": "Mistral-Medium-3.5-128B-EAGLE",
+      "model": {
+        "parameters": "128B",
+        "total_parameters_billions": 128.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Speculative decoding asset",
+        "tags": [
+          "speculative decoding asset",
+          "mistral medium 3.5"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+        "access": "public",
+        "exact_files": [
+          "consolidated.safetensors"
+        ],
+        "file_count": 1,
+        "formats": [
+          "Safetensors"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": false,
+            "status": "not-observed"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "other",
+        "name": "other",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "unknown",
+          "label": "Not determined from declared license",
+          "basis": null
+        },
+        "repository_license_files": [
+          "LICENSE"
+        ]
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 256.0,
+          "fp8_int8": 128.0,
+          "int4": 64.0
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Mistral Medium 3.5",
+        "variant": "Mistral-Medium-3.5-128B-EAGLE",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Mistral-Medium-3.5-128B"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Mistral-Medium-3.5-128B-EAGLE",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "unknown",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": null,
+        "pipeline_tag": null,
+        "declared": [
+          "vLLM"
+        ],
+        "mentioned_in_model_card": [
+          "SGLang",
+          "Transformers",
+          "mistral-common"
+        ],
+        "artifact_signals": [],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-04-30T06:32:10.000Z",
+        "downloads": 187,
+        "likes": 62,
+        "sha": "d31694b0f55b51d4d962b5c3dbf0e03d1f019275",
+        "library_name": null,
+        "pipeline_tag": null,
+        "tags": [
+          "vLLM",
+          "EAGLE",
+          "en",
+          "fr",
+          "de",
+          "es",
+          "pt",
+          "it",
+          "ja",
+          "ko",
+          "ru",
+          "zh",
+          "ar",
+          "fa",
+          "id",
+          "ms",
+          "ne",
+          "pl",
+          "ro",
+          "sr",
+          "sv",
+          "tr",
+          "uk",
+          "vi",
+          "hi",
+          "bn",
+          "base_model:mistralai/Mistral-Medium-3.5-128B",
+          "base_model:finetune:mistralai/Mistral-Medium-3.5-128B",
+          "license:other",
           "region:us"
         ]
       }
@@ -14748,7 +16683,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -14772,7 +16707,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -14972,7 +16907,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14996,7 +16931,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -15223,7 +17158,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15247,7 +17182,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -15478,7 +17413,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15502,7 +17437,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -15551,6 +17486,1151 @@
           "base_model:quantized:mistralai/Ministral-3-3B-Instruct-2512",
           "license:apache-2.0",
           "region:us"
+        ]
+      }
+    },
+    {
+      "id": "ministral-3-3b-reasoning-2512-gguf",
+      "name": "Ministral-3-3B-Reasoning-2512-GGUF",
+      "developer": "Mistral AI",
+      "family": "Ministral 3",
+      "variant": "Ministral-3-3B-Reasoning-2512-GGUF",
+      "model": {
+        "parameters": "3B",
+        "total_parameters_billions": 3.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text",
+        "tags": [
+          "text",
+          "ministral 3"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Ministral-3-3B-Reasoning-2512-GGUF",
+        "access": "public",
+        "exact_files": [
+          "Ministral-3-3B-Reasoning-2512-BF16-mmproj.gguf",
+          "Ministral-3-3B-Reasoning-2512-BF16.gguf",
+          "Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf",
+          "Ministral-3-3B-Reasoning-2512-Q5_K_M.gguf",
+          "Ministral-3-3B-Reasoning-2512-Q8_0.gguf"
+        ],
+        "file_count": 5,
+        "formats": [
+          "GGUF"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": true,
+            "status": "verified"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Ministral-3-3B-Reasoning-2512-GGUF",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 6.0,
+          "fp8_int8": 3.0,
+          "int4": 1.5
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Ministral 3",
+        "variant": "Ministral-3-3B-Reasoning-2512-GGUF",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Ministral-3-3B-Reasoning-2512"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Reasoning-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Ministral-3-3B-Reasoning-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Reasoning-2512-GGUF/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Reasoning-2512-GGUF/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [
+          "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+        ],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-01-15T11:19:18.000Z",
+        "downloads": 4237,
+        "likes": 44,
+        "sha": "b432f0a2c144af8a1937b06e2ea7f75ebb4d0b31",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "gguf",
+          "mistral-common",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "arxiv:2601.08584",
+          "base_model:mistralai/Ministral-3-3B-Reasoning-2512",
+          "base_model:quantized:mistralai/Ministral-3-3B-Reasoning-2512",
+          "license:apache-2.0",
+          "region:us",
+          "conversational"
+        ]
+      }
+    },
+    {
+      "id": "ministral-3-8b-reasoning-2512-gguf",
+      "name": "Ministral-3-8B-Reasoning-2512-GGUF",
+      "developer": "Mistral AI",
+      "family": "Ministral 3",
+      "variant": "Ministral-3-8B-Reasoning-2512-GGUF",
+      "model": {
+        "parameters": "8B",
+        "total_parameters_billions": 8.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text",
+        "tags": [
+          "text",
+          "ministral 3"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512-GGUF",
+        "access": "public",
+        "exact_files": [
+          "Ministral-3-8B-Reasoning-2512-BF16-mmproj.gguf",
+          "Ministral-3-8B-Reasoning-2512-BF16.gguf",
+          "Ministral-3-8B-Reasoning-2512-Q4_K_M.gguf",
+          "Ministral-3-8B-Reasoning-2512-Q5_K_M.gguf",
+          "Ministral-3-8B-Reasoning-2512-Q8_0.gguf"
+        ],
+        "file_count": 5,
+        "formats": [
+          "GGUF"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": true,
+            "status": "verified"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Ministral-3-8B-Reasoning-2512-GGUF",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 16.0,
+          "fp8_int8": 8.0,
+          "int4": 4.0
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Ministral 3",
+        "variant": "Ministral-3-8B-Reasoning-2512-GGUF",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Ministral-3-8B-Reasoning-2512"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Ministral-3-8B-Reasoning-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512-GGUF/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512-GGUF/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [
+          "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+        ],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-01-15T11:19:00.000Z",
+        "downloads": 4527,
+        "likes": 44,
+        "sha": "4413bc9b7b091ddad28101650d1395f5e045a328",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "gguf",
+          "mistral-common",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "arxiv:2601.08584",
+          "base_model:mistralai/Ministral-3-8B-Reasoning-2512",
+          "base_model:quantized:mistralai/Ministral-3-8B-Reasoning-2512",
+          "license:apache-2.0",
+          "region:us",
+          "conversational"
+        ]
+      }
+    },
+    {
+      "id": "ministral-3-3b-instruct-2512-gguf",
+      "name": "Ministral-3-3B-Instruct-2512-GGUF",
+      "developer": "Mistral AI",
+      "family": "Ministral 3",
+      "variant": "Ministral-3-3B-Instruct-2512-GGUF",
+      "model": {
+        "parameters": "3B",
+        "total_parameters_billions": 3.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text",
+        "tags": [
+          "text",
+          "ministral 3"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+        "access": "public",
+        "exact_files": [
+          "Ministral-3-3B-Instruct-2512-BF16-mmproj.gguf",
+          "Ministral-3-3B-Instruct-2512-BF16.gguf",
+          "Ministral-3-3B-Instruct-2512-Q4_K_M.gguf",
+          "Ministral-3-3B-Instruct-2512-Q5_K_M.gguf",
+          "Ministral-3-3B-Instruct-2512-Q8_0.gguf"
+        ],
+        "file_count": 5,
+        "formats": [
+          "GGUF"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": true,
+            "status": "verified"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 6.0,
+          "fp8_int8": 3.0,
+          "int4": 1.5
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Ministral 3",
+        "variant": "Ministral-3-3B-Instruct-2512-GGUF",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Ministral-3-3B-Instruct-2512"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [
+          "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+        ],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-01-15T11:18:21.000Z",
+        "downloads": 39133,
+        "likes": 85,
+        "sha": "eb599d408350ea2bb60452cb86be7c7b2fc28227",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "gguf",
+          "mistral-common",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "arxiv:2601.08584",
+          "base_model:mistralai/Ministral-3-3B-Instruct-2512",
+          "base_model:quantized:mistralai/Ministral-3-3B-Instruct-2512",
+          "license:apache-2.0",
+          "region:us",
+          "conversational"
+        ]
+      }
+    },
+    {
+      "id": "ministral-3-8b-instruct-2512-gguf",
+      "name": "Ministral-3-8B-Instruct-2512-GGUF",
+      "developer": "Mistral AI",
+      "family": "Ministral 3",
+      "variant": "Ministral-3-8B-Instruct-2512-GGUF",
+      "model": {
+        "parameters": "8B",
+        "total_parameters_billions": 8.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text",
+        "tags": [
+          "text",
+          "ministral 3"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF",
+        "access": "public",
+        "exact_files": [
+          "Ministral-3-8B-Instruct-2512-BF16-mmproj.gguf",
+          "Ministral-3-8B-Instruct-2512-BF16.gguf",
+          "Ministral-3-8B-Instruct-2512-Q4_K_M.gguf",
+          "Ministral-3-8B-Instruct-2512-Q5_K_M.gguf",
+          "Ministral-3-8B-Instruct-2512-Q8_0.gguf"
+        ],
+        "file_count": 5,
+        "formats": [
+          "GGUF"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": true,
+            "status": "verified"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Ministral-3-8B-Instruct-2512-GGUF",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 16.0,
+          "fp8_int8": 8.0,
+          "int4": 4.0
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Ministral 3",
+        "variant": "Ministral-3-8B-Instruct-2512-GGUF",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Ministral-3-8B-Instruct-2512"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Ministral-3-8B-Instruct-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-GGUF/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [
+          "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+        ],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-01-15T11:18:05.000Z",
+        "downloads": 29409,
+        "likes": 77,
+        "sha": "0102285ad796bd99af90f58de616092e5630e970",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "gguf",
+          "mistral-common",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "arxiv:2601.08584",
+          "base_model:mistralai/Ministral-3-8B-Instruct-2512",
+          "base_model:quantized:mistralai/Ministral-3-8B-Instruct-2512",
+          "license:apache-2.0",
+          "region:us",
+          "conversational"
+        ]
+      }
+    },
+    {
+      "id": "ministral-3-14b-instruct-2512-gguf",
+      "name": "Ministral-3-14B-Instruct-2512-GGUF",
+      "developer": "Mistral AI",
+      "family": "Ministral 3",
+      "variant": "Ministral-3-14B-Instruct-2512-GGUF",
+      "model": {
+        "parameters": "14B",
+        "total_parameters_billions": 14.0,
+        "context": {
+          "value": 256000,
+          "display": "256,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text",
+        "tags": [
+          "text",
+          "ministral 3"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512-GGUF",
+        "access": "public",
+        "exact_files": [
+          "Ministral-3-14B-Instruct-2512-BF16-mmproj.gguf",
+          "Ministral-3-14B-Instruct-2512-BF16.gguf",
+          "Ministral-3-14B-Instruct-2512-Q4_K_M.gguf",
+          "Ministral-3-14B-Instruct-2512-Q5_K_M.gguf",
+          "Ministral-3-14B-Instruct-2512-Q8_0.gguf"
+        ],
+        "file_count": 5,
+        "formats": [
+          "GGUF"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp16": {
+            "available": true,
+            "status": "verified"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": true,
+            "status": "verified"
+          }
+        },
+        "dtype_evidence": [],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/mistralai/Ministral-3-14B-Instruct-2512-GGUF",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "apache-2.0",
+        "name": "apache-2.0",
+        "url": null,
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed",
+          "label": "Allowed under license conditions",
+          "basis": "Apache-2.0 permits commercial use subject to the license conditions."
+        },
+        "repository_license_files": []
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 28.0,
+          "fp8_int8": 14.0,
+          "int4": 7.0
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Ministral 3",
+        "variant": "Ministral-3-14B-Instruct-2512-GGUF",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "declared",
+          "models": [
+            "mistralai/Ministral-3-14B-Instruct-2512"
+          ],
+          "relation": null,
+          "evidence": [
+            {
+              "source": "model-card metadata",
+              "field": "base_model"
+            }
+          ]
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/mistralai/Ministral-3-14B-Instruct-2512-GGUF",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512-GGUF/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512-GGUF/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "vllm",
+        "pipeline_tag": null,
+        "declared": [
+          "mistral-common",
+          "vLLM",
+          "vllm"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [
+          "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)"
+        ],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2026-01-15T11:17:42.000Z",
+        "downloads": 42039,
+        "likes": 76,
+        "sha": "74fac473c43357d7fb2671713608183cc72496d0",
+        "library_name": "vllm",
+        "pipeline_tag": null,
+        "tags": [
+          "vllm",
+          "gguf",
+          "mistral-common",
+          "en",
+          "fr",
+          "es",
+          "de",
+          "it",
+          "pt",
+          "nl",
+          "zh",
+          "ja",
+          "ko",
+          "ar",
+          "arxiv:2601.08584",
+          "base_model:mistralai/Ministral-3-14B-Instruct-2512",
+          "base_model:quantized:mistralai/Ministral-3-14B-Instruct-2512",
+          "license:apache-2.0",
+          "region:us",
+          "conversational"
         ]
       }
     },
@@ -15705,7 +18785,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15729,7 +18809,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -15929,7 +19009,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15953,7 +19033,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -16155,7 +19235,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -16179,7 +19259,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -16392,7 +19472,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -16416,7 +19496,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -16632,7 +19712,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -16656,7 +19736,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -16865,7 +19945,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -16889,7 +19969,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -17142,7 +20222,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -17166,7 +20246,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -17441,7 +20521,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -17465,7 +20545,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -17783,7 +20863,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -17807,7 +20887,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -18087,7 +21167,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18111,7 +21191,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -18346,7 +21426,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18370,7 +21450,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -18575,7 +21655,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18599,7 +21679,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -18637,6 +21717,464 @@
           "arxiv:2407.21783",
           "license:other",
           "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "id": "llama-prompt-guard-2-86m",
+      "name": "Llama-Prompt-Guard-2-86M",
+      "developer": "Meta",
+      "family": "Prompt Guard 2",
+      "variant": "Llama-Prompt-Guard-2-86M",
+      "model": {
+        "parameters": "86M",
+        "total_parameters_billions": 0.086,
+        "context": {
+          "value": 2000000,
+          "display": "2,000,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text classification",
+        "tags": [
+          "text classification",
+          "prompt guard 2"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M",
+        "access": "gated (manual)",
+        "exact_files": [
+          "model.safetensors"
+        ],
+        "file_count": 1,
+        "formats": [
+          "Safetensors"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": false,
+            "status": "not-observed"
+          }
+        },
+        "dtype_evidence": [
+          "F32"
+        ],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/meta-llama/Llama-Prompt-Guard-2-86M",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "other",
+        "name": "llama4",
+        "url": "https://www.llama.com/llama3/license/",
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed-with-conditions",
+          "label": "Commercial use allowed subject to Llama community-license conditions",
+          "basis": "https://www.llama.com/llama3/license/"
+        },
+        "repository_license_files": [
+          "LICENSE"
+        ]
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 0.17,
+          "fp8_int8": 0.09,
+          "int4": 0.04
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Prompt Guard 2",
+        "variant": "Llama-Prompt-Guard-2-86M",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "not-declared",
+          "models": [],
+          "relation": null,
+          "evidence": []
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [
+            "https://www.llama.com/llama-downloads](https://www.llama.com/llama-downloads",
+            "https://github.com/meta-llama/llama-cookbook/blob/main/getting-started/responsible_ai/prompt_guard/prompt_guard_tutorial.ipynb"
+          ],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-Prompt-Guard-2-86M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "not-declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "transformers",
+        "pipeline_tag": "text-classification",
+        "declared": [
+          "Transformers",
+          "transformers"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2025-04-29T15:59:55.000Z",
+        "downloads": 125773,
+        "likes": 245,
+        "sha": "a8ded8e697ce7c355e395a0df51f94adb4a2fd27",
+        "library_name": "transformers",
+        "pipeline_tag": "text-classification",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deberta-v2",
+          "text-classification",
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama",
+          "llama4",
+          "safety",
+          "en",
+          "fr",
+          "de",
+          "hi",
+          "it",
+          "pt",
+          "es",
+          "th",
+          "license:other",
+          "text-embeddings-inference",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      }
+    },
+    {
+      "id": "llama-prompt-guard-2-22m",
+      "name": "Llama-Prompt-Guard-2-22M",
+      "developer": "Meta",
+      "family": "Prompt Guard 2",
+      "variant": "Llama-Prompt-Guard-2-22M",
+      "model": {
+        "parameters": "22M",
+        "total_parameters_billions": 0.022,
+        "context": {
+          "value": 2000000,
+          "display": "2,000,000 tokens",
+          "status": "verified",
+          "evidence": [
+            {
+              "source": "README.md",
+              "detail": "explicit context statement"
+            }
+          ]
+        },
+        "modality": "Text classification",
+        "tags": [
+          "text classification",
+          "prompt guard 2"
+        ]
+      },
+      "weights": {
+        "status": "verified-available",
+        "repository": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-22M",
+        "access": "gated (manual)",
+        "exact_files": [
+          "model.safetensors"
+        ],
+        "file_count": 1,
+        "formats": [
+          "Safetensors"
+        ],
+        "precision_availability": {
+          "bf16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp16": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "fp8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int8": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "int4": {
+            "available": false,
+            "status": "not-observed"
+          },
+          "gguf": {
+            "available": false,
+            "status": "not-observed"
+          }
+        },
+        "dtype_evidence": [
+          "F32"
+        ],
+        "evidence": [
+          {
+            "source": "https://huggingface.co/api/models/meta-llama/Llama-Prompt-Guard-2-22M",
+            "type": "Hugging Face model API siblings"
+          }
+        ]
+      },
+      "license": {
+        "id": "other",
+        "name": "llama4",
+        "url": "https://www.llama.com/llama3/license/",
+        "status": "verified",
+        "commercial_use": {
+          "status": "allowed-with-conditions",
+          "label": "Commercial use allowed subject to Llama community-license conditions",
+          "basis": "https://www.llama.com/llama3/license/"
+        },
+        "repository_license_files": [
+          "LICENSE"
+        ]
+      },
+      "hardware": {
+        "status": "estimated",
+        "weight_only_gb": {
+          "bf16_fp16": 0.04,
+          "fp8_int8": 0.02,
+          "int4": 0.01
+        },
+        "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+      },
+      "lineage": {
+        "family": "Prompt Guard 2",
+        "variant": "Llama-Prompt-Guard-2-22M",
+        "parent": "not-yet-verified",
+        "base_model": {
+          "status": "not-declared",
+          "models": [],
+          "relation": null,
+          "evidence": []
+        }
+      },
+      "training_assets": {
+        "training_recipe": {
+          "status": "not-disclosed-in-checked-repository",
+          "files": [],
+          "links": [
+            "https://www.llama.com/llama-downloads](https://www.llama.com/llama-downloads",
+            "https://github.com/meta-llama/llama-cookbook/blob/main/getting-started/responsible_ai/prompt_guard/prompt_guard_tutorial.ipynb"
+          ],
+          "evidence": []
+        },
+        "data_disclosure": {
+          "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": [],
+          "evidence": []
+        },
+        "evaluations": "Not classified by automated verifier",
+        "intermediate_checkpoints": "Not classified by automated verifier"
+      },
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-22M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/meta-llama/Llama-Prompt-Guard-2-22M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-22M/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-22M/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        },
+        {
+          "type": "license",
+          "url": "https://www.llama.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "verification": {
+        "level": "field-verified",
+        "checked_at": "2026-10-02",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
+        "method": "Hugging Face API + repository file list + model card + config.json",
+        "readme_accessible": true,
+        "config_accessible": false,
+        "fields": {
+          "license": "verified",
+          "commercial_use": "classified",
+          "context": "verified",
+          "weight_files": "verified",
+          "formats": "verified",
+          "base_model": "not-declared",
+          "training_recipe": "not-disclosed-in-checked-repository",
+          "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "runtime_support": "source-derived-not-runtime-tested"
+        },
+        "history": [
+          {
+            "date": "2026-10-02",
+            "event": "Field-by-field verification",
+            "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+          },
+          {
+            "date": "2026-10-02",
+            "event": "Registry record created",
+            "detail": "Previous verification level: source-linked."
+          }
+        ]
+      },
+      "runtime_support": {
+        "declared_library": "transformers",
+        "pipeline_tag": "text-classification",
+        "declared": [
+          "Transformers",
+          "transformers"
+        ],
+        "mentioned_in_model_card": [],
+        "artifact_signals": [],
+        "tested_by_openmodelweights": false
+      },
+      "hub": {
+        "last_modified": "2025-04-29T15:47:24.000Z",
+        "downloads": 16387,
+        "likes": 71,
+        "sha": "11614a155199674a0a95e6602d6ab0417b790ed0",
+        "library_name": "transformers",
+        "pipeline_tag": "text-classification",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "deberta-v2",
+          "text-classification",
+          "facebook",
+          "meta",
+          "pytorch",
+          "llama",
+          "llama4",
+          "safety",
+          "en",
+          "fr",
+          "de",
+          "hi",
+          "it",
+          "pt",
+          "es",
+          "th",
+          "license:other",
+          "text-embeddings-inference",
           "endpoints_compatible",
           "region:us"
         ]
@@ -18863,7 +22401,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18887,7 +22425,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -19155,7 +22693,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19179,7 +22717,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -19402,7 +22940,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19426,7 +22964,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -19642,7 +23180,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19666,7 +23204,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -19897,7 +23435,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19921,7 +23459,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -20146,7 +23684,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20170,7 +23708,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -20423,7 +23961,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20447,7 +23985,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -20704,7 +24242,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20728,7 +24266,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -21163,7 +24701,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21187,7 +24725,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -21403,7 +24941,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21427,7 +24965,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -21643,7 +25181,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21667,7 +25205,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -21874,7 +25412,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21898,7 +25436,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -22105,7 +25643,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22129,7 +25667,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -22336,7 +25874,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22360,7 +25898,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -22566,7 +26104,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22590,7 +26128,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -22806,7 +26344,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22830,7 +26368,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -23044,7 +26582,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23068,7 +26606,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -23284,7 +26822,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23308,7 +26846,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -23524,7 +27062,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23548,7 +27086,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
@@ -23763,7 +27301,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:06:08+00:00",
+        "checked_at_iso": "2026-10-02T10:07:20+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23787,7 +27325,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: field-verified."
+            "detail": "Previous verification level: source-linked."
           }
         ]
       },
