@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T10:05:14+00:00",
+  "generated_at": "2026-10-02T10:06:08+00:00",
   "stats": {
-    "total_seed_records": 107,
+    "total_seed_records": 94,
     "field_verified": 94,
-    "errors": 13,
+    "errors": 0,
     "license_declared": 94,
     "commercial_use_classified": 84,
     "context_verified": 73,
@@ -13,58 +13,5 @@
     "data_disclosure_signal": 30,
     "runtime_signal": 90
   },
-  "errors": [
-    {
-      "id": "mistral-large-3-675b-instruct-2512-nvfp4",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "mistral-small-4-119b-2603-eagle",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "mistral-large-3-675b-instruct-2512",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "mistral-large-3-675b-instruct-2512-eagle",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "pixtral-large-instruct-2411",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "mistral-medium-3-5-128b-eagle",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-3b-reasoning-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-8b-reasoning-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-3b-instruct-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-8b-instruct-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-14b-instruct-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "llama-prompt-guard-2-86m",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "llama-prompt-guard-2-22m",
-      "error": "could not convert string to float: '.'"
-    }
-  ]
+  "errors": []
 }

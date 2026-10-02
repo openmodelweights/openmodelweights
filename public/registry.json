@@ -1,6 +1,6 @@
 {
   "schema_version": "0.3.0",
-  "generated_at": "2026-10-02T10:05:14+00:00",
+  "generated_at": "2026-10-02T10:06:08+00:00",
   "project": "Open Model Weights",
   "homepage": "https://openmodelweights.com",
   "methodology": "https://openmodelweights.com/methodology/",
@@ -205,7 +205,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -229,7 +229,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: verified."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -463,7 +463,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -487,7 +487,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: verified."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -722,7 +722,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -746,7 +746,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: verified."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -1111,7 +1111,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -1135,7 +1135,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: verified."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -1359,7 +1359,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -1383,7 +1383,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: verified."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -1606,7 +1606,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -1630,7 +1630,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: verified."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -1911,7 +1911,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -1935,7 +1935,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: verified."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -2143,7 +2143,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -2167,7 +2167,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -2369,7 +2369,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -2393,7 +2393,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -2596,7 +2596,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -2620,7 +2620,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -2827,7 +2827,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -2851,7 +2851,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -3052,7 +3052,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3076,7 +3076,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -3270,7 +3270,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3294,7 +3294,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -3486,7 +3486,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3510,7 +3510,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -3851,7 +3851,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3875,7 +3875,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -4206,7 +4206,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4230,7 +4230,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -4440,7 +4440,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4464,7 +4464,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -4732,7 +4732,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4756,7 +4756,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -5169,7 +5169,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5193,7 +5193,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -5612,7 +5612,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5636,7 +5636,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -5826,7 +5826,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5850,7 +5850,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -6065,7 +6065,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6089,7 +6089,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -6301,7 +6301,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6325,7 +6325,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -6559,7 +6559,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6583,7 +6583,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -6788,7 +6788,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6812,7 +6812,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -7063,7 +7063,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7087,7 +7087,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -7358,7 +7358,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7382,7 +7382,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -7595,7 +7595,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7619,7 +7619,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -7838,7 +7838,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7862,7 +7862,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -8073,7 +8073,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8097,7 +8097,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -8316,7 +8316,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8340,7 +8340,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -8557,7 +8557,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8581,7 +8581,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -8801,7 +8801,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8825,7 +8825,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -9025,7 +9025,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9049,7 +9049,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -9256,7 +9256,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9280,7 +9280,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -9474,7 +9474,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9498,7 +9498,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -9692,7 +9692,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9716,7 +9716,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -9911,7 +9911,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9935,7 +9935,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -10130,7 +10130,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10154,7 +10154,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -10360,7 +10360,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10384,7 +10384,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -10581,7 +10581,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10605,7 +10605,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -10803,7 +10803,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10827,7 +10827,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -11023,7 +11023,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11047,7 +11047,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -11258,7 +11258,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -11282,7 +11282,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -11475,7 +11475,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11499,7 +11499,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -11721,7 +11721,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11745,7 +11745,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -11954,7 +11954,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11978,7 +11978,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -12186,7 +12186,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12210,7 +12210,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -12419,7 +12419,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12443,7 +12443,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -12650,7 +12650,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12674,7 +12674,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -12879,7 +12879,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12903,7 +12903,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -13117,7 +13117,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -13141,7 +13141,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -13352,7 +13352,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -13376,7 +13376,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -13585,7 +13585,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -13609,7 +13609,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -13807,7 +13807,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -13831,7 +13831,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -14029,7 +14029,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14053,7 +14053,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -14302,7 +14302,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14326,7 +14326,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -14512,7 +14512,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -14536,7 +14536,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -14748,7 +14748,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -14772,7 +14772,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -14972,7 +14972,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14996,7 +14996,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -15223,7 +15223,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15247,7 +15247,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -15478,7 +15478,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15502,7 +15502,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -15705,7 +15705,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15729,7 +15729,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -15929,7 +15929,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15953,7 +15953,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -16155,7 +16155,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -16179,7 +16179,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -16392,7 +16392,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -16416,7 +16416,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -16632,7 +16632,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -16656,7 +16656,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -16865,7 +16865,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -16889,7 +16889,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -17142,7 +17142,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -17166,7 +17166,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -17441,7 +17441,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -17465,7 +17465,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -17783,7 +17783,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -17807,7 +17807,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -18087,7 +18087,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18111,7 +18111,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -18346,7 +18346,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18370,7 +18370,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -18575,7 +18575,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18599,7 +18599,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -18863,7 +18863,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18887,7 +18887,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -19155,7 +19155,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19179,7 +19179,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -19402,7 +19402,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19426,7 +19426,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -19642,7 +19642,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19666,7 +19666,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -19897,7 +19897,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19921,7 +19921,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -20146,7 +20146,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20170,7 +20170,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -20423,7 +20423,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20447,7 +20447,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -20704,7 +20704,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20728,7 +20728,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -21163,7 +21163,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21187,7 +21187,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -21403,7 +21403,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21427,7 +21427,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -21643,7 +21643,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21667,7 +21667,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -21874,7 +21874,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21898,7 +21898,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -22105,7 +22105,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22129,7 +22129,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -22336,7 +22336,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22360,7 +22360,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -22566,7 +22566,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22590,7 +22590,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -22806,7 +22806,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22830,7 +22830,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -23044,7 +23044,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23068,7 +23068,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -23284,7 +23284,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23308,7 +23308,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -23524,7 +23524,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23548,7 +23548,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -23763,7 +23763,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T10:05:14+00:00",
+        "checked_at_iso": "2026-10-02T10:06:08+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23787,7 +23787,7 @@
           {
             "date": "2026-10-02",
             "event": "Registry record created",
-            "detail": "Previous verification level: source-linked."
+            "detail": "Previous verification level: field-verified."
           }
         ]
       },
@@ -23837,58 +23837,5 @@
       }
     }
   ],
-  "verification_errors": [
-    {
-      "id": "mistral-large-3-675b-instruct-2512-nvfp4",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "mistral-small-4-119b-2603-eagle",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "mistral-large-3-675b-instruct-2512",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "mistral-large-3-675b-instruct-2512-eagle",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "pixtral-large-instruct-2411",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "mistral-medium-3-5-128b-eagle",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-3b-reasoning-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-8b-reasoning-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-3b-instruct-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-8b-instruct-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "ministral-3-14b-instruct-2512-gguf",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "llama-prompt-guard-2-86m",
-      "error": "could not convert string to float: '.'"
-    },
-    {
-      "id": "llama-prompt-guard-2-22m",
-      "error": "could not convert string to float: '.'"
-    }
-  ]
+  "verification_errors": []
 }
