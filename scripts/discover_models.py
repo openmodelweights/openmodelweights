@@ -13,7 +13,7 @@ from huggingface_hub import HfApi
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/"data"/"models-source.json"
 TARGET=int(os.getenv("OMW_TARGET_MODELS","700"))
-BUFFER=int(os.getenv("OMW_DISCOVERY_BUFFER","70"))
+BUFFER=int(os.getenv("OMW_DISCOVERY_BUFFER","120"))
 POOL=int(os.getenv("OMW_DISCOVERY_POOL","5000"))
 NOW=dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
 TODAY=NOW[:10]
