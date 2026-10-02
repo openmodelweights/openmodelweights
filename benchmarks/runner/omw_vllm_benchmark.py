@@ -116,7 +116,7 @@ def main():
     ap=argparse.ArgumentParser(description="Open Model Weights reproducible vLLM deployment benchmark")
     ap.add_argument("--model-id",required=True,help="Open Model Weights model id")
     ap.add_argument("--repository",help="Optional Hugging Face repo override (owner/name)")
-    ap.add_argument("--dtype",default="auto")
+    ap.add_argument("--dtype",default="float16")
     ap.add_argument("--tensor-parallel-size",type=int,default=1)
     ap.add_argument("--gpu-memory-utilization",type=float,default=0.90)
     ap.add_argument("--port",type=int,default=18080)
