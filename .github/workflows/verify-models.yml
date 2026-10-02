@@ -6,9 +6,11 @@ on:
     - cron: "17 4 * * *"
   push:
     paths:
+      - "scripts/discover_models.py"
       - "scripts/verify_models.py"
       - "scripts/refine_registry.py"
       - "scripts/render_extras.py"
+      - "scripts/render_product.py"
       - "data/models-source.json"
       - ".github/workflows/verify-models.yml"
 
@@ -17,12 +19,12 @@ permissions:
 
 concurrency:
   group: verify-model-registry
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,9 +35,17 @@ jobs:
           python-version: "3.12"
 
       - name: Install verifier dependencies
-        run: python -m pip install --disable-pip-version-check requests pyyaml
+        run: python -m pip install --disable-pip-version-check requests pyyaml huggingface_hub
+
+      - name: Discover registry candidates
+        env:
+          OMW_TARGET_MODELS: "700"
+          OMW_DISCOVERY_BUFFER: "70"
+        run: python scripts/discover_models.py
 
       - name: Verify all model records
+        env:
+          OMW_TARGET_MODELS: "700"
         run: python scripts/verify_models.py
 
       - name: Refine licenses, precision evidence and render final pages
@@ -44,11 +54,14 @@ jobs:
       - name: Render comparison and developer metadata
         run: python scripts/render_extras.py
 
+      - name: Render mature product surfaces
+        run: python scripts/render_product.py
+
       - name: Commit verified data
         run: |
           git config user.name "openmodelweights-bot"
           git config user.email "openmodelweights-bot@users.noreply.github.com"
-          git add public/index.html public/registry.json public/registry.schema.json public/llms.txt public/models public/developers public/verification public/explore public/compare public/licenses public/hardware public/formats public/lineage public/changes public/changes.json public/sitemap.xml data/verification-report.json data/change-feed.json
+          git add data/models-source.json data/verification-report.json data/change-feed.json public/index.html public/registry.json public/registry.schema.json public/llms.txt public/models public/developers public/verification public/explore public/compare public/licenses public/hardware public/formats public/lineage public/changes public/changes.json public/sources public/api public/openapi.json public/_headers public/sitemap.xml
           if git diff --cached --quiet; then
             echo "No verification changes."
           else
