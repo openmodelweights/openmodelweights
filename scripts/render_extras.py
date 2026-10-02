@@ -202,7 +202,11 @@ def patch_explore():
     }
     for href,label in labels.items():
         pat=rf'(<a class="tool-card" href="{re.escape(href)}"><span)(?: class="tool-stat")?>([^<]+)</span>'
-        text=re.sub(pat,lambda m:f'{m.group(1)} class="tool-stat">{m.group(2)} {label}</span>',text,count=1)
+        def stat_label(m):
+            value=m.group(2).strip()
+            suffix="FEED EVENT" if href=="/changes/" and value=="1" else label
+            return f'{m.group(1)} class="tool-stat">{value} {suffix}</span>'
+        text=re.sub(pat,stat_label,text,count=1)
     text=add_body_class(text,"explore-page")
     p.write_text(text)
 
