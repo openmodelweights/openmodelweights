@@ -407,7 +407,7 @@ def patch_home():
     p=PUBLIC/"index.html"
     if not p.exists():return
     text=p.read_text()
-    if 'class="intelligence-section"' in text:return
+    if 'intelligence-section' in text:return
     block='''<section class="section intelligence-section"><div class="section-head"><div><p class="eyebrow">EVIDENCE INTELLIGENCE</p><h2>The layer that compounds over time.</h2></div><p class="section-kicker">History, relationships and reproducible measurements make the registry useful beyond a one-time model search.</p></div><div class="intelligence-grid"><a href="/history/"><span>01 / EVIDENCE LEDGER</span><strong>Versioned model history</strong><p>Source-revision fingerprints and material field diffs that accumulate with every successful verification run.</p></a><a href="/compatibility/"><span>02 / COMPATIBILITY</span><strong>Relationship graph</strong><p>Models connected to runtimes, formats, precisions, licenses, declared bases and memory constraints.</p></a><a href="/benchmarks/"><span>03 / MEASUREMENTS</span><strong>Reproducible benchmark protocol</strong><p>Real deployment observations must identify exact model revision, runtime, hardware and raw evidence.</p></a><a href="/mcp/"><span>04 / MCP</span><strong>Evidence for AI agents</strong><p>Read-only tools let AI applications query the verified registry instead of guessing from stale web text.</p></a></div></section>'''
     pos=text.find('<section class="section"><p class="eyebrow">EXPLORE THE REGISTRY</p>')
     if pos!=-1:

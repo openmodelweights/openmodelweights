@@ -386,10 +386,53 @@ def changes_page(feed,models):
 def home_page_portal(models,report):
     s=report["stats"]
     featured=models[:6]
-    cards="".join(f'<a class="model-card" href="/models/{esc(m["id"])}/"><div class="card-top"><span class="org">{esc(m["developer"])}</span><span class="status-dot verified">● field-verified</span></div><h3>{esc(m["name"])}</h3><p>{esc(m["model"]["context"]["display"])} · {esc(m["license"]["name"])}</p><div class="chips"><span>{esc(m["model"].get("parameters"))}</span><span>{m["weights"]["file_count"]} weight files</span></div></a>' for m in featured)
-    tools=[("License Explorer","/licenses/","License and commercial use"),("Hardware Explorer","/hardware/","Weight-memory estimates"),("Format Explorer","/formats/","Published files and precisions"),("Lineage Graph","/lineage/","Declared base-model relations"),("What changed?","/changes/","Release & verification feed")]
-    t="".join(f'<a class="mini-tool" href="{url}"><strong>{esc(name)}</strong><span>{esc(desc)} →</span></a>' for name,url,desc in tools)
-    return f'''{page_head("Open Model Weights — field-verified open-weight AI registry","Field-verified open-weight AI registry with exact weights, licenses, commercial-use conditions, hardware estimates, formats, lineage and change history.","https://openmodelweights.com/")}<body>{nav_html()}<main><section class="hero home-hero"><p class="eyebrow">FIELD-VERIFIED OPEN-WEIGHT REGISTRY</p><h1>Open model weights,<br>with evidence.</h1><p class="lead">A source-first registry for exact weight artifacts, licenses, commercial-use conditions, context, formats, lineage, training assets and runtime support.</p><form class="hero-search" action="/models/" method="get"><input name="q" type="search" placeholder="Search {len(models)} verified models…"><button type="submit">Search models</button></form><div class="hero-actions"><a class="button primary" href="/models/">Explore {len(models)} models</a><a class="button" href="/explore/">Open explorers</a></div></section><section class="metric-strip"><div><span>Field-verified</span><strong>{s["field_verified"]} / {s["total_seed_records"]}</strong></div><div><span>Exact weight lists</span><strong>{s["exact_weight_lists"]}</strong></div><div><span>Commercial-use classified</span><strong>{s["commercial_use_classified"]}</strong></div><div><span>Context declared</span><strong>{s["context_verified"]}</strong></div></section><section class="section"><p class="eyebrow">EXPLORE THE REGISTRY</p><h2>Ask a different question.</h2><div class="mini-tool-grid">{t}</div></section><section class="section"><div class="section-head"><div><p class="eyebrow">VERIFIED RECORDS</p><h2>Every claim points back to a source.</h2></div><a class="text-link" href="/models/">Browse all →</a></div><div class="model-grid">{cards}</div></section></main>{footer_html()}</body></html>'''
+    cards="".join(f'<a class="model-card home-model-card" href="/models/{esc(m["id"])}/"><div class="card-top"><span class="org">{esc(m["developer"])}</span><span class="status-dot verified">● field-verified</span></div><h3>{esc(m["name"])}</h3><p>{esc(m["model"]["context"]["display"])} · {esc(m["license"]["name"])}</p><div class="chips"><span>{esc(m["model"].get("parameters"))}</span><span>{m["weights"]["file_count"]} weight files</span></div><span class="card-link">Open evidence →</span></a>' for m in featured)
+    actions=[
+      ("01","Find a model","Search verified records by developer, license, format, context and hardware.","/models/","Search the registry →"),
+      ("02","Compare records","Put 2–4 models side by side without composite scores or a declared winner.","/compare/","Compare models →"),
+      ("03","Trace what changed","Follow repository revisions and field-level evidence changes over time.","/changes/","Open change history →"),
+      ("04","Query the data layer","Use the versioned JSON API or read-only MCP endpoint in your own tools.","/api/","Open API & MCP →"),
+    ]
+    action_cards="".join(f'<a class="home-action-card" href="{url}"><span class="home-card-index">{n}</span><div><h3>{esc(title)}</h3><p>{esc(desc)}</p><strong>{esc(cta)}</strong></div></a>' for n,title,desc,url,cta in actions)
+    evidence=[
+      ("EVIDENCE LEDGER","History that compounds","Observed field snapshots, source revisions and material diffs accumulate instead of being overwritten.","/history/","Explore model history"),
+      ("COMPATIBILITY","Relationships, not rankings","Connect runtimes, formats, precisions, licenses, base models and memory constraints.","/compatibility/","Open compatibility graph"),
+      ("FRESHNESS","Daily verification","Repository revisions are checked every day; changed and new sources return to full field verification.","/changes/","See recent changes"),
+      ("MACHINE LAYER","Built for humans and agents","Versioned JSON, OpenAPI and a read-only MCP endpoint expose the same evidence as the website.","/mcp/","Connect through MCP"),
+    ]
+    evidence_cards="".join(f'<a class="home-evidence-card" href="{url}"><span>{esc(label)}</span><h3>{esc(title)}</h3><p>{esc(desc)}</p><strong>{esc(cta)} →</strong></a>' for label,title,desc,url,cta in evidence)
+    return f'''{page_head("Open Model Weights — evidence for open-weight AI","The evidence layer for open-weight AI: 700 field-verified records with exact weights, licenses, context, formats, lineage, change history and machine-readable access.","https://openmodelweights.com/")}<body>{nav_html()}<main>
+<section class="hero home-hero home-hero-v3">
+  <div class="hero-status"><span class="hero-status-dot" aria-hidden="true"></span><span>Source-first registry</span><span class="hero-status-sep">·</span><span>Verified daily</span></div>
+  <p class="eyebrow">THE EVIDENCE LAYER FOR OPEN-WEIGHT AI</p>
+  <h1>Open-weight AI,<br><span>grounded in evidence.</span></h1>
+  <p class="lead">Search exact weight artifacts, licenses, commercial-use conditions, context, formats, lineage and runtime signals — with the source trail kept attached.</p>
+  <form class="hero-search hero-search-v3" action="/models/" method="get"><span class="hero-search-icon" aria-hidden="true">⌕</span><input name="q" type="search" placeholder="Search {len(models)} verified models…" aria-label="Search verified models"><button type="submit">Search registry</button></form>
+  <div class="hero-actions"><a class="button primary" href="/models/">Explore {len(models)} models <span aria-hidden="true">→</span></a><a class="button" href="/compare/">Compare models</a></div>
+  <div class="hero-proof" aria-label="Registry proof points">
+    <div><strong>{s["field_verified"]}</strong><span>field-verified records</span></div>
+    <div><strong>{s["exact_weight_lists"]}</strong><span>exact weight lists</span></div>
+    <div><strong>{s["commercial_use_classified"]}</strong><span>commercial-use classified</span></div>
+    <div><strong>Daily</strong><span>revision verification</span></div>
+  </div>
+</section>
+<div class="home-trust"><div class="home-trust-brand"><span class="trust-signal" aria-hidden="true"><i></i></span><span><small>Evidence standard</small><strong>Source-first verified</strong></span></div><div class="home-trust-stat"><small>Last registry run</small><strong>{TODAY}</strong></div><div class="home-trust-stat"><small>Scope</small><strong>{len(models)} published records</strong></div><div class="home-trust-links"><a href="/sources/">How sourcing works →</a><a href="/api/">API / JSON →</a></div></div>
+<section class="section home-interrogate">
+  <div class="section-head home-section-head"><div><p class="eyebrow">INTERROGATE THE REGISTRY.</p><h2>Start with the question.</h2></div><p class="section-kicker">The interface stays simple up front. Evidence, provenance and technical detail remain available when you need to go deeper.</p></div>
+  <div class="home-action-grid">{action_cards}</div>
+</section>
+<section class="section intelligence-section home-evidence-section">
+  <div class="section-head home-section-head"><div><p class="eyebrow">EVIDENCE INTELLIGENCE</p><h2>A registry that gets more useful with time.</h2></div><p class="section-kicker">Lists are easy to copy. A dated record of what was observed, where it came from and how it changed is harder to recreate.</p></div>
+  <div class="home-evidence-grid">{evidence_cards}</div>
+</section>
+<section class="section home-models-section">
+  <div class="section-head home-section-head"><div><p class="eyebrow">VERIFIED RECORDS</p><h2>Explore the evidence, not a leaderboard.</h2></div><a class="text-link" href="/models/">Browse all {len(models)} models →</a></div>
+  <div class="model-grid">{cards}</div>
+</section>
+<section class="section home-source-section">
+  <div class="home-source-panel"><div><p class="eyebrow">SOURCE-FIRST BY DESIGN</p><h2>Every important claim should have somewhere to point.</h2><p>Open Model Weights separates repository evidence, publisher documentation and derived values. Unknown stays unknown, and popularity signals never become a quality score.</p></div><div class="home-source-links"><a href="/sources/"><span>01</span><div><strong>Evidence policy</strong><small>See field-to-source mapping and verification boundaries.</small></div><b>→</b></a><a href="/history/"><span>02</span><div><strong>Observed history</strong><small>Inspect snapshots and field-level diffs for individual models.</small></div><b>→</b></a><a href="/mcp/"><span>03</span><div><strong>Machine access</strong><small>Let applications query verified evidence through API and MCP.</small></div><b>→</b></a></div></div>
+</section>
+</main>{footer_html()}</body></html>'''
 
 def write_sitemap(models,groups):
     urls=["/","/models/","/developers/","/explore/","/licenses/","/hardware/","/formats/","/lineage/","/changes/","/verification/","/methodology/","/about/","/history/","/compatibility/","/benchmarks/","/mcp/"]

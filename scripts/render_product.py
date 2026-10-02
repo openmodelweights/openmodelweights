@@ -258,12 +258,12 @@ def patch_general_pages(generated):
             m=re.search(r'(<section class="page-hero[^"]*">.*?</section>)',text,re.S)
             if m:text=text[:m.end()]+generic+text[m.end():]
         if route=="//" or p==PUBLIC/"index.html":
-            if 'class="intelligence-section"' not in text:
+            if 'intelligence-section' not in text:
                 m=re.search(r'(<section class="metric-strip">.*?</section>)',text,re.S)
                 if m:
                     intelligence='''<section class="section intelligence-section"><div class="section-head"><div><p class="eyebrow">THE EVIDENCE LAYER</p><h2>History that compounds.</h2></div><p class="section-kicker">Lists can be copied. Observed evidence, revision diffs and reproducible deployment data accumulate over time.</p></div><div class="intelligence-grid"><a href="/history/"><span>01</span><strong>Evidence Ledger</strong><p>Versioned field snapshots and model diffs from observed states.</p></a><a href="/compatibility/"><span>02</span><strong>Compatibility Graph</strong><p>Runtime, format, precision, license and memory relationships.</p></a><a href="/benchmarks/"><span>03</span><strong>Deployment Benchmarks</strong><p>Measured runs tied to exact model revisions and hardware.</p></a><a href="/mcp/"><span>04</span><strong>MCP for AI agents</strong><p>Let other AI products query the verified evidence instead of guessing.</p></a></div></section>'''
                     text=text[:m.end()]+intelligence+text[m.end():]
-            if 'class="home-trust"' not in text:
+            if 'home-trust' not in text:
                 m=re.search(r'(<section class="hero[^"]*">.*?</section>)',text,re.S)
                 if m:
                     home=f'<div class="home-trust"><div class="home-trust-brand"><span class="trust-signal" aria-hidden="true"><i></i></span><span><small>Registry signal</small><strong>Field-verified</strong></span></div><div class="home-trust-stat"><small>Last checked</small><strong>{esc(date(generated))}</strong></div><div class="home-trust-stat"><small>Scope</small><strong>700 verified records</strong></div><div class="home-trust-links"><a href="/sources/">Evidence policy →</a><a href="/api/">API / JSON →</a></div></div>'
