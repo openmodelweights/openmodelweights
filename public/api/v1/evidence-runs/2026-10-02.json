@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0.0",
   "date": "2026-10-02",
-  "generated_at": "2026-10-02T13:55:17+00:00",
+  "generated_at": "2026-10-02T14:10:30+00:00",
   "registry_schema": "0.8.0",
   "model_count": 700,
   "note": "One canonical evidence manifest per UTC day. Re-running on the same day replaces that day's manifest with the latest successful registry state.",
@@ -3962,7 +3962,7 @@
       "model_id": "helsinki-nlp-opus-mt-fr-en",
       "repository_sha": "c4aed37b318c763fd177aa449b44e3b783cc6c02",
       "evidence_hash": "011a44634862f0f510276bfe8d1115e801a37de3f62fbad290855b81f66a45d3",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -3970,7 +3970,7 @@
       "model_id": "comfy-org-hunyuanvideo-1-5-repackaged",
       "repository_sha": "1405a2b738c29b890cf6d03fc038d8d3e92eeed7",
       "evidence_hash": "b18d2eae2d7429724d4a054e32d8dd3ac7ed88fd3c767bb8ad1d8b5035fa689f",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -3978,7 +3978,7 @@
       "model_id": "ai4bharat-indic-conformer-600m-multilingual",
       "repository_sha": "e9b71b369c048e2c6b634d4c131061c34e441179",
       "evidence_hash": "bad163641e1991de45f8f3b042a250663bde8ea9f225b89a0ac276e9913b655f",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -3986,7 +3986,7 @@
       "model_id": "ai-sage-gigaam-v3",
       "repository_sha": "ec1dc1f01d0d627ab2c0d3acc1e235702300d95e",
       "evidence_hash": "0024ea0c99db41852c7fe7181fc19d635ec41678d9b676fd0fc59398af106f7b",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -3994,7 +3994,7 @@
       "model_id": "nvidia-nvidia-nemotron-3-5-lightning-30b-a3b-bf16",
       "repository_sha": "a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
       "evidence_hash": "f4fee3e7489cf84d0e1d1d452fc8cfc69479b0054661882400b75711673bbc67",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4002,7 +4002,7 @@
       "model_id": "lightricks-ltx-2",
       "repository_sha": "dfcc2108383fe1aaa0584bdf55d368a4bdadd90c",
       "evidence_hash": "a35672a4fdf2c458548c2c065b3480b438b93b298e6b67173eee0bda9a35d902",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4010,7 +4010,7 @@
       "model_id": "timm-tf-efficientnetv2-s-in21k-ft-in1k",
       "repository_sha": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
       "evidence_hash": "542b2c2e065695b5497c7ffe768c4120f9eceb5ee25db3d8c37d8bc1f8b56157",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4018,7 +4018,7 @@
       "model_id": "meta-llama-meta-llama-3-8b",
       "repository_sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
       "evidence_hash": "1d57b1f0b1d436ced9b8df30f03552cc7f8bf12a5df72cfd13381c5776519545",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4026,7 +4026,7 @@
       "model_id": "nvidia-llama-nemotron-rerank-1b-v2",
       "repository_sha": "828765652b05bd439c9789d2a6d093db1caa1443",
       "evidence_hash": "1c5b2f84119e08c965aed84ec8056228b40e04bffaaa1944cf79fb6e55eb6cf6",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4034,7 +4034,7 @@
       "model_id": "neoquasar-kronos-small",
       "repository_sha": "901c26c1332695a2a8f243eb2f37243a37bea320",
       "evidence_hash": "0c73587c8e21ff0231084a6c6060a9a6cf401dbccb59a5d83d838a7eaa05456b",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4042,7 +4042,7 @@
       "model_id": "intfloat-e5-small-v2",
       "repository_sha": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
       "evidence_hash": "e18bb43662866c33b2b88883b0e18c1718e84f8c7db62d6e29db4b842ddcba75",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4050,7 +4050,7 @@
       "model_id": "smilingwolf-wd-swinv2-tagger-v3",
       "repository_sha": "627aef95638667ddcaa3ac8ae625e88ea5b02f51",
       "evidence_hash": "f88796c3ecd7a9d088f758a66375192d01ba242d1706c10a50e3a36ad1838efe",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4058,7 +4058,7 @@
       "model_id": "snowflake-snowflake-arctic-embed-l",
       "repository_sha": "d8fb21ca8d905d2832ee8b96c894d3298964346b",
       "evidence_hash": "f86853355acea844abecf934ff2a2346bfd7fb70f9da62cc9b96d15882c34196",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4066,7 +4066,7 @@
       "model_id": "comfy-org-flux1-schnell",
       "repository_sha": "c2b683ea00713d6feadcd54b39e3725bbc78638b",
       "evidence_hash": "ad56729ba48c5a7d2869cec232a70d572c9ea0460a233e5f6cc009cfa9b4b559",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4074,7 +4074,7 @@
       "model_id": "distilbert-distilbert-base-multilingual-cased",
       "repository_sha": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
       "evidence_hash": "4e0d084e9c8dd12facd018632650afbc9e060dae1d338144d7fb7e30016128ee",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4082,7 +4082,7 @@
       "model_id": "bigscience-bloom-560m",
       "repository_sha": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
       "evidence_hash": "364c14cddf1c035e22ef845a9f85763b8a03c0a6391e1a446e4a7170e29c1b42",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4090,7 +4090,7 @@
       "model_id": "microsoft-phi-4-mini-instruct",
       "repository_sha": "cfbefacb99257ffa30c83adab238a50856ac3083",
       "evidence_hash": "5fed602e08fe02054782a1d1e94de3a71d2394da2a370827fd17acbad485795e",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4098,7 +4098,7 @@
       "model_id": "swiss-ai-apertus-v1-5-8b",
       "repository_sha": "a411d838600baf0e3635a3daf66fb7c55fc97bb6",
       "evidence_hash": "9c8d1a85030a7255567098b2c2fcfcbbae6e7de8dfeb14e5622b19e3584b861c",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4106,7 +4106,7 @@
       "model_id": "hustvl-yolos-small",
       "repository_sha": "3d8f7130d3ce4907cb206fe1c8485dc8fe8703de",
       "evidence_hash": "8029163180a86219939cc46246f078aba3a954cb4fc5a768179fe7c1b8ba5c78",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4114,7 +4114,7 @@
       "model_id": "taylorai-bge-micro-v2",
       "repository_sha": "3edf6d7de0faa426b09780416fe61009f26ae589",
       "evidence_hash": "1fc73cfbb4101282252430c41c79401b7e5ddf28593bc4e9f40da60257831db3",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4122,7 +4122,7 @@
       "model_id": "nvidia-qwen3-8-27b-nvfp4",
       "repository_sha": "482ca0f3832238542f8f5295dde86b5f22711d80",
       "evidence_hash": "29f1a37cc5a63f2c74f3cac15b079e00b7884f0659f6c4f2848536049f988dd8",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4130,7 +4130,7 @@
       "model_id": "facebook-dinov3-vitb16-pretrain-lvd1689m",
       "repository_sha": "5931719e67bbdb9737e363e781fb0c67687896bc",
       "evidence_hash": "33c728f37086501bb31521344401566dbfc0abdcbb483e438d63b3a70b7f243e",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4138,7 +4138,7 @@
       "model_id": "ai-sage-giga-embeddings-instruct",
       "repository_sha": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
       "evidence_hash": "0fdbb106473a587566f649babfdb039d4df70df00b45fb7ed96b2e0b8f1c0d10",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },
@@ -4146,7 +4146,7 @@
       "model_id": "openbmb-minicpm5-2b-dspark",
       "repository_sha": "114a20fdbf53220712c7fbdd7dccddbf1dedebb4",
       "evidence_hash": "4bbc18a2d73c25d49837c766759187b4e23d0e9e414b01ef0d7ce8366710551e",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     },

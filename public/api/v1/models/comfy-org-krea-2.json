@@ -177,7 +177,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T13:51:40+00:00",
+    "checked_at_iso": "2026-10-02T14:06:52+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -217,12 +217,12 @@
     "repo_id": "Comfy-Org/Krea-2",
     "rank": 136,
     "downloads": 9835635,
-    "likes": 632,
+    "likes": 633,
     "last_modified": "2026-09-23T08:03:53+00:00",
     "created_at": "2026-06-16T22:31:20+00:00",
     "library_name": "diffusion-single-file",
     "pipeline_tag": null,
-    "discovered_at": "2026-10-02T13:51:38+00:00",
+    "discovered_at": "2026-10-02T14:06:49+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -239,7 +239,7 @@
     "last_modified": "2026-09-23T08:03:53.000Z",
     "created_at": "2026-06-16T22:31:20.000Z",
     "downloads": 9835635,
-    "likes": 632,
+    "likes": 633,
     "sha": "eb1eddd3983a54678545a9b2c178c5853b30f7be",
     "library_name": "diffusion-single-file",
     "pipeline_tag": null,
