@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0.0",
   "date": "2026-10-02",
-  "generated_at": "2026-10-02T15:25:58+00:00",
+  "generated_at": "2026-10-02T15:34:59+00:00",
   "registry_schema": "0.8.0",
   "model_count": 700,
   "note": "One canonical evidence manifest per UTC day. Re-running on the same day replaces that day's manifest with the latest successful registry state.",
@@ -3959,6 +3959,518 @@
       "full_verified_at": "2026-10-02"
     },
     {
+      "model_id": "microsoft-resnet-50",
+      "repository_sha": "34c2154c194f829b11125337b98c8f5f9965ff19",
+      "evidence_hash": "005399024e7bba7ba7ba7500501ba2aa6febac1806c431dce4973d377a2ac032",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "zai-org-glm-5-2-fp8",
+      "repository_sha": "f33c6dc501ee5a2c7e35155653b1b1abbc320951",
+      "evidence_hash": "93783044a209ceb4ad0f42c66a7aeb7c49dd6e9a62ecf8a41cb7654840900468",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "nvidia-bigvgan-v2-44khz-128band-512x",
+      "repository_sha": "95a9d1dcb12906c03edd938d77b9333d6ded7dfb",
+      "evidence_hash": "a3d04223b31d6404a1a024fcce80a088c1cd41f42a2ffc711a0e49ee0665032c",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "meta-models-muse-glimmer-30b",
+      "repository_sha": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
+      "evidence_hash": "fcb4ae2e02fb6e49e66a62fbdf8e2425d55039f714656964a0fddba46e544a39",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "microsoft-table-transformer-detection",
+      "repository_sha": "2357cbe2b5a5d1c03e54f32764f06058933b65ab",
+      "evidence_hash": "b00e7d3dc846b9786a79d19dbd0c9911736ce85cbf7244ec60760b3dece4b7f3",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "dbmdz-bert-large-cased-finetuned-conll03-english",
+      "repository_sha": "4c534963167c08d4b8ff1f88733cf2930f86add0",
+      "evidence_hash": "506c9c37f137070c11af55b175e12899dcb0a804c6cfbdf10e2f331f597c38b6",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "ornith-ai-ornith-1-5-9b",
+      "repository_sha": "489cb97981b8654bcfcf30ce1f94ed1b62e07b53",
+      "evidence_hash": "f9e2acbfff6403e3eee92b8381ae5f6d4b318dc16b7f6835553334ad81732941",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "google-gemma-4-12b-it-qat-w4a16-ct",
+      "repository_sha": "1d2c2d7f2466070e69d6fb3fd5ce9a7d75f2f6ee",
+      "evidence_hash": "f6fd98f44f7b9a3e4c618d144be7014569dee28fb04de45efced9faebf33e9e2",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "eleutherai-gpt-neox-20b",
+      "repository_sha": "c292233c833e336628618a88a648727eb3dff0a7",
+      "evidence_hash": "8ad9644cf8f4ddba7151de81948ceb9981c2e3f668077eaa21a9cdad10b557d9",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "tiiuae-falcon-7b",
+      "repository_sha": "ec89142b67d748a1865ea4451372db8313ada0d8",
+      "evidence_hash": "c8de93231535c9dc79045d44e7e33e240529c15e0587149fc2aacf4f19d71e26",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "microsoft-phi-3-mini-4k-instruct",
+      "repository_sha": "f39ac1d28e925b323eae81227eaba4464caced4e",
+      "evidence_hash": "fe528fdc2d2dee00cdc5e46dbbb20b4b9c405cbe5d4e54c8af3ed2342ddeee9c",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "stabilityai-sd-turbo",
+      "repository_sha": "b261bac6fd2cf515557d5d0707481eafa0485ec2",
+      "evidence_hash": "3c6316b4dd797c51c61a3f274b5e5d4daa7d47fbc81d71004f6cf08f7dc4996b",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "openbmb-minicpm-o-2-6",
+      "repository_sha": "06849bfd36da94da1f5a88fa17e8ba63f08a4c4d",
+      "evidence_hash": "3414e07dd364a714d1624ace8b0505e0ddb6177d99a4d4d7029e3c9f13fa34b9",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "cmsmanhattan-jirackultra-1b",
+      "repository_sha": "18cbff46548f6f7acea6dc78d997514df50a7ec2",
+      "evidence_hash": "1bf9d422cf2dc2a6039293021d626417b507cbd4bd88c4e0e1f2d178987acaf1",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "mistralai-mistral-nemo-instruct-2407",
+      "repository_sha": "04d8a90549d23fc6bd7f642064003592df51e9b3",
+      "evidence_hash": "6bee45ab8846a87bcfa8d37330c78dcac333466d75bfa29e5d6f854d7dc72547",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "comfy-org-pixal3d",
+      "repository_sha": "f37641be376725d324c56626007cc477f1249a69",
+      "evidence_hash": "3a207882d0f8d0b2ce312b6020e5b04d77762e3517c0dbd139d95fac3ad921d9",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "eleutherai-gpt-j-6b",
+      "repository_sha": "47e169305d2e8376be1d31e765533382721b2cc1",
+      "evidence_hash": "b0e98053a787ed98709c792bb995fbac39db8cc0ca47cf5df1401d2963d24eaf",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "openbmb-minicpm-v-4-6",
+      "repository_sha": "36f34a661a4bd35d0dc2294cb044d2584646c7d3",
+      "evidence_hash": "bd939f84331adea5612455dc3f2fec8caab66e3af0ea2d15049107499e34a88b",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "deepseek-ai-deepseek-coder-7b-instruct-v1-5",
+      "repository_sha": "2a050a4c59d687a85324d32e147517992117ed30",
+      "evidence_hash": "578c7503ba513850fde73a8f2ffb199b671096a36a12278fe632a2c8871f5808",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "zed-industries-zeta",
+      "repository_sha": "80f73ce5ee059377ce0662ec5c45b592c3025ae5",
+      "evidence_hash": "53f335dfd778c875879338df513e8989101de177edbf1e3016f50d55069b39fe",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "systran-faster-whisper-medium",
+      "repository_sha": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+      "evidence_hash": "c2443cea8a87403b7ceb5ec1cbf3b4ff62353fb40b18e28eb99f916dd5f8a91f",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "babelscape-wikineural-multilingual-ner",
+      "repository_sha": "bed6ee7a45d2827b6c90a4fd7983f0241ae0a5c1",
+      "evidence_hash": "c48774be74fe741e353b88b845ad537f016ff52bdeb834d51f9a28e0c5855b16",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "lykon-dreamshaper-7",
+      "repository_sha": "9b481047f77996efa025e75e03941dbf51f506ad",
+      "evidence_hash": "9205eb76f3f14ac32fa64bc6a6e77b876fc0ac340337e19326c7f3f50aa8c2ec",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "nvidia-dragon-multiturn-context-encoder",
+      "repository_sha": "14ba90bb7472741e2a12ac4c0455110966c3f69d",
+      "evidence_hash": "4b09ca81341d8b50fc95c6dbadfb23a4585beaa1a2b790b946f7d786c9105100",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "amazon-chronos-t5-tiny",
+      "repository_sha": "29d808298f1a62493e7b9a5e08529d0d930fa189",
+      "evidence_hash": "78e1117ac18292a9dab08461d545b5d6d43bc8b040f902d7125a6491fae0f3bb",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "helsinki-nlp-opus-mt-fr-en",
+      "repository_sha": "c4aed37b318c763fd177aa449b44e3b783cc6c02",
+      "evidence_hash": "011a44634862f0f510276bfe8d1115e801a37de3f62fbad290855b81f66a45d3",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "comfy-org-hunyuanvideo-1-5-repackaged",
+      "repository_sha": "1405a2b738c29b890cf6d03fc038d8d3e92eeed7",
+      "evidence_hash": "b18d2eae2d7429724d4a054e32d8dd3ac7ed88fd3c767bb8ad1d8b5035fa689f",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "ai4bharat-indic-conformer-600m-multilingual",
+      "repository_sha": "e9b71b369c048e2c6b634d4c131061c34e441179",
+      "evidence_hash": "bad163641e1991de45f8f3b042a250663bde8ea9f225b89a0ac276e9913b655f",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "ai-sage-gigaam-v3",
+      "repository_sha": "ec1dc1f01d0d627ab2c0d3acc1e235702300d95e",
+      "evidence_hash": "0024ea0c99db41852c7fe7181fc19d635ec41678d9b676fd0fc59398af106f7b",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "nvidia-nvidia-nemotron-3-5-lightning-30b-a3b-bf16",
+      "repository_sha": "a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
+      "evidence_hash": "f4fee3e7489cf84d0e1d1d452fc8cfc69479b0054661882400b75711673bbc67",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "lightricks-ltx-2",
+      "repository_sha": "dfcc2108383fe1aaa0584bdf55d368a4bdadd90c",
+      "evidence_hash": "a35672a4fdf2c458548c2c065b3480b438b93b298e6b67173eee0bda9a35d902",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "timm-tf-efficientnetv2-s-in21k-ft-in1k",
+      "repository_sha": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
+      "evidence_hash": "542b2c2e065695b5497c7ffe768c4120f9eceb5ee25db3d8c37d8bc1f8b56157",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "meta-llama-meta-llama-3-8b",
+      "repository_sha": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+      "evidence_hash": "1d57b1f0b1d436ced9b8df30f03552cc7f8bf12a5df72cfd13381c5776519545",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "nvidia-llama-nemotron-rerank-1b-v2",
+      "repository_sha": "828765652b05bd439c9789d2a6d093db1caa1443",
+      "evidence_hash": "1c5b2f84119e08c965aed84ec8056228b40e04bffaaa1944cf79fb6e55eb6cf6",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "neoquasar-kronos-small",
+      "repository_sha": "901c26c1332695a2a8f243eb2f37243a37bea320",
+      "evidence_hash": "0c73587c8e21ff0231084a6c6060a9a6cf401dbccb59a5d83d838a7eaa05456b",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "intfloat-e5-small-v2",
+      "repository_sha": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+      "evidence_hash": "e18bb43662866c33b2b88883b0e18c1718e84f8c7db62d6e29db4b842ddcba75",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "smilingwolf-wd-swinv2-tagger-v3",
+      "repository_sha": "627aef95638667ddcaa3ac8ae625e88ea5b02f51",
+      "evidence_hash": "f88796c3ecd7a9d088f758a66375192d01ba242d1706c10a50e3a36ad1838efe",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "snowflake-snowflake-arctic-embed-l",
+      "repository_sha": "d8fb21ca8d905d2832ee8b96c894d3298964346b",
+      "evidence_hash": "f86853355acea844abecf934ff2a2346bfd7fb70f9da62cc9b96d15882c34196",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "comfy-org-flux1-schnell",
+      "repository_sha": "c2b683ea00713d6feadcd54b39e3725bbc78638b",
+      "evidence_hash": "ad56729ba48c5a7d2869cec232a70d572c9ea0460a233e5f6cc009cfa9b4b559",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "distilbert-distilbert-base-multilingual-cased",
+      "repository_sha": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+      "evidence_hash": "4e0d084e9c8dd12facd018632650afbc9e060dae1d338144d7fb7e30016128ee",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "bigscience-bloom-560m",
+      "repository_sha": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
+      "evidence_hash": "364c14cddf1c035e22ef845a9f85763b8a03c0a6391e1a446e4a7170e29c1b42",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "microsoft-phi-4-mini-instruct",
+      "repository_sha": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "evidence_hash": "5fed602e08fe02054782a1d1e94de3a71d2394da2a370827fd17acbad485795e",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "swiss-ai-apertus-v1-5-8b",
+      "repository_sha": "a411d838600baf0e3635a3daf66fb7c55fc97bb6",
+      "evidence_hash": "9c8d1a85030a7255567098b2c2fcfcbbae6e7de8dfeb14e5622b19e3584b861c",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "hustvl-yolos-small",
+      "repository_sha": "3d8f7130d3ce4907cb206fe1c8485dc8fe8703de",
+      "evidence_hash": "8029163180a86219939cc46246f078aba3a954cb4fc5a768179fe7c1b8ba5c78",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "taylorai-bge-micro-v2",
+      "repository_sha": "3edf6d7de0faa426b09780416fe61009f26ae589",
+      "evidence_hash": "1fc73cfbb4101282252430c41c79401b7e5ddf28593bc4e9f40da60257831db3",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "nvidia-qwen3-8-27b-nvfp4",
+      "repository_sha": "482ca0f3832238542f8f5295dde86b5f22711d80",
+      "evidence_hash": "29f1a37cc5a63f2c74f3cac15b079e00b7884f0659f6c4f2848536049f988dd8",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "facebook-dinov3-vitb16-pretrain-lvd1689m",
+      "repository_sha": "5931719e67bbdb9737e363e781fb0c67687896bc",
+      "evidence_hash": "33c728f37086501bb31521344401566dbfc0abdcbb483e438d63b3a70b7f243e",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "ai-sage-giga-embeddings-instruct",
+      "repository_sha": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
+      "evidence_hash": "0fdbb106473a587566f649babfdb039d4df70df00b45fb7ed96b2e0b8f1c0d10",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "openbmb-minicpm5-2b-dspark",
+      "repository_sha": "114a20fdbf53220712c7fbdd7dccddbf1dedebb4",
+      "evidence_hash": "4bbc18a2d73c25d49837c766759187b4e23d0e9e414b01ef0d7ce8366710551e",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "timm-vit-small-patch14-dinov2-lvd142m",
+      "repository_sha": "4610ca143709d58a633b6397a74412c2c3842454",
+      "evidence_hash": "98220603945847dd223ec3458a0e71b644f42bb60ef37ebfca5644e763c00c90",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "google-flan-t5-small",
+      "repository_sha": "0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab",
+      "evidence_hash": "7b08550417bd0d257e03ec069e24006ec6e05447af11b87d848164c43433a410",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "jhgan-ko-sroberta-multitask",
+      "repository_sha": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+      "evidence_hash": "fe75462f4c87387468cd52fd0b3d644fcd4f4dda2850a8f68414bcf6233a9231",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "microsoft-deberta-v3-small",
+      "repository_sha": "a36c739020e01763fe789b4b85e2df55d6180012",
+      "evidence_hash": "88d9d65d427d8142481420ac48b16680a8f967af7c8466e2fe73662f79d5e93a",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "briaai-rmbg-1-4",
+      "repository_sha": "2ceba5a5efaec153162aedea169f76caf9b46cf8",
+      "evidence_hash": "82c4469c8fbaade8c00fd800d9babc9b941a4d090f1986d6d76f4cf00a841955",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "salesforce-blip-vqa-base",
+      "repository_sha": "787b3d35d57e49572baabd22884b3d5a05acf072",
+      "evidence_hash": "70703ca1fee549edbcc518da39aca2dea02aeaed01640f9eb940a34502a1a92e",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "comfy-org-vae-text-encorder-for-flux-klein-4b",
+      "repository_sha": "5f526678002e43af5551dadb73ce2e8c91b43afe",
+      "evidence_hash": "223ef5dc45a9b8ffa37f68bab1dd4ab6d04ce921482d87a6253bc02a6b9721ca",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "unitary-unbiased-toxic-roberta",
+      "repository_sha": "36295dd80b422dc49f40052021430dae76241adc",
+      "evidence_hash": "fec4feac1bb0b8adef2c4d3d869fe742448fdfa2efc3543fb9d9cd6c9ec3769c",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "laion-clip-convnext-base-w-laion2b-s13b-b82k-augreg",
+      "repository_sha": "f231e88547aac0dd86ad224432612fcf91aa4226",
+      "evidence_hash": "f36066b208a5fe9a937c93a496e5b7d3e6fcea12f8164d60dc1cfcdaa4cd7d84",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "nvidia-nemotron-speech-streaming-en-0-6b",
+      "repository_sha": "ebe59e5a817142986528bbbee5dba8db7b38ed50",
+      "evidence_hash": "816ff5dd298faa4e6cc1f10770a7af13139c1498682653c027ac59901221af41",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "pysentimiento-robertuito-sentiment-analysis",
+      "repository_sha": "a2cc0f67ebd705c55191e25a05ba23d885fcc09b",
+      "evidence_hash": "a360767f232f169fc56d457a1b6756d59867fc458d76f58af50071450f8179f0",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "lightricks-ltx-2-3-fp8",
+      "repository_sha": "1d756cd27fa11c0896c4dfee093cd1bf36c7f7a1",
+      "evidence_hash": "687c61c55b4b417c82826a990c5c8bf6cab23354b1063bb74c2695e088659c79",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-bf16",
+      "repository_sha": "e5e9932441de940c9a62185c870ea5bcd4cd24e2",
+      "evidence_hash": "ebaa71389d1e80874e18ad76aee153e659353a6ff091fcb4b9095f9e1ae49f68",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "xenova-whisper-tiny",
+      "repository_sha": "5332fcc35e32a33b86612b9a57a89be7906102b1",
+      "evidence_hash": "18861a8c3e7b5b8cc85aa2067fbb872bc4d9487aae4c94252335c305b61d29d2",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "intel-dpt-hybrid-midas",
+      "repository_sha": "11eaf7a1cf4bd70740697dbc216f98980c0aeb03",
+      "evidence_hash": "2707584d739c6fe9a0eebeb0839064cb41348713c5c2c0e0c65cc2f843574aac",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-02",
+      "full_verified_at": "2026-10-02"
+    },
+    {
       "model_id": "minimaxai-minimax-m2",
       "repository_sha": "757303d492a50514c312788b5247a4f696a4c6a3",
       "evidence_hash": "ad459f842b0203db2e1673ea56ee1b1eb6ea5db8ef8de284ce1d713be8edac38",
@@ -5091,518 +5603,6 @@
       "repository_sha": "489d5cd81a0b59fab9b7ea758d3548ebe99677da",
       "evidence_hash": "033f5c91851ed4cbc99f8b0b8b7bbe82a2061a1d06951840477582e54f2dbd6b",
       "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "onnx-community-embeddinggemma-300m-onnx",
-      "repository_sha": "5090578d9565bb06545b4552f76e6bc2c93e4a66",
-      "evidence_hash": "9e979267dcd949362cfe46f8df8c54d944ec10b0bf0d65cf9d0b3db8de773357",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "facebook-esm2-t6-8m-ur50d",
-      "repository_sha": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
-      "evidence_hash": "e718eab10489131ef2d2dd96eb1fc8870fa6f595b272ed422fa6dce24d01c744",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "sentence-transformers-nli-mpnet-base-v2",
-      "repository_sha": "c2f4dd9a1dc4337c28cfbd650433f761bb304c50",
-      "evidence_hash": "a9ed1ac278cd87dd97bdbfbef7a131c24daf0ff33caa74c959ddd49649bf74e0",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "aubmindlab-bert-base-arabertv02",
-      "repository_sha": "016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60",
-      "evidence_hash": "03a50db32dfeffa86dfea4e4b90e494753af29e21f70bf7abf487d04749f593b",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "bkai-foundation-models-vietnamese-bi-encoder",
-      "repository_sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
-      "evidence_hash": "aaa62f2dc6d0003669b7fa9581ad4919672ca48ad8e90071f8d2f9a65c6513a5",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "musixmatch-umberto-commoncrawl-cased-v1",
-      "repository_sha": "fe7b14808cccbbe2984b05e6fbfd71127f11008f",
-      "evidence_hash": "8773ff87eb9c60491ed55234885281e2d191ab35ad6e48534f9a04b2d8193c31",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "huggingfacetb-smollm2-360m",
-      "repository_sha": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
-      "evidence_hash": "ca92876d38965244fc47f086be8b2201e11b7a5a60580497ed61c14a5e60c057",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "ilyagusev-saiga-llama3-8b",
-      "repository_sha": "5bb9917bdb85340549662ebb62c8e522037ff3f3",
-      "evidence_hash": "cca6d3ae564bb5097b973af0dc88cb601d8cbdb80f7023bcda404f0785480725",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "infomaniak-ai-vllm-translategemma-4b-it",
-      "repository_sha": "cb3e0b2504f0db832982cca7fafd3ea4aaf777a0",
-      "evidence_hash": "ab35172bf51165800f4bbac101165c0b5eb38aa04f00ddf651e1e472f0750176",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "yuvalkirstain-pickscore-v1",
-      "repository_sha": "a4e4367c6dfa7288a00c550414478f865b875800",
-      "evidence_hash": "416af58985f3d820f62e770717b08246e0b5a864fddf9737364840543eadaccf",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "unsloth-llama-3-2-1b-instruct",
-      "repository_sha": "5a8abab4a5d6f164389b1079fb721cfab8d7126c",
-      "evidence_hash": "97a337753ba2d875e90d445cd9feb1d45b7b8b6dbeb3c6d091c9919868138dd9",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "lykon-dreamshaper",
-      "repository_sha": "228d79cb20811466f5c5710aa91f05dabd0b8a14",
-      "evidence_hash": "a81aab37e32519d9b38448f132631b1d5c1184e647cebdb5b016412484630c07",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "ornith-ai-ornith-1-5-397b",
-      "repository_sha": "8f6cc8a7aea505364523f84ccf37706e8aea0ee7",
-      "evidence_hash": "1286cce2d283dd9fcc9f5c7e54660a8cf86db0889f373efb850d4bfd4f306c0a",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "lbh-123-ai-minimax-h3-latent-upscaler",
-      "repository_sha": "3f941d5d182014dd5c0a5e16330420ee2d4aa0c6",
-      "evidence_hash": "73716a35d54e153d2a19a7a3cc1a0cab531ff7e40f2267ed5f522564a4499525",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "cross-encoder-ms-marco-electra-base",
-      "repository_sha": "8b9301757513f8a695920c334c3a9f365ebeb357",
-      "evidence_hash": "81053d37779e7f78848258fec884b359fc133eb088816d28773fc734d72ba2e9",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "mrm8488-distilroberta-finetuned-financial-news-sentiment-analysis",
-      "repository_sha": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
-      "evidence_hash": "f36f491a4344cf04f010cace7543b540cfc8376e74f6f2f623d193638381b33a",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "utter-project-eurollm-22b-instruct-2512",
-      "repository_sha": "8c6ed5c8d18527d9daed994f645032b86c53f0bb",
-      "evidence_hash": "d53c3d12c7d6de4f930225a2ce11aff28effa8a4f5486f2a6e3d41399671712c",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "allenai-olmo-3-7b-think",
-      "repository_sha": "d97e442d7cc678210054dbcc9b440894d62c89a4",
-      "evidence_hash": "7f865413d8e6a0d78830ca034868614780d51f3ca42057e7d6412b37418077fc",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "ai4bharat-indic-parler-tts",
-      "repository_sha": "7b527af5ee8ed1f9a28d80b19703ed9bb8ba10ca",
-      "evidence_hash": "c4343addaa9881a9473c070f91b840b0a98026a3a4254dc785fd39ba9ff29b1f",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "openmoss-team-moss-transcribe-diarize",
-      "repository_sha": "704aa4a9c304e8520be88901e0d1960158ef5b15",
-      "evidence_hash": "cda6282c7f105c8c3760226465d95b01514f6875f0f2801b0331c8ce005965d0",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "comfy-org-hunyuanvideo-repackaged",
-      "repository_sha": "533a43813f01517d9e624f9e824a85bb94094120",
-      "evidence_hash": "af55b215060a6a6b32c8efc7dcfdd23302c2b90316fd53090ba76afcc407c842",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "stabilityai-sdxl-vae",
-      "repository_sha": "6f5909a7e596173e25d4e97b07fd19cdf9611c76",
-      "evidence_hash": "470a8f181c65003d523c6560dbc9db0d0a992ed8878820fee70e2f2d75a0e809",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "facebook-nllb-200-distilled-1-3b",
-      "repository_sha": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
-      "evidence_hash": "53f7fd6a19fb86ca251be4f9171307ef80ae5a910ff08bd7cff212903aa113ca",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "xenova-paraphrase-multilingual-minilm-l12-v2",
-      "repository_sha": "2c4055b12046f11709e9df2c122e59ffbdc2f900",
-      "evidence_hash": "49ca1d23e155df2daffdb9cf6203e9f2d9ab8810a38be08521410433aa3f9c42",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "thinkingmachines-inkling-small-nvfp4",
-      "repository_sha": "b6a99534467840620d411e4cd4ad5819b2610d9c",
-      "evidence_hash": "fe98ad942951ecfb11d8edf270e49ab76d7a517831a58a6f57c42b7f3854e668",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "setu4993-labse",
-      "repository_sha": "5afa72968dfe068421082cbc30411073b15a6693",
-      "evidence_hash": "255eaaa3bcca76f9149a07a568c494ae0c95be40bfde0f65374cc8dbe540aa0a",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "alefiury-wav2vec2-large-xlsr-53-gender-recognition-librispeech",
-      "repository_sha": "7a28165f33e1dbb37adbce09c0a9afcd6095dd4d",
-      "evidence_hash": "6351651ff20b771f487bcfaef21dc33e89f116f6b368d605fd76829421d73848",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "hustvl-vitmatte-small-composition-1k",
-      "repository_sha": "6a58ad7646403c1df626fbd746900aec7361ea1d",
-      "evidence_hash": "0b8da5bc9a6e2ddb89ef34674513b09a20477cee47f0b7bde1613809175e36f9",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "dccuchile-bert-base-spanish-wwm-uncased",
-      "repository_sha": "d1c9c4565c9d6731e57ed7f027b802697bad861e",
-      "evidence_hash": "a56070701743a7f8510a1332014fc227a86608ea73bb531a87feca88f456c1b6",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "openai-whisper-medium",
-      "repository_sha": "abdf7c39ab9d0397620ccaea8974cc764cd0953e",
-      "evidence_hash": "bbd0276f7a2aba8b50f105037db73b2f6bb48c501a19f565baa6fd8589769231",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "google-bert-bert-large-cased",
-      "repository_sha": "06fa25dc1b6e034e91607fd67c247051ccaeff65",
-      "evidence_hash": "b97b823ada38c67a4b74549f48bbe1f8ea7b21cfca7a5ae278b606fd31a26047",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "ibm-granite-granite-4-1-30b",
-      "repository_sha": "4fae6278f7132abf5e971f9de49ebbad09c54cce",
-      "evidence_hash": "fe45437966fdf4c5111a8dce1d0c19585ebc06ac655db7a9eec76cc50fcc6f30",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "cmsmanhattan-jirackultra-14b",
-      "repository_sha": "1998717242fdacc84bcf10365e05d2de9639d79b",
-      "evidence_hash": "085a7f690b0151506087679508218803a01a54a021196afa8c67561ad23e5457",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "dots-studio-dots-mocr",
-      "repository_sha": "e539fbb52280393adc081b289ec597430a0f9031",
-      "evidence_hash": "dd887b634300b69070c10436ea2ac42b62484ffa32844a18d2829ab18b7243a1",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "xenova-ms-marco-minilm-l-6-v2",
-      "repository_sha": "a09144355adeed5f58c8ed011d209bf8ee5a1fec",
-      "evidence_hash": "9d7f1c2e4015f21b6e83162bfc0e09baa83ae7d412bbf44b2f8f2ff40b86eec5",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "voyageai-voyage-4-nano",
-      "repository_sha": "67fabc9bef010dabc5f6024aa1b1b6b93410426f",
-      "evidence_hash": "fb846902f9180e119d5ab010a960cfd3a9980be80fed2c2c9676e5438fc3f8ea",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "minishlab-potion-base-8m",
-      "repository_sha": "bf8b056651a2c21b8d2565580b8569da283cab23",
-      "evidence_hash": "242b7bfe67536fe21f0ffb5c7ac773b06194d2e72064387bd58945617ef3af7e",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "huggingfacetb-smollm2-1-7b-instruct",
-      "repository_sha": "31b70e2e869a7173562077fd711b654946d38674",
-      "evidence_hash": "c560b99133243967e86bfc00a6f93bd133122a51dda80a872504ebf58a8ad045",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "yikuan8-clinical-longformer",
-      "repository_sha": "5e2ebe8f6e98d4751eaf71a8514e0edbe73989a2",
-      "evidence_hash": "52a21f870c01f50c76b08d1e0558be6db0bfe457bbcfdfe74bef1957a22c2e70",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "cross-encoder-ms-marco-tinybert-l2-v2",
-      "repository_sha": "81d1926f67cb8eee2c2be17ca9f793c7c3bd20cc",
-      "evidence_hash": "8dca13e345dac79b949ee82148427ed6ccc8294f28014a033b8ac13347485e53",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "emrecan-bert-base-turkish-cased-mean-nli-stsb-tr",
-      "repository_sha": "7e10e2fbd7627fd0228eb2dbdc9e9da264442bbe",
-      "evidence_hash": "1f63273e385dc144753d2bae244e1406e7565852998eab4391912864c8df2436",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "baai-bge-multilingual-gemma2",
-      "repository_sha": "8365500e19bc804136f4ad12c2494430239a2d72",
-      "evidence_hash": "05e7a9604953061b3ff45a15229a10ef74bcce1164e5bef9569ca8be48c45c87",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "huggyllama-llama-7b",
-      "repository_sha": "4782ad278652c7c71b72204d462d6d01eaaf7549",
-      "evidence_hash": "f0021caadc64efc613c9a368a95e4aef670208388826710bfe24b1ea15f401f1",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "jinaai-jina-embeddings-v5-text-small",
-      "repository_sha": "dd76d535f5447ca3897a9c893fb1e612ead98192",
-      "evidence_hash": "31df8f0a21be31ef7d3501d546b1a7a4bf48041f0c39496be3a19c514620e0ec",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "lgai-exaone-exaone-3-5-7-8b-instruct",
-      "repository_sha": "553ea250b9a5317231459279d5847d6cf955b9aa",
-      "evidence_hash": "a44a3c70c557ab29f816838cdcdfdede8c561759d35d74ec2549ee7653c320a5",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "comfy-org-yue2",
-      "repository_sha": "2f76ca75e6ee094169de899cc7fc99d6887e2196",
-      "evidence_hash": "433401df143f8a77d42da554e58da95b22291ac417bfa5da21c618131392c8f5",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "moka-ai-m3e-base",
-      "repository_sha": "764b537a0e50e5c7d64db883f2d2e051cbe3c64c",
-      "evidence_hash": "2426a4ec86b98be9e9fda1cd327f88b5ec40232c86785a1884d678f6dc092af3",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "microsoft-trocr-base-printed",
-      "repository_sha": "93450be3f1ed40a930690d951ef3932687cc1892",
-      "evidence_hash": "f2434c0c242324b17bb665ed8590c75e47cb5232ddfddb4038e17a343235f2d7",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-llama-nemotron-embed-1b-v2",
-      "repository_sha": "113abe4acafa848e77ead9c0623205e511932348",
-      "evidence_hash": "e49ff1c45020944035987f9eeb252d4f8b1686ef60f2ab7e0190bd23d0eacc2c",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "ornith-ai-ornith-1-5-35b-a3b-fp8",
-      "repository_sha": "fab11c26e2325a42f4b32da0249c819a0bade1b1",
-      "evidence_hash": "2cbe484ad805743cd1661002e9ad1a022782857464993c1c6ab23e2e3dd31695",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "google-bert-bert-base-german-cased",
-      "repository_sha": "0b061b4f7ce140d10dce6b6bd8a77da8ec80931b",
-      "evidence_hash": "498557e4b4c1629a7bb887bb1992e5ce3ee8f660c8bbed8e68b5f6c16545c48c",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-qwen3-14b-nvfp4",
-      "repository_sha": "bc39319a4dc265d9bbb9a9731bc52c4988d9ece7",
-      "evidence_hash": "8bd317443282cc6a1ce7bacc606491a83d19df31cb3f6584c3e8a09fe66e363c",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "bahushruth-qwen3-6-35b-a3b-abliterated-v4",
-      "repository_sha": "1c28f5014d7e9c20170af40e5aa028679fb30bfb",
-      "evidence_hash": "812eb0ed802cabdb5d702dc981f9253304412b326ab848f4d0bc70826db8f2a8",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "fastvideo-fastvideo-fasth3-comfy",
-      "repository_sha": "ec1e3aa374a91c57b0b94a1623b7e657c0498cf2",
-      "evidence_hash": "b811afba6f2c40d9aef7cd3353f09d035528cfa7252c03f512cedc6524fa1afa",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "allenai-olmo-2-0425-1b",
-      "repository_sha": "a1847dff35000b4271fa70afc5db10fd29fedbdf",
-      "evidence_hash": "0d3fb8c0a31238a519b5854f191fb2b5872ba54ab0e804c2dba26e4586e94754",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "facebook-sam-vit-huge",
-      "repository_sha": "87aecf0df4ce6b30cd7de76e87673c49644bdf67",
-      "evidence_hash": "8cf40333c4c8d7ef3332ef701272158f1a2dda59c3e66a9ffa221be17d6d7d03",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "ornith-ai-ornith-1-0-397b-fp8",
-      "repository_sha": "8b61f97a8512d9d01bff1a9625c9a16730e115bb",
-      "evidence_hash": "d9fe53906c6c52bc8f7b6f6bb786f9d41be4ae7da9b241aec4e0518bb920afc8",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "google-gemma-4-31b-it-assistant",
-      "repository_sha": "627c5ec1458b9086b841a91e0512fd31fd2fbbf1",
-      "evidence_hash": "e7ca3ec7cc80eb45270230cc31130e553579a844209e9abb272f82c3df85b9d2",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "google-fnet-base",
-      "repository_sha": "d89b6fad3cf5384848b783dc480f9685f49d008c",
-      "evidence_hash": "3eaa4c28949344b014971fc658bb250f1671dcd3882a64fa55510e44f7f0c4e5",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "zai-org-glm-4-1v-9b-thinking",
-      "repository_sha": "3c1471e51dc811b589d4d12b1c1c7c1c941267c2",
-      "evidence_hash": "33751bcbae7a13b46fcbc3187f8f8ce0a3d8033b3dfe4f36a7b3768aae6a2aa0",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "facebook-fasttext-language-identification",
-      "repository_sha": "3af127d4124fc58b75666f3594bb5143b9757e78",
-      "evidence_hash": "7a605d48c789854bf0d96758bda72385e4127cb55f1f377f49acf9d791c39cef",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "z-lab-qwen3-8-27b-dflash2",
-      "repository_sha": "50307d4c4cde6860d4eee73e2547cd786fe8e8a4",
-      "evidence_hash": "449c9bad0d548c3585256cdee48429a38af7ec6cefab127d3a3d7522c6302ab2",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "microsoft-vibevoice-realtime-0-5b",
-      "repository_sha": "6bce5f06044837fe6d2c5d7a71a84f0416bd57e4",
-      "evidence_hash": "2f9e59982115d4f1b299afa58bee6088935b525441ef3265eaa3d776e32a990e",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-02",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "ornith-ai-ornith-1-0-35b-fp8",
-      "repository_sha": "1ab57ce0b44950e498a88756f40ad1ed4d0f30ca",
-      "evidence_hash": "02a53e828fbdac333d6643c1e907dee31b2b0d9a45b8d74e1395c6795bcae29e",
-      "verification_mode": "full-field-verification",
       "checked_at": "2026-10-02",
       "full_verified_at": "2026-10-02"
     }
