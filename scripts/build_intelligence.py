@@ -403,6 +403,19 @@ def mcp_page():
     cards="".join(f'<div class="mcp-tool"><code>{esc(n)}</code><p>{esc(d)}</p></div>' for n,d in tools)
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Open Model Weights MCP server</title><meta name="description" content="Connect AI agents to the Open Model Weights evidence registry through a stateless Streamable HTTP MCP server."><link rel="stylesheet" href="/styles.css"></head><body class="mcp-page"><header class="site-header"><a class="brand" href="/">Open Model Weights</a></header><main><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / MCP</div><p class="eyebrow">MODEL CONTEXT PROTOCOL</p><h1>Let AI apps query the evidence layer.</h1><p class="lead">The public MCP endpoint exposes read-only tools over the same verified registry, evidence history, compatibility graph and benchmark protocol used by the website.</p><div class="mcp-endpoint"><span>Streamable HTTP endpoint</span><code>https://openmodelweights.com/mcp</code></div></section><section class="section"><div class="mcp-tool-grid">{cards}</div><p class="note">The MCP surface is read-only. It returns evidence and constraints; it does not rank political choices, make legal determinations or turn popularity into model quality.</p></section></main><footer></footer></body></html>'''
 
+def patch_home():
+    p=PUBLIC/"index.html"
+    if not p.exists():return
+    text=p.read_text()
+    if 'class="intelligence-section"' in text:return
+    block='''<section class="section intelligence-section"><div class="section-head"><div><p class="eyebrow">EVIDENCE INTELLIGENCE</p><h2>The layer that compounds over time.</h2></div><p class="section-kicker">History, relationships and reproducible measurements make the registry useful beyond a one-time model search.</p></div><div class="intelligence-grid"><a href="/history/"><span>01 / EVIDENCE LEDGER</span><strong>Versioned model history</strong><p>Source-revision fingerprints and material field diffs that accumulate with every successful verification run.</p></a><a href="/compatibility/"><span>02 / COMPATIBILITY</span><strong>Relationship graph</strong><p>Models connected to runtimes, formats, precisions, licenses, declared bases and memory constraints.</p></a><a href="/benchmarks/"><span>03 / MEASUREMENTS</span><strong>Reproducible benchmark protocol</strong><p>Real deployment observations must identify exact model revision, runtime, hardware and raw evidence.</p></a><a href="/mcp/"><span>04 / MCP</span><strong>Evidence for AI agents</strong><p>Read-only tools let AI applications query the verified registry instead of guessing from stale web text.</p></a></div></section>'''
+    pos=text.find('<section class="section"><p class="eyebrow">EXPLORE THE REGISTRY</p>')
+    if pos!=-1:
+        text=text[:pos]+block+text[pos:]
+    else:
+        text=text.replace('</main>',block+'</main>',1)
+    p.write_text(text)
+
 def patch_explore():
     p=PUBLIC/"explore"/"index.html"
     if not p.exists():return
@@ -484,9 +497,10 @@ def main():
     d=PUBLIC/"mcp";d.mkdir(parents=True,exist_ok=True);(d/"index.html").write_text(mcp_page())
     write_json(PUBLIC/".well-known"/"mcp.json",{
       "name":"Open Model Weights","endpoint":"https://openmodelweights.com/mcp",
-      "transport":"streamable-http","protocols":["2026-07-28","2025-11-25"],
+      "transport":"streamable-http","protocols":["streamable-http"],
       "documentation":"https://openmodelweights.com/mcp/","read_only":True
     })
+    patch_home()
     patch_explore()
     patch_sitemap(models,generated)
     patch_llms(len(models))
