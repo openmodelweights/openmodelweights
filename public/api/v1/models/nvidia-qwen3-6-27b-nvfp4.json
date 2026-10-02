@@ -184,7 +184,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:59:05+00:00",
+    "checked_at_iso": "2026-10-02T16:21:36+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
@@ -224,7 +224,7 @@
     "created_at": "2026-06-22T12:24:08+00:00",
     "library_name": "Model Optimizer",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T15:59:03+00:00",
+    "discovered_at": "2026-10-02T16:21:34+00:00",
     "pinned": false
   },
   "runtime_support": {
