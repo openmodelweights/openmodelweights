@@ -881,3 +881,80 @@ body{background:var(--bg);letter-spacing:-.006em}
   .home-model-card h3{margin-top:32px}
   .home-source-panel{border-radius:20px}
 }
+
+
+/* Footer refinement v4.1 — tighter close and grouped navigation */
+/* Pull the footer closer to the source-first close so the page ends intentionally. */
+.home-source-section{padding-bottom:58px}
+.home-page .site-footer{
+  min-height:0;
+  padding-top:28px;
+  padding-bottom:34px;
+  border-top:1px solid var(--line)
+}
+
+/* Give the source links an unmistakable interactive affordance without turning them into buttons. */
+.home-source-links a{position:relative}
+.home-source-links b{
+  display:grid;
+  place-items:center;
+  width:30px;
+  height:30px;
+  border:1px solid rgba(143,162,255,.28);
+  border-radius:50%;
+  background:rgba(143,162,255,.05);
+  color:#9fb0ff
+}
+.home-source-links a:hover b{
+  transform:translateX(3px);
+  background:rgba(143,162,255,.12);
+  border-color:rgba(143,162,255,.48)
+}
+
+/* Grouped footer navigation: readable, quieter than the source panel, but no longer tiny. */
+.site-footer-v2{
+  display:grid;
+  grid-template-columns:minmax(250px,.85fr) minmax(0,1.65fr);
+  gap:64px;
+  align-items:start
+}
+.site-footer-v2 .footer-brand{padding-top:2px}
+.site-footer-v2 .footer-brand-line strong{font-size:17px;letter-spacing:-.025em}
+.site-footer-v2 .footer-brand p{
+  max-width:310px;
+  margin-top:10px;
+  font-size:12px;
+  line-height:1.6
+}
+.footer-nav{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:26px
+}
+.footer-group{display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.footer-group>span{
+  margin-bottom:4px;
+  color:#8a918a;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.11em;
+  text-transform:uppercase
+}
+.footer-group a{
+  color:#596159;
+  font-size:12px;
+  line-height:1.35;
+  transition:color .14s ease,transform .14s ease
+}
+.footer-group a:hover{color:var(--text);transform:translateX(2px)}
+
+@media(max-width:900px){
+  .site-footer-v2{grid-template-columns:1fr;gap:30px}
+  .footer-nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 36px}
+  .home-source-section{padding-bottom:46px}
+}
+@media(max-width:560px){
+  .home-page .site-footer{padding-top:24px;padding-bottom:30px}
+  .footer-nav{grid-template-columns:1fr 1fr;gap:24px}
+  .footer-group a{font-size:11px}
+}
