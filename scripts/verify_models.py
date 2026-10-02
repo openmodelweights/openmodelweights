@@ -434,6 +434,8 @@ def verify_one(seed):
         card.setdefault(k, v)
 
     wf = weight_files(files)
+    if not wf:
+        return {"ok":False,"id":model.get("id"),"repo":rid,"error":"No recognized weight artifacts in source repository"}
     fmts = format_info(rid, files, api, config, readme or "")
     lic = license_info(model, card)
     total_b = parameter_total(model, api)
@@ -667,6 +669,8 @@ def main():
     order = {m["id"]: i for i,m in enumerate(seeds)}
     verified.sort(key=lambda m: order.get(m["id"], 999999))
     verified_before_crop=len(verified)
+    if TARGET_MODELS and verified_before_crop < TARGET_MODELS:
+        raise RuntimeError(f"Only {verified_before_crop} candidates passed field verification; refusing to publish below target {TARGET_MODELS}.")
     if TARGET_MODELS and len(verified) >= TARGET_MODELS:
         verified=verified[:TARGET_MODELS]
 
