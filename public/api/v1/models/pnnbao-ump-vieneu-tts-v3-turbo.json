@@ -1,0 +1,276 @@
+{
+  "id": "pnnbao-ump-vieneu-tts-v3-turbo",
+  "name": "VieNeu-TTS-v3-Turbo",
+  "developer": "pnnbao-ump",
+  "family": "VieNeu-TTS-v3-Turbo",
+  "variant": "VieNeu-TTS-v3-Turbo",
+  "model": {
+    "parameters": "0.130908B",
+    "total_parameters_billions": 0.13090752,
+    "context": {
+      "value": 1024,
+      "display": "1,024 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text → audio",
+    "tags": [
+      "onnx",
+      "safetensors",
+      "gguf",
+      "vieneu_v3_turbo",
+      "voice-cloning",
+      "code-switching",
+      "podcast",
+      "emotion-control",
+      "48khz",
+      "text-to-speech",
+      "vi",
+      "en",
+      "dataset:pnnbao-ump/VieNeu-TTS-10k-ENVI",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo",
+    "access": "public",
+    "exact_files": [
+      "denoiser.onnx",
+      "gguf/vieneu-v3-turbo-bf16.gguf",
+      "gguf/vieneu-v3-turbo-q8_0.gguf",
+      "model.safetensors",
+      "onnx/vieneu_acoustic_cached.onnx",
+      "onnx/vieneu_decode_step.onnx",
+      "onnx/vieneu_prefill.onnx",
+      "onnx/vieneu_v3_heads.npz",
+      "onnx_int8/vieneu_acoustic_cached.onnx",
+      "onnx_int8/vieneu_decode_step.onnx",
+      "onnx_int8/vieneu_prefill.onnx",
+      "onnx_int8/vieneu_v3_heads.npz",
+      "onnx_update/vieneu_acoustic_cached.onnx",
+      "onnx_update/vieneu_decode_step.onnx",
+      "onnx_update/vieneu_prefill.onnx",
+      "onnx_update/vieneu_v3_heads.npz",
+      "speaker_encoder.onnx",
+      "update/model.safetensors"
+    ],
+    "file_count": 18,
+    "formats": [
+      "Safetensors",
+      "GGUF",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": true,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/pnnbao-ump/VieNeu-TTS-v3-Turbo",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.26,
+      "fp8_int8": 0.13,
+      "int4": 0.07
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "VieNeu-TTS-v3-Turbo",
+    "variant": "VieNeu-TTS-v3-Turbo",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "dataset-metadata-declared",
+      "datasets": [
+        "pnnbao-ump/VieNeu-TTS-10k-ENVI"
+      ],
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "datasets"
+        }
+      ]
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/pnnbao-ump/VieNeu-TTS-v3-Turbo",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T12:09:36+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "dataset-metadata-declared",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "pnnbao-ump/VieNeu-TTS-v3-Turbo",
+    "rank": 541,
+    "downloads": 778314,
+    "likes": 65,
+    "last_modified": "2026-09-23T03:54:31+00:00",
+    "created_at": "2026-06-05T06:45:01+00:00",
+    "library_name": null,
+    "pipeline_tag": "text-to-speech",
+    "discovered_at": "2026-10-02T12:09:34+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": null,
+    "pipeline_tag": "text-to-speech",
+    "declared": [
+      "ONNX Runtime"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "GGUF artifact present (commonly used with llama.cpp-compatible runtimes)",
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-09-23T03:54:31.000Z",
+    "created_at": "2026-06-05T06:45:01.000Z",
+    "downloads": 778314,
+    "likes": 65,
+    "sha": "61b85e3d937fbbacb387714180e8182823512523",
+    "library_name": null,
+    "pipeline_tag": "text-to-speech",
+    "tags": [
+      "onnx",
+      "safetensors",
+      "gguf",
+      "vieneu_v3_turbo",
+      "voice-cloning",
+      "code-switching",
+      "podcast",
+      "emotion-control",
+      "48khz",
+      "text-to-speech",
+      "vi",
+      "en",
+      "dataset:pnnbao-ump/VieNeu-TTS-10k-ENVI",
+      "license:apache-2.0",
+      "region:us"
+    ]
+  }
+}

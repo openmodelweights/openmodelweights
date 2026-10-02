@@ -1,0 +1,371 @@
+{
+  "id": "sentence-transformers-labse",
+  "name": "LaBSE",
+  "developer": "Sentence Transformers",
+  "family": "LaBSE",
+  "variant": "LaBSE",
+  "model": {
+    "parameters": "0.470927B",
+    "total_parameters_billions": 0.47092736,
+    "context": {
+      "value": 512,
+      "display": "512 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text embeddings",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "onnx",
+      "safetensors",
+      "bert",
+      "feature-extraction",
+      "sentence-similarity",
+      "multilingual",
+      "af",
+      "sq",
+      "am",
+      "ar",
+      "hy",
+      "as",
+      "az",
+      "eu",
+      "be",
+      "bn"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/sentence-transformers/LaBSE",
+    "access": "public",
+    "exact_files": [
+      "2_Dense/model.safetensors",
+      "2_Dense/pytorch_model.bin",
+      "model.safetensors",
+      "onnx/model.onnx",
+      "pytorch_model.bin",
+      "tf_model.h5"
+    ],
+    "file_count": 6,
+    "formats": [
+      "Safetensors",
+      "PyTorch",
+      "ONNX"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "I64"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/sentence-transformers/LaBSE",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.94,
+      "fp8_int8": 0.47,
+      "int4": 0.24
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "LaBSE",
+    "variant": "LaBSE",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/sentence-transformers/LaBSE",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/sentence-transformers/LaBSE/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T12:09:36+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "sentence-transformers/LaBSE",
+    "rank": 523,
+    "downloads": 633833,
+    "likes": 349,
+    "last_modified": "2025-03-06T13:40:25+00:00",
+    "created_at": "2022-03-02T23:29:05+00:00",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "discovered_at": "2026-10-02T12:09:34+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "declared": [
+      "ONNX Runtime",
+      "sentence-transformers"
+    ],
+    "mentioned_in_model_card": [
+      "Transformers"
+    ],
+    "artifact_signals": [
+      "ONNX artifact present"
+    ],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-03-06T13:40:25.000Z",
+    "created_at": "2022-03-02T23:29:05.000Z",
+    "downloads": 633833,
+    "likes": 349,
+    "sha": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
+    "library_name": "sentence-transformers",
+    "pipeline_tag": "sentence-similarity",
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "onnx",
+      "safetensors",
+      "bert",
+      "feature-extraction",
+      "sentence-similarity",
+      "multilingual",
+      "af",
+      "sq",
+      "am",
+      "ar",
+      "hy",
+      "as",
+      "az",
+      "eu",
+      "be",
+      "bn",
+      "bs",
+      "bg",
+      "my",
+      "ca",
+      "ceb",
+      "zh",
+      "co",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "eo",
+      "et",
+      "fi",
+      "fr",
+      "fy",
+      "gl",
+      "ka",
+      "de",
+      "el",
+      "gu",
+      "ht",
+      "ha",
+      "haw",
+      "he",
+      "hi",
+      "hmn",
+      "hu",
+      "is",
+      "ig",
+      "id",
+      "ga",
+      "it",
+      "ja",
+      "jv",
+      "kn",
+      "kk",
+      "km",
+      "rw",
+      "ko",
+      "ku",
+      "ky",
+      "lo",
+      "la",
+      "lv",
+      "lt",
+      "lb",
+      "mk",
+      "mg",
+      "ms",
+      "ml",
+      "mt",
+      "mi",
+      "mr",
+      "mn",
+      "ne",
+      "no",
+      "ny",
+      "or",
+      "fa",
+      "pl",
+      "pt",
+      "pa",
+      "ro",
+      "ru",
+      "sm",
+      "gd",
+      "sr",
+      "st",
+      "sn",
+      "si",
+      "sk",
+      "sl",
+      "so",
+      "es",
+      "su",
+      "sw",
+      "sv",
+      "tl",
+      "tg",
+      "ta",
+      "tt",
+      "te",
+      "th",
+      "bo",
+      "tr",
+      "tk",
+      "ug",
+      "uk",
+      "ur",
+      "uz",
+      "vi",
+      "cy",
+      "wo",
+      "xh",
+      "yi",
+      "yo",
+      "zu",
+      "license:apache-2.0",
+      "eval-results",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

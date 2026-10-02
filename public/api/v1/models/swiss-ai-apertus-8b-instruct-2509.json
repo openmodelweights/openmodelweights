@@ -1,0 +1,268 @@
+{
+  "id": "swiss-ai-apertus-8b-instruct-2509",
+  "name": "Apertus-8B-Instruct-2509",
+  "developer": "swiss-ai",
+  "family": "Apertus",
+  "variant": "Apertus-8B-Instruct-2509",
+  "model": {
+    "parameters": "8.05334B",
+    "total_parameters_billions": 8.053338176,
+    "context": {
+      "value": 65536,
+      "display": "65,536 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "apertus",
+      "text-generation",
+      "multilingual",
+      "compliant",
+      "swiss-ai",
+      "conversational",
+      "arxiv:2509.14233",
+      "base_model:swiss-ai/Apertus-8B-2509",
+      "base_model:finetune:swiss-ai/Apertus-8B-2509",
+      "license:apache-2.0",
+      "eval-results",
+      "endpoints_compatible",
+      "region:us",
+      "deploy:sagemaker",
+      "deploy:azure"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00004.safetensors",
+      "model-00002-of-00004.safetensors",
+      "model-00003-of-00004.safetensors",
+      "model-00004-of-00004.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 5,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/swiss-ai/Apertus-8B-Instruct-2509",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/blob/main/LICENSE.txt",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/blob/main/LICENSE.txt"
+    },
+    "repository_license_files": [
+      "LICENSE.txt"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-02",
+      "source": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/blob/main/LICENSE.txt"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 16.11,
+      "fp8_int8": 8.05,
+      "int4": 4.03
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Apertus",
+    "variant": "Apertus-8B-Instruct-2509",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "swiss-ai/Apertus-8B-2509"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "training-described-in-model-card",
+      "files": [],
+      "links": [],
+      "evidence": [
+        "README.md"
+      ]
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/swiss-ai/Apertus-8B-Instruct-2509",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T12:09:36+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "training-described-in-model-card",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "swiss-ai/Apertus-8B-Instruct-2509",
+    "rank": 532,
+    "downloads": 457871,
+    "likes": 494,
+    "last_modified": "2026-07-17T08:57:20+00:00",
+    "created_at": "2025-08-13T09:30:23+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-02T12:09:34+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "MLX",
+      "SGLang",
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-07-17T08:57:20.000Z",
+    "created_at": "2025-08-13T09:30:23.000Z",
+    "downloads": 457871,
+    "likes": 494,
+    "sha": "b946d40447b2b597999b9c86d44bee0b452c919f",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "apertus",
+      "text-generation",
+      "multilingual",
+      "compliant",
+      "swiss-ai",
+      "conversational",
+      "arxiv:2509.14233",
+      "base_model:swiss-ai/Apertus-8B-2509",
+      "base_model:finetune:swiss-ai/Apertus-8B-2509",
+      "license:apache-2.0",
+      "eval-results",
+      "endpoints_compatible",
+      "deploy:sagemaker",
+      "deploy:azure",
+      "region:us"
+    ]
+  }
+}
