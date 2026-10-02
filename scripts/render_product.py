@@ -23,6 +23,14 @@ def slug(v):
 def date(v):
     return str(v)[:10] if v else "Not declared"
 
+def short_date(v):
+    if not v:return "Not declared"
+    try:
+        d=dt.datetime.fromisoformat(str(v).replace("Z","+00:00"))
+        return f"{d.day} {d.strftime('%b %Y')}"
+    except Exception:
+        return str(v)[:10]
+
 def epoch(v):
     if not v:return 0
     try:
@@ -100,10 +108,10 @@ def changes_page(feed,models,generated):
     items=[]
     for e in events:
         search=" ".join([e.get("model",""),e.get("developer",""),e.get("summary",""),e.get("detail","")]).lower()
-        items.append(f'''<article class="change-item" data-at="{esc(e.get("at",""))}" data-type="{esc(e.get("type",""))}" data-developer="{esc(e.get("developer","").lower())}" data-search="{esc(search)}"><time>{esc(e.get("at",""))}</time><div><span class="change-type">{esc(e.get("type",""))}</span><h3><a href="{esc(e.get("url","/changes/"))}">{esc(e.get("model","Registry"))}</a></h3><strong>{esc(e.get("summary",""))}</strong><p>{esc(e.get("detail",""))}</p></div></article>''')
+        items.append(f'''<article class="change-item" data-at="{esc(e.get("at",""))}" data-type="{esc(e.get("type",""))}" data-developer="{esc(e.get("developer","").lower())}" data-search="{esc(search)}"><time datetime="{esc(e.get("at",""))}" title="{esc(e.get("at",""))}">{esc(short_date(e.get("at")))}</time><div><span class="change-type">{esc(e.get("type",""))}</span><h3><a href="{esc(e.get("url","/changes/"))}">{esc(e.get("model","Registry"))}</a></h3><strong>{esc(e.get("summary",""))}</strong><p>{esc(e.get("detail",""))}</p></div></article>''')
     upstream=[]
     for e in feed.get("publisher_activity",[])[:120]:
-        upstream.append(f'''<a class="upstream-row" href="{esc(e.get("url",""))}"><time>{esc(e.get("at",""))}</time><div><strong>{esc(e.get("model",""))}</strong><span>{esc(e.get("developer",""))}</span></div><code>{esc((e.get("sha") or "")[:10])}</code></a>''')
+        upstream.append(f'''<a class="upstream-row" href="{esc(e.get("url",""))}"><time datetime="{esc(e.get("at",""))}" title="{esc(e.get("at",""))}">{esc(short_date(e.get("at")))}</time><div><strong>{esc(e.get("model",""))}</strong><span>{esc(e.get("developer",""))}</span></div><code>{esc((e.get("sha") or "")[:10])}</code></a>''')
     return f'''{head("What changed? — release and verification history | Open Model Weights","Long-horizon change history for verified open-weight model repositories, metadata and registry verification runs.","https://openmodelweights.com/changes/",'<script src="/changes-v2.js?v=1" defer></script>')}<body>{header("changes")}<main id="main-content"><section class="page-hero"><div class="breadcrumbs"><a href="/">Home</a> / Changes</div><p class="eyebrow">RELEASE / VERIFICATION HISTORY</p><h1>What changed?</h1><p class="lead">Repository revisions, field-level metadata changes and verification runs retained as a rolling history instead of a one-day snapshot.</p></section>{trust_strip(date(generated),date(generated))}<section class="metric-strip freshness-metrics"><div><span>Events retained</span><strong>{len(feed.get("events",[])):,}</strong></div><div><span>Publisher activity records</span><strong>{len(feed.get("publisher_activity",[])):,}</strong></div><div><span>Models tracked</span><strong>{len(models):,}</strong></div><div><span>History policy</span><strong>up to 5,000 events</strong></div></section><section class="section explorer-section"><div class="explorer-controls change-controls"><input id="changes-search" type="search" placeholder="Search model, developer or change…"><select id="changes-type"><option value="">All change types</option>{topt}</select><select id="changes-developer"><option value="">All developers</option>{dopt}</select><select id="changes-range"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="365">Last 365 days</option><option value="">All retained history</option></select></div><p id="changes-count" class="explorer-result-count"></p><div class="changes-layout"><div><h2 class="explorer-title">Registry changes</h2><div class="change-feed">{''.join(items)}</div></div><aside><h2 class="explorer-title">Publisher repository activity</h2><div class="upstream-feed">{''.join(upstream)}</div><p class="note">Publisher activity is Hugging Face repository metadata. A changed repository timestamp is not automatically treated as a semantic model release.</p></aside></div></section></main>{footer()}</body></html>'''
 
 def sources_page(generated,count):
