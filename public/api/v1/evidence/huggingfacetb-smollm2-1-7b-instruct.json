@@ -1,0 +1,133 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "huggingfacetb-smollm2-1-7b-instruct",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "31b70e2e869a-c560b99133",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "31b70e2e869a7173562077fd711b654946d38674",
+      "evidence_hash": "c560b99133243967e86bfc00a6f93bd133122a51dda80a872504ebf58a8ad045",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "SmolLM2-1.7B-Instruct",
+          "developer": "HuggingFaceTB",
+          "family": "SmolLM2",
+          "variant": "SmolLM2-1.7B-Instruct"
+        },
+        "model": {
+          "parameters": "1.71138B",
+          "total_parameters_billions": 1.711376384,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+          "access": "public",
+          "file_count": 10,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_bnb4.onnx",
+            "onnx/model_fp16.onnx",
+            "onnx/model_int8.onnx",
+            "onnx/model_q4.onnx",
+            "onnx/model_q4f16.onnx",
+            "onnx/model_quantized.onnx",
+            "onnx/model_uint8.onnx",
+            "training_args.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16",
+            "fp16",
+            "int8"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "HuggingFaceTB/SmolLM2-1.7B"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "recipe-or-training-files-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 3.42,
+            "fp8_int8": 1.71,
+            "int4": 0.86
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "31b70e2e869a7173562077fd711b654946d38674",
+          "created_at": "2024-10-31T13:42:06.000Z",
+          "last_modified": "2025-04-21T20:51:14.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "SmolLM2-1.7B-Instruct",
+  "developer": "HuggingFaceTB",
+  "source_repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "current_repository_sha": "31b70e2e869a7173562077fd711b654946d38674",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/huggingfacetb-smollm2-1-7b-instruct/history/",
+  "diff_url": "https://openmodelweights.com/diff/huggingfacetb-smollm2-1-7b-instruct/"
+}

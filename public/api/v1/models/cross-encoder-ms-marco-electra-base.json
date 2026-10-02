@@ -195,7 +195,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "checked_at_iso": "2026-10-02T13:41:07+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
@@ -228,14 +228,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "cross-encoder/ms-marco-electra-base",
-    "rank": 770,
+    "rank": 771,
     "downloads": 946022,
     "likes": 7,
     "last_modified": "2025-08-29T14:35:07+00:00",
     "created_at": "2022-03-02T23:29:05+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "text-ranking",
-    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "discovered_at": "2026-10-02T13:41:06+00:00",
     "pinned": false
   },
   "runtime_support": {

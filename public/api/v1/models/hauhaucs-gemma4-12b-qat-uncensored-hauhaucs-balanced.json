@@ -162,7 +162,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T13:23:05+00:00",
+    "checked_at_iso": "2026-10-02T13:41:07+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -200,14 +200,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
-    "rank": 383,
+    "rank": 381,
     "downloads": 886048,
-    "likes": 392,
+    "likes": 393,
     "last_modified": "2026-06-25T00:22:34+00:00",
     "created_at": "2026-06-22T14:32:34+00:00",
     "library_name": null,
     "pipeline_tag": "image-text-to-text",
-    "discovered_at": "2026-10-02T13:23:03+00:00",
+    "discovered_at": "2026-10-02T13:41:06+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -226,7 +226,7 @@
     "last_modified": "2026-06-25T00:22:34.000Z",
     "created_at": "2026-06-22T14:32:34.000Z",
     "downloads": 886048,
-    "likes": 392,
+    "likes": 393,
     "sha": "ae8045ac2bd216293ca49a3065da2c942dde4b68",
     "library_name": null,
     "pipeline_tag": "image-text-to-text",

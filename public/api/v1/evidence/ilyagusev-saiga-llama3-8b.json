@@ -1,0 +1,129 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ilyagusev-saiga-llama3-8b",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5bb9917bdb85-cca6d3ae56",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5bb9917bdb85340549662ebb62c8e522037ff3f3",
+      "evidence_hash": "cca6d3ae564bb5097b973af0dc88cb601d8cbdb80f7023bcda404f0785480725",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/IlyaGusev/saiga_llama3_8b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/IlyaGusev/saiga_llama3_8b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/IlyaGusev/saiga_llama3_8b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/IlyaGusev/saiga_llama3_8b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/IlyaGusev/saiga_llama3_8b/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "license",
+          "url": "https://llama.meta.com/llama3/license/",
+          "tier": "primary-or-declared"
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "saiga_llama3_8b",
+          "developer": "IlyaGusev",
+          "family": "saiga_llama3",
+          "variant": "saiga_llama3_8b"
+        },
+        "model": {
+          "parameters": "8.03026B",
+          "total_parameters_billions": 8.030261248,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "llama3",
+          "id": "other",
+          "url": "https://llama.meta.com/llama3/license/",
+          "commercial_use_status": "allowed-with-conditions",
+          "commercial_use_label": "Commercial use allowed subject to Llama community-license conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/IlyaGusev/saiga_llama3_8b",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "IlyaGusev/saiga_scored"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "llama.cpp",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 16.06,
+            "fp8_int8": 8.03,
+            "int4": 4.02
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "5bb9917bdb85340549662ebb62c8e522037ff3f3",
+          "created_at": "2024-04-18T18:25:25.000Z",
+          "last_modified": "2024-07-04T07:34:28.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "saiga_llama3_8b",
+  "developer": "IlyaGusev",
+  "source_repository": "https://huggingface.co/IlyaGusev/saiga_llama3_8b",
+  "current_repository_sha": "5bb9917bdb85340549662ebb62c8e522037ff3f3",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ilyagusev-saiga-llama3-8b/history/",
+  "diff_url": "https://openmodelweights.com/diff/ilyagusev-saiga-llama3-8b/"
+}

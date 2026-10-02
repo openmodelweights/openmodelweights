@@ -1,0 +1,135 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "cross-encoder-ms-marco-electra-base",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8b9301757513-81053d3777",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8b9301757513f8a695920c334c3a9f365ebeb357",
+      "evidence_hash": "81053d37779e7f78848258fec884b359fc133eb088816d28773fc734d72ba2e9",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/cross-encoder/ms-marco-electra-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/cross-encoder/ms-marco-electra-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/cross-encoder/ms-marco-electra-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/cross-encoder/ms-marco-electra-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/cross-encoder/ms-marco-electra-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "ms-marco-electra-base",
+          "developer": "cross-encoder",
+          "family": "ms-marco-electra",
+          "variant": "ms-marco-electra-base"
+        },
+        "model": {
+          "parameters": "0.109484B",
+          "total_parameters_billions": 0.109483521,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text Ranking"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/cross-encoder/ms-marco-electra-base",
+          "access": "public",
+          "file_count": 13,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx",
+            "onnx/model_O1.onnx",
+            "onnx/model_O2.onnx",
+            "onnx/model_O3.onnx",
+            "onnx/model_O4.onnx",
+            "onnx/model_qint8_arm64.onnx",
+            "onnx/model_qint8_avx512.onnx",
+            "onnx/model_qint8_avx512_vnni.onnx",
+            "onnx/model_quint8_avx2.onnx",
+            "openvino/openvino_model.bin",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "ONNX",
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [
+            "google/electra-base-discriminator"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "sentence-transformers/msmarco"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8b9301757513f8a695920c334c3a9f365ebeb357",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2025-08-29T14:35:07.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "ms-marco-electra-base",
+  "developer": "cross-encoder",
+  "source_repository": "https://huggingface.co/cross-encoder/ms-marco-electra-base",
+  "current_repository_sha": "8b9301757513f8a695920c334c3a9f365ebeb357",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/cross-encoder-ms-marco-electra-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/cross-encoder-ms-marco-electra-base/"
+}

@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "emrecan-bert-base-turkish-cased-mean-nli-stsb-tr",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "7e10e2fbd762-1f63273e38",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "7e10e2fbd7627fd0228eb2dbdc9e9da264442bbe",
+      "evidence_hash": "1f63273e385dc144753d2bae244e1406e7565852998eab4391912864c8df2436",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bert-base-turkish-cased-mean-nli-stsb-tr",
+          "developer": "emrecan",
+          "family": "bert-base-turkish-cased-mean-nli-stsb-tr",
+          "variant": "bert-base-turkish-cased-mean-nli-stsb-tr"
+        },
+        "model": {
+          "parameters": "0.110618B",
+          "total_parameters_billions": 0.110617856,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Text embeddings"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model.safetensors",
+            "openvino/openvino_model_qint8_quantized.bin",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "emrecan/stsb-mt-turkish",
+            "nli_tr"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.22,
+            "fp8_int8": 0.11,
+            "int4": 0.06
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "7e10e2fbd7627fd0228eb2dbdc9e9da264442bbe",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2026-09-05T08:42:18.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bert-base-turkish-cased-mean-nli-stsb-tr",
+  "developer": "emrecan",
+  "source_repository": "https://huggingface.co/emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+  "current_repository_sha": "7e10e2fbd7627fd0228eb2dbdc9e9da264442bbe",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/emrecan-bert-base-turkish-cased-mean-nli-stsb-tr/history/",
+  "diff_url": "https://openmodelweights.com/diff/emrecan-bert-base-turkish-cased-mean-nli-stsb-tr/"
+}

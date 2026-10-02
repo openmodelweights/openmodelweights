@@ -159,7 +159,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T12:22:24+00:00",
+    "checked_at_iso": "2026-10-02T13:41:07+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
@@ -192,14 +192,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "LBH-123-AI/Minimax_h3_latent_Upscaler",
-    "rank": 772,
+    "rank": 770,
     "downloads": 239708,
-    "likes": 371,
+    "likes": 372,
     "last_modified": "2026-09-17T12:01:05+00:00",
     "created_at": "2026-08-17T05:23:10+00:00",
     "library_name": "minimax-h3",
     "pipeline_tag": null,
-    "discovered_at": "2026-10-02T12:22:22+00:00",
+    "discovered_at": "2026-10-02T13:41:06+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -216,7 +216,7 @@
     "last_modified": "2026-09-17T12:01:05.000Z",
     "created_at": "2026-08-17T05:23:10.000Z",
     "downloads": 239708,
-    "likes": 371,
+    "likes": 372,
     "sha": "3f941d5d182014dd5c0a5e16330420ee2d4aa0c6",
     "library_name": "minimax-h3",
     "pipeline_tag": null,

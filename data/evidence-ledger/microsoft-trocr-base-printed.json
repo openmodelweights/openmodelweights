@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "microsoft-trocr-base-printed",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "93450be3f1ed-f2434c0c24",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "93450be3f1ed40a930690d951ef3932687cc1892",
+      "evidence_hash": "f2434c0c242324b17bb665ed8590c75e47cb5232ddfddb4038e17a343235f2d7",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/microsoft/trocr-base-printed",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/microsoft/trocr-base-printed",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/microsoft/trocr-base-printed",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/microsoft/trocr-base-printed/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/microsoft/trocr-base-printed/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "trocr-base-printed",
+          "developer": "Microsoft",
+          "family": "trocr-base-printed",
+          "variant": "trocr-base-printed"
+        },
+        "model": {
+          "parameters": "0.333331B",
+          "total_parameters_billions": 0.3333312,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Image To Text"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/microsoft/trocr-base-printed",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.67,
+            "fp8_int8": 0.33,
+            "int4": 0.17
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "93450be3f1ed40a930690d951ef3932687cc1892",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2024-05-27T20:11:53.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "trocr-base-printed",
+  "developer": "Microsoft",
+  "source_repository": "https://huggingface.co/microsoft/trocr-base-printed",
+  "current_repository_sha": "93450be3f1ed40a930690d951ef3932687cc1892",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/microsoft-trocr-base-printed/history/",
+  "diff_url": "https://openmodelweights.com/diff/microsoft-trocr-base-printed/"
+}

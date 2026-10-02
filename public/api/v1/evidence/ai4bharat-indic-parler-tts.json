@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ai4bharat-indic-parler-tts",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "7b527af5ee8e-c4343addaa",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "7b527af5ee8ed1f9a28d80b19703ed9bb8ba10ca",
+      "evidence_hash": "c4343addaa9881a9473c070f91b840b0a98026a3a4254dc785fd39ba9ff29b1f",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/ai4bharat/indic-parler-tts",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/ai4bharat/indic-parler-tts",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/ai4bharat/indic-parler-tts",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/ai4bharat/indic-parler-tts/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/ai4bharat/indic-parler-tts/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "indic-parler-tts",
+          "developer": "ai4bharat",
+          "family": "indic-parler-tts",
+          "variant": "indic-parler-tts"
+        },
+        "model": {
+          "parameters": "0.937803B",
+          "total_parameters_billions": 0.937803241,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → audio"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/ai4bharat/indic-parler-tts",
+          "access": "gated (auto)",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "ai4b-hf/GLOBE-annotated"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.88,
+            "fp8_int8": 0.94,
+            "int4": 0.47
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "7b527af5ee8ed1f9a28d80b19703ed9bb8ba10ca",
+          "created_at": "2024-10-28T08:29:09.000Z",
+          "last_modified": "2025-09-24T06:25:30.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "indic-parler-tts",
+  "developer": "ai4bharat",
+  "source_repository": "https://huggingface.co/ai4bharat/indic-parler-tts",
+  "current_repository_sha": "7b527af5ee8ed1f9a28d80b19703ed9bb8ba10ca",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ai4bharat-indic-parler-tts/history/",
+  "diff_url": "https://openmodelweights.com/diff/ai4bharat-indic-parler-tts/"
+}

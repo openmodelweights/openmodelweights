@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "moka-ai-m3e-base",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "764b537a0e50-2426a4ec86",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "764b537a0e50e5c7d64db883f2d2e051cbe3c64c",
+      "evidence_hash": "2426a4ec86b98be9e9fda1cd327f88b5ec40232c86785a1884d678f6dc092af3",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/moka-ai/m3e-base",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/moka-ai/m3e-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/moka-ai/m3e-base",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/moka-ai/m3e-base/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/moka-ai/m3e-base/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "m3e-base",
+          "developer": "moka-ai",
+          "family": "m3e",
+          "variant": "m3e-base"
+        },
+        "model": {
+          "parameters": "0.102268B",
+          "total_parameters_billions": 0.10226816,
+          "context_tokens": 512,
+          "context_display": "512 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/moka-ai/m3e-base",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.2,
+            "fp8_int8": 0.1,
+            "int4": 0.05
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "764b537a0e50e5c7d64db883f2d2e051cbe3c64c",
+          "created_at": "2023-06-06T02:28:47.000Z",
+          "last_modified": "2023-07-14T02:29:36.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "m3e-base",
+  "developer": "moka-ai",
+  "source_repository": "https://huggingface.co/moka-ai/m3e-base",
+  "current_repository_sha": "764b537a0e50e5c7d64db883f2d2e051cbe3c64c",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/moka-ai-m3e-base/history/",
+  "diff_url": "https://openmodelweights.com/diff/moka-ai-m3e-base/"
+}

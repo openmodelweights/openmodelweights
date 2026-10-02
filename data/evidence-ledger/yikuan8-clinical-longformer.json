@@ -1,0 +1,110 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "yikuan8-clinical-longformer",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "5e2ebe8f6e98-52a21f870c",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "5e2ebe8f6e98d4751eaf71a8514e0edbe73989a2",
+      "evidence_hash": "52a21f870c01f50c76b08d1e0558be6db0bfe457bbcfdfe74bef1957a22c2e70",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/yikuan8/Clinical-Longformer",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/yikuan8/Clinical-Longformer",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/yikuan8/Clinical-Longformer",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/yikuan8/Clinical-Longformer/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/yikuan8/Clinical-Longformer/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Clinical-Longformer",
+          "developer": "yikuan8",
+          "family": "Clinical-Longformer",
+          "variant": "Clinical-Longformer"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": 4098,
+          "context_display": "4,098 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Not declared in model-card metadata",
+          "id": null,
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/yikuan8/Clinical-Longformer",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "5e2ebe8f6e98d4751eaf71a8514e0edbe73989a2",
+          "created_at": "2022-03-02T23:29:05.000Z",
+          "last_modified": "2023-01-24T20:58:27.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Clinical-Longformer",
+  "developer": "yikuan8",
+  "source_repository": "https://huggingface.co/yikuan8/Clinical-Longformer",
+  "current_repository_sha": "5e2ebe8f6e98d4751eaf71a8514e0edbe73989a2",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/yikuan8-clinical-longformer/history/",
+  "diff_url": "https://openmodelweights.com/diff/yikuan8-clinical-longformer/"
+}

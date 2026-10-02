@@ -1,0 +1,168 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "lykon-dreamshaper",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "228d79cb2081-a81aab37e3",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "228d79cb20811466f5c5710aa91f05dabd0b8a14",
+      "evidence_hash": "a81aab37e32519d9b38448f132631b1d5c1184e647cebdb5b016412484630c07",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Lykon/DreamShaper",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Lykon/DreamShaper",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Lykon/DreamShaper",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Lykon/DreamShaper/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Lykon/DreamShaper/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "DreamShaper",
+          "developer": "Lykon",
+          "family": "DreamShaper",
+          "variant": "DreamShaper"
+        },
+        "model": {
+          "parameters": "Pending verification",
+          "total_parameters_billions": null,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Text → image"
+        },
+        "license": {
+          "name": "other",
+          "id": "other",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Lykon/DreamShaper",
+          "access": "public",
+          "file_count": 56,
+          "exact_files": [
+            "ArtDiffusionAlpha2_half.safetensors.safetensors",
+            "BadDream.pt",
+            "DreamShaper8_LCM.safetensors",
+            "DreamShaper8_LCM_INPAINTING.inpainting.safetensors",
+            "DreamShaperXL1.0Alpha2_fixedVae_half_00001_.safetensors",
+            "DreamShaperXL_Turbo_SFWdpmppSde_half_pruned.safetensors",
+            "DreamShaperXL_Turbo_dpmppSdeKarras_half_pruned_6.safetensors",
+            "DreamShaper_2.52.safetensors",
+            "DreamShaper_3.3.safetensors",
+            "DreamShaper_3.31_baked_vae-inpainting.inpainting.safetensors",
+            "DreamShaper_3.32_baked_vae_clip_fix.ckpt",
+            "DreamShaper_3.32_baked_vae_clip_fix.safetensors",
+            "DreamShaper_3.32_baked_vae_clip_fix_half.ckpt",
+            "DreamShaper_3.32_baked_vae_clip_fix_half.safetensors",
+            "DreamShaper_3.3_baked_vae.ckpt",
+            "DreamShaper_3.3_baked_vae.safetensors",
+            "DreamShaper_3.3_baked_vae_pruned.ckpt",
+            "DreamShaper_3.3_baked_vae_pruned.safetensors",
+            "DreamShaper_3.3_pruned.safetensors",
+            "DreamShaper_4BakedVae-inpainting.inpainting.safetensors",
+            "DreamShaper_4BakedVae.ckpt",
+            "DreamShaper_4BakedVae.safetensors",
+            "DreamShaper_4BakedVae_fp16.ckpt",
+            "DreamShaper_4BakedVae_fp16.safetensors",
+            "DreamShaper_4NoVae.ckpt",
+            "DreamShaper_4NoVae.safetensors",
+            "DreamShaper_4NoVae_fp16.ckpt",
+            "DreamShaper_4NoVae_fp16.safetensors",
+            "DreamShaper_5_beta2_BakedVae-inpainting.inpainting.safetensors",
+            "DreamShaper_5_beta2_BakedVae.ckpt",
+            "DreamShaper_5_beta2_BakedVae.safetensors",
+            "DreamShaper_5_beta2_BakedVae_fp16.ckpt",
+            "DreamShaper_5_beta2_BakedVae_fp16.safetensors",
+            "DreamShaper_5_beta2_noVae_half.safetensors",
+            "DreamShaper_5_beta2_noVae_half_pruned.ckpt",
+            "DreamShaper_5_beta2_noVae_half_pruned.safetensors",
+            "DreamShaper_6.2_BakedVae_pruned.safetensors",
+            "DreamShaper_6.31_BakedVae.safetensors",
+            "DreamShaper_6.31_BakedVae_pruned.safetensors",
+            "DreamShaper_6.31_INPAINTING.inpainting.safetensors",
+            "DreamShaper_6_BakedVae.safetensors",
+            "DreamShaper_6_BakedVae_INPAINTING.inpainting.safetensors",
+            "DreamShaper_6_BakedVae_noema.safetensors",
+            "DreamShaper_6_NoVae.safetensors",
+            "DreamShaper_6_NoVae_pruned.safetensors",
+            "DreamShaper_7-INPAINTING.inpainting.safetensors",
+            "DreamShaper_7_pruned.safetensors",
+            "DreamShaper_8_INPAINTING.inpainting.safetensors",
+            "DreamShaper_8_pruned.safetensors",
+            "FastNegativeEmbedding.pt",
+            "FastNegativeEmbeddingStrong.pt",
+            "UnrealisticDream.pt",
+            "safety_checker/pytorch_model.bin",
+            "text_encoder/pytorch_model.bin",
+            "unet/diffusion_pytorch_model.bin",
+            "vae/diffusion_pytorch_model.bin"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": null,
+          "status": "not-calculated"
+        },
+        "hub": {
+          "sha": "228d79cb20811466f5c5710aa91f05dabd0b8a14",
+          "created_at": "2023-01-12T09:14:06.000Z",
+          "last_modified": "2024-04-14T10:07:25.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "DreamShaper",
+  "developer": "Lykon",
+  "source_repository": "https://huggingface.co/Lykon/DreamShaper",
+  "current_repository_sha": "228d79cb20811466f5c5710aa91f05dabd0b8a14",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/lykon-dreamshaper/history/",
+  "diff_url": "https://openmodelweights.com/diff/lykon-dreamshaper/"
+}

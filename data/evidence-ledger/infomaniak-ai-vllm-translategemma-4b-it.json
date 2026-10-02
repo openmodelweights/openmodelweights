@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "infomaniak-ai-vllm-translategemma-4b-it",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "cb3e0b2504f0-ab35172bf5",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "cb3e0b2504f0db832982cca7fafd3ea4aaf777a0",
+      "evidence_hash": "ab35172bf51165800f4bbac101165c0b5eb38aa04f00ddf651e1e472f0750176",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/Infomaniak-AI/vllm-translategemma-4b-it",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/Infomaniak-AI/vllm-translategemma-4b-it",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/Infomaniak-AI/vllm-translategemma-4b-it",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/Infomaniak-AI/vllm-translategemma-4b-it/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/Infomaniak-AI/vllm-translategemma-4b-it/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "vllm-translategemma-4b-it",
+          "developer": "Infomaniak-AI",
+          "family": "vllm-translategemma",
+          "variant": "vllm-translategemma-4b-it"
+        },
+        "model": {
+          "parameters": "4.97133B",
+          "total_parameters_billions": 4.971331952,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Image + text → text"
+        },
+        "license": {
+          "name": "gemma",
+          "id": "gemma",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/Infomaniak-AI/vllm-translategemma-4b-it",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "described-in-model-card",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 9.94,
+            "fp8_int8": 4.97,
+            "int4": 2.49
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "cb3e0b2504f0db832982cca7fafd3ea4aaf777a0",
+          "created_at": "2026-01-26T08:38:37.000Z",
+          "last_modified": "2026-01-27T18:53:32.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "vllm-translategemma-4b-it",
+  "developer": "Infomaniak-AI",
+  "source_repository": "https://huggingface.co/Infomaniak-AI/vllm-translategemma-4b-it",
+  "current_repository_sha": "cb3e0b2504f0db832982cca7fafd3ea4aaf777a0",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/infomaniak-ai-vllm-translategemma-4b-it/history/",
+  "diff_url": "https://openmodelweights.com/diff/infomaniak-ai-vllm-translategemma-4b-it/"
+}

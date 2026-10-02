@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "utter-project-eurollm-22b-instruct-2512",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8c6ed5c8d185-d53c3d12c7",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8c6ed5c8d18527d9daed994f645032b86c53f0bb",
+      "evidence_hash": "d53c3d12c7d6de4f930225a2ce11aff28effa8a4f5486f2a6e3d41399671712c",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/utter-project/EuroLLM-22B-Instruct-2512",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "EuroLLM-22B-Instruct-2512",
+          "developer": "utter-project",
+          "family": "EuroLLM",
+          "variant": "EuroLLM-22B-Instruct-2512"
+        },
+        "model": {
+          "parameters": "22.6373B",
+          "total_parameters_billions": 22.637328384,
+          "context_tokens": 32768,
+          "context_display": "32,768 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+          "access": "public",
+          "file_count": 11,
+          "exact_files": [
+            "model-00001-of-00010.safetensors",
+            "model-00002-of-00010.safetensors",
+            "model-00003-of-00010.safetensors",
+            "model-00004-of-00010.safetensors",
+            "model-00005-of-00010.safetensors",
+            "model-00006-of-00010.safetensors",
+            "model-00007-of-00010.safetensors",
+            "model-00008-of-00010.safetensors",
+            "model-00009-of-00010.safetensors",
+            "model-00010-of-00010.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "utter-project/EuroLLM-22B-2512"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 45.27,
+            "fp8_int8": 22.64,
+            "int4": 11.32
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8c6ed5c8d18527d9daed994f645032b86c53f0bb",
+          "created_at": "2025-12-05T02:33:37.000Z",
+          "last_modified": "2026-07-31T17:18:02.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "EuroLLM-22B-Instruct-2512",
+  "developer": "utter-project",
+  "source_repository": "https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512",
+  "current_repository_sha": "8c6ed5c8d18527d9daed994f645032b86c53f0bb",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/utter-project-eurollm-22b-instruct-2512/history/",
+  "diff_url": "https://openmodelweights.com/diff/utter-project-eurollm-22b-instruct-2512/"
+}

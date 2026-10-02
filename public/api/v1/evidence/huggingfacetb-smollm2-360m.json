@@ -1,0 +1,116 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "huggingfacetb-smollm2-360m",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "f8027fd0eaee-ca92876d38",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+      "evidence_hash": "ca92876d38965244fc47f086be8b2201e11b7a5a60580497ed61c14a5e60c057",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/HuggingFaceTB/SmolLM2-360M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "SmolLM2-360M",
+          "developer": "HuggingFaceTB",
+          "family": "SmolLM2",
+          "variant": "SmolLM2-360M"
+        },
+        "model": {
+          "parameters": "0.361821B",
+          "total_parameters_billions": 0.36182112,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.72,
+            "fp8_int8": 0.36,
+            "int4": 0.18
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+          "created_at": "2024-10-31T00:43:11.000Z",
+          "last_modified": "2025-02-06T10:34:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "SmolLM2-360M",
+  "developer": "HuggingFaceTB",
+  "source_repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M",
+  "current_repository_sha": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/huggingfacetb-smollm2-360m/history/",
+  "diff_url": "https://openmodelweights.com/diff/huggingfacetb-smollm2-360m/"
+}

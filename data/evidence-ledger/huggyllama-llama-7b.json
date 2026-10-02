@@ -1,0 +1,122 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "huggyllama-llama-7b",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "4782ad278652-f0021caadc",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "4782ad278652c7c71b72204d462d6d01eaaf7549",
+      "evidence_hash": "f0021caadc64efc613c9a368a95e4aef670208388826710bfe24b1ea15f401f1",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/huggyllama/llama-7b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/huggyllama/llama-7b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/huggyllama/llama-7b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/huggyllama/llama-7b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/huggyllama/llama-7b/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "llama-7b",
+          "developer": "huggyllama",
+          "family": "llama",
+          "variant": "llama-7b"
+        },
+        "model": {
+          "parameters": "6.73842B",
+          "total_parameters_billions": 6.738417664,
+          "context_tokens": 2048,
+          "context_display": "2,048 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "other",
+          "id": "other",
+          "url": "https://huggingface.co/huggyllama/llama-7b/blob/main/LICENSE",
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/huggyllama/llama-7b",
+          "access": "public",
+          "file_count": 6,
+          "exact_files": [
+            "model-00001-of-00002.safetensors",
+            "model-00002-of-00002.safetensors",
+            "model.safetensors.index.json",
+            "pytorch_model-00001-of-00002.bin",
+            "pytorch_model-00002-of-00002.bin",
+            "pytorch_model.bin.index.json"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": [
+            "fp16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 13.48,
+            "fp8_int8": 6.74,
+            "int4": 3.37
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "4782ad278652c7c71b72204d462d6d01eaaf7549",
+          "created_at": "2023-04-03T23:16:48.000Z",
+          "last_modified": "2024-07-02T15:46:56.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "llama-7b",
+  "developer": "huggyllama",
+  "source_repository": "https://huggingface.co/huggyllama/llama-7b",
+  "current_repository_sha": "4782ad278652c7c71b72204d462d6d01eaaf7549",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/huggyllama-llama-7b/history/",
+  "diff_url": "https://openmodelweights.com/diff/huggyllama-llama-7b/"
+}

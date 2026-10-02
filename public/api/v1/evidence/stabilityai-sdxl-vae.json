@@ -1,0 +1,117 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "stabilityai-sdxl-vae",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "6f5909a7e596-470a8f181c",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "6f5909a7e596173e25d4e97b07fd19cdf9611c76",
+      "evidence_hash": "470a8f181c65003d523c6560dbc9db0d0a992ed8878820fee70e2f2d75a0e809",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/stabilityai/sdxl-vae",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/stabilityai/sdxl-vae",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/stabilityai/sdxl-vae",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/stabilityai/sdxl-vae/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/stabilityai/sdxl-vae/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "sdxl-vae",
+          "developer": "Stability AI",
+          "family": "sdxl-vae",
+          "variant": "sdxl-vae"
+        },
+        "model": {
+          "parameters": "0.0836539B",
+          "total_parameters_billions": 0.083653863,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/stabilityai/sdxl-vae",
+          "access": "public",
+          "file_count": 3,
+          "exact_files": [
+            "diffusion_pytorch_model.bin",
+            "diffusion_pytorch_model.safetensors",
+            "sdxl_vae.safetensors"
+          ],
+          "formats": [
+            "PyTorch",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.17,
+            "fp8_int8": 0.08,
+            "int4": 0.04
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "6f5909a7e596173e25d4e97b07fd19cdf9611c76",
+          "created_at": "2023-06-21T17:47:40.000Z",
+          "last_modified": "2023-08-04T10:12:16.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "sdxl-vae",
+  "developer": "Stability AI",
+  "source_repository": "https://huggingface.co/stabilityai/sdxl-vae",
+  "current_repository_sha": "6f5909a7e596173e25d4e97b07fd19cdf9611c76",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/stabilityai-sdxl-vae/history/",
+  "diff_url": "https://openmodelweights.com/diff/stabilityai-sdxl-vae/"
+}

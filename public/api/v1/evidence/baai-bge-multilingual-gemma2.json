@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "baai-bge-multilingual-gemma2",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "8365500e19bc-05e7a96049",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "8365500e19bc804136f4ad12c2494430239a2d72",
+      "evidence_hash": "05e7a9604953061b3ff45a15229a10ef74bcce1164e5bef9569ca8be48c45c87",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/BAAI/bge-multilingual-gemma2",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/BAAI/bge-multilingual-gemma2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/BAAI/bge-multilingual-gemma2",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/BAAI/bge-multilingual-gemma2/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/BAAI/bge-multilingual-gemma2/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "bge-multilingual-gemma2",
+          "developer": "BAAI",
+          "family": "bge-multilingual-gemma2",
+          "variant": "bge-multilingual-gemma2"
+        },
+        "model": {
+          "parameters": "9.24171B",
+          "total_parameters_billions": 9.241713152,
+          "context_tokens": 8192,
+          "context_display": "8,192 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "gemma",
+          "id": "gemma",
+          "url": null,
+          "commercial_use_status": "unknown",
+          "commercial_use_label": "Commercial-use status requires manual review"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/BAAI/bge-multilingual-gemma2",
+          "access": "public",
+          "file_count": 5,
+          "exact_files": [
+            "model-00001-of-00004.safetensors",
+            "model-00002-of-00004.safetensors",
+            "model-00003-of-00004.safetensors",
+            "model-00004-of-00004.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 18.48,
+            "fp8_int8": 9.24,
+            "int4": 4.62
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "8365500e19bc804136f4ad12c2494430239a2d72",
+          "created_at": "2024-07-25T16:55:46.000Z",
+          "last_modified": "2025-10-13T05:08:56.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "bge-multilingual-gemma2",
+  "developer": "BAAI",
+  "source_repository": "https://huggingface.co/BAAI/bge-multilingual-gemma2",
+  "current_repository_sha": "8365500e19bc804136f4ad12c2494430239a2d72",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/baai-bge-multilingual-gemma2/history/",
+  "diff_url": "https://openmodelweights.com/diff/baai-bge-multilingual-gemma2/"
+}

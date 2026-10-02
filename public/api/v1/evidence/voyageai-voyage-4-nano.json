@@ -1,0 +1,118 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "voyageai-voyage-4-nano",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "67fabc9bef01-fb846902f9",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "67fabc9bef010dabc5f6024aa1b1b6b93410426f",
+      "evidence_hash": "fb846902f9180e119d5ab010a960cfd3a9980be80fed2c2c9676e5438fc3f8ea",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/voyageai/voyage-4-nano",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/voyageai/voyage-4-nano",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/voyageai/voyage-4-nano",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/voyageai/voyage-4-nano/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/voyageai/voyage-4-nano/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "voyage-4-nano",
+          "developer": "voyageai",
+          "family": "voyage-4-nano",
+          "variant": "voyage-4-nano"
+        },
+        "model": {
+          "parameters": "0.346452B",
+          "total_parameters_billions": 0.346451968,
+          "context_tokens": 40960,
+          "context_display": "40,960 tokens",
+          "modality": "Embeddings / features"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/voyageai/voyage-4-nano/blob/main/LICENSE.txt",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/voyageai/voyage-4-nano",
+          "access": "public",
+          "file_count": 1,
+          "exact_files": [
+            "model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers",
+            "sentence-transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.69,
+            "fp8_int8": 0.35,
+            "int4": 0.17
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "67fabc9bef010dabc5f6024aa1b1b6b93410426f",
+          "created_at": "2026-01-06T00:15:08.000Z",
+          "last_modified": "2026-03-02T04:56:15.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "voyage-4-nano",
+  "developer": "voyageai",
+  "source_repository": "https://huggingface.co/voyageai/voyage-4-nano",
+  "current_repository_sha": "67fabc9bef010dabc5f6024aa1b1b6b93410426f",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/voyageai-voyage-4-nano/history/",
+  "diff_url": "https://openmodelweights.com/diff/voyageai-voyage-4-nano/"
+}

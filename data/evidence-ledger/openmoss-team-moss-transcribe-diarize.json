@@ -1,0 +1,119 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "openmoss-team-moss-transcribe-diarize",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "704aa4a9c304-cda6282c7f",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "704aa4a9c304e8520be88901e0d1960158ef5b15",
+      "evidence_hash": "cda6282c7f105c8c3760226465d95b01514f6875f0f2801b0331c8ce005965d0",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "MOSS-Transcribe-Diarize",
+          "developer": "OpenMOSS-Team",
+          "family": "MOSS-Transcribe-Diarize",
+          "variant": "MOSS-Transcribe-Diarize"
+        },
+        "model": {
+          "parameters": "0.908513B",
+          "total_parameters_billions": 0.90851328,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Audio + text → text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model-00000-of-00001.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 1.82,
+            "fp8_int8": 0.91,
+            "int4": 0.45
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "704aa4a9c304e8520be88901e0d1960158ef5b15",
+          "created_at": "2026-05-19T08:19:23.000Z",
+          "last_modified": "2026-09-02T08:46:58.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "MOSS-Transcribe-Diarize",
+  "developer": "OpenMOSS-Team",
+  "source_repository": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+  "current_repository_sha": "704aa4a9c304e8520be88901e0d1960158ef5b15",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/openmoss-team-moss-transcribe-diarize/history/",
+  "diff_url": "https://openmodelweights.com/diff/openmoss-team-moss-transcribe-diarize/"
+}

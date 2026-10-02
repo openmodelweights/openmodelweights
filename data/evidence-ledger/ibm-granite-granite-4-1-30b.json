@@ -1,0 +1,128 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "ibm-granite-granite-4-1-30b",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "4fae6278f713-fe45437966",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "4fae6278f7132abf5e971f9de49ebbad09c54cce",
+      "evidence_hash": "fe45437966fdf4c5111a8dce1d0c19585ebc06ac655db7a9eec76cc50fcc6f30",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/ibm-granite/granite-4.1-30b",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/ibm-granite/granite-4.1-30b/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/ibm-granite/granite-4.1-30b/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "granite-4.1-30b",
+          "developer": "IBM",
+          "family": "granite-4.1",
+          "variant": "granite-4.1-30b"
+        },
+        "model": {
+          "parameters": "28.8657B",
+          "total_parameters_billions": 28.865728512,
+          "context_tokens": 131072,
+          "context_display": "131,072 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+          "access": "public",
+          "file_count": 13,
+          "exact_files": [
+            "model-00001-of-00012.safetensors",
+            "model-00002-of-00012.safetensors",
+            "model-00003-of-00012.safetensors",
+            "model-00004-of-00012.safetensors",
+            "model-00005-of-00012.safetensors",
+            "model-00006-of-00012.safetensors",
+            "model-00007-of-00012.safetensors",
+            "model-00008-of-00012.safetensors",
+            "model-00009-of-00012.safetensors",
+            "model-00010-of-00012.safetensors",
+            "model-00011-of-00012.safetensors",
+            "model-00012-of-00012.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Transformers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 57.73,
+            "fp8_int8": 28.87,
+            "int4": 14.43
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "4fae6278f7132abf5e971f9de49ebbad09c54cce",
+          "created_at": "2026-04-06T13:19:18.000Z",
+          "last_modified": "2026-05-04T17:31:52.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "granite-4.1-30b",
+  "developer": "IBM",
+  "source_repository": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+  "current_repository_sha": "4fae6278f7132abf5e971f9de49ebbad09c54cce",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/ibm-granite-granite-4-1-30b/history/",
+  "diff_url": "https://openmodelweights.com/diff/ibm-granite-granite-4-1-30b/"
+}

@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "minishlab-potion-base-8m",
+  "created_at": "2026-10-02T13:45:41+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "bf8b056651a2-242b7bfe67",
+      "observed_at": "2026-10-02T13:45:41+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "bf8b056651a2c21b8d2565580b8569da283cab23",
+      "evidence_hash": "242b7bfe67536fe21f0ffb5c7ac773b06194d2e72064387bd58945617ef3af7e",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-02",
+      "source_repository": "https://huggingface.co/minishlab/potion-base-8M",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/minishlab/potion-base-8M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/minishlab/potion-base-8M",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/minishlab/potion-base-8M/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/minishlab/potion-base-8M/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "potion-base-8M",
+          "developer": "minishlab",
+          "family": "potion-base",
+          "variant": "potion-base-8M"
+        },
+        "model": {
+          "parameters": "0.00755917B",
+          "total_parameters_billions": 0.007559168,
+          "context_tokens": 1000000,
+          "context_display": "1,000,000 tokens",
+          "modality": "Not declared"
+        },
+        "license": {
+          "name": "MIT",
+          "id": "mit",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under MIT conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/minishlab/potion-base-8M",
+          "access": "public",
+          "file_count": 2,
+          "exact_files": [
+            "model.safetensors",
+            "onnx/model.onnx"
+          ],
+          "formats": [
+            "ONNX",
+            "Safetensors"
+          ],
+          "precision": []
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "training-described-in-model-card",
+          "data_status": "dataset-metadata-declared",
+          "datasets": [
+            "minishlab/tokenlearn-c4-en-bge-base-v1.5"
+          ]
+        },
+        "runtime": {
+          "signals": [
+            "ONNX Runtime",
+            "ONNX artifact present",
+            "Transformers",
+            "model2vec"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 0.02,
+            "fp8_int8": 0.01,
+            "int4": 0.0
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "bf8b056651a2c21b8d2565580b8569da283cab23",
+          "created_at": "2024-10-29T09:35:47.000Z",
+          "last_modified": "2026-03-27T07:46:29.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "potion-base-8M",
+  "developer": "minishlab",
+  "source_repository": "https://huggingface.co/minishlab/potion-base-8M",
+  "current_repository_sha": "bf8b056651a2c21b8d2565580b8569da283cab23",
+  "last_registry_check": "2026-10-02",
+  "last_full_field_verification": "2026-10-02",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/minishlab-potion-base-8m/history/",
+  "diff_url": "https://openmodelweights.com/diff/minishlab-potion-base-8m/"
+}
