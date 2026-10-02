@@ -155,7 +155,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:32:25+00:00",
+    "checked_at_iso": "2026-10-02T15:59:05+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
@@ -195,7 +195,7 @@
     "created_at": "2023-11-23T09:51:42+00:00",
     "library_name": "ctranslate2",
     "pipeline_tag": "automatic-speech-recognition",
-    "discovered_at": "2026-10-02T15:32:23+00:00",
+    "discovered_at": "2026-10-02T15:59:03+00:00",
     "pinned": false
   },
   "runtime_support": {

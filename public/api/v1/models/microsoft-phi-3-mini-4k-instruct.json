@@ -183,7 +183,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:32:25+00:00",
+    "checked_at_iso": "2026-10-02T15:59:05+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
@@ -223,7 +223,7 @@
     "created_at": "2024-04-22T16:18:17+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T15:32:23+00:00",
+    "discovered_at": "2026-10-02T15:59:03+00:00",
     "pinned": false
   },
   "runtime_support": {

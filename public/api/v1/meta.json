@@ -1,20 +1,20 @@
 {
   "api_version": "v1",
   "registry_schema": "0.8.0",
-  "generated_at": "2026-10-02T15:47:47+00:00",
+  "generated_at": "2026-10-02T16:00:47+00:00",
   "model_count": 700,
   "verification": {
     "total_seed_records": 700,
     "field_verified": 700,
-    "errors": 86,
-    "license_declared": 667,
-    "commercial_use_classified": 596,
-    "context_verified": 475,
+    "errors": 36,
+    "license_declared": 669,
+    "commercial_use_classified": 604,
+    "context_verified": 479,
     "exact_weight_lists": 700,
-    "base_model_declared": 226,
+    "base_model_declared": 222,
     "training_recipe_signal": 423,
-    "data_disclosure_signal": 254,
-    "runtime_signal": 684
+    "data_disclosure_signal": 246,
+    "runtime_signal": 686
   },
   "links": {
     "models": "https://openmodelweights.com/api/v1/models.json",
