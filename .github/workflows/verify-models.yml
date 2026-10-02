@@ -1,0 +1,48 @@
+name: Verify model registry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    paths:
+      - "scripts/verify_models.py"
+      - ".github/workflows/verify-models.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verify-model-registry
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install verifier dependencies
+        run: python -m pip install --disable-pip-version-check requests pyyaml
+
+      - name: Verify all model records and render pages
+        run: python scripts/verify_models.py
+
+      - name: Commit verified data
+        run: |
+          git config user.name "openmodelweights-bot"
+          git config user.email "openmodelweights-bot@users.noreply.github.com"
+          git add public/registry.json public/models public/developers public/verification public/sitemap.xml data/verification-report.json
+          if git diff --cached --quiet; then
+            echo "No verification changes."
+          else
+            git commit -m "Verify model fields against primary sources [skip ci]"
+            git push
+          fi
