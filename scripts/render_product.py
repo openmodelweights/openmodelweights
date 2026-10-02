@@ -475,6 +475,55 @@ def write_api(reg,report,feed):
   Cache-Control: public, max-age=3600
 """)
 
+def methodology_page(generated):
+    checked=date(generated)
+    principles=[
+      ("01","Source first","A field starts with observable evidence from the listed source repository or linked publisher documentation — not from naming conventions."),
+      ("02","Field by field","Verification applies to individual claims. A record can contain verified fields alongside explicit unknown or not-disclosed values."),
+      ("03","Unknown stays unknown","Missing evidence is preserved as missing. Open Model Weights does not fill gaps just to make records look complete."),
+      ("04","History compounds","Repository revisions and verified-field changes become observed evidence over time instead of being overwritten by the newest state.")
+    ]
+    principle_html="".join(f'<article class="method-principle"><span>{n}</span><h3>{esc(title)}</h3><p>{esc(body)}</p></article>' for n,title,body in principles)
+    steps=[
+      ("01","Discover candidate","Identify a source repository that appears to publish open-weight model artifacts."),
+      ("02","Pass publication gate","Require recognized weight artifacts and enough source evidence to create a real model record."),
+      ("03","Verify fields","Check repository/API/config/model-card/license evidence field by field."),
+      ("04","Classify explicitly","Store verified, declared, derived, not-disclosed or unknown states instead of silently inferring."),
+      ("05","Check revisions daily","Read the current repository revision and fresh API metadata on the daily registry run."),
+      ("06","Retain changes","When source evidence changes, create new observed history and field-level diffs.")
+    ]
+    steps_html="".join(f'<div class="method-step"><span>{n}</span><div><strong>{esc(title)}</strong><p>{esc(body)}</p></div></div>' for n,title,body in steps)
+    fields=[
+      ("Identity & weights","Source repository API + exact file listing","Repository exists, recognized weight artifacts are present, exact filenames are retained."),
+      ("License","Model-card metadata + repository license files / linked terms","Declared terms are recorded with evidence. Commercial-use classification is a comparison aid, not legal advice."),
+      ("Context & parameters","Structured config/API first; explicit source text second","Structured values are preferred. Naming conventions do not become facts."),
+      ("Formats & precision","Observed repository artifacts, filenames and dtype/config signals","Positive signals are recorded. “Not observed” does not mean no third-party conversion exists."),
+      ("Lineage","Declared base-model metadata","No parent model is invented from similarity, architecture family or naming."),
+      ("Training assets","Repository files + obvious model-card disclosure","Disclosure signals are recorded; Open Model Weights does not reconstruct undisclosed training."),
+      ("Runtime support","Source tags, model card and repository artifacts","Compatibility is source-derived unless a runtime is explicitly labeled as independently tested."),
+      ("Hardware memory","Derived from verified parameter count","Weight-only estimate: excludes KV cache, activations, runtime overhead and sharding."),
+      ("Popularity & freshness","Source repository API metadata","Downloads/likes aid discovery, not quality ranking. Revision checks are distinct from full field verification.")
+    ]
+    field_rows="".join(f'<tr><th scope="row">{esc(field)}</th><td>{esc(evidence)}</td><td>{esc(rule)}</td></tr>' for field,evidence,rule in fields)
+    states=[
+      ("Verified","Directly checked against the named evidence source."),
+      ("Declared","Present in source metadata or publisher text, but semantically a publisher/source declaration."),
+      ("Derived","Calculated from verified inputs and labeled as a derivation."),
+      ("Not disclosed","The checked standard evidence did not expose the value."),
+      ("Unknown","Available evidence is insufficient for a defensible value.")
+    ]
+    state_html="".join(f'<div class="method-state"><strong>{esc(name)}</strong><p>{esc(body)}</p></div>' for name,body in states)
+    boundaries=[
+      ("No guessed completeness","A blank field is preferable to a plausible but unsupported value."),
+      ("No publisher ownership assumption","The indexed Hugging Face URL is called the source repository unless publisher ownership is independently established."),
+      ("No deployment guarantee","Weight-memory estimates are comparison aids, not claims that a model will run within that amount of RAM or VRAM."),
+      ("No untested runtime guarantee","Runtime entries remain source-derived unless an execution test is explicitly documented."),
+      ("No legal determination","Commercial-use labels summarize checked terms for comparison and are not legal advice."),
+      ("No quality score from popularity","Downloads and likes remain discovery signals and never become a model-quality ranking.")
+    ]
+    boundary_html="".join(f'<div><strong>{esc(title)}</strong><p>{esc(body)}</p></div>' for title,body in boundaries)
+    return f'''{head("Methodology — how Open Model Weights verifies model evidence","The Open Model Weights methodology for source selection, field verification, unknown values, license classification, hardware estimates, freshness, history and reproducibility.","https://openmodelweights.com/methodology/")}<body class="methodology-page">{header()}<main id="main-content"><section class="page-hero methodology-hero"><div class="breadcrumbs"><a href="/">Home</a> / Methodology</div><p class="eyebrow">OPEN MODEL WEIGHTS · EVIDENCE METHODOLOGY</p><h1>Unknown is a valid value.</h1><p class="lead">The registry is designed to maximize useful coverage without converting assumptions into facts. Every important field should resolve to source evidence, an explicit classification rule, a labeled derivation — or an honest unknown.</p><div class="page-hero-chips"><span>Source-first</span><span>Field-level verification</span><span>Daily revision checks</span><span>Observed history</span></div></section>{trust_strip(checked,checked)}<section class="section methodology-principles"><div class="section-head"><div><p class="eyebrow">CORE PRINCIPLES</p><h2>The rules behind every record.</h2></div><p class="section-kicker">The goal is not to make every field look complete. The goal is to make every published claim inspectable.</p></div><div class="method-principle-grid">{principle_html}</div></section><section class="section methodology-pipeline"><div class="section-head"><div><p class="eyebrow">REGISTRY LIFECYCLE</p><h2>From repository to evidence record.</h2></div><p class="section-kicker">Discovery, verification, revision checks and history are separate stages.</p></div><div class="method-pipeline-grid">{steps_html}</div></section><section class="section methodology-fields"><div class="section-head"><div><p class="eyebrow">FIELD → EVIDENCE → RULE</p><h2>How individual claims are established.</h2></div><p class="section-kicker">Verification is specific to the field. One source does not automatically validate the whole record.</p></div><div class="method-table-wrap"><table class="method-table"><thead><tr><th>Field group</th><th>Primary evidence</th><th>Method / boundary</th></tr></thead><tbody>{field_rows}</tbody></table></div></section><section class="section methodology-states"><div class="methodology-split"><div><p class="eyebrow">EVIDENCE STATES</p><h2>“Verified” is not the only honest state.</h2><p>Open Model Weights preserves the difference between something we directly checked, something the source merely declares, something we calculate, and something the available evidence does not establish.</p></div><div class="method-state-grid">{state_html}</div></div></section><section class="section methodology-derived"><div class="section-head"><div><p class="eyebrow">DERIVED VALUES</p><h2>Hardware estimates are deliberately narrow.</h2></div><p class="section-kicker">They estimate storage for model weights only — not end-to-end deployment memory.</p></div><div class="method-formula-grid"><div><span>BF16 / FP16</span><strong>parameters × 2 bytes</strong><p>Approximate weight-only memory for 16-bit weights.</p></div><div><span>FP8 / INT8</span><strong>parameters × 1 byte</strong><p>Approximate weight-only memory for 8-bit weights.</p></div><div><span>INT4</span><strong>parameters × 0.5 byte</strong><p>Approximate weight-only memory for 4-bit weights.</p></div></div><div class="method-callout"><strong>Excluded by design</strong><p>KV cache, activations, optimizer state, runtime overhead, quantization metadata, device placement and sharding are not included. A displayed memory estimate is therefore not a deployment guarantee.</p></div></section><section class="section methodology-freshness"><div class="methodology-split"><div><p class="eyebrow">FRESHNESS & DATES</p><h2>Repository activity and verification are not the same thing.</h2><p>The daily pipeline checks current repository revision and fresh API metadata. If a source revision changes, relevant evidence is fetched again for field verification. The last revision check and the last full field verification are retained as distinct signals.</p></div><div class="method-date-grid"><div><span>Repository revision</span><strong>Freshness signal</strong><p>Used to detect source changes without re-fetching every unchanged artifact.</p></div><div><span>Full field verification</span><strong>Evidence check</strong><p>The most recent run that re-evaluated the relevant record fields.</p></div><div><span>Repository created</span><strong>Release-date proxy</strong><p>Used only when no separate structured release date is available, and labeled as a proxy.</p></div><div><span>Publisher updated</span><strong>Activity metadata</strong><p>A changed timestamp does not automatically become a semantic model release.</p></div></div></div></section><section class="section methodology-boundaries"><div class="method-boundary-panel"><div class="method-boundary-intro"><p class="eyebrow">BOUNDARIES</p><h2>What the registry does not claim.</h2><p>These limits are part of the methodology, not footnotes. They prevent useful discovery signals from being overstated as stronger evidence.</p></div><div class="method-boundary-grid">{boundary_html}</div></div></section><section class="section methodology-repro"><div class="section-head"><div><p class="eyebrow">REPRODUCIBILITY</p><h2>Inspect the evidence layer yourself.</h2></div><p class="section-kicker">The methodology is backed by public data surfaces rather than a closed scoring system.</p></div><div class="method-link-grid"><a href="/sources/"><strong>Source policy</strong><span>Evidence hierarchy and field rules →</span></a><a href="/verification/"><strong>Verification report</strong><span>Current registry verification status →</span></a><a href="/history/"><strong>Evidence Ledger</strong><span>Observed snapshots and field diffs →</span></a><a href="/registry.json"><strong>Registry JSON</strong><span>Canonical machine-readable registry →</span></a><a href="/api/"><strong>API / JSON</strong><span>Versioned data surfaces →</span></a><a href="/openapi.json"><strong>OpenAPI 3.1</strong><span>Machine-readable endpoint description →</span></a></div><div class="method-correction"><div><span>FOUND A QUESTIONABLE FIELD?</span><h3>Corrections should leave an evidence trail too.</h3><p>Report the model, the field in question and the strongest source you have. Public version control keeps changes attributable and inspectable.</p></div><a class="button primary" href="https://github.com/openmodelweights/openmodelweights/issues/new" rel="noopener">Report a correction ↗</a></div></section></main>{footer()}</body></html>'''
+
 def patch_model_page(path,m,generated):
     text=path.read_text()
     text=re.sub(r'(?:<a class="skip-link"[^>]*>.*?</a>)?<header class="site-header">.*?</header>',header("models"),text,count=1,flags=re.S)
@@ -593,6 +642,7 @@ def main():
     d=PUBLIC/"changes";d.mkdir(parents=True,exist_ok=True);(d/"index.html").write_text(changes_page(feed,models,generated))
     d=PUBLIC/"sources";d.mkdir(parents=True,exist_ok=True);(d/"index.html").write_text(sources_page(generated,len(models)))
     d=PUBLIC/"api";d.mkdir(parents=True,exist_ok=True);(d/"index.html").write_text(api_docs(len(models),generated))
+    d=PUBLIC/"methodology";d.mkdir(parents=True,exist_ok=True);(d/"index.html").write_text(methodology_page(generated))
     write_api(reg,report,feed)
 
     by_id={m["id"]:m for m in models}
