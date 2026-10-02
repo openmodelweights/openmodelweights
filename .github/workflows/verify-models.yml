@@ -12,6 +12,8 @@ on:
       - "scripts/render_extras.py"
       - "scripts/render_product.py"
       - "scripts/build_intelligence.py"
+      - "scripts/render_news.py"
+      - "data/news.json"
       - "scripts/validate_benchmarks.py"
       - "benchmarks/runner/**"
       - "data/benchmark-evidence/**"
@@ -72,6 +74,9 @@ jobs:
 
       - name: Build evidence intelligence layer
         run: python scripts/build_intelligence.py
+
+      - name: Render daily open-weight intelligence
+        run: python scripts/render_news.py
 
       - name: Validate MCP Worker bundle
         run: |

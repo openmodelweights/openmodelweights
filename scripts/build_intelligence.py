@@ -46,7 +46,7 @@ def slug(v):
     return re.sub(r"[^a-z0-9]+","-",str(v).lower()).strip("-")
 
 def site_header(active=""):
-    links=[("models","/models/","Models"),("explore","/explore/","Explore"),("developers","/developers/","Developers"),("changes","/changes/","Changes"),("sources","/sources/","Sources")]
+    links=[("models","/models/","Models"),("explore","/explore/","Explore"),("news","/news/","News"),("developers","/developers/","Developers"),("changes","/changes/","Changes"),("sources","/sources/","Sources")]
     out=[]
     for key,url,label in links:
         cur=' aria-current="page"' if active==key else ""
@@ -57,7 +57,7 @@ def site_header(active=""):
     return '<a class="skip-link" href="#main-content">Skip to content</a><header class="site-header"><a class="brand" href="/" aria-label="Open Model Weights home">'+mark+'<span class="brand-wordmark">Open Model Weights</span></a><nav aria-label="Primary navigation">'+''.join(out)+'</nav></header>'
 
 def site_footer():
-    return '''<footer class="site-footer site-footer-v2"><div class="footer-brand"><div class="footer-brand-line"><span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-nav"><div class="footer-group"><span>Registry</span><a href="/models/">Models</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a><a href="/sources/">Sources</a></div><div class="footer-group"><span>Evidence</span><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a><a href="/compatibility/">Compatibility</a></div><div class="footer-group"><span>Machine</span><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="/benchmarks/">Benchmarks</a></div><div class="footer-group"><span>Project</span><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></div></footer>'''
+    return '''<footer class="site-footer site-footer-v2"><div class="footer-brand"><div class="footer-brand-line"><span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span><strong>Open Model Weights</strong></div><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-nav"><div class="footer-group"><span>Registry</span><a href="/models/">Models</a><a href="/news/">News</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a><a href="/sources/">Sources</a></div><div class="footer-group"><span>Evidence</span><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/history/">History</a><a href="/compatibility/">Compatibility</a></div><div class="footer-group"><span>Machine</span><a href="/api/">API / JSON</a><a href="/mcp/">MCP</a><a href="/registry.json">Registry JSON</a><a href="/benchmarks/">Benchmarks</a></div><div class="footer-group"><span>Project</span><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></div></footer>'''
 
 def context_value(m):
     c=(m.get("model") or {}).get("context")

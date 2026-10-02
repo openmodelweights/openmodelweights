@@ -1,0 +1,315 @@
+{
+  "schema_version": "1.0.0",
+  "generated_note": "Editorial data for Open Weight Intelligence. Each brief is source-first and must keep publisher claims attributed.",
+  "articles": [
+    {
+      "slug": "ai2-astabrief-8b-open-weight-scientific-reports",
+      "title": "Ai2 releases AstaBrief 8B for fast, cited scientific report generation",
+      "dek": "AstaBrief turns retrieved scientific evidence into cited reports and gives institutions an open-weight option for running the report-writing stage on their own infrastructure.",
+      "published_at": "2026-10-02T15:00:00Z",
+      "modified_at": "2026-10-02T15:00:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-10-02",
+      "category": "Model release",
+      "importance": "major",
+      "source_name": "Ai2 / Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/astabrief",
+      "tags": [
+        "AstaBrief",
+        "Ai2",
+        "scientific AI",
+        "open weights",
+        "Qwen3"
+      ],
+      "key_points": [
+        "AstaBrief is an 8B open-weight report-generation model built from Qwen3-8B.",
+        "Ai2 says the model is open-sourced together with training data and an example local workflow.",
+        "The reported Asta pipeline averaged 51.1 seconds in Fast mode versus 178.5 seconds for its comparison Thinking mode; Ai2 cautions that the full evaluation reflects the frontier at the time of development."
+      ],
+      "registry_watch": "New model candidate. The source repository and license evidence should be checked before any AstaBrief record is added to the registry.",
+      "body": [
+        "Ai2 has released AstaBrief, an 8B open-weight model designed for a narrow but demanding task: turning a research question plus retrieved scientific excerpts into a cited report. The project is notable because it treats source grounding as part of the model’s job rather than an optional layer added after generation. Ai2 says AstaBrief is now used in Asta’s Fast mode and is being released with the training data so that researchers can inspect, reproduce and adapt the approach.",
+        "The model starts from Qwen3-8B and was post-trained with supervised fine-tuning and direct preference optimization. Ai2 describes a training pipeline built from real research queries, citation-focused filtering and preference pairs. After filtering, the team reports roughly 47,000 SFT examples and about 6,000 DPO pairs. The important methodological point is that Ai2 did not present one judge model or one synthetic generator as ground truth; it used multiple model sources and agreement filters to reduce noise.",
+        "For open-weight users, the practical value is local control over a report-generation component that would otherwise depend on a proprietary API. Ai2 reports that Fast mode averaged 51.1 seconds per report across its pipeline, compared with 178.5 seconds for its Claude-powered Thinking mode. The source also explicitly warns that much of the evaluation was completed earlier and should not be read as a current frontier ranking. For Open Model Weights, that distinction matters: the release is interesting because the weights and training artifacts are available, while benchmark and speed claims remain attributed to the publisher until independently reproduced."
+      ]
+    },
+    {
+      "slug": "llama-cpp-adds-decision-models-system-one-endpoint",
+      "title": "llama.cpp adds decision-model inference through a new System One endpoint",
+      "dek": "The local inference stack can now score typed options directly instead of generating free-form text, opening a different deployment path for routing, moderation and agent control.",
+      "published_at": "2026-10-02T14:30:00Z",
+      "modified_at": "2026-10-02T14:30:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-10-02",
+      "category": "Runtime",
+      "importance": "major",
+      "source_name": "ggml-org / Hugging Face",
+      "source_url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
+      "tags": [
+        "llama.cpp",
+        "decision models",
+        "local inference",
+        "System One"
+      ],
+      "key_points": [
+        "llama.cpp server now exposes a /v1/systemone endpoint for decision models.",
+        "Inputs can include text, JSON or screenshots plus typed questions.",
+        "The model returns a probability for each supplied option in a single forward pass."
+      ],
+      "registry_watch": "Compatibility-layer news. This changes what supported runtimes can do; it does not by itself verify a new model record.",
+      "body": [
+        "llama.cpp has added support for a class of models that answer by scoring a fixed set of choices rather than generating a text response token by token. The new server endpoint, `/v1/systemone`, accepts a state such as text, JSON or an image together with typed questions, then returns probabilities for the available options. The API follows the System One format introduced with TypeSafe’s Jev model, which is intended to make the same client pattern portable across compatible backends.",
+        "This matters because many agent and automation tasks are fundamentally decisions, not conversations. A router may need to choose one tool, a moderation layer may need to classify one policy state, or an agent may need to decide whether the previous step succeeded. A conventional chat model can perform those tasks, but it still generates output that must be parsed and validated. A decision model instead exposes the choice itself as the output contract.",
+        "For the open-weight ecosystem, the llama.cpp integration is more important than a single benchmark number. llama.cpp is one of the major local-inference runtimes and sits underneath a broad set of desktop and developer tools. When a new model class becomes a first-class runtime primitive there, it becomes materially easier to test and deploy outside a hosted API. Open Model Weights should treat this as a compatibility signal rather than a quality judgment: support in a runtime is evidence about deployability, while the usefulness of any particular decision model still depends on its own weights, license, task fit and measured behavior."
+      ]
+    },
+    {
+      "slug": "olmo-core-3-open-moe-training-stack",
+      "title": "Olmo-core 3 opens a training stack designed for trillion-scale mixture-of-experts models",
+      "dek": "Ai2 redesigned its open training infrastructure around MoE routing, expert parallelism and lower-precision execution, with the next generation of Olmo expected to use the stack.",
+      "published_at": "2026-10-02T13:40:00Z",
+      "modified_at": "2026-10-02T13:40:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-10-01",
+      "category": "Training infrastructure",
+      "importance": "major",
+      "source_name": "Ai2 / Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/olmocore3",
+      "tags": [
+        "Olmo",
+        "Ai2",
+        "MoE",
+        "training",
+        "open source"
+      ],
+      "key_points": [
+        "Olmo-core 3 is a fully open MoE training stack and is intended for the next generation of Olmo.",
+        "Ai2 reports about 2.7× higher throughput than its earlier FSDP-based implementation in one 47B-parameter test on eight NVIDIA B300 GPUs.",
+        "Ai2 also reports tests above one trillion total parameters, including a 1.2T configuration across 512 GPUs."
+      ],
+      "registry_watch": "Training-stack news, not a model-weight release. Future Olmo model records can link back to this stack when the publisher identifies it as part of the training provenance.",
+      "body": [
+        "Ai2 has released Olmo-core 3, a major redesign of the open training framework behind its Olmo program. The focus is mixture-of-experts training: keeping large expert pools distributed across GPUs, routing tokens efficiently and avoiding communication patterns that erase the theoretical compute advantage of sparse models. Ai2 says the stack is one of the core systems behind its next generation of Olmo and is designed to scale into the trillion-parameter range.",
+        "The engineering shift is from an earlier fully sharded approach toward a system built around distributed data parallelism, expert parallelism, pipeline parallelism and a distributed optimizer. Ai2 reports that, in a preliminary eight-B300 test, a 47B-parameter MoE processed about 52,000 tokens per second per GPU compared with 19,400 for its earlier implementation, roughly a 2.7× increase. In a separate controlled test, enabling MXFP8 where it helped most raised end-to-end throughput by about 21% while reducing peak active memory. These are publisher-reported systems measurements, not model-quality results.",
+        "The broader importance is provenance. Open weights are much more informative when the training code, parallelism choices and failed experiments are inspectable too. Ai2 documents not only the optimizations it kept but also cases where apparently promising techniques did not improve end-to-end performance. For Open Model Weights, this is the kind of upstream evidence that can eventually make lineage and training-method records richer without guessing: when a future Olmo release cites Olmo-core 3, the model record can point to an open implementation rather than merely a marketing description."
+      ]
+    },
+    {
+      "slug": "nvidia-kumo-tabular-open-foundation-model",
+      "title": "NVIDIA Kumo Tabular brings open foundation models to tabular prediction",
+      "dek": "The Kumo Structured family targets classification and regression directly from labeled tables, with three small model sizes and a commercial-use license.",
+      "published_at": "2026-10-02T12:50:00Z",
+      "modified_at": "2026-10-02T12:50:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-29",
+      "category": "Model release",
+      "importance": "notable",
+      "source_name": "NVIDIA / Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "tags": [
+        "NVIDIA",
+        "Kumo",
+        "tabular",
+        "foundation model",
+        "open model"
+      ],
+      "key_points": [
+        "Kumo Tabular is an open foundation model for tabular classification and regression.",
+        "The family spans 28M to 215M parameters and was pretrained on artificial data.",
+        "NVIDIA says the model is available with weights on Hugging Face and is released under OpenMDW-1.1 for commercial use."
+      ],
+      "registry_watch": "New model-family candidate. The registry should verify the exact Hugging Face artifacts and the OpenMDW-1.1 terms before publication.",
+      "body": [
+        "NVIDIA has released Kumo Tabular, an open foundation-model family aimed at a part of machine learning that is often overshadowed by language and vision models: structured tables. The basic idea is in-context prediction. Instead of training a new gradient-boosted model for every dataset, Kumo reads labeled rows as context and predicts labels for new rows in a forward pass. NVIDIA positions the family for both classification and regression without per-task tuning or feature engineering.",
+        "The release is unusually compact by current foundation-model standards. NVIDIA describes three sizes ranging from 28 million to 215 million parameters, pretrained only on artificial data. The company provides model weights on Hugging Face and an open-source library, and says the release uses the OpenMDW-1.1 license for commercial use. NVIDIA also reports first-place results across four tabular benchmarks, but those benchmark claims should remain attributed to the publisher until they are independently reproduced under a matching setup.",
+        "For the open-weight ecosystem, Kumo is a useful reminder that the category is expanding beyond generative models. A registry focused only on chat LLMs would miss an increasingly important class of downloadable foundation models for speech, robotics, tabular data and other specialized tasks. Open Model Weights can treat Kumo like any other record: verify the exact weight artifacts, preserve the license terms, identify the modality and task correctly, and keep benchmark claims separate from source-verified facts about what is actually downloadable."
+      ]
+    },
+    {
+      "slug": "holo4-open-agent-models-27b-35b",
+      "title": "Holo4 ships 27B and 35B-A3B agent models with open weights and trajectories",
+      "dek": "H Company’s new agentic family is designed to move between GUIs, code, MCP and APIs, with downloadable weights in multiple precisions and public benchmark trajectories.",
+      "published_at": "2026-10-02T12:10:00Z",
+      "modified_at": "2026-10-02T12:10:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-28",
+      "category": "Model release",
+      "importance": "major",
+      "source_name": "H Company / Hugging Face",
+      "source_url": "https://huggingface.co/blog/Hcompany/holo4",
+      "tags": [
+        "Holo4",
+        "agents",
+        "computer use",
+        "MCP",
+        "open weights"
+      ],
+      "key_points": [
+        "Holo4 is released in a 27B dense model and a 35B-A3B mixture-of-experts model.",
+        "The models are designed to use GUIs, code, MCP and APIs within the same workflow.",
+        "The source says weights are available in BF16, FP8, NVFP4 and 4-bit GGUF, with public trajectories for benchmark runs."
+      ],
+      "registry_watch": "New model-family candidate. Exact repositories, formats, license terms and model lineage should be verified before Holo4 appears as a field-verified record.",
+      "body": [
+        "H Company has released Holo4, a pair of agentic models intended to operate across multiple interfaces instead of being trained around one narrow control channel. The family includes a 27B dense model and a 35B-A3B mixture-of-experts model. H Company says the same model can interact through graphical interfaces, execute code, call MCP tools and use APIs, which makes the release relevant to the growing overlap between open weights and agent infrastructure.",
+        "The source also publishes more than just an API endpoint. H Company links downloadable weights and says the collection includes BF16, FP8, NVFP4 and 4-bit GGUF variants. It also makes benchmark trajectories available for inspection. That is especially valuable for agentic claims because a single final score hides the sequence of actions, retries and tool choices that produced it. Public trajectories do not make a benchmark automatically comparable across harnesses, but they give researchers much more material to audit.",
+        "H Company reports strong results on computer-use and automation benchmarks and compares Holo4 with both open and closed systems. Open Model Weights should keep those results clearly attributed: harnesses, task releases and cost assumptions vary, and the source itself notes several of those differences. The durable facts for a registry are simpler and more useful: the weights exist, multiple formats are published, the models target cross-interface agent workflows, and the release includes unusually inspectable execution traces."
+      ]
+    },
+    {
+      "slug": "liquid-ai-lfm25-vl-dspark-speculative-decoding",
+      "title": "Liquid AI releases a 280M draft model to accelerate LFM2.5-VL-3B",
+      "dek": "The DSpark companion model adds speculative decoding to Liquid AI’s vision-language stack with integrations for llama.cpp, MLX-VLM and SGLang.",
+      "published_at": "2026-10-02T11:30:00Z",
+      "modified_at": "2026-10-02T11:30:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-24",
+      "category": "Inference",
+      "importance": "notable",
+      "source_name": "Liquid AI / Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "tags": [
+        "Liquid AI",
+        "LFM2.5",
+        "VLM",
+        "speculative decoding",
+        "inference"
+      ],
+      "key_points": [
+        "The DSpark drafter is approximately 280M parameters, about 8.9% of the 3B target model.",
+        "Liquid AI reports decode speedups up to 3.13× on-device and 2.66× on an H100 in its tests.",
+        "Day-one integrations include llama.cpp, MLX-VLM and SGLang."
+      ],
+      "registry_watch": "Compatibility and companion-weight candidate. The drafter is a separate artifact whose relationship to LFM2.5-VL-3B should be represented explicitly rather than folded into the base model.",
+      "body": [
+        "Liquid AI has released an experimental DSpark draft model for LFM2.5-VL-3B, extending speculative decoding from its text models into vision-language inference. The drafter is roughly 280 million parameters, or about 8.9% of the size of the 3B target model. It watches hidden states from selected layers of the target and proposes blocks of candidate tokens that the full model can verify, aiming to reduce the number of expensive decoding steps without changing the target model’s output distribution.",
+        "Liquid AI reports decode speedups of up to 3.13× on-device and 2.66× on an H100, with smaller but still substantial end-to-end gains in its tests. The source is careful to discuss limits: visual workloads include image processing and prefill costs that speculative decoding does not eliminate, so decode acceleration does not translate one-for-one into total application speed. The drafter also consumes additional memory even though it is small relative to the target.",
+        "The deployment angle is particularly relevant to an open-weight registry. Liquid AI says the release has day-one integration with llama.cpp, MLX-VLM and SGLang. That makes the new artifact both a model and a compatibility relationship: it is useful only in combination with a specific target model and a runtime that understands the speculative path. Open Model Weights should preserve that relationship explicitly, rather than implying that LFM2.5-VL-3B itself suddenly became smaller or that the reported speedups apply to every hardware configuration."
+      ]
+    },
+    {
+      "slug": "flux-3-action-open-weight-world-action-model",
+      "title": "Black Forest Labs releases FLUX 3 Action, a 7B open-weight world action model",
+      "dek": "FLUX 3 Action predicts future frames and actions together and arrives with robot-policy checkpoints, LeRobot integration and a dedicated weights license.",
+      "published_at": "2026-10-02T10:55:00Z",
+      "modified_at": "2026-10-02T10:55:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-23",
+      "category": "Model release",
+      "importance": "major",
+      "source_name": "Black Forest Labs / Hugging Face",
+      "source_url": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
+      "tags": [
+        "FLUX 3 Action",
+        "Black Forest Labs",
+        "robotics",
+        "world action model",
+        "open weights"
+      ],
+      "key_points": [
+        "FLUX 3 Action is a 7B open-weight world action model that consumes a camera frame plus text instruction and predicts the next two seconds of actions.",
+        "Black Forest Labs publishes DROID and SO-101 checkpoints and integrates them with LeRobot.",
+        "The source states that weights use the FLUX Kommunity License v1.0."
+      ],
+      "registry_watch": "High-priority new-model candidate. Because the release uses a dedicated license, commercial-use classification should be based on the exact license text rather than the phrase “open weights.”",
+      "body": [
+        "Black Forest Labs has moved the FLUX name into robotics with FLUX 3 Action, a 7B world action model that jointly predicts future visual states and control actions. The model takes a camera frame and a text instruction, then produces the next two seconds of actions. The architecture is a diffusion transformer with video and action tokens in one sequence; the text instruction is encoded with a frozen Qwen3-VL-4B component.",
+        "The release includes checkpoints fine-tuned for the DROID dataset and the SO-101 robot arm, with both integrated into LeRobot. Black Forest Labs also publishes code and says the weights are released under the FLUX Kommunity License v1.0. In its announcement, the company reports a 42.92% success rate on the RoboLab-120 benchmark for the DROID-tuned model, above the comparison systems shown in its table. That result is useful context, but it remains a publisher-reported benchmark until reproduced under the same benchmark and harness conditions.",
+        "For Open Model Weights, the license is as important as the architecture. “Open weights” describes access to the model artifacts; it does not by itself answer what commercial uses, redistribution or derivative work are allowed. FLUX 3 Action should therefore enter the registry only after the exact repository artifacts and the dedicated license terms are checked field by field. The release also broadens what a model registry needs to represent: not every open-weight model produces text, and future records increasingly need precise task and modality descriptions."
+      ]
+    },
+    {
+      "slug": "nvidia-nemotron-3-diarization-open-weight-100m",
+      "title": "NVIDIA releases a 100M open-weight Nemotron 3 model for speaker diarization",
+      "dek": "Nemotron 3 Diarization targets real-time and offline speaker attribution, turning speech streams into speaker-aware timelines for meetings, calls and voice agents.",
+      "published_at": "2026-10-02T10:20:00Z",
+      "modified_at": "2026-10-02T10:20:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-23",
+      "category": "Model release",
+      "importance": "notable",
+      "source_name": "NVIDIA / Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "tags": [
+        "NVIDIA",
+        "Nemotron",
+        "speech",
+        "diarization",
+        "open weights"
+      ],
+      "key_points": [
+        "Nemotron 3 Diarization is a 100M-parameter open-weight model for identifying who spoke when.",
+        "The same model is presented for both streaming and offline diarization.",
+        "NVIDIA reports 14.72% diarization error rate on VoiceArena’s initial Diarization-Bench and discusses latency-versus-quality operating points."
+      ],
+      "registry_watch": "New speech-model candidate. The model’s task should be recorded as diarization rather than ASR, and any benchmark number should remain source-attributed.",
+      "body": [
+        "NVIDIA has released Nemotron 3 Diarization, a 100M-parameter open-weight model for the “who spoke when” part of speech systems. Diarization is distinct from automatic speech recognition: an ASR system transcribes words, while a diarization model assigns segments of an audio stream to speakers. That distinction matters for meeting assistants, call analytics, voice-agent memory and any system where the same transcript means different things depending on which participant said it.",
+        "NVIDIA presents one model for both streaming and offline use. The source describes configurable operating points that trade latency against diarization accuracy and reports a 14.72% diarization error rate on VoiceArena’s initial Diarization-Bench. NVIDIA also reports relative error reductions at low-latency settings. Those results are useful for understanding the intended deployment envelope, but they should remain clearly attributed to the publisher and benchmark until an independent run reproduces the same setup.",
+        "The release is another example of why an open-weight registry should not collapse everything into the language-model category. A 100M speech model has different inputs, outputs, metrics and runtime requirements from a 100B text model, yet the same evidence principles still apply. The weight files, license, model task, runtime support and benchmark provenance can all be verified separately. Open Model Weights should also preserve the difference between diarization and speaker-attributed ASR rather than treating them as interchangeable capabilities."
+      ]
+    },
+    {
+      "slug": "transformers-runs-gguf-llama-cpp-quants",
+      "title": "Hugging Face Transformers adds efficient GGUF inference using llama.cpp kernels",
+      "dek": "GGUF checkpoints can now be loaded through familiar Transformers APIs while reusing ggml kernels to target practical local inference, initially with an Apple Silicon focus.",
+      "published_at": "2026-10-02T09:40:00Z",
+      "modified_at": "2026-10-02T09:40:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-22",
+      "category": "Runtime",
+      "importance": "major",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "tags": [
+        "Transformers",
+        "GGUF",
+        "llama.cpp",
+        "local inference",
+        "quantization"
+      ],
+      "key_points": [
+        "Transformers can load GGUF checkpoints through from_pretrained for local inference.",
+        "The implementation reuses ggml kernels from the llama.cpp ecosystem to reduce the performance gap.",
+        "The initial performance work focuses on Apple Silicon and the Qwen3.5 architecture, with broader support planned."
+      ],
+      "registry_watch": "Format/runtime relationship news. GGUF availability remains a repository-artifact fact; Transformers support is a separate compatibility signal.",
+      "body": [
+        "Hugging Face has added a more direct bridge between the Transformers ecosystem and GGUF, the model format closely associated with llama.cpp and local quantized inference. Developers can select a GGUF checkpoint from the Hub and load it through the familiar `from_pretrained` workflow instead of switching to an entirely separate application stack. Under the hood, the work reuses ggml kernels so that the higher-level Python interface does not automatically mean giving up the low-level kernels that made llama.cpp practical on local hardware.",
+        "The initial optimization focus is Apple Silicon, starting with the Qwen3.5 architecture. Hugging Face explains that GGUF packages model weights and metadata in one file and supports multiple quantization levels, which lets users trade some precision for a smaller memory footprint. The post also makes clear that support is still developing and that performance and model coverage will expand over time rather than appearing uniformly across every architecture on day one.",
+        "For Open Model Weights, this is exactly the kind of fact that belongs in a compatibility layer rather than inside a single undifferentiated “format supported” badge. A repository may publish a GGUF artifact; a runtime may know how to execute that artifact; and a framework may add optimized kernels for only a subset of architectures or hardware. Those are related but separate claims. Tracking them separately makes the registry more useful when users ask not merely whether a quantized file exists, but whether it has a realistic execution path on their chosen stack."
+      ]
+    },
+    {
+      "slug": "nvidia-agrees-to-acquire-hugging-face-open-platform-pledge",
+      "title": "NVIDIA agrees to acquire Hugging Face and says the platform will remain open",
+      "dek": "The $12.93 billion agreement would put the central model-sharing platform inside NVIDIA while the companies publicly commit to model, cloud and accelerator choice.",
+      "published_at": "2026-10-02T09:00:00Z",
+      "modified_at": "2026-10-02T09:00:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-03",
+      "category": "Ecosystem",
+      "importance": "major",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "tags": [
+        "NVIDIA",
+        "Hugging Face",
+        "open ecosystem",
+        "acquisition",
+        "infrastructure"
+      ],
+      "key_points": [
+        "NVIDIA says it has agreed to acquire Hugging Face for $12.93 billion.",
+        "NVIDIA states that Hugging Face will remain open to models and frameworks across the ecosystem.",
+        "The announcement says NVIDIA hardware will not be required and that multi-cloud and multi-accelerator support will continue."
+      ],
+      "registry_watch": "Ecosystem-level development. No model record should change solely because platform ownership changes; source identity and repository evidence remain model-specific.",
+      "body": [
+        "NVIDIA announced on September 3 that it had agreed to acquire Hugging Face for $12.93 billion. The significance for open-weight AI is difficult to overstate: Hugging Face is not merely another model host, but a central distribution layer for model weights, datasets, demos and developer tooling. NVIDIA says the platform serves more than 18 million developers and hosts more than three million models, making any ownership change relevant to how the open-model ecosystem discovers and distributes artifacts.",
+        "The announcement is unusually explicit about openness. NVIDIA says Hugging Face will remain an open platform where developers can choose their models, frameworks, clouds, inference providers and computing platforms. It also states that NVIDIA compute will not be required and that multi-cloud and multi-accelerator development will continue. Those are commitments in NVIDIA’s announcement; they should be tracked over time rather than treated as evidence about future implementation before it happens.",
+        "For Open Model Weights, the practical rule is continuity of evidence. A Hugging Face repository should still be described as the source repository unless publisher ownership is separately established, and a platform-level acquisition should not silently change the developer identity, license or provenance of any model record. The news matters because infrastructure incentives can shape discovery, evaluation and deployment, but the registry’s job remains narrower: record what each source actually exposes, retain revisions and keep claims tied to evidence rather than corporate assumptions."
+      ]
+    }
+  ]
+}
