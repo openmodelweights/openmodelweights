@@ -305,7 +305,8 @@ def main():
     reg["schema_version"]="0.8.0"
     reg["model_count"]=len(models)
     reg["freshness"]={"last_registry_run":generated,"policy":"daily repository revision check; full field verification on changed/new repositories"}
-    reg["api"]={"version":"v1","documentation":"https://openmodelweights.com/api/","models":"https://openmodelweights.com/api/v1/models.json","changes":"https://openmodelweights.com/api/v1/changes.json","history":"https://openmodelweights.com/api/v1/history.json","compatibility":"https://openmodelweights.com/api/v1/compatibility.json","benchmarks":"https://openmodelweights.com/api/v1/benchmarks.json","openapi":"https://openmodelweights.com/openapi.json"}\n    reg["intelligence"]={"history":"https://openmodelweights.com/history/","compatibility":"https://openmodelweights.com/compatibility/","benchmarks":"https://openmodelweights.com/benchmarks/","mcp":"https://openmodelweights.com/mcp"}
+    reg["api"]={"version":"v1","documentation":"https://openmodelweights.com/api/","models":"https://openmodelweights.com/api/v1/models.json","changes":"https://openmodelweights.com/api/v1/changes.json","history":"https://openmodelweights.com/api/v1/history.json","compatibility":"https://openmodelweights.com/api/v1/compatibility.json","benchmarks":"https://openmodelweights.com/api/v1/benchmarks.json","openapi":"https://openmodelweights.com/openapi.json"}
+    reg["intelligence"]={"history":"https://openmodelweights.com/history/","compatibility":"https://openmodelweights.com/compatibility/","benchmarks":"https://openmodelweights.com/benchmarks/","mcp":"https://openmodelweights.com/mcp"}
     REGISTRY.write_text(json.dumps(reg,indent=2,ensure_ascii=False)+"\n")
 
     (PUBLIC/"models"/"index.html").write_text(model_discovery_page(models,generated))
