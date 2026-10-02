@@ -172,7 +172,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:20:56+00:00",
+    "checked_at_iso": "2026-10-02T16:40:26+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
@@ -205,14 +205,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "microsoft/VibeVoice-Realtime-0.5B",
-    "rank": 819,
+    "rank": 820,
     "downloads": 174583,
     "likes": 1297,
     "last_modified": "2025-12-12T15:35:46+00:00",
     "created_at": "2025-12-04T05:32:08+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-to-speech",
-    "discovered_at": "2026-10-02T15:20:54+00:00",
+    "discovered_at": "2026-10-02T16:40:24+00:00",
     "pinned": false
   },
   "runtime_support": {

@@ -198,7 +198,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T14:32:56+00:00",
+    "checked_at_iso": "2026-10-02T16:40:26+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
@@ -231,14 +231,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "protectai/deberta-v3-base-prompt-injection-v2",
-    "rank": 507,
+    "rank": 508,
     "downloads": 760514,
     "likes": 119,
     "last_modified": "2026-07-09T16:01:38+00:00",
     "created_at": "2024-04-20T16:52:22+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-classification",
-    "discovered_at": "2026-10-02T14:32:55+00:00",
+    "discovered_at": "2026-10-02T16:40:24+00:00",
     "pinned": false
   },
   "runtime_support": {

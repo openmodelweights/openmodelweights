@@ -1,0 +1,215 @@
+{
+  "generated_at": "2026-10-02T16:45:46+00:00",
+  "article_count": 10,
+  "articles": [
+    {
+      "slug": "ai2-astabrief-8b-open-weight-scientific-reports",
+      "title": "Ai2 releases AstaBrief 8B for fast, cited scientific report generation",
+      "dek": "AstaBrief turns retrieved scientific evidence into cited reports and gives institutions an open-weight option for running the report-writing stage on their own infrastructure.",
+      "published_at": "2026-10-02T15:00:00Z",
+      "modified_at": "2026-10-02T15:00:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-10-02",
+      "category": "Model release",
+      "importance": "major",
+      "source_name": "Ai2 / Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/astabrief",
+      "tags": [
+        "AstaBrief",
+        "Ai2",
+        "scientific AI",
+        "open weights",
+        "Qwen3"
+      ],
+      "registry_watch": "New model candidate. The source repository and license evidence should be checked before any AstaBrief record is added to the registry."
+    },
+    {
+      "slug": "llama-cpp-adds-decision-models-system-one-endpoint",
+      "title": "llama.cpp adds decision-model inference through a new System One endpoint",
+      "dek": "The local inference stack can now score typed options directly instead of generating free-form text, opening a different deployment path for routing, moderation and agent control.",
+      "published_at": "2026-10-02T14:30:00Z",
+      "modified_at": "2026-10-02T14:30:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-10-02",
+      "category": "Runtime",
+      "importance": "major",
+      "source_name": "ggml-org / Hugging Face",
+      "source_url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
+      "tags": [
+        "llama.cpp",
+        "decision models",
+        "local inference",
+        "System One"
+      ],
+      "registry_watch": "Compatibility-layer news. This changes what supported runtimes can do; it does not by itself verify a new model record."
+    },
+    {
+      "slug": "olmo-core-3-open-moe-training-stack",
+      "title": "Olmo-core 3 opens a training stack designed for trillion-scale mixture-of-experts models",
+      "dek": "Ai2 redesigned its open training infrastructure around MoE routing, expert parallelism and lower-precision execution, with the next generation of Olmo expected to use the stack.",
+      "published_at": "2026-10-02T13:40:00Z",
+      "modified_at": "2026-10-02T13:40:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-10-01",
+      "category": "Training infrastructure",
+      "importance": "major",
+      "source_name": "Ai2 / Hugging Face",
+      "source_url": "https://huggingface.co/blog/allenai/olmocore3",
+      "tags": [
+        "Olmo",
+        "Ai2",
+        "MoE",
+        "training",
+        "open source"
+      ],
+      "registry_watch": "Training-stack news, not a model-weight release. Future Olmo model records can link back to this stack when the publisher identifies it as part of the training provenance."
+    },
+    {
+      "slug": "nvidia-kumo-tabular-open-foundation-model",
+      "title": "NVIDIA Kumo Tabular brings open foundation models to tabular prediction",
+      "dek": "The Kumo Structured family targets classification and regression directly from labeled tables, with three small model sizes and a commercial-use license.",
+      "published_at": "2026-10-02T12:50:00Z",
+      "modified_at": "2026-10-02T12:50:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-29",
+      "category": "Model release",
+      "importance": "notable",
+      "source_name": "NVIDIA / Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "tags": [
+        "NVIDIA",
+        "Kumo",
+        "tabular",
+        "foundation model",
+        "open model"
+      ],
+      "registry_watch": "New model-family candidate. The registry should verify the exact Hugging Face artifacts and the OpenMDW-1.1 terms before publication."
+    },
+    {
+      "slug": "holo4-open-agent-models-27b-35b",
+      "title": "Holo4 ships 27B and 35B-A3B agent models with open weights and trajectories",
+      "dek": "H Company’s new agentic family is designed to move between GUIs, code, MCP and APIs, with downloadable weights in multiple precisions and public benchmark trajectories.",
+      "published_at": "2026-10-02T12:10:00Z",
+      "modified_at": "2026-10-02T12:10:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-28",
+      "category": "Model release",
+      "importance": "major",
+      "source_name": "H Company / Hugging Face",
+      "source_url": "https://huggingface.co/blog/Hcompany/holo4",
+      "tags": [
+        "Holo4",
+        "agents",
+        "computer use",
+        "MCP",
+        "open weights"
+      ],
+      "registry_watch": "New model-family candidate. Exact repositories, formats, license terms and model lineage should be verified before Holo4 appears as a field-verified record."
+    },
+    {
+      "slug": "liquid-ai-lfm25-vl-dspark-speculative-decoding",
+      "title": "Liquid AI releases a 280M draft model to accelerate LFM2.5-VL-3B",
+      "dek": "The DSpark companion model adds speculative decoding to Liquid AI’s vision-language stack with integrations for llama.cpp, MLX-VLM and SGLang.",
+      "published_at": "2026-10-02T11:30:00Z",
+      "modified_at": "2026-10-02T11:30:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-24",
+      "category": "Inference",
+      "importance": "notable",
+      "source_name": "Liquid AI / Hugging Face",
+      "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "tags": [
+        "Liquid AI",
+        "LFM2.5",
+        "VLM",
+        "speculative decoding",
+        "inference"
+      ],
+      "registry_watch": "Compatibility and companion-weight candidate. The drafter is a separate artifact whose relationship to LFM2.5-VL-3B should be represented explicitly rather than folded into the base model."
+    },
+    {
+      "slug": "flux-3-action-open-weight-world-action-model",
+      "title": "Black Forest Labs releases FLUX 3 Action, a 7B open-weight world action model",
+      "dek": "FLUX 3 Action predicts future frames and actions together and arrives with robot-policy checkpoints, LeRobot integration and a dedicated weights license.",
+      "published_at": "2026-10-02T10:55:00Z",
+      "modified_at": "2026-10-02T10:55:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-23",
+      "category": "Model release",
+      "importance": "major",
+      "source_name": "Black Forest Labs / Hugging Face",
+      "source_url": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
+      "tags": [
+        "FLUX 3 Action",
+        "Black Forest Labs",
+        "robotics",
+        "world action model",
+        "open weights"
+      ],
+      "registry_watch": "High-priority new-model candidate. Because the release uses a dedicated license, commercial-use classification should be based on the exact license text rather than the phrase “open weights.”"
+    },
+    {
+      "slug": "nvidia-nemotron-3-diarization-open-weight-100m",
+      "title": "NVIDIA releases a 100M open-weight Nemotron 3 model for speaker diarization",
+      "dek": "Nemotron 3 Diarization targets real-time and offline speaker attribution, turning speech streams into speaker-aware timelines for meetings, calls and voice agents.",
+      "published_at": "2026-10-02T10:20:00Z",
+      "modified_at": "2026-10-02T10:20:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-23",
+      "category": "Model release",
+      "importance": "notable",
+      "source_name": "NVIDIA / Hugging Face",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "tags": [
+        "NVIDIA",
+        "Nemotron",
+        "speech",
+        "diarization",
+        "open weights"
+      ],
+      "registry_watch": "New speech-model candidate. The model’s task should be recorded as diarization rather than ASR, and any benchmark number should remain source-attributed."
+    },
+    {
+      "slug": "transformers-runs-gguf-llama-cpp-quants",
+      "title": "Hugging Face Transformers adds efficient GGUF inference using llama.cpp kernels",
+      "dek": "GGUF checkpoints can now be loaded through familiar Transformers APIs while reusing ggml kernels to target practical local inference, initially with an Apple Silicon focus.",
+      "published_at": "2026-10-02T09:40:00Z",
+      "modified_at": "2026-10-02T09:40:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-22",
+      "category": "Runtime",
+      "importance": "major",
+      "source_name": "Hugging Face",
+      "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "tags": [
+        "Transformers",
+        "GGUF",
+        "llama.cpp",
+        "local inference",
+        "quantization"
+      ],
+      "registry_watch": "Format/runtime relationship news. GGUF availability remains a repository-artifact fact; Transformers support is a separate compatibility signal."
+    },
+    {
+      "slug": "nvidia-agrees-to-acquire-hugging-face-open-platform-pledge",
+      "title": "NVIDIA agrees to acquire Hugging Face and says the platform will remain open",
+      "dek": "The $12.93 billion agreement would put the central model-sharing platform inside NVIDIA while the companies publicly commit to model, cloud and accelerator choice.",
+      "published_at": "2026-10-02T09:00:00Z",
+      "modified_at": "2026-10-02T09:00:00Z",
+      "edition_date": "2026-10-02",
+      "source_published": "2026-09-03",
+      "category": "Ecosystem",
+      "importance": "major",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "tags": [
+        "NVIDIA",
+        "Hugging Face",
+        "open ecosystem",
+        "acquisition",
+        "infrastructure"
+      ],
+      "registry_watch": "Ecosystem-level development. No model record should change solely because platform ownership changes; source identity and repository evidence remain model-specific."
+    }
+  ]
+}

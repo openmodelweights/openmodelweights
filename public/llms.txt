@@ -37,3 +37,8 @@ A value such as “not disclosed” means the checked standard metadata/model-ca
 - https://openmodelweights.com/api/v1/compatibility.json — machine-readable compatibility graph
 - https://openmodelweights.com/mcp — MCP Streamable HTTP endpoint
 - https://openmodelweights.com/mcp/ — MCP documentation
+
+## Open Weight Intelligence
+- https://openmodelweights.com/news/ — daily source-first open-weight AI intelligence
+- https://openmodelweights.com/news/feed.xml — RSS feed
+- https://openmodelweights.com/api/v1/news.json — machine-readable news index

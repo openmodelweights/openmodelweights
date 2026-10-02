@@ -182,7 +182,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:20:56+00:00",
+    "checked_at_iso": "2026-10-02T16:40:26+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
     "full_verified_at": "2026-10-02",
@@ -215,14 +215,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "ornith-ai/Ornith-1.0-35B-FP8",
-    "rank": 820,
+    "rank": 819,
     "downloads": 350844,
     "likes": 83,
     "last_modified": "2026-06-26T03:49:39+00:00",
     "created_at": "2026-06-26T03:37:39+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T15:20:54+00:00",
+    "discovered_at": "2026-10-02T16:40:24+00:00",
     "pinned": false
   },
   "runtime_support": {

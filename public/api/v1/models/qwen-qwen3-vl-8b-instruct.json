@@ -168,7 +168,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:21:36+00:00",
+    "checked_at_iso": "2026-10-02T16:40:26+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -208,12 +208,12 @@
     "repo_id": "Qwen/Qwen3-VL-8B-Instruct",
     "rank": 126,
     "downloads": 15794638,
-    "likes": 1160,
+    "likes": 1161,
     "last_modified": "2025-10-15T16:16:59+00:00",
     "created_at": "2025-10-11T07:23:39+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",
-    "discovered_at": "2026-10-02T16:21:34+00:00",
+    "discovered_at": "2026-10-02T16:40:24+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -230,7 +230,7 @@
     "last_modified": "2025-10-15T16:16:59.000Z",
     "created_at": "2025-10-11T07:23:39.000Z",
     "downloads": 15794638,
-    "likes": 1160,
+    "likes": 1161,
     "sha": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",
