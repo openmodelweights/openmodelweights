@@ -169,7 +169,7 @@ def main():
     api=HfApi()
 
     pool=[]
-    for info in api.list_models(sort="downloads",direction=-1,full=True,limit=POOL):
+    for info in api.list_models(sort="downloads",full=True,limit=POOL):
         repo=rid(info)
         if not repo or repo.lower() in existing_repos: continue
         if getattr(info,"private",False) or getattr(info,"disabled",False): continue
