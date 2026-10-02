@@ -20,9 +20,12 @@ on:
         required: true
         default: "1"
       vllm_spec:
-        description: pip package spec recorded by the run (for example vllm or vllm==X.Y.Z)
+        description: pip package spec recorded by the run
         required: true
         default: vllm
+  push:
+    paths:
+      - "benchmark-requests/*.json"
 
 permissions:
   contents: write
@@ -38,6 +41,28 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Resolve benchmark request
+        id: cfg
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "model_id=${{ inputs.model_id }}" >> "$GITHUB_OUTPUT"
+            echo "repository=${{ inputs.repository }}" >> "$GITHUB_OUTPUT"
+            echo "dtype=${{ inputs.dtype }}" >> "$GITHUB_OUTPUT"
+            echo "tensor_parallel_size=${{ inputs.tensor_parallel_size }}" >> "$GITHUB_OUTPUT"
+            echo "vllm_spec=${{ inputs.vllm_spec }}" >> "$GITHUB_OUTPUT"
+          else
+            request_file="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep '^benchmark-requests/.*\.json$' | tail -n 1)"
+            test -n "$request_file"
+            echo "model_id=$(jq -r '.model_id' "$request_file")" >> "$GITHUB_OUTPUT"
+            echo "repository=$(jq -r '.repository // ""' "$request_file")" >> "$GITHUB_OUTPUT"
+            echo "dtype=$(jq -r '.dtype // "auto"' "$request_file")" >> "$GITHUB_OUTPUT"
+            echo "tensor_parallel_size=$(jq -r '.tensor_parallel_size // 1' "$request_file")" >> "$GITHUB_OUTPUT"
+            echo "vllm_spec=$(jq -r '.vllm_spec // "vllm"' "$request_file")" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -55,7 +80,7 @@ jobs:
       - name: Install benchmark runtime
         run: |
           python -m pip install --upgrade pip
-          python -m pip install "${{ inputs.vllm_spec }}"
+          python -m pip install "${{ steps.cfg.outputs.vllm_spec }}"
           python -m pip install -r benchmarks/runner/requirements.txt
 
       - name: Run OMW deployment benchmark
@@ -63,13 +88,13 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           args=(
-            --model-id "${{ inputs.model_id }}"
-            --dtype "${{ inputs.dtype }}"
-            --tensor-parallel-size "${{ inputs.tensor_parallel_size }}"
+            --model-id "${{ steps.cfg.outputs.model_id }}"
+            --dtype "${{ steps.cfg.outputs.dtype }}"
+            --tensor-parallel-size "${{ steps.cfg.outputs.tensor_parallel_size }}"
             --write-repo
           )
-          if [ -n "${{ inputs.repository }}" ]; then
-            args+=(--repository "${{ inputs.repository }}")
+          if [ -n "${{ steps.cfg.outputs.repository }}" ]; then
+            args+=(--repository "${{ steps.cfg.outputs.repository }}")
           fi
           python benchmarks/runner/omw_vllm_benchmark.py "${args[@]}"
 
@@ -81,7 +106,7 @@ jobs:
           git config user.name "openmodelweights-benchmark-bot"
           git config user.email "openmodelweights-benchmark-bot@users.noreply.github.com"
           git add data/benchmark-results.json data/benchmark-evidence
-          git commit -m "Add reproducible GPU benchmark: ${{ inputs.model_id }}"
+          git commit -m "Add reproducible GPU benchmark: ${{ steps.cfg.outputs.model_id }}"
           git pull --rebase origin main
           git push
 
@@ -89,7 +114,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: omw-benchmark-${{ inputs.model_id }}-${{ github.run_id }}
+          name: omw-benchmark-${{ steps.cfg.outputs.model_id }}-${{ github.run_id }}
           path: |
             benchmark-output/
             data/benchmark-evidence/
