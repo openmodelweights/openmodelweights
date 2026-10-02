@@ -7,6 +7,7 @@ import datetime as dt
 import html
 import json
 import math
+import os
 import re
 import time
 from pathlib import Path
@@ -26,6 +27,19 @@ UA = "OpenModelWeights/0.3 (+https://openmodelweights.com; source verification)"
 
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": UA, "Accept": "application/json,text/plain,*/*"})
+
+TARGET_MODELS=int(os.getenv("OMW_TARGET_MODELS","700"))
+
+def load_previous_models():
+    try:
+        if REGISTRY.exists():
+            data=json.loads(REGISTRY.read_text())
+            return {m["id"]:m for m in data.get("models",[]) if m.get("id")}
+    except Exception:
+        pass
+    return {}
+
+PREVIOUS_MODELS=load_previous_models()
 
 PERMISSIVE = {
     "apache-2.0": ("allowed", "Apache-2.0 permits commercial use subject to the license conditions."),
@@ -368,11 +382,43 @@ def repo_id(model):
 
 def verify_one(seed):
     model = copy.deepcopy(seed)
+    model.setdefault("model",{})
+    model.setdefault("lineage",{})
+    model.setdefault("training_assets",{})
     rid = repo_id(model)
     api_url = f"https://huggingface.co/api/models/{rid}"
     api = get(api_url, as_json=True)
     if not api:
         return {"ok": False, "id": model.get("id"), "repo": rid, "error": "Hugging Face model API unavailable"}
+
+    # Fast daily freshness path: one API revision check is enough when the
+    # publisher repository SHA has not changed since the previous full field verification.
+    prev=PREVIOUS_MODELS.get(model.get("id"))
+    prev_sha=((prev or {}).get("hub") or {}).get("sha")
+    api_sha=api.get("sha")
+    if prev and prev_sha and api_sha and prev_sha==api_sha and (prev.get("verification") or {}).get("level")=="field-verified":
+        reused=copy.deepcopy(prev)
+        reused.setdefault("hub",{})
+        reused["hub"].update({
+            "last_modified":api.get("lastModified"),
+            "created_at":api.get("createdAt"),
+            "downloads":api.get("downloads"),
+            "likes":api.get("likes"),
+            "sha":api_sha,
+            "library_name":api.get("library_name"),
+            "pipeline_tag":api.get("pipeline_tag"),
+            "tags":api.get("tags") or [],
+        })
+        reused.setdefault("verification",{})
+        reused["verification"]["checked_at"]=TODAY
+        reused["verification"]["checked_at_iso"]=NOW
+        reused["verification"]["mode"]="repository-revision-unchanged"
+        history=reused["verification"].setdefault("history",[])
+        event={"date":TODAY,"event":"Repository revision check","detail":"Official Hugging Face repository SHA unchanged; prior field evidence retained."}
+        if not history or history[0].get("date")!=TODAY or history[0].get("event")!="Repository revision check":
+            history.insert(0,event)
+        reused["verification"]["history"]=history[:30]
+        return {"ok":True,"model":reused,"readme":reused["verification"].get("readme_accessible"),"config":reused["verification"].get("config_accessible"),"reused":True}
 
     files = exact_files(api)
     readme = get(f"https://huggingface.co/{rid}/resolve/main/README.md") if "README.md" in files else None
@@ -417,6 +463,11 @@ def verify_one(seed):
     model["license"]["repository_license_files"] = license_files
     model["model"]["context"] = context
     model["model"]["total_parameters_billions"] = total_b
+    if total_b and str(model["model"].get("parameters") or "").lower() in ("","unknown","pending verification","not declared"):
+        model["model"]["parameters"] = f"{total_b:g}B"
+    if not model["model"].get("modality") or model["model"].get("modality")=="Not declared":
+        pipeline=api.get("pipeline_tag") or card.get("pipeline_tag")
+        model["model"]["modality"] = str(pipeline).replace("-"," ").title() if pipeline else "Not declared"
     model["hardware"] = hardware(total_b)
     model["lineage"]["base_model"] = base
     model["training_assets"] = {
@@ -439,6 +490,7 @@ def verify_one(seed):
         "checked_at": TODAY,
         "checked_at_iso": NOW,
         "method": "Hugging Face API + repository file list + model card + config.json",
+        "mode": "full-field-verification",
         "readme_accessible": bool(readme),
         "config_accessible": bool(config),
         "fields": {
@@ -461,6 +513,7 @@ def verify_one(seed):
     }
     model["hub"] = {
         "last_modified": api.get("lastModified"),
+        "created_at": api.get("createdAt"),
         "downloads": api.get("downloads"),
         "likes": api.get("likes"),
         "sha": api.get("sha"),
@@ -609,8 +662,15 @@ def main():
                 print(f"[{i}/{len(seeds)}] ERROR {s['id']}: {e}")
     order = {m["id"]: i for i,m in enumerate(seeds)}
     verified.sort(key=lambda m: order.get(m["id"], 999999))
+    verified_before_crop=len(verified)
+    if TARGET_MODELS and len(verified) >= TARGET_MODELS:
+        verified=verified[:TARGET_MODELS]
 
     report = build_report(verified, errors)
+    report["candidate_count"]=len(seeds)
+    report["successful_candidates"]=verified_before_crop
+    report["publication_target"]=TARGET_MODELS
+    report["publication_shortfall"]=max(0,TARGET_MODELS-len(verified))
     new_registry = {
         "schema_version": "0.3.0",
         "generated_at": NOW,
