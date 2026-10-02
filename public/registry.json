@@ -1,6 +1,6 @@
 {
   "schema_version": "0.5.0",
-  "generated_at": "2026-10-02T11:16:03+00:00",
+  "generated_at": "2026-10-02T11:17:03+00:00",
   "project": "Open Model Weights",
   "homepage": "https://openmodelweights.com",
   "methodology": "https://openmodelweights.com/methodology/",
@@ -210,7 +210,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -472,7 +472,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -736,7 +736,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -1129,7 +1129,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -1381,7 +1381,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -1632,7 +1632,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -1941,7 +1941,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -2177,7 +2177,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -2407,7 +2407,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -2638,7 +2638,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -2873,7 +2873,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3102,7 +3102,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3325,7 +3325,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3546,7 +3546,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -3915,7 +3915,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4274,7 +4274,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4512,7 +4512,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -4808,7 +4808,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5249,7 +5249,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5696,7 +5696,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -5914,7 +5914,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6157,7 +6157,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6397,7 +6397,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6659,7 +6659,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -6892,7 +6892,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7171,7 +7171,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7470,7 +7470,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7711,7 +7711,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -7958,7 +7958,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8197,7 +8197,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8444,7 +8444,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8689,7 +8689,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -8937,7 +8937,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9165,7 +9165,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9400,7 +9400,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9622,7 +9622,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -9844,7 +9844,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10067,7 +10067,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10290,7 +10290,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10525,7 +10525,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10750,7 +10750,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -10976,7 +10976,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11469,7 +11469,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -11698,7 +11698,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -11937,7 +11937,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -12150,7 +12150,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -12396,7 +12396,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -12632,7 +12632,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -13126,7 +13126,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -13362,7 +13362,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -13599,7 +13599,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -13835,7 +13835,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14072,7 +14072,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14307,7 +14307,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14540,7 +14540,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -14782,7 +14782,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15021,7 +15021,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15258,7 +15258,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15484,7 +15484,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -15710,7 +15710,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -15987,7 +15987,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -16251,7 +16251,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -16469,7 +16469,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -16695,7 +16695,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -16951,7 +16951,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -17179,7 +17179,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -17434,7 +17434,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -17693,7 +17693,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -17930,7 +17930,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18163,7 +18163,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18396,7 +18396,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18629,7 +18629,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -18862,7 +18862,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -19090,7 +19090,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -19318,7 +19318,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -19548,7 +19548,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -19789,7 +19789,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": true,
@@ -20033,7 +20033,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20270,7 +20270,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20551,7 +20551,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -20854,7 +20854,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21200,7 +21200,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21508,7 +21508,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -21771,7 +21771,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22005,7 +22005,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22233,7 +22233,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22466,7 +22466,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -22763,7 +22763,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23059,7 +23059,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23310,7 +23310,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23555,7 +23555,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -23815,7 +23815,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -24069,7 +24069,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -24351,7 +24351,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -24636,7 +24636,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -25099,7 +25099,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -25343,7 +25343,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -25587,7 +25587,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -25823,7 +25823,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -26059,7 +26059,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -26295,7 +26295,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -26530,7 +26530,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -26774,7 +26774,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -27016,7 +27016,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -27260,7 +27260,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -27504,7 +27504,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
@@ -27747,7 +27747,7 @@
       "verification": {
         "level": "field-verified",
         "checked_at": "2026-10-02",
-        "checked_at_iso": "2026-10-02T11:16:01+00:00",
+        "checked_at_iso": "2026-10-02T11:17:00+00:00",
         "method": "Hugging Face API + repository file list + model card + config.json",
         "readme_accessible": true,
         "config_accessible": false,
