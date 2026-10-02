@@ -46,6 +46,264 @@ def fmt_compact(v):
     if n>=1_000:return f"{n/1_000:.1f}K"
     return f"{n:,}"
 
+SITE="https://openmodelweights.com"
+ORG_ID=SITE+"/#organization"
+WEBSITE_ID=SITE+"/#website"
+
+def _plain(v):
+    return html.unescape(re.sub(r"<[^>]+>"," ",str(v or ""))).strip()
+
+def _meta(text,name):
+    m=re.search(rf'<meta[^>]+name="{re.escape(name)}"[^>]+content="([^"]*)"',text,re.I)
+    if not m:
+        m=re.search(rf'<meta[^>]+content="([^"]*)"[^>]+name="{re.escape(name)}"',text,re.I)
+    return html.unescape(m.group(1)) if m else ""
+
+def _title(text):
+    m=re.search(r"<title>(.*?)</title>",text,re.I|re.S)
+    return _plain(m.group(1)) if m else ""
+
+def _h1(text):
+    m=re.search(r"<h1[^>]*>(.*?)</h1>",text,re.I|re.S)
+    return _plain(m.group(1)) if m else ""
+
+def organization_node():
+    return {
+      "@type":"Organization","@id":ORG_ID,"name":"Open Model Weights","url":SITE+"/",
+      "description":"Field-verified intelligence and machine-readable evidence for open-weight AI models.",
+      "sameAs":["https://github.com/openmodelweights/openmodelweights","https://huggingface.co/openmodelweights"]
+    }
+
+def website_node():
+    return {
+      "@type":"WebSite","@id":WEBSITE_ID,"url":SITE+"/","name":"Open Model Weights",
+      "publisher":{"@id":ORG_ID},"inLanguage":"en"
+    }
+
+def breadcrumb_node(canonical,items):
+    return {
+      "@type":"BreadcrumbList","@id":canonical+"#breadcrumb",
+      "itemListElement":[
+        {"@type":"ListItem","position":i+1,"name":name,"item":url}
+        for i,(name,url) in enumerate(items)
+      ]
+    }
+
+def page_node(canonical,title,desc,page_type="WebPage",breadcrumb=None,main_entity=None):
+    node={
+      "@type":page_type,"@id":canonical+"#webpage","url":canonical,
+      "name":title,"description":desc,"isPartOf":{"@id":WEBSITE_ID},"inLanguage":"en"
+    }
+    if breadcrumb: node["breadcrumb"]={"@id":breadcrumb["@id"]}
+    if main_entity: node["mainEntity"]={"@id":main_entity}
+    return node
+
+def tech_article_node(canonical,title,desc,generated):
+    return {
+      "@type":"TechArticle","@id":canonical+"#article","headline":title,"description":desc,
+      "url":canonical,"dateModified":date(generated),"author":{"@id":ORG_ID},
+      "publisher":{"@id":ORG_ID},"inLanguage":"en"
+    }
+
+def dataset_distribution(url,name="Machine-readable JSON"):
+    return {"@type":"DataDownload","name":name,"encodingFormat":"application/json","contentUrl":url}
+
+def registry_catalog_node(model_count=None):
+    node={
+      "@type":"DataCatalog","@id":SITE+"/models/#catalog","name":"Open Model Weights Registry",
+      "description":"Field-verified registry of open-weight AI model records with source-linked technical, legal, hardware, lineage, runtime and freshness fields.",
+      "url":SITE+"/models/","provider":{"@id":ORG_ID}
+    }
+    if model_count is not None:
+        node["numberOfItems"]=model_count
+    node["dataset"]={
+      "@type":"Dataset","@id":SITE+"/registry.json#dataset","name":"Open Model Weights registry data",
+      "description":"Canonical machine-readable Open Model Weights registry.",
+      "url":SITE+"/registry.json","provider":{"@id":ORG_ID},
+      "distribution":[
+        dataset_distribution(SITE+"/registry.json","Full registry JSON"),
+        dataset_distribution(SITE+"/api/v1/models.json","Compact model index JSON")
+      ]
+    }
+    return node
+
+def model_dataset_node(m,generated):
+    canonical=SITE+f'/models/{m["id"]}/'
+    lic=m.get("license") or {}
+    ver=m.get("verification") or {}
+    hub=m.get("hub") or {}
+    weights=m.get("weights") or {}
+    model=m.get("model") or {}
+    desc=f'Field-verified record for {m.get("name")} with source-linked weight artifacts, license, context, formats, lineage, runtime and hardware evidence.'
+    node={
+      "@type":"Dataset","@id":canonical+"#dataset","name":f'{m.get("name")} verified model record',
+      "description":desc,"url":canonical,"identifier":m.get("id"),
+      "provider":{"@id":ORG_ID},"includedInDataCatalog":{"@id":SITE+"/models/#catalog"},
+      "isAccessibleForFree":True,"dateModified":date(ver.get("checked_at") or generated),
+      "measurementTechnique":"Field-by-field source verification against the listed source repository",
+      "variableMeasured":["Parameters","Context window","License","Weight artifacts","Formats","Precision availability","Lineage","Runtime support","Weight-only memory estimate"],
+      "distribution":[dataset_distribution(SITE+f'/api/v1/models/{m["id"]}.json',"Verified model record JSON")]
+    }
+    repo=weights.get("repository")
+    if repo: node["isBasedOn"]=repo
+    sha=hub.get("sha")
+    if sha: node["version"]=sha
+    lname=lic.get("name")
+    lurl=lic.get("url")
+    if lurl and str(lurl).startswith(("http://","https://")): node["license"]=lurl
+    elif lname and lname!="Not declared": node["license"]=lname
+    keywords=[m.get("developer"),m.get("family"),model.get("modality")]+list(weights.get("formats") or [])
+    node["keywords"]=[x for x in dict.fromkeys(str(x) for x in keywords if x)]
+    return node
+
+def _route_for_path(path):
+    rel=path.relative_to(PUBLIC)
+    if rel==Path("index.html"): return "/"
+    return "/"+str(rel.parent).replace("\\","/").strip("/")+"/"
+
+def _breadcrumbs_for(route,title,model=None):
+    home=("Home",SITE+"/")
+    if route=="/": return []
+    if model and route==f'/models/{model["id"]}/':
+        return [home,("Models",SITE+"/models/"),(model.get("name") or title,SITE+route)]
+    if model and route==f'/models/{model["id"]}/history/':
+        return [home,("Models",SITE+"/models/"),(model.get("name") or model["id"],SITE+f'/models/{model["id"]}/'),("History",SITE+route)]
+    if route.startswith("/diff/") and model:
+        return [home,("Models",SITE+"/models/"),(model.get("name") or model["id"],SITE+f'/models/{model["id"]}/'),("Diff",SITE+route)]
+    if route.startswith("/developers/") and route!="/developers/":
+        return [home,("Developers",SITE+"/developers/"),(title,SITE+route)]
+    if route in {"/licenses/","/hardware/","/formats/","/lineage/"}:
+        return [home,("Explore",SITE+"/explore/"),(title,SITE+route)]
+    label={
+      "/models/":"Models","/developers/":"Developers","/explore/":"Explore","/compare/":"Compare",
+      "/changes/":"Changes","/sources/":"Sources","/verification/":"Verification",
+      "/methodology/":"Methodology","/about/":"About","/api/":"API","/history/":"History",
+      "/compatibility/":"Compatibility","/benchmarks/":"Benchmarks","/mcp/":"MCP"
+    }.get(route,title)
+    return [home,(label,SITE+route)]
+
+def schema_nodes_for_route(route,text,by_id,generated):
+    canonical=SITE+route
+    title=_title(text) or _h1(text) or "Open Model Weights"
+    desc=_meta(text,"description") or "Field-verified intelligence for open-weight AI."
+    model=None
+    parts=[x for x in route.strip("/").split("/") if x]
+    if len(parts)>=2 and parts[0]=="models":
+        model=by_id.get(parts[1])
+    elif len(parts)>=2 and parts[0]=="diff":
+        model=by_id.get(parts[1])
+    crumbs=_breadcrumbs_for(route,_h1(text) or title,model)
+    breadcrumb=breadcrumb_node(canonical,crumbs) if crumbs else None
+    nodes=[]
+
+    if route=="/":
+        page=page_node(canonical,title,desc,"WebPage")
+        nodes=[organization_node(),website_node(),page]
+        return nodes
+
+    if route=="/about/":
+        page=page_node(canonical,title,desc,"AboutPage",breadcrumb,ORG_ID)
+        nodes=[page,breadcrumb,organization_node()]
+        return [x for x in nodes if x]
+
+    if model and route==f'/models/{model["id"]}/':
+        dataset=model_dataset_node(model,generated)
+        page=page_node(canonical,title,desc,"WebPage",breadcrumb,dataset["@id"])
+        return [page,breadcrumb,dataset]
+
+    if model and route==f'/models/{model["id"]}/history/':
+        evidence={
+          "@type":"Dataset","@id":canonical+"#dataset","name":f'{model.get("name")} observed evidence history',
+          "description":desc,"url":canonical,"identifier":model["id"]+"-evidence-history",
+          "provider":{"@id":ORG_ID},"dateModified":date(generated),
+          "distribution":[dataset_distribution(SITE+f'/api/v1/evidence/{model["id"]}.json',"Evidence ledger JSON")]
+        }
+        page=page_node(canonical,title,desc,"CollectionPage",breadcrumb,evidence["@id"])
+        return [page,breadcrumb,evidence]
+
+    if route=="/models/":
+        catalog=registry_catalog_node(len(by_id))
+        page=page_node(canonical,title,desc,"CollectionPage",breadcrumb,catalog["@id"])
+        return [page,breadcrumb,catalog]
+
+    if route in {"/changes/","/history/","/compatibility/"}:
+        data_urls={
+          "/changes/":("/api/v1/changes.json","Registry change history"),
+          "/history/":("/api/v1/history.json","Evidence-ledger index"),
+          "/compatibility/":("/api/v1/compatibility.json","Compatibility graph")
+        }
+        data_url,data_name=data_urls[route]
+        dataset={
+          "@type":"Dataset","@id":canonical+"#dataset","name":data_name,"description":desc,
+          "url":canonical,"provider":{"@id":ORG_ID},"dateModified":date(generated),
+          "distribution":[dataset_distribution(SITE+data_url,data_name+" JSON")]
+        }
+        page=page_node(canonical,title,desc,"CollectionPage",breadcrumb,dataset["@id"])
+        return [page,breadcrumb,dataset]
+
+    if route in {"/sources/","/verification/","/methodology/","/api/","/mcp/","/benchmarks/"}:
+        article=tech_article_node(canonical,title,desc,generated)
+        page=page_node(canonical,title,desc,"WebPage",breadcrumb,article["@id"])
+        return [page,breadcrumb,article]
+
+    collection_routes={"/developers/","/explore/","/licenses/","/hardware/","/formats/","/lineage/"}
+    if route in collection_routes or (route.startswith("/developers/") and route!="/developers/"):
+        page=page_node(canonical,title,desc,"CollectionPage",breadcrumb)
+        return [page,breadcrumb]
+
+    page=page_node(canonical,title,desc,"WebPage",breadcrumb)
+    return [page,breadcrumb] if breadcrumb else [page]
+
+def _schema_script(nodes):
+    payload={"@context":"https://schema.org","@graph":[x for x in nodes if x]}
+    raw=json.dumps(payload,ensure_ascii=False,separators=(",",":")).replace("</","<\\/")
+    return f'<script type="application/ld+json">{raw}</script>'
+
+def _ensure_meta(text,canonical,title,desc):
+    additions=[]
+    if 'rel="canonical"' not in text:
+        additions.append(f'<link rel="canonical" href="{esc(canonical)}">')
+    if 'name="robots"' not in text:
+        additions.append('<meta name="robots" content="index,follow,max-snippet:-1">')
+    if 'property="og:type"' not in text:
+        additions.append('<meta property="og:type" content="website">')
+    if 'property="og:site_name"' not in text:
+        additions.append('<meta property="og:site_name" content="Open Model Weights">')
+    if 'property="og:title"' not in text:
+        additions.append(f'<meta property="og:title" content="{esc(title)}">')
+    if 'property="og:description"' not in text:
+        additions.append(f'<meta property="og:description" content="{esc(desc)}">')
+    if 'property="og:url"' not in text:
+        additions.append(f'<meta property="og:url" content="{esc(canonical)}">')
+    if 'name="twitter:card"' not in text:
+        additions.append('<meta name="twitter:card" content="summary">')
+    if 'name="twitter:title"' not in text:
+        additions.append(f'<meta name="twitter:title" content="{esc(title)}">')
+    if 'name="twitter:description"' not in text:
+        additions.append(f'<meta name="twitter:description" content="{esc(desc)}">')
+    if additions and "</head>" in text:
+        text=text.replace("</head>","".join(additions)+"</head>",1)
+    return text
+
+def apply_structured_data_file(path,by_id,generated):
+    if not path.exists(): return
+    route=_route_for_path(path)
+    text=path.read_text()
+    canonical=SITE+route
+    title=_title(text) or _h1(text) or "Open Model Weights"
+    desc=_meta(text,"description") or "Field-verified intelligence for open-weight AI."
+    text=_ensure_meta(text,canonical,title,desc)
+    text=re.sub(r'<script\s+type="application/ld\+json">.*?</script>','',text,flags=re.I|re.S)
+    script=_schema_script(schema_nodes_for_route(route,text,by_id,generated))
+    if "</head>" in text:
+        text=text.replace("</head>",script+"</head>",1)
+    path.write_text(text)
+
+def apply_structured_data_tree(models,generated):
+    by_id={m["id"]:m for m in models}
+    for path in PUBLIC.rglob("index.html"):
+        apply_structured_data_file(path,by_id,generated)
+
 def head(title,desc,canonical,extra=""):
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1"><meta property="og:site_name" content="Open Model Weights"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><link rel="stylesheet" href="/styles.css">{extra}</head>'''
 

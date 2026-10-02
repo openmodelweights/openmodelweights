@@ -10,6 +10,8 @@ import subprocess
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from render_product import apply_structured_data_tree
+
 ROOT=Path(__file__).resolve().parents[1]
 PUBLIC=ROOT/"public"
 DATA=ROOT/"data"
@@ -522,6 +524,7 @@ def main():
     })
     patch_home()
     patch_explore()
+    apply_structured_data_tree(models,generated)
     patch_sitemap(models,generated)
     patch_llms(len(models))
     print(json.dumps({
