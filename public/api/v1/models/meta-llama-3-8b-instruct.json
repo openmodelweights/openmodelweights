@@ -171,7 +171,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "checked_at_iso": "2026-10-02T11:59:34+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "readme_accessible": true,
     "config_accessible": false,
@@ -221,7 +221,7 @@
   "hub": {
     "last_modified": "2025-06-18T23:49:51.000Z",
     "downloads": 1007600,
-    "likes": 5177,
+    "likes": 5178,
     "sha": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",

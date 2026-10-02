@@ -208,9 +208,9 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "checked_at_iso": "2026-10-02T11:59:34+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "full-field-verification",
+    "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
     "readme_accessible": true,
     "config_accessible": true,
@@ -228,6 +228,11 @@
     "history": [
       {
         "date": "2026-10-02",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
+        "date": "2026-10-02",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
@@ -241,14 +246,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "HuggingFaceTB/SmolVLM-256M-Instruct",
-    "rank": 620,
+    "rank": 619,
     "downloads": 444889,
-    "likes": 414,
+    "likes": 415,
     "last_modified": "2025-04-08T21:39:50+00:00",
     "created_at": "2025-01-17T15:40:24+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",
-    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "discovered_at": "2026-10-02T11:59:32+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -268,7 +273,7 @@
     "last_modified": "2025-04-08T21:39:50.000Z",
     "created_at": "2025-01-17T15:40:24.000Z",
     "downloads": 444889,
-    "likes": 414,
+    "likes": 415,
     "sha": "7e3e67edbbed1bf9888184d9df282b700a323964",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",

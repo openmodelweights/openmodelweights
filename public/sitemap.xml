@@ -502,10 +502,10 @@
 <url><loc>https://openmodelweights.com/models/deepseek-ai-deepseek-r1-distill-qwen-32b/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/black-forest-labs-flux-1-kontext-dev/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/nvidia-cosmos-reason2-2b/</loc><lastmod>2026-10-02</lastmod></url>
-<url><loc>https://openmodelweights.com/models/rundiffusion-juggernaut-xl-v9/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/minimaxai-minimax-m2-5/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/google-gemma-4-e4b/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/qwen-qwen3-4b-instruct-2507-fp8/</loc><lastmod>2026-10-02</lastmod></url>
+<url><loc>https://openmodelweights.com/models/facebook-dinov2-large/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/zai-org-glm-5-2-fp8/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/microsoft-resnet-50/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/nvidia-bigvgan-v2-44khz-128band-512x/</loc><lastmod>2026-10-02</lastmod></url>
@@ -574,8 +574,8 @@
 <url><loc>https://openmodelweights.com/models/kresnik-wav2vec2-large-xlsr-korean/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/sg161222-realistic-vision-v5-1-novae/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/mistralai-mixtral-8x7b-instruct-v0-1/</loc><lastmod>2026-10-02</lastmod></url>
-<url><loc>https://openmodelweights.com/models/google-mobilebert-uncased/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/huggingfacetb-smolvlm-256m-instruct/</loc><lastmod>2026-10-02</lastmod></url>
+<url><loc>https://openmodelweights.com/models/google-mobilebert-uncased/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/unsloth-qwen3-6-35b-a3b-nvfp4-fast/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/timm-efficientnet-b3-ra2-in1k/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/opengvlab-internvl2-2b/</loc><lastmod>2026-10-02</lastmod></url>
@@ -583,8 +583,8 @@
 <url><loc>https://openmodelweights.com/models/impira-layoutlm-document-qa/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/alibaba-nlp-gte-qwen2-1-5b-instruct/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/deepbeepmeep-wan2-1/</loc><lastmod>2026-10-02</lastmod></url>
-<url><loc>https://openmodelweights.com/models/comfy-org-ace-step-1-5-comfyui-files/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/comfy-org-seedvr2/</loc><lastmod>2026-10-02</lastmod></url>
+<url><loc>https://openmodelweights.com/models/comfy-org-ace-step-1-5-comfyui-files/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/nvidia-qwen2-5-vl-7b-instruct-nvfp4/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/gsai-ml-llada-8b-instruct/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/models/nousresearch-hermes-3-llama-3-1-8b/</loc><lastmod>2026-10-02</lastmod></url>
@@ -836,7 +836,6 @@
 <url><loc>https://openmodelweights.com/developers/almanach/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/nlptown/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/prajjwal1/</loc><lastmod>2026-10-02</lastmod></url>
-<url><loc>https://openmodelweights.com/developers/rundiffusion/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/meta-models/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/dbmdz/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/technology-innovation-institute/</loc><lastmod>2026-10-02</lastmod></url>

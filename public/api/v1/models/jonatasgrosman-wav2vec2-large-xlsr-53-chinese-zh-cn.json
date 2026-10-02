@@ -166,9 +166,9 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T11:40:26+00:00",
+    "checked_at_iso": "2026-10-02T11:59:34+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "full-field-verification",
+    "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
     "readme_accessible": true,
     "config_accessible": true,
@@ -184,6 +184,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Field-by-field verification",
@@ -206,7 +211,7 @@
     "created_at": "2022-03-02T23:29:05+00:00",
     "library_name": "transformers",
     "pipeline_tag": "automatic-speech-recognition",
-    "discovered_at": "2026-10-02T11:40:25+00:00",
+    "discovered_at": "2026-10-02T11:59:32+00:00",
     "pinned": false
   },
   "runtime_support": {

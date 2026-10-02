@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:43:20+00:00",
+  "generated_at": "2026-10-02T12:02:02+00:00",
   "developers": [
     {
       "name": "ATH-MaaS",
@@ -444,7 +444,7 @@
     {
       "name": "Meta",
       "slug": "meta",
-      "model_count": 59,
+      "model_count": 60,
       "families": [
         "Llama 3",
         "Llama 3.1",
@@ -468,6 +468,7 @@
         "detr-resnet-50",
         "dino-vitb16",
         "dinov2",
+        "dinov2-large",
         "dinov2-small",
         "dinov3-vitb16-pretrain-lvd1689m",
         "dinov3-vitl16-pretrain-lvd1689m",
@@ -779,15 +780,6 @@
         "chatterbox"
       ],
       "url": "https://openmodelweights.com/developers/resembleai/"
-    },
-    {
-      "name": "RunDiffusion",
-      "slug": "rundiffusion",
-      "model_count": 1,
-      "families": [
-        "Juggernaut-XL-v9"
-      ],
-      "url": "https://openmodelweights.com/developers/rundiffusion/"
     },
     {
       "name": "SG161222",

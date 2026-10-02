@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T11:43:20+00:00",
+  "generated_at": "2026-10-02T12:02:02+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 339,
+      "model_count": 340,
       "commercial_use": {
-        "allowed": 339
+        "allowed": 340
       }
     },
     {
@@ -186,9 +186,9 @@
     },
     {
       "name": "creativeml-openrail-m",
-      "model_count": 6,
+      "model_count": 5,
       "commercial_use": {
-        "unknown": 6
+        "unknown": 5
       }
     },
     {

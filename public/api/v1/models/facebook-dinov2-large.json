@@ -1,0 +1,234 @@
+{
+  "id": "facebook-dinov2-large",
+  "name": "dinov2-large",
+  "developer": "Meta",
+  "family": "dinov2-large",
+  "variant": "dinov2-large",
+  "model": {
+    "parameters": "0.304369B",
+    "total_parameters_billions": 0.30436864,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image Feature Extraction",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "dinov2",
+      "image-feature-extraction",
+      "dino",
+      "vision",
+      "arxiv:2304.07193",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/facebook/dinov2-large",
+    "access": "public",
+    "exact_files": [
+      "model.safetensors",
+      "pytorch_model.bin"
+    ],
+    "file_count": 2,
+    "formats": [
+      "Safetensors",
+      "PyTorch"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "F32",
+      "FLOAT32"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/facebook/dinov2-large",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": null,
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-02",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 0.61,
+      "fp8_int8": 0.3,
+      "int4": 0.15
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "dinov2-large",
+    "variant": "dinov2-large",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/facebook/dinov2-large",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/facebook/dinov2-large",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/facebook/dinov2-large/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/facebook/dinov2-large/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-02",
+    "checked_at_iso": "2026-10-02T11:59:34+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-02",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-02",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-02",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "facebook/dinov2-large",
+    "rank": 495,
+    "downloads": 967454,
+    "likes": 119,
+    "last_modified": "2023-09-06T11:23:50+00:00",
+    "created_at": "2023-07-17T16:47:01+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-feature-extraction",
+    "discovered_at": "2026-10-02T11:59:32+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-feature-extraction",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2023-09-06T11:23:50.000Z",
+    "created_at": "2023-07-17T16:47:01.000Z",
+    "downloads": 967454,
+    "likes": 119,
+    "sha": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
+    "library_name": "transformers",
+    "pipeline_tag": "image-feature-extraction",
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "dinov2",
+      "image-feature-extraction",
+      "dino",
+      "vision",
+      "arxiv:2304.07193",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

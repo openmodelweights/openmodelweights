@@ -1,17 +1,17 @@
 {
   "api_version": "v1",
   "registry_schema": "0.7.0",
-  "generated_at": "2026-10-02T11:43:20+00:00",
+  "generated_at": "2026-10-02T12:02:02+00:00",
   "model_count": 700,
   "verification": {
     "total_seed_records": 700,
     "field_verified": 700,
     "errors": 56,
     "license_declared": 670,
-    "commercial_use_classified": 598,
+    "commercial_use_classified": 599,
     "context_verified": 473,
     "exact_weight_lists": 700,
-    "base_model_declared": 221,
+    "base_model_declared": 220,
     "training_recipe_signal": 422,
     "data_disclosure_signal": 248,
     "runtime_signal": 684
