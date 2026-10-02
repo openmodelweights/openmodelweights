@@ -77,7 +77,7 @@ def classify_license(model, text):
         display="Qwen Community License 1.0"; status="allowed-with-conditions"; label="Commercial use allowed with Qwen Community License conditions"
     elif "qwen3.8-max license" in blob or "qwen3.8-max" in lname or "qwen3.8-max" in lid:
         display="Qwen3.8-Max License"; status="allowed-with-conditions"; label="Commercial use allowed with Qwen3.8-Max License conditions"
-    elif "modified mit license" in blob:
+    elif lname=="mrl" or lid=="mrl" or "mistral research license" in blob:\n        display="Mistral Research License"; status="not-allowed"; label="Commercial use is not permitted without a separate Mistral commercial license"\n    elif "modified mit license" in blob:
         display="Mistral Modified MIT License"; status="allowed-with-revenue-condition"; label="Commercial use allowed, but the license restricts companies above its revenue threshold without a separate license"
     elif model.get("developer")=="Meta" or "llama" in lname or "llama" in lid:
         display=lic.get("name") or "Llama Community License"; status="allowed-with-conditions"; label="Commercial use allowed subject to Llama community-license conditions"
