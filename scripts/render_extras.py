@@ -66,13 +66,57 @@ def slug(v):
     return re.sub(r"[^a-z0-9]+","-",v.lower()).strip("-")
 
 def nav():
-    return '<header class="site-header"><a class="brand" href="/">Open Model Weights</a><nav><a href="/models/">Models</a><a href="/developers/">Developers</a><a href="/explore/">Explore</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a></nav></header>'
+    return header_for("/")
 
 def footer():
-    return '<footer><div><strong>Open Model Weights</strong><p>The independent registry for open-weight AI.</p></div><div class="footer-links"><a href="/licenses/">Licenses</a><a href="/hardware/">Hardware</a><a href="/formats/">Formats</a><a href="/lineage/">Lineage</a><a href="/compare/">Compare</a><a href="/changes/">Changes</a><a href="/registry.json">Registry JSON</a></div></footer>'
+    return footer_html()
 
 def head(title, desc, canonical, extra=""):
-    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1"><meta property="og:site_name" content="Open Model Weights"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><link rel="stylesheet" href="/styles.css">{extra}</head>'
+    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1"><meta property="og:site_name" content="Open Model Weights"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><link rel="stylesheet" href="/styles.css">{extra}</head>'
+
+def header_for(path):
+    explore_paths=("/explore/","/licenses/","/hardware/","/formats/","/lineage/")
+    active="explore" if path.startswith(explore_paths) else (
+        "models" if path.startswith("/models/") else
+        "developers" if path.startswith("/developers/") else
+        "changes" if path.startswith("/changes/") else
+        "verification" if path.startswith("/verification/") else
+        "compare" if path.startswith("/compare/") else ""
+    )
+    links=[
+        ("models","/models/","Models"),
+        ("explore","/explore/","Explore"),
+        ("developers","/developers/","Developers"),
+        ("changes","/changes/","Changes"),
+        ("verification","/verification/","Verification"),
+    ]
+    items=[]
+    for key,url,label in links:
+        current=' aria-current="page"' if active==key else ""
+        items.append(f'<a class="nav-link" href="{url}"{current}>{label}</a>')
+    current=' aria-current="page"' if active=="compare" else ""
+    items.append(f'<a class="nav-link nav-compare" href="/compare/"{current}>Compare <span aria-hidden="true">→</span></a>')
+    return '<header class="site-header"><a class="brand" href="/" aria-label="Open Model Weights home">Open Model Weights</a><nav aria-label="Primary navigation">'+''.join(items)+'</nav></header>'
+
+def footer_html():
+    return '<footer class="site-footer"><div class="footer-brand"><strong>Open Model Weights</strong><p>Field-verified intelligence for open-weight AI.</p></div><div class="footer-links"><a href="/models/">Models</a><a href="/compare/">Compare</a><a href="/verification/">Verification</a><a href="/methodology/">Methodology</a><a href="/about/">About</a><a href="/registry.json">Registry JSON</a><a href="https://github.com/openmodelweights/openmodelweights" rel="noopener">GitHub ↗</a><a href="https://huggingface.co/openmodelweights" rel="noopener">Hugging Face ↗</a></div></footer>'
+
+def page_path(path):
+    rel=path.relative_to(PUBLIC)
+    if str(rel)=="index.html":
+        return "/"
+    return "/"+str(rel.parent).replace("\\","/").strip("/")+"/"
+
+def add_body_class(text, class_name):
+    if not class_name:
+        return text
+    m=re.search(r'<body(?: class="([^"]*)")?>',text)
+    if not m:
+        return text
+    classes=(m.group(1) or "").split()
+    if class_name not in classes:
+        classes.append(class_name)
+    return text[:m.start()]+f'<body class="{" ".join(classes)}">'+text[m.end():]
 
 def compare_page():
     presets = [
@@ -111,11 +155,20 @@ def developer_page(dev, items):
 
 def patch_html(path, model_id=None):
     text=path.read_text()
-    if 'class="site-header"' in text and 'href="/compare/"' not in text:
-        text=text.replace('</nav></header>','<a href="/compare/">Compare</a></nav></header>',1)
+    route=page_path(path)
+    text=re.sub(r'<header class="site-header">.*?</header>',header_for(route),text,count=1,flags=re.S)
+    text=re.sub(r'<footer(?: class="[^"]*")?>.*?</footer>',footer_html(),text,count=1,flags=re.S)
+    if route=="/":
+        text=add_body_class(text,"home-page")
+    elif route=="/explore/":
+        text=add_body_class(text,"explore-page")
+    elif route=="/compare/":
+        text=add_body_class(text,"compare-page")
+    elif route.startswith("/models/") and route!="/models/":
+        text=add_body_class(text,"model-detail-page")
     if model_id and 'Compare this model' not in text:
         pat=r'(<a class="button primary" href="[^"]+" rel="noopener">Official repository ↗</a>)'
-        text=re.sub(pat,rf'\1<a class="button" href="/compare/?models={model_id}">Compare this model</a>',text,count=1)
+        text=re.sub(pat,rf'\1<a class="button compare-model-button" href="/compare/?models={model_id}">Compare this model →</a>',text,count=1)
     path.write_text(text)
 
 def patch_home():
@@ -128,6 +181,7 @@ def patch_home():
     card='<a class="mini-tool" href="/compare/"><strong>Compare Models</strong><span>2–4 models side by side →</span></a>'
     if marker in text and card not in text:
         text=text.replace(marker,marker+card,1)
+    text=add_body_class(text,"home-page")
     p.write_text(text)
 
 def patch_explore():
@@ -138,8 +192,18 @@ def patch_explore():
     marker='<div class="tool-grid">'
     if card not in text and marker in text:
         text=text.replace(marker,marker+card,1)
-    if 'href="/compare/"' not in text.split('</nav></header>',1)[0]:
-        text=text.replace('</nav></header>','<a href="/compare/">Compare</a></nav></header>',1)
+    labels={
+        "/compare/":"MODELS",
+        "/licenses/":"LICENSES",
+        "/hardware/":"MODELS WITH ESTIMATES",
+        "/formats/":"FORMATS",
+        "/lineage/":"MODELS WITH LINEAGE",
+        "/changes/":"FEED EVENTS",
+    }
+    for href,label in labels.items():
+        pat=rf'(<a class="tool-card" href="{re.escape(href)}"><span)(?: class="tool-stat")?>([^<]+)</span>'
+        text=re.sub(pat,lambda m:f'{m.group(1)} class="tool-stat">{m.group(2)} {label}</span>',text,count=1)
+    text=add_body_class(text,"explore-page")
     p.write_text(text)
 
 def patch_sitemap():
