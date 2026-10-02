@@ -487,6 +487,12 @@ def main():
     write_json(PUBLIC/"benchmarks"/"protocol.json",protocol)
     write_json(API/"benchmark.schema.json",benchmark_schema())
     write_json(API/"benchmarks.json",{"generated_at":generated,"protocol":"/benchmarks/protocol.json","result_count":len(results.get("results") or []),"results":results.get("results") or []})
+    evidence_src=DATA/"benchmark-evidence"
+    evidence_pub=PUBLIC/"benchmark-evidence"
+    evidence_pub.mkdir(parents=True,exist_ok=True)
+    if evidence_src.exists():
+        for p in evidence_src.glob("*.json"):
+            (evidence_pub/p.name).write_text(p.read_text())
 
     d=PUBLIC/"history";d.mkdir(parents=True,exist_ok=True);(d/"index.html").write_text(history_index_page(models,ledgers))
     for m in models:
