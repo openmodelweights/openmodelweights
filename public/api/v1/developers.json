@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:08:15+00:00",
+  "generated_at": "2026-10-02T16:18:28+00:00",
   "developers": [
     {
       "name": "ATH-MaaS",
@@ -208,11 +208,10 @@
     {
       "name": "EleutherAI",
       "slug": "eleutherai",
-      "model_count": 6,
+      "model_count": 5,
       "families": [
         "gpt-j",
         "gpt-neo",
-        "gpt-neox",
         "pythia"
       ],
       "url": "https://openmodelweights.com/developers/eleutherai/"
@@ -259,7 +258,7 @@
     {
       "name": "Google",
       "slug": "google",
-      "model_count": 34,
+      "model_count": 33,
       "families": [
         "Gemma 3",
         "diffusiongemma",
@@ -316,7 +315,7 @@
     {
       "name": "HuggingFaceTB",
       "slug": "huggingfacetb",
-      "model_count": 5,
+      "model_count": 6,
       "families": [
         "SmolLM2",
         "SmolLM3",
@@ -345,6 +344,24 @@
         "grounding-dino"
       ],
       "url": "https://openmodelweights.com/developers/idea-research/"
+    },
+    {
+      "name": "IlyaGusev",
+      "slug": "ilyagusev",
+      "model_count": 1,
+      "families": [
+        "saiga_llama3"
+      ],
+      "url": "https://openmodelweights.com/developers/ilyagusev/"
+    },
+    {
+      "name": "Infomaniak-AI",
+      "slug": "infomaniak-ai",
+      "model_count": 1,
+      "families": [
+        "vllm-translategemma"
+      ],
+      "url": "https://openmodelweights.com/developers/infomaniak-ai/"
     },
     {
       "name": "Intel",
@@ -444,7 +461,7 @@
     {
       "name": "Meta",
       "slug": "meta",
-      "model_count": 59,
+      "model_count": 60,
       "families": [
         "Llama 3",
         "Llama 3.1",
@@ -473,6 +490,7 @@
         "dinov3-vitl16-pretrain-lvd1689m",
         "dinov3-vits16-pretrain-lvd1689m",
         "esm2_t33",
+        "esm2_t6",
         "esmfold_v1",
         "m2m100",
         "musicgen-medium",
@@ -490,7 +508,7 @@
     {
       "name": "Microsoft",
       "slug": "microsoft",
-      "model_count": 22,
+      "model_count": 20,
       "families": [
         "BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
         "Florence-2",
@@ -510,8 +528,6 @@
         "mdeberta-v3",
         "phi-2",
         "phi-4",
-        "resnet-50",
-        "table-transformer-detection",
         "table-transformer-structure-recognition",
         "tapex-base-finetuned-wikisql"
       ],
@@ -574,9 +590,18 @@
       "url": "https://openmodelweights.com/developers/moritzlaurer/"
     },
     {
+      "name": "Musixmatch",
+      "slug": "musixmatch",
+      "model_count": 1,
+      "families": [
+        "umberto-commoncrawl-cased-v1"
+      ],
+      "url": "https://openmodelweights.com/developers/musixmatch/"
+    },
+    {
       "name": "NVIDIA",
       "slug": "nvidia",
-      "model_count": 30,
+      "model_count": 29,
       "families": [
         "Cosmos-Reason2",
         "Cosmos3-Edge",
@@ -594,7 +619,6 @@
         "Qwen3.6",
         "Qwen3.8",
         "Qwen3.8-Flash-Next-NVFP4",
-        "bigvgan_v2_44khz_128band_512x",
         "dragon-multiturn-context-encoder",
         "llama-nemotron-rerank",
         "nemotron-3.5-asr-streaming",
@@ -832,7 +856,7 @@
     {
       "name": "Sentence Transformers",
       "slug": "sentence-transformers",
-      "model_count": 13,
+      "model_count": 14,
       "families": [
         "all-MiniLM-L12-v2",
         "all-MiniLM-L6-v2",
@@ -842,6 +866,7 @@
         "distiluse-base-multilingual-cased-v1",
         "distiluse-base-multilingual-cased-v2",
         "multi-qa-mpnet-base-dot-v1",
+        "nli-mpnet-base-v2",
         "paraphrase-MiniLM-L3-v2",
         "paraphrase-MiniLM-L6-v2",
         "paraphrase-mpnet-base-v2",
@@ -933,15 +958,6 @@
       "url": "https://openmodelweights.com/developers/taylorai/"
     },
     {
-      "name": "Technology Innovation Institute",
-      "slug": "technology-innovation-institute",
-      "model_count": 1,
-      "families": [
-        "falcon"
-      ],
-      "url": "https://openmodelweights.com/developers/technology-innovation-institute/"
-    },
-    {
       "name": "Tencent",
       "slug": "tencent",
       "model_count": 2,
@@ -1015,6 +1031,7 @@
       "families": [
         "GLM-4.5-Air",
         "GLM-4.7-Flash",
+        "GLM-5",
         "GLM-5.1",
         "GLM-5.2",
         "GLM-5.3",
@@ -1131,6 +1148,15 @@
       "url": "https://openmodelweights.com/developers/argmaxinc/"
     },
     {
+      "name": "aubmindlab",
+      "slug": "aubmindlab",
+      "model_count": 1,
+      "families": [
+        "bert-base-arabertv02"
+      ],
+      "url": "https://openmodelweights.com/developers/aubmindlab/"
+    },
+    {
       "name": "audeering",
       "slug": "audeering",
       "model_count": 2,
@@ -1171,6 +1197,15 @@
         "ESMC"
       ],
       "url": "https://openmodelweights.com/developers/biohub/"
+    },
+    {
+      "name": "bkai-foundation-models",
+      "slug": "bkai-foundation-models",
+      "model_count": 1,
+      "families": [
+        "vietnamese-bi-encoder"
+      ],
+      "url": "https://openmodelweights.com/developers/bkai-foundation-models/"
     },
     {
       "name": "briaai",
@@ -1287,15 +1322,6 @@
         "bge-base-en-v1.5-course-recommender-v5"
       ],
       "url": "https://openmodelweights.com/developers/datasocietyco/"
-    },
-    {
-      "name": "dbmdz",
-      "slug": "dbmdz",
-      "model_count": 1,
-      "families": [
-        "bert-large-cased-finetuned-conll03-english"
-      ],
-      "url": "https://openmodelweights.com/developers/dbmdz/"
     },
     {
       "name": "depth-anything",
@@ -1684,15 +1710,6 @@
       "url": "https://openmodelweights.com/developers/mattmdjaga/"
     },
     {
-      "name": "meta-models",
-      "slug": "meta-models",
-      "model_count": 1,
-      "families": [
-        "Muse-Glimmer"
-      ],
-      "url": "https://openmodelweights.com/developers/meta-models/"
-    },
-    {
       "name": "mixedbread-ai",
       "slug": "mixedbread-ai",
       "model_count": 2,
@@ -1770,6 +1787,15 @@
       "url": "https://openmodelweights.com/developers/numind/"
     },
     {
+      "name": "onnx-community",
+      "slug": "onnx-community",
+      "model_count": 1,
+      "families": [
+        "embeddinggemma"
+      ],
+      "url": "https://openmodelweights.com/developers/onnx-community/"
+    },
+    {
       "name": "openai-community",
       "slug": "openai-community",
       "model_count": 2,
@@ -1804,7 +1830,7 @@
     {
       "name": "ornith-ai",
       "slug": "ornith-ai",
-      "model_count": 6,
+      "model_count": 5,
       "families": [
         "Ornith-1.0",
         "Ornith-1.5"

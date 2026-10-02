@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-02T16:08:15+00:00",
+  "generated_at": "2026-10-02T16:18:28+00:00",
   "semantics": {
     "runtime_signal": "Declared/tagged/mentioned/artifact evidence; not necessarily independently executed.",
     "fits_weight_only_estimate": "Derived from verified parameter count and excludes KV cache, activations, runtime overhead and sharding."
   },
-  "node_count": 1045,
-  "edge_count": 5601,
+  "node_count": 1046,
+  "edge_count": 5598,
   "nodes": [
     {
       "id": "model:nvidia-nemotron-3-nano-30b-a3b",
@@ -5951,98 +5951,12 @@
       "label": "Qwen/Qwen3-4B-Instruct-2507"
     },
     {
-      "id": "model:microsoft-resnet-50",
+      "id": "model:zai-org-glm-5",
       "type": "model",
-      "label": "resnet-50",
-      "meta": {
-        "developer": "Microsoft",
-        "url": "/models/microsoft-resnet-50/"
-      }
-    },
-    {
-      "id": "model:zai-org-glm-5-2-fp8",
-      "type": "model",
-      "label": "GLM-5.2-FP8",
+      "label": "GLM-5",
       "meta": {
         "developer": "Z.ai",
-        "url": "/models/zai-org-glm-5-2-fp8/"
-      }
-    },
-    {
-      "id": "model:nvidia-bigvgan-v2-44khz-128band-512x",
-      "type": "model",
-      "label": "bigvgan_v2_44khz_128band_512x",
-      "meta": {
-        "developer": "NVIDIA",
-        "url": "/models/nvidia-bigvgan-v2-44khz-128band-512x/"
-      }
-    },
-    {
-      "id": "model:meta-models-muse-glimmer-30b",
-      "type": "model",
-      "label": "Muse-Glimmer-30B",
-      "meta": {
-        "developer": "meta-models",
-        "url": "/models/meta-models-muse-glimmer-30b/"
-      }
-    },
-    {
-      "id": "model:microsoft-table-transformer-detection",
-      "type": "model",
-      "label": "table-transformer-detection",
-      "meta": {
-        "developer": "Microsoft",
-        "url": "/models/microsoft-table-transformer-detection/"
-      }
-    },
-    {
-      "id": "model:dbmdz-bert-large-cased-finetuned-conll03-english",
-      "type": "model",
-      "label": "bert-large-cased-finetuned-conll03-english",
-      "meta": {
-        "developer": "dbmdz",
-        "url": "/models/dbmdz-bert-large-cased-finetuned-conll03-english/"
-      }
-    },
-    {
-      "id": "model:ornith-ai-ornith-1-5-9b",
-      "type": "model",
-      "label": "Ornith-1.5-9B",
-      "meta": {
-        "developer": "ornith-ai",
-        "url": "/models/ornith-ai-ornith-1-5-9b/"
-      }
-    },
-    {
-      "id": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "type": "model",
-      "label": "gemma-4-12B-it-qat-w4a16-ct",
-      "meta": {
-        "developer": "Google",
-        "url": "/models/google-gemma-4-12b-it-qat-w4a16-ct/"
-      }
-    },
-    {
-      "id": "base-reference:google-gemma-4-12b-it-qat-q4-0-unquantized",
-      "type": "base_model_reference",
-      "label": "google/gemma-4-12B-it-qat-q4_0-unquantized"
-    },
-    {
-      "id": "model:eleutherai-gpt-neox-20b",
-      "type": "model",
-      "label": "gpt-neox-20b",
-      "meta": {
-        "developer": "EleutherAI",
-        "url": "/models/eleutherai-gpt-neox-20b/"
-      }
-    },
-    {
-      "id": "model:tiiuae-falcon-7b",
-      "type": "model",
-      "label": "falcon-7b",
-      "meta": {
-        "developer": "Technology Innovation Institute",
-        "url": "/models/tiiuae-falcon-7b/"
+        "url": "/models/zai-org-glm-5/"
       }
     },
     {
@@ -8111,6 +8025,97 @@
       "meta": {
         "developer": "NVIDIA",
         "url": "/models/nvidia-segformer-b0-finetuned-ade-512-512/"
+      }
+    },
+    {
+      "id": "model:onnx-community-embeddinggemma-300m-onnx",
+      "type": "model",
+      "label": "embeddinggemma-300m-ONNX",
+      "meta": {
+        "developer": "onnx-community",
+        "url": "/models/onnx-community-embeddinggemma-300m-onnx/"
+      }
+    },
+    {
+      "id": "base-reference:google-embeddinggemma-300m",
+      "type": "base_model_reference",
+      "label": "google/embeddinggemma-300m"
+    },
+    {
+      "id": "model:facebook-esm2-t6-8m-ur50d",
+      "type": "model",
+      "label": "esm2_t6_8M_UR50D",
+      "meta": {
+        "developer": "Meta",
+        "url": "/models/facebook-esm2-t6-8m-ur50d/"
+      }
+    },
+    {
+      "id": "model:sentence-transformers-nli-mpnet-base-v2",
+      "type": "model",
+      "label": "nli-mpnet-base-v2",
+      "meta": {
+        "developer": "Sentence Transformers",
+        "url": "/models/sentence-transformers-nli-mpnet-base-v2/"
+      }
+    },
+    {
+      "id": "model:aubmindlab-bert-base-arabertv02",
+      "type": "model",
+      "label": "bert-base-arabertv02",
+      "meta": {
+        "developer": "aubmindlab",
+        "url": "/models/aubmindlab-bert-base-arabertv02/"
+      }
+    },
+    {
+      "id": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "type": "model",
+      "label": "vietnamese-bi-encoder",
+      "meta": {
+        "developer": "bkai-foundation-models",
+        "url": "/models/bkai-foundation-models-vietnamese-bi-encoder/"
+      }
+    },
+    {
+      "id": "runtime:generic",
+      "type": "runtime",
+      "label": "generic"
+    },
+    {
+      "id": "model:musixmatch-umberto-commoncrawl-cased-v1",
+      "type": "model",
+      "label": "umberto-commoncrawl-cased-v1",
+      "meta": {
+        "developer": "Musixmatch",
+        "url": "/models/musixmatch-umberto-commoncrawl-cased-v1/"
+      }
+    },
+    {
+      "id": "model:huggingfacetb-smollm2-360m",
+      "type": "model",
+      "label": "SmolLM2-360M",
+      "meta": {
+        "developer": "HuggingFaceTB",
+        "url": "/models/huggingfacetb-smollm2-360m/"
+      }
+    },
+    {
+      "id": "model:ilyagusev-saiga-llama3-8b",
+      "type": "model",
+      "label": "saiga_llama3_8b",
+      "meta": {
+        "developer": "IlyaGusev",
+        "url": "/models/ilyagusev-saiga-llama3-8b/"
+      }
+    },
+    {
+      "id": "model:infomaniak-ai-vllm-translategemma-4b-it",
+      "type": "model",
+      "label": "vllm-translategemma-4b-it",
+      "meta": {
+        "developer": "Infomaniak-AI",
+        "url": "/models/infomaniak-ai-vllm-translategemma-4b-it/"
       }
     }
   ],
@@ -32266,466 +32271,40 @@
       "evidence": "derived-estimate"
     },
     {
-      "source": "model:microsoft-resnet-50",
-      "target": "license:apache-2-0",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:microsoft-resnet-50",
-      "target": "format:pytorch",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:microsoft-resnet-50",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:microsoft-resnet-50",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:microsoft-resnet-50",
-      "target": "memory:bf16_fp16:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:microsoft-resnet-50",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:microsoft-resnet-50",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:zai-org-glm-5-2-fp8",
+      "source": "model:zai-org-glm-5",
       "target": "license:mit",
       "relation": "licensed_under",
       "evidence": "repository-or-publisher-evidence"
     },
     {
-      "source": "model:zai-org-glm-5-2-fp8",
+      "source": "model:zai-org-glm-5",
       "target": "format:safetensors",
       "relation": "publishes_format",
       "evidence": "repository-evidence"
     },
     {
-      "source": "model:zai-org-glm-5-2-fp8",
+      "source": "model:zai-org-glm-5",
       "target": "precision:bf16",
       "relation": "observed_precision",
       "evidence": "repository-evidence"
     },
     {
-      "source": "model:zai-org-glm-5-2-fp8",
-      "target": "precision:fp8",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:zai-org-glm-5-2-fp8",
+      "source": "model:zai-org-glm-5",
       "target": "runtime:sglang",
       "relation": "runtime_signal",
       "evidence": "publisher-or-repository-evidence"
     },
     {
-      "source": "model:zai-org-glm-5-2-fp8",
+      "source": "model:zai-org-glm-5",
       "target": "runtime:transformers",
       "relation": "runtime_signal",
       "evidence": "publisher-or-repository-evidence"
     },
     {
-      "source": "model:zai-org-glm-5-2-fp8",
+      "source": "model:zai-org-glm-5",
       "target": "runtime:vllm",
       "relation": "runtime_signal",
       "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:nvidia-bigvgan-v2-44khz-128band-512x",
-      "target": "license:mit",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:nvidia-bigvgan-v2-44khz-128band-512x",
-      "target": "format:pytorch",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:nvidia-bigvgan-v2-44khz-128band-512x",
-      "target": "runtime:pytorch",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:meta-models-muse-glimmer-30b",
-      "target": "license:apache-2-0",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:meta-models-muse-glimmer-30b",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:meta-models-muse-glimmer-30b",
-      "target": "precision:bf16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:meta-models-muse-glimmer-30b",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:meta-models-muse-glimmer-30b",
-      "target": "runtime:llama-cpp",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:meta-models-muse-glimmer-30b",
-      "target": "memory:bf16_fp16:80gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:meta-models-muse-glimmer-30b",
-      "target": "memory:fp8_int8:32gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:meta-models-muse-glimmer-30b",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:microsoft-table-transformer-detection",
-      "target": "license:mit",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:microsoft-table-transformer-detection",
-      "target": "format:pytorch",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:microsoft-table-transformer-detection",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:microsoft-table-transformer-detection",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:microsoft-table-transformer-detection",
-      "target": "memory:bf16_fp16:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:microsoft-table-transformer-detection",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:microsoft-table-transformer-detection",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:dbmdz-bert-large-cased-finetuned-conll03-english",
-      "target": "license:not-declared-in-model-card-metadata",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:dbmdz-bert-large-cased-finetuned-conll03-english",
-      "target": "format:pytorch",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:dbmdz-bert-large-cased-finetuned-conll03-english",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:dbmdz-bert-large-cased-finetuned-conll03-english",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:dbmdz-bert-large-cased-finetuned-conll03-english",
-      "target": "memory:bf16_fp16:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:dbmdz-bert-large-cased-finetuned-conll03-english",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:dbmdz-bert-large-cased-finetuned-conll03-english",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "license:mit",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "precision:bf16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "runtime:ollama",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "runtime:sglang",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "runtime:llama-cpp",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "runtime:vllm",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "memory:bf16_fp16:24gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:ornith-ai-ornith-1-5-9b",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "license:apache-2-0",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "precision:bf16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "runtime:llama-cpp",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "runtime:vllm",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "base-reference:google-gemma-4-12b-it-qat-q4-0-unquantized",
-      "relation": "declares_base_model",
-      "evidence": "publisher-metadata"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "memory:bf16_fp16:32gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:google-gemma-4-12b-it-qat-w4a16-ct",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:eleutherai-gpt-neox-20b",
-      "target": "license:apache-2-0",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:eleutherai-gpt-neox-20b",
-      "target": "format:pytorch",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:eleutherai-gpt-neox-20b",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:eleutherai-gpt-neox-20b",
-      "target": "precision:fp16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:eleutherai-gpt-neox-20b",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:eleutherai-gpt-neox-20b",
-      "target": "memory:bf16_fp16:48gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:eleutherai-gpt-neox-20b",
-      "target": "memory:fp8_int8:24gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:eleutherai-gpt-neox-20b",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "license:apache-2-0",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "format:pytorch",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "precision:bf16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "runtime:tgi",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "memory:bf16_fp16:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:tiiuae-falcon-7b",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
     },
     {
       "source": "model:microsoft-phi-3-mini-4k-instruct",
@@ -41717,6 +41296,414 @@
     },
     {
       "source": "model:nvidia-segformer-b0-finetuned-ade-512-512",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:onnx-community-embeddinggemma-300m-onnx",
+      "target": "license:gemma",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:onnx-community-embeddinggemma-300m-onnx",
+      "target": "format:onnx",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:onnx-community-embeddinggemma-300m-onnx",
+      "target": "precision:fp16",
+      "relation": "observed_precision",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:onnx-community-embeddinggemma-300m-onnx",
+      "target": "runtime:onnx-runtime",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:onnx-community-embeddinggemma-300m-onnx",
+      "target": "runtime:onnx-artifact-present",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:onnx-community-embeddinggemma-300m-onnx",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:onnx-community-embeddinggemma-300m-onnx",
+      "target": "runtime:transformers-js",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:onnx-community-embeddinggemma-300m-onnx",
+      "target": "base-reference:google-embeddinggemma-300m",
+      "relation": "declares_base_model",
+      "evidence": "publisher-metadata"
+    },
+    {
+      "source": "model:facebook-esm2-t6-8m-ur50d",
+      "target": "license:mit",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:facebook-esm2-t6-8m-ur50d",
+      "target": "format:pytorch",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:facebook-esm2-t6-8m-ur50d",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:facebook-esm2-t6-8m-ur50d",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:facebook-esm2-t6-8m-ur50d",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:facebook-esm2-t6-8m-ur50d",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:facebook-esm2-t6-8m-ur50d",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "license:apache-2-0",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "format:onnx",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "format:pytorch",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "runtime:onnx-runtime",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "runtime:onnx-artifact-present",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "runtime:sentence-transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:sentence-transformers-nli-mpnet-base-v2",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "license:not-declared-in-model-card-metadata",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "format:pytorch",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "license:apache-2-0",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "format:pytorch",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "runtime:generic",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:musixmatch-umberto-commoncrawl-cased-v1",
+      "target": "license:not-declared-in-model-card-metadata",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:musixmatch-umberto-commoncrawl-cased-v1",
+      "target": "format:pytorch",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:musixmatch-umberto-commoncrawl-cased-v1",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:huggingfacetb-smollm2-360m",
+      "target": "license:apache-2-0",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:huggingfacetb-smollm2-360m",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:huggingfacetb-smollm2-360m",
+      "target": "precision:bf16",
+      "relation": "observed_precision",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:huggingfacetb-smollm2-360m",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:huggingfacetb-smollm2-360m",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:huggingfacetb-smollm2-360m",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:huggingfacetb-smollm2-360m",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "license:llama3",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "precision:bf16",
+      "relation": "observed_precision",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "runtime:llama-cpp",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "runtime:vllm",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "memory:bf16_fp16:24gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:ilyagusev-saiga-llama3-8b",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:infomaniak-ai-vllm-translategemma-4b-it",
+      "target": "license:gemma",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:infomaniak-ai-vllm-translategemma-4b-it",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:infomaniak-ai-vllm-translategemma-4b-it",
+      "target": "precision:bf16",
+      "relation": "observed_precision",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:infomaniak-ai-vllm-translategemma-4b-it",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:infomaniak-ai-vllm-translategemma-4b-it",
+      "target": "runtime:vllm",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:infomaniak-ai-vllm-translategemma-4b-it",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:infomaniak-ai-vllm-translategemma-4b-it",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:infomaniak-ai-vllm-translategemma-4b-it",
       "target": "memory:int4:16gb",
       "relation": "fits_weight_only_estimate",
       "evidence": "derived-estimate"
@@ -54238,42 +54225,17 @@
       "url": "/models/qwen-qwen3-4b-instruct-2507-fp8/"
     },
     {
-      "id": "microsoft-resnet-50",
-      "name": "resnet-50",
-      "developer": "Microsoft",
-      "license": "Apache-2.0",
-      "commercial_use": "allowed",
-      "context_tokens": null,
-      "formats": [
-        "PyTorch",
-        "Safetensors"
-      ],
-      "precisions": [],
-      "runtimes": [
-        "Transformers"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 0.05,
-        "fp8_int8": 0.03,
-        "int4": 0.01
-      },
-      "repository": "https://huggingface.co/microsoft/resnet-50",
-      "last_checked": "2026-10-02",
-      "url": "/models/microsoft-resnet-50/"
-    },
-    {
-      "id": "zai-org-glm-5-2-fp8",
-      "name": "GLM-5.2-FP8",
+      "id": "zai-org-glm-5",
+      "name": "GLM-5",
       "developer": "Z.ai",
       "license": "MIT",
       "commercial_use": "allowed",
-      "context_tokens": 1048576,
+      "context_tokens": 202752,
       "formats": [
         "Safetensors"
       ],
       "precisions": [
-        "bf16",
-        "fp8"
+        "bf16"
       ],
       "runtimes": [
         "SGLang",
@@ -54281,215 +54243,13 @@
         "vLLM"
       ],
       "weight_only_gb": {
-        "bf16_fp16": 1506.66,
-        "fp8_int8": 753.33,
-        "int4": 376.66
+        "bf16_fp16": 1507.73,
+        "fp8_int8": 753.86,
+        "int4": 376.93
       },
-      "repository": "https://huggingface.co/zai-org/GLM-5.2-FP8",
+      "repository": "https://huggingface.co/zai-org/GLM-5",
       "last_checked": "2026-10-02",
-      "url": "/models/zai-org-glm-5-2-fp8/"
-    },
-    {
-      "id": "nvidia-bigvgan-v2-44khz-128band-512x",
-      "name": "bigvgan_v2_44khz_128band_512x",
-      "developer": "NVIDIA",
-      "license": "MIT",
-      "commercial_use": "allowed",
-      "context_tokens": null,
-      "formats": [
-        "PyTorch"
-      ],
-      "precisions": [],
-      "runtimes": [
-        "PyTorch"
-      ],
-      "weight_only_gb": {},
-      "repository": "https://huggingface.co/nvidia/bigvgan_v2_44khz_128band_512x",
-      "last_checked": "2026-10-02",
-      "url": "/models/nvidia-bigvgan-v2-44khz-128band-512x/"
-    },
-    {
-      "id": "meta-models-muse-glimmer-30b",
-      "name": "Muse-Glimmer-30B",
-      "developer": "meta-models",
-      "license": "Apache-2.0",
-      "commercial_use": "allowed",
-      "context_tokens": 131072,
-      "formats": [
-        "Safetensors"
-      ],
-      "precisions": [
-        "bf16"
-      ],
-      "runtimes": [
-        "Transformers",
-        "llama.cpp"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 59.55,
-        "fp8_int8": 29.78,
-        "int4": 14.89
-      },
-      "repository": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
-      "last_checked": "2026-10-02",
-      "url": "/models/meta-models-muse-glimmer-30b/"
-    },
-    {
-      "id": "microsoft-table-transformer-detection",
-      "name": "table-transformer-detection",
-      "developer": "Microsoft",
-      "license": "MIT",
-      "commercial_use": "allowed",
-      "context_tokens": 1024,
-      "formats": [
-        "PyTorch",
-        "Safetensors"
-      ],
-      "precisions": [],
-      "runtimes": [
-        "Transformers"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 0.06,
-        "fp8_int8": 0.03,
-        "int4": 0.01
-      },
-      "repository": "https://huggingface.co/microsoft/table-transformer-detection",
-      "last_checked": "2026-10-02",
-      "url": "/models/microsoft-table-transformer-detection/"
-    },
-    {
-      "id": "dbmdz-bert-large-cased-finetuned-conll03-english",
-      "name": "bert-large-cased-finetuned-conll03-english",
-      "developer": "dbmdz",
-      "license": "Not declared in model-card metadata",
-      "commercial_use": "unknown",
-      "context_tokens": 512,
-      "formats": [
-        "PyTorch",
-        "Safetensors"
-      ],
-      "precisions": [],
-      "runtimes": [
-        "Transformers"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 0.67,
-        "fp8_int8": 0.33,
-        "int4": 0.17
-      },
-      "repository": "https://huggingface.co/dbmdz/bert-large-cased-finetuned-conll03-english",
-      "last_checked": "2026-10-02",
-      "url": "/models/dbmdz-bert-large-cased-finetuned-conll03-english/"
-    },
-    {
-      "id": "ornith-ai-ornith-1-5-9b",
-      "name": "Ornith-1.5-9B",
-      "developer": "ornith-ai",
-      "license": "MIT",
-      "commercial_use": "allowed",
-      "context_tokens": 262144,
-      "formats": [
-        "Safetensors"
-      ],
-      "precisions": [
-        "bf16"
-      ],
-      "runtimes": [
-        "Ollama",
-        "SGLang",
-        "Transformers",
-        "llama.cpp",
-        "vLLM"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 19.31,
-        "fp8_int8": 9.65,
-        "int4": 4.83
-      },
-      "repository": "https://huggingface.co/ornith-ai/Ornith-1.5-9B",
-      "last_checked": "2026-10-02",
-      "url": "/models/ornith-ai-ornith-1-5-9b/"
-    },
-    {
-      "id": "google-gemma-4-12b-it-qat-w4a16-ct",
-      "name": "gemma-4-12B-it-qat-w4a16-ct",
-      "developer": "Google",
-      "license": "Apache-2.0",
-      "commercial_use": "allowed",
-      "context_tokens": 262144,
-      "formats": [
-        "Safetensors"
-      ],
-      "precisions": [
-        "bf16"
-      ],
-      "runtimes": [
-        "Transformers",
-        "llama.cpp",
-        "vLLM"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 26.61,
-        "fp8_int8": 13.31,
-        "int4": 6.65
-      },
-      "repository": "https://huggingface.co/google/gemma-4-12B-it-qat-w4a16-ct",
-      "last_checked": "2026-10-02",
-      "url": "/models/google-gemma-4-12b-it-qat-w4a16-ct/"
-    },
-    {
-      "id": "eleutherai-gpt-neox-20b",
-      "name": "gpt-neox-20b",
-      "developer": "EleutherAI",
-      "license": "Apache-2.0",
-      "commercial_use": "allowed",
-      "context_tokens": 2048,
-      "formats": [
-        "PyTorch",
-        "Safetensors"
-      ],
-      "precisions": [
-        "fp16"
-      ],
-      "runtimes": [
-        "Transformers"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 41.48,
-        "fp8_int8": 20.74,
-        "int4": 10.37
-      },
-      "repository": "https://huggingface.co/EleutherAI/gpt-neox-20b",
-      "last_checked": "2026-10-02",
-      "url": "/models/eleutherai-gpt-neox-20b/"
-    },
-    {
-      "id": "tiiuae-falcon-7b",
-      "name": "falcon-7b",
-      "developer": "Technology Innovation Institute",
-      "license": "Apache-2.0",
-      "commercial_use": "allowed",
-      "context_tokens": null,
-      "formats": [
-        "PyTorch",
-        "Safetensors"
-      ],
-      "precisions": [
-        "bf16"
-      ],
-      "runtimes": [
-        "TGI",
-        "Transformers"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 14.43,
-        "fp8_int8": 7.22,
-        "int4": 3.61
-      },
-      "repository": "https://huggingface.co/tiiuae/falcon-7b",
-      "last_checked": "2026-10-02",
-      "url": "/models/tiiuae-falcon-7b/"
+      "url": "/models/zai-org-glm-5/"
     },
     {
       "id": "microsoft-phi-3-mini-4k-instruct",
@@ -59332,6 +59092,228 @@
       "repository": "https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512",
       "last_checked": "2026-10-02",
       "url": "/models/nvidia-segformer-b0-finetuned-ade-512-512/"
+    },
+    {
+      "id": "onnx-community-embeddinggemma-300m-onnx",
+      "name": "embeddinggemma-300m-ONNX",
+      "developer": "onnx-community",
+      "license": "gemma",
+      "commercial_use": "unknown",
+      "context_tokens": 2048,
+      "formats": [
+        "ONNX"
+      ],
+      "precisions": [
+        "fp16"
+      ],
+      "runtimes": [
+        "ONNX Runtime",
+        "ONNX artifact present",
+        "Transformers",
+        "transformers.js"
+      ],
+      "weight_only_gb": {},
+      "repository": "https://huggingface.co/onnx-community/embeddinggemma-300m-ONNX",
+      "last_checked": "2026-10-02",
+      "url": "/models/onnx-community-embeddinggemma-300m-onnx/"
+    },
+    {
+      "id": "facebook-esm2-t6-8m-ur50d",
+      "name": "esm2_t6_8M_UR50D",
+      "developer": "Meta",
+      "license": "MIT",
+      "commercial_use": "allowed",
+      "context_tokens": 1026,
+      "formats": [
+        "PyTorch",
+        "Safetensors"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "Transformers"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 0.02,
+        "fp8_int8": 0.01,
+        "int4": 0.0
+      },
+      "repository": "https://huggingface.co/facebook/esm2_t6_8M_UR50D",
+      "last_checked": "2026-10-02",
+      "url": "/models/facebook-esm2-t6-8m-ur50d/"
+    },
+    {
+      "id": "sentence-transformers-nli-mpnet-base-v2",
+      "name": "nli-mpnet-base-v2",
+      "developer": "Sentence Transformers",
+      "license": "Apache-2.0",
+      "commercial_use": "allowed",
+      "context_tokens": 514,
+      "formats": [
+        "ONNX",
+        "PyTorch",
+        "Safetensors"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "ONNX Runtime",
+        "ONNX artifact present",
+        "Transformers",
+        "sentence-transformers"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 0.22,
+        "fp8_int8": 0.11,
+        "int4": 0.05
+      },
+      "repository": "https://huggingface.co/sentence-transformers/nli-mpnet-base-v2",
+      "last_checked": "2026-10-02",
+      "url": "/models/sentence-transformers-nli-mpnet-base-v2/"
+    },
+    {
+      "id": "aubmindlab-bert-base-arabertv02",
+      "name": "bert-base-arabertv02",
+      "developer": "aubmindlab",
+      "license": "Not declared in model-card metadata",
+      "commercial_use": "unknown",
+      "context_tokens": 512,
+      "formats": [
+        "PyTorch",
+        "Safetensors"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "Transformers"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 0.27,
+        "fp8_int8": 0.14,
+        "int4": 0.07
+      },
+      "repository": "https://huggingface.co/aubmindlab/bert-base-arabertv02",
+      "last_checked": "2026-10-02",
+      "url": "/models/aubmindlab-bert-base-arabertv02/"
+    },
+    {
+      "id": "bkai-foundation-models-vietnamese-bi-encoder",
+      "name": "vietnamese-bi-encoder",
+      "developer": "bkai-foundation-models",
+      "license": "Apache-2.0",
+      "commercial_use": "allowed",
+      "context_tokens": 258,
+      "formats": [
+        "PyTorch",
+        "Safetensors"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "Transformers",
+        "generic"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 0.27,
+        "fp8_int8": 0.13,
+        "int4": 0.07
+      },
+      "repository": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder",
+      "last_checked": "2026-10-02",
+      "url": "/models/bkai-foundation-models-vietnamese-bi-encoder/"
+    },
+    {
+      "id": "musixmatch-umberto-commoncrawl-cased-v1",
+      "name": "umberto-commoncrawl-cased-v1",
+      "developer": "Musixmatch",
+      "license": "Not declared in model-card metadata",
+      "commercial_use": "unknown",
+      "context_tokens": 514,
+      "formats": [
+        "PyTorch"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "Transformers"
+      ],
+      "weight_only_gb": {},
+      "repository": "https://huggingface.co/Musixmatch/umberto-commoncrawl-cased-v1",
+      "last_checked": "2026-10-02",
+      "url": "/models/musixmatch-umberto-commoncrawl-cased-v1/"
+    },
+    {
+      "id": "huggingfacetb-smollm2-360m",
+      "name": "SmolLM2-360M",
+      "developer": "HuggingFaceTB",
+      "license": "Apache-2.0",
+      "commercial_use": "allowed",
+      "context_tokens": 8192,
+      "formats": [
+        "Safetensors"
+      ],
+      "precisions": [
+        "bf16"
+      ],
+      "runtimes": [
+        "Transformers"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 0.72,
+        "fp8_int8": 0.36,
+        "int4": 0.18
+      },
+      "repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M",
+      "last_checked": "2026-10-02",
+      "url": "/models/huggingfacetb-smollm2-360m/"
+    },
+    {
+      "id": "ilyagusev-saiga-llama3-8b",
+      "name": "saiga_llama3_8b",
+      "developer": "IlyaGusev",
+      "license": "llama3",
+      "commercial_use": "allowed-with-conditions",
+      "context_tokens": 8192,
+      "formats": [
+        "Safetensors"
+      ],
+      "precisions": [
+        "bf16"
+      ],
+      "runtimes": [
+        "Transformers",
+        "llama.cpp",
+        "vLLM"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 16.06,
+        "fp8_int8": 8.03,
+        "int4": 4.02
+      },
+      "repository": "https://huggingface.co/IlyaGusev/saiga_llama3_8b",
+      "last_checked": "2026-10-02",
+      "url": "/models/ilyagusev-saiga-llama3-8b/"
+    },
+    {
+      "id": "infomaniak-ai-vllm-translategemma-4b-it",
+      "name": "vllm-translategemma-4b-it",
+      "developer": "Infomaniak-AI",
+      "license": "gemma",
+      "commercial_use": "unknown",
+      "context_tokens": 131072,
+      "formats": [
+        "Safetensors"
+      ],
+      "precisions": [
+        "bf16"
+      ],
+      "runtimes": [
+        "Transformers",
+        "vLLM"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 9.94,
+        "fp8_int8": 4.97,
+        "int4": 2.49
+      },
+      "repository": "https://huggingface.co/Infomaniak-AI/vllm-translategemma-4b-it",
+      "last_checked": "2026-10-02",
+      "url": "/models/infomaniak-ai-vllm-translategemma-4b-it/"
     }
   ]
 }

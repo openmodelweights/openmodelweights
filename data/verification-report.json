@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-02T16:08:15+00:00",
+  "generated_at": "2026-10-02T16:18:28+00:00",
   "stats": {
     "total_seed_records": 700,
     "field_verified": 700,
-    "errors": 56,
-    "license_declared": 670,
-    "commercial_use_classified": 598,
-    "context_verified": 473,
+    "errors": 65,
+    "license_declared": 669,
+    "commercial_use_classified": 595,
+    "context_verified": 476,
     "exact_weight_lists": 700,
     "base_model_declared": 221,
     "training_recipe_signal": 422,
-    "data_disclosure_signal": 248,
+    "data_disclosure_signal": 250,
     "runtime_signal": 684
   },
   "errors": [
@@ -47,36 +47,32 @@
       "error": "https://huggingface.co/api/models/EleutherAI/pythia-70m-deduped: HTTP 429"
     },
     {
-      "id": "inferact-qwen3-8-27b-nvfp4",
-      "error": "https://huggingface.co/api/models/Inferact/Qwen3.8-27B-NVFP4: HTTP 429"
-    },
-    {
       "id": "moonshotai-kimi-k2-instruct",
       "error": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct: HTTP 429"
     },
     {
-      "id": "bytedance-seed-ui-tars-1-5-7b",
-      "error": "https://huggingface.co/api/models/ByteDance-Seed/UI-TARS-1.5-7B: HTTP 429"
+      "id": "inferact-qwen3-8-27b-nvfp4",
+      "error": "https://huggingface.co/api/models/Inferact/Qwen3.8-27B-NVFP4: HTTP 429"
     },
     {
       "id": "nvidia-bigvgan-v2-22khz-80band-256x",
       "error": "https://huggingface.co/api/models/nvidia/bigvgan_v2_22khz_80band_256x: HTTP 429"
     },
     {
-      "id": "google-gemma-3-12b-it",
-      "error": "https://huggingface.co/api/models/google/gemma-3-12b-it: HTTP 429"
+      "id": "bytedance-seed-ui-tars-1-5-7b",
+      "error": "https://huggingface.co/api/models/ByteDance-Seed/UI-TARS-1.5-7B: HTTP 429"
     },
     {
-      "id": "nvidia-glm-5-2-nvfp4",
-      "error": "https://huggingface.co/api/models/nvidia/GLM-5.2-NVFP4: HTTP 429"
+      "id": "google-gemma-3-12b-it",
+      "error": "https://huggingface.co/api/models/google/gemma-3-12b-it: HTTP 429"
     },
     {
       "id": "protectai-deberta-v3-base-prompt-injection-v2",
       "error": "https://huggingface.co/api/models/protectai/deberta-v3-base-prompt-injection-v2: HTTP 429"
     },
     {
-      "id": "onnx-community-kokoro-82m-v1-0-onnx",
-      "error": "https://huggingface.co/api/models/onnx-community/Kokoro-82M-v1.0-ONNX: HTTP 429"
+      "id": "nvidia-glm-5-2-nvfp4",
+      "error": "https://huggingface.co/api/models/nvidia/GLM-5.2-NVFP4: HTTP 429"
     },
     {
       "id": "sshleifer-tiny-gpt2",
@@ -87,16 +83,16 @@
       "error": "https://huggingface.co/api/models/Qwen/Qwen3.5-122B-A10B: HTTP 429"
     },
     {
+      "id": "onnx-community-kokoro-82m-v1-0-onnx",
+      "error": "https://huggingface.co/api/models/onnx-community/Kokoro-82M-v1.0-ONNX: HTTP 429"
+    },
+    {
       "id": "distil-whisper-distil-large-v3",
       "error": "https://huggingface.co/api/models/distil-whisper/distil-large-v3: HTTP 429"
     },
     {
       "id": "laion-clip-vit-h-14-laion2b-s32b-b79k",
       "error": "https://huggingface.co/api/models/laion/CLIP-ViT-H-14-laion2B-s32B-b79K: HTTP 429"
-    },
-    {
-      "id": "cidas-clipseg-rd64-refined",
-      "error": "https://huggingface.co/api/models/CIDAS/clipseg-rd64-refined: HTTP 429"
     },
     {
       "id": "openai-privacy-filter",
@@ -107,6 +103,10 @@
       "error": "https://huggingface.co/api/models/Qwen/Qwen3-0.6B-Base: HTTP 429"
     },
     {
+      "id": "cidas-clipseg-rd64-refined",
+      "error": "https://huggingface.co/api/models/CIDAS/clipseg-rd64-refined: HTTP 429"
+    },
+    {
       "id": "amazon-chronos-bolt-base",
       "error": "https://huggingface.co/api/models/amazon/chronos-bolt-base: HTTP 429"
     },
@@ -115,16 +115,12 @@
       "error": "https://huggingface.co/api/models/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4: HTTP 429"
     },
     {
-      "id": "zai-org-glm-5",
-      "error": "https://huggingface.co/api/models/zai-org/GLM-5: HTTP 429"
+      "id": "qwen-qwen3-235b-a22b",
+      "error": "https://huggingface.co/api/models/Qwen/Qwen3-235B-A22B: HTTP 429"
     },
     {
       "id": "helsinki-nlp-opus-mt-nl-en",
       "error": "https://huggingface.co/api/models/Helsinki-NLP/opus-mt-nl-en: HTTP 429"
-    },
-    {
-      "id": "qwen-qwen3-235b-a22b",
-      "error": "https://huggingface.co/api/models/Qwen/Qwen3-235B-A22B: HTTP 429"
     },
     {
       "id": "sentence-transformers-labse",
@@ -179,20 +175,20 @@
       "error": "https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-4B: HTTP 429"
     },
     {
-      "id": "jinaai-jina-embeddings-v5-omni-small",
-      "error": "https://huggingface.co/api/models/jinaai/jina-embeddings-v5-omni-small: HTTP 429"
-    },
-    {
-      "id": "nvidia-qwen3-6-27b-nvfp4",
-      "error": "https://huggingface.co/api/models/nvidia/Qwen3.6-27B-NVFP4: HTTP 429"
-    },
-    {
       "id": "allenai-specter2-base",
       "error": "https://huggingface.co/api/models/allenai/specter2_base: HTTP 429"
     },
     {
       "id": "qdrant-all-minilm-l6-v2-onnx",
       "error": "https://huggingface.co/api/models/Qdrant/all-MiniLM-L6-v2-onnx: HTTP 429"
+    },
+    {
+      "id": "nvidia-qwen3-6-27b-nvfp4",
+      "error": "https://huggingface.co/api/models/nvidia/Qwen3.6-27B-NVFP4: HTTP 429"
+    },
+    {
+      "id": "jinaai-jina-embeddings-v5-omni-small",
+      "error": "https://huggingface.co/api/models/jinaai/jina-embeddings-v5-omni-small: HTTP 429"
     },
     {
       "id": "compvis-stable-diffusion-safety-checker",
@@ -223,6 +219,10 @@
       "error": "https://huggingface.co/api/models/RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic: HTTP 429"
     },
     {
+      "id": "fastino-gliner2-base-v1",
+      "error": "https://huggingface.co/api/models/fastino/gliner2-base-v1: HTTP 429"
+    },
+    {
       "id": "intfloat-e5-base-v2",
       "error": "https://huggingface.co/api/models/intfloat/e5-base-v2: HTTP 429"
     },
@@ -231,8 +231,44 @@
       "error": "https://huggingface.co/api/models/google/siglip2-base-patch16-naflex: HTTP 429"
     },
     {
-      "id": "fastino-gliner2-base-v1",
-      "error": "https://huggingface.co/api/models/fastino/gliner2-base-v1: HTTP 429"
+      "id": "microsoft-resnet-50",
+      "error": "https://huggingface.co/api/models/microsoft/resnet-50: HTTP 429"
+    },
+    {
+      "id": "zai-org-glm-5-2-fp8",
+      "error": "https://huggingface.co/api/models/zai-org/GLM-5.2-FP8: HTTP 429"
+    },
+    {
+      "id": "nvidia-bigvgan-v2-44khz-128band-512x",
+      "error": "https://huggingface.co/api/models/nvidia/bigvgan_v2_44khz_128band_512x: HTTP 429"
+    },
+    {
+      "id": "meta-models-muse-glimmer-30b",
+      "error": "https://huggingface.co/api/models/meta-models/Muse-Glimmer-30B: HTTP 429"
+    },
+    {
+      "id": "microsoft-table-transformer-detection",
+      "error": "https://huggingface.co/api/models/microsoft/table-transformer-detection: HTTP 429"
+    },
+    {
+      "id": "dbmdz-bert-large-cased-finetuned-conll03-english",
+      "error": "https://huggingface.co/api/models/dbmdz/bert-large-cased-finetuned-conll03-english: HTTP 429"
+    },
+    {
+      "id": "ornith-ai-ornith-1-5-9b",
+      "error": "https://huggingface.co/api/models/ornith-ai/Ornith-1.5-9B: HTTP 429"
+    },
+    {
+      "id": "google-gemma-4-12b-it-qat-w4a16-ct",
+      "error": "https://huggingface.co/api/models/google/gemma-4-12B-it-qat-w4a16-ct: HTTP 429"
+    },
+    {
+      "id": "eleutherai-gpt-neox-20b",
+      "error": "https://huggingface.co/api/models/EleutherAI/gpt-neox-20b: HTTP 429"
+    },
+    {
+      "id": "tiiuae-falcon-7b",
+      "error": "https://huggingface.co/api/models/tiiuae/falcon-7b: HTTP 429"
     },
     {
       "id": "numz-seedvr2-comfyui",
@@ -240,7 +276,7 @@
     }
   ],
   "candidate_count": 820,
-  "successful_candidates": 764,
+  "successful_candidates": 755,
   "publication_target": 700,
   "publication_shortfall": 0
 }
