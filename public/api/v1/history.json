@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:33:20+00:00",
+  "generated_at": "2026-10-02T14:40:39+00:00",
   "model_count": 700,
   "models": [
     {
@@ -4449,366 +4449,6 @@
       "evidence_url": "https://openmodelweights.com/api/v1/evidence/qwen-qwen3-4b-instruct-2507-fp8.json"
     },
     {
-      "id": "facebook-dinov2-large",
-      "name": "dinov2-large",
-      "developer": "Meta",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/facebook-dinov2-large/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-dinov2-large.json"
-    },
-    {
-      "id": "nvidia-dragon-multiturn-query-encoder",
-      "name": "dragon-multiturn-query-encoder",
-      "developer": "NVIDIA",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/nvidia-dragon-multiturn-query-encoder/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-dragon-multiturn-query-encoder.json"
-    },
-    {
-      "id": "zhihan1996-dnabert-2-117m",
-      "name": "DNABERT-2-117M",
-      "developer": "zhihan1996",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/zhihan1996-dnabert-2-117m/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/zhihan1996-dnabert-2-117m.json"
-    },
-    {
-      "id": "moonshotai-kimi-k2-5",
-      "name": "Kimi-K2.5",
-      "developer": "Moonshot AI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/moonshotai-kimi-k2-5/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/moonshotai-kimi-k2-5.json"
-    },
-    {
-      "id": "qwen-qwen-image-edit-2509",
-      "name": "Qwen-Image-Edit-2509",
-      "developer": "Qwen",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/qwen-qwen-image-edit-2509/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/qwen-qwen-image-edit-2509.json"
-    },
-    {
-      "id": "microsoft-florence-2-large",
-      "name": "Florence-2-large",
-      "developer": "Microsoft",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/microsoft-florence-2-large/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-florence-2-large.json"
-    },
-    {
-      "id": "deepset-roberta-base-squad2",
-      "name": "roberta-base-squad2",
-      "developer": "deepset",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/deepset-roberta-base-squad2/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/deepset-roberta-base-squad2.json"
-    },
-    {
-      "id": "eleutherai-pythia-70m-deduped",
-      "name": "pythia-70m-deduped",
-      "developer": "EleutherAI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/eleutherai-pythia-70m-deduped/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/eleutherai-pythia-70m-deduped.json"
-    },
-    {
-      "id": "moonshotai-kimi-k2-instruct",
-      "name": "Kimi-K2-Instruct",
-      "developer": "Moonshot AI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/moonshotai-kimi-k2-instruct/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/moonshotai-kimi-k2-instruct.json"
-    },
-    {
-      "id": "inferact-qwen3-8-27b-nvfp4",
-      "name": "Qwen3.8-27B-NVFP4",
-      "developer": "Inferact",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/inferact-qwen3-8-27b-nvfp4/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/inferact-qwen3-8-27b-nvfp4.json"
-    },
-    {
-      "id": "bytedance-seed-ui-tars-1-5-7b",
-      "name": "UI-TARS-1.5-7B",
-      "developer": "ByteDance-Seed",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/bytedance-seed-ui-tars-1-5-7b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/bytedance-seed-ui-tars-1-5-7b.json"
-    },
-    {
-      "id": "nvidia-bigvgan-v2-22khz-80band-256x",
-      "name": "bigvgan_v2_22khz_80band_256x",
-      "developer": "NVIDIA",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/nvidia-bigvgan-v2-22khz-80band-256x/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-bigvgan-v2-22khz-80band-256x.json"
-    },
-    {
-      "id": "protectai-deberta-v3-base-prompt-injection-v2",
-      "name": "deberta-v3-base-prompt-injection-v2",
-      "developer": "protectai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/protectai-deberta-v3-base-prompt-injection-v2/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/protectai-deberta-v3-base-prompt-injection-v2.json"
-    },
-    {
-      "id": "google-gemma-3-12b-it",
-      "name": "gemma-3-12b-it",
-      "developer": "Google",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/google-gemma-3-12b-it/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/google-gemma-3-12b-it.json"
-    },
-    {
-      "id": "nvidia-glm-5-2-nvfp4",
-      "name": "GLM-5.2-NVFP4",
-      "developer": "NVIDIA",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/nvidia-glm-5-2-nvfp4/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-glm-5-2-nvfp4.json"
-    },
-    {
-      "id": "onnx-community-kokoro-82m-v1-0-onnx",
-      "name": "Kokoro-82M-v1.0-ONNX",
-      "developer": "onnx-community",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/onnx-community-kokoro-82m-v1-0-onnx/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/onnx-community-kokoro-82m-v1-0-onnx.json"
-    },
-    {
-      "id": "sshleifer-tiny-gpt2",
-      "name": "tiny-gpt2",
-      "developer": "sshleifer",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/sshleifer-tiny-gpt2/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/sshleifer-tiny-gpt2.json"
-    },
-    {
-      "id": "qwen-qwen3-5-122b-a10b",
-      "name": "Qwen3.5-122B-A10B",
-      "developer": "Qwen",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/qwen-qwen3-5-122b-a10b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/qwen-qwen3-5-122b-a10b.json"
-    },
-    {
-      "id": "distil-whisper-distil-large-v3",
-      "name": "distil-large-v3",
-      "developer": "distil-whisper",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/distil-whisper-distil-large-v3/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/distil-whisper-distil-large-v3.json"
-    },
-    {
-      "id": "laion-clip-vit-h-14-laion2b-s32b-b79k",
-      "name": "CLIP-ViT-H-14-laion2B-s32B-b79K",
-      "developer": "laion",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/laion-clip-vit-h-14-laion2b-s32b-b79k/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/laion-clip-vit-h-14-laion2b-s32b-b79k.json"
-    },
-    {
-      "id": "cidas-clipseg-rd64-refined",
-      "name": "clipseg-rd64-refined",
-      "developer": "CIDAS",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/cidas-clipseg-rd64-refined/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/cidas-clipseg-rd64-refined.json"
-    },
-    {
-      "id": "openai-privacy-filter",
-      "name": "privacy-filter",
-      "developer": "OpenAI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/openai-privacy-filter/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/openai-privacy-filter.json"
-    },
-    {
-      "id": "qwen-qwen3-0-6b-base",
-      "name": "Qwen3-0.6B-Base",
-      "developer": "Qwen",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/qwen-qwen3-0-6b-base/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/qwen-qwen3-0-6b-base.json"
-    },
-    {
-      "id": "amazon-chronos-bolt-base",
-      "name": "chronos-bolt-base",
-      "developer": "amazon",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/amazon-chronos-bolt-base/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/amazon-chronos-bolt-base.json"
-    },
-    {
-      "id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4",
-      "name": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
-      "developer": "NVIDIA",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4.json"
-    },
-    {
-      "id": "qwen-qwen3-235b-a22b",
-      "name": "Qwen3-235B-A22B",
-      "developer": "Qwen",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/qwen-qwen3-235b-a22b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/qwen-qwen3-235b-a22b.json"
-    },
-    {
-      "id": "zai-org-glm-5",
-      "name": "GLM-5",
-      "developer": "Z.ai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/zai-org-glm-5/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/zai-org-glm-5.json"
-    },
-    {
-      "id": "helsinki-nlp-opus-mt-nl-en",
-      "name": "opus-mt-nl-en",
-      "developer": "Helsinki-NLP",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/helsinki-nlp-opus-mt-nl-en/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/helsinki-nlp-opus-mt-nl-en.json"
-    },
-    {
-      "id": "sentence-transformers-labse",
-      "name": "LaBSE",
-      "developer": "Sentence Transformers",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/sentence-transformers-labse/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/sentence-transformers-labse.json"
-    },
-    {
-      "id": "jonatasgrosman-wav2vec2-large-xlsr-53-dutch",
-      "name": "wav2vec2-large-xlsr-53-dutch",
-      "developer": "jonatasgrosman",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/jonatasgrosman-wav2vec2-large-xlsr-53-dutch/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/jonatasgrosman-wav2vec2-large-xlsr-53-dutch.json"
-    },
-    {
-      "id": "qwen-qwen3-5-397b-a17b",
-      "name": "Qwen3.5-397B-A17B",
-      "developer": "Qwen",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/qwen-qwen3-5-397b-a17b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/qwen-qwen3-5-397b-a17b.json"
-    },
-    {
-      "id": "qwen-qwen3-5-397b-a17b-fp8",
-      "name": "Qwen3.5-397B-A17B-FP8",
-      "developer": "Qwen",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/qwen-qwen3-5-397b-a17b-fp8/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/qwen-qwen3-5-397b-a17b-fp8.json"
-    },
-    {
-      "id": "jinaai-jina-embeddings-v2-small-en",
-      "name": "jina-embeddings-v2-small-en",
-      "developer": "jinaai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/jinaai-jina-embeddings-v2-small-en/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/jinaai-jina-embeddings-v2-small-en.json"
-    },
-    {
-      "id": "whereisai-uae-large-v1",
-      "name": "UAE-Large-V1",
-      "developer": "WhereIsAI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/whereisai-uae-large-v1/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/whereisai-uae-large-v1.json"
-    },
-    {
-      "id": "gittensor-model-hub-qwen3-8-27b-nvfp4-rtx5090",
-      "name": "Qwen3.8-27B-NVFP4-RTX5090",
-      "developer": "gittensor-model-hub",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/gittensor-model-hub-qwen3-8-27b-nvfp4-rtx5090/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/gittensor-model-hub-qwen3-8-27b-nvfp4-rtx5090.json"
-    },
-    {
-      "id": "zeroentropy-zerank-2-reranker",
-      "name": "zerank-2-reranker",
-      "developer": "zeroentropy",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/zeroentropy-zerank-2-reranker/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/zeroentropy-zerank-2-reranker.json"
-    },
-    {
-      "id": "idea-research-grounding-dino-tiny",
-      "name": "grounding-dino-tiny",
-      "developer": "IDEA-Research",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/idea-research-grounding-dino-tiny/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/idea-research-grounding-dino-tiny.json"
-    },
-    {
-      "id": "swiss-ai-apertus-8b-instruct-2509",
-      "name": "Apertus-8B-Instruct-2509",
-      "developer": "swiss-ai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/swiss-ai-apertus-8b-instruct-2509/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/swiss-ai-apertus-8b-instruct-2509.json"
-    },
-    {
-      "id": "apple-openelm-1-1b-instruct",
-      "name": "OpenELM-1_1B-Instruct",
-      "developer": "apple",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/apple-openelm-1-1b-instruct/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/apple-openelm-1-1b-instruct.json"
-    },
-    {
-      "id": "neuralmind-bert-large-portuguese-cased",
-      "name": "bert-large-portuguese-cased",
-      "developer": "neuralmind",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/neuralmind-bert-large-portuguese-cased/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/neuralmind-bert-large-portuguese-cased.json"
-    },
-    {
       "id": "black-forest-labs-flux-2-klein-4b",
       "name": "FLUX.2-klein-4B",
       "developer": "Black Forest Labs",
@@ -4944,15 +4584,6 @@
       "evidence_url": "https://openmodelweights.com/api/v1/evidence/google-siglip2-base-patch16-naflex.json"
     },
     {
-      "id": "zai-org-glm-5-2-fp8",
-      "name": "GLM-5.2-FP8",
-      "developer": "Z.ai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/zai-org-glm-5-2-fp8/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/zai-org-glm-5-2-fp8.json"
-    },
-    {
       "id": "microsoft-resnet-50",
       "name": "resnet-50",
       "developer": "Microsoft",
@@ -4960,6 +4591,15 @@
       "diff_count": 0,
       "history_url": "https://openmodelweights.com/models/microsoft-resnet-50/history/",
       "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-resnet-50.json"
+    },
+    {
+      "id": "zai-org-glm-5-2-fp8",
+      "name": "GLM-5.2-FP8",
+      "developer": "Z.ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/zai-org-glm-5-2-fp8/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/zai-org-glm-5-2-fp8.json"
     },
     {
       "id": "nvidia-bigvgan-v2-44khz-128band-512x",
@@ -6301,6 +5941,366 @@
       "diff_count": 0,
       "history_url": "https://openmodelweights.com/models/stabilityai-stable-video-diffusion-img2vid-xt/history/",
       "evidence_url": "https://openmodelweights.com/api/v1/evidence/stabilityai-stable-video-diffusion-img2vid-xt.json"
+    },
+    {
+      "id": "facebook-detr-resnet-50",
+      "name": "detr-resnet-50",
+      "developer": "Meta",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/facebook-detr-resnet-50/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-detr-resnet-50.json"
+    },
+    {
+      "id": "sentence-transformers-all-roberta-large-v1",
+      "name": "all-roberta-large-v1",
+      "developer": "Sentence Transformers",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/sentence-transformers-all-roberta-large-v1/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/sentence-transformers-all-roberta-large-v1.json"
+    },
+    {
+      "id": "cl-nagoya-ruri-v3-310m",
+      "name": "ruri-v3-310m",
+      "developer": "cl-nagoya",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/cl-nagoya-ruri-v3-310m/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/cl-nagoya-ruri-v3-310m.json"
+    },
+    {
+      "id": "facebook-vggt-1b",
+      "name": "VGGT-1B",
+      "developer": "Meta",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/facebook-vggt-1b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-vggt-1b.json"
+    },
+    {
+      "id": "facebook-wav2vec2-xls-r-300m",
+      "name": "wav2vec2-xls-r-300m",
+      "developer": "Meta",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/facebook-wav2vec2-xls-r-300m/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-wav2vec2-xls-r-300m.json"
+    },
+    {
+      "id": "nomic-ai-nomic-embed-vision-v1-5",
+      "name": "nomic-embed-vision-v1.5",
+      "developer": "nomic-ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/nomic-ai-nomic-embed-vision-v1-5/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nomic-ai-nomic-embed-vision-v1-5.json"
+    },
+    {
+      "id": "coherelabs-cohere-transcribe-03-2026",
+      "name": "cohere-transcribe-03-2026",
+      "developer": "CohereLabs",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/coherelabs-cohere-transcribe-03-2026/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/coherelabs-cohere-transcribe-03-2026.json"
+    },
+    {
+      "id": "ornith-ai-ornith-1-5-9b-nvfp4",
+      "name": "Ornith-1.5-9B-NVFP4",
+      "developer": "ornith-ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/ornith-ai-ornith-1-5-9b-nvfp4/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/ornith-ai-ornith-1-5-9b-nvfp4.json"
+    },
+    {
+      "id": "kingabzpro-wav2vec2-large-xls-r-300m-urdu",
+      "name": "wav2vec2-large-xls-r-300m-Urdu",
+      "developer": "kingabzpro",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/kingabzpro-wav2vec2-large-xls-r-300m-urdu/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/kingabzpro-wav2vec2-large-xls-r-300m-urdu.json"
+    },
+    {
+      "id": "lightonai-lightonocr-2-1b",
+      "name": "LightOnOCR-2-1B",
+      "developer": "lightonai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/lightonai-lightonocr-2-1b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/lightonai-lightonocr-2-1b.json"
+    },
+    {
+      "id": "helsinki-nlp-opus-mt-en-ru",
+      "name": "opus-mt-en-ru",
+      "developer": "Helsinki-NLP",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/helsinki-nlp-opus-mt-en-ru/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/helsinki-nlp-opus-mt-en-ru.json"
+    },
+    {
+      "id": "llava-hf-llava-onevision-qwen2-0-5b-ov-hf",
+      "name": "llava-onevision-qwen2-0.5b-ov-hf",
+      "developer": "llava-hf",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/llava-hf-llava-onevision-qwen2-0-5b-ov-hf/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/llava-hf-llava-onevision-qwen2-0-5b-ov-hf.json"
+    },
+    {
+      "id": "deepseek-ai-deepseek-r1-distill-qwen-7b",
+      "name": "DeepSeek-R1-Distill-Qwen-7B",
+      "developer": "DeepSeek",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/deepseek-ai-deepseek-r1-distill-qwen-7b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/deepseek-ai-deepseek-r1-distill-qwen-7b.json"
+    },
+    {
+      "id": "jhu-clsp-mmbert-base",
+      "name": "mmBERT-base",
+      "developer": "jhu-clsp",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/jhu-clsp-mmbert-base/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/jhu-clsp-mmbert-base.json"
+    },
+    {
+      "id": "poolside-laguna-s-2-1-nvfp4",
+      "name": "Laguna-S-2.1-NVFP4",
+      "developer": "poolside",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/poolside-laguna-s-2-1-nvfp4/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/poolside-laguna-s-2-1-nvfp4.json"
+    },
+    {
+      "id": "jonatasgrosman-wav2vec2-large-xlsr-53-persian",
+      "name": "wav2vec2-large-xlsr-53-persian",
+      "developer": "jonatasgrosman",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/jonatasgrosman-wav2vec2-large-xlsr-53-persian/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/jonatasgrosman-wav2vec2-large-xlsr-53-persian.json"
+    },
+    {
+      "id": "incoai-qwen3-8-27b-dflash2",
+      "name": "Qwen3.8-27B-DFlash2",
+      "developer": "incoai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/incoai-qwen3-8-27b-dflash2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/incoai-qwen3-8-27b-dflash2.json"
+    },
+    {
+      "id": "obliteratus-ornith-1-5-9b-obliterated",
+      "name": "Ornith-1.5-9B-OBLITERATED",
+      "developer": "OBLITERATUS",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/obliteratus-ornith-1-5-9b-obliterated/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/obliteratus-ornith-1-5-9b-obliterated.json"
+    },
+    {
+      "id": "mattmdjaga-segformer-b2-clothes",
+      "name": "segformer_b2_clothes",
+      "developer": "mattmdjaga",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/mattmdjaga-segformer-b2-clothes/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/mattmdjaga-segformer-b2-clothes.json"
+    },
+    {
+      "id": "ibm-granite-granite-docling-258m",
+      "name": "granite-docling-258M",
+      "developer": "IBM",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/ibm-granite-granite-docling-258m/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/ibm-granite-granite-docling-258m.json"
+    },
+    {
+      "id": "tencentbac-conan-embedding-v1",
+      "name": "Conan-embedding-v1",
+      "developer": "TencentBAC",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/tencentbac-conan-embedding-v1/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/tencentbac-conan-embedding-v1.json"
+    },
+    {
+      "id": "madebyollin-sdxl-vae-fp16-fix",
+      "name": "sdxl-vae-fp16-fix",
+      "developer": "madebyollin",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/madebyollin-sdxl-vae-fp16-fix/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/madebyollin-sdxl-vae-fp16-fix.json"
+    },
+    {
+      "id": "trl-internal-testing-tiny-qwen3forcausallm",
+      "name": "tiny-Qwen3ForCausalLM",
+      "developer": "trl-internal-testing",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/trl-internal-testing-tiny-qwen3forcausallm/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/trl-internal-testing-tiny-qwen3forcausallm.json"
+    },
+    {
+      "id": "nvidia-parakeet-tdt-0-6b-v2",
+      "name": "parakeet-tdt-0.6b-v2",
+      "developer": "NVIDIA",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/nvidia-parakeet-tdt-0-6b-v2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-parakeet-tdt-0-6b-v2.json"
+    },
+    {
+      "id": "nvidia-qwen3-8-flash-next-nvfp4",
+      "name": "Qwen3.8-Flash-Next-NVFP4",
+      "developer": "NVIDIA",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/nvidia-qwen3-8-flash-next-nvfp4/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-qwen3-8-flash-next-nvfp4.json"
+    },
+    {
+      "id": "intfloat-e5-mistral-7b-instruct",
+      "name": "e5-mistral-7b-instruct",
+      "developer": "intfloat",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/intfloat-e5-mistral-7b-instruct/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/intfloat-e5-mistral-7b-instruct.json"
+    },
+    {
+      "id": "nlpai-lab-kure-v1",
+      "name": "KURE-v1",
+      "developer": "nlpai-lab",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/nlpai-lab-kure-v1/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nlpai-lab-kure-v1.json"
+    },
+    {
+      "id": "nomic-ai-nomic-embed-code",
+      "name": "nomic-embed-code",
+      "developer": "nomic-ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/nomic-ai-nomic-embed-code/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nomic-ai-nomic-embed-code.json"
+    },
+    {
+      "id": "facebook-dino-vitb16",
+      "name": "dino-vitb16",
+      "developer": "Meta",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/facebook-dino-vitb16/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-dino-vitb16.json"
+    },
+    {
+      "id": "helsinki-nlp-opus-mt-ru-en",
+      "name": "opus-mt-ru-en",
+      "developer": "Helsinki-NLP",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/helsinki-nlp-opus-mt-ru-en/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/helsinki-nlp-opus-mt-ru-en.json"
+    },
+    {
+      "id": "intfloat-e5-base",
+      "name": "e5-base",
+      "developer": "intfloat",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/intfloat-e5-base/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/intfloat-e5-base.json"
+    },
+    {
+      "id": "kredor-punctuate-all",
+      "name": "punctuate-all",
+      "developer": "kredor",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/kredor-punctuate-all/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/kredor-punctuate-all.json"
+    },
+    {
+      "id": "black-forest-labs-flux-2-klein-9b",
+      "name": "FLUX.2-klein-9B",
+      "developer": "Black Forest Labs",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/black-forest-labs-flux-2-klein-9b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/black-forest-labs-flux-2-klein-9b.json"
+    },
+    {
+      "id": "fastino-gliner2-5-multi-v1",
+      "name": "gliner2.5-multi-v1",
+      "developer": "fastino",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/fastino-gliner2-5-multi-v1/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/fastino-gliner2-5-multi-v1.json"
+    },
+    {
+      "id": "remsky-kokoro-inno-clone-tuner",
+      "name": "kokoro-inno-clone-tuner",
+      "developer": "remsky",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/remsky-kokoro-inno-clone-tuner/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/remsky-kokoro-inno-clone-tuner.json"
+    },
+    {
+      "id": "microsoft-tapex-base-finetuned-wikisql",
+      "name": "tapex-base-finetuned-wikisql",
+      "developer": "Microsoft",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/microsoft-tapex-base-finetuned-wikisql/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-tapex-base-finetuned-wikisql.json"
+    },
+    {
+      "id": "sentence-transformers-paraphrase-minilm-l3-v2",
+      "name": "paraphrase-MiniLM-L3-v2",
+      "developer": "Sentence Transformers",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/sentence-transformers-paraphrase-minilm-l3-v2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/sentence-transformers-paraphrase-minilm-l3-v2.json"
+    },
+    {
+      "id": "kblab-wav2vec2-large-voxrex-swedish",
+      "name": "wav2vec2-large-voxrex-swedish",
+      "developer": "KBLab",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/kblab-wav2vec2-large-voxrex-swedish/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/kblab-wav2vec2-large-voxrex-swedish.json"
+    },
+    {
+      "id": "facebook-audiobox-aesthetics",
+      "name": "audiobox-aesthetics",
+      "developer": "Meta",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/facebook-audiobox-aesthetics/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-audiobox-aesthetics.json"
+    },
+    {
+      "id": "microsoft-harrier-oss-v1-0-6b",
+      "name": "harrier-oss-v1-0.6b",
+      "developer": "Microsoft",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/microsoft-harrier-oss-v1-0-6b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-harrier-oss-v1-0-6b.json"
     }
   ]
 }
