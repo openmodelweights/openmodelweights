@@ -192,20 +192,21 @@ def main():
 
     selected=[]
     counts={}
+    used_ids={m.get("id") for m in pinned if m.get("id")}
     # Pass one: diversity cap prevents a single namespace from taking the registry.
     for _,info in pool:
-        repo=rid(info); author=repo.split("/",1)[0].lower()
+        repo=rid(info); author=repo.split("/",1)[0].lower(); candidate_id=slug(repo)
         cap=55
-        if counts.get(author,0)>=cap: continue
-        selected.append(info); counts[author]=counts.get(author,0)+1
+        if counts.get(author,0)>=cap or candidate_id in used_ids: continue
+        selected.append(info); counts[author]=counts.get(author,0)+1; used_ids.add(candidate_id)
         if len(pinned)+len(selected)>=target_candidates: break
     # Pass two: fill remaining buffer if the cap left us short.
     if len(pinned)+len(selected)<target_candidates:
         chosen={rid(x).lower() for x in selected}
         for _,info in pool:
-            repo=rid(info)
-            if repo.lower() in chosen: continue
-            selected.append(info); chosen.add(repo.lower())
+            repo=rid(info); candidate_id=slug(repo)
+            if repo.lower() in chosen or candidate_id in used_ids: continue
+            selected.append(info); chosen.add(repo.lower()); used_ids.add(candidate_id)
             if len(pinned)+len(selected)>=target_candidates: break
 
     if len(pinned)+len(selected)<TARGET:
