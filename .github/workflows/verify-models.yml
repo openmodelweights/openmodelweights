@@ -13,6 +13,8 @@ on:
       - "scripts/render_product.py"
       - "scripts/build_intelligence.py"
       - "scripts/validate_benchmarks.py"
+      - "benchmarks/runner/**"
+      - "data/benchmark-evidence/**"
       - "src/worker.js"
       - "package.json"
       - "wrangler.jsonc"
