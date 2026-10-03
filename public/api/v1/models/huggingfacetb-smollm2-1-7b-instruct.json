@@ -110,7 +110,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -188,11 +188,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:20:56+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T13:17:24+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -208,12 +208,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -222,14 +222,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
-    "rank": 794,
-    "downloads": 227893,
-    "likes": 758,
+    "rank": 817,
+    "downloads": 214010,
+    "likes": 759,
     "last_modified": "2025-04-21T20:51:14+00:00",
     "created_at": "2024-10-31T13:42:06+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T15:20:54+00:00",
+    "discovered_at": "2026-10-03T13:17:21+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -248,8 +248,8 @@
   "hub": {
     "last_modified": "2025-04-21T20:51:14.000Z",
     "created_at": "2024-10-31T13:42:06.000Z",
-    "downloads": 227893,
-    "likes": 758,
+    "downloads": 214010,
+    "likes": 759,
     "sha": "31b70e2e869a7173562077fd711b654946d38674",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",

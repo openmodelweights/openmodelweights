@@ -1,19 +1,19 @@
 {
   "api_version": "v1",
   "registry_schema": "0.8.0",
-  "generated_at": "2026-10-03T13:11:55+00:00",
+  "generated_at": "2026-10-03T13:22:34+00:00",
   "model_count": 700,
   "verification": {
     "total_seed_records": 700,
     "field_verified": 700,
-    "errors": 46,
-    "license_declared": 670,
-    "commercial_use_classified": 599,
-    "context_verified": 474,
+    "errors": 120,
+    "license_declared": 663,
+    "commercial_use_classified": 594,
+    "context_verified": 491,
     "exact_weight_lists": 700,
-    "base_model_declared": 221,
-    "training_recipe_signal": 427,
-    "data_disclosure_signal": 248,
+    "base_model_declared": 227,
+    "training_recipe_signal": 424,
+    "data_disclosure_signal": 249,
     "runtime_signal": 685
   },
   "links": {
