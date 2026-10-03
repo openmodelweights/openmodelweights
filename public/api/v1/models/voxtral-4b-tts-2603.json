@@ -171,7 +171,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T10:33:40+00:00",
+    "checked_at_iso": "2026-10-03T11:03:16+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "readme_accessible": true,
     "config_accessible": false,
@@ -225,7 +225,7 @@
   "hub": {
     "last_modified": "2026-03-31T13:43:59.000Z",
     "downloads": 1700,
-    "likes": 919,
+    "likes": 920,
     "sha": "b81be46c3777f88621676791b512bb01dc1cb970",
     "library_name": "vllm",
     "pipeline_tag": "text-to-speech",

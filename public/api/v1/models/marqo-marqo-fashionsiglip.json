@@ -112,7 +112,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -176,11 +176,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:15:28+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:03:16+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
-    "full_verified_at": "2026-10-02",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -196,17 +196,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -215,14 +210,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "Marqo/marqo-fashionSigLIP",
-    "rank": 754,
-    "downloads": 426152,
+    "rank": 757,
+    "downloads": 421697,
     "likes": 95,
     "last_modified": "2026-02-18T03:34:31+00:00",
     "created_at": "2024-08-09T01:32:22+00:00",
     "library_name": "open_clip",
     "pipeline_tag": "zero-shot-image-classification",
-    "discovered_at": "2026-10-02T16:15:26+00:00",
+    "discovered_at": "2026-10-03T11:03:15+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -242,7 +237,7 @@
   "hub": {
     "last_modified": "2026-02-18T03:34:31.000Z",
     "created_at": "2024-08-09T01:32:22.000Z",
-    "downloads": 426152,
+    "downloads": 421697,
     "likes": 95,
     "sha": "c56244cc94f92419e8369fa71efdaf403b124ce8",
     "library_name": "open_clip",

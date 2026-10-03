@@ -95,7 +95,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -163,11 +163,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:15:28+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:03:16+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -183,12 +183,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -197,14 +197,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "HuggingFaceTB/SmolLM2-360M",
-    "rank": 763,
-    "downloads": 411909,
+    "rank": 760,
+    "downloads": 411450,
     "likes": 136,
     "last_modified": "2025-02-06T10:34:16+00:00",
     "created_at": "2024-10-31T00:43:11+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T16:15:26+00:00",
+    "discovered_at": "2026-10-03T11:03:15+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -220,7 +220,7 @@
   "hub": {
     "last_modified": "2025-02-06T10:34:16.000Z",
     "created_at": "2024-10-31T00:43:11.000Z",
-    "downloads": 411909,
+    "downloads": 411450,
     "likes": 136,
     "sha": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
     "library_name": "transformers",

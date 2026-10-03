@@ -92,7 +92,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -158,11 +158,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:43:54+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:03:16+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -178,12 +178,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -192,14 +192,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "LBH-123-AI/Minimax_h3_latent_Upscaler",
-    "rank": 770,
-    "downloads": 239708,
-    "likes": 372,
+    "rank": 764,
+    "downloads": 240432,
+    "likes": 377,
     "last_modified": "2026-09-17T12:01:05+00:00",
     "created_at": "2026-08-17T05:23:10+00:00",
     "library_name": "minimax-h3",
     "pipeline_tag": null,
-    "discovered_at": "2026-10-02T15:43:52+00:00",
+    "discovered_at": "2026-10-03T11:03:15+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -215,8 +215,8 @@
   "hub": {
     "last_modified": "2026-09-17T12:01:05.000Z",
     "created_at": "2026-08-17T05:23:10.000Z",
-    "downloads": 239708,
-    "likes": 372,
+    "downloads": 240432,
+    "likes": 377,
     "sha": "3f941d5d182014dd5c0a5e16330420ee2d4aa0c6",
     "library_name": "minimax-h3",
     "pipeline_tag": null,

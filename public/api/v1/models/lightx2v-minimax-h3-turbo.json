@@ -168,7 +168,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T10:33:40+00:00",
+    "checked_at_iso": "2026-10-03T11:03:16+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -213,12 +213,12 @@
     "repo_id": "lightx2v/Minimax-h3-Turbo",
     "rank": 248,
     "downloads": 1539674,
-    "likes": 1026,
+    "likes": 1027,
     "last_modified": "2026-09-10T13:22:26+00:00",
     "created_at": "2026-08-07T12:59:07+00:00",
     "library_name": "diffusers",
     "pipeline_tag": "image-to-video",
-    "discovered_at": "2026-10-03T10:33:38+00:00",
+    "discovered_at": "2026-10-03T11:03:15+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -235,7 +235,7 @@
     "last_modified": "2026-09-10T13:22:26.000Z",
     "created_at": "2026-08-07T12:59:07.000Z",
     "downloads": 1539674,
-    "likes": 1026,
+    "likes": 1027,
     "sha": "3ec17a324ced54151364f24f8b5fb6bf7e26414f",
     "library_name": "diffusers",
     "pipeline_tag": "image-to-video",
