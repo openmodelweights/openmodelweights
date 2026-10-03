@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-03T10:21:09+00:00",
+  "generated_at": "2026-10-03T10:24:44+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 341,
+      "model_count": 353,
       "commercial_use": {
-        "allowed": 341
+        "allowed": 353
       }
     },
     {
@@ -17,9 +17,9 @@
     },
     {
       "name": "CC BY 4.0",
-      "model_count": 9,
+      "model_count": 6,
       "commercial_use": {
-        "allowed": 9
+        "allowed": 6
       }
     },
     {
@@ -31,9 +31,9 @@
     },
     {
       "name": "MIT",
-      "model_count": 140,
+      "model_count": 138,
       "commercial_use": {
-        "allowed": 140
+        "allowed": 138
       }
     },
     {
@@ -130,9 +130,9 @@
     },
     {
       "name": "apple-sample-code-license",
-      "model_count": 1,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 1
+        "unknown": 2
       }
     },
     {
@@ -164,13 +164,6 @@
       }
     },
     {
-      "name": "cc0-1.0",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
       "name": "circlestone-labs-non-commercial-license",
       "model_count": 1,
       "commercial_use": {
@@ -186,9 +179,9 @@
     },
     {
       "name": "creativeml-openrail-m",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "unknown": 5
+        "unknown": 6
       }
     },
     {
@@ -207,9 +200,9 @@
     },
     {
       "name": "dinov3-license",
-      "model_count": 3,
+      "model_count": 2,
       "commercial_use": {
-        "allowed-with-conditions": 3
+        "allowed-with-conditions": 2
       }
     },
     {
@@ -221,17 +214,17 @@
     },
     {
       "name": "flux-non-commercial-license",
-      "model_count": 3,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 3
+        "unknown": 2
       }
     },
     {
       "name": "gemma",
-      "model_count": 11,
+      "model_count": 10,
       "commercial_use": {
         "allowed-with-conditions": 7,
-        "unknown": 4
+        "unknown": 3
       }
     },
     {
@@ -242,24 +235,10 @@
       }
     },
     {
-      "name": "gpl-3.0",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
       "name": "health-ai-developer-foundations",
       "model_count": 2,
       "commercial_use": {
         "allowed-with-conditions": 2
-      }
-    },
-    {
-      "name": "ideogram-non-commercial-model-agreement",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
       }
     },
     {
@@ -306,9 +285,9 @@
     },
     {
       "name": "llama3.2",
-      "model_count": 12,
+      "model_count": 11,
       "commercial_use": {
-        "allowed-with-conditions": 12
+        "allowed-with-conditions": 11
       }
     },
     {
@@ -334,13 +313,6 @@
     },
     {
       "name": "ltx-2.x-community-license-agreement",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
-      "name": "minimax-community",
       "model_count": 1,
       "commercial_use": {
         "unknown": 1
@@ -376,9 +348,9 @@
     },
     {
       "name": "nvidia-open-model-agreement",
-      "model_count": 2,
+      "model_count": 3,
       "commercial_use": {
-        "allowed-with-conditions": 2
+        "allowed-with-conditions": 3
       }
     },
     {
@@ -390,10 +362,9 @@
     },
     {
       "name": "openmdw-1.1",
-      "model_count": 7,
+      "model_count": 5,
       "commercial_use": {
-        "allowed-with-conditions": 6,
-        "unknown": 1
+        "allowed-with-conditions": 5
       }
     },
     {
@@ -419,10 +390,10 @@
     },
     {
       "name": "other",
-      "model_count": 5,
+      "model_count": 4,
       "commercial_use": {
         "allowed-with-conditions": 2,
-        "unknown": 3
+        "unknown": 2
       }
     },
     {
@@ -455,9 +426,9 @@
     },
     {
       "name": "tencent-hunyuan-community",
-      "model_count": 1,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 1
+        "unknown": 2
       }
     },
     {

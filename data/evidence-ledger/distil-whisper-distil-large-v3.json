@@ -119,7 +119,7 @@
   "source_repository": "https://huggingface.co/distil-whisper/distil-large-v3",
   "current_repository_sha": "8031d2e6ce6631b7fc45629dddfc00271116d981",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,

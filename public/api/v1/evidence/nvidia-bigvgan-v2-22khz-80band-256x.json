@@ -109,7 +109,7 @@
   "source_repository": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
   "current_repository_sha": "633ff708ed5b74903e86ff1298cf4a98e921c513",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,

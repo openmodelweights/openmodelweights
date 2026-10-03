@@ -112,7 +112,7 @@
   "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small",
   "current_repository_sha": "5c54692f22e186fc12ea38a9193e3ff9e1cda2a3",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,

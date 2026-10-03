@@ -160,7 +160,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T10:18:29+00:00",
+    "checked_at_iso": "2026-10-03T10:23:48+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "readme_accessible": true,
     "config_accessible": true,
@@ -216,7 +216,7 @@
   "hub": {
     "last_modified": "2026-04-20T02:45:58.000Z",
     "downloads": 9558268,
-    "likes": 1257,
+    "likes": 1258,
     "sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
     "library_name": "sentence-transformers",
     "pipeline_tag": "feature-extraction",

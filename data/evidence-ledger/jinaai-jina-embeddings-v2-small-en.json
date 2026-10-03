@@ -120,7 +120,7 @@
   "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v2-small-en",
   "current_repository_sha": "44e7d1d6caec8c883c2d4b207588504d519788d0",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,
