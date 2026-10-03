@@ -114,7 +114,7 @@
   "source_repository": "https://huggingface.co/distilbert/distilbert-base-multilingual-cased",
   "current_repository_sha": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,

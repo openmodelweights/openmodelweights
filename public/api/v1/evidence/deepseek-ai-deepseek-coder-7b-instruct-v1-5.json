@@ -115,7 +115,7 @@
   "source_repository": "https://huggingface.co/deepseek-ai/deepseek-coder-7b-instruct-v1.5",
   "current_repository_sha": "2a050a4c59d687a85324d32e147517992117ed30",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,

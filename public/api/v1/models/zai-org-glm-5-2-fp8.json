@@ -243,7 +243,7 @@
     ],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://huggingface.co/zai-org/GLM-5.2-FP8/blob/main/LICENSE"
     }
   },
@@ -311,10 +311,10 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T11:03:16+00:00",
+    "checked_at_iso": "2026-10-03T13:09:45+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
-    "full_verified_at": "2026-10-02",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -331,21 +331,11 @@
     "history": [
       {
         "date": "2026-10-03",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -354,14 +344,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "zai-org/GLM-5.2-FP8",
-    "rank": 569,
+    "rank": 570,
     "downloads": 475068,
     "likes": 267,
     "last_modified": "2026-09-01T11:36:25+00:00",
     "created_at": "2026-06-16T07:20:33+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-03T11:03:15+00:00",
+    "discovered_at": "2026-10-03T13:09:44+00:00",
     "pinned": false
   },
   "runtime_support": {

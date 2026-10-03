@@ -108,7 +108,7 @@
   "source_repository": "https://huggingface.co/dbmdz/bert-large-cased-finetuned-conll03-english",
   "current_repository_sha": "4c534963167c08d4b8ff1f88733cf2930f86add0",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,

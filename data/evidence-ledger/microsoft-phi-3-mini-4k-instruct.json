@@ -115,7 +115,7 @@
   "source_repository": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
   "current_repository_sha": "f39ac1d28e925b323eae81227eaba4464caced4e",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,

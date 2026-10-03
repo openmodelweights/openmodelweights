@@ -196,7 +196,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T11:09:10+00:00",
+    "checked_at_iso": "2026-10-03T13:09:45+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -241,12 +241,12 @@
     "repo_id": "openbmb/MiniCPM5-2B",
     "rank": 271,
     "downloads": 1059242,
-    "likes": 1712,
+    "likes": 1713,
     "last_modified": "2026-09-29T06:12:33+00:00",
     "created_at": "2026-09-06T11:12:19+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-03T11:09:08+00:00",
+    "discovered_at": "2026-10-03T13:09:44+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -269,7 +269,7 @@
     "last_modified": "2026-09-29T06:12:33.000Z",
     "created_at": "2026-09-06T11:12:19.000Z",
     "downloads": 1059242,
-    "likes": 1712,
+    "likes": 1713,
     "sha": "f97400052a43d642bbc6e9975e2397e3ae6a6b52",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",

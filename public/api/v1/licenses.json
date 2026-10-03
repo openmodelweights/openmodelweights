@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-03T11:14:05+00:00",
+  "generated_at": "2026-10-03T13:11:55+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 338,
+      "model_count": 341,
       "commercial_use": {
-        "allowed": 338
+        "allowed": 341
       }
     },
     {
@@ -24,16 +24,16 @@
     },
     {
       "name": "CC BY-NC 4.0",
-      "model_count": 15,
+      "model_count": 12,
       "commercial_use": {
-        "not-allowed": 15
+        "not-allowed": 12
       }
     },
     {
       "name": "MIT",
-      "model_count": 136,
+      "model_count": 142,
       "commercial_use": {
-        "allowed": 136
+        "allowed": 142
       }
     },
     {
@@ -52,9 +52,9 @@
     },
     {
       "name": "Not declared in model-card metadata",
-      "model_count": 37,
+      "model_count": 30,
       "commercial_use": {
-        "unknown": 36,
+        "unknown": 29,
         "allowed-with-conditions": 1
       }
     },
@@ -80,6 +80,13 @@
       }
     },
     {
+      "name": "['cc-by-nc-sa-4.0']",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
+      }
+    },
+    {
       "name": "['cdla-permissive-2.0', 'apache-2.0']",
       "model_count": 1,
       "commercial_use": {
@@ -101,6 +108,13 @@
       }
     },
     {
+      "name": "['other']",
+      "model_count": 1,
+      "commercial_use": {
+        "allowed-with-conditions": 1
+      }
+    },
+    {
       "name": "agpl-3.0",
       "model_count": 1,
       "commercial_use": {
@@ -116,13 +130,20 @@
     },
     {
       "name": "apple-sample-code-license",
-      "model_count": 1,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 1
+        "unknown": 2
       }
     },
     {
       "name": "bigscience-bloom-rail-1.0",
+      "model_count": 2,
+      "commercial_use": {
+        "unknown": 2
+      }
+    },
+    {
+      "name": "bria-rmbg-1.4",
       "model_count": 1,
       "commercial_use": {
         "unknown": 1
@@ -165,9 +186,16 @@
     },
     {
       "name": "creativeml-openrail-m",
-      "model_count": 4,
+      "model_count": 5,
       "commercial_use": {
-        "unknown": 4
+        "unknown": 5
+      }
+    },
+    {
+      "name": "deepseek",
+      "model_count": 1,
+      "commercial_use": {
+        "unknown": 1
       }
     },
     {
@@ -179,9 +207,9 @@
     },
     {
       "name": "dinov3-license",
-      "model_count": 2,
+      "model_count": 3,
       "commercial_use": {
-        "allowed-with-conditions": 2
+        "allowed-with-conditions": 3
       }
     },
     {
@@ -200,10 +228,10 @@
     },
     {
       "name": "gemma",
-      "model_count": 13,
+      "model_count": 10,
       "commercial_use": {
-        "allowed-with-conditions": 7,
-        "unknown": 6
+        "allowed-with-conditions": 6,
+        "unknown": 4
       }
     },
     {
@@ -225,13 +253,6 @@
       "model_count": 2,
       "commercial_use": {
         "allowed-with-conditions": 2
-      }
-    },
-    {
-      "name": "ideogram-non-commercial-model-agreement",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
       }
     },
     {
@@ -271,9 +292,9 @@
     },
     {
       "name": "llama3.1",
-      "model_count": 6,
+      "model_count": 5,
       "commercial_use": {
-        "allowed-with-conditions": 6
+        "allowed-with-conditions": 5
       }
     },
     {
@@ -299,9 +320,9 @@
     },
     {
       "name": "ltx-2-community-license-agreement",
-      "model_count": 3,
+      "model_count": 5,
       "commercial_use": {
-        "unknown": 3
+        "unknown": 5
       }
     },
     {
@@ -327,9 +348,9 @@
     },
     {
       "name": "minimax-h3-community-license-agreement",
-      "model_count": 4,
+      "model_count": 3,
       "commercial_use": {
-        "unknown": 4
+        "unknown": 3
       }
     },
     {
@@ -341,9 +362,9 @@
     },
     {
       "name": "nvidia-nemotron-open-model-license",
-      "model_count": 6,
+      "model_count": 5,
       "commercial_use": {
-        "allowed-with-conditions": 6
+        "allowed-with-conditions": 5
       }
     },
     {
@@ -355,17 +376,16 @@
     },
     {
       "name": "nvidia-open-model-license",
-      "model_count": 7,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 7
+        "allowed-with-conditions": 6
       }
     },
     {
       "name": "openmdw-1.1",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 4,
-        "unknown": 1
+        "allowed-with-conditions": 6
       }
     },
     {
@@ -391,10 +411,10 @@
     },
     {
       "name": "other",
-      "model_count": 7,
+      "model_count": 5,
       "commercial_use": {
-        "allowed-with-conditions": 3,
-        "unknown": 4
+        "allowed-with-conditions": 2,
+        "unknown": 3
       }
     },
     {

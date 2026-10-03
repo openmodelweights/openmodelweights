@@ -163,7 +163,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T11:09:10+00:00",
+    "checked_at_iso": "2026-10-03T13:09:45+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -206,14 +206,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "ai-sage/Giga-Embeddings-instruct",
-    "rank": 615,
+    "rank": 616,
     "downloads": 650135,
     "likes": 120,
     "last_modified": "2025-10-24T11:04:48+00:00",
     "created_at": "2024-12-11T12:25:30+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "feature-extraction",
-    "discovered_at": "2026-10-03T11:09:08+00:00",
+    "discovered_at": "2026-10-03T13:09:44+00:00",
     "pinned": false
   },
   "runtime_support": {

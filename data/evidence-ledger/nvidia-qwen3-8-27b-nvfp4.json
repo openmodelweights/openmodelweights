@@ -115,7 +115,7 @@
   "source_repository": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
   "current_repository_sha": "482ca0f3832238542f8f5295dde86b5f22711d80",
   "last_registry_check": "2026-10-03",
-  "last_full_field_verification": "2026-10-02",
+  "last_full_field_verification": "2026-10-03",
   "status": "active",
   "snapshot_count": 1,
   "diff_count": 0,
