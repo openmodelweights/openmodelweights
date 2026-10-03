@@ -96,7 +96,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -180,11 +180,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:21:36+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
-    "full_verified_at": "2026-10-02",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -200,17 +200,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -219,14 +214,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "kingabzpro/wav2vec2-large-xls-r-300m-Urdu",
-    "rank": 710,
-    "downloads": 759211,
+    "rank": 706,
+    "downloads": 759028,
     "likes": 15,
     "last_modified": "2026-06-24T16:02:52+00:00",
     "created_at": "2022-03-02T23:29:05+00:00",
     "library_name": "transformers",
     "pipeline_tag": "automatic-speech-recognition",
-    "discovered_at": "2026-10-02T16:21:34+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -242,7 +237,7 @@
   "hub": {
     "last_modified": "2026-06-24T16:02:52.000Z",
     "created_at": "2022-03-02T23:29:05.000Z",
-    "downloads": 759211,
+    "downloads": 759028,
     "likes": 15,
     "sha": "18a6595fc0cc4d9c63fc8d0407b5596f09c49edb",
     "library_name": "transformers",

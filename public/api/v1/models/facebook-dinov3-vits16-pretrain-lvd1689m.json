@@ -92,7 +92,7 @@
     ],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://ai.meta.com/resources/models-and-libraries/dinov3-license"
     }
   },
@@ -175,11 +175,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
     "fields": {
@@ -195,12 +195,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -209,14 +209,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "facebook/dinov3-vits16-pretrain-lvd1689m",
-    "rank": 689,
-    "downloads": 412002,
+    "rank": 738,
+    "downloads": 347187,
     "likes": 289,
     "last_modified": "2025-08-19T09:01:01+00:00",
     "created_at": "2025-08-05T09:33:03+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-feature-extraction",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -232,7 +232,7 @@
   "hub": {
     "last_modified": "2025-08-19T09:01:01.000Z",
     "created_at": "2025-08-05T09:33:03.000Z",
-    "downloads": 412002,
+    "downloads": 347187,
     "likes": 289,
     "sha": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
     "library_name": "transformers",

@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0.0",
   "date": "2026-10-03",
-  "generated_at": "2026-10-03T09:17:58+00:00",
+  "generated_at": "2026-10-03T09:40:09+00:00",
   "registry_schema": "0.8.0",
   "model_count": 700,
   "note": "One canonical evidence manifest per UTC day. Re-running on the same day replaces that day's manifest with the latest successful registry state.",
@@ -1263,6 +1263,14 @@
       "full_verified_at": "2026-10-02"
     },
     {
+      "model_id": "comfy-org-qwen-image-2-1",
+      "repository_sha": "cb504a4090723e43f17ad01cec0359490e2de613",
+      "evidence_hash": "47a79a25a05d5dde3f03faef4e34bfac45ee7a769cf4f658552b73aca232a664",
+      "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-02"
+    },
+    {
       "model_id": "pyannote-speaker-diarization-community-1",
       "repository_sha": "3533c8cf8e369892e6b79ff1bf80f7b0286a54ee",
       "evidence_hash": "6bc39aa601615734a1e8f641a072860810ba0437bebf85085ac1dd5db7c7226f",
@@ -1282,14 +1290,6 @@
       "model_id": "qwen-qwen3-4b",
       "repository_sha": "1cfa9a7208912126459214e8b04321603b3df60c",
       "evidence_hash": "b117b918a261b6b8715f95b70255a82763392e5d3605c26bc090f4acc6cc4ee0",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "comfy-org-qwen-image-2-1",
-      "repository_sha": "cb504a4090723e43f17ad01cec0359490e2de613",
-      "evidence_hash": "47a79a25a05d5dde3f03faef4e34bfac45ee7a769cf4f658552b73aca232a664",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -1498,7 +1498,7 @@
       "model_id": "lightricks-ltx-2-5",
       "repository_sha": "2356ce76915d6c48d313d7e8b25900e1dd3abaa8",
       "evidence_hash": "b43304af64cd0a1d7bc0e7362c954ef894de5460a25d2f07f8a2877944a6350a",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-03"
     },
@@ -1655,17 +1655,17 @@
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "samlowe-roberta-base-go-emotions",
-      "repository_sha": "d75048347613a25d77de8cf6412eaae9fa7b26be",
-      "evidence_hash": "1e3d85f9aeecf14e0e3286a1a531ce78f43d2d8c37b2676119be17b4b5997a7a",
+      "model_id": "baidu-unlimited-ocr",
+      "repository_sha": "07dea832e22aefee32ad281d4b80551282e1c168",
+      "evidence_hash": "6acea0d91a9efc7d3110e0c6fda77bb4311ef5ea905ec3912eedf49092075ea3",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "baidu-unlimited-ocr",
-      "repository_sha": "07dea832e22aefee32ad281d4b80551282e1c168",
-      "evidence_hash": "6acea0d91a9efc7d3110e0c6fda77bb4311ef5ea905ec3912eedf49092075ea3",
+      "model_id": "samlowe-roberta-base-go-emotions",
+      "repository_sha": "d75048347613a25d77de8cf6412eaae9fa7b26be",
+      "evidence_hash": "1e3d85f9aeecf14e0e3286a1a531ce78f43d2d8c37b2676119be17b4b5997a7a",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -2130,7 +2130,7 @@
       "model_id": "lightricks-ltx-2-3",
       "repository_sha": "3c6a4e66e5d0a684231950b9c74dd4ded7b6fadc",
       "evidence_hash": "e975b5b22a4a83d1e9dfdc1e11eede4e7ca414bc69ded9055e33ad33c72452f2",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-03"
     },
@@ -2162,6 +2162,14 @@
       "model_id": "nvidia-gemma-4-31b-it-nvfp4",
       "repository_sha": "4135a98a9b728a548947683219633b25682223ac",
       "evidence_hash": "93fd145e0c7f040d1ff322b3c78a3ca837ccb1af86fa290c3ea718ac14d71092",
+      "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "openbmb-minicpm5-2b",
+      "repository_sha": "f97400052a43d642bbc6e9975e2397e3ae6a6b52",
+      "evidence_hash": "97258734bede450ac205114fc77f1f52fde6ca6595a984bf0161e5191167a83d",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -2215,6 +2223,14 @@
       "full_verified_at": "2026-10-02"
     },
     {
+      "model_id": "deepseek-ai-deepseek-v4-1-flash",
+      "repository_sha": "2cba9e42aa026125f3ed06c6d98c1db82f7ca027",
+      "evidence_hash": "6a05b2914d49f50f7f8cae6d93fe7ae0abe84fa50e5917cedec9db1a2f81540e",
+      "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-02"
+    },
+    {
       "model_id": "salesforce-blip-image-captioning-base",
       "repository_sha": "82a37760796d32b1411fe092ab5d4e227313294b",
       "evidence_hash": "06b819a40a013dcca54def4aaf2c10c6bd3319715d8b6b0ea4eb48e4b4b13120",
@@ -2226,22 +2242,6 @@
       "model_id": "qwen-qwen3-30b-a3b",
       "repository_sha": "ad44e777bcd18fa416d9da3bd8f70d33ebb85d39",
       "evidence_hash": "0c9d3dfb18c9ad00225f28fd301f741b5d6910b52287517a8731cf4b7b4d64d5",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "openbmb-minicpm5-2b",
-      "repository_sha": "f97400052a43d642bbc6e9975e2397e3ae6a6b52",
-      "evidence_hash": "97258734bede450ac205114fc77f1f52fde6ca6595a984bf0161e5191167a83d",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "deepseek-ai-deepseek-v4-1-flash",
-      "repository_sha": "2cba9e42aa026125f3ed06c6d98c1db82f7ca027",
-      "evidence_hash": "6a05b2914d49f50f7f8cae6d93fe7ae0abe84fa50e5917cedec9db1a2f81540e",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -2495,14 +2495,6 @@
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "deepseek-ai-deepseek-v4-flash-vision-exp",
-      "repository_sha": "6821d6ad3681a4b137b066b76094fa82ebd0a380",
-      "evidence_hash": "3d2e664be9494a57a17404433760effd377714419e5d8f78a57c1b385eed7d76",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
       "model_id": "google-siglip2-base-patch16-256",
       "repository_sha": "3f9f96cb90da5dbc758b01813f2f6f1aee24c1ab",
       "evidence_hash": "95e679e5ee27346ff1c2000eda4c4bed6661c3c1f2f61c0687cf68c390db2c25",
@@ -2578,6 +2570,14 @@
       "model_id": "deepseek-ai-deepseek-r1-distill-qwen-1-5b",
       "repository_sha": "ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562",
       "evidence_hash": "6a9614da9b9feffac2545d61df49233ab34b61ae8d57ea612e90db5b507b96c3",
+      "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "deepseek-ai-deepseek-v4-flash-vision-exp",
+      "repository_sha": "6821d6ad3681a4b137b066b76094fa82ebd0a380",
+      "evidence_hash": "3d2e664be9494a57a17404433760effd377714419e5d8f78a57c1b385eed7d76",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -3383,6 +3383,14 @@
       "full_verified_at": "2026-10-02"
     },
     {
+      "model_id": "facebook-dinov3-vitl16-pretrain-lvd1689m",
+      "repository_sha": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+      "evidence_hash": "5a1d6d04c0276999b17f1b87d9bf3574cb5f04255df9327cba67cfd1750a39cc",
+      "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-02"
+    },
+    {
       "model_id": "stanfordaimi-stanford-deidentifier-base",
       "repository_sha": "661b9c1c717d3165512d440abc3700c386aefab6",
       "evidence_hash": "59fbd89f258e0fd9f1a1c739cd9602260a2335b634c526007601d967b916c40c",
@@ -3391,9 +3399,9 @@
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "facebook-dinov3-vitl16-pretrain-lvd1689m",
-      "repository_sha": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
-      "evidence_hash": "5a1d6d04c0276999b17f1b87d9bf3574cb5f04255df9327cba67cfd1750a39cc",
+      "model_id": "matlowai-minimax-h3-fused-turbo-int8-convrot",
+      "repository_sha": "8a8dffaa0cd99c6184833ae0a3b4e9b0089c17b3",
+      "evidence_hash": "d312be83e813a08ebefcd292116be67a6aea401012dd672a64acc4c2fd7ef0e7",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -3410,14 +3418,6 @@
       "model_id": "pyannote-segmentation",
       "repository_sha": "660b9e20307a2b0cdb400d0f80aadc04a701fc54",
       "evidence_hash": "54e64aa66f08b909f87d2f731fc79b88223ea73531c8b749cccf46350b290c27",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "matlowai-minimax-h3-fused-turbo-int8-convrot",
-      "repository_sha": "8a8dffaa0cd99c6184833ae0a3b4e9b0089c17b3",
-      "evidence_hash": "d312be83e813a08ebefcd292116be67a6aea401012dd672a64acc4c2fd7ef0e7",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -3519,6 +3519,14 @@
       "full_verified_at": "2026-10-02"
     },
     {
+      "model_id": "warmbloodaban-minimax-h3-singularity",
+      "repository_sha": "af671d9214a6e41ab8c2f43e9f871ea56246115f",
+      "evidence_hash": "e7fe73ee67a3eeb439d34df02f046c3dc72427e795acdec2dbdce574a81c1cd1",
+      "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-02"
+    },
+    {
       "model_id": "thenlper-gte-small",
       "repository_sha": "17e1f347d17fe144873b1201da91788898c639cd",
       "evidence_hash": "947d68e94bbb0a3da7cb896251a1f53c821832fac79500db22c274cbfbff2cfb",
@@ -3602,14 +3610,6 @@
       "model_id": "timm-resnet50-a1-in1k",
       "repository_sha": "767268603ca0cb0bfe326fa87277f19c419566ef",
       "evidence_hash": "6f09ed8b092a95b7042046ad69369c2550a4267f1515fd0a26fa61060a36d927",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "warmbloodaban-minimax-h3-singularity",
-      "repository_sha": "af671d9214a6e41ab8c2f43e9f871ea56246115f",
-      "evidence_hash": "e7fe73ee67a3eeb439d34df02f046c3dc72427e795acdec2dbdce574a81c1cd1",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -3898,7 +3898,7 @@
       "model_id": "facebook-dinov2-large",
       "repository_sha": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
       "evidence_hash": "ec774b630264e9bb35820ba94effe5aa381b1cc994c207f3c5c9ac7f4f0227cc",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-03"
     },
@@ -3954,406 +3954,6 @@
       "model_id": "microsoft-deberta-v3-large",
       "repository_sha": "64a8c8eab3e352a784c658aef62be1662607476f",
       "evidence_hash": "a9bdaccc6fb1da3885d07c33bcc5e1eb887dcf20711415f26b2587a049f66782",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "lxyuan-distilbert-base-multilingual-cased-sentiments-student",
-      "repository_sha": "cf991100d706c13c0a080c097134c05b7f436c45",
-      "evidence_hash": "484c36c313e06acc8c3352d9d25416a4d2c189321759a560bcbb754a47080b70",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "qwen-qwen3-5-397b-a17b",
-      "repository_sha": "8472618112abcbd45acbcdc58436aff4233c23f7",
-      "evidence_hash": "083d707988db6c0928e7568b7f6579bc1d25c162d22dac853a00a95949dbfe3f",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "qwen-qwen3-5-122b-a10b",
-      "repository_sha": "dc4d348443bc740c68e2d77492492c11606384d5",
-      "evidence_hash": "5d6d2b342a1f3278626e7d582efc951870de13e2b8c3a3291d81270612258c26",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "eleutherai-pythia-70m-deduped",
-      "repository_sha": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
-      "evidence_hash": "043eb8226511ba23141ed25db2f256653da634e5f99d8e978528317529c176cf",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-dragon-multiturn-query-encoder",
-      "repository_sha": "b4dfda0f262c3441c610e33258b798749e54ed7e",
-      "evidence_hash": "6fd2a004daeda2986d0551586c72b932dd3c96755fbfc5032a3bd74a5b028906",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-03"
-    },
-    {
-      "model_id": "qwen-qwen-image-edit-2509",
-      "repository_sha": "d3968ef930e841f4c73640fb8afa3b306a78167e",
-      "evidence_hash": "03733ce02c61a866bf08547f77f27db672f54a49683681f483812dbb3d8ba325",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-03"
-    },
-    {
-      "model_id": "moonshotai-kimi-k2-5",
-      "repository_sha": "4d01dfe0332d63057c186e0b262165819efb6611",
-      "evidence_hash": "4d755a37a9384794ffd4267ff35b5a694db771f773182b2dcd8c318e1bea57ae",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-03"
-    },
-    {
-      "model_id": "moonshotai-kimi-k2-instruct",
-      "repository_sha": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
-      "evidence_hash": "f41dcbb443d807e2511ba7e437d930855246348dd72d4ad07479ef78e03b5751",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "deepset-roberta-base-squad2",
-      "repository_sha": "adc3b06f79f797d1c575d5479d6f5efe54a9e3b4",
-      "evidence_hash": "24a8053d0a08a835ecc7ddbca260f24fa1caa83dff356e8138be0e31467001c8",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "microsoft-florence-2-large",
-      "repository_sha": "21a599d414c4d928c9032694c424fb94458e3594",
-      "evidence_hash": "50c2dc69937fd8205ba06bdc4ebf1e9cda5698af61642378b57c904ccf9409ea",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "zhihan1996-dnabert-2-117m",
-      "repository_sha": "7bce263b15377fc15361f52cfab88f8b586abda0",
-      "evidence_hash": "2599b84355ed5096a834dd370cb3fa98225d5a4ae4ddcdac73cb428afad71dd7",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-03"
-    },
-    {
-      "model_id": "nvidia-bigvgan-v2-22khz-80band-256x",
-      "repository_sha": "633ff708ed5b74903e86ff1298cf4a98e921c513",
-      "evidence_hash": "8f48cceb8aafddadfc4e5b6c50117f83eb8ae4cb1ef50dbd6be56710c5c69279",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "qwen-qwen3-4b-thinking-2507",
-      "repository_sha": "768f209d9ea81521153ed38c47d515654e938aea",
-      "evidence_hash": "5a943dfce98b6cc478145bb78b4b6dd14f403379c4549239491cbef3968ba9c5",
-      "verification_mode": "full-field-verification",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-03"
-    },
-    {
-      "model_id": "protectai-deberta-v3-base-prompt-injection-v2",
-      "repository_sha": "90c9989b1a342275dd0d1a95aad283c04e075671",
-      "evidence_hash": "6f6053c9f81fa1078ad399409586d96b44dd22908702cf0e881f042622235642",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "distil-whisper-distil-large-v3",
-      "repository_sha": "8031d2e6ce6631b7fc45629dddfc00271116d981",
-      "evidence_hash": "64506c68ddcd6f0b11fbf9491968a1c694c0bd1206a89691956b15cf1674c8eb",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "rundiffusion-juggernaut-xl-v9",
-      "repository_sha": "cf419233522daa0b9ea36c3aff98fa2cab1fb0fb",
-      "evidence_hash": "2a92fedcb28265256c2077a88e241bf3fd64e34e7aaf2eb53bb0ddc5ab2e9fec",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "bytedance-seed-ui-tars-1-5-7b",
-      "repository_sha": "683d002dd99d8f95104d31e70391a39348857f4e",
-      "evidence_hash": "11bd86716e516c2c55e733453249d3058e146171a682e7cc783879d4b05716b4",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "openai-privacy-filter",
-      "repository_sha": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
-      "evidence_hash": "015c66d19f126b6cf4dba3d95be6dc262ea73e4802fce2a60d37c43b8ce6a054",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "inferact-qwen3-8-27b-nvfp4",
-      "repository_sha": "6128240ebaf4eaa7bad2b3d1c72c37d677c5f462",
-      "evidence_hash": "a721353e16922a875821c120afbeea0be01c07d082cde340360994a3adc9723f",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "helsinki-nlp-opus-mt-nl-en",
-      "repository_sha": "48af999f2c59b10c05ca6e008dcedc07677a9b15",
-      "evidence_hash": "8c56b233c13710839c6c8e16299a64847292c1ddda9434600ca1251d5af0eff2",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "onnx-community-kokoro-82m-v1-0-onnx",
-      "repository_sha": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
-      "evidence_hash": "2c05d6779a67f62db5e27a730644df70515b48952fd28dd10ee7a2b2b8e5c532",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "amazon-chronos-bolt-base",
-      "repository_sha": "5d9f166d69f47aef3401367a7b842e78fe97b121",
-      "evidence_hash": "5116bcd077961b3a7d8ec10af2e3984a6896e3c13bc0979ddd8608048b74dfe7",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "sshleifer-tiny-gpt2",
-      "repository_sha": "5f91d94bd9cd7190a9f3216ff93cd1dd95f2c7be",
-      "evidence_hash": "75aeb6bdb610940f946e5490efba569c00596ec837f9d55b052460c558a6838b",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "google-gemma-3-12b-it",
-      "repository_sha": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
-      "evidence_hash": "841b5f62b25c6df6aa4a35dcf7dcbb30d6ccef0dca2e78e9b86cef54cbe4f155",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "laion-clip-vit-h-14-laion2b-s32b-b79k",
-      "repository_sha": "1c2b8495b28150b8a4922ee1c8edee224c284c0c",
-      "evidence_hash": "4143dcd895647a805e41a8cb2ec443a88912360c437105bec714c1d616241f7e",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "jonatasgrosman-wav2vec2-large-xlsr-53-dutch",
-      "repository_sha": "46f221381d200f7bef268309b3f02023ccf11fcc",
-      "evidence_hash": "99ba8aaeed37d18319695335d1327d7959b4ab49bca7d01b25223a4c00045c9f",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-glm-5-2-nvfp4",
-      "repository_sha": "53e0691e21895a3863a606dfd12910c69eba94ab",
-      "evidence_hash": "3dce98dbc9f17537a570c8eb1eb9effcd2f45ae2f81ec530e726bfa20f4c134f",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-qwen3-6-27b-nvfp4",
-      "repository_sha": "0893e1606ff3d5f97a441f405d5fc541a6bdf404",
-      "evidence_hash": "3e6b756cea6d67dc77c885318413285a1c2542fe485535c7eb066b22f7e1e34c",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "jinaai-jina-embeddings-v5-omni-small",
-      "repository_sha": "5c54692f22e186fc12ea38a9193e3ff9e1cda2a3",
-      "evidence_hash": "9bffaf2f7a425f15ec4377e0164464171023b980d92a6a4ffa6caaa597addd12",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "qwen-qwen3-235b-a22b",
-      "repository_sha": "8efa61729e24bd65b1d152b5ab5409052aa80e65",
-      "evidence_hash": "ac5ea599e9e16108c627873d547a8bba54aada69eb0b2341eaf70dd399bbf751",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "zeroentropy-zerank-2-reranker",
-      "repository_sha": "5eae30d5ee3c6b2df2ef6d723bde45172d761c4c",
-      "evidence_hash": "3ab63e1d9530ed0d1c250f605cf85af3d4521ebf25b65d3205759ded9e305a1f",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "cidas-clipseg-rd64-refined",
-      "repository_sha": "999e0328d9e10b484360c477313983f9afdd7050",
-      "evidence_hash": "719668265c553aa8c37b53744fcb6f006c6c260c976c834f77e77d859909fbb8",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "jinaai-jina-embeddings-v2-small-en",
-      "repository_sha": "44e7d1d6caec8c883c2d4b207588504d519788d0",
-      "evidence_hash": "30c892ac89f19865e60d85e613b4e5f1d0bfcac516f454c6f1a1879336ad1406",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "sentence-transformers-labse",
-      "repository_sha": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
-      "evidence_hash": "2b1f26d405b2df176da7b1db400afe7c0db664507ee10656d0bc5880863ac563",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "qwen-qwen3-0-6b-base",
-      "repository_sha": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
-      "evidence_hash": "3a1ce0789fde4177568172ffc9c9f5ef37a906d3ce3ce6d0d31f26139d9d6dc5",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "qdrant-all-minilm-l6-v2-onnx",
-      "repository_sha": "d13954661f83248295ba75c1ed411eef3b7b936e",
-      "evidence_hash": "28fc7e9892d2c8288c24a00ae0f399c1d036bafaf6cba7c983836d7fc45790d4",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "idea-research-grounding-dino-tiny",
-      "repository_sha": "a2bb814dd30d776dcf7e30523b00659f4f141c71",
-      "evidence_hash": "05923f2d2df1a7adf1dc1280b38a309f882130e98785c7317a3a10abb861dfe6",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "swiss-ai-apertus-8b-instruct-2509",
-      "repository_sha": "b946d40447b2b597999b9c86d44bee0b452c919f",
-      "evidence_hash": "505547e011f15c57c9ebc014ebcf3ea44b314e9f319807e3717f7f265c1f8378",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "pnnbao-ump-vieneu-tts-v3-turbo",
-      "repository_sha": "61b85e3d937fbbacb387714180e8182823512523",
-      "evidence_hash": "dd7ccc7a5a2175a13e08eb2002ace61d8f4c32a6b77c2278e603a2b516f87bd2",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "intfloat-e5-base-v2",
-      "repository_sha": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
-      "evidence_hash": "c48ead276224a40a150bc0727d08eacba254caeb338ca3c420c4014998dc7ab4",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4",
-      "repository_sha": "16993199e436da4ba75ddc410855f87e0d996ee6",
-      "evidence_hash": "1a74fa18eebba49f2b8f29004918ce70fde33c4a9e07271c9e5ab9c329b8a640",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "allenai-specter2-base",
-      "repository_sha": "3447645e1def9117997203454fa4495937bfbd83",
-      "evidence_hash": "67c0027dfc0e0646f3b7ba6e2076c915aa566cefc9b145140ab35cd5e3ad05b8",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "black-forest-labs-flux-2-klein-4b",
-      "repository_sha": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-      "evidence_hash": "691dd97af7e57abd4e4160837abfdb34b23f26077c7080be35e104318b72d3b6",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "indonesian-nlp-wav2vec2-indonesian-javanese-sundanese",
-      "repository_sha": "e5e699fa5aa5bdce999276a90a29589587b58ac9",
-      "evidence_hash": "9051374628cc8d26437300c6dcfa5d7ae9a96d4cfd921443b9f36d3c3936f70e",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "neuralmind-bert-large-portuguese-cased",
-      "repository_sha": "aa302f6ea73b759f7df9cad58bd272127b67ec28",
-      "evidence_hash": "ee0cf16132281d702051f6c56e96e983a7ba4fb4fba507ebdcc432429a625da0",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "adamcodd-vit-base-nsfw-detector",
-      "repository_sha": "8587de998f441aac03fdd57a85d2e4cb808c7d64",
-      "evidence_hash": "7ffad0e937905c1d0162fba37f2f3b41ae87aa3b886cc58569ce82faf1ad558d",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "microsoft-phi-3-5-mini-instruct",
-      "repository_sha": "2fe192450127e6a83f7441aef6e3ca586c338b77",
-      "evidence_hash": "33272a18753a85774a1e38210c353fb7dcb760d65f40eb9c50bb838233456fcc",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "compvis-stable-diffusion-safety-checker",
-      "repository_sha": "cb41f3a270d63d454d385fc2e4f571c487c253c5",
-      "evidence_hash": "c3ba7c26c2b8e5ac6c988c575ec334942277f8bc0d8b02f45ad55a38453a5610",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "gittensor-model-hub-qwen3-8-27b-nvfp4-rtx5090",
-      "repository_sha": "5b7a687fc8211a5d631c8ca6a593dd37eb26ce33",
-      "evidence_hash": "2fd51c594916610bc64304d90101f1b11eca487b5e7b4b5363eabef019bd0d7f",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "redhatai-gemma-4-26b-a4b-it-fp8-dynamic",
-      "repository_sha": "ed35d7abe5d940da41b4ff06eb482feb0be8cb44",
-      "evidence_hash": "307aa7cd18ca6a720219746e10546e4f6c189779e6aebe3c9b706c364263365b",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -4466,6 +4066,14 @@
       "model_id": "microsoft-table-transformer-detection",
       "repository_sha": "2357cbe2b5a5d1c03e54f32764f06058933b65ab",
       "evidence_hash": "b00e7d3dc846b9786a79d19dbd0c9911736ce85cbf7244ec60760b3dece4b7f3",
+      "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "nvidia-qwen3-8-27b-nvfp4",
+      "repository_sha": "482ca0f3832238542f8f5295dde86b5f22711d80",
+      "evidence_hash": "29f1a37cc5a63f2c74f3cac15b079e00b7884f0659f6c4f2848536049f988dd8",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -4695,6 +4303,14 @@
       "full_verified_at": "2026-10-02"
     },
     {
+      "model_id": "openbmb-minicpm5-2b-dspark",
+      "repository_sha": "114a20fdbf53220712c7fbdd7dccddbf1dedebb4",
+      "evidence_hash": "4bbc18a2d73c25d49837c766759187b4e23d0e9e414b01ef0d7ce8366710551e",
+      "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-02"
+    },
+    {
       "model_id": "openbmb-minicpm-o-2-6",
       "repository_sha": "06849bfd36da94da1f5a88fa17e8ba63f08a4c4d",
       "evidence_hash": "3414e07dd364a714d1624ace8b0505e0ddb6177d99a4d4d7029e3c9f13fa34b9",
@@ -4738,14 +4354,6 @@
       "model_id": "timm-vit-small-patch14-dinov2-lvd142m",
       "repository_sha": "4610ca143709d58a633b6397a74412c2c3842454",
       "evidence_hash": "98220603945847dd223ec3458a0e71b644f42bb60ef37ebfca5644e763c00c90",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-qwen3-8-27b-nvfp4",
-      "repository_sha": "482ca0f3832238542f8f5295dde86b5f22711d80",
-      "evidence_hash": "29f1a37cc5a63f2c74f3cac15b079e00b7884f0659f6c4f2848536049f988dd8",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -4802,14 +4410,6 @@
       "model_id": "nvidia-llama-nemotron-rerank-1b-v2",
       "repository_sha": "828765652b05bd439c9789d2a6d093db1caa1443",
       "evidence_hash": "1c5b2f84119e08c965aed84ec8056228b40e04bffaaa1944cf79fb6e55eb6cf6",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "openbmb-minicpm5-2b-dspark",
-      "repository_sha": "114a20fdbf53220712c7fbdd7dccddbf1dedebb4",
-      "evidence_hash": "4bbc18a2d73c25d49837c766759187b4e23d0e9e414b01ef0d7ce8366710551e",
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
@@ -5506,7 +5106,7 @@
       "model_id": "ibm-granite-granite-docling-258m",
       "repository_sha": "982fe3b40f2fa73c365bdb1bcacf6c81b7184bfe",
       "evidence_hash": "2d1cac85cc181aba2ce2d01dde45d7036a9612321a1106901cb01f0eeec52f94",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-03"
     },
@@ -5554,7 +5154,7 @@
       "model_id": "allenai-olmo-3-7b-think",
       "repository_sha": "d97e442d7cc678210054dbcc9b440894d62c89a4",
       "evidence_hash": "7f865413d8e6a0d78830ca034868614780d51f3ca42057e7d6412b37418077fc",
-      "verification_mode": "full-field-verification",
+      "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-03"
     },
@@ -5605,6 +5205,406 @@
       "verification_mode": "repository-revision-unchanged",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-02"
+    },
+    {
+      "model_id": "sentence-transformers-all-roberta-large-v1",
+      "repository_sha": "cf74d8acd4f198de950bf004b262e6accfed5d2c",
+      "evidence_hash": "e2d7e655f60a5ac366c769c7e4fb1888a815ee44cb1e9a4a9f607493c6db5a63",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "nvidia-qwen3-8-flash-next-nvfp4",
+      "repository_sha": "fc694b54fb0174e0913e6adf86691ef85a4ead47",
+      "evidence_hash": "800d944553438bee7ab8058baa29d2e26aa0f0ec110154c2740094962cd2adef",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "nvidia-personaplex-7b-v1",
+      "repository_sha": "fdaf4090a61cb315c138a1faee287ffd6c716309",
+      "evidence_hash": "681e4160b2b461ea7e5df5487edbc3ade535edb8824f99e04ee752bdd37fdd12",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "ornith-ai-ornith-1-5-9b-nvfp4",
+      "repository_sha": "155f200d85ad58464571c77d5e1122ea5d419d7b",
+      "evidence_hash": "e1a6a0b0db97600cc90a7301a44315a900a58e265528c839118c9c37c2b9d6b1",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "kingabzpro-wav2vec2-large-xls-r-300m-urdu",
+      "repository_sha": "18a6595fc0cc4d9c63fc8d0407b5596f09c49edb",
+      "evidence_hash": "b3b61d1efba44250009cb2a364917b57dafc7d588e9d54f7345738b09259964e",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "deepseek-ai-deepseek-r1-distill-qwen-7b",
+      "repository_sha": "916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+      "evidence_hash": "86319075750ccdc191fbbcea6807dbacb74e53b69474502f5da4af1352874708",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "ibm-granite-granite-timeseries-tspulse-r1",
+      "repository_sha": "2e64fcdc2a06d3565dfadaf0065c0ab5055f80f2",
+      "evidence_hash": "7bca22737cfbd10e2b40af7081829635b3f69104f0b08d713f1de3939d1a976f",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "stabilityai-stable-video-diffusion-img2vid-xt",
+      "repository_sha": "9e43909513c6714f1bc78bcb44d96e733cd242aa",
+      "evidence_hash": "4799cc3a70c132ee1ca704220e67986100fb8e9d9ed7884e3c66310a40abdc78",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "llava-hf-llava-onevision-qwen2-0-5b-ov-hf",
+      "repository_sha": "74dd0bf867a4cda7950c17663794267c60cf4b40",
+      "evidence_hash": "1d893524cf9157354c11f9a0c1da9d53013abdbc3e97e0fa782980269c8cb6d7",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "lightonai-lightonocr-2-1b",
+      "repository_sha": "c97bd377f04481830395218fa8951df9deaba756",
+      "evidence_hash": "7b8d97a571482648f9e1f310791f0839af89bcbb41c31f67000822f67439abeb",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "nvidia-nemotron-3-embed-1b-bf16",
+      "repository_sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
+      "evidence_hash": "db2cf3b0c688993d95a98b240eec97fc67c1db509db6c0f24572e148d5de2837",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "tencentbac-conan-embedding-v1",
+      "repository_sha": "bb9749a57d4f02fd71722386f8d0f5a9398d7eeb",
+      "evidence_hash": "3d74509a852c0c79d839b9c38c98a6541bf141b30dd25326b652b914cf801fc4",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "facebook-wav2vec2-xls-r-300m",
+      "repository_sha": "1a640f32ac3e39899438a2931f9924c02f080a54",
+      "evidence_hash": "e9431546cc00f070a04155d02be89c06c0dce1f53caaccb69e99e48c5cff2e68",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "mattmdjaga-segformer-b2-clothes",
+      "repository_sha": "584abc1e1d260e23c0fc627c5217a09b2b461046",
+      "evidence_hash": "efc9c7b51dbfc79878236416f6830b83df2a7d02d1663a56eceb763e86b2e8b9",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "jonatasgrosman-wav2vec2-large-xlsr-53-persian",
+      "repository_sha": "234714078a1398a9db88194c5a40fefe6f376dc1",
+      "evidence_hash": "368bac0bab63896421891678adf164d71cfd20db3888e5c7383759e1f6a64bb0",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "microsoft-phi-4-multimodal-instruct",
+      "repository_sha": "93f923e1a7727d1c4f446756212d9d3e8fcc5d81",
+      "evidence_hash": "01b71de80187e1cccd79787efeeaded256f33a968b9c52da69dd2f1922bfc867",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "nomic-ai-nomic-embed-vision-v1-5",
+      "repository_sha": "e3a725bce72db07ca4adb1d83da08903f3ee02f8",
+      "evidence_hash": "8c9a9da0cd738d392a642bf52bfe798156129ebfbffc6e3fc375461d1b1fd327",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "nlpai-lab-kure-v1",
+      "repository_sha": "8b418a58414668e75532ed045c22d9ca018ae2b2",
+      "evidence_hash": "11531d552a05fc113121698d257c26bd60c733eeda1c903a90ae17ffe929dc5f",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "remsky-kokoro-inno-clone-tuner",
+      "repository_sha": "9b5e3c063fb34a63633d7921067af3c4ee966847",
+      "evidence_hash": "d8ea9f530d848678c9d7add7245d02f068fb1566eb3921e6d08fe77256a1653a",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "jhu-clsp-mmbert-base",
+      "repository_sha": "c5955035435e2bf121cde7f3c8863ef52ff35d82",
+      "evidence_hash": "7c973f9fd666ddf4cb3f2175bd9bc820c82caa1f332275d1c9b376d0cdf0be46",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "incoai-qwen3-8-27b-dflash2",
+      "repository_sha": "015e795645c74b1a0eeef3b570031fb62e769bc5",
+      "evidence_hash": "d6f8292bda3232d4cc955e8df00a626e33a78c4e440f593ad44df20088df3e84",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "madebyollin-sdxl-vae-fp16-fix",
+      "repository_sha": "207b116dae70ace3637169f1ddd2434b91b3a8cd",
+      "evidence_hash": "fe3fa96010abd7177d6a290e2bca2975cc046f576ae688f6fffc7393e67bf45a",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "fastino-gliner2-5-multi-v1",
+      "repository_sha": "2ca71aafb3446d9014e1c55c7ff51c9bc7209c47",
+      "evidence_hash": "9446bd626d296e4df8450f6a6a796b59afc0d6672ddff5af23dde4cba98a6369",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "helsinki-nlp-opus-mt-en-ru",
+      "repository_sha": "bb09c99d180016eac6819df3dae68edb1690fdee",
+      "evidence_hash": "bd46e9a9ec4dc0e4336c0042af4dcb0e6e26638e6ce3f7752be27b1ab89fd939",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "unsloth-llama-3-2-1b-instruct",
+      "repository_sha": "5a8abab4a5d6f164389b1079fb721cfab8d7126c",
+      "evidence_hash": "97a337753ba2d875e90d445cd9feb1d45b7b8b6dbeb3c6d091c9919868138dd9",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "obliteratus-ornith-1-5-9b-obliterated",
+      "repository_sha": "82df4702cc5e716cf7573a8942fee28ae8f65088",
+      "evidence_hash": "d8154d344da81df5f9616ed507bd93e5eff7200e059dc4b5a8361f2eb445488e",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "nvidia-parakeet-tdt-0-6b-v2",
+      "repository_sha": "ae9ad07059c7c739ffaf932226a8fe64ae2620b0",
+      "evidence_hash": "025505b76ebe4261af3a49666e3525f7df443e461085ae32bbeea8ea116f0e6a",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "facebook-dino-vitb16",
+      "repository_sha": "f205d5d8e640a89a2b8ef0369670dfc37cc07fc2",
+      "evidence_hash": "89c3e5bc2c8b8fa65dd03c6be672085f400b5710b1e960ec0f5a28644df928a5",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "coherelabs-cohere-transcribe-03-2026",
+      "repository_sha": "b1eacc2686a3d08ceaae5f24a88b1d519620bc09",
+      "evidence_hash": "42ff71c68496f3dc73ba4ef5699c6e23c806f93b28ef33c4c222dcda0843e68d",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "ampixa-sanotts",
+      "repository_sha": "c532a5d21c078a16cb633718e9182bfd71a5b760",
+      "evidence_hash": "07c537a2296b0a28e218412693414bc08e14fb2b513e2c3e51cbda84a16e333b",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "nomic-ai-nomic-embed-code",
+      "repository_sha": "11114029805cee545ef111d5144b623787462a52",
+      "evidence_hash": "9ebf19834b2c5edb3a8a94c8c89d1f6c9837f8d694c1aeb297914a708069e1d0",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "minimaxai-minimax-m3",
+      "repository_sha": "f0e1c1e04d40177e4673a22097036854f536e9c0",
+      "evidence_hash": "683c143d1583c7e78696a475d4576d2e15b39324a3c1ff1dae6f2e40715bb2bc",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "intfloat-e5-base",
+      "repository_sha": "b533fe4636f4a2507c08ddab40644d20b0006d6a",
+      "evidence_hash": "799c07236d3ffb3d02b375fd7048797c229f3f10be46706b579ef782d9a4513a",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "timm-efficientnet-b0-ra-in1k",
+      "repository_sha": "1b5383e5f79cc0f7fc067e372f8f26a5fa73f26a",
+      "evidence_hash": "8540cdabc38f1c0b4eb9380fc2908b0b0829f35e8c8962a0c98b886281799677",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "intfloat-e5-mistral-7b-instruct",
+      "repository_sha": "d62cc4417be0e3289c03dd459d1ef2d137e2554e",
+      "evidence_hash": "3048ba206a6992167d5c621f2bdaf7b51fc1097ce31a7d9d8fde3b27914932bf",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "systran-faster-whisper-small-en",
+      "repository_sha": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+      "evidence_hash": "31bed44ef4c4f826b4214000ce71637bbcd1ca07b18dd6dd5e9ee8ea9c515574",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "facebook-dinov3-vits16-pretrain-lvd1689m",
+      "repository_sha": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+      "evidence_hash": "50316f00972ef4918f4adedeeaf40453fff82d9dc3f28fa360f2993cf4c0aabe",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "kblab-wav2vec2-large-voxrex-swedish",
+      "repository_sha": "ca70e31c06a2617bf7fe3b4fb5d387d2b19b2983",
+      "evidence_hash": "4cf81dea5176e33477e8f19a83a39467e7397ffa0bccfb610a9f069b49a9b7c3",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "sentence-transformers-paraphrase-minilm-l3-v2",
+      "repository_sha": "4ca70771034acceecb2e72475f72050fcdde4ddc",
+      "evidence_hash": "5664b5a491df9927ef4705485573d3c0499eb2a2b15b765895862b7cdef0acfa",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "black-forest-labs-flux-2-klein-9b",
+      "repository_sha": "92196c8e11f7b6cf2b7493e037d8c5345c559216",
+      "evidence_hash": "b8c7bfb619049f562370bb4725d48bcd31e20b8a055d582ee24167aa9ef7c543",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "helsinki-nlp-opus-mt-ru-en",
+      "repository_sha": "fbd6dc73284f95536648512cc21d57f19191961a",
+      "evidence_hash": "7f53861c84ca1ca08e65d3b0c8ad9d635076dd5b2f3e771e8f2fd85a02f2e2ff",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "facebook-audiobox-aesthetics",
+      "repository_sha": "9b1dd8e5df9af7216e836a98974fe3b82c56ded6",
+      "evidence_hash": "221044fc80441756eb34b212f112a098c9b3d28551c50b377ed3bc280e2da09f",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "onnx-community-embeddinggemma-300m-onnx",
+      "repository_sha": "5090578d9565bb06545b4552f76e6bc2c93e4a66",
+      "evidence_hash": "9e979267dcd949362cfe46f8df8c54d944ec10b0bf0d65cf9d0b3db8de773357",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "microsoft-harrier-oss-v1-0-6b",
+      "repository_sha": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+      "evidence_hash": "7bb17be31ae817dde63aa49f7d0b89d0addb7c15bfe8145d4fc37ece4209e2c6",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "kredor-punctuate-all",
+      "repository_sha": "0fe37019de3f5e4fbd83289fd94e07fa588e47df",
+      "evidence_hash": "743a5fee26c238b8cc6bc9067ee34d71313e6e52b936dd442665579c9a7e59f6",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "ath-maas-ovisocr2",
+      "repository_sha": "1fc9221b7823a371d6e97f92d527cc847e24e107",
+      "evidence_hash": "b91c99cca6b8fa05caa94773255462b6ef0e88c3754fd77a2af25ab1e1966be3",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "trl-internal-testing-tiny-qwen3forcausallm",
+      "repository_sha": "25bb9b8963688237e94750f6f3e48f1947d3c7a3",
+      "evidence_hash": "75fc65c4d5a0ae4f89f90fec83861643cd85a060aa87ba22058cef019440ff0f",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "comfy-org-ideogram-4",
+      "repository_sha": "2aa6c75ce6d5fabded0ca4d0f76abbfaf8edc87d",
+      "evidence_hash": "bc868fa1e13e3087e6a371da9af72812833d807242ffa94d94700aa33a788c53",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "gigant-romanian-wav2vec2",
+      "repository_sha": "79cf603aac59501d02bfeb37f615efc3ac4ce1b3",
+      "evidence_hash": "bfc4f428c9e02c56fed9b4ad135009f14f01688ac144195824992ff406c52c68",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "poolside-laguna-s-2-1-nvfp4",
+      "repository_sha": "826aacdf6d8b2699d4e367def6f17c83b06044c2",
+      "evidence_hash": "3393d1612b87885a4b010817149e0ff35ff286f43fcf4389a2dfb0c1ce62aac9",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
     }
   ]
 }

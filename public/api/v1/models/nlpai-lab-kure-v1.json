@@ -98,7 +98,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -184,11 +184,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:21:36+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
-    "full_verified_at": "2026-10-02",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -204,17 +204,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -223,14 +218,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "nlpai-lab/KURE-v1",
-    "rank": 728,
-    "downloads": 399805,
+    "rank": 719,
+    "downloads": 414263,
     "likes": 95,
     "last_modified": "2026-09-07T06:34:55+00:00",
     "created_at": "2024-12-18T15:03:47+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "feature-extraction",
-    "discovered_at": "2026-10-02T16:21:34+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -248,7 +243,7 @@
   "hub": {
     "last_modified": "2026-09-07T06:34:55.000Z",
     "created_at": "2024-12-18T15:03:47.000Z",
-    "downloads": 399805,
+    "downloads": 414263,
     "likes": 95,
     "sha": "8b418a58414668e75532ed045c22d9ca018ae2b2",
     "library_name": "sentence-transformers",

@@ -106,7 +106,7 @@
     ],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://openmdw.ai/license/1-1/"
     }
   },
@@ -191,11 +191,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -211,12 +211,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -225,14 +225,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "nvidia/Nemotron-3-Embed-1B-BF16",
-    "rank": 688,
-    "downloads": 400178,
+    "rank": 712,
+    "downloads": 361901,
     "likes": 159,
     "last_modified": "2026-08-27T23:53:03+00:00",
     "created_at": "2026-07-14T07:32:18+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "sentence-similarity",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -250,7 +250,7 @@
   "hub": {
     "last_modified": "2026-08-27T23:53:03.000Z",
     "created_at": "2026-07-14T07:32:18.000Z",
-    "downloads": 400178,
+    "downloads": 361901,
     "likes": 159,
     "sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
     "library_name": "sentence-transformers",

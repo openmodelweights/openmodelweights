@@ -1,16 +1,1116 @@
 {
-  "generated_at": "2026-10-03T09:17:58+00:00",
+  "generated_at": "2026-10-03T09:40:09+00:00",
   "events": [
     {
-      "id": "b7f97f90ba9e9663",
-      "at": "2026-10-03T09:17:58+00:00",
+      "id": "17044b4a812b420a",
+      "at": "2026-10-03T09:40:09+00:00",
       "type": "verification",
       "model_id": null,
       "model": "Registry verification",
       "developer": "",
       "summary": "700/700 records field-verified",
-      "detail": "1 fetch errors; 604 commercial-use classifications.",
+      "detail": "51 fetch errors; 597 commercial-use classifications.",
       "url": "/verification/"
+    },
+    {
+      "id": "a145371f2b96107a",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "sentence-transformers-all-roberta-large-v1",
+      "model": "all-roberta-large-v1",
+      "developer": "Sentence Transformers",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/sentence-transformers-all-roberta-large-v1/"
+    },
+    {
+      "id": "4b5f0777d7afe2fd",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "nvidia-qwen3-8-flash-next-nvfp4",
+      "model": "Qwen3.8-Flash-Next-NVFP4",
+      "developer": "NVIDIA",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nvidia-qwen3-8-flash-next-nvfp4/"
+    },
+    {
+      "id": "a43c8aded2ad9853",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "nvidia-personaplex-7b-v1",
+      "model": "personaplex-7b-v1",
+      "developer": "NVIDIA",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nvidia-personaplex-7b-v1/"
+    },
+    {
+      "id": "ca4df3041044ba9a",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "ornith-ai-ornith-1-5-9b-nvfp4",
+      "model": "Ornith-1.5-9B-NVFP4",
+      "developer": "ornith-ai",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/ornith-ai-ornith-1-5-9b-nvfp4/"
+    },
+    {
+      "id": "a951d022004c164a",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "kingabzpro-wav2vec2-large-xls-r-300m-urdu",
+      "model": "wav2vec2-large-xls-r-300m-Urdu",
+      "developer": "kingabzpro",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/kingabzpro-wav2vec2-large-xls-r-300m-urdu/"
+    },
+    {
+      "id": "c0d41d70602cc47d",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "deepseek-ai-deepseek-r1-distill-qwen-7b",
+      "model": "DeepSeek-R1-Distill-Qwen-7B",
+      "developer": "DeepSeek",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/deepseek-ai-deepseek-r1-distill-qwen-7b/"
+    },
+    {
+      "id": "ad94c1ba65116d7e",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "ibm-granite-granite-timeseries-tspulse-r1",
+      "model": "granite-timeseries-tspulse-r1",
+      "developer": "IBM",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/ibm-granite-granite-timeseries-tspulse-r1/"
+    },
+    {
+      "id": "843d77d9512ae49a",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "stabilityai-stable-video-diffusion-img2vid-xt",
+      "model": "stable-video-diffusion-img2vid-xt",
+      "developer": "Stability AI",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/stabilityai-stable-video-diffusion-img2vid-xt/"
+    },
+    {
+      "id": "71c1cffc80738a66",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "llava-hf-llava-onevision-qwen2-0-5b-ov-hf",
+      "model": "llava-onevision-qwen2-0.5b-ov-hf",
+      "developer": "llava-hf",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/llava-hf-llava-onevision-qwen2-0-5b-ov-hf/"
+    },
+    {
+      "id": "c0219b5f12b10260",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "lightonai-lightonocr-2-1b",
+      "model": "LightOnOCR-2-1B",
+      "developer": "lightonai",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/lightonai-lightonocr-2-1b/"
+    },
+    {
+      "id": "22852b063ea86474",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "nvidia-nemotron-3-embed-1b-bf16",
+      "model": "Nemotron-3-Embed-1B-BF16",
+      "developer": "NVIDIA",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nvidia-nemotron-3-embed-1b-bf16/"
+    },
+    {
+      "id": "7ef4442d6890be9b",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "tencentbac-conan-embedding-v1",
+      "model": "Conan-embedding-v1",
+      "developer": "TencentBAC",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/tencentbac-conan-embedding-v1/"
+    },
+    {
+      "id": "5b981793887ae74f",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "facebook-wav2vec2-xls-r-300m",
+      "model": "wav2vec2-xls-r-300m",
+      "developer": "Meta",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/facebook-wav2vec2-xls-r-300m/"
+    },
+    {
+      "id": "b01eabdfecc50b45",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "mattmdjaga-segformer-b2-clothes",
+      "model": "segformer_b2_clothes",
+      "developer": "mattmdjaga",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/mattmdjaga-segformer-b2-clothes/"
+    },
+    {
+      "id": "8aaff504758b7832",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "jonatasgrosman-wav2vec2-large-xlsr-53-persian",
+      "model": "wav2vec2-large-xlsr-53-persian",
+      "developer": "jonatasgrosman",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/jonatasgrosman-wav2vec2-large-xlsr-53-persian/"
+    },
+    {
+      "id": "939aab4e0e02c707",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "microsoft-phi-4-multimodal-instruct",
+      "model": "Phi-4-multimodal-instruct",
+      "developer": "Microsoft",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/microsoft-phi-4-multimodal-instruct/"
+    },
+    {
+      "id": "23fc685652e44a88",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "nomic-ai-nomic-embed-vision-v1-5",
+      "model": "nomic-embed-vision-v1.5",
+      "developer": "nomic-ai",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nomic-ai-nomic-embed-vision-v1-5/"
+    },
+    {
+      "id": "0474cc3c24b24231",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "nlpai-lab-kure-v1",
+      "model": "KURE-v1",
+      "developer": "nlpai-lab",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nlpai-lab-kure-v1/"
+    },
+    {
+      "id": "6626f99870c801e9",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "remsky-kokoro-inno-clone-tuner",
+      "model": "kokoro-inno-clone-tuner",
+      "developer": "remsky",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/remsky-kokoro-inno-clone-tuner/"
+    },
+    {
+      "id": "7eb5cdfa5a2619d8",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "jhu-clsp-mmbert-base",
+      "model": "mmBERT-base",
+      "developer": "jhu-clsp",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/jhu-clsp-mmbert-base/"
+    },
+    {
+      "id": "1d7a432239badcae",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "incoai-qwen3-8-27b-dflash2",
+      "model": "Qwen3.8-27B-DFlash2",
+      "developer": "incoai",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/incoai-qwen3-8-27b-dflash2/"
+    },
+    {
+      "id": "cb394a56b74a4d08",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "madebyollin-sdxl-vae-fp16-fix",
+      "model": "sdxl-vae-fp16-fix",
+      "developer": "madebyollin",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/madebyollin-sdxl-vae-fp16-fix/"
+    },
+    {
+      "id": "d333ca38725c8c39",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "fastino-gliner2-5-multi-v1",
+      "model": "gliner2.5-multi-v1",
+      "developer": "fastino",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/fastino-gliner2-5-multi-v1/"
+    },
+    {
+      "id": "4d8124f884afe60b",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "helsinki-nlp-opus-mt-en-ru",
+      "model": "opus-mt-en-ru",
+      "developer": "Helsinki-NLP",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/helsinki-nlp-opus-mt-en-ru/"
+    },
+    {
+      "id": "5ede07ebc26ff191",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "unsloth-llama-3-2-1b-instruct",
+      "model": "Llama-3.2-1B-Instruct",
+      "developer": "unsloth",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/unsloth-llama-3-2-1b-instruct/"
+    },
+    {
+      "id": "d49473177e8027fd",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "obliteratus-ornith-1-5-9b-obliterated",
+      "model": "Ornith-1.5-9B-OBLITERATED",
+      "developer": "OBLITERATUS",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/obliteratus-ornith-1-5-9b-obliterated/"
+    },
+    {
+      "id": "44d347e18900200d",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "nvidia-parakeet-tdt-0-6b-v2",
+      "model": "parakeet-tdt-0.6b-v2",
+      "developer": "NVIDIA",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nvidia-parakeet-tdt-0-6b-v2/"
+    },
+    {
+      "id": "ad90cf671f88a3c7",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "facebook-dino-vitb16",
+      "model": "dino-vitb16",
+      "developer": "Meta",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/facebook-dino-vitb16/"
+    },
+    {
+      "id": "a1f27e7c194f3027",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "coherelabs-cohere-transcribe-03-2026",
+      "model": "cohere-transcribe-03-2026",
+      "developer": "CohereLabs",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/coherelabs-cohere-transcribe-03-2026/"
+    },
+    {
+      "id": "e8ab25f69bd9d35e",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "ampixa-sanotts",
+      "model": "sanoTTS",
+      "developer": "ampixa",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/ampixa-sanotts/"
+    },
+    {
+      "id": "4d03416e903d270a",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "nomic-ai-nomic-embed-code",
+      "model": "nomic-embed-code",
+      "developer": "nomic-ai",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/nomic-ai-nomic-embed-code/"
+    },
+    {
+      "id": "badb4a403a76d35a",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "minimaxai-minimax-m3",
+      "model": "MiniMax-M3",
+      "developer": "MiniMax",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/minimaxai-minimax-m3/"
+    },
+    {
+      "id": "15be2c54ce9dbc86",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "intfloat-e5-base",
+      "model": "e5-base",
+      "developer": "intfloat",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/intfloat-e5-base/"
+    },
+    {
+      "id": "b410c1ee5846cf9d",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "timm-efficientnet-b0-ra-in1k",
+      "model": "efficientnet_b0.ra_in1k",
+      "developer": "timm",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/timm-efficientnet-b0-ra-in1k/"
+    },
+    {
+      "id": "e3d897db0318ae8c",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "intfloat-e5-mistral-7b-instruct",
+      "model": "e5-mistral-7b-instruct",
+      "developer": "intfloat",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/intfloat-e5-mistral-7b-instruct/"
+    },
+    {
+      "id": "92cc528e268a2908",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "systran-faster-whisper-small-en",
+      "model": "faster-whisper-small.en",
+      "developer": "Systran",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/systran-faster-whisper-small-en/"
+    },
+    {
+      "id": "d94a040f01b8c6cb",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "facebook-dinov3-vits16-pretrain-lvd1689m",
+      "model": "dinov3-vits16-pretrain-lvd1689m",
+      "developer": "Meta",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/facebook-dinov3-vits16-pretrain-lvd1689m/"
+    },
+    {
+      "id": "9eebae948f842926",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "kblab-wav2vec2-large-voxrex-swedish",
+      "model": "wav2vec2-large-voxrex-swedish",
+      "developer": "KBLab",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/kblab-wav2vec2-large-voxrex-swedish/"
+    },
+    {
+      "id": "ba432b0106138afc",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "sentence-transformers-paraphrase-minilm-l3-v2",
+      "model": "paraphrase-MiniLM-L3-v2",
+      "developer": "Sentence Transformers",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/sentence-transformers-paraphrase-minilm-l3-v2/"
+    },
+    {
+      "id": "d8913d52a05b1600",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "black-forest-labs-flux-2-klein-9b",
+      "model": "FLUX.2-klein-9B",
+      "developer": "Black Forest Labs",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/black-forest-labs-flux-2-klein-9b/"
+    },
+    {
+      "id": "402a9b7943112a07",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "helsinki-nlp-opus-mt-ru-en",
+      "model": "opus-mt-ru-en",
+      "developer": "Helsinki-NLP",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/helsinki-nlp-opus-mt-ru-en/"
+    },
+    {
+      "id": "4f3de60d2a169ff6",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "facebook-audiobox-aesthetics",
+      "model": "audiobox-aesthetics",
+      "developer": "Meta",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/facebook-audiobox-aesthetics/"
+    },
+    {
+      "id": "1aa7c00814d041ee",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "onnx-community-embeddinggemma-300m-onnx",
+      "model": "embeddinggemma-300m-ONNX",
+      "developer": "onnx-community",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/onnx-community-embeddinggemma-300m-onnx/"
+    },
+    {
+      "id": "a38f7c210df59e85",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "microsoft-harrier-oss-v1-0-6b",
+      "model": "harrier-oss-v1-0.6b",
+      "developer": "Microsoft",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/microsoft-harrier-oss-v1-0-6b/"
+    },
+    {
+      "id": "49d61551c7843936",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "kredor-punctuate-all",
+      "model": "punctuate-all",
+      "developer": "kredor",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/kredor-punctuate-all/"
+    },
+    {
+      "id": "bd1870e8fac08914",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "ath-maas-ovisocr2",
+      "model": "OvisOCR2",
+      "developer": "ATH-MaaS",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/ath-maas-ovisocr2/"
+    },
+    {
+      "id": "5c1a012faa733b1f",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "trl-internal-testing-tiny-qwen3forcausallm",
+      "model": "tiny-Qwen3ForCausalLM",
+      "developer": "trl-internal-testing",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/trl-internal-testing-tiny-qwen3forcausallm/"
+    },
+    {
+      "id": "df99e4c16bce90ed",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "comfy-org-ideogram-4",
+      "model": "Ideogram-4",
+      "developer": "Comfy-Org",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/comfy-org-ideogram-4/"
+    },
+    {
+      "id": "64cb23ec22b14496",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "gigant-romanian-wav2vec2",
+      "model": "romanian-wav2vec2",
+      "developer": "gigant",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/gigant-romanian-wav2vec2/"
+    },
+    {
+      "id": "b81f0868ae2a4f79",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "added",
+      "model_id": "poolside-laguna-s-2-1-nvfp4",
+      "model": "Laguna-S-2.1-NVFP4",
+      "developer": "poolside",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/poolside-laguna-s-2-1-nvfp4/"
+    },
+    {
+      "id": "f7ab413eec4c4831",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "lxyuan-distilbert-base-multilingual-cased-sentiments-student",
+      "model": "distilbert-base-multilingual-cased-sentiments-student",
+      "developer": "lxyuan",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "5ba3e0acffd15e89",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "qwen-qwen3-5-397b-a17b",
+      "model": "Qwen3.5-397B-A17B",
+      "developer": "Qwen",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "6af64a82d9a07395",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "qwen-qwen3-5-122b-a10b",
+      "model": "Qwen3.5-122B-A10B",
+      "developer": "Qwen",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "085b70da2bcb73d8",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "eleutherai-pythia-70m-deduped",
+      "model": "pythia-70m-deduped",
+      "developer": "EleutherAI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "09530244ebd133c5",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "nvidia-dragon-multiturn-query-encoder",
+      "model": "dragon-multiturn-query-encoder",
+      "developer": "NVIDIA",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "73d2ffadc14216e2",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "qwen-qwen-image-edit-2509",
+      "model": "Qwen-Image-Edit-2509",
+      "developer": "Qwen",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "bf229794bd2b5aee",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "moonshotai-kimi-k2-5",
+      "model": "Kimi-K2.5",
+      "developer": "Moonshot AI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "72efa15735fdfc31",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "moonshotai-kimi-k2-instruct",
+      "model": "Kimi-K2-Instruct",
+      "developer": "Moonshot AI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "cf27d627aad27b16",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "deepset-roberta-base-squad2",
+      "model": "roberta-base-squad2",
+      "developer": "deepset",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "c5f0d092db920bf7",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "microsoft-florence-2-large",
+      "model": "Florence-2-large",
+      "developer": "Microsoft",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "204ba993b177b675",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "zhihan1996-dnabert-2-117m",
+      "model": "DNABERT-2-117M",
+      "developer": "zhihan1996",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "6add68a9ec24b755",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "nvidia-bigvgan-v2-22khz-80band-256x",
+      "model": "bigvgan_v2_22khz_80band_256x",
+      "developer": "NVIDIA",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "2e1199024e2fe9e6",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "qwen-qwen3-4b-thinking-2507",
+      "model": "Qwen3-4B-Thinking-2507",
+      "developer": "Qwen",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "0700a3905a163145",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "protectai-deberta-v3-base-prompt-injection-v2",
+      "model": "deberta-v3-base-prompt-injection-v2",
+      "developer": "protectai",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "c4e49b7cbbb5d8b9",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "distil-whisper-distil-large-v3",
+      "model": "distil-large-v3",
+      "developer": "distil-whisper",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "341ff1f6ebc65ab4",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "rundiffusion-juggernaut-xl-v9",
+      "model": "Juggernaut-XL-v9",
+      "developer": "RunDiffusion",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "714fb37777f19e0a",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "bytedance-seed-ui-tars-1-5-7b",
+      "model": "UI-TARS-1.5-7B",
+      "developer": "ByteDance-Seed",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "9e914283114a7a6f",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "openai-privacy-filter",
+      "model": "privacy-filter",
+      "developer": "OpenAI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "99e300b3aa997963",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "inferact-qwen3-8-27b-nvfp4",
+      "model": "Qwen3.8-27B-NVFP4",
+      "developer": "Inferact",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "ec6d94f8dd8993ea",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "helsinki-nlp-opus-mt-nl-en",
+      "model": "opus-mt-nl-en",
+      "developer": "Helsinki-NLP",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "71f2c87efb79025c",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "onnx-community-kokoro-82m-v1-0-onnx",
+      "model": "Kokoro-82M-v1.0-ONNX",
+      "developer": "onnx-community",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "b856538dce0957ef",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "amazon-chronos-bolt-base",
+      "model": "chronos-bolt-base",
+      "developer": "amazon",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "bd7da5bfb177bc96",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "sshleifer-tiny-gpt2",
+      "model": "tiny-gpt2",
+      "developer": "sshleifer",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "ccec2b3a0d43a929",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "google-gemma-3-12b-it",
+      "model": "gemma-3-12b-it",
+      "developer": "Google",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "02d8043d64a6c289",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "laion-clip-vit-h-14-laion2b-s32b-b79k",
+      "model": "CLIP-ViT-H-14-laion2B-s32B-b79K",
+      "developer": "laion",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "dd67d775fcd4cf85",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "jonatasgrosman-wav2vec2-large-xlsr-53-dutch",
+      "model": "wav2vec2-large-xlsr-53-dutch",
+      "developer": "jonatasgrosman",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "09d454612b0c42b2",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "nvidia-glm-5-2-nvfp4",
+      "model": "GLM-5.2-NVFP4",
+      "developer": "NVIDIA",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "22135ade7db1753a",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "nvidia-qwen3-6-27b-nvfp4",
+      "model": "Qwen3.6-27B-NVFP4",
+      "developer": "NVIDIA",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "db8772b8da5a0269",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "jinaai-jina-embeddings-v5-omni-small",
+      "model": "jina-embeddings-v5-omni-small",
+      "developer": "jinaai",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "60d52a2b83b77998",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "qwen-qwen3-235b-a22b",
+      "model": "Qwen3-235B-A22B",
+      "developer": "Qwen",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "5bd028e681100d2b",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "zeroentropy-zerank-2-reranker",
+      "model": "zerank-2-reranker",
+      "developer": "zeroentropy",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "0a2d9dd3bb441afc",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "cidas-clipseg-rd64-refined",
+      "model": "clipseg-rd64-refined",
+      "developer": "CIDAS",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "fa8e02bbb1dc642e",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "jinaai-jina-embeddings-v2-small-en",
+      "model": "jina-embeddings-v2-small-en",
+      "developer": "jinaai",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "0c2e274c6a1814c6",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "sentence-transformers-labse",
+      "model": "LaBSE",
+      "developer": "Sentence Transformers",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "6a3d611a56be6cce",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "qwen-qwen3-0-6b-base",
+      "model": "Qwen3-0.6B-Base",
+      "developer": "Qwen",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "d398dd66e940b936",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "qdrant-all-minilm-l6-v2-onnx",
+      "model": "all-MiniLM-L6-v2-onnx",
+      "developer": "Qdrant",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "b2fdd894aedec046",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "idea-research-grounding-dino-tiny",
+      "model": "grounding-dino-tiny",
+      "developer": "IDEA-Research",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "d437ba13eb98bf5e",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "swiss-ai-apertus-8b-instruct-2509",
+      "model": "Apertus-8B-Instruct-2509",
+      "developer": "swiss-ai",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "da522746e5c3e9b6",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "pnnbao-ump-vieneu-tts-v3-turbo",
+      "model": "VieNeu-TTS-v3-Turbo",
+      "developer": "pnnbao-ump",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "a87086f2187cde08",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "intfloat-e5-base-v2",
+      "model": "e5-base-v2",
+      "developer": "intfloat",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "ffebeb9b81bf82e2",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4",
+      "model": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+      "developer": "NVIDIA",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "e3818fb63c91f222",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "allenai-specter2-base",
+      "model": "specter2_base",
+      "developer": "AllenAI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "372a1caf0bf61fae",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "black-forest-labs-flux-2-klein-4b",
+      "model": "FLUX.2-klein-4B",
+      "developer": "Black Forest Labs",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "1b1e942fd8446b08",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "indonesian-nlp-wav2vec2-indonesian-javanese-sundanese",
+      "model": "wav2vec2-indonesian-javanese-sundanese",
+      "developer": "indonesian-nlp",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "51ba231d82e9f01b",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "neuralmind-bert-large-portuguese-cased",
+      "model": "bert-large-portuguese-cased",
+      "developer": "neuralmind",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "7f8321e09a4a52ea",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "adamcodd-vit-base-nsfw-detector",
+      "model": "vit-base-nsfw-detector",
+      "developer": "AdamCodd",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "60b2030c22637867",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "microsoft-phi-3-5-mini-instruct",
+      "model": "Phi-3.5-mini-instruct",
+      "developer": "Microsoft",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "f250d1269eb80207",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "compvis-stable-diffusion-safety-checker",
+      "model": "stable-diffusion-safety-checker",
+      "developer": "CompVis",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "1d3d592f11e39188",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "gittensor-model-hub-qwen3-8-27b-nvfp4-rtx5090",
+      "model": "Qwen3.8-27B-NVFP4-RTX5090",
+      "developer": "gittensor-model-hub",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "7148674710f4ee7e",
+      "at": "2026-10-03T09:40:09+00:00",
+      "type": "removed",
+      "model_id": "redhatai-gemma-4-26b-a4b-it-fp8-dynamic",
+      "model": "gemma-4-26B-A4B-it-FP8-dynamic",
+      "developer": "RedHatAI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
     },
     {
       "id": "d8ba3fa3583e8e03",
@@ -12680,14 +13780,6 @@
       "url": "/models/deepseek-ai-deepseek-v4-1-flash/"
     },
     {
-      "at": "2026-09-30T10:54:52.000Z",
-      "model_id": "qdrant-all-minilm-l6-v2-onnx",
-      "model": "all-MiniLM-L6-v2-onnx",
-      "developer": "Qdrant",
-      "sha": "d13954661f83248295ba75c1ed411eef3b7b936e",
-      "url": "/models/qdrant-all-minilm-l6-v2-onnx/"
-    },
-    {
       "at": "2026-09-30T05:01:30.000Z",
       "model_id": "paddlepaddle-pp-doclayoutv3-safetensors",
       "model": "PP-DocLayoutV3_safetensors",
@@ -12742,6 +13834,14 @@
       "developer": "fastino",
       "sha": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
       "url": "/models/fastino-gliner2-base-v1/"
+    },
+    {
+      "at": "2026-09-28T00:55:34.000Z",
+      "model_id": "fastino-gliner2-5-multi-v1",
+      "model": "gliner2.5-multi-v1",
+      "developer": "fastino",
+      "sha": "2ca71aafb3446d9014e1c55c7ff51c9bc7209c47",
+      "url": "/models/fastino-gliner2-5-multi-v1/"
     },
     {
       "at": "2026-09-27T19:14:34.000Z",
@@ -12872,6 +13972,14 @@
       "url": "/models/comfy-org-z-image-turbo/"
     },
     {
+      "at": "2026-09-23T08:02:42.000Z",
+      "model_id": "comfy-org-ideogram-4",
+      "model": "Ideogram-4",
+      "developer": "Comfy-Org",
+      "sha": "2aa6c75ce6d5fabded0ca4d0f76abbfaf8edc87d",
+      "url": "/models/comfy-org-ideogram-4/"
+    },
+    {
       "at": "2026-09-23T08:00:33.000Z",
       "model_id": "comfy-org-ace-step-1-5-comfyui-files",
       "model": "ace_step_1.5_ComfyUI_files",
@@ -12944,14 +14052,6 @@
       "url": "/models/comfy-org-wan-2-1-comfyui-repackaged/"
     },
     {
-      "at": "2026-09-23T03:54:31.000Z",
-      "model_id": "pnnbao-ump-vieneu-tts-v3-turbo",
-      "model": "VieNeu-TTS-v3-Turbo",
-      "developer": "pnnbao-ump",
-      "sha": "61b85e3d937fbbacb387714180e8182823512523",
-      "url": "/models/pnnbao-ump-vieneu-tts-v3-turbo/"
-    },
-    {
       "at": "2026-09-20T11:59:48.000Z",
       "model_id": "qwen-image-2-1-pe-i2i",
       "model": "Qwen-Image-2.1-PE-I2I",
@@ -12984,6 +14084,14 @@
       "url": "/models/warmbloodaban-minimax-h3-singularity/"
     },
     {
+      "at": "2026-09-17T22:40:34.000Z",
+      "model_id": "incoai-qwen3-8-27b-dflash2",
+      "model": "Qwen3.8-27B-DFlash2",
+      "developer": "incoai",
+      "sha": "015e795645c74b1a0eeef3b570031fb62e769bc5",
+      "url": "/models/incoai-qwen3-8-27b-dflash2/"
+    },
+    {
       "at": "2026-09-17T17:16:07.000Z",
       "model_id": "nvidia-qwen3-8-27b-nvfp4",
       "model": "Qwen3.8-27B-NVFP4",
@@ -13006,6 +14114,14 @@
       "developer": "biohub",
       "sha": "af1602ba7406f521b11bf8f81d52af378cde09e4",
       "url": "/models/biohub-esmc-6b/"
+    },
+    {
+      "at": "2026-09-15T17:53:18.000Z",
+      "model_id": "remsky-kokoro-inno-clone-tuner",
+      "model": "kokoro-inno-clone-tuner",
+      "developer": "remsky",
+      "sha": "9b5e3c063fb34a63633d7921067af3c4ee966847",
+      "url": "/models/remsky-kokoro-inno-clone-tuner/"
     },
     {
       "at": "2026-09-11T11:59:14.000Z",
@@ -13032,6 +14148,14 @@
       "url": "/models/nvidia-nemotron-3-5-asr-streaming-0-6b/"
     },
     {
+      "at": "2026-09-10T15:25:39.000Z",
+      "model_id": "ampixa-sanotts",
+      "model": "sanoTTS",
+      "developer": "ampixa",
+      "sha": "c532a5d21c078a16cb633718e9182bfd71a5b760",
+      "url": "/models/ampixa-sanotts/"
+    },
+    {
       "at": "2026-09-10T14:41:52.000Z",
       "model_id": "nvidia-nvidia-nemotron-3-5-lightning-30b-a3b-nvfp4",
       "model": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
@@ -13048,20 +14172,20 @@
       "url": "/models/lightx2v-minimax-h3-turbo/"
     },
     {
-      "at": "2026-09-10T01:49:07.000Z",
-      "model_id": "gittensor-model-hub-qwen3-8-27b-nvfp4-rtx5090",
-      "model": "Qwen3.8-27B-NVFP4-RTX5090",
-      "developer": "gittensor-model-hub",
-      "sha": "5b7a687fc8211a5d631c8ca6a593dd37eb26ce33",
-      "url": "/models/gittensor-model-hub-qwen3-8-27b-nvfp4-rtx5090/"
-    },
-    {
       "at": "2026-09-08T23:09:24.000Z",
       "model_id": "unsloth-qwen3-8-27b-nvfp4",
       "model": "Qwen3.8-27B-NVFP4",
       "developer": "unsloth",
       "sha": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
       "url": "/models/unsloth-qwen3-8-27b-nvfp4/"
+    },
+    {
+      "at": "2026-09-08T14:22:01.000Z",
+      "model_id": "trl-internal-testing-tiny-qwen3forcausallm",
+      "model": "tiny-Qwen3ForCausalLM",
+      "developer": "trl-internal-testing",
+      "sha": "25bb9b8963688237e94750f6f3e48f1947d3c7a3",
+      "url": "/models/trl-internal-testing-tiny-qwen3forcausallm/"
     },
     {
       "at": "2026-09-08T05:51:57.000Z",
@@ -13096,12 +14220,28 @@
       "url": "/models/falconsai-nsfw-image-detection/"
     },
     {
+      "at": "2026-09-07T06:34:55.000Z",
+      "model_id": "nlpai-lab-kure-v1",
+      "model": "KURE-v1",
+      "developer": "nlpai-lab",
+      "sha": "8b418a58414668e75532ed045c22d9ca018ae2b2",
+      "url": "/models/nlpai-lab-kure-v1/"
+    },
+    {
       "at": "2026-09-06T16:19:16.000Z",
       "model_id": "openbmb-minicpm5-2b-dspark",
       "model": "MiniCPM5-2B-DSpark",
       "developer": "openbmb",
       "sha": "114a20fdbf53220712c7fbdd7dccddbf1dedebb4",
       "url": "/models/openbmb-minicpm5-2b-dspark/"
+    },
+    {
+      "at": "2026-09-05T23:36:02.000Z",
+      "model_id": "nvidia-qwen3-8-flash-next-nvfp4",
+      "model": "Qwen3.8-Flash-Next-NVFP4",
+      "developer": "NVIDIA",
+      "sha": "fc694b54fb0174e0913e6adf86691ef85a4ead47",
+      "url": "/models/nvidia-qwen3-8-flash-next-nvfp4/"
     },
     {
       "at": "2026-09-04T23:59:07.000Z",
@@ -13168,14 +14308,6 @@
       "url": "/models/deepseek-ai-deepseek-v4-flash-vision-exp/"
     },
     {
-      "at": "2026-08-31T15:59:10.000Z",
-      "model_id": "nvidia-glm-5-2-nvfp4",
-      "model": "GLM-5.2-NVFP4",
-      "developer": "NVIDIA",
-      "sha": "53e0691e21895a3863a606dfd12910c69eba94ab",
-      "url": "/models/nvidia-glm-5-2-nvfp4/"
-    },
-    {
       "at": "2026-08-31T08:19:15.000Z",
       "model_id": "qwen3-8-flash-next-fp8",
       "model": "Qwen3.8-Flash-Next-FP8",
@@ -13208,12 +14340,20 @@
       "url": "/models/tencent-hunyuanocr/"
     },
     {
-      "at": "2026-08-27T12:57:35.000Z",
-      "model_id": "jinaai-jina-embeddings-v5-omni-small",
-      "model": "jina-embeddings-v5-omni-small",
-      "developer": "jinaai",
-      "sha": "5c54692f22e186fc12ea38a9193e3ff9e1cda2a3",
-      "url": "/models/jinaai-jina-embeddings-v5-omni-small/"
+      "at": "2026-08-28T08:46:00.000Z",
+      "model_id": "ath-maas-ovisocr2",
+      "model": "OvisOCR2",
+      "developer": "ATH-MaaS",
+      "sha": "1fc9221b7823a371d6e97f92d527cc847e24e107",
+      "url": "/models/ath-maas-ovisocr2/"
+    },
+    {
+      "at": "2026-08-27T23:53:03.000Z",
+      "model_id": "nvidia-nemotron-3-embed-1b-bf16",
+      "model": "Nemotron-3-Embed-1B-BF16",
+      "developer": "NVIDIA",
+      "sha": "c0c9fea93ea424587517f2c59e20db9f1d6bf615",
+      "url": "/models/nvidia-nemotron-3-embed-1b-bf16/"
     },
     {
       "at": "2026-08-27T05:03:36.000Z",
@@ -13224,6 +14364,14 @@
       "url": "/models/qwen3-8-flash-next/"
     },
     {
+      "at": "2026-08-27T04:00:49.000Z",
+      "model_id": "obliteratus-ornith-1-5-9b-obliterated",
+      "model": "Ornith-1.5-9B-OBLITERATED",
+      "developer": "OBLITERATUS",
+      "sha": "82df4702cc5e716cf7573a8942fee28ae8f65088",
+      "url": "/models/obliteratus-ornith-1-5-9b-obliterated/"
+    },
+    {
       "at": "2026-08-26T18:10:29.000Z",
       "model_id": "nvidia-llama-nemotron-rerank-1b-v2",
       "model": "llama-nemotron-rerank-1b-v2",
@@ -13232,12 +14380,28 @@
       "url": "/models/nvidia-llama-nemotron-rerank-1b-v2/"
     },
     {
+      "at": "2026-08-26T06:48:00.000Z",
+      "model_id": "ornith-ai-ornith-1-5-9b-nvfp4",
+      "model": "Ornith-1.5-9B-NVFP4",
+      "developer": "ornith-ai",
+      "sha": "155f200d85ad58464571c77d5e1122ea5d419d7b",
+      "url": "/models/ornith-ai-ornith-1-5-9b-nvfp4/"
+    },
+    {
       "at": "2026-08-26T06:37:57.000Z",
       "model_id": "ornith-ai-ornith-1-5-35b-a3b-nvfp4",
       "model": "Ornith-1.5-35B-A3B-NVFP4",
       "developer": "ornith-ai",
       "sha": "94e431d9cc47fa1986a7a1a4e9a80f7f118b03aa",
       "url": "/models/ornith-ai-ornith-1-5-35b-a3b-nvfp4/"
+    },
+    {
+      "at": "2026-08-25T20:12:02.000Z",
+      "model_id": "poolside-laguna-s-2-1-nvfp4",
+      "model": "Laguna-S-2.1-NVFP4",
+      "developer": "poolside",
+      "sha": "826aacdf6d8b2699d4e367def6f17c83b06044c2",
+      "url": "/models/poolside-laguna-s-2-1-nvfp4/"
     },
     {
       "at": "2026-08-25T15:48:50.000Z",
@@ -13278,14 +14442,6 @@
       "developer": "NVIDIA",
       "sha": "bf77c3174f68ad409e1c2aa60daeb46e32d1c606",
       "url": "/models/nvidia-nemotron-3-nano-30b-a3b/"
-    },
-    {
-      "at": "2026-08-24T23:49:42.000Z",
-      "model_id": "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4",
-      "model": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
-      "developer": "NVIDIA",
-      "sha": "16993199e436da4ba75ddc410855f87e0d996ee6",
-      "url": "/models/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-nvfp4/"
     },
     {
       "at": "2026-08-24T23:49:25.000Z",
@@ -13456,28 +14612,12 @@
       "url": "/models/qwen3-8-27b-fp8/"
     },
     {
-      "at": "2026-08-14T14:29:49.000Z",
-      "model_id": "inferact-qwen3-8-27b-nvfp4",
-      "model": "Qwen3.8-27B-NVFP4",
-      "developer": "Inferact",
-      "sha": "6128240ebaf4eaa7bad2b3d1c72c37d677c5f462",
-      "url": "/models/inferact-qwen3-8-27b-nvfp4/"
-    },
-    {
       "at": "2026-08-13T13:12:19.000Z",
       "model_id": "redhatai-qwen3-6-35b-a3b-nvfp4",
       "model": "Qwen3.6-35B-A3B-NVFP4",
       "developer": "RedHatAI",
       "sha": "e94a930c8e9b8a7d3763e449289c261c9c7d3e5e",
       "url": "/models/redhatai-qwen3-6-35b-a3b-nvfp4/"
-    },
-    {
-      "at": "2026-08-13T13:09:29.000Z",
-      "model_id": "redhatai-gemma-4-26b-a4b-it-fp8-dynamic",
-      "model": "gemma-4-26B-A4B-it-FP8-dynamic",
-      "developer": "RedHatAI",
-      "sha": "ed35d7abe5d940da41b4ff06eb482feb0be8cb44",
-      "url": "/models/redhatai-gemma-4-26b-a4b-it-fp8-dynamic/"
     },
     {
       "at": "2026-08-13T01:46:29.000Z",
@@ -13616,20 +14756,20 @@
       "url": "/models/swiss-ai-apertus-v1-5-8b/"
     },
     {
-      "at": "2026-07-24T02:03:15.000Z",
-      "model_id": "zeroentropy-zerank-2-reranker",
-      "model": "zerank-2-reranker",
-      "developer": "zeroentropy",
-      "sha": "5eae30d5ee3c6b2df2ef6d723bde45172d761c4c",
-      "url": "/models/zeroentropy-zerank-2-reranker/"
-    },
-    {
       "at": "2026-07-23T17:27:17.000Z",
       "model_id": "thinkingmachines-inkling",
       "model": "Inkling",
       "developer": "thinkingmachines",
       "sha": "828496eeae4c243ff1a22f7f28ff83694f2f7bc9",
       "url": "/models/thinkingmachines-inkling/"
+    },
+    {
+      "at": "2026-07-23T04:25:20.000Z",
+      "model_id": "minimaxai-minimax-m3",
+      "model": "MiniMax-M3",
+      "developer": "MiniMax",
+      "sha": "f0e1c1e04d40177e4673a22097036854f536e9c0",
+      "url": "/models/minimaxai-minimax-m3/"
     },
     {
       "at": "2026-07-22T11:58:47.000Z",
@@ -13710,14 +14850,6 @@
       "developer": "LilaRest",
       "sha": "782d58ea7f9cf3a148be86e153f5689a2d73238b",
       "url": "/models/lilarest-gemma-4-31b-it-nvfp4-turbo/"
-    },
-    {
-      "at": "2026-07-17T08:57:20.000Z",
-      "model_id": "swiss-ai-apertus-8b-instruct-2509",
-      "model": "Apertus-8B-Instruct-2509",
-      "developer": "swiss-ai",
-      "sha": "b946d40447b2b597999b9c86d44bee0b452c919f",
-      "url": "/models/swiss-ai-apertus-8b-instruct-2509/"
     },
     {
       "at": "2026-07-15T16:42:14.000Z",
@@ -13928,12 +15060,12 @@
       "url": "/models/unsloth-qwen3-6-35b-a3b-nvfp4-fast/"
     },
     {
-      "at": "2026-07-09T16:01:38.000Z",
-      "model_id": "protectai-deberta-v3-base-prompt-injection-v2",
-      "model": "deberta-v3-base-prompt-injection-v2",
-      "developer": "protectai",
-      "sha": "90c9989b1a342275dd0d1a95aad283c04e075671",
-      "url": "/models/protectai-deberta-v3-base-prompt-injection-v2/"
+      "at": "2026-07-08T13:58:37.000Z",
+      "model_id": "lightonai-lightonocr-2-1b",
+      "model": "LightOnOCR-2-1B",
+      "developer": "lightonai",
+      "sha": "c97bd377f04481830395218fa8951df9deaba756",
+      "url": "/models/lightonai-lightonocr-2-1b/"
     },
     {
       "at": "2026-07-04T03:15:12.000Z",
@@ -13952,12 +15084,12 @@
       "url": "/models/k2-fsa-omnivoice/"
     },
     {
-      "at": "2026-06-30T14:40:07.000Z",
-      "model_id": "nvidia-qwen3-6-27b-nvfp4",
-      "model": "Qwen3.6-27B-NVFP4",
+      "at": "2026-06-29T19:00:21.000Z",
+      "model_id": "nvidia-parakeet-tdt-0-6b-v2",
+      "model": "parakeet-tdt-0.6b-v2",
       "developer": "NVIDIA",
-      "sha": "0893e1606ff3d5f97a441f405d5fc541a6bdf404",
-      "url": "/models/nvidia-qwen3-6-27b-nvfp4/"
+      "sha": "ae9ad07059c7c739ffaf932226a8fe64ae2620b0",
+      "url": "/models/nvidia-parakeet-tdt-0-6b-v2/"
     },
     {
       "at": "2026-06-26T10:30:43.000Z",
@@ -14032,6 +15164,14 @@
       "url": "/models/hauhaucs-gemma4-12b-qat-uncensored-hauhaucs-balanced/"
     },
     {
+      "at": "2026-06-24T16:02:52.000Z",
+      "model_id": "kingabzpro-wav2vec2-large-xls-r-300m-urdu",
+      "model": "wav2vec2-large-xls-r-300m-Urdu",
+      "developer": "kingabzpro",
+      "sha": "18a6595fc0cc4d9c63fc8d0407b5596f09c49edb",
+      "url": "/models/kingabzpro-wav2vec2-large-xls-r-300m-urdu/"
+    },
+    {
       "at": "2026-06-22T12:12:50.000Z",
       "model_id": "deepseek-ai-deepseek-v4-pro",
       "model": "DeepSeek-V4-Pro",
@@ -14078,6 +15218,14 @@
       "developer": "ResembleAI",
       "sha": "5bb1f6ee58e50c3b8d408bc82a6d3740c2db6e18",
       "url": "/models/resembleai-chatterbox/"
+    },
+    {
+      "at": "2026-06-10T15:46:19.000Z",
+      "model_id": "coherelabs-cohere-transcribe-03-2026",
+      "model": "cohere-transcribe-03-2026",
+      "developer": "CohereLabs",
+      "sha": "b1eacc2686a3d08ceaae5f24a88b1d519620bc09",
+      "url": "/models/coherelabs-cohere-transcribe-03-2026/"
     },
     {
       "at": "2026-06-05T12:59:54.000Z",
@@ -14184,14 +15332,6 @@
       "url": "/models/nvidia-gemma-4-26b-a4b-nvfp4/"
     },
     {
-      "at": "2026-05-08T17:14:44.000Z",
-      "model_id": "rundiffusion-juggernaut-xl-v9",
-      "model": "Juggernaut-XL-v9",
-      "developer": "RunDiffusion",
-      "sha": "cf419233522daa0b9ea36c3aff98fa2cab1fb0fb",
-      "url": "/models/rundiffusion-juggernaut-xl-v9/"
-    },
-    {
       "at": "2026-05-04T17:36:00.000Z",
       "model_id": "ibm-granite-granite-4-1-3b",
       "model": "granite-4.1-3b",
@@ -14208,14 +15348,6 @@
       "url": "/models/mistral-medium-3-5-128b-eagle/"
     },
     {
-      "at": "2026-04-30T03:56:40.000Z",
-      "model_id": "moonshotai-kimi-k2-5",
-      "model": "Kimi-K2.5",
-      "developer": "Moonshot AI",
-      "sha": "4d01dfe0332d63057c186e0b262165819efb6611",
-      "url": "/models/moonshotai-kimi-k2-5/"
-    },
-    {
       "at": "2026-04-30T03:14:52.000Z",
       "model_id": "nvidia-cosmos-reason2-2b",
       "model": "Cosmos-Reason2-2B",
@@ -14230,22 +15362,6 @@
       "developer": "baidu",
       "sha": "623bf5d20d446abdb36606aa4547cd0c18886fe5",
       "url": "/models/baidu-qianfan-ocr/"
-    },
-    {
-      "at": "2026-04-24T05:51:23.000Z",
-      "model_id": "qwen-qwen3-5-397b-a17b",
-      "model": "Qwen3.5-397B-A17B",
-      "developer": "Qwen",
-      "sha": "8472618112abcbd45acbcdc58436aff4233c23f7",
-      "url": "/models/qwen-qwen3-5-397b-a17b/"
-    },
-    {
-      "at": "2026-04-24T03:55:23.000Z",
-      "model_id": "qwen-qwen3-5-122b-a10b",
-      "model": "Qwen3.5-122B-A10B",
-      "developer": "Qwen",
-      "sha": "dc4d348443bc740c68e2d77492492c11606384d5",
-      "url": "/models/qwen-qwen3-5-122b-a10b/"
     },
     {
       "at": "2026-04-24T02:54:49.000Z",
@@ -14368,36 +15484,12 @@
       "url": "/models/qwen3-5-4b-base/"
     },
     {
-      "at": "2026-04-23T02:08:36.000Z",
-      "model_id": "moonshotai-kimi-k2-instruct",
-      "model": "Kimi-K2-Instruct",
-      "developer": "Moonshot AI",
-      "sha": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
-      "url": "/models/moonshotai-kimi-k2-instruct/"
-    },
-    {
-      "at": "2026-04-22T16:50:17.000Z",
-      "model_id": "openai-privacy-filter",
-      "model": "privacy-filter",
-      "developer": "OpenAI",
-      "sha": "7ffa9a043d54d1be65afb281eddf0ffbe629385b",
-      "url": "/models/openai-privacy-filter/"
-    },
-    {
       "at": "2026-04-21T12:44:28.000Z",
       "model_id": "neuml-pubmedbert-base-embeddings",
       "model": "pubmedbert-base-embeddings",
       "developer": "NeuML",
       "sha": "b79526d6ef3645e0df4530322e266f24c829f5ef",
       "url": "/models/neuml-pubmedbert-base-embeddings/"
-    },
-    {
-      "at": "2026-04-21T08:00:18.000Z",
-      "model_id": "distil-whisper-distil-large-v3",
-      "model": "distil-large-v3",
-      "developer": "distil-whisper",
-      "sha": "8031d2e6ce6631b7fc45629dddfc00271116d981",
-      "url": "/models/distil-whisper-distil-large-v3/"
     },
     {
       "at": "2026-04-20T04:28:14.000Z",
@@ -14536,6 +15628,14 @@
       "url": "/models/intfloat-multilingual-e5-small/"
     },
     {
+      "at": "2026-04-02T02:14:06.000Z",
+      "model_id": "intfloat-e5-mistral-7b-instruct",
+      "model": "e5-mistral-7b-instruct",
+      "developer": "intfloat",
+      "sha": "d62cc4417be0e3289c03dd459d1ef2d137e2554e",
+      "url": "/models/intfloat-e5-mistral-7b-instruct/"
+    },
+    {
       "at": "2026-04-02T02:13:31.000Z",
       "model_id": "intfloat-multilingual-e5-base",
       "model": "multilingual-e5-base",
@@ -14558,6 +15658,14 @@
       "developer": "Mistral AI",
       "sha": "b81be46c3777f88621676791b512bb01dc1cb970",
       "url": "/models/voxtral-4b-tts-2603/"
+    },
+    {
+      "at": "2026-03-30T08:00:59.000Z",
+      "model_id": "microsoft-harrier-oss-v1-0-6b",
+      "model": "harrier-oss-v1-0.6b",
+      "developer": "Microsoft",
+      "sha": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+      "url": "/models/microsoft-harrier-oss-v1-0-6b/"
     },
     {
       "at": "2026-03-26T15:55:54.000Z",
@@ -14608,12 +15716,28 @@
       "url": "/models/minimaxai-minimax-m2-5/"
     },
     {
+      "at": "2026-03-07T12:25:53.000Z",
+      "model_id": "ibm-granite-granite-timeseries-tspulse-r1",
+      "model": "granite-timeseries-tspulse-r1",
+      "developer": "IBM",
+      "sha": "2e64fcdc2a06d3565dfadaf0065c0ab5055f80f2",
+      "url": "/models/ibm-granite-granite-timeseries-tspulse-r1/"
+    },
+    {
       "at": "2026-03-05T14:59:25.000Z",
       "model_id": "nvidia-nvidia-nemotron-nano-9b-v2",
       "model": "NVIDIA-Nemotron-Nano-9B-v2",
       "developer": "NVIDIA",
       "sha": "6533e8de2c68e4536bf7c411d7a3ce5734111476",
       "url": "/models/nvidia-nvidia-nemotron-nano-9b-v2/"
+    },
+    {
+      "at": "2026-03-02T18:03:29.000Z",
+      "model_id": "nvidia-personaplex-7b-v1",
+      "model": "personaplex-7b-v1",
+      "developer": "NVIDIA",
+      "sha": "fdaf4090a61cb315c138a1faee287ffd6c716309",
+      "url": "/models/nvidia-personaplex-7b-v1/"
     },
     {
       "at": "2026-03-02T11:26:58.000Z",
@@ -14648,12 +15772,12 @@
       "url": "/models/qwen-qwen3-5-9b/"
     },
     {
-      "at": "2026-02-24T00:18:56.000Z",
-      "model_id": "black-forest-labs-flux-2-klein-4b",
-      "model": "FLUX.2-klein-4B",
+      "at": "2026-02-24T00:17:09.000Z",
+      "model_id": "black-forest-labs-flux-2-klein-9b",
+      "model": "FLUX.2-klein-9B",
       "developer": "Black Forest Labs",
-      "sha": "e7b7dc27f91deacad38e78976d1f2b499d76a294",
-      "url": "/models/black-forest-labs-flux-2-klein-4b/"
+      "sha": "92196c8e11f7b6cf2b7493e037d8c5345c559216",
+      "url": "/models/black-forest-labs-flux-2-klein-9b/"
     },
     {
       "at": "2026-02-23T18:04:17.000Z",
@@ -14984,20 +16108,20 @@
       "url": "/models/microsoft-phi-3-5-vision-instruct/"
     },
     {
-      "at": "2025-12-10T20:22:56.000Z",
-      "model_id": "microsoft-phi-3-5-mini-instruct",
-      "model": "Phi-3.5-mini-instruct",
-      "developer": "Microsoft",
-      "sha": "2fe192450127e6a83f7441aef6e3ca586c338b77",
-      "url": "/models/microsoft-phi-3-5-mini-instruct/"
-    },
-    {
       "at": "2025-12-10T20:22:18.000Z",
       "model_id": "microsoft-phi-3-mini-4k-instruct",
       "model": "Phi-3-mini-4k-instruct",
       "developer": "Microsoft",
       "sha": "f39ac1d28e925b323eae81227eaba4464caced4e",
       "url": "/models/microsoft-phi-3-mini-4k-instruct/"
+    },
+    {
+      "at": "2025-12-10T20:18:10.000Z",
+      "model_id": "microsoft-phi-4-multimodal-instruct",
+      "model": "Phi-4-multimodal-instruct",
+      "developer": "Microsoft",
+      "sha": "93f923e1a7727d1c4f446756212d9d3e8fcc5d81",
+      "url": "/models/microsoft-phi-4-multimodal-instruct/"
     },
     {
       "at": "2025-12-08T11:35:44.000Z",
@@ -15102,14 +16226,6 @@
       "developer": "amazon",
       "sha": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
       "url": "/models/amazon-chronos-bolt-small/"
-    },
-    {
-      "at": "2025-11-21T12:53:22.000Z",
-      "model_id": "amazon-chronos-bolt-base",
-      "model": "chronos-bolt-base",
-      "developer": "amazon",
-      "sha": "5d9f166d69f47aef3401367a7b842e78fe97b121",
-      "url": "/models/amazon-chronos-bolt-base/"
     },
     {
       "at": "2025-11-20T22:05:08.000Z",
@@ -15264,6 +16380,14 @@
       "url": "/models/zed-industries-zeta/"
     },
     {
+      "at": "2025-10-07T14:08:42.000Z",
+      "model_id": "jhu-clsp-mmbert-base",
+      "model": "mmBERT-base",
+      "developer": "jhu-clsp",
+      "sha": "c5955035435e2bf121cde7f3c8863ef52ff35d82",
+      "url": "/models/jhu-clsp-mmbert-base/"
+    },
+    {
       "at": "2025-10-02T17:21:38.000Z",
       "model_id": "google-timesfm-2-5-200m-pytorch",
       "model": "timesfm-2.5-200m-pytorch",
@@ -15312,12 +16436,12 @@
       "url": "/models/qwen-qwen3-omni-30b-a3b-instruct/"
     },
     {
-      "at": "2025-09-22T13:37:12.000Z",
-      "model_id": "qwen-qwen-image-edit-2509",
-      "model": "Qwen-Image-Edit-2509",
-      "developer": "Qwen",
-      "sha": "d3968ef930e841f4c73640fb8afa3b306a78167e",
-      "url": "/models/qwen-qwen-image-edit-2509/"
+      "at": "2025-09-19T07:21:11.000Z",
+      "model_id": "mattmdjaga-segformer-b2-clothes",
+      "model": "segformer_b2_clothes",
+      "developer": "mattmdjaga",
+      "sha": "584abc1e1d260e23c0fc627c5217a09b2b461046",
+      "url": "/models/mattmdjaga-segformer-b2-clothes/"
     },
     {
       "at": "2025-09-17T06:57:02.000Z",
@@ -15400,6 +16524,14 @@
       "url": "/models/deepseek-ai-deepseek-v3-1/"
     },
     {
+      "at": "2025-09-04T15:43:56.000Z",
+      "model_id": "onnx-community-embeddinggemma-300m-onnx",
+      "model": "embeddinggemma-300m-ONNX",
+      "developer": "onnx-community",
+      "sha": "5090578d9565bb06545b4552f76e6bc2c93e4a66",
+      "url": "/models/onnx-community-embeddinggemma-300m-onnx/"
+    },
+    {
       "at": "2025-08-29T14:37:04.000Z",
       "model_id": "cross-encoder-ms-marco-minilm-l12-v2",
       "model": "ms-marco-MiniLM-L12-v2",
@@ -15464,6 +16596,14 @@
       "url": "/models/sentence-transformers-all-mpnet-base-v2/"
     },
     {
+      "at": "2025-08-19T09:01:01.000Z",
+      "model_id": "facebook-dinov3-vits16-pretrain-lvd1689m",
+      "model": "dinov3-vits16-pretrain-lvd1689m",
+      "developer": "Meta",
+      "sha": "114c1379950215c8b35dfcd4e90a5c251dde0d32",
+      "url": "/models/facebook-dinov3-vits16-pretrain-lvd1689m/"
+    },
+    {
       "at": "2025-08-19T09:00:52.000Z",
       "model_id": "facebook-dinov3-vitl16-pretrain-lvd1689m",
       "model": "dinov3-vitl16-pretrain-lvd1689m",
@@ -15496,28 +16636,12 @@
       "url": "/models/zai-org-glm-4-5-air/"
     },
     {
-      "at": "2025-08-06T11:08:25.000Z",
-      "model_id": "qwen-qwen3-4b-thinking-2507",
-      "model": "Qwen3-4B-Thinking-2507",
-      "developer": "Qwen",
-      "sha": "768f209d9ea81521153ed38c47d515654e938aea",
-      "url": "/models/qwen-qwen3-4b-thinking-2507/"
-    },
-    {
       "at": "2025-08-04T17:36:57.000Z",
       "model_id": "microsoft-florence-2-base",
       "model": "Florence-2-base",
       "developer": "Microsoft",
       "sha": "5ca5edf5bd017b9919c05d08aebef5e4c7ac3bac",
       "url": "/models/microsoft-florence-2-base/"
-    },
-    {
-      "at": "2025-08-04T17:09:36.000Z",
-      "model_id": "microsoft-florence-2-large",
-      "model": "Florence-2-large",
-      "developer": "Microsoft",
-      "sha": "21a599d414c4d928c9032694c424fb94458e3594",
-      "url": "/models/microsoft-florence-2-large/"
     },
     {
       "at": "2025-08-04T07:58:29.000Z",
@@ -15600,14 +16724,6 @@
       "url": "/models/qwen-qwen3-0-6b/"
     },
     {
-      "at": "2025-07-26T03:45:42.000Z",
-      "model_id": "qwen-qwen3-0-6b-base",
-      "model": "Qwen3-0.6B-Base",
-      "developer": "Qwen",
-      "sha": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
-      "url": "/models/qwen-qwen3-0-6b-base/"
-    },
-    {
       "at": "2025-07-26T03:45:22.000Z",
       "model_id": "qwen3-32b",
       "model": "Qwen3-32B",
@@ -15622,14 +16738,6 @@
       "developer": "Qwen",
       "sha": "ad44e777bcd18fa416d9da3bd8f70d33ebb85d39",
       "url": "/models/qwen-qwen3-30b-a3b/"
-    },
-    {
-      "at": "2025-07-26T03:45:13.000Z",
-      "model_id": "qwen-qwen3-235b-a22b",
-      "model": "Qwen3-235B-A22B",
-      "developer": "Qwen",
-      "sha": "8efa61729e24bd65b1d152b5ab5409052aa80e65",
-      "url": "/models/qwen-qwen3-235b-a22b/"
     },
     {
       "at": "2025-07-24T16:57:21.000Z",
@@ -15728,14 +16836,6 @@
       "url": "/models/google-bert-bert-base-chinese/"
     },
     {
-      "at": "2025-06-30T21:44:21.000Z",
-      "model_id": "zhihan1996-dnabert-2-117m",
-      "model": "DNABERT-2-117M",
-      "developer": "zhihan1996",
-      "sha": "7bce263b15377fc15361f52cfab88f8b586abda0",
-      "url": "/models/zhihan1996-dnabert-2-117m/"
-    },
-    {
       "at": "2025-06-30T15:26:15.000Z",
       "model_id": "naver-splade-cocondenser-selfdistil",
       "model": "splade-cocondenser-selfdistil",
@@ -15790,6 +16890,14 @@
       "developer": "Meta",
       "sha": "50fd307e57011801c7833c87efa1984ddf2db42f",
       "url": "/models/meta-llama-3-70b-instruct/"
+    },
+    {
+      "at": "2025-06-18T13:57:09.000Z",
+      "model_id": "llava-hf-llava-onevision-qwen2-0-5b-ov-hf",
+      "model": "llava-onevision-qwen2-0.5b-ov-hf",
+      "developer": "llava-hf",
+      "sha": "74dd0bf867a4cda7950c17663794267c60cf4b40",
+      "url": "/models/llava-hf-llava-onevision-qwen2-0-5b-ov-hf/"
     },
     {
       "at": "2025-06-06T08:42:20.000Z",
@@ -15848,6 +16956,14 @@
       "url": "/models/llama-4-scout-17b-16e-instruct/"
     },
     {
+      "at": "2025-05-22T20:24:41.000Z",
+      "model_id": "kblab-wav2vec2-large-voxrex-swedish",
+      "model": "wav2vec2-large-voxrex-swedish",
+      "developer": "KBLab",
+      "sha": "ca70e31c06a2617bf7fe3b4fb5d387d2b19b2983",
+      "url": "/models/kblab-wav2vec2-large-voxrex-swedish/"
+    },
+    {
       "at": "2025-05-10T15:08:32.000Z",
       "model_id": "llama-4-maverick-17b-128e-instruct-original",
       "model": "Llama-4-Maverick-17B-128E-Instruct-Original",
@@ -15862,6 +16978,14 @@
       "developer": "mlx-community",
       "sha": "8ae155301e23d820d82aa60d24817c900e69e487",
       "url": "/models/mlx-community-parakeet-tdt-0-6b-v2/"
+    },
+    {
+      "at": "2025-05-09T20:24:41.000Z",
+      "model_id": "unsloth-llama-3-2-1b-instruct",
+      "model": "Llama-3.2-1B-Instruct",
+      "developer": "unsloth",
+      "sha": "5a8abab4a5d6f164389b1079fb721cfab8d7126c",
+      "url": "/models/unsloth-llama-3-2-1b-instruct/"
     },
     {
       "at": "2025-04-29T18:14:44.000Z",
@@ -15886,14 +17010,6 @@
       "developer": "Meta",
       "sha": "11614a155199674a0a95e6602d6ab0417b790ed0",
       "url": "/models/llama-prompt-guard-2-22m/"
-    },
-    {
-      "at": "2025-04-18T01:35:38.000Z",
-      "model_id": "bytedance-seed-ui-tars-1-5-7b",
-      "model": "UI-TARS-1.5-7B",
-      "developer": "ByteDance-Seed",
-      "sha": "683d002dd99d8f95104d31e70391a39348857f4e",
-      "url": "/models/bytedance-seed-ui-tars-1-5-7b/"
     },
     {
       "at": "2025-04-17T09:38:05.000Z",
@@ -16040,6 +17156,22 @@
       "url": "/models/nomic-ai-nomic-embed-text-v2-moe/"
     },
     {
+      "at": "2025-03-31T18:41:14.000Z",
+      "model_id": "nomic-ai-nomic-embed-code",
+      "model": "nomic-embed-code",
+      "developer": "nomic-ai",
+      "sha": "11114029805cee545ef111d5144b623787462a52",
+      "url": "/models/nomic-ai-nomic-embed-code/"
+    },
+    {
+      "at": "2025-03-31T17:40:39.000Z",
+      "model_id": "nomic-ai-nomic-embed-vision-v1-5",
+      "model": "nomic-embed-vision-v1.5",
+      "developer": "nomic-ai",
+      "sha": "e3a725bce72db07ca4adb1d83da08903f3ee02f8",
+      "url": "/models/nomic-ai-nomic-embed-vision-v1-5/"
+    },
+    {
       "at": "2025-03-27T04:01:59.000Z",
       "model_id": "deepseek-r1",
       "model": "DeepSeek-R1",
@@ -16096,14 +17228,6 @@
       "url": "/models/gemma-3-27b-it/"
     },
     {
-      "at": "2025-03-21T20:28:56.000Z",
-      "model_id": "google-gemma-3-12b-it",
-      "model": "gemma-3-12b-it",
-      "developer": "Google",
-      "sha": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
-      "url": "/models/google-gemma-3-12b-it/"
-    },
-    {
       "at": "2025-03-21T20:20:53.000Z",
       "model_id": "google-gemma-3-4b-it",
       "model": "gemma-3-4b-it",
@@ -16136,20 +17260,20 @@
       "url": "/models/eleutherai-pythia-6-9b/"
     },
     {
-      "at": "2025-03-06T13:40:25.000Z",
-      "model_id": "sentence-transformers-labse",
-      "model": "LaBSE",
-      "developer": "Sentence Transformers",
-      "sha": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
-      "url": "/models/sentence-transformers-labse/"
-    },
-    {
       "at": "2025-03-06T13:35:55.000Z",
       "model_id": "sentence-transformers-all-distilroberta-v1",
       "model": "all-distilroberta-v1",
       "developer": "Sentence Transformers",
       "sha": "842eaed40bee4d61673a81c92d5689a8fed7a09f",
       "url": "/models/sentence-transformers-all-distilroberta-v1/"
+    },
+    {
+      "at": "2025-03-06T13:35:32.000Z",
+      "model_id": "sentence-transformers-all-roberta-large-v1",
+      "model": "all-roberta-large-v1",
+      "developer": "Sentence Transformers",
+      "sha": "cf74d8acd4f198de950bf004b262e6accfed5d2c",
+      "url": "/models/sentence-transformers-all-roberta-large-v1/"
     },
     {
       "at": "2025-03-06T13:32:06.000Z",
@@ -16168,6 +17292,14 @@
       "url": "/models/sentence-transformers-distiluse-base-multilingual-cased-v2/"
     },
     {
+      "at": "2025-03-06T13:26:46.000Z",
+      "model_id": "sentence-transformers-paraphrase-minilm-l3-v2",
+      "model": "paraphrase-MiniLM-L3-v2",
+      "developer": "Sentence Transformers",
+      "sha": "4ca70771034acceecb2e72475f72050fcdde4ddc",
+      "url": "/models/sentence-transformers-paraphrase-minilm-l3-v2/"
+    },
+    {
       "at": "2025-03-06T13:26:35.000Z",
       "model_id": "sentence-transformers-paraphrase-minilm-l6-v2",
       "model": "paraphrase-MiniLM-L6-v2",
@@ -16176,20 +17308,20 @@
       "url": "/models/sentence-transformers-paraphrase-minilm-l6-v2/"
     },
     {
+      "at": "2025-03-04T21:32:30.000Z",
+      "model_id": "facebook-audiobox-aesthetics",
+      "model": "audiobox-aesthetics",
+      "developer": "Meta",
+      "sha": "9b1dd8e5df9af7216e836a98974fe3b82c56ded6",
+      "url": "/models/facebook-audiobox-aesthetics/"
+    },
+    {
       "at": "2025-03-04T17:28:46.000Z",
       "model_id": "llama-3-2-90b-vision-instruct",
       "model": "Llama-3.2-90B-Vision-Instruct",
       "developer": "Meta",
       "sha": "e305d2a43a4adc6987308fe7d896fb8ec5f1a5d8",
       "url": "/models/llama-3-2-90b-vision-instruct/"
-    },
-    {
-      "at": "2025-03-03T02:06:53.000Z",
-      "model_id": "lxyuan-distilbert-base-multilingual-cased-sentiments-student",
-      "model": "distilbert-base-multilingual-cased-sentiments-student",
-      "developer": "lxyuan",
-      "sha": "cf991100d706c13c0a080c097134c05b7f436c45",
-      "url": "/models/lxyuan-distilbert-base-multilingual-cased-sentiments-student/"
     },
     {
       "at": "2025-02-28T18:39:32.000Z",
@@ -16222,6 +17354,14 @@
       "developer": "DeepSeek",
       "sha": "ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562",
       "url": "/models/deepseek-ai-deepseek-r1-distill-qwen-1-5b/"
+    },
+    {
+      "at": "2025-02-24T03:32:20.000Z",
+      "model_id": "deepseek-ai-deepseek-r1-distill-qwen-7b",
+      "model": "DeepSeek-R1-Distill-Qwen-7B",
+      "developer": "DeepSeek",
+      "sha": "916b56a44061fd5cd7d6a8fb632557ed4f724f60",
+      "url": "/models/deepseek-ai-deepseek-r1-distill-qwen-7b/"
     },
     {
       "at": "2025-02-24T03:31:45.000Z",
@@ -16296,14 +17436,6 @@
       "url": "/models/intfloat-e5-large-v2/"
     },
     {
-      "at": "2025-02-17T03:25:40.000Z",
-      "model_id": "intfloat-e5-base-v2",
-      "model": "e5-base-v2",
-      "developer": "intfloat",
-      "sha": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
-      "url": "/models/intfloat-e5-base-v2/"
-    },
-    {
       "at": "2025-02-17T03:24:44.000Z",
       "model_id": "intfloat-e5-small-v2",
       "model": "e5-small-v2",
@@ -16318,14 +17450,6 @@
       "developer": "cagliostrolab",
       "sha": "2b7c1b397761bf5bd3cc42e5b39ec99314a75a96",
       "url": "/models/cagliostrolab-animagine-xl-4-0/"
-    },
-    {
-      "at": "2025-02-08T12:15:27.000Z",
-      "model_id": "onnx-community-kokoro-82m-v1-0-onnx",
-      "model": "Kokoro-82M-v1.0-ONNX",
-      "developer": "onnx-community",
-      "sha": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
-      "url": "/models/onnx-community-kokoro-82m-v1-0-onnx/"
     },
     {
       "at": "2025-02-06T10:34:41.000Z",
@@ -16392,14 +17516,6 @@
       "url": "/models/laion-clip-vit-b-32-laion2b-s34b-b79k/"
     },
     {
-      "at": "2025-01-22T04:38:44.000Z",
-      "model_id": "laion-clip-vit-h-14-laion2b-s32b-b79k",
-      "model": "CLIP-ViT-H-14-laion2B-s32B-b79K",
-      "developer": "laion",
-      "sha": "1c2b8495b28150b8a4922ee1c8edee224c284c0c",
-      "url": "/models/laion-clip-vit-h-14-laion2b-s32b-b79k/"
-    },
-    {
       "at": "2025-01-21T21:13:50.000Z",
       "model_id": "timm-resnet18-a1-in1k",
       "model": "resnet18.a1_in1k",
@@ -16430,6 +17546,14 @@
       "developer": "timm",
       "sha": "0366a75518620e0f2077789202073759f2d61393",
       "url": "/models/timm-efficientnet-b3-ra2-in1k/"
+    },
+    {
+      "at": "2025-01-21T18:16:51.000Z",
+      "model_id": "timm-efficientnet-b0-ra-in1k",
+      "model": "efficientnet_b0.ra_in1k",
+      "developer": "timm",
+      "sha": "1b5383e5f79cc0f7fc067e372f8f26a5fa73f26a",
+      "url": "/models/timm-efficientnet-b0-ra-in1k/"
     },
     {
       "at": "2025-01-15T20:11:48.000Z",
@@ -16504,14 +17628,6 @@
       "url": "/models/usyd-community-vitpose-plus-base/"
     },
     {
-      "at": "2025-01-06T16:26:03.000Z",
-      "model_id": "jinaai-jina-embeddings-v2-small-en",
-      "model": "jina-embeddings-v2-small-en",
-      "developer": "jinaai",
-      "sha": "44e7d1d6caec8c883c2d4b207588504d519788d0",
-      "url": "/models/jinaai-jina-embeddings-v2-small-en/"
-    },
-    {
       "at": "2025-01-06T16:24:38.000Z",
       "model_id": "jinaai-jina-embeddings-v2-base-en",
       "model": "jina-embeddings-v2-base-en",
@@ -16552,14 +17668,6 @@
       "url": "/models/llama-3-1-70b-instruct/"
     },
     {
-      "at": "2024-12-11T09:46:10.000Z",
-      "model_id": "cidas-clipseg-rd64-refined",
-      "model": "clipseg-rd64-refined",
-      "developer": "CIDAS",
-      "sha": "999e0328d9e10b484360c477313983f9afdd7050",
-      "url": "/models/cidas-clipseg-rd64-refined/"
-    },
-    {
       "at": "2024-12-06T19:41:17.000Z",
       "model_id": "llama-3-1-405b-fp8",
       "model": "Llama-3.1-405B-FP8",
@@ -16574,14 +17682,6 @@
       "developer": "Microsoft",
       "sha": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
       "url": "/models/microsoft-trellis-image-large/"
-    },
-    {
-      "at": "2024-12-04T07:45:10.000Z",
-      "model_id": "allenai-specter2-base",
-      "model": "specter2_base",
-      "developer": "AllenAI",
-      "sha": "3447645e1def9117997203454fa4495937bfbd83",
-      "url": "/models/allenai-specter2-base/"
     },
     {
       "at": "2024-12-04T01:35:48.000Z",
@@ -16600,12 +17700,12 @@
       "url": "/models/emilyalsentzer-bio-clinicalbert/"
     },
     {
-      "at": "2024-12-03T14:14:31.000Z",
-      "model_id": "adamcodd-vit-base-nsfw-detector",
-      "model": "vit-base-nsfw-detector",
-      "developer": "AdamCodd",
-      "sha": "8587de998f441aac03fdd57a85d2e4cb808c7d64",
-      "url": "/models/adamcodd-vit-base-nsfw-detector/"
+      "at": "2024-11-27T07:41:03.000Z",
+      "model_id": "tencentbac-conan-embedding-v1",
+      "model": "Conan-embedding-v1",
+      "developer": "TencentBAC",
+      "sha": "bb9749a57d4f02fd71722386f8d0f5a9398d7eeb",
+      "url": "/models/tencentbac-conan-embedding-v1/"
     },
     {
       "at": "2024-11-21T12:40:27.000Z",

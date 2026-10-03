@@ -98,7 +98,7 @@
     ],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B/blob/main/LICENSE"
     }
   },
@@ -165,11 +165,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:21:36+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
-    "full_verified_at": "2026-10-02",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -185,17 +185,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -204,14 +199,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-    "rank": 714,
-    "downloads": 266017,
-    "likes": 901,
+    "rank": 707,
+    "downloads": 267058,
+    "likes": 904,
     "last_modified": "2025-02-24T03:32:20+00:00",
     "created_at": "2025-01-20T09:16:14+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T16:21:34+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -230,8 +225,8 @@
   "hub": {
     "last_modified": "2025-02-24T03:32:20.000Z",
     "created_at": "2025-01-20T09:16:14.000Z",
-    "downloads": 266017,
-    "likes": 901,
+    "downloads": 267058,
+    "likes": 904,
     "sha": "916b56a44061fd5cd7d6a8fb632557ed4f724f60",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",

@@ -97,7 +97,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -161,11 +161,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:21:36+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
-    "full_verified_at": "2026-10-02",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
     "fields": {
@@ -181,17 +181,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
-        "event": "Repository revision check",
-        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
-      },
-      {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -200,14 +195,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "CohereLabs/cohere-transcribe-03-2026",
-    "rank": 708,
-    "downloads": 213049,
+    "rank": 730,
+    "downloads": 200046,
     "likes": 1164,
     "last_modified": "2026-06-10T15:46:19+00:00",
     "created_at": "2026-03-24T10:35:54+00:00",
     "library_name": "transformers",
     "pipeline_tag": "automatic-speech-recognition",
-    "discovered_at": "2026-10-02T16:21:34+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -226,7 +221,7 @@
   "hub": {
     "last_modified": "2026-06-10T15:46:19.000Z",
     "created_at": "2026-03-24T10:35:54.000Z",
-    "downloads": 213049,
+    "downloads": 200046,
     "likes": 1164,
     "sha": "b1eacc2686a3d08ceaae5f24a88b1d519620bc09",
     "library_name": "transformers",

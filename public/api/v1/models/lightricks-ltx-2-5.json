@@ -175,9 +175,9 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T09:17:39+00:00",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "full-field-verification",
+    "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
@@ -193,6 +193,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-03",
         "event": "Field-by-field verification",
@@ -225,12 +230,12 @@
     "repo_id": "Lightricks/LTX-2.5",
     "rank": 187,
     "downloads": 1629984,
-    "likes": 6026,
+    "likes": 6027,
     "last_modified": "2026-10-02T21:01:57+00:00",
     "created_at": "2026-07-23T07:55:24+00:00",
     "library_name": "diffusion-single-file",
     "pipeline_tag": "image-to-video",
-    "discovered_at": "2026-10-03T09:17:37+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -250,7 +255,7 @@
     "last_modified": "2026-10-02T21:01:57.000Z",
     "created_at": "2026-07-23T07:55:24.000Z",
     "downloads": 1629984,
-    "likes": 6026,
+    "likes": 6027,
     "sha": "2356ce76915d6c48d313d7e8b25900e1dd3abaa8",
     "library_name": "diffusion-single-file",
     "pipeline_tag": "image-to-video",

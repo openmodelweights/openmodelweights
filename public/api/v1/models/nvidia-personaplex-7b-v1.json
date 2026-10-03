@@ -93,7 +93,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
     }
   },
@@ -176,11 +176,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
     "fields": {
@@ -196,12 +196,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -210,14 +210,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "nvidia/personaplex-7b-v1",
-    "rank": 696,
-    "downloads": 186223,
-    "likes": 2778,
+    "rank": 704,
+    "downloads": 175249,
+    "likes": 2779,
     "last_modified": "2026-03-02T18:03:29+00:00",
     "created_at": "2025-12-31T17:01:00+00:00",
     "library_name": "moshi",
     "pipeline_tag": "audio-to-audio",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -235,8 +235,8 @@
   "hub": {
     "last_modified": "2026-03-02T18:03:29.000Z",
     "created_at": "2025-12-31T17:01:00.000Z",
-    "downloads": 186223,
-    "likes": 2778,
+    "downloads": 175249,
+    "likes": 2779,
     "sha": "fdaf4090a61cb315c138a1faee287ffd6c716309",
     "library_name": "moshi",
     "pipeline_tag": "audio-to-audio",

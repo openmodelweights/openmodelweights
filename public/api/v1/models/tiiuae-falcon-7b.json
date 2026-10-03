@@ -180,7 +180,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T09:17:39+00:00",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -223,14 +223,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "tiiuae/falcon-7b",
-    "rank": 559,
+    "rank": 560,
     "downloads": 390004,
     "likes": 1105,
     "last_modified": "2024-10-12T13:20:18+00:00",
     "created_at": "2023-04-24T16:36:24+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-03T09:17:37+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {

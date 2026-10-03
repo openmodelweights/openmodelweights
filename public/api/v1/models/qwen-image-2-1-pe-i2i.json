@@ -163,7 +163,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T09:17:39+00:00",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "readme_accessible": true,
     "config_accessible": true,
@@ -216,7 +216,7 @@
   },
   "hub": {
     "last_modified": "2026-09-20T11:59:48.000Z",
-    "downloads": 10725,
+    "downloads": 10903,
     "likes": 54,
     "sha": "72927bc08afc99b7888ceb7d7d51a12db3700bbd",
     "library_name": null,

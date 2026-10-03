@@ -92,7 +92,7 @@
     ],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt/blob/main/LICENSE.md"
     }
   },
@@ -164,11 +164,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:37:54+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
     "fields": {
@@ -184,12 +184,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -198,14 +198,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "stabilityai/stable-video-diffusion-img2vid-xt",
-    "rank": 701,
-    "downloads": 189258,
+    "rank": 709,
+    "downloads": 177985,
     "likes": 3437,
     "last_modified": "2024-07-10T11:43:18+00:00",
     "created_at": "2023-11-20T23:45:55+00:00",
     "library_name": "diffusers",
     "pipeline_tag": "image-to-video",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:37:52+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -221,7 +221,7 @@
   "hub": {
     "last_modified": "2024-07-10T11:43:18.000Z",
     "created_at": "2023-11-20T23:45:55.000Z",
-    "downloads": 189258,
+    "downloads": 177985,
     "likes": 3437,
     "sha": "9e43909513c6714f1bc78bcb44d96e733cd242aa",
     "library_name": "diffusers",
