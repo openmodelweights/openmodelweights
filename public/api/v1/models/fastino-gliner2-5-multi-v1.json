@@ -168,9 +168,9 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T09:37:54+00:00",
+    "checked_at_iso": "2026-10-03T10:08:50+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "full-field-verification",
+    "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
@@ -186,6 +186,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-03",
         "event": "Field-by-field verification",
@@ -208,7 +213,7 @@
     "created_at": "2026-08-14T14:28:43+00:00",
     "library_name": "gliner2",
     "pipeline_tag": "token-classification",
-    "discovered_at": "2026-10-03T09:37:52+00:00",
+    "discovered_at": "2026-10-03T10:08:48+00:00",
     "pinned": false
   },
   "runtime_support": {

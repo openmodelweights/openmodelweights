@@ -1,7 +1,7 @@
 {
   "api_version": "v1",
   "registry_schema": "0.8.0",
-  "generated_at": "2026-10-03T09:40:09+00:00",
+  "generated_at": "2026-10-03T10:11:16+00:00",
   "model_count": 700,
   "verification": {
     "total_seed_records": 700,

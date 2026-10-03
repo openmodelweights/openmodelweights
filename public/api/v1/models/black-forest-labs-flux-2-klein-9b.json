@@ -164,9 +164,9 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T09:37:54+00:00",
+    "checked_at_iso": "2026-10-03T10:08:50+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "full-field-verification",
+    "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
@@ -184,6 +184,11 @@
     "history": [
       {
         "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
@@ -199,12 +204,12 @@
     "repo_id": "black-forest-labs/FLUX.2-klein-9B",
     "rank": 741,
     "downloads": 189273,
-    "likes": 1595,
+    "likes": 1596,
     "last_modified": "2026-02-24T00:17:09+00:00",
     "created_at": "2026-01-14T13:24:26+00:00",
     "library_name": "diffusers",
     "pipeline_tag": "image-to-image",
-    "discovered_at": "2026-10-03T09:37:52+00:00",
+    "discovered_at": "2026-10-03T10:08:48+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -221,7 +226,7 @@
     "last_modified": "2026-02-24T00:17:09.000Z",
     "created_at": "2026-01-14T13:24:26.000Z",
     "downloads": 189273,
-    "likes": 1595,
+    "likes": 1596,
     "sha": "92196c8e11f7b6cf2b7493e037d8c5345c559216",
     "library_name": "diffusers",
     "pipeline_tag": "image-to-image",
