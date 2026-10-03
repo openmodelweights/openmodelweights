@@ -91,7 +91,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No verification changes."
           else
-            git commit -m "Verify model fields against primary sources [skip ci]"
+            git commit -m "Verify model fields against primary sources [skip actions]"
             git pull --rebase origin main
             git push
           fi
