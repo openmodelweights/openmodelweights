@@ -590,7 +590,29 @@ def _known(v):
 
 def _human_status(v):
     if not v:return "Unknown"
-    return str(v).replace("_"," ").replace("-"," ").strip().title()
+    raw=str(v).strip()
+    key=raw.lower().replace("_","-")
+    labels={
+      "verified":"Verified",
+      "classified":"Classified",
+      "declared":"Declared",
+      "not-declared":"Not declared",
+      "not-yet-verified":"Not yet verified",
+      "source-derived-not-runtime-tested":"Source-derived · not runtime-tested",
+      "not-disclosed-in-checked-repository":"Not disclosed in checked repository",
+      "not-disclosed-in-standard-metadata-or-obvious-model-card-section":"Not disclosed in checked standard metadata/model card",
+      "training-described-in-model-card":"Training described in model card",
+      "described-in-model-card":"Described in model card",
+      "dataset-metadata-declared":"Dataset metadata declared",
+      "metadata-only":"Metadata only",
+      "license-file-checked":"License file checked",
+      "allowed":"Allowed",
+      "allowed-with-conditions":"Allowed with conditions",
+      "allowed-with-revenue-condition":"Allowed with revenue condition",
+      "separate-license-required":"Separate license required",
+      "not-allowed":"Not allowed",
+    }
+    return labels.get(key,raw.replace("_"," ").replace("-"," ").strip().title())
 
 def _source_for(m,kind):
     for s in (m.get("sources") or []):
@@ -625,10 +647,22 @@ def _base_names(m):
     return out
 
 def _related_models(m,models,limit=4):
-    same_family=[x for x in models if x["id"]!=m["id"] and _known(m.get("family")) and x.get("family")==m.get("family")]
-    same_developer=[x for x in models if x["id"]!=m["id"] and x.get("developer")==m.get("developer") and x not in same_family]
-    selected=(sorted(same_family,key=lambda x:x.get("name","").lower())+sorted(same_developer,key=lambda x:x.get("name","").lower()))[:limit]
-    return selected
+    same_family=[
+      x for x in models
+      if x["id"]!=m["id"] and _known(m.get("family")) and x.get("family")==m.get("family")
+    ]
+    if same_family:
+        return sorted(same_family,key=lambda x:x.get("name","").lower())[:limit]
+
+    modality=(m.get("model") or {}).get("modality")
+    same_scope=[
+      x for x in models
+      if x["id"]!=m["id"]
+      and x.get("developer")==m.get("developer")
+      and _known(modality)
+      and (x.get("model") or {}).get("modality")==modality
+    ]
+    return sorted(same_scope,key=lambda x:x.get("name","").lower())[:limit]
 
 def model_intelligence_article(m,models,generated):
     name=str(m.get("name") or m.get("id"))
@@ -834,7 +868,7 @@ def model_intelligence_article(m,models,generated):
   </section>
 
   <section class="model-intel-section related-models-section">
-    <div class="model-intel-section-head"><div><p class="eyebrow">RELATED RECORDS</p><h2>Continue through the same family or developer.</h2></div><p>Related records are connected by explicit registry fields, not by a quality score or recommendation rank.</p></div>
+    <div class="model-intel-section-head"><div><p class="eyebrow">RELATED RECORDS</p><h2>Continue through structurally related records.</h2></div><p>Family matches are preferred; otherwise the fallback requires the same developer and model modality. No quality score or recommendation rank is used.</p></div>
     <div class="related-model-grid">{related_html}</div>
   </section>
 </article>
@@ -846,12 +880,19 @@ def patch_model_page(path,m,generated,models):
     text=re.sub(r'(?:<a class="skip-link"[^>]*>.*?</a>)?<header class="site-header">.*?</header>',header("models"),text,count=1,flags=re.S)
     if '<main>' in text:
         text=text.replace('<main>','<main id="main-content">',1)
-    text=text.replace("official Hugging Face repository","listed Hugging Face source repository").replace("Official repository ↗","Source repository ↗")
+    text=re.sub(r"official Hugging Face repository","listed Hugging Face source repository",text,flags=re.I).replace("Official repository ↗","Source repository ↗")
 
     # Search/GEO metadata: describe the specific verified record, not a generic registry page.
     title=f'{m.get("name")} — weights, license, context, hardware & evidence | Open Model Weights'
     desc=_model_meta_description(m)
     text=re.sub(r'<title>.*?</title>',f'<title>{esc(title)}</title>',text,count=1,flags=re.S|re.I)
+    if re.search(r'<meta[^>]+property="og:type"[^>]*>',text,re.I):
+        text=re.sub(r'<meta[^>]+property="og:type"[^>]*>','<meta property="og:type" content="article">',text,count=1,flags=re.I)
+    else:
+        text=text.replace("</head>",'<meta property="og:type" content="article"></head>',1)
+    modified=(m.get("verification") or {}).get("checked_at_iso") or (m.get("verification") or {}).get("checked_at") or generated
+    if 'property="article:modified_time"' not in text:
+        text=text.replace("</head>",f'<meta property="article:modified_time" content="{esc(modified)}"><meta property="article:section" content="Model Intelligence"></head>',1)
     if re.search(r'<meta[^>]+name="description"[^>]*>',text,re.I):
         text=re.sub(r'<meta[^>]+name="description"[^>]*>',f'<meta name="description" content="{esc(desc)}">',text,count=1,flags=re.I)
 
