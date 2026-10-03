@@ -158,6 +158,28 @@ def model_dataset_node(m,generated):
     node["keywords"]=[x for x in dict.fromkeys(str(x) for x in keywords if x)]
     return node
 
+
+def model_article_node(m,generated):
+    canonical=SITE+f'/models/{m["id"]}/'
+    sources=[s.get("url") for s in (m.get("sources") or []) if s.get("url")]
+    keywords=[m.get("developer"),m.get("family"),(m.get("model") or {}).get("modality")]
+    keywords += list((m.get("weights") or {}).get("formats") or [])
+    keywords += list((m.get("model") or {}).get("tags") or [])
+    article={
+      "@type":"TechArticle","@id":canonical+"#article",
+      "headline":f'{m.get("name")} — verified open-weight model intelligence',
+      "description":_model_meta_description(m),
+      "url":canonical,"mainEntityOfPage":{"@id":canonical+"#webpage"},
+      "dateModified":date((m.get("verification") or {}).get("checked_at") or generated),
+      "author":{"@id":ORG_ID},"publisher":{"@id":ORG_ID},
+      "about":{"@id":canonical+"#dataset"},"inLanguage":"en",
+      "keywords":[x for x in dict.fromkeys(str(x) for x in keywords if _known(x))]
+    }
+    if sources:
+        article["citation"]=sources
+        article["isBasedOn"]=sources
+    return article
+
 def _route_for_path(path):
     rel=path.relative_to(PUBLIC)
     if rel==Path("index.html"): return "/"
@@ -210,8 +232,9 @@ def schema_nodes_for_route(route,text,by_id,generated):
 
     if model and route==f'/models/{model["id"]}/':
         dataset=model_dataset_node(model,generated)
-        page=page_node(canonical,title,desc,"WebPage",breadcrumb,dataset["@id"])
-        return [page,breadcrumb,dataset]
+        article=model_article_node(model,generated)
+        page=page_node(canonical,title,desc,"WebPage",breadcrumb,article["@id"])
+        return [page,breadcrumb,article,dataset]
 
     if model and route==f'/models/{model["id"]}/history/':
         evidence={
@@ -554,12 +577,284 @@ def methodology_page(generated):
     boundary_html="".join(f'<div><strong>{esc(title)}</strong><p>{esc(body)}</p></div>' for title,body in boundaries)
     return f'''{head("Methodology — how Open Model Weights verifies model evidence","The Open Model Weights methodology for source selection, field verification, unknown values, license classification, hardware estimates, freshness, history and reproducibility.","https://openmodelweights.com/methodology/")}<body class="methodology-page">{header()}<main id="main-content"><section class="page-hero methodology-hero"><div class="breadcrumbs"><a href="/">Home</a> / Methodology</div><p class="eyebrow">OPEN MODEL WEIGHTS · EVIDENCE METHODOLOGY</p><h1>Unknown is a valid value.</h1><p class="lead">The registry is designed to maximize useful coverage without converting assumptions into facts. Every important field should resolve to source evidence, an explicit classification rule, a labeled derivation — or an honest unknown.</p><div class="page-hero-chips"><span>Source-first</span><span>Field-level verification</span><span>Daily revision checks</span><span>Observed history</span></div></section>{trust_strip(checked,checked)}<section class="section methodology-principles"><div class="section-head"><div><p class="eyebrow">CORE PRINCIPLES</p><h2>The rules behind every record.</h2></div><p class="section-kicker">The goal is not to make every field look complete. The goal is to make every published claim inspectable.</p></div><div class="method-principle-grid">{principle_html}</div></section><section class="section methodology-pipeline"><div class="section-head"><div><p class="eyebrow">REGISTRY LIFECYCLE</p><h2>From repository to evidence record.</h2></div><p class="section-kicker">Discovery, verification, revision checks and history are separate stages.</p></div><div class="method-pipeline-grid">{steps_html}</div></section><section class="section methodology-fields"><div class="section-head"><div><p class="eyebrow">FIELD → EVIDENCE → RULE</p><h2>How individual claims are established.</h2></div><p class="section-kicker">Verification is specific to the field. One source does not automatically validate the whole record.</p></div><div class="method-table-wrap"><table class="method-table"><thead><tr><th>Field group</th><th>Primary evidence</th><th>Method / boundary</th></tr></thead><tbody>{field_rows}</tbody></table></div></section><section class="section methodology-states"><div class="methodology-split"><div><p class="eyebrow">EVIDENCE STATES</p><h2>“Verified” is not the only honest state.</h2><p>Open Model Weights preserves the difference between something we directly checked, something the source merely declares, something we calculate, and something the available evidence does not establish.</p></div><div class="method-state-grid">{state_html}</div></div></section><section class="section methodology-derived"><div class="section-head"><div><p class="eyebrow">DERIVED VALUES</p><h2>Hardware estimates are deliberately narrow.</h2></div><p class="section-kicker">They estimate storage for model weights only — not end-to-end deployment memory.</p></div><div class="method-formula-grid"><div><span>BF16 / FP16</span><strong>parameters × 2 bytes</strong><p>Approximate weight-only memory for 16-bit weights.</p></div><div><span>FP8 / INT8</span><strong>parameters × 1 byte</strong><p>Approximate weight-only memory for 8-bit weights.</p></div><div><span>INT4</span><strong>parameters × 0.5 byte</strong><p>Approximate weight-only memory for 4-bit weights.</p></div></div><div class="method-callout"><strong>Excluded by design</strong><p>KV cache, activations, optimizer state, runtime overhead, quantization metadata, device placement and sharding are not included. A displayed memory estimate is therefore not a deployment guarantee.</p></div></section><section class="section methodology-freshness"><div class="methodology-split"><div><p class="eyebrow">FRESHNESS & DATES</p><h2>Repository activity and verification are not the same thing.</h2><p>The daily pipeline checks current repository revision and fresh API metadata. If a source revision changes, relevant evidence is fetched again for field verification. The last revision check and the last full field verification are retained as distinct signals.</p></div><div class="method-date-grid"><div><span>Repository revision</span><strong>Freshness signal</strong><p>Used to detect source changes without re-fetching every unchanged artifact.</p></div><div><span>Full field verification</span><strong>Evidence check</strong><p>The most recent run that re-evaluated the relevant record fields.</p></div><div><span>Repository created</span><strong>Release-date proxy</strong><p>Used only when no separate structured release date is available, and labeled as a proxy.</p></div><div><span>Publisher updated</span><strong>Activity metadata</strong><p>A changed timestamp does not automatically become a semantic model release.</p></div></div></div></section><section class="section methodology-boundaries"><div class="method-boundary-panel"><div class="method-boundary-intro"><p class="eyebrow">BOUNDARIES</p><h2>What the registry does not claim.</h2><p>These limits are part of the methodology, not footnotes. They prevent useful discovery signals from being overstated as stronger evidence.</p></div><div class="method-boundary-grid">{boundary_html}</div></div></section><section class="section methodology-repro"><div class="section-head"><div><p class="eyebrow">REPRODUCIBILITY</p><h2>Inspect the evidence layer yourself.</h2></div><p class="section-kicker">The methodology is backed by public data surfaces rather than a closed scoring system.</p></div><div class="method-link-grid"><a href="/sources/"><strong>Source policy</strong><span>Evidence hierarchy and field rules →</span></a><a href="/verification/"><strong>Verification report</strong><span>Current registry verification status →</span></a><a href="/history/"><strong>Evidence Ledger</strong><span>Observed snapshots and field diffs →</span></a><a href="/registry.json"><strong>Registry JSON</strong><span>Canonical machine-readable registry →</span></a><a href="/api/"><strong>API / JSON</strong><span>Versioned data surfaces →</span></a><a href="/openapi.json"><strong>OpenAPI 3.1</strong><span>Machine-readable endpoint description →</span></a></div><div class="method-correction"><div><span>FOUND A QUESTIONABLE FIELD?</span><h3>Corrections should leave an evidence trail too.</h3><p>Report the model, the field in question and the strongest source you have. Public version control keeps changes attributable and inspectable.</p></div><a class="button primary" href="https://github.com/openmodelweights/openmodelweights/issues/new" rel="noopener">Report a correction ↗</a></div></section></main>{footer()}</body></html>'''
 
-def patch_model_page(path,m,generated):
+
+def _known(v):
+    if v is None:return False
+    s=str(v).strip().lower()
+    return bool(s) and s not in {
+      "unknown","not declared","not-declared","not-yet-verified","none","null",
+      "not classified by automated verifier",
+      "not-disclosed-in-checked-repository",
+      "not-disclosed-in-standard-metadata-or-obvious-model-card-section"
+    }
+
+def _human_status(v):
+    if not v:return "Unknown"
+    return str(v).replace("_"," ").replace("-"," ").strip().title()
+
+def _source_for(m,kind):
+    for s in (m.get("sources") or []):
+        if s.get("type")==kind and s.get("url"):return s["url"]
+    return None
+
+def _model_meta_description(m):
+    model=m.get("model") or {}
+    lic=m.get("license") or {}
+    bits=[f'Source-verified profile of {m.get("name")}']
+    if _known(model.get("parameters")):bits.append(str(model.get("parameters"))+" parameters")
+    ctx=(model.get("context") or {}).get("display")
+    if _known(ctx):bits.append(str(ctx)+" context")
+    if _known(lic.get("name")):bits.append(str(lic.get("name"))+" license")
+    return ", ".join(bits)+". Inspect weights, hardware estimates, runtime signals, lineage, provenance and evidence history."
+
+def _evidence_class(status):
+    s=str(status or "").lower()
+    if s in {"verified","classified"} or "source-derived" in s:return "observed"
+    if "declared" in s and "not-" not in s:return "declared"
+    if "not-declared" in s or "not-disclosed" in s:return "unknown"
+    return "neutral"
+
+def _base_names(m):
+    values=((m.get("lineage") or {}).get("base_model") or {}).get("models") or []
+    out=[]
+    for value in values:
+        if isinstance(value,dict):
+            name=value.get("name") or value.get("id") or value.get("model")
+        else:name=str(value)
+        if name and name not in out:out.append(name)
+    return out
+
+def _related_models(m,models,limit=4):
+    same_family=[x for x in models if x["id"]!=m["id"] and _known(m.get("family")) and x.get("family")==m.get("family")]
+    same_developer=[x for x in models if x["id"]!=m["id"] and x.get("developer")==m.get("developer") and x not in same_family]
+    selected=(sorted(same_family,key=lambda x:x.get("name","").lower())+sorted(same_developer,key=lambda x:x.get("name","").lower()))[:limit]
+    return selected
+
+def model_intelligence_article(m,models,generated):
+    name=str(m.get("name") or m.get("id"))
+    developer=str(m.get("developer") or "Unknown")
+    family=m.get("family")
+    model=m.get("model") or {}
+    weights=m.get("weights") or {}
+    lic=m.get("license") or {}
+    hardware=m.get("hardware") or {}
+    lineage=m.get("lineage") or {}
+    training=m.get("training_assets") or {}
+    runtime=m.get("runtime_support") or {}
+    ver=m.get("verification") or {}
+    hub=m.get("hub") or {}
+
+    params=model.get("parameters")
+    modality=model.get("modality")
+    ctx=(model.get("context") or {}).get("display")
+    formats=list(weights.get("formats") or [])
+    file_count=weights.get("file_count") or len(weights.get("exact_files") or [])
+    repository=weights.get("repository") or _source_for(m,"model_repository")
+    model_card=_source_for(m,"model_card")
+    config=_source_for(m,"config")
+    license_url=lic.get("url") or _source_for(m,"license")
+
+    identity=[]
+    if _known(params):identity.append(f'a {esc(params)}-parameter')
+    if _known(modality):identity.append(esc(str(modality).lower()))
+    identity.append("open-weight model")
+    family_text=f' in the {esc(family)} family' if _known(family) else ""
+    p1=f'Open Model Weights records <strong>{esc(name)}</strong> as {" ".join(identity)}{family_text}, with <strong>{esc(developer)}</strong> listed as the developer.'
+    verified=[]
+    if file_count:verified.append(f'{int(file_count)} recognized weight artifact{"s" if int(file_count)!=1 else ""}')
+    if formats:verified.append("format evidence for "+", ".join(esc(x) for x in formats))
+    if _known(ctx):verified.append(f'a verified context window of {esc(ctx)}')
+    if verified:
+        p1+=" The checked source repository provides "+", ".join(verified[:-1])+(" and "+verified[-1] if len(verified)>1 else verified[0])+"."
+    p1+=" Values that are not evidenced in the checked sources remain explicitly undisclosed or unknown."
+
+    commercial=(lic.get("commercial_use") or {})
+    p2=""
+    if _known(lic.get("name")):
+        p2=f'The repository declares <strong>{esc(lic.get("name"))}</strong>. '
+        if _known(commercial.get("label")):
+            p2+=esc(commercial.get("label"))+". "
+        p2+="Open Model Weights reports the checked license evidence and classification; this is not legal advice."
+
+    bases=_base_names(m)
+    p3=""
+    if bases:
+        relation=((lineage.get("base_model") or {}).get("relation") or "declared relationship")
+        p3=f'Lineage metadata declares <strong>{esc(", ".join(bases))}</strong> as a related base model with the relation <strong>{esc(relation)}</strong>.'
+    else:
+        p3="No base model is declared in the checked standard lineage metadata, so Open Model Weights does not infer one."
+
+    recipe=(training.get("training_recipe") or {})
+    data_disc=(training.get("data_disclosure") or {})
+    recipe_known=_known(recipe.get("status"))
+    data_known=_known(data_disc.get("status"))
+    if recipe_known or data_known:
+        details=[]
+        if recipe_known:details.append("training or recipe evidence is present")
+        if data_known:details.append("a data-disclosure signal is present")
+        p3+=" In the checked repository, "+ " and ".join(details)+"."
+    else:
+        p3+=" A training recipe and standard training-data disclosure were not found by the current verifier."
+
+    source_links=[]
+    for label,url in [("Source repository",repository),("Model card",model_card),("Configuration",config),("License evidence",license_url)]:
+        if url:source_links.append(f'<a href="{esc(url)}" rel="noopener">{esc(label)} ↗</a>')
+    source_line="".join(source_links)
+
+    chips=[]
+    for value in [params,ctx,lic.get("name"),modality]:
+        if _known(value):chips.append(f"<span>{esc(value)}</span>")
+    for value in formats[:2]:
+        chips.append(f"<span>{esc(value)}</span>")
+
+    memory=hardware.get("weight_only_gb") or {}
+    mem_rows=[]
+    mem_pairs=[("BF16 / FP16",memory.get("bf16_fp16")),("FP8 / INT8",memory.get("fp8_int8")),("INT4",memory.get("int4"))]
+    mem_values=[float(v) for _,v in mem_pairs if isinstance(v,(int,float)) and v>0]
+    max_mem=max(mem_values) if mem_values else 0
+    for label,value in mem_pairs:
+        if isinstance(value,(int,float)) and value>0:
+            width=max(8,min(100,(float(value)/max_mem*100))) if max_mem else 0
+            mem_rows.append(f'<div class="memory-row"><div><span>{esc(label)}</span><strong>~{value:,.1f} GB</strong></div><div class="memory-track"><i style="width:{width:.1f}%"></i></div></div>')
+    memory_html="".join(mem_rows) if mem_rows else '<p class="model-empty">No weight-only memory estimate is available from the verified parameter count.</p>'
+
+    fields=ver.get("fields") or {}
+    evidence_labels=[
+      ("Weights",fields.get("weight_files")),("License",fields.get("license")),
+      ("Commercial use",fields.get("commercial_use")),("Context",fields.get("context")),
+      ("Formats",fields.get("formats")),("Lineage",fields.get("base_model")),
+      ("Training recipe",fields.get("training_recipe")),("Training data",fields.get("data_disclosure")),
+      ("Runtime",fields.get("runtime_support"))
+    ]
+    evidence_html="".join(
+      f'<div class="evidence-cell {_evidence_class(status)}"><span>{esc(label)}</span><strong>{esc(_human_status(status))}</strong></div>'
+      for label,status in evidence_labels
+    )
+
+    base_node=esc(", ".join(bases)) if bases else "Base model not declared"
+    relation=((lineage.get("base_model") or {}).get("relation") or ("declared relation" if bases else "unknown"))
+    lineage_html=f'''<div class="lineage-visual">
+      <div class="lineage-node lineage-base {'known' if bases else 'unknown'}"><small>BASE / PARENT</small><strong>{base_node}</strong><span>{esc(_human_status(relation))}</span></div>
+      <div class="lineage-edge"><i></i><span>{'declared' if bases else 'not inferred'}</span></div>
+      <div class="lineage-node lineage-current"><small>CURRENT RECORD</small><strong>{esc(name)}</strong><span>{esc(family) if _known(family) else 'Family not declared'}</span></div>
+    </div>'''
+
+    runtime_cards=[]
+    declared=list(runtime.get("declared") or [])
+    mentioned=list(runtime.get("mentioned_in_model_card") or [])
+    declared_library=runtime.get("declared_library")
+    if declared_library and declared_library not in declared:declared.insert(0,declared_library)
+    seen=set()
+    for value in declared:
+        if value and value not in seen:
+            seen.add(value);runtime_cards.append(f'<div class="runtime-chip declared"><span>Declared</span><strong>{esc(value)}</strong></div>')
+    for value in mentioned:
+        if value and value not in seen:
+            seen.add(value);runtime_cards.append(f'<div class="runtime-chip mentioned"><span>Mentioned</span><strong>{esc(value)}</strong></div>')
+    if not runtime_cards:
+        runtime_cards.append('<div class="runtime-chip unknown"><span>Source status</span><strong>No runtime signal found</strong></div>')
+    runtime_cards.append(f'<div class="runtime-chip test-status"><span>OMW runtime test</span><strong>{"Observed" if runtime.get("tested_by_openmodelweights") else "Not performed"}</strong></div>')
+
+    history=[]
+    for event in (ver.get("history") or [])[:5]:
+        history.append(f'<div class="intel-history-row"><time>{esc(event.get("date") or "Unknown date")}</time><div><strong>{esc(event.get("event") or "Observed event")}</strong><p>{esc(str(event.get("detail") or "").replace("Official Hugging Face repository","Listed Hugging Face source repository"))}</p></div></div>')
+    history_html="".join(history) if history else '<p class="model-empty">No observed registry history is available yet.</p>'
+
+    source_cards=[]
+    for source in (m.get("sources") or []):
+        if not source.get("url"):continue
+        label=_human_status(source.get("type"))
+        tier=_human_status(source.get("tier"))
+        source_cards.append(f'<a class="intel-source-card" href="{esc(source["url"])}" rel="noopener"><span>{esc(tier)}</span><strong>{esc(label)}</strong><small>{esc(source["url"])}</small><b>Inspect source ↗</b></a>')
+    sources_html="".join(source_cards) if source_cards else '<p class="model-empty">No source links are exposed for this record.</p>'
+
+    related=[]
+    for other in _related_models(m,models):
+        relation_label="Same family" if _known(family) and other.get("family")==family else "Same developer"
+        om=other.get("model") or {}
+        related.append(f'<a class="related-model-card" href="/models/{esc(other["id"])}/"><span>{esc(relation_label)}</span><strong>{esc(other.get("name"))}</strong><p>{esc(om.get("parameters") or "Parameters not declared")} · {esc((om.get("context") or {}).get("display") or "Context not declared")}</p></a>')
+    related_html="".join(related) if related else '<p class="model-empty">No directly related registry records are available under the current family/developer fields.</p>'
+
+    repo_created=short_date(hub.get("created_at")) if hub.get("created_at") else "Not declared"
+    repo_updated=short_date(hub.get("last_modified")) if hub.get("last_modified") else "Not declared"
+    checked=short_date(ver.get("checked_at") or generated)
+
+    return f'''<!-- OMW MODEL INTELLIGENCE START -->
+<nav class="model-article-nav" aria-label="Model intelligence sections">
+  <a href="#overview">Overview</a><a href="#deployment">Deployment</a><a href="#license-intel">License</a>
+  <a href="#provenance">Provenance</a><a href="#runtime-intel">Runtime</a><a href="#evidence-trail">Evidence</a>
+  <a href="#field-evidence">Field data</a>
+</nav>
+<article class="model-intelligence">
+  <header class="model-intelligence-header" id="overview">
+    <div><p class="eyebrow">MODEL INTELLIGENCE · SOURCE-FIRST</p><h2>What is {esc(name)}?</h2></div>
+    <div class="model-intel-stamp"><span>OMW evidence review</span><strong>{esc(checked)}</strong></div>
+  </header>
+  <div class="model-story-layout">
+    <div class="model-story-copy"><p>{p1}</p>{f'<p>{p2}</p>' if p2 else ''}<p>{p3}</p><div class="model-inline-sources">{source_line}</div></div>
+    <aside class="model-at-a-glance"><span>AT A GLANCE</span><div class="model-glance-chips">{''.join(chips)}</div><dl>
+      <div><dt>Repository created</dt><dd>{esc(repo_created)}</dd></div>
+      <div><dt>Publisher updated</dt><dd>{esc(repo_updated)}</dd></div>
+      <div><dt>Verification</dt><dd>{esc(_human_status(ver.get("level")))}</dd></div>
+    </dl></aside>
+  </div>
+
+  <section class="model-intel-section" id="deployment">
+    <div class="model-intel-section-head"><div><p class="eyebrow">DEPLOYMENT PROFILE</p><h2>Weight memory, without pretending it is a deployment guarantee.</h2></div><p>These bars visualize weight-only decimal-GB estimates. They exclude KV cache, activations, runtime overhead, optimizer state and sharding.</p></div>
+    <div class="model-viz-grid">
+      <div class="model-viz-card memory-viz"><span class="viz-label">WEIGHT-ONLY MEMORY</span>{memory_html}</div>
+      <div class="model-viz-card"><span class="viz-label">FIELD EVIDENCE MAP</span><div class="evidence-map">{evidence_html}</div></div>
+    </div>
+  </section>
+
+  <section class="model-intel-section" id="license-intel">
+    <div class="model-intel-section-head"><div><p class="eyebrow">LICENSE & USE</p><h2>{esc(lic.get("name") or "License not declared")}</h2></div><p>{esc(commercial.get("label") or "Commercial-use classification is unknown from the checked evidence.")}</p></div>
+    <div class="model-callout-grid"><div><span>Declared license</span><strong>{esc(lic.get("name") or "Not declared")}</strong></div><div><span>Classification</span><strong>{esc(_human_status(commercial.get("status")))}</strong></div><div><span>Verification</span><strong>{esc(_human_status((lic.get("verification") or {}).get("status")))}</strong></div></div>
+    <p class="model-article-note">This section summarizes the checked repository evidence. It is not legal advice.{f' <a href="{esc(license_url)}" rel="noopener">Inspect license evidence ↗</a>' if license_url else ''}</p>
+  </section>
+
+  <section class="model-intel-section" id="provenance">
+    <div class="model-intel-section-head"><div><p class="eyebrow">LINEAGE & PROVENANCE</p><h2>What the checked sources disclose — and what they do not.</h2></div><p>Open Model Weights does not infer a hidden base model or training corpus when the checked sources do not declare one.</p></div>
+    <div class="model-viz-grid"><div class="model-viz-card"><span class="viz-label">LINEAGE</span>{lineage_html}</div>
+      <div class="model-viz-card provenance-card"><span class="viz-label">TRAINING DISCLOSURE</span>
+        <div><small>Training recipe</small><strong>{esc(_human_status(recipe.get("status")))}</strong></div>
+        <div><small>Training data</small><strong>{esc(_human_status(data_disc.get("status")))}</strong></div>
+        <div><small>Family</small><strong>{esc(family) if _known(family) else "Not declared"}</strong></div>
+      </div></div>
+  </section>
+
+  <section class="model-intel-section" id="runtime-intel">
+    <div class="model-intel-section-head"><div><p class="eyebrow">RUNTIME SIGNALS</p><h2>Compatibility claims stay attached to their evidence level.</h2></div><p>Declared and model-card-mentioned runtimes are discovery signals. They are not treated as Open Model Weights runtime tests unless explicitly measured.</p></div>
+    <div class="runtime-matrix">{''.join(runtime_cards)}</div>
+  </section>
+
+  <section class="model-intel-section" id="evidence-trail">
+    <div class="model-intel-section-head"><div><p class="eyebrow">EVIDENCE TRAIL</p><h2>Sources and observed history.</h2></div><p>This is where the article remains auditable: source links on one side, the registry's observed change history on the other.</p></div>
+    <div class="evidence-trail-grid"><div class="intel-source-grid">{sources_html}</div><div class="intel-history">{history_html}</div></div>
+  </section>
+
+  <section class="model-intel-section related-models-section">
+    <div class="model-intel-section-head"><div><p class="eyebrow">RELATED RECORDS</p><h2>Continue through the same family or developer.</h2></div><p>Related records are connected by explicit registry fields, not by a quality score or recommendation rank.</p></div>
+    <div class="related-model-grid">{related_html}</div>
+  </section>
+</article>
+<section class="model-evidence-intro" id="field-evidence"><p class="eyebrow">FIELD-BY-FIELD RECORD</p><h2>Inspect the underlying evidence.</h2><p>The editorial layer above summarizes only what the verified registry can support. The sections below expose the exact fields, artifacts, source links and verification states.</p><div class="evidence-jump-grid"><a href="#weights">Weights</a><a href="#license">License</a><a href="#hardware">Hardware</a><a href="#formats">Formats</a><a href="#lineage">Lineage</a><a href="#training-assets">Training</a><a href="#runtime">Runtime</a><a href="#sources">Sources</a><a href="#verification">Verification</a></div></section>
+<!-- OMW MODEL INTELLIGENCE END -->'''
+
+def patch_model_page(path,m,generated,models):
     text=path.read_text()
     text=re.sub(r'(?:<a class="skip-link"[^>]*>.*?</a>)?<header class="site-header">.*?</header>',header("models"),text,count=1,flags=re.S)
     if '<main>' in text:
         text=text.replace('<main>','<main id="main-content">',1)
     text=text.replace("official Hugging Face repository","listed Hugging Face source repository").replace("Official repository ↗","Source repository ↗")
+
+    # Search/GEO metadata: describe the specific verified record, not a generic registry page.
+    title=f'{m.get("name")} — weights, license, context, hardware & evidence | Open Model Weights'
+    desc=_model_meta_description(m)
+    text=re.sub(r'<title>.*?</title>',f'<title>{esc(title)}</title>',text,count=1,flags=re.S|re.I)
+    if re.search(r'<meta[^>]+name="description"[^>]*>',text,re.I):
+        text=re.sub(r'<meta[^>]+name="description"[^>]*>',f'<meta name="description" content="{esc(desc)}">',text,count=1,flags=re.I)
+
     if 'class="trust-strip"' not in text:
         marker=re.search(r'(<section class="page-hero model-head">.*?</section>)',text,re.S)
         if marker:
@@ -572,13 +867,24 @@ def patch_model_page(path,m,generated):
         text=text.replace(compare_link,compare_link+history_link,1)
     if 'Machine-readable JSON' not in text:
         text=text.replace('</div></div>\n<div class="facts">',f'<a class="button" href="/api/v1/models/{esc(m["id"])}.json">Machine-readable JSON ↗</a></div></div>\n<div class="facts">',1)
+
+    # Idempotent replacement: daily source generation may create a fresh page, while local
+    # rerenders may run over a page that already contains the editorial layer.
+    text=re.sub(r'<!-- OMW MODEL INTELLIGENCE START -->.*?<!-- OMW MODEL INTELLIGENCE END -->','',text,flags=re.S)
+    nav=re.search(r'<nav class="detail-nav">.*?</nav>',text,re.S)
+    if nav:
+        article=model_intelligence_article(m,models,generated)
+        text=text[:nav.start()]+article+text[nav.end():]
+
     if 'class="source-assurance"' not in text:
         source_count=len(m.get("sources") or [])
         sha=((m.get("hub") or {}).get("sha") or "")[:12]
         box=f'<div class="source-assurance"><div><span>Primary / declared sources</span><strong>{source_count}</strong></div><div><span>Repository revision</span><strong><code>{esc(sha or "not exposed")}</code></strong></div><div><span>Source policy</span><strong><a href="/sources/">How evidence is classified →</a></strong></div></div>'
         text=text.replace('<h2>Field evidence</h2>','<h2>Field evidence</h2>'+box,1)
+
     text=re.sub(r'<footer(?: class="[^"]*")?>.*?</footer>',footer(),text,count=1,flags=re.S)
     path.write_text(text)
+
 
 def patch_general_pages(generated):
     generic=trust_strip(date(generated),date(generated))
@@ -740,7 +1046,7 @@ def main():
     by_id={m["id"]:m for m in models}
     for mid,m in by_id.items():
         p=PUBLIC/"models"/mid/"index.html"
-        if p.exists():patch_model_page(p,m,generated)
+        if p.exists():patch_model_page(p,m,generated,models)
     patch_general_pages(generated)
     patch_sitemap(generated)
     patch_llms(len(models),generated)
