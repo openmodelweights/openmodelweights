@@ -549,6 +549,13 @@ def evidence_link(label, url):
 def model_page(m):
     rid = repo_id(m)
     ctx = m["model"]["context"]
+    ctx_display = str(ctx.get("display") or "Not verified")
+    if ctx_display.lower().endswith(" tokens"):
+        ctx_value = ctx_display[:-7].strip()
+        ctx_unit = "tokens"
+    else:
+        ctx_value = ctx_display
+        ctx_unit = ""
     lic = m["license"]
     hw = m["hardware"]
     weights = m["weights"]
@@ -593,12 +600,12 @@ def model_page(m):
     title = f'{m["name"]} — verified weights, license, hardware & runtime | Open Model Weights'
     desc = f'Field-by-field verification for {m["name"]}: exact weight files, license, commercial-use classification, context, formats, base model, training/data disclosure and runtime support.'
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="https://openmodelweights.com/models/{esc(m["id"])}/"><meta name="robots" content="index,follow,max-snippet:-1"><link rel="stylesheet" href="/styles.css"><script type="application/ld+json">{jsonld}</script></head><body>{header}<main>
-<section class="page-hero model-head"><div class="model-title"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/models/">Models</a> / {esc(m["name"])}</div><p class="eyebrow">{esc(m["developer"].upper())} · FIELD-VERIFIED</p><h1>{esc(m["name"])}</h1><p class="lead">Checked against the listed Hugging Face source repository on {TODAY}. Unknown values are left explicit rather than inferred.</p><div class="hero-actions"><a class="button primary" href="{esc(repo)}" rel="noopener">Source repository ↗</a><span class="pill verified">Field-verified {TODAY}</span></div></div>
+<section class="page-hero model-head"><div class="model-title"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/models/">Models</a> / {esc(m["name"])}</div><p class="eyebrow">{esc(m["developer"].upper())} · FIELD-VERIFIED</p><h1>{esc(m["name"])}</h1><p class="lead">Checked against the listed Hugging Face source repository on {TODAY}. Unknown values are left explicit rather than inferred.</p><div class="hero-actions model-hero-actions"><a class="button primary" href="{esc(repo)}" rel="noopener">Source repository ↗</a><a class="button compare-model-button" href="/compare/?models={esc(m["id"])}">Compare this model →</a><a class="button history-model-button" href="/models/{esc(m["id"])}/history/">History & diff →</a><a class="button machine-model-button" href="/api/v1/models/{esc(m["id"])}.json">Machine-readable JSON ↗</a><span class="pill verified">Field-verified {TODAY}</span></div></div>
 <aside class="model-snapshot" aria-label="Model snapshot">
   <div class="snapshot-kicker"><span>MODEL SNAPSHOT</span><strong>{esc(m["developer"])}</strong></div>
   <div class="snapshot-primary">
     <div><span>PARAMETERS</span><strong>{esc(m["model"].get("parameters") or "Not verified")}</strong></div>
-    <div><span>CONTEXT</span><strong>{esc(ctx["display"])}</strong></div>
+    <div class="snapshot-context"><span>CONTEXT</span><strong><b>{esc(ctx_value)}</b>{f'<em>{esc(ctx_unit)}</em>' if ctx_unit else ''}</strong></div>
   </div>
   <dl class="snapshot-details">
     <div><dt>License</dt><dd>{esc(lic["name"])}</dd></div>

@@ -2129,3 +2129,29 @@ body{background:var(--bg);letter-spacing:-.006em}
   .snapshot-primary>div+div{padding-left:0;padding-top:18px;border-left:0;border-top:1px solid var(--line)}
   .snapshot-primary strong,.snapshot-primary>div:nth-child(2) strong{font-size:30px}
 }
+
+
+/* Model Snapshot polish v8.2 */
+.model-hero-actions{gap:8px;max-width:760px}
+.model-hero-actions .button{min-height:40px;padding:0 14px;font-size:12px;border-radius:999px}
+.model-hero-actions .pill{min-height:40px;display:inline-flex;align-items:center;padding:0 13px;font-size:11px}
+.snapshot-kicker{padding:15px 20px 12px}
+.snapshot-primary{padding:21px 20px 19px;gap:20px}
+.snapshot-primary>div+div{padding-left:20px}
+.snapshot-details{padding:0 20px}
+.snapshot-details>div{padding:10px 0}
+.snapshot-status{padding:12px 20px}
+.snapshot-context strong{display:flex;align-items:baseline;gap:7px}
+.snapshot-context strong b{font:inherit;letter-spacing:inherit}
+.snapshot-context strong em{font-style:normal;font-size:.55em;letter-spacing:-.01em;color:#3e4740;font-weight:720}
+@media(max-width:760px){
+  .model-story-layout{grid-template-columns:1fr}
+  .model-evidence-summary{order:-1;margin-bottom:4px}
+  .model-hero-actions .button,.model-hero-actions .pill{min-height:38px}
+}
+@media(max-width:560px){
+  .model-hero-actions{display:grid;grid-template-columns:1fr 1fr;align-items:stretch}
+  .model-hero-actions .button,.model-hero-actions .pill{width:100%;justify-content:center;text-align:center}
+  .model-hero-actions .button.primary{grid-column:1/-1}
+  .snapshot-context strong{gap:6px}
+}
