@@ -216,7 +216,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://huggingface.co/ornith-ai/Ornith-1.5-397B/blob/main/LICENSE"
     }
   },
@@ -287,11 +287,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:43:54+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -307,12 +307,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -321,14 +321,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "ornith-ai/Ornith-1.5-397B",
-    "rank": 769,
-    "downloads": 374140,
+    "rank": 787,
+    "downloads": 350632,
     "likes": 90,
     "last_modified": "2026-08-23T06:21:27+00:00",
     "created_at": "2026-08-18T06:34:59+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T15:43:52+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -349,7 +349,7 @@
   "hub": {
     "last_modified": "2026-08-23T06:21:27.000Z",
     "created_at": "2026-08-18T06:34:59.000Z",
-    "downloads": 374140,
+    "downloads": 350632,
     "likes": 90,
     "sha": "8f6cc8a7aea505364523f84ccf37706e8aea0ee7",
     "library_name": "transformers",

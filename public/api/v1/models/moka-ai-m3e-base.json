@@ -95,7 +95,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -162,11 +162,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:20:56+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -182,12 +182,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -196,14 +196,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "moka-ai/m3e-base",
-    "rank": 803,
-    "downloads": 203921,
+    "rank": 800,
+    "downloads": 203488,
     "likes": 990,
     "last_modified": "2023-07-14T02:29:36+00:00",
     "created_at": "2023-06-06T02:28:47+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": null,
-    "discovered_at": "2026-10-02T15:20:54+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -221,7 +221,7 @@
   "hub": {
     "last_modified": "2023-07-14T02:29:36.000Z",
     "created_at": "2023-06-06T02:28:47.000Z",
-    "downloads": 203921,
+    "downloads": 203488,
     "likes": 990,
     "sha": "764b537a0e50e5c7d64db883f2d2e051cbe3c64c",
     "library_name": "sentence-transformers",

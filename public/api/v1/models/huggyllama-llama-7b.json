@@ -103,7 +103,7 @@
     ],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://huggingface.co/huggyllama/llama-7b/blob/main/LICENSE"
     }
   },
@@ -167,11 +167,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:20:56+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -187,12 +187,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -201,14 +201,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "huggyllama/llama-7b",
-    "rank": 799,
-    "downloads": 277468,
+    "rank": 795,
+    "downloads": 277880,
     "likes": 360,
     "last_modified": "2024-07-02T15:46:56+00:00",
     "created_at": "2023-04-03T23:16:48+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T15:20:54+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -224,7 +224,7 @@
   "hub": {
     "last_modified": "2024-07-02T15:46:56.000Z",
     "created_at": "2023-04-03T23:16:48.000Z",
-    "downloads": 277468,
+    "downloads": 277880,
     "likes": 360,
     "sha": "4782ad278652c7c71b72204d462d6d01eaaf7549",
     "library_name": "transformers",

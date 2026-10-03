@@ -1,0 +1,410 @@
+{
+  "id": "deepseek-ai-deepseek-r1-0528",
+  "name": "DeepSeek-R1-0528",
+  "developer": "DeepSeek",
+  "family": "DeepSeek-R1-0528",
+  "variant": "DeepSeek-R1-0528",
+  "model": {
+    "parameters": "684.531B",
+    "total_parameters_billions": 684.531386,
+    "context": {
+      "value": 163840,
+      "display": "163,840 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "deepseek_v3",
+      "text-generation",
+      "conversational",
+      "custom_code",
+      "arxiv:2501.12948",
+      "license:mit",
+      "eval-results",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "fp8",
+      "region:us",
+      "deploy:sagemaker"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-000163.safetensors",
+      "model-00002-of-000163.safetensors",
+      "model-00003-of-000163.safetensors",
+      "model-00004-of-000163.safetensors",
+      "model-00005-of-000163.safetensors",
+      "model-00006-of-000163.safetensors",
+      "model-00007-of-000163.safetensors",
+      "model-00008-of-000163.safetensors",
+      "model-00009-of-000163.safetensors",
+      "model-00010-of-000163.safetensors",
+      "model-00011-of-000163.safetensors",
+      "model-00012-of-000163.safetensors",
+      "model-00013-of-000163.safetensors",
+      "model-00014-of-000163.safetensors",
+      "model-00015-of-000163.safetensors",
+      "model-00016-of-000163.safetensors",
+      "model-00017-of-000163.safetensors",
+      "model-00018-of-000163.safetensors",
+      "model-00019-of-000163.safetensors",
+      "model-00020-of-000163.safetensors",
+      "model-00021-of-000163.safetensors",
+      "model-00022-of-000163.safetensors",
+      "model-00023-of-000163.safetensors",
+      "model-00024-of-000163.safetensors",
+      "model-00025-of-000163.safetensors",
+      "model-00026-of-000163.safetensors",
+      "model-00027-of-000163.safetensors",
+      "model-00028-of-000163.safetensors",
+      "model-00029-of-000163.safetensors",
+      "model-00030-of-000163.safetensors",
+      "model-00031-of-000163.safetensors",
+      "model-00032-of-000163.safetensors",
+      "model-00033-of-000163.safetensors",
+      "model-00034-of-000163.safetensors",
+      "model-00035-of-000163.safetensors",
+      "model-00036-of-000163.safetensors",
+      "model-00037-of-000163.safetensors",
+      "model-00038-of-000163.safetensors",
+      "model-00039-of-000163.safetensors",
+      "model-00040-of-000163.safetensors",
+      "model-00041-of-000163.safetensors",
+      "model-00042-of-000163.safetensors",
+      "model-00043-of-000163.safetensors",
+      "model-00044-of-000163.safetensors",
+      "model-00045-of-000163.safetensors",
+      "model-00046-of-000163.safetensors",
+      "model-00047-of-000163.safetensors",
+      "model-00048-of-000163.safetensors",
+      "model-00049-of-000163.safetensors",
+      "model-00050-of-000163.safetensors",
+      "model-00051-of-000163.safetensors",
+      "model-00052-of-000163.safetensors",
+      "model-00053-of-000163.safetensors",
+      "model-00054-of-000163.safetensors",
+      "model-00055-of-000163.safetensors",
+      "model-00056-of-000163.safetensors",
+      "model-00057-of-000163.safetensors",
+      "model-00058-of-000163.safetensors",
+      "model-00059-of-000163.safetensors",
+      "model-00060-of-000163.safetensors",
+      "model-00061-of-000163.safetensors",
+      "model-00062-of-000163.safetensors",
+      "model-00063-of-000163.safetensors",
+      "model-00064-of-000163.safetensors",
+      "model-00065-of-000163.safetensors",
+      "model-00066-of-000163.safetensors",
+      "model-00067-of-000163.safetensors",
+      "model-00068-of-000163.safetensors",
+      "model-00069-of-000163.safetensors",
+      "model-00070-of-000163.safetensors",
+      "model-00071-of-000163.safetensors",
+      "model-00072-of-000163.safetensors",
+      "model-00073-of-000163.safetensors",
+      "model-00074-of-000163.safetensors",
+      "model-00075-of-000163.safetensors",
+      "model-00076-of-000163.safetensors",
+      "model-00077-of-000163.safetensors",
+      "model-00078-of-000163.safetensors",
+      "model-00079-of-000163.safetensors",
+      "model-00080-of-000163.safetensors",
+      "model-00081-of-000163.safetensors",
+      "model-00082-of-000163.safetensors",
+      "model-00083-of-000163.safetensors",
+      "model-00084-of-000163.safetensors",
+      "model-00085-of-000163.safetensors",
+      "model-00086-of-000163.safetensors",
+      "model-00087-of-000163.safetensors",
+      "model-00088-of-000163.safetensors",
+      "model-00089-of-000163.safetensors",
+      "model-00090-of-000163.safetensors",
+      "model-00091-of-000163.safetensors",
+      "model-00092-of-000163.safetensors",
+      "model-00093-of-000163.safetensors",
+      "model-00094-of-000163.safetensors",
+      "model-00095-of-000163.safetensors",
+      "model-00096-of-000163.safetensors",
+      "model-00097-of-000163.safetensors",
+      "model-00098-of-000163.safetensors",
+      "model-00099-of-000163.safetensors",
+      "model-00100-of-000163.safetensors",
+      "model-00101-of-000163.safetensors",
+      "model-00102-of-000163.safetensors",
+      "model-00103-of-000163.safetensors",
+      "model-00104-of-000163.safetensors",
+      "model-00105-of-000163.safetensors",
+      "model-00106-of-000163.safetensors",
+      "model-00107-of-000163.safetensors",
+      "model-00108-of-000163.safetensors",
+      "model-00109-of-000163.safetensors",
+      "model-00110-of-000163.safetensors",
+      "model-00111-of-000163.safetensors",
+      "model-00112-of-000163.safetensors",
+      "model-00113-of-000163.safetensors",
+      "model-00114-of-000163.safetensors",
+      "model-00115-of-000163.safetensors",
+      "model-00116-of-000163.safetensors",
+      "model-00117-of-000163.safetensors",
+      "model-00118-of-000163.safetensors",
+      "model-00119-of-000163.safetensors",
+      "model-00120-of-000163.safetensors",
+      "model-00121-of-000163.safetensors",
+      "model-00122-of-000163.safetensors",
+      "model-00123-of-000163.safetensors",
+      "model-00124-of-000163.safetensors",
+      "model-00125-of-000163.safetensors",
+      "model-00126-of-000163.safetensors",
+      "model-00127-of-000163.safetensors",
+      "model-00128-of-000163.safetensors",
+      "model-00129-of-000163.safetensors",
+      "model-00130-of-000163.safetensors",
+      "model-00131-of-000163.safetensors",
+      "model-00132-of-000163.safetensors",
+      "model-00133-of-000163.safetensors",
+      "model-00134-of-000163.safetensors",
+      "model-00135-of-000163.safetensors",
+      "model-00136-of-000163.safetensors",
+      "model-00137-of-000163.safetensors",
+      "model-00138-of-000163.safetensors",
+      "model-00139-of-000163.safetensors",
+      "model-00140-of-000163.safetensors",
+      "model-00141-of-000163.safetensors",
+      "model-00142-of-000163.safetensors",
+      "model-00143-of-000163.safetensors",
+      "model-00144-of-000163.safetensors",
+      "model-00145-of-000163.safetensors",
+      "model-00146-of-000163.safetensors",
+      "model-00147-of-000163.safetensors",
+      "model-00148-of-000163.safetensors",
+      "model-00149-of-000163.safetensors",
+      "model-00150-of-000163.safetensors",
+      "model-00151-of-000163.safetensors",
+      "model-00152-of-000163.safetensors",
+      "model-00153-of-000163.safetensors",
+      "model-00154-of-000163.safetensors",
+      "model-00155-of-000163.safetensors",
+      "model-00156-of-000163.safetensors",
+      "model-00157-of-000163.safetensors",
+      "model-00158-of-000163.safetensors",
+      "model-00159-of-000163.safetensors",
+      "model-00160-of-000163.safetensors",
+      "model-00161-of-000163.safetensors",
+      "model-00162-of-000163.safetensors",
+      "model-00163-of-000163.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 164,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": true,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16",
+      "F32",
+      "F8_E4M3"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1-0528",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "mit",
+    "name": "MIT",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528/blob/main/LICENSE",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under MIT conditions",
+      "basis": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528/blob/main/LICENSE"
+    },
+    "repository_license_files": [
+      "LICENSE"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-03",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528/blob/main/LICENSE"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 1369.06,
+      "fp8_int8": 684.53,
+      "int4": 342.27
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "DeepSeek-R1-0528",
+    "variant": "DeepSeek-R1-0528",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1-0528",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-03",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "deepseek-ai/DeepSeek-R1-0528",
+    "rank": 776,
+    "downloads": 163762,
+    "likes": 2464,
+    "last_modified": "2025-05-29T11:37:44+00:00",
+    "created_at": "2025-05-28T09:46:42+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "text-generation",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-05-29T11:37:44.000Z",
+    "created_at": "2025-05-28T09:46:42.000Z",
+    "downloads": 163762,
+    "likes": 2464,
+    "sha": "4236a6af538feda4548eca9ab308586007567f52",
+    "library_name": "transformers",
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "deepseek_v3",
+      "text-generation",
+      "conversational",
+      "custom_code",
+      "arxiv:2501.12948",
+      "license:mit",
+      "eval-results",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "fp8",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

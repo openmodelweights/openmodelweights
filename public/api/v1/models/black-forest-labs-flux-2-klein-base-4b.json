@@ -1,0 +1,240 @@
+{
+  "id": "black-forest-labs-flux-2-klein-base-4b",
+  "name": "FLUX.2-klein-base-4B",
+  "developer": "Black Forest Labs",
+  "family": "FLUX.2-klein-base",
+  "variant": "FLUX.2-klein-base-4B",
+  "model": {
+    "parameters": "3.87554B",
+    "total_parameters_billions": 3.875544576,
+    "context": {
+      "value": null,
+      "display": "Not declared in checked config/model card",
+      "status": "not-disclosed",
+      "evidence": []
+    },
+    "modality": "Image → image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "image-editing",
+      "flux",
+      "diffusion-single-file",
+      "image-to-image",
+      "en",
+      "license:apache-2.0",
+      "diffusers:Flux2KleinPipeline",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+    "access": "public",
+    "exact_files": [
+      "flux-2-klein-base-4b.safetensors",
+      "text_encoder/model-00001-of-00002.safetensors",
+      "text_encoder/model-00002-of-00002.safetensors",
+      "text_encoder/model.safetensors.index.json",
+      "transformer/diffusion_pytorch_model.safetensors",
+      "vae/diffusion_pytorch_model.safetensors"
+    ],
+    "file_count": 6,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-base-4B",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": "apache-2.0",
+    "name": "Apache-2.0",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/blob/main/LICENSE.md",
+    "status": "verified",
+    "commercial_use": {
+      "status": "allowed",
+      "label": "Commercial use allowed under Apache-2.0 conditions",
+      "basis": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/blob/main/LICENSE.md"
+    },
+    "repository_license_files": [
+      "LICENSE.md"
+    ],
+    "verification": {
+      "status": "license-file-checked",
+      "checked_at": "2026-10-03",
+      "source": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/blob/main/LICENSE.md"
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 7.75,
+      "fp8_int8": 3.88,
+      "int4": 1.94
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "FLUX.2-klein-base",
+    "variant": "FLUX.2-klein-base-4B",
+    "base_model": {
+      "status": "not-declared",
+      "models": [],
+      "relation": null,
+      "evidence": []
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-base-4B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/blob/main/config.json",
+      "tier": "primary",
+      "available": false
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
+    "readme_accessible": true,
+    "config_accessible": false,
+    "fields": {
+      "license": "verified",
+      "commercial_use": "classified",
+      "context": "not-disclosed",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "not-declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-03",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "black-forest-labs/FLUX.2-klein-base-4B",
+    "rank": 812,
+    "downloads": 305941,
+    "likes": 175,
+    "last_modified": "2026-02-24T00:20:58+00:00",
+    "created_at": "2026-01-14T13:42:28+00:00",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-image",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Diffusers",
+    "pipeline_tag": "image-to-image",
+    "declared": [
+      "Diffusers"
+    ],
+    "mentioned_in_model_card": [],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2026-02-24T00:20:58.000Z",
+    "created_at": "2026-01-14T13:42:28.000Z",
+    "downloads": 305941,
+    "likes": 175,
+    "sha": "a3b4f4849157f664bdbc776fd7453c2783562f4d",
+    "library_name": "diffusers",
+    "pipeline_tag": "image-to-image",
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "text-to-image",
+      "image-editing",
+      "flux",
+      "diffusion-single-file",
+      "image-to-image",
+      "en",
+      "license:apache-2.0",
+      "diffusers:Flux2KleinPipeline",
+      "deploy:sagemaker",
+      "region:us"
+    ]
+  }
+}

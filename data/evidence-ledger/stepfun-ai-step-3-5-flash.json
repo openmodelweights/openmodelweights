@@ -1,0 +1,165 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "stepfun-ai-step-3-5-flash",
+  "created_at": "2026-10-03T11:14:05+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "ab446a3de5e1-9bcd6207f6",
+      "observed_at": "2026-10-03T11:14:05+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "ab446a3de5e171ea341227e24bb1f090e1b771f7",
+      "evidence_hash": "9bcd6207f69f77b0a2d2bd592b9e0d2fa14c57cc9f9217e568aa39bef90b1ef9",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-03",
+      "source_repository": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/stepfun-ai/Step-3.5-Flash",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash/blob/main/config.json",
+          "tier": "primary",
+          "available": true
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "Step-3.5-Flash",
+          "developer": "stepfun-ai",
+          "family": "Step-3.5-Flash",
+          "variant": "Step-3.5-Flash"
+        },
+        "model": {
+          "parameters": "199.384B",
+          "total_parameters_billions": 199.384301376,
+          "context_tokens": 262144,
+          "context_display": "262,144 tokens",
+          "modality": "Text"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": null,
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+          "access": "public",
+          "file_count": 45,
+          "exact_files": [
+            "model-00001.safetensors",
+            "model-00002.safetensors",
+            "model-00003.safetensors",
+            "model-00004.safetensors",
+            "model-00005.safetensors",
+            "model-00006.safetensors",
+            "model-00007.safetensors",
+            "model-00008.safetensors",
+            "model-00009.safetensors",
+            "model-00010.safetensors",
+            "model-00011.safetensors",
+            "model-00012.safetensors",
+            "model-00013.safetensors",
+            "model-00014.safetensors",
+            "model-00015.safetensors",
+            "model-00016.safetensors",
+            "model-00017.safetensors",
+            "model-00018.safetensors",
+            "model-00019.safetensors",
+            "model-00020.safetensors",
+            "model-00021.safetensors",
+            "model-00022.safetensors",
+            "model-00023.safetensors",
+            "model-00024.safetensors",
+            "model-00025.safetensors",
+            "model-00026.safetensors",
+            "model-00027.safetensors",
+            "model-00028.safetensors",
+            "model-00029.safetensors",
+            "model-00030.safetensors",
+            "model-00031.safetensors",
+            "model-00032.safetensors",
+            "model-00033.safetensors",
+            "model-00034.safetensors",
+            "model-00035.safetensors",
+            "model-00036.safetensors",
+            "model-00037.safetensors",
+            "model-00038.safetensors",
+            "model-00039.safetensors",
+            "model-00040.safetensors",
+            "model-00041.safetensors",
+            "model-00042.safetensors",
+            "model-00043.safetensors",
+            "model-00044.safetensors",
+            "model.safetensors.index.json"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [
+            "stepfun-ai/step-3.5-flash"
+          ],
+          "base_status": "declared"
+        },
+        "training": {
+          "recipe_status": "training-or-recipe-links-present",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "SGLang",
+            "Transformers",
+            "llama.cpp",
+            "vLLM"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 398.77,
+            "fp8_int8": 199.38,
+            "int4": 99.69
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "ab446a3de5e171ea341227e24bb1f090e1b771f7",
+          "created_at": "2026-02-01T08:03:45.000Z",
+          "last_modified": "2026-03-17T05:54:33.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "Step-3.5-Flash",
+  "developer": "stepfun-ai",
+  "source_repository": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+  "current_repository_sha": "ab446a3de5e171ea341227e24bb1f090e1b771f7",
+  "last_registry_check": "2026-10-03",
+  "last_full_field_verification": "2026-10-03",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/stepfun-ai-step-3-5-flash/history/",
+  "diff_url": "https://openmodelweights.com/diff/stepfun-ai-step-3-5-flash/"
+}

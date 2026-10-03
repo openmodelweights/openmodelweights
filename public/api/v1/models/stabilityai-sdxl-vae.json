@@ -87,7 +87,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -151,11 +151,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:43:54+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -171,12 +171,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -185,14 +185,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "stabilityai/sdxl-vae",
-    "rank": 778,
-    "downloads": 236812,
+    "rank": 770,
+    "downloads": 235648,
     "likes": 778,
     "last_modified": "2023-08-04T10:12:16+00:00",
     "created_at": "2023-06-21T17:47:40+00:00",
     "library_name": "diffusers",
     "pipeline_tag": null,
-    "discovered_at": "2026-10-02T15:43:52+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -208,7 +208,7 @@
   "hub": {
     "last_modified": "2023-08-04T10:12:16.000Z",
     "created_at": "2023-06-21T17:47:40.000Z",
-    "downloads": 236812,
+    "downloads": 235648,
     "likes": 778,
     "sha": "6f5909a7e596173e25d4e97b07fd19cdf9611c76",
     "library_name": "diffusers",

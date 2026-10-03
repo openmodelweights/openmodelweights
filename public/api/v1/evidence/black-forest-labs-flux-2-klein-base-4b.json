@@ -1,0 +1,121 @@
+{
+  "ledger_version": "1.0.0",
+  "model_id": "black-forest-labs-flux-2-klein-base-4b",
+  "created_at": "2026-10-03T11:14:05+00:00",
+  "snapshots": [
+    {
+      "snapshot_id": "a3b4f4849157-bf8f7d82f1",
+      "observed_at": "2026-10-03T11:14:05+00:00",
+      "kind": "observed-baseline",
+      "repository_sha": "a3b4f4849157f664bdbc776fd7453c2783562f4d",
+      "evidence_hash": "bf8f7d82f174a9be6af7c501ffe23eb76f45ec66283271c586e5134ca896f23e",
+      "verification_mode": "full-field-verification",
+      "full_verified_at": "2026-10-03",
+      "source_repository": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+      "sources": [
+        {
+          "type": "model_repository",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_api",
+          "url": "https://huggingface.co/api/models/black-forest-labs/FLUX.2-klein-base-4B",
+          "tier": "primary"
+        },
+        {
+          "type": "model_card",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/blob/main/README.md",
+          "tier": "primary",
+          "available": true
+        },
+        {
+          "type": "config",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/blob/main/config.json",
+          "tier": "primary",
+          "available": false
+        }
+      ],
+      "fields": {
+        "identity": {
+          "name": "FLUX.2-klein-base-4B",
+          "developer": "Black Forest Labs",
+          "family": "FLUX.2-klein-base",
+          "variant": "FLUX.2-klein-base-4B"
+        },
+        "model": {
+          "parameters": "3.87554B",
+          "total_parameters_billions": 3.875544576,
+          "context_tokens": null,
+          "context_display": "Not declared in checked config/model card",
+          "modality": "Image → image"
+        },
+        "license": {
+          "name": "Apache-2.0",
+          "id": "apache-2.0",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B/blob/main/LICENSE.md",
+          "commercial_use_status": "allowed",
+          "commercial_use_label": "Commercial use allowed under Apache-2.0 conditions"
+        },
+        "weights": {
+          "repository": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+          "access": "public",
+          "file_count": 6,
+          "exact_files": [
+            "flux-2-klein-base-4b.safetensors",
+            "text_encoder/model-00001-of-00002.safetensors",
+            "text_encoder/model-00002-of-00002.safetensors",
+            "text_encoder/model.safetensors.index.json",
+            "transformer/diffusion_pytorch_model.safetensors",
+            "vae/diffusion_pytorch_model.safetensors"
+          ],
+          "formats": [
+            "Safetensors"
+          ],
+          "precision": [
+            "bf16"
+          ]
+        },
+        "lineage": {
+          "base_models": [],
+          "base_status": "not-declared"
+        },
+        "training": {
+          "recipe_status": "not-disclosed-in-checked-repository",
+          "data_status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+          "datasets": []
+        },
+        "runtime": {
+          "signals": [
+            "Diffusers"
+          ]
+        },
+        "hardware": {
+          "weight_only_gb": {
+            "bf16_fp16": 7.75,
+            "fp8_int8": 3.88,
+            "int4": 1.94
+          },
+          "status": "estimated"
+        },
+        "hub": {
+          "sha": "a3b4f4849157f664bdbc776fd7453c2783562f4d",
+          "created_at": "2026-01-14T13:42:28.000Z",
+          "last_modified": "2026-02-24T00:20:58.000Z"
+        }
+      }
+    }
+  ],
+  "diffs": [],
+  "model_name": "FLUX.2-klein-base-4B",
+  "developer": "Black Forest Labs",
+  "source_repository": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+  "current_repository_sha": "a3b4f4849157f664bdbc776fd7453c2783562f4d",
+  "last_registry_check": "2026-10-03",
+  "last_full_field_verification": "2026-10-03",
+  "status": "active",
+  "snapshot_count": 1,
+  "diff_count": 0,
+  "history_url": "https://openmodelweights.com/models/black-forest-labs-flux-2-klein-base-4b/history/",
+  "diff_url": "https://openmodelweights.com/diff/black-forest-labs-flux-2-klein-base-4b/"
+}

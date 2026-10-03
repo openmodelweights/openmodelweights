@@ -88,7 +88,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -154,11 +154,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:15:28+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -174,12 +174,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -188,14 +188,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "Musixmatch/umberto-commoncrawl-cased-v1",
-    "rank": 762,
-    "downloads": 734088,
+    "rank": 773,
+    "downloads": 702765,
     "likes": 19,
     "last_modified": "2021-02-12T11:31:59+00:00",
     "created_at": "2022-03-02T23:29:04+00:00",
     "library_name": "transformers",
     "pipeline_tag": "fill-mask",
-    "discovered_at": "2026-10-02T16:15:26+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -211,7 +211,7 @@
   "hub": {
     "last_modified": "2021-02-12T11:31:59.000Z",
     "created_at": "2022-03-02T23:29:04.000Z",
-    "downloads": 734088,
+    "downloads": 702765,
     "likes": 19,
     "sha": "fe7b14808cccbbe2984b05e6fbfd71127f11008f",
     "library_name": "transformers",

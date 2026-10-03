@@ -101,7 +101,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -174,11 +174,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:43:54+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -194,12 +194,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -208,14 +208,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "openai/whisper-medium",
-    "rank": 786,
-    "downloads": 303855,
+    "rank": 771,
+    "downloads": 311106,
     "likes": 305,
     "last_modified": "2024-02-29T10:57:42+00:00",
     "created_at": "2022-09-26T06:52:52+00:00",
     "library_name": "transformers",
     "pipeline_tag": "automatic-speech-recognition",
-    "discovered_at": "2026-10-02T15:43:52+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -231,7 +231,7 @@
   "hub": {
     "last_modified": "2024-02-29T10:57:42.000Z",
     "created_at": "2022-09-26T06:52:52.000Z",
-    "downloads": 303855,
+    "downloads": 311106,
     "likes": 305,
     "sha": "abdf7c39ab9d0397620ccaea8974cc764cd0953e",
     "library_name": "transformers",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:06:08+00:00",
+  "generated_at": "2026-10-03T11:14:05+00:00",
   "model_count": 700,
   "models": [
     {
@@ -4449,447 +4449,6 @@
       "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-deberta-v3-large.json"
     },
     {
-      "id": "tiiuae-falcon-7b",
-      "name": "falcon-7b",
-      "developer": "Technology Innovation Institute",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/tiiuae-falcon-7b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/tiiuae-falcon-7b.json"
-    },
-    {
-      "id": "comfy-org-pixal3d",
-      "name": "Pixal3D",
-      "developer": "Comfy-Org",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/comfy-org-pixal3d/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/comfy-org-pixal3d.json"
-    },
-    {
-      "id": "cmsmanhattan-jirackultra-1b",
-      "name": "JiRackUltra_1b",
-      "developer": "CMSManhattan",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/cmsmanhattan-jirackultra-1b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/cmsmanhattan-jirackultra-1b.json"
-    },
-    {
-      "id": "mistralai-mistral-nemo-instruct-2407",
-      "name": "Mistral-Nemo-Instruct-2407",
-      "developer": "Mistral AI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/mistralai-mistral-nemo-instruct-2407/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/mistralai-mistral-nemo-instruct-2407.json"
-    },
-    {
-      "id": "microsoft-resnet-50",
-      "name": "resnet-50",
-      "developer": "Microsoft",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/microsoft-resnet-50/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-resnet-50.json"
-    },
-    {
-      "id": "ai-sage-gigaam-v3",
-      "name": "GigaAM-v3",
-      "developer": "ai-sage",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/ai-sage-gigaam-v3/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/ai-sage-gigaam-v3.json"
-    },
-    {
-      "id": "eleutherai-gpt-j-6b",
-      "name": "gpt-j-6b",
-      "developer": "EleutherAI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/eleutherai-gpt-j-6b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/eleutherai-gpt-j-6b.json"
-    },
-    {
-      "id": "systran-faster-whisper-medium",
-      "name": "faster-whisper-medium",
-      "developer": "Systran",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/systran-faster-whisper-medium/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/systran-faster-whisper-medium.json"
-    },
-    {
-      "id": "eleutherai-gpt-neox-20b",
-      "name": "gpt-neox-20b",
-      "developer": "EleutherAI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/eleutherai-gpt-neox-20b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/eleutherai-gpt-neox-20b.json"
-    },
-    {
-      "id": "zai-org-glm-5-2-fp8",
-      "name": "GLM-5.2-FP8",
-      "developer": "Z.ai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/zai-org-glm-5-2-fp8/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/zai-org-glm-5-2-fp8.json"
-    },
-    {
-      "id": "swiss-ai-apertus-v1-5-8b",
-      "name": "Apertus-v1.5-8B",
-      "developer": "swiss-ai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/swiss-ai-apertus-v1-5-8b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/swiss-ai-apertus-v1-5-8b.json"
-    },
-    {
-      "id": "zed-industries-zeta",
-      "name": "zeta",
-      "developer": "zed-industries",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/zed-industries-zeta/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/zed-industries-zeta.json"
-    },
-    {
-      "id": "lykon-dreamshaper-7",
-      "name": "dreamshaper-7",
-      "developer": "Lykon",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/lykon-dreamshaper-7/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/lykon-dreamshaper-7.json"
-    },
-    {
-      "id": "lightricks-ltx-2",
-      "name": "LTX-2",
-      "developer": "Lightricks",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/lightricks-ltx-2/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/lightricks-ltx-2.json"
-    },
-    {
-      "id": "deepseek-ai-deepseek-coder-7b-instruct-v1-5",
-      "name": "deepseek-coder-7b-instruct-v1.5",
-      "developer": "DeepSeek",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/deepseek-ai-deepseek-coder-7b-instruct-v1-5/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/deepseek-ai-deepseek-coder-7b-instruct-v1-5.json"
-    },
-    {
-      "id": "helsinki-nlp-opus-mt-fr-en",
-      "name": "opus-mt-fr-en",
-      "developer": "Helsinki-NLP",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/helsinki-nlp-opus-mt-fr-en/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/helsinki-nlp-opus-mt-fr-en.json"
-    },
-    {
-      "id": "nvidia-dragon-multiturn-context-encoder",
-      "name": "dragon-multiturn-context-encoder",
-      "developer": "NVIDIA",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/nvidia-dragon-multiturn-context-encoder/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-dragon-multiturn-context-encoder.json"
-    },
-    {
-      "id": "intfloat-e5-small-v2",
-      "name": "e5-small-v2",
-      "developer": "intfloat",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/intfloat-e5-small-v2/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/intfloat-e5-small-v2.json"
-    },
-    {
-      "id": "ai4bharat-indic-conformer-600m-multilingual",
-      "name": "indic-conformer-600m-multilingual",
-      "developer": "ai4bharat",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/ai4bharat-indic-conformer-600m-multilingual/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/ai4bharat-indic-conformer-600m-multilingual.json"
-    },
-    {
-      "id": "babelscape-wikineural-multilingual-ner",
-      "name": "wikineural-multilingual-ner",
-      "developer": "Babelscape",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/babelscape-wikineural-multilingual-ner/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/babelscape-wikineural-multilingual-ner.json"
-    },
-    {
-      "id": "snowflake-snowflake-arctic-embed-l",
-      "name": "snowflake-arctic-embed-l",
-      "developer": "Snowflake",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/snowflake-snowflake-arctic-embed-l/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/snowflake-snowflake-arctic-embed-l.json"
-    },
-    {
-      "id": "comfy-org-flux1-schnell",
-      "name": "flux1-schnell",
-      "developer": "Comfy-Org",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/comfy-org-flux1-schnell/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/comfy-org-flux1-schnell.json"
-    },
-    {
-      "id": "neoquasar-kronos-small",
-      "name": "Kronos-small",
-      "developer": "NeoQuasar",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/neoquasar-kronos-small/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/neoquasar-kronos-small.json"
-    },
-    {
-      "id": "dbmdz-bert-large-cased-finetuned-conll03-english",
-      "name": "bert-large-cased-finetuned-conll03-english",
-      "developer": "dbmdz",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/dbmdz-bert-large-cased-finetuned-conll03-english/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/dbmdz-bert-large-cased-finetuned-conll03-english.json"
-    },
-    {
-      "id": "timm-tf-efficientnetv2-s-in21k-ft-in1k",
-      "name": "tf_efficientnetv2_s.in21k_ft_in1k",
-      "developer": "timm",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/timm-tf-efficientnetv2-s-in21k-ft-in1k/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/timm-tf-efficientnetv2-s-in21k-ft-in1k.json"
-    },
-    {
-      "id": "distilbert-distilbert-base-multilingual-cased",
-      "name": "distilbert-base-multilingual-cased",
-      "developer": "distilbert",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/distilbert-distilbert-base-multilingual-cased/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/distilbert-distilbert-base-multilingual-cased.json"
-    },
-    {
-      "id": "smilingwolf-wd-swinv2-tagger-v3",
-      "name": "wd-swinv2-tagger-v3",
-      "developer": "SmilingWolf",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/smilingwolf-wd-swinv2-tagger-v3/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/smilingwolf-wd-swinv2-tagger-v3.json"
-    },
-    {
-      "id": "meta-llama-meta-llama-3-8b",
-      "name": "Meta-Llama-3-8B",
-      "developer": "Meta",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/meta-llama-meta-llama-3-8b/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/meta-llama-meta-llama-3-8b.json"
-    },
-    {
-      "id": "openbmb-minicpm5-2b-dspark",
-      "name": "MiniCPM5-2B-DSpark",
-      "developer": "openbmb",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/openbmb-minicpm5-2b-dspark/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/openbmb-minicpm5-2b-dspark.json"
-    },
-    {
-      "id": "openbmb-minicpm-o-2-6",
-      "name": "MiniCPM-o-2_6",
-      "developer": "openbmb",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/openbmb-minicpm-o-2-6/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/openbmb-minicpm-o-2-6.json"
-    },
-    {
-      "id": "bigscience-bloom-560m",
-      "name": "bloom-560m",
-      "developer": "BigScience",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/bigscience-bloom-560m/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/bigscience-bloom-560m.json"
-    },
-    {
-      "id": "hustvl-yolos-small",
-      "name": "yolos-small",
-      "developer": "hustvl",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/hustvl-yolos-small/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/hustvl-yolos-small.json"
-    },
-    {
-      "id": "openbmb-minicpm-v-4-6",
-      "name": "MiniCPM-V-4.6",
-      "developer": "openbmb",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/openbmb-minicpm-v-4-6/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/openbmb-minicpm-v-4-6.json"
-    },
-    {
-      "id": "amazon-chronos-t5-tiny",
-      "name": "chronos-t5-tiny",
-      "developer": "amazon",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/amazon-chronos-t5-tiny/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/amazon-chronos-t5-tiny.json"
-    },
-    {
-      "id": "timm-vit-small-patch14-dinov2-lvd142m",
-      "name": "vit_small_patch14_dinov2.lvd142m",
-      "developer": "timm",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/timm-vit-small-patch14-dinov2-lvd142m/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/timm-vit-small-patch14-dinov2-lvd142m.json"
-    },
-    {
-      "id": "zai-org-glm-5-1",
-      "name": "GLM-5.1",
-      "developer": "Z.ai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/zai-org-glm-5-1/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/zai-org-glm-5-1.json"
-    },
-    {
-      "id": "microsoft-phi-4-mini-instruct",
-      "name": "Phi-4-mini-instruct",
-      "developer": "Microsoft",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/microsoft-phi-4-mini-instruct/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-phi-4-mini-instruct.json"
-    },
-    {
-      "id": "facebook-dinov3-vitb16-pretrain-lvd1689m",
-      "name": "dinov3-vitb16-pretrain-lvd1689m",
-      "developer": "Meta",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/facebook-dinov3-vitb16-pretrain-lvd1689m/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-dinov3-vitb16-pretrain-lvd1689m.json"
-    },
-    {
-      "id": "microsoft-deberta-v3-small",
-      "name": "deberta-v3-small",
-      "developer": "Microsoft",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/microsoft-deberta-v3-small/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-deberta-v3-small.json"
-    },
-    {
-      "id": "taylorai-bge-micro-v2",
-      "name": "bge-micro-v2",
-      "developer": "TaylorAI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/taylorai-bge-micro-v2/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/taylorai-bge-micro-v2.json"
-    },
-    {
-      "id": "tencent-hy3",
-      "name": "Hy3",
-      "developer": "Tencent",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/tencent-hy3/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/tencent-hy3.json"
-    },
-    {
-      "id": "nvidia-llama-nemotron-rerank-1b-v2",
-      "name": "llama-nemotron-rerank-1b-v2",
-      "developer": "NVIDIA",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/nvidia-llama-nemotron-rerank-1b-v2/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-llama-nemotron-rerank-1b-v2.json"
-    },
-    {
-      "id": "jhgan-ko-sroberta-multitask",
-      "name": "ko-sroberta-multitask",
-      "developer": "jhgan",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/jhgan-ko-sroberta-multitask/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/jhgan-ko-sroberta-multitask.json"
-    },
-    {
-      "id": "unsloth-qwen3-6-35b-a3b-nvfp4-fast",
-      "name": "Qwen3.6-35B-A3B-NVFP4-Fast",
-      "developer": "unsloth",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/unsloth-qwen3-6-35b-a3b-nvfp4-fast/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/unsloth-qwen3-6-35b-a3b-nvfp4-fast.json"
-    },
-    {
-      "id": "google-flan-t5-small",
-      "name": "flan-t5-small",
-      "developer": "Google",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/google-flan-t5-small/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/google-flan-t5-small.json"
-    },
-    {
-      "id": "laion-clip-convnext-base-w-laion2b-s13b-b82k-augreg",
-      "name": "CLIP-convnext_base_w-laion2B-s13B-b82K-augreg",
-      "developer": "laion",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/laion-clip-convnext-base-w-laion2b-s13b-b82k-augreg/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/laion-clip-convnext-base-w-laion2b-s13b-b82k-augreg.json"
-    },
-    {
-      "id": "lightricks-ltx-2-3-fp8",
-      "name": "LTX-2.3-fp8",
-      "developer": "Lightricks",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/lightricks-ltx-2-3-fp8/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/lightricks-ltx-2-3-fp8.json"
-    },
-    {
-      "id": "unitary-unbiased-toxic-roberta",
-      "name": "unbiased-toxic-roberta",
-      "developer": "unitary",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/unitary-unbiased-toxic-roberta/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/unitary-unbiased-toxic-roberta.json"
-    },
-    {
-      "id": "briaai-rmbg-1-4",
-      "name": "RMBG-1.4",
-      "developer": "briaai",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/briaai-rmbg-1-4/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/briaai-rmbg-1-4.json"
-    },
-    {
       "id": "nvidia-qwen2-5-vl-7b-instruct-nvfp4",
       "name": "Qwen2.5-VL-7B-Instruct-NVFP4",
       "developer": "NVIDIA",
@@ -6301,6 +5860,447 @@
       "diff_count": 0,
       "history_url": "https://openmodelweights.com/models/nvidia-segformer-b0-finetuned-ade-512-512/history/",
       "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-segformer-b0-finetuned-ade-512-512.json"
+    },
+    {
+      "id": "mrm8488-distilroberta-finetuned-financial-news-sentiment-analysis",
+      "name": "distilroberta-finetuned-financial-news-sentiment-analysis",
+      "developer": "mrm8488",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/mrm8488-distilroberta-finetuned-financial-news-sentiment-analysis/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/mrm8488-distilroberta-finetuned-financial-news-sentiment-analysis.json"
+    },
+    {
+      "id": "cross-encoder-ms-marco-electra-base",
+      "name": "ms-marco-electra-base",
+      "developer": "cross-encoder",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/cross-encoder-ms-marco-electra-base/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/cross-encoder-ms-marco-electra-base.json"
+    },
+    {
+      "id": "sicariussicariistuff-assistant-pepe-8b",
+      "name": "Assistant_Pepe_8B",
+      "developer": "SicariusSicariiStuff",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/sicariussicariistuff-assistant-pepe-8b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/sicariussicariistuff-assistant-pepe-8b.json"
+    },
+    {
+      "id": "stabilityai-sdxl-vae",
+      "name": "sdxl-vae",
+      "developer": "Stability AI",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/stabilityai-sdxl-vae/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/stabilityai-sdxl-vae.json"
+    },
+    {
+      "id": "openai-whisper-medium",
+      "name": "whisper-medium",
+      "developer": "OpenAI",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/openai-whisper-medium/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/openai-whisper-medium.json"
+    },
+    {
+      "id": "openmoss-team-moss-transcribe-diarize",
+      "name": "MOSS-Transcribe-Diarize",
+      "developer": "OpenMOSS-Team",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/openmoss-team-moss-transcribe-diarize/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/openmoss-team-moss-transcribe-diarize.json"
+    },
+    {
+      "id": "musixmatch-umberto-commoncrawl-cased-v1",
+      "name": "umberto-commoncrawl-cased-v1",
+      "developer": "Musixmatch",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/musixmatch-umberto-commoncrawl-cased-v1/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/musixmatch-umberto-commoncrawl-cased-v1.json"
+    },
+    {
+      "id": "alefiury-wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+      "name": "wav2vec2-large-xlsr-53-gender-recognition-librispeech",
+      "developer": "alefiury",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/alefiury-wav2vec2-large-xlsr-53-gender-recognition-librispeech/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/alefiury-wav2vec2-large-xlsr-53-gender-recognition-librispeech.json"
+    },
+    {
+      "id": "setu4993-labse",
+      "name": "LaBSE",
+      "developer": "setu4993",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/setu4993-labse/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/setu4993-labse.json"
+    },
+    {
+      "id": "deepseek-ai-deepseek-r1-0528",
+      "name": "DeepSeek-R1-0528",
+      "developer": "DeepSeek",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/deepseek-ai-deepseek-r1-0528/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/deepseek-ai-deepseek-r1-0528.json"
+    },
+    {
+      "id": "dccuchile-bert-base-spanish-wwm-uncased",
+      "name": "bert-base-spanish-wwm-uncased",
+      "developer": "dccuchile",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/dccuchile-bert-base-spanish-wwm-uncased/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/dccuchile-bert-base-spanish-wwm-uncased.json"
+    },
+    {
+      "id": "thinkingmachines-inkling-small-nvfp4",
+      "name": "Inkling-Small-NVFP4",
+      "developer": "thinkingmachines",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/thinkingmachines-inkling-small-nvfp4/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/thinkingmachines-inkling-small-nvfp4.json"
+    },
+    {
+      "id": "utter-project-eurollm-22b-instruct-2512",
+      "name": "EuroLLM-22B-Instruct-2512",
+      "developer": "utter-project",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/utter-project-eurollm-22b-instruct-2512/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/utter-project-eurollm-22b-instruct-2512.json"
+    },
+    {
+      "id": "google-bert-bert-large-cased",
+      "name": "bert-large-cased",
+      "developer": "google-bert",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/google-bert-bert-large-cased/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/google-bert-bert-large-cased.json"
+    },
+    {
+      "id": "ai4bharat-indic-parler-tts",
+      "name": "indic-parler-tts",
+      "developer": "ai4bharat",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/ai4bharat-indic-parler-tts/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/ai4bharat-indic-parler-tts.json"
+    },
+    {
+      "id": "cmsmanhattan-jirackultra-14b",
+      "name": "JiRackUltra_14b",
+      "developer": "CMSManhattan",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/cmsmanhattan-jirackultra-14b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/cmsmanhattan-jirackultra-14b.json"
+    },
+    {
+      "id": "trl-internal-testing-tiny-qwen2forsequenceclassification-2-5",
+      "name": "tiny-Qwen2ForSequenceClassification-2.5",
+      "developer": "trl-internal-testing",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/trl-internal-testing-tiny-qwen2forsequenceclassification-2-5/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/trl-internal-testing-tiny-qwen2forsequenceclassification-2-5.json"
+    },
+    {
+      "id": "sentence-transformers-nli-mpnet-base-v2",
+      "name": "nli-mpnet-base-v2",
+      "developer": "Sentence Transformers",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/sentence-transformers-nli-mpnet-base-v2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/sentence-transformers-nli-mpnet-base-v2.json"
+    },
+    {
+      "id": "hustvl-vitmatte-small-composition-1k",
+      "name": "vitmatte-small-composition-1k",
+      "developer": "hustvl",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/hustvl-vitmatte-small-composition-1k/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/hustvl-vitmatte-small-composition-1k.json"
+    },
+    {
+      "id": "voyageai-voyage-4-nano",
+      "name": "voyage-4-nano",
+      "developer": "voyageai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/voyageai-voyage-4-nano/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/voyageai-voyage-4-nano.json"
+    },
+    {
+      "id": "ornith-ai-ornith-1-5-397b",
+      "name": "Ornith-1.5-397B",
+      "developer": "ornith-ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/ornith-ai-ornith-1-5-397b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/ornith-ai-ornith-1-5-397b.json"
+    },
+    {
+      "id": "comfy-org-yue2",
+      "name": "YuE2",
+      "developer": "Comfy-Org",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/comfy-org-yue2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/comfy-org-yue2.json"
+    },
+    {
+      "id": "baai-bge-multilingual-gemma2",
+      "name": "bge-multilingual-gemma2",
+      "developer": "BAAI",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/baai-bge-multilingual-gemma2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/baai-bge-multilingual-gemma2.json"
+    },
+    {
+      "id": "fastvideo-fastvideo-fasth3-comfy",
+      "name": "FastVideo-FastH3-Comfy",
+      "developer": "FastVideo",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/fastvideo-fastvideo-fasth3-comfy/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/fastvideo-fastvideo-fasth3-comfy.json"
+    },
+    {
+      "id": "microsoft-vibevoice-realtime-0-5b",
+      "name": "VibeVoice-Realtime-0.5B",
+      "developer": "Microsoft",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/microsoft-vibevoice-realtime-0-5b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-vibevoice-realtime-0-5b.json"
+    },
+    {
+      "id": "cross-encoder-ms-marco-tinybert-l2-v2",
+      "name": "ms-marco-TinyBERT-L2-v2",
+      "developer": "cross-encoder",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/cross-encoder-ms-marco-tinybert-l2-v2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/cross-encoder-ms-marco-tinybert-l2-v2.json"
+    },
+    {
+      "id": "xenova-paraphrase-multilingual-minilm-l12-v2",
+      "name": "paraphrase-multilingual-MiniLM-L12-v2",
+      "developer": "Xenova",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/xenova-paraphrase-multilingual-minilm-l12-v2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/xenova-paraphrase-multilingual-minilm-l12-v2.json"
+    },
+    {
+      "id": "stepfun-ai-step-3-5-flash",
+      "name": "Step-3.5-Flash",
+      "developer": "stepfun-ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/stepfun-ai-step-3-5-flash/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/stepfun-ai-step-3-5-flash.json"
+    },
+    {
+      "id": "huggyllama-llama-7b",
+      "name": "llama-7b",
+      "developer": "huggyllama",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/huggyllama-llama-7b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/huggyllama-llama-7b.json"
+    },
+    {
+      "id": "yikuan8-clinical-longformer",
+      "name": "Clinical-Longformer",
+      "developer": "yikuan8",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/yikuan8-clinical-longformer/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/yikuan8-clinical-longformer.json"
+    },
+    {
+      "id": "emrecan-bert-base-turkish-cased-mean-nli-stsb-tr",
+      "name": "bert-base-turkish-cased-mean-nli-stsb-tr",
+      "developer": "emrecan",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/emrecan-bert-base-turkish-cased-mean-nli-stsb-tr/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/emrecan-bert-base-turkish-cased-mean-nli-stsb-tr.json"
+    },
+    {
+      "id": "ornith-ai-ornith-1-5-35b-a3b-fp8",
+      "name": "Ornith-1.5-35B-A3B-FP8",
+      "developer": "ornith-ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/ornith-ai-ornith-1-5-35b-a3b-fp8/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/ornith-ai-ornith-1-5-35b-a3b-fp8.json"
+    },
+    {
+      "id": "facebook-fasttext-language-identification",
+      "name": "fasttext-language-identification",
+      "developer": "Meta",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/facebook-fasttext-language-identification/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-fasttext-language-identification.json"
+    },
+    {
+      "id": "moka-ai-m3e-base",
+      "name": "m3e-base",
+      "developer": "moka-ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/moka-ai-m3e-base/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/moka-ai-m3e-base.json"
+    },
+    {
+      "id": "comfy-org-hunyuanvideo-repackaged",
+      "name": "HunyuanVideo_repackaged",
+      "developer": "Comfy-Org",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/comfy-org-hunyuanvideo-repackaged/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/comfy-org-hunyuanvideo-repackaged.json"
+    },
+    {
+      "id": "nvidia-nvidia-nemotron-3-nano-30b-a3b-fp8",
+      "name": "NVIDIA-Nemotron-3-Nano-30B-A3B-FP8",
+      "developer": "NVIDIA",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/nvidia-nvidia-nemotron-3-nano-30b-a3b-fp8/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-nvidia-nemotron-3-nano-30b-a3b-fp8.json"
+    },
+    {
+      "id": "minishlab-potion-base-8m",
+      "name": "potion-base-8M",
+      "developer": "minishlab",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/minishlab-potion-base-8m/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/minishlab-potion-base-8m.json"
+    },
+    {
+      "id": "google-gemma-4-e2b",
+      "name": "gemma-4-E2B",
+      "developer": "Google",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/google-gemma-4-e2b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/google-gemma-4-e2b.json"
+    },
+    {
+      "id": "google-gemma-4-31b-it-assistant",
+      "name": "gemma-4-31B-it-assistant",
+      "developer": "Google",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/google-gemma-4-31b-it-assistant/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/google-gemma-4-31b-it-assistant.json"
+    },
+    {
+      "id": "google-bert-bert-base-german-cased",
+      "name": "bert-base-german-cased",
+      "developer": "google-bert",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/google-bert-bert-base-german-cased/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/google-bert-bert-base-german-cased.json"
+    },
+    {
+      "id": "nanonets-nanonets-ocr2-3b",
+      "name": "Nanonets-OCR2-3B",
+      "developer": "nanonets",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/nanonets-nanonets-ocr2-3b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nanonets-nanonets-ocr2-3b.json"
+    },
+    {
+      "id": "microsoft-trocr-base-printed",
+      "name": "trocr-base-printed",
+      "developer": "Microsoft",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/microsoft-trocr-base-printed/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-trocr-base-printed.json"
+    },
+    {
+      "id": "nvidia-llama-nemotron-embed-1b-v2",
+      "name": "llama-nemotron-embed-1b-v2",
+      "developer": "NVIDIA",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/nvidia-llama-nemotron-embed-1b-v2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-llama-nemotron-embed-1b-v2.json"
+    },
+    {
+      "id": "facebook-sam-vit-huge",
+      "name": "sam-vit-huge",
+      "developer": "Meta",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/facebook-sam-vit-huge/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/facebook-sam-vit-huge.json"
+    },
+    {
+      "id": "poolside-laguna-xs-2",
+      "name": "Laguna-XS.2",
+      "developer": "poolside",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/poolside-laguna-xs-2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/poolside-laguna-xs-2.json"
+    },
+    {
+      "id": "black-forest-labs-flux-2-klein-base-4b",
+      "name": "FLUX.2-klein-base-4B",
+      "developer": "Black Forest Labs",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/black-forest-labs-flux-2-klein-base-4b/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/black-forest-labs-flux-2-klein-base-4b.json"
+    },
+    {
+      "id": "xenova-ms-marco-minilm-l-6-v2",
+      "name": "ms-marco-MiniLM-L-6-v2",
+      "developer": "Xenova",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/xenova-ms-marco-minilm-l-6-v2/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/xenova-ms-marco-minilm-l-6-v2.json"
+    },
+    {
+      "id": "dots-studio-dots-mocr",
+      "name": "dots.mocr",
+      "developer": "dots-studio",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/dots-studio-dots-mocr/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/dots-studio-dots-mocr.json"
+    },
+    {
+      "id": "ornith-ai-ornith-1-0-397b-fp8",
+      "name": "Ornith-1.0-397B-FP8",
+      "developer": "ornith-ai",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/ornith-ai-ornith-1-0-397b-fp8/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/ornith-ai-ornith-1-0-397b-fp8.json"
     }
   ]
 }

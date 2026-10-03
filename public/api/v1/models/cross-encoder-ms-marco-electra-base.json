@@ -113,7 +113,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -194,11 +194,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:43:54+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -214,12 +214,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -228,14 +228,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "cross-encoder/ms-marco-electra-base",
-    "rank": 771,
-    "downloads": 946022,
+    "rank": 768,
+    "downloads": 937138,
     "likes": 7,
     "last_modified": "2025-08-29T14:35:07+00:00",
     "created_at": "2022-03-02T23:29:05+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "text-ranking",
-    "discovered_at": "2026-10-02T15:43:52+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -255,7 +255,7 @@
   "hub": {
     "last_modified": "2025-08-29T14:35:07.000Z",
     "created_at": "2022-03-02T23:29:05.000Z",
-    "downloads": 946022,
+    "downloads": 937138,
     "likes": 7,
     "sha": "8b9301757513f8a695920c334c3a9f365ebeb357",
     "library_name": "sentence-transformers",

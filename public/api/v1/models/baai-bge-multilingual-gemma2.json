@@ -101,7 +101,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -178,11 +178,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:20:56+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -198,12 +198,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -212,14 +212,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "BAAI/bge-multilingual-gemma2",
-    "rank": 798,
-    "downloads": 327080,
+    "rank": 789,
+    "downloads": 333806,
     "likes": 203,
     "last_modified": "2025-10-13T05:08:56+00:00",
     "created_at": "2024-07-25T16:55:46+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "feature-extraction",
-    "discovered_at": "2026-10-02T15:20:54+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -236,7 +236,7 @@
   "hub": {
     "last_modified": "2025-10-13T05:08:56.000Z",
     "created_at": "2024-07-25T16:55:46.000Z",
-    "downloads": 327080,
+    "downloads": 333806,
     "likes": 203,
     "sha": "8365500e19bc804136f4ad12c2494430239a2d72",
     "library_name": "sentence-transformers",

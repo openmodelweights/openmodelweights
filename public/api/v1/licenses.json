@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-03T11:06:08+00:00",
+  "generated_at": "2026-10-03T11:14:05+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 340,
+      "model_count": 338,
       "commercial_use": {
-        "allowed": 340
+        "allowed": 338
       }
     },
     {
@@ -24,16 +24,16 @@
     },
     {
       "name": "CC BY-NC 4.0",
-      "model_count": 13,
+      "model_count": 15,
       "commercial_use": {
-        "not-allowed": 13
+        "not-allowed": 15
       }
     },
     {
       "name": "MIT",
-      "model_count": 139,
+      "model_count": 136,
       "commercial_use": {
-        "allowed": 139
+        "allowed": 136
       }
     },
     {
@@ -52,9 +52,9 @@
     },
     {
       "name": "Not declared in model-card metadata",
-      "model_count": 30,
+      "model_count": 37,
       "commercial_use": {
-        "unknown": 29,
+        "unknown": 36,
         "allowed-with-conditions": 1
       }
     },
@@ -80,13 +80,6 @@
       }
     },
     {
-      "name": "['cc-by-nc-sa-4.0']",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
       "name": "['cdla-permissive-2.0', 'apache-2.0']",
       "model_count": 1,
       "commercial_use": {
@@ -105,13 +98,6 @@
       "model_count": 1,
       "commercial_use": {
         "unknown": 1
-      }
-    },
-    {
-      "name": "['other']",
-      "model_count": 1,
-      "commercial_use": {
-        "allowed-with-conditions": 1
       }
     },
     {
@@ -137,13 +123,6 @@
     },
     {
       "name": "bigscience-bloom-rail-1.0",
-      "model_count": 2,
-      "commercial_use": {
-        "unknown": 2
-      }
-    },
-    {
-      "name": "bria-rmbg-1.4",
       "model_count": 1,
       "commercial_use": {
         "unknown": 1
@@ -186,16 +165,9 @@
     },
     {
       "name": "creativeml-openrail-m",
-      "model_count": 5,
+      "model_count": 4,
       "commercial_use": {
-        "unknown": 5
-      }
-    },
-    {
-      "name": "deepseek",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
+        "unknown": 4
       }
     },
     {
@@ -207,9 +179,9 @@
     },
     {
       "name": "dinov3-license",
-      "model_count": 3,
+      "model_count": 2,
       "commercial_use": {
-        "allowed-with-conditions": 3
+        "allowed-with-conditions": 2
       }
     },
     {
@@ -228,10 +200,10 @@
     },
     {
       "name": "gemma",
-      "model_count": 12,
+      "model_count": 13,
       "commercial_use": {
         "allowed-with-conditions": 7,
-        "unknown": 5
+        "unknown": 6
       }
     },
     {
@@ -292,16 +264,16 @@
     },
     {
       "name": "llama3",
-      "model_count": 5,
+      "model_count": 4,
       "commercial_use": {
-        "allowed-with-conditions": 5
+        "allowed-with-conditions": 4
       }
     },
     {
       "name": "llama3.1",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 5
+        "allowed-with-conditions": 6
       }
     },
     {
@@ -327,9 +299,9 @@
     },
     {
       "name": "ltx-2-community-license-agreement",
-      "model_count": 5,
+      "model_count": 3,
       "commercial_use": {
-        "unknown": 5
+        "unknown": 3
       }
     },
     {
@@ -355,9 +327,9 @@
     },
     {
       "name": "minimax-h3-community-license-agreement",
-      "model_count": 3,
+      "model_count": 4,
       "commercial_use": {
-        "unknown": 3
+        "unknown": 4
       }
     },
     {
@@ -369,9 +341,9 @@
     },
     {
       "name": "nvidia-nemotron-open-model-license",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-conditions": 5
+        "allowed-with-conditions": 6
       }
     },
     {
@@ -383,16 +355,16 @@
     },
     {
       "name": "nvidia-open-model-license",
-      "model_count": 6,
+      "model_count": 7,
       "commercial_use": {
-        "allowed-with-conditions": 6
+        "allowed-with-conditions": 7
       }
     },
     {
       "name": "openmdw-1.1",
-      "model_count": 6,
+      "model_count": 5,
       "commercial_use": {
-        "allowed-with-conditions": 5,
+        "allowed-with-conditions": 4,
         "unknown": 1
       }
     },
@@ -419,10 +391,10 @@
     },
     {
       "name": "other",
-      "model_count": 6,
+      "model_count": 7,
       "commercial_use": {
         "allowed-with-conditions": 3,
-        "unknown": 3
+        "unknown": 4
       }
     },
     {
@@ -455,9 +427,9 @@
     },
     {
       "name": "tencent-hunyuan-community",
-      "model_count": 1,
+      "model_count": 2,
       "commercial_use": {
-        "unknown": 1
+        "unknown": 2
       }
     },
     {

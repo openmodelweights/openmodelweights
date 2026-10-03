@@ -1,0 +1,258 @@
+{
+  "id": "nanonets-nanonets-ocr2-3b",
+  "name": "Nanonets-OCR2-3B",
+  "developer": "nanonets",
+  "family": "Nanonets-OCR2",
+  "variant": "Nanonets-OCR2-3B",
+  "model": {
+    "parameters": "3.75462B",
+    "total_parameters_billions": 3.754622976,
+    "context": {
+      "value": 128000,
+      "display": "128,000 tokens",
+      "status": "verified",
+      "evidence": [
+        {
+          "source": "config.json",
+          "detail": "max_position_embeddings"
+        }
+      ]
+    },
+    "modality": "Image + text → text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen2_5_vl",
+      "image-text-to-text",
+      "OCR",
+      "image-to-text",
+      "pdf2markdown",
+      "VQA",
+      "conversational",
+      "multilingual",
+      "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+      "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
+      "eval-results",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  },
+  "weights": {
+    "status": "verified-available",
+    "repository": "https://huggingface.co/nanonets/Nanonets-OCR2-3B",
+    "access": "public",
+    "exact_files": [
+      "model-00001-of-00002.safetensors",
+      "model-00002-of-00002.safetensors",
+      "model.safetensors.index.json"
+    ],
+    "file_count": 3,
+    "formats": [
+      "Safetensors"
+    ],
+    "precision_availability": {
+      "bf16": {
+        "available": true,
+        "status": "verified"
+      },
+      "fp16": {
+        "available": false,
+        "status": "verified"
+      },
+      "fp8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int8": {
+        "available": false,
+        "status": "verified"
+      },
+      "int4": {
+        "available": false,
+        "status": "verified"
+      },
+      "gguf": {
+        "available": false,
+        "status": "verified"
+      }
+    },
+    "dtype_evidence": [
+      "BF16",
+      "BFLOAT16"
+    ],
+    "evidence": [
+      {
+        "source": "https://huggingface.co/api/models/nanonets/Nanonets-OCR2-3B",
+        "type": "Hugging Face model API siblings"
+      }
+    ]
+  },
+  "license": {
+    "id": null,
+    "name": "Not declared in model-card metadata",
+    "url": null,
+    "status": "not-disclosed",
+    "commercial_use": {
+      "status": "unknown",
+      "label": "Commercial-use status requires manual review",
+      "basis": null
+    },
+    "repository_license_files": [],
+    "verification": {
+      "status": "metadata-only",
+      "checked_at": "2026-10-03",
+      "source": null
+    }
+  },
+  "hardware": {
+    "status": "estimated",
+    "weight_only_gb": {
+      "bf16_fp16": 7.51,
+      "fp8_int8": 3.75,
+      "int4": 1.88
+    },
+    "note": "Weight-only decimal-GB estimate from total parameter count; excludes KV cache, activations, runtime overhead, optimizer state and sharding."
+  },
+  "lineage": {
+    "family": "Nanonets-OCR2",
+    "variant": "Nanonets-OCR2-3B",
+    "base_model": {
+      "status": "declared",
+      "models": [
+        "Qwen/Qwen2.5-VL-3B-Instruct"
+      ],
+      "relation": null,
+      "evidence": [
+        {
+          "source": "model-card metadata",
+          "field": "base_model"
+        }
+      ]
+    }
+  },
+  "training_assets": {
+    "training_recipe": {
+      "status": "not-disclosed-in-checked-repository",
+      "files": [],
+      "links": [],
+      "evidence": []
+    },
+    "data_disclosure": {
+      "status": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "datasets": [],
+      "evidence": []
+    },
+    "evaluations": "Not classified by automated verifier",
+    "intermediate_checkpoints": "Not classified by automated verifier"
+  },
+  "sources": [
+    {
+      "type": "model_repository",
+      "url": "https://huggingface.co/nanonets/Nanonets-OCR2-3B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_api",
+      "url": "https://huggingface.co/api/models/nanonets/Nanonets-OCR2-3B",
+      "tier": "primary"
+    },
+    {
+      "type": "model_card",
+      "url": "https://huggingface.co/nanonets/Nanonets-OCR2-3B/blob/main/README.md",
+      "tier": "primary",
+      "available": true
+    },
+    {
+      "type": "config",
+      "url": "https://huggingface.co/nanonets/Nanonets-OCR2-3B/blob/main/config.json",
+      "tier": "primary",
+      "available": true
+    }
+  ],
+  "verification": {
+    "level": "field-verified",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
+    "method": "Hugging Face API + repository file list + model card + config.json",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
+    "readme_accessible": true,
+    "config_accessible": true,
+    "fields": {
+      "license": "not-disclosed",
+      "commercial_use": "unknown",
+      "context": "verified",
+      "weight_files": "verified",
+      "formats": "verified",
+      "base_model": "declared",
+      "training_recipe": "not-disclosed-in-checked-repository",
+      "data_disclosure": "not-disclosed-in-standard-metadata-or-obvious-model-card-section",
+      "runtime_support": "source-derived-not-runtime-tested"
+    },
+    "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-03",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      }
+    ]
+  },
+  "discovery": {
+    "source": "Hugging Face public model index",
+    "repo_id": "nanonets/Nanonets-OCR2-3B",
+    "rank": 807,
+    "downloads": 243073,
+    "likes": 516,
+    "last_modified": "2025-10-16T09:56:02+00:00",
+    "created_at": "2025-10-13T12:11:52+00:00",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
+    "pinned": false
+  },
+  "runtime_support": {
+    "declared_library": "Transformers",
+    "pipeline_tag": "image-text-to-text",
+    "declared": [
+      "Transformers"
+    ],
+    "mentioned_in_model_card": [
+      "vLLM"
+    ],
+    "artifact_signals": [],
+    "tested_by_openmodelweights": false
+  },
+  "hub": {
+    "last_modified": "2025-10-16T09:56:02.000Z",
+    "created_at": "2025-10-13T12:11:52.000Z",
+    "downloads": 243073,
+    "likes": 516,
+    "sha": "c3886ff00bb037ce7da24988c9eafaf1fe2bed72",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen2_5_vl",
+      "image-text-to-text",
+      "OCR",
+      "image-to-text",
+      "pdf2markdown",
+      "VQA",
+      "conversational",
+      "multilingual",
+      "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+      "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
+      "eval-results",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ]
+  }
+}

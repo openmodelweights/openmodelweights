@@ -88,7 +88,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE"
     }
   },
@@ -159,11 +159,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:40:26+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
     "fields": {
@@ -179,12 +179,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -193,14 +193,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "FastVideo/FastVideo-FastH3-Comfy",
-    "rank": 810,
-    "downloads": 298214,
-    "likes": 127,
+    "rank": 790,
+    "downloads": 308789,
+    "likes": 128,
     "last_modified": "2026-09-16T16:26:02+00:00",
     "created_at": "2026-09-08T23:53:22+00:00",
     "library_name": "diffusion-single-file",
     "pipeline_tag": null,
-    "discovered_at": "2026-10-02T16:40:24+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -216,8 +216,8 @@
   "hub": {
     "last_modified": "2026-09-16T16:26:02.000Z",
     "created_at": "2026-09-08T23:53:22.000Z",
-    "downloads": 298214,
-    "likes": 127,
+    "downloads": 308789,
+    "likes": 128,
     "sha": "ec1e3aa374a91c57b0b94a1623b7e657c0498cf2",
     "library_name": "diffusion-single-file",
     "pipeline_tag": null,

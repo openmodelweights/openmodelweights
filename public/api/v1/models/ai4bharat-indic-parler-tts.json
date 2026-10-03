@@ -97,7 +97,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -173,11 +173,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T15:43:54+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T11:09:10+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
     "fields": {
@@ -193,12 +193,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -207,14 +207,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "ai4bharat/indic-parler-tts",
-    "rank": 775,
-    "downloads": 295699,
-    "likes": 377,
+    "rank": 781,
+    "downloads": 284796,
+    "likes": 379,
     "last_modified": "2025-09-24T06:25:30+00:00",
     "created_at": "2024-10-28T08:29:09+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-to-speech",
-    "discovered_at": "2026-10-02T15:43:52+00:00",
+    "discovered_at": "2026-10-03T11:09:08+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -230,8 +230,8 @@
   "hub": {
     "last_modified": "2025-09-24T06:25:30.000Z",
     "created_at": "2024-10-28T08:29:09.000Z",
-    "downloads": 295699,
-    "likes": 377,
+    "downloads": 284796,
+    "likes": 379,
     "sha": "7b527af5ee8ed1f9a28d80b19703ed9bb8ba10ca",
     "library_name": "transformers",
     "pipeline_tag": "text-to-speech",
