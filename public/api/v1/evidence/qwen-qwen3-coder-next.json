@@ -156,7 +156,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
   "current_repository_sha": "a7fbcb5c0e12d62a448eaa0e260346bf5dcc0feb",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -117,7 +117,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
   "current_repository_sha": "f5db02db724555f92da89c216ac04704f23d4590",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

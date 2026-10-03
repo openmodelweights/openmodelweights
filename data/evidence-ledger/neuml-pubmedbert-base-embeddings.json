@@ -109,7 +109,7 @@
   "developer": "NeuML",
   "source_repository": "https://huggingface.co/NeuML/pubmedbert-base-embeddings",
   "current_repository_sha": "b79526d6ef3645e0df4530322e266f24c829f5ef",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

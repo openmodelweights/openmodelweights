@@ -107,7 +107,7 @@
   "developer": "sentence-transformers-testing",
   "source_repository": "https://huggingface.co/sentence-transformers-testing/stsb-bert-tiny-safetensors",
   "current_repository_sha": "f3cb857cba53019a20df283396bcca179cf051a4",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

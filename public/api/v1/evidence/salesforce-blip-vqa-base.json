@@ -107,7 +107,7 @@
   "developer": "Salesforce",
   "source_repository": "https://huggingface.co/Salesforce/blip-vqa-base",
   "current_repository_sha": "787b3d35d57e49572baabd22884b3d5a05acf072",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -110,7 +110,7 @@
   "developer": "EleutherAI",
   "source_repository": "https://huggingface.co/EleutherAI/pythia-70m-deduped",
   "current_repository_sha": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

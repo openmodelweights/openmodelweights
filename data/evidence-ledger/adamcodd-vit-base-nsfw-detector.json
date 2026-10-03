@@ -121,7 +121,7 @@
   "developer": "AdamCodd",
   "source_repository": "https://huggingface.co/AdamCodd/vit-base-nsfw-detector",
   "current_repository_sha": "8587de998f441aac03fdd57a85d2e4cb808c7d64",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -111,7 +111,7 @@
   "developer": "Microsoft",
   "source_repository": "https://huggingface.co/microsoft/layoutlmv3-base",
   "current_repository_sha": "cfbbbff0762e6aab37086fdd4739ad14fe7d5db4",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

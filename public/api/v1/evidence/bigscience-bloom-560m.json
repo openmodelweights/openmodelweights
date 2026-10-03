@@ -114,7 +114,7 @@
   "developer": "BigScience",
   "source_repository": "https://huggingface.co/bigscience/bloom-560m",
   "current_repository_sha": "ac2ae5fab2ce3f9f40dc79b5ca9f637430d24971",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

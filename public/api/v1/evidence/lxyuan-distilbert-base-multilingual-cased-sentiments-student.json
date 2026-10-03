@@ -113,7 +113,7 @@
   "developer": "lxyuan",
   "source_repository": "https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student",
   "current_repository_sha": "cf991100d706c13c0a080c097134c05b7f436c45",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

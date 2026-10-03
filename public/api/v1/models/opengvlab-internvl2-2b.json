@@ -180,8 +180,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -199,6 +199,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -219,14 +224,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "OpenGVLab/InternVL2-2B",
-    "rank": 623,
-    "downloads": 714190,
+    "rank": 637,
+    "downloads": 690383,
     "likes": 83,
     "last_modified": "2025-03-25T05:55:24+00:00",
     "created_at": "2024-06-27T09:59:37+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -242,7 +247,7 @@
   "hub": {
     "last_modified": "2025-03-25T05:55:24.000Z",
     "created_at": "2024-06-27T09:59:37.000Z",
-    "downloads": 714190,
+    "downloads": 690383,
     "likes": 83,
     "sha": "e4f6747bd20f139e637642c6a058c6bd00b36919",
     "library_name": "transformers",

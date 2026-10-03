@@ -110,7 +110,7 @@
   "developer": "timm",
   "source_repository": "https://huggingface.co/timm/tf_efficientnetv2_s.in21k_ft_in1k",
   "current_repository_sha": "ea9abc143ea2b9d8e1ec1de277bce02149b9cf0e",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

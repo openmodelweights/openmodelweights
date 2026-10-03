@@ -119,7 +119,7 @@
   "developer": "nomic-ai",
   "source_repository": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
   "current_repository_sha": "e9b6763023c676ca8431644204f50c2b100d9aab",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

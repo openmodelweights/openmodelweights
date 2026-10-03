@@ -2,7 +2,7 @@
 > Field-verified registry for open-weight AI models.
 
 Current registry: 700 field-verified model records.
-Latest verification: 2026-10-02.
+Latest verification: 2026-10-03.
 
 ## Registry
 - https://openmodelweights.com/models/

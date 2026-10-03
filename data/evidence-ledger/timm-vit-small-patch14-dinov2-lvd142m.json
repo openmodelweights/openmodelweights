@@ -107,7 +107,7 @@
   "developer": "timm",
   "source_repository": "https://huggingface.co/timm/vit_small_patch14_dinov2.lvd142m",
   "current_repository_sha": "4610ca143709d58a633b6397a74412c2c3842454",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

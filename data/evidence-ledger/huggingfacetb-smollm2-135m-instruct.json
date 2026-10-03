@@ -123,7 +123,7 @@
   "developer": "HuggingFaceTB",
   "source_repository": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
   "current_repository_sha": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

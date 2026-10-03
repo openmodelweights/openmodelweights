@@ -183,8 +183,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -202,6 +202,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -222,14 +227,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "Babelscape/wikineural-multilingual-ner",
-    "rank": 571,
-    "downloads": 669107,
+    "rank": 578,
+    "downloads": 649116,
     "likes": 169,
     "last_modified": "2023-05-23T08:47:23+00:00",
     "created_at": "2022-03-02T23:29:04+00:00",
     "library_name": "transformers",
     "pipeline_tag": "token-classification",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -245,7 +250,7 @@
   "hub": {
     "last_modified": "2023-05-23T08:47:23.000Z",
     "created_at": "2022-03-02T23:29:04.000Z",
-    "downloads": 669107,
+    "downloads": 649116,
     "likes": 169,
     "sha": "bed6ee7a45d2827b6c90a4fd7983f0241ae0a5c1",
     "library_name": "transformers",

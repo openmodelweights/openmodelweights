@@ -110,7 +110,7 @@
   "developer": "llava-hf",
   "source_repository": "https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf",
   "current_repository_sha": "2424fdd47412fccc66d91719126b420e9fbd7065",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -114,7 +114,7 @@
   "developer": "distilbert",
   "source_repository": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
   "current_repository_sha": "714eb0fa89d2f80546fda750413ed43d93601a13",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

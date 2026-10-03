@@ -109,7 +109,7 @@
   "developer": "openbmb",
   "source_repository": "https://huggingface.co/openbmb/VoxCPM2",
   "current_repository_sha": "32279effe8c19989596f05d353d1447f51d9e915",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -113,7 +113,7 @@
   "developer": "dslim",
   "source_repository": "https://huggingface.co/dslim/bert-base-NER",
   "current_repository_sha": "d1a3e8f13f8c3566299d95fcfc9a8d2382a9affc",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -118,7 +118,7 @@
   "developer": "Google",
   "source_repository": "https://huggingface.co/google/flan-t5-large",
   "current_repository_sha": "0613663d0d48ea86ba8cb3d7a44f0f65dc596a2a",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

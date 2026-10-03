@@ -125,7 +125,7 @@
   "developer": "cross-encoder",
   "source_repository": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L12-v2",
   "current_repository_sha": "7b0235231ca2674cb8ca8f022859a6eba2b1c968",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

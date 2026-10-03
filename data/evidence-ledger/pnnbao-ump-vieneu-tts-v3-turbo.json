@@ -132,7 +132,7 @@
   "developer": "pnnbao-ump",
   "source_repository": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo",
   "current_repository_sha": "61b85e3d937fbbacb387714180e8182823512523",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

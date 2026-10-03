@@ -113,7 +113,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Ministral-3-8B-Base-2512",
   "current_repository_sha": "d4883f9b36aa2e5d775730d3fdba3d30de51a8ef",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

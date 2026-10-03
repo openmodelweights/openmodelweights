@@ -108,7 +108,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
   "current_repository_sha": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

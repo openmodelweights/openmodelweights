@@ -120,7 +120,7 @@
   "developer": "NVIDIA",
   "source_repository": "https://huggingface.co/nvidia/Qwen3.5-122B-A10B-NVFP4",
   "current_repository_sha": "98915d837c4e7c87ac8296d02e89de19b3207e6d",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

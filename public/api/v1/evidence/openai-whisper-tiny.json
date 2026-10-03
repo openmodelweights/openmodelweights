@@ -107,7 +107,7 @@
   "developer": "OpenAI",
   "source_repository": "https://huggingface.co/openai/whisper-tiny",
   "current_repository_sha": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

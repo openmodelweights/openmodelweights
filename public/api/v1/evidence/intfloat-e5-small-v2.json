@@ -116,7 +116,7 @@
   "developer": "intfloat",
   "source_repository": "https://huggingface.co/intfloat/e5-small-v2",
   "current_repository_sha": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

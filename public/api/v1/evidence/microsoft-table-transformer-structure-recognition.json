@@ -106,7 +106,7 @@
   "developer": "Microsoft",
   "source_repository": "https://huggingface.co/microsoft/table-transformer-structure-recognition",
   "current_repository_sha": "f4d4bdc85c3fe4b1fa49658882a5d38bbdd0f343",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

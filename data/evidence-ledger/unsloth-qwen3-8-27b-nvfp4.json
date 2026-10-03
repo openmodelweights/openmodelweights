@@ -112,7 +112,7 @@
   "developer": "unsloth",
   "source_repository": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
   "current_repository_sha": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

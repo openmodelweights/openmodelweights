@@ -142,10 +142,10 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "full-field-verification",
+    "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
     "readme_accessible": true,
     "config_accessible": true,
@@ -162,6 +162,11 @@
     },
     "history": [
       {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
         "date": "2026-10-02",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
@@ -176,14 +181,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "hubertsiuzdak/snac_24khz",
-    "rank": 691,
-    "downloads": 638169,
+    "rank": 684,
+    "downloads": 646170,
     "likes": 65,
     "last_modified": "2024-04-03T23:47:28+00:00",
     "created_at": "2024-03-05T14:34:40+00:00",
     "library_name": "transformers",
     "pipeline_tag": null,
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -199,7 +204,7 @@
   "hub": {
     "last_modified": "2024-04-03T23:47:28.000Z",
     "created_at": "2024-03-05T14:34:40.000Z",
-    "downloads": 638169,
+    "downloads": 646170,
     "likes": 65,
     "sha": "d73ad176a12188fcf4f360ba3bf2c2fbbe8f58ec",
     "library_name": "transformers",

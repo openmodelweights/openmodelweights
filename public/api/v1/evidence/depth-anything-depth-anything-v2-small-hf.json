@@ -104,7 +104,7 @@
   "developer": "depth-anything",
   "source_repository": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf",
   "current_repository_sha": "5426e4f0f36572d16453bbda7a8389317b1bef99",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

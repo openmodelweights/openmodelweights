@@ -109,7 +109,7 @@
   "developer": "Z.ai",
   "source_repository": "https://huggingface.co/zai-org/chatglm2-6b",
   "current_repository_sha": "d2e2d91789248536a747d9ce60642a336444186c",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -100,7 +100,7 @@
   "developer": "pyannote",
   "source_repository": "https://huggingface.co/pyannote/segmentation-3.0",
   "current_repository_sha": "e66f3d3b9eb0873085418a7b813d3b369bf160bb",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

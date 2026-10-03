@@ -162,8 +162,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -181,6 +181,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -202,13 +207,13 @@
     "source": "Hugging Face public model index",
     "repo_id": "timm/mobilenetv3_small_100.lamb_in1k",
     "rank": 131,
-    "downloads": 21610288,
+    "downloads": 21771922,
     "likes": 124,
     "last_modified": "2025-10-19T16:12:11+00:00",
     "created_at": "2022-12-16T05:38:36+00:00",
     "library_name": "timm",
     "pipeline_tag": "image-classification",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -225,7 +230,7 @@
   "hub": {
     "last_modified": "2025-10-19T16:12:11.000Z",
     "created_at": "2022-12-16T05:38:36.000Z",
-    "downloads": 21610288,
+    "downloads": 21771922,
     "likes": 124,
     "sha": "1824797e7887cbec1990e4adbd6675960a36c589",
     "library_name": "timm",

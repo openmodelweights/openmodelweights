@@ -104,7 +104,7 @@
   "developer": "usyd-community",
   "source_repository": "https://huggingface.co/usyd-community/vitpose-plus-base",
   "current_repository_sha": "92be54d7a29e42fad47b6e2ca01dd9e685a61e0d",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

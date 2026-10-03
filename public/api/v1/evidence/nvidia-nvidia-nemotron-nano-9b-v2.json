@@ -128,7 +128,7 @@
   "developer": "NVIDIA",
   "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
   "current_repository_sha": "6533e8de2c68e4536bf7c411d7a3ce5734111476",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

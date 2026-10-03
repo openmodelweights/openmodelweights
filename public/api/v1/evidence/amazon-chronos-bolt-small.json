@@ -104,7 +104,7 @@
   "developer": "amazon",
   "source_repository": "https://huggingface.co/amazon/chronos-bolt-small",
   "current_repository_sha": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

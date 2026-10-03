@@ -158,8 +158,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "readme_accessible": true,
     "config_accessible": true,
@@ -175,6 +175,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -211,7 +216,7 @@
   },
   "hub": {
     "last_modified": "2026-03-11T15:04:02.000Z",
-    "downloads": 1931692,
+    "downloads": 1894483,
     "likes": 998,
     "sha": "2769294da9567371363522aac9bbcfdd19447add",
     "library_name": "vllm",

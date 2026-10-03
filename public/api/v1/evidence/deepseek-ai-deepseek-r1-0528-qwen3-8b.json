@@ -108,7 +108,7 @@
   "developer": "DeepSeek",
   "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
   "current_repository_sha": "6e8885a6ff5c1dc5201574c8fd700323f23c25fa",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

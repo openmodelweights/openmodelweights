@@ -133,7 +133,7 @@
   "developer": "Stability AI",
   "source_repository": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
   "current_repository_sha": "462165984030d82259a11f4367a4eed129e94a7b",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

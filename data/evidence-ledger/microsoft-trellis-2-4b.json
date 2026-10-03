@@ -112,7 +112,7 @@
   "developer": "Microsoft",
   "source_repository": "https://huggingface.co/microsoft/TRELLIS.2-4B",
   "current_repository_sha": "af44b45f2e35a493886929c6d786e563ec68364d",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

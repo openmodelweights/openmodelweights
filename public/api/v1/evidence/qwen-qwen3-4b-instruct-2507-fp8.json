@@ -120,7 +120,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507-FP8",
   "current_repository_sha": "8591804019c8b22094c3b5b4454e0edc05dffc98",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

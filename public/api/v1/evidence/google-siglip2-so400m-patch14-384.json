@@ -104,7 +104,7 @@
   "developer": "Google",
   "source_repository": "https://huggingface.co/google/siglip2-so400m-patch14-384",
   "current_repository_sha": "e8e487298228002f3d8a82e0cd5c8ea9c567f57f",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

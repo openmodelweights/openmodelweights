@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T16:55:19+00:00",
+  "generated_at": "2026-10-03T09:17:58+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 350,
+      "model_count": 353,
       "commercial_use": {
-        "allowed": 350
+        "allowed": 353
       }
     },
     {
@@ -31,16 +31,16 @@
     },
     {
       "name": "MIT",
-      "model_count": 138,
+      "model_count": 137,
       "commercial_use": {
-        "allowed": 138
+        "allowed": 137
       }
     },
     {
       "name": "Mistral Modified MIT License",
-      "model_count": 5,
+      "model_count": 6,
       "commercial_use": {
-        "allowed-with-revenue-condition": 5
+        "allowed-with-revenue-condition": 6
       }
     },
     {
@@ -109,9 +109,9 @@
     },
     {
       "name": "['other']",
-      "model_count": 1,
+      "model_count": 2,
       "commercial_use": {
-        "allowed-with-conditions": 1
+        "allowed-with-conditions": 2
       }
     },
     {
@@ -200,9 +200,9 @@
     },
     {
       "name": "dinov3-license",
-      "model_count": 3,
+      "model_count": 2,
       "commercial_use": {
-        "allowed-with-conditions": 3
+        "allowed-with-conditions": 2
       }
     },
     {
@@ -355,16 +355,16 @@
     },
     {
       "name": "nvidia-open-model-license",
-      "model_count": 5,
+      "model_count": 4,
       "commercial_use": {
-        "allowed-with-conditions": 5
+        "allowed-with-conditions": 4
       }
     },
     {
       "name": "openmdw-1.1",
-      "model_count": 6,
+      "model_count": 5,
       "commercial_use": {
-        "allowed-with-conditions": 6
+        "allowed-with-conditions": 5
       }
     },
     {
@@ -412,13 +412,6 @@
     },
     {
       "name": "stabilityai-ai-community",
-      "model_count": 1,
-      "commercial_use": {
-        "unknown": 1
-      }
-    },
-    {
-      "name": "stable-video-diffusion-community",
       "model_count": 1,
       "commercial_use": {
         "unknown": 1

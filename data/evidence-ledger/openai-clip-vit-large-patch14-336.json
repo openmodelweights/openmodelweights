@@ -101,7 +101,7 @@
   "developer": "OpenAI",
   "source_repository": "https://huggingface.co/openai/clip-vit-large-patch14-336",
   "current_repository_sha": "ce19dc912ca5cd21c8a653c79e251e808ccabcd1",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

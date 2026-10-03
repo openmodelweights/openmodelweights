@@ -122,7 +122,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
   "current_repository_sha": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -115,7 +115,7 @@
   "developer": "NVIDIA",
   "source_repository": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
   "current_repository_sha": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

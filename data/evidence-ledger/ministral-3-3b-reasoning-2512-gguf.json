@@ -115,7 +115,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Ministral-3-3B-Reasoning-2512-GGUF",
   "current_repository_sha": "b432f0a2c144af8a1937b06e2ea7f75ebb4d0b31",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

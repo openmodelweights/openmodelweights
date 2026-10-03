@@ -116,7 +116,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512",
   "current_repository_sha": "29439f81c2be264d8d393273f99e7db9c0961120",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

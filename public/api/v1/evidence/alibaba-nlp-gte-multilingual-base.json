@@ -107,7 +107,7 @@
   "developer": "Alibaba-NLP",
   "source_repository": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base",
   "current_repository_sha": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

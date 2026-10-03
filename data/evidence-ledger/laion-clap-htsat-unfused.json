@@ -100,7 +100,7 @@
   "developer": "laion",
   "source_repository": "https://huggingface.co/laion/clap-htsat-unfused",
   "current_repository_sha": "8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

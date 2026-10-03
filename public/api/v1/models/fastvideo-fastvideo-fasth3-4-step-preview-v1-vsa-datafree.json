@@ -207,8 +207,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -226,6 +226,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -246,14 +251,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
-    "rank": 355,
-    "downloads": 1020485,
-    "likes": 317,
+    "rank": 350,
+    "downloads": 1074006,
+    "likes": 318,
     "last_modified": "2026-09-04T23:59:07+00:00",
     "created_at": "2026-08-27T00:28:06+00:00",
     "library_name": "diffusers",
     "pipeline_tag": "text-to-video",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -271,8 +276,8 @@
   "hub": {
     "last_modified": "2026-09-04T23:59:07.000Z",
     "created_at": "2026-08-27T00:28:06.000Z",
-    "downloads": 1020485,
-    "likes": 317,
+    "downloads": 1074006,
+    "likes": 318,
     "sha": "5ea076f35b84da4c3c82217112fa733d8eea2ae1",
     "library_name": "diffusers",
     "pipeline_tag": "text-to-video",

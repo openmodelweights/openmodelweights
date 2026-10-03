@@ -115,7 +115,7 @@
   "developer": "Microsoft",
   "source_repository": "https://huggingface.co/microsoft/VibeVoice-ASR",
   "current_repository_sha": "d0c9efdb8d614685062c04425d91e01b6f37d944",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

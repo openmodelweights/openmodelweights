@@ -107,7 +107,7 @@
   "developer": "nlptown",
   "source_repository": "https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment",
   "current_repository_sha": "8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

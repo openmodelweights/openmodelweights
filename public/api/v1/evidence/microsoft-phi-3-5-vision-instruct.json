@@ -113,7 +113,7 @@
   "developer": "Microsoft",
   "source_repository": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct",
   "current_repository_sha": "12b77fb40b63a2c73c68243d3f767aab688a1b2a",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -170,8 +170,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -189,6 +189,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -209,14 +214,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "Qwen/Qwen2.5-VL-7B-Instruct",
-    "rank": 160,
-    "downloads": 5999077,
-    "likes": 1729,
+    "rank": 163,
+    "downloads": 5828339,
+    "likes": 1730,
     "last_modified": "2025-04-06T16:23:01+00:00",
     "created_at": "2025-01-26T09:26:37+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -232,8 +237,8 @@
   "hub": {
     "last_modified": "2025-04-06T16:23:01.000Z",
     "created_at": "2025-01-26T09:26:37.000Z",
-    "downloads": 5999077,
-    "likes": 1729,
+    "downloads": 5828339,
+    "likes": 1730,
     "sha": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
     "library_name": "transformers",
     "pipeline_tag": "image-text-to-text",

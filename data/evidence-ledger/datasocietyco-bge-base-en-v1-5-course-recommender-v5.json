@@ -107,7 +107,7 @@
   "developer": "datasocietyco",
   "source_repository": "https://huggingface.co/datasocietyco/bge-base-en-v1.5-course-recommender-v5",
   "current_repository_sha": "2b069eed51ce7bc2beeaa7e3eea1a01c48ef3d29",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

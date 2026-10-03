@@ -225,7 +225,7 @@
   "developer": "MiniMax",
   "source_repository": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
   "current_repository_sha": "42ed227ee7df40d41602854ae760620d6eb651fe",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

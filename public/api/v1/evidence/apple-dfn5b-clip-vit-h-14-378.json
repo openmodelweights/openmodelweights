@@ -106,7 +106,7 @@
   "developer": "apple",
   "source_repository": "https://huggingface.co/apple/DFN5B-CLIP-ViT-H-14-378",
   "current_repository_sha": "01b771ed0d1395ca5ffdd279897d665ebe00dfd2",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

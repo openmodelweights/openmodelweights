@@ -244,7 +244,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
   "current_repository_sha": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

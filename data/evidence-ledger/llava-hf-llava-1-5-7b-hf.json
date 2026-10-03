@@ -116,7 +116,7 @@
   "developer": "llava-hf",
   "source_repository": "https://huggingface.co/llava-hf/llava-1.5-7b-hf",
   "current_repository_sha": "b234b804b114d9e37bb655e11cbbb5f5e971b7a9",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

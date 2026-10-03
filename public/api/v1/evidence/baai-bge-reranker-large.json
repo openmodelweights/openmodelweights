@@ -110,7 +110,7 @@
   "developer": "BAAI",
   "source_repository": "https://huggingface.co/BAAI/bge-reranker-large",
   "current_repository_sha": "55611d7bca2a7133960a6d3b71e083071bbfc312",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

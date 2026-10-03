@@ -101,7 +101,7 @@
   "developer": "cardiffnlp",
   "source_repository": "https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment",
   "current_repository_sha": "f2f1202b1bdeb07342385c3f807f9c07cd8f5cf8",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

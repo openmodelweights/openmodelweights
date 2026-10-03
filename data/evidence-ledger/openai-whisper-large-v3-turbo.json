@@ -108,7 +108,7 @@
   "developer": "OpenAI",
   "source_repository": "https://huggingface.co/openai/whisper-large-v3-turbo",
   "current_repository_sha": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

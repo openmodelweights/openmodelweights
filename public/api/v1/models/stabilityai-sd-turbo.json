@@ -156,8 +156,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -175,6 +175,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -195,14 +200,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "stabilityai/sd-turbo",
-    "rank": 561,
-    "downloads": 507031,
+    "rank": 551,
+    "downloads": 525103,
     "likes": 464,
     "last_modified": "2024-07-10T11:38:51+00:00",
     "created_at": "2023-11-27T16:41:20+00:00",
     "library_name": "diffusers",
     "pipeline_tag": "text-to-image",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -220,7 +225,7 @@
   "hub": {
     "last_modified": "2024-07-10T11:38:51.000Z",
     "created_at": "2023-11-27T16:41:20.000Z",
-    "downloads": 507031,
+    "downloads": 525103,
     "likes": 464,
     "sha": "b261bac6fd2cf515557d5d0707481eafa0485ec2",
     "library_name": "diffusers",

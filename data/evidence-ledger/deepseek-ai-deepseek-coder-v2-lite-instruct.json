@@ -116,7 +116,7 @@
   "developer": "DeepSeek",
   "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
   "current_repository_sha": "e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

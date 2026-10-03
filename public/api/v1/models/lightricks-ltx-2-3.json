@@ -104,7 +104,7 @@
     ],
     "verification": {
       "status": "license-file-checked",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE-2"
     }
   },
@@ -168,11 +168,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "repository-revision-unchanged",
-    "full_verified_at": "2026-10-02",
+    "mode": "full-field-verification",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": false,
     "fields": {
@@ -187,6 +187,16 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Field-by-field verification",
+        "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
+      },
+      {
+        "date": "2026-10-03",
+        "event": "Registry record created",
+        "detail": "Previous verification level: discovered-pending."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -207,14 +217,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "Lightricks/LTX-2.3",
-    "rank": 268,
-    "downloads": 1062232,
-    "likes": 1925,
-    "last_modified": "2026-08-27T11:32:38+00:00",
+    "rank": 266,
+    "downloads": 1051235,
+    "likes": 1926,
+    "last_modified": "2026-10-02T21:04:36+00:00",
     "created_at": "2026-03-04T22:28:28+00:00",
     "library_name": "diffusers",
     "pipeline_tag": "image-to-video",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -228,11 +238,11 @@
     "tested_by_openmodelweights": false
   },
   "hub": {
-    "last_modified": "2026-08-27T11:32:38.000Z",
+    "last_modified": "2026-10-02T21:04:36.000Z",
     "created_at": "2026-03-04T22:28:28.000Z",
-    "downloads": 1062232,
-    "likes": 1925,
-    "sha": "5948be4ced3a4493d1f836df64378ff136ddb770",
+    "downloads": 1051235,
+    "likes": 1926,
+    "sha": "3c6a4e66e5d0a684231950b9c74dd4ded7b6fadc",
     "library_name": "diffusers",
     "pipeline_tag": "image-to-video",
     "tags": [

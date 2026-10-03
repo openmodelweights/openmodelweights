@@ -157,7 +157,7 @@
   "developer": "DeepSeek",
   "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
   "current_repository_sha": "6821d6ad3681a4b137b066b76094fa82ebd0a380",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

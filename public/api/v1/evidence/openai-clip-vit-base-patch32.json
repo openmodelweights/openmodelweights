@@ -101,7 +101,7 @@
   "developer": "OpenAI",
   "source_repository": "https://huggingface.co/openai/clip-vit-base-patch32",
   "current_repository_sha": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

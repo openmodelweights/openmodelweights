@@ -170,7 +170,7 @@
   "developer": "onnx-community",
   "source_repository": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX",
   "current_repository_sha": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

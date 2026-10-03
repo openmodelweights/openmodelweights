@@ -109,7 +109,7 @@
   "developer": "laion",
   "source_repository": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
   "current_repository_sha": "1a25a446712ba5ee05982a381eed697ef9b435cf",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

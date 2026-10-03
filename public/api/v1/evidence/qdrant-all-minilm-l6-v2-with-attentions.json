@@ -102,7 +102,7 @@
   "developer": "Qdrant",
   "source_repository": "https://huggingface.co/Qdrant/all_miniLM_L6_v2_with_attentions",
   "current_repository_sha": "e6e0a7e86dfd9b3abe92d5d25abd609aa7b20040",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

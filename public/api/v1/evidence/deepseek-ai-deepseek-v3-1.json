@@ -272,7 +272,7 @@
   "developer": "DeepSeek",
   "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
   "current_repository_sha": "c0781d039fb7a1ba2abc4add0bdc293e92d2b8db",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

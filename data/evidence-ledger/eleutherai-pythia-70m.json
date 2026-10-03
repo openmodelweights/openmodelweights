@@ -111,7 +111,7 @@
   "developer": "EleutherAI",
   "source_repository": "https://huggingface.co/EleutherAI/pythia-70m",
   "current_repository_sha": "a39f36b100fe8a5377810d56c3f4789b9c53ac42",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

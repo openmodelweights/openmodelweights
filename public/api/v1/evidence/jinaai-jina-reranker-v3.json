@@ -109,7 +109,7 @@
   "developer": "jinaai",
   "source_repository": "https://huggingface.co/jinaai/jina-reranker-v3",
   "current_repository_sha": "d7d7e73b6ea138ced340b83865931b5dfb6c97aa",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

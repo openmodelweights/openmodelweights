@@ -107,7 +107,7 @@
   "developer": "Google",
   "source_repository": "https://huggingface.co/google/timesfm-3.0-pytorch",
   "current_repository_sha": "43046b85ec22d584a13f8098c2ed39c889e129c2",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

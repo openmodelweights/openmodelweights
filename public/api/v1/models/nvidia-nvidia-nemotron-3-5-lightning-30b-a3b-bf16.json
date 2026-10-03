@@ -203,8 +203,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -222,6 +222,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -242,14 +247,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-    "rank": 578,
-    "downloads": 492860,
-    "likes": 225,
+    "rank": 552,
+    "downloads": 530047,
+    "likes": 226,
     "last_modified": "2026-08-24T23:46:27+00:00",
     "created_at": "2026-08-01T06:55:21+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -270,8 +275,8 @@
   "hub": {
     "last_modified": "2026-08-24T23:46:27.000Z",
     "created_at": "2026-08-01T06:55:21.000Z",
-    "downloads": 492860,
-    "likes": 225,
+    "downloads": 530047,
+    "likes": 226,
     "sha": "a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",

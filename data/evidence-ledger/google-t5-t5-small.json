@@ -120,7 +120,7 @@
   "developer": "google-t5",
   "source_repository": "https://huggingface.co/google-t5/t5-small",
   "current_repository_sha": "df1b051c49625cf57a3d0d8d3863ed4d13564fe4",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

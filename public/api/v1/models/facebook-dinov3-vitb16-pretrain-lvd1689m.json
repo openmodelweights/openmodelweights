@@ -175,8 +175,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -194,6 +194,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -215,13 +220,13 @@
     "source": "Hugging Face public model index",
     "repo_id": "facebook/dinov3-vitb16-pretrain-lvd1689m",
     "rank": 597,
-    "downloads": 490733,
-    "likes": 373,
+    "downloads": 492349,
+    "likes": 377,
     "last_modified": "2025-08-19T09:00:44+00:00",
     "created_at": "2025-08-05T09:33:19+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-feature-extraction",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -237,8 +242,8 @@
   "hub": {
     "last_modified": "2025-08-19T09:00:44.000Z",
     "created_at": "2025-08-05T09:33:19.000Z",
-    "downloads": 490733,
-    "likes": 373,
+    "downloads": 492349,
+    "likes": 377,
     "sha": "5931719e67bbdb9737e363e781fb0c67687896bc",
     "library_name": "transformers",
     "pipeline_tag": "image-feature-extraction",

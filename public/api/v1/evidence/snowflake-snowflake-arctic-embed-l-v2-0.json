@@ -120,7 +120,7 @@
   "developer": "Snowflake",
   "source_repository": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l-v2.0",
   "current_repository_sha": "ac6544c8a46e00af67e330e85a9028c66b8cfd9a",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

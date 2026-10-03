@@ -110,7 +110,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
   "current_repository_sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

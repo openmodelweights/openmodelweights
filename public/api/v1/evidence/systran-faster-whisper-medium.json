@@ -101,7 +101,7 @@
   "developer": "Systran",
   "source_repository": "https://huggingface.co/Systran/faster-whisper-medium",
   "current_repository_sha": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

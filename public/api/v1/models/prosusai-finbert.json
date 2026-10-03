@@ -157,8 +157,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -176,6 +176,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -197,13 +202,13 @@
     "source": "Hugging Face public model index",
     "repo_id": "ProsusAI/finbert",
     "rank": 171,
-    "downloads": 4520517,
+    "downloads": 4417673,
     "likes": 1256,
     "last_modified": "2023-05-23T12:43:35+00:00",
     "created_at": "2022-03-02T23:29:04+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-classification",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -219,7 +224,7 @@
   "hub": {
     "last_modified": "2023-05-23T12:43:35.000Z",
     "created_at": "2022-03-02T23:29:04.000Z",
-    "downloads": 4520517,
+    "downloads": 4417673,
     "likes": 1256,
     "sha": "4556d13015211d73dccd3fdd39d39232506f3e43",
     "library_name": "transformers",

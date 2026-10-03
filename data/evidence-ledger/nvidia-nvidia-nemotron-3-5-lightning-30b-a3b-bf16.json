@@ -132,7 +132,7 @@
   "developer": "NVIDIA",
   "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
   "current_repository_sha": "a9904d24bcc1d289a1950fa9d2b978c47cf903b9",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

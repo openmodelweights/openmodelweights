@@ -117,7 +117,7 @@
   "developer": "RedHatAI",
   "source_repository": "https://huggingface.co/RedHatAI/Qwen3.6-35B-A3B-NVFP4",
   "current_repository_sha": "e94a930c8e9b8a7d3763e449289c261c9c7d3e5e",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

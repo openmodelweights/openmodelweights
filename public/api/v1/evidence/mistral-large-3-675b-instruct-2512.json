@@ -380,7 +380,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
   "current_repository_sha": "383ffea2c7d60dfd44ca960e8e691709d4fdb9cd",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

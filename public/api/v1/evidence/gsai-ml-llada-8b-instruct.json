@@ -112,7 +112,7 @@
   "developer": "GSAI-ML",
   "source_repository": "https://huggingface.co/GSAI-ML/LLaDA-8B-Instruct",
   "current_repository_sha": "08b83a6feb34df1a6011b80c3c00c7563e963b07",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

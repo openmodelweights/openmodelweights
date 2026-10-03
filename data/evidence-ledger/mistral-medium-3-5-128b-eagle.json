@@ -109,7 +109,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B-EAGLE",
   "current_repository_sha": "d31694b0f55b51d4d962b5c3dbf0e03d1f019275",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

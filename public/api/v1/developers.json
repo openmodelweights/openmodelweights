@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:55:19+00:00",
+  "generated_at": "2026-10-03T09:17:58+00:00",
   "developers": [
     {
       "name": "AdamCodd",
@@ -25,7 +25,7 @@
     {
       "name": "AllenAI",
       "slug": "allenai",
-      "model_count": 3,
+      "model_count": 4,
       "families": [
         "Olmo-3",
         "longformer-base-4096",
@@ -337,9 +337,10 @@
     {
       "name": "IBM",
       "slug": "ibm",
-      "model_count": 2,
+      "model_count": 3,
       "families": [
         "granite-4.1",
+        "granite-docling",
         "granite-embedding-small-english-r2"
       ],
       "url": "https://openmodelweights.com/developers/ibm/"
@@ -443,7 +444,7 @@
     {
       "name": "Meta",
       "slug": "meta",
-      "model_count": 57,
+      "model_count": 56,
       "families": [
         "Llama 3",
         "Llama 3.1",
@@ -465,10 +466,10 @@
         "contriever",
         "detr-resnet-50",
         "dinov2",
+        "dinov2-large",
         "dinov2-small",
         "dinov3-vitb16-pretrain-lvd1689m",
         "dinov3-vitl16-pretrain-lvd1689m",
-        "dinov3-vits16-pretrain-lvd1689m",
         "esm2_t33",
         "esmfold_v1",
         "m2m100",
@@ -479,15 +480,14 @@
         "seamless-m4t-v2-large",
         "w2v-bert-2.0",
         "wav2vec2",
-        "wav2vec2-base-960h",
-        "wav2vec2-xls-r"
+        "wav2vec2-base-960h"
       ],
       "url": "https://openmodelweights.com/developers/meta/"
     },
     {
       "name": "Microsoft",
       "slug": "microsoft",
-      "model_count": 22,
+      "model_count": 21,
       "families": [
         "BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
         "Florence-2",
@@ -496,7 +496,6 @@
         "Phi-3.5-mini",
         "Phi-3.5-vision",
         "Phi-4-mini",
-        "Phi-4-multimodal",
         "TRELLIS-image-large",
         "TRELLIS.2",
         "VibeVoice",
@@ -552,9 +551,10 @@
     {
       "name": "Moonshot AI",
       "slug": "moonshot-ai",
-      "model_count": 3,
+      "model_count": 4,
       "families": [
         "Kimi-K2",
+        "Kimi-K2.5",
         "Kimi-K2.6",
         "Kimi-K3"
       ],
@@ -573,7 +573,7 @@
     {
       "name": "NVIDIA",
       "slug": "nvidia",
-      "model_count": 31,
+      "model_count": 30,
       "families": [
         "Cosmos-Reason2",
         "Cosmos3-Edge",
@@ -585,7 +585,6 @@
         "NVIDIA-Nemotron-3.5-Lightning",
         "NVIDIA-Nemotron-Nano",
         "Nemotron 3",
-        "Nemotron-3-Embed",
         "Nemotron-3-Nano-Omni",
         "Qwen2.5-VL",
         "Qwen3.5",
@@ -594,11 +593,11 @@
         "bigvgan_v2_22khz_80band_256x",
         "bigvgan_v2_44khz_128band_512x",
         "dragon-multiturn-context-encoder",
+        "dragon-multiturn-query-encoder",
         "llama-nemotron-rerank",
         "nemotron-3.5-asr-streaming",
         "nemotron-speech-streaming-en",
-        "parakeet-tdt",
-        "personaplex"
+        "parakeet-tdt"
       ],
       "url": "https://openmodelweights.com/developers/nvidia/"
     },
@@ -718,13 +717,14 @@
     {
       "name": "Qwen",
       "slug": "qwen",
-      "model_count": 90,
+      "model_count": 91,
       "families": [
         "Qwen",
         "Qwen AgentWorld",
         "Qwen Drive",
         "Qwen Image",
         "Qwen Image 2.1",
+        "Qwen-Image-Edit-2509",
         "Qwen2-VL",
         "Qwen2.5",
         "Qwen2.5-Coder",
@@ -831,14 +831,13 @@
     {
       "name": "Sentence Transformers",
       "slug": "sentence-transformers",
-      "model_count": 14,
+      "model_count": 13,
       "families": [
         "LaBSE",
         "all-MiniLM-L12-v2",
         "all-MiniLM-L6-v2",
         "all-distilroberta-v1",
         "all-mpnet-base-v2",
-        "all-roberta-large-v1",
         "distiluse-base-multilingual-cased-v1",
         "distiluse-base-multilingual-cased-v2",
         "multi-qa-MiniLM-L6-cos-v1",
@@ -872,12 +871,11 @@
     {
       "name": "Stability AI",
       "slug": "stability-ai",
-      "model_count": 4,
+      "model_count": 3,
       "families": [
         "sd-turbo",
         "sdxl-turbo",
-        "stable-diffusion-xl-base-1.0",
-        "stable-video-diffusion-img2vid-xt"
+        "stable-diffusion-xl-base-1.0"
       ],
       "url": "https://openmodelweights.com/developers/stability-ai/"
     },
@@ -2032,6 +2030,15 @@
         "zerank-2-reranker"
       ],
       "url": "https://openmodelweights.com/developers/zeroentropy/"
+    },
+    {
+      "name": "zhihan1996",
+      "slug": "zhihan1996",
+      "model_count": 1,
+      "families": [
+        "DNABERT-2"
+      ],
+      "url": "https://openmodelweights.com/developers/zhihan1996/"
     }
   ]
 }

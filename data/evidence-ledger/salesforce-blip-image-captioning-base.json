@@ -101,7 +101,7 @@
   "developer": "Salesforce",
   "source_repository": "https://huggingface.co/Salesforce/blip-image-captioning-base",
   "current_repository_sha": "82a37760796d32b1411fe092ab5d4e227313294b",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

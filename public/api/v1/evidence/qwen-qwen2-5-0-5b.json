@@ -111,7 +111,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen2.5-0.5B",
   "current_repository_sha": "060db6499f32faf8b98477b0a26969ef7d8b9987",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

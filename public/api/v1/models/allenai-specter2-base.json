@@ -163,8 +163,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -182,6 +182,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -202,14 +207,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "allenai/specter2_base",
-    "rank": 538,
-    "downloads": 1077298,
+    "rank": 536,
+    "downloads": 1071405,
     "likes": 48,
     "last_modified": "2024-12-04T07:45:10+00:00",
     "created_at": "2023-02-16T21:25:53+00:00",
     "library_name": "transformers",
     "pipeline_tag": "feature-extraction",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -225,7 +230,7 @@
   "hub": {
     "last_modified": "2024-12-04T07:45:10.000Z",
     "created_at": "2023-02-16T21:25:53.000Z",
-    "downloads": 1077298,
+    "downloads": 1071405,
     "likes": 48,
     "sha": "3447645e1def9117997203454fa4495937bfbd83",
     "library_name": "transformers",

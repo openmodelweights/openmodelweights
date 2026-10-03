@@ -113,7 +113,7 @@
   "developer": "openai-community",
   "source_repository": "https://huggingface.co/openai-community/gpt2-large",
   "current_repository_sha": "32b71b12589c2f8d625668d2335a01cac3249519",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

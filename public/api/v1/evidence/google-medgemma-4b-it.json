@@ -115,7 +115,7 @@
   "developer": "Google",
   "source_repository": "https://huggingface.co/google/medgemma-4b-it",
   "current_repository_sha": "290cda5eeccbee130f987c4ad74a59ae6f196408",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

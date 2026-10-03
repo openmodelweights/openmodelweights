@@ -106,7 +106,7 @@
   "developer": "CIDAS",
   "source_repository": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
   "current_repository_sha": "999e0328d9e10b484360c477313983f9afdd7050",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

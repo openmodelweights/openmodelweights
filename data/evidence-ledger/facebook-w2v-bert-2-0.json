@@ -106,7 +106,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/facebook/w2v-bert-2.0",
   "current_repository_sha": "da985ba0987f70aaeb84a80f2851cfac8c697a7b",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

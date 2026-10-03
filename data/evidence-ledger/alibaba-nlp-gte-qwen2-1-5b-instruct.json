@@ -108,7 +108,7 @@
   "developer": "Alibaba-NLP",
   "source_repository": "https://huggingface.co/Alibaba-NLP/gte-Qwen2-1.5B-instruct",
   "current_repository_sha": "a9af15a6372d7d6b25e9fb07c2ccb9e1fe645644",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

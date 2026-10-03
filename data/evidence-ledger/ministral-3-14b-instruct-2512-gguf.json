@@ -115,7 +115,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512-GGUF",
   "current_repository_sha": "74fac473c43357d7fb2671713608183cc72496d0",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

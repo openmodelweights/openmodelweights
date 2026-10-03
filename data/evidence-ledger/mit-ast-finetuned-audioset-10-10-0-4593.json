@@ -106,7 +106,7 @@
   "developer": "MIT",
   "source_repository": "https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593",
   "current_repository_sha": "f826b80d28226b62986cc218e5cec390b1096902",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -108,7 +108,7 @@
   "developer": "cl-nagoya",
   "source_repository": "https://huggingface.co/cl-nagoya/ruri-v3-310m",
   "current_repository_sha": "18b60fb8c2b9df296fb4212bb7d23ef94e579cd3",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

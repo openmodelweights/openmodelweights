@@ -100,7 +100,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/facebook/esmfold_v1",
   "current_repository_sha": "75a3841ee059df2bf4d56688166c8fb459ddd97a",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

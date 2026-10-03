@@ -111,7 +111,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
   "current_repository_sha": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

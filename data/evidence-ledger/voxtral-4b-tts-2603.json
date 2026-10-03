@@ -128,7 +128,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
   "current_repository_sha": "b81be46c3777f88621676791b512bb01dc1cb970",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

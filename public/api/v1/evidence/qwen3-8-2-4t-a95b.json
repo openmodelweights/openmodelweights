@@ -326,7 +326,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
   "current_repository_sha": "207bd685a7e3696cfaff12ded7c6a7ea0f88c996",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

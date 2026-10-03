@@ -155,7 +155,7 @@
   "developer": "Z.ai",
   "source_repository": "https://huggingface.co/zai-org/GLM-4.5-Air",
   "current_repository_sha": "a24ceef6ce4f3536971efe9b778bdaa1bab18daa",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

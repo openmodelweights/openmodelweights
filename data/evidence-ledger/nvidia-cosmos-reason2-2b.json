@@ -114,7 +114,7 @@
   "developer": "NVIDIA",
   "source_repository": "https://huggingface.co/nvidia/Cosmos-Reason2-2B",
   "current_repository_sha": "9ce19a195e423419c349abfc86fd07178b230561",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

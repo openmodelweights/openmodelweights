@@ -111,7 +111,7 @@
   "developer": "BAAI",
   "source_repository": "https://huggingface.co/BAAI/bge-reranker-base",
   "current_repository_sha": "2cfc18c9415c912f9d8155881c133215df768a70",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

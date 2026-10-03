@@ -114,7 +114,7 @@
   "developer": "jinaai",
   "source_repository": "https://huggingface.co/jinaai/jina-embeddings-v3",
   "current_repository_sha": "ab036b023d30b4d1138c4c3bfa9f0c445ab455d6",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

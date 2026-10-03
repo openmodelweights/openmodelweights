@@ -159,8 +159,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -178,6 +178,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -198,14 +203,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "Comfy-Org/stable-diffusion-3.5-fp8",
-    "rank": 655,
-    "downloads": 376345,
+    "rank": 650,
+    "downloads": 388990,
     "likes": 242,
     "last_modified": "2026-09-23T07:53:11+00:00",
     "created_at": "2024-10-22T01:30:14+00:00",
     "library_name": "diffusion-single-file",
     "pipeline_tag": null,
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -221,7 +226,7 @@
   "hub": {
     "last_modified": "2026-09-23T07:53:11.000Z",
     "created_at": "2024-10-22T01:30:14.000Z",
-    "downloads": 376345,
+    "downloads": 388990,
     "likes": 242,
     "sha": "934251d1e6168bcb45a069abc5bd5cdd5f8fea00",
     "library_name": "diffusion-single-file",

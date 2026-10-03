@@ -110,7 +110,7 @@
   "developer": "colbert-ir",
   "source_repository": "https://huggingface.co/colbert-ir/colbertv2.0",
   "current_repository_sha": "c1e84128e85ef755c096a95bdb06b47793b13acf",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

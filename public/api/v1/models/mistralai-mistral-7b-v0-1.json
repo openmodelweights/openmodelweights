@@ -166,8 +166,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -185,6 +185,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -205,14 +210,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "mistralai/Mistral-7B-v0.1",
-    "rank": 438,
-    "downloads": 410879,
+    "rank": 435,
+    "downloads": 410415,
     "likes": 4186,
     "last_modified": "2025-07-24T16:44:02+00:00",
     "created_at": "2023-09-20T13:03:50+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -229,7 +234,7 @@
   "hub": {
     "last_modified": "2025-07-24T16:44:02.000Z",
     "created_at": "2023-09-20T13:03:50.000Z",
-    "downloads": 410879,
+    "downloads": 410415,
     "likes": 4186,
     "sha": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
     "library_name": "transformers",

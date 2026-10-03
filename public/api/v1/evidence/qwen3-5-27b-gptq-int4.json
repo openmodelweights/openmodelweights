@@ -125,7 +125,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3.5-27B-GPTQ-Int4",
   "current_repository_sha": "8f0c09f227ae570e79617c6d9172b59df9c16081",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

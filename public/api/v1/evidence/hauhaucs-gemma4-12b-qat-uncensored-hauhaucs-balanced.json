@@ -108,7 +108,7 @@
   "developer": "HauhauCS",
   "source_repository": "https://huggingface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
   "current_repository_sha": "ae8045ac2bd216293ca49a3065da2c942dde4b68",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

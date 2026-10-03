@@ -134,7 +134,7 @@
   "developer": "Sentence Transformers",
   "source_repository": "https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1",
   "current_repository_sha": "17997f24dca0df1a4fed68894fb0e1e133e60482",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

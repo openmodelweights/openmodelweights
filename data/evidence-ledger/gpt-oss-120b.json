@@ -133,7 +133,7 @@
   "developer": "OpenAI",
   "source_repository": "https://huggingface.co/openai/gpt-oss-120b",
   "current_repository_sha": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

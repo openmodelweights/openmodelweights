@@ -110,7 +110,7 @@
   "developer": "FacebookAI",
   "source_repository": "https://huggingface.co/FacebookAI/roberta-base",
   "current_repository_sha": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

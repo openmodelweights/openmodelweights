@@ -107,7 +107,7 @@
   "developer": "cambridgeltl",
   "source_repository": "https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
   "current_repository_sha": "090663c3ae57bf35ffe4d0d468a2a88d03051a4d",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

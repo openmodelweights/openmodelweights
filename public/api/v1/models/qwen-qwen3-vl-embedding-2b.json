@@ -172,8 +172,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -191,6 +191,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -211,14 +216,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "Qwen/Qwen3-VL-Embedding-2B",
-    "rank": 333,
-    "downloads": 1172110,
+    "rank": 331,
+    "downloads": 1173367,
     "likes": 462,
     "last_modified": "2026-04-16T08:54:25+00:00",
     "created_at": "2026-01-07T03:03:25+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "sentence-similarity",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -238,7 +243,7 @@
   "hub": {
     "last_modified": "2026-04-16T08:54:25.000Z",
     "created_at": "2026-01-07T03:03:25.000Z",
-    "downloads": 1172110,
+    "downloads": 1173367,
     "likes": 462,
     "sha": "9f2f7e710d6d81056aa5c0a4f04764fec6bb7bda",
     "library_name": "sentence-transformers",

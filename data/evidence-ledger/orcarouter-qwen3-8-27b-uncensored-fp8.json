@@ -117,7 +117,7 @@
   "developer": "orcarouter",
   "source_repository": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
   "current_repository_sha": "830602f9b81d083db78f60e889bca37b73b74469",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

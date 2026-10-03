@@ -112,7 +112,7 @@
   "developer": "MoritzLaurer",
   "source_repository": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
   "current_repository_sha": "6f5cf0a2b59cabb106aca4c287eed12e357e90eb",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

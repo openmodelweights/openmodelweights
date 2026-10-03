@@ -114,7 +114,7 @@
   "developer": "intfloat",
   "source_repository": "https://huggingface.co/intfloat/multilingual-e5-large",
   "current_repository_sha": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

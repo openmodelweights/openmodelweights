@@ -175,8 +175,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -194,6 +194,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -214,14 +219,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "distil-whisper/distil-large-v3",
-    "rank": 513,
-    "downloads": 557562,
+    "rank": 509,
+    "downloads": 560667,
     "likes": 383,
     "last_modified": "2026-04-21T08:00:18+00:00",
     "created_at": "2024-03-21T12:10:42+00:00",
     "library_name": "transformers",
     "pipeline_tag": "automatic-speech-recognition",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -240,7 +245,7 @@
   "hub": {
     "last_modified": "2026-04-21T08:00:18.000Z",
     "created_at": "2024-03-21T12:10:42.000Z",
-    "downloads": 557562,
+    "downloads": 560667,
     "likes": 383,
     "sha": "8031d2e6ce6631b7fc45629dddfc00271116d981",
     "library_name": "transformers",

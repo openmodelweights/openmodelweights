@@ -229,8 +229,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -248,6 +248,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -268,14 +273,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "deepseek-ai/DeepSeek-V4-Pro",
-    "rank": 372,
-    "downloads": 419335,
-    "likes": 5616,
+    "rank": 373,
+    "downloads": 409548,
+    "likes": 5617,
     "last_modified": "2026-06-22T12:12:50+00:00",
     "created_at": "2026-04-22T06:04:45+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -291,8 +296,8 @@
   "hub": {
     "last_modified": "2026-06-22T12:12:50.000Z",
     "created_at": "2026-04-22T06:04:45.000Z",
-    "downloads": 419335,
-    "likes": 5616,
+    "downloads": 409548,
+    "likes": 5617,
     "sha": "b5968e9190ef611bbf34a7229255be88a0e937c1",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",

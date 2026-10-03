@@ -121,7 +121,7 @@
   "developer": "thenlper",
   "source_repository": "https://huggingface.co/thenlper/gte-small",
   "current_repository_sha": "17e1f347d17fe144873b1201da91788898c639cd",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -141,7 +141,7 @@
   "developer": "NVIDIA",
   "source_repository": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
   "current_repository_sha": "6efb4a2a1c1fa277ce7b3df7a1416255011b1c99",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

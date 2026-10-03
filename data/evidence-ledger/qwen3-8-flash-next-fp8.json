@@ -247,7 +247,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
   "current_repository_sha": "236dfdf285828023ca3bcd3f37366c58a3469b13",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

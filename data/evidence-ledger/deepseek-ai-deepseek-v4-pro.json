@@ -171,7 +171,7 @@
   "developer": "DeepSeek",
   "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
   "current_repository_sha": "b5968e9190ef611bbf34a7229255be88a0e937c1",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

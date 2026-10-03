@@ -185,8 +185,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -204,6 +204,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -225,13 +230,13 @@
     "source": "Hugging Face public model index",
     "repo_id": "BAAI/bge-small-en-v1.5",
     "rank": 112,
-    "downloads": 63079743,
+    "downloads": 62816319,
     "likes": 597,
     "last_modified": "2024-02-22T03:36:23+00:00",
     "created_at": "2023-09-12T05:20:55+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "feature-extraction",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -251,7 +256,7 @@
   "hub": {
     "last_modified": "2024-02-22T03:36:23.000Z",
     "created_at": "2023-09-12T05:20:55.000Z",
-    "downloads": 63079743,
+    "downloads": 62816319,
     "likes": 597,
     "sha": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
     "library_name": "sentence-transformers",

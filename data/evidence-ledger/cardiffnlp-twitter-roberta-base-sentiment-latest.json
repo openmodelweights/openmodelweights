@@ -103,7 +103,7 @@
   "developer": "cardiffnlp",
   "source_repository": "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest",
   "current_repository_sha": "3216a57f2a0d9c45a2e6c20157c20c49fb4bf9c7",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

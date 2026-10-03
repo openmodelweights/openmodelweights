@@ -111,7 +111,7 @@
   "developer": "BAAI",
   "source_repository": "https://huggingface.co/BAAI/bge-base-en-v1.5",
   "current_repository_sha": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

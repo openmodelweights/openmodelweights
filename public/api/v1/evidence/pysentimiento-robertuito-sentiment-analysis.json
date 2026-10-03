@@ -108,7 +108,7 @@
   "developer": "pysentimiento",
   "source_repository": "https://huggingface.co/pysentimiento/robertuito-sentiment-analysis",
   "current_repository_sha": "a2cc0f67ebd705c55191e25a05ba23d885fcc09b",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

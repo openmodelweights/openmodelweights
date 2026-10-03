@@ -164,7 +164,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
   "current_repository_sha": "92f3b1597a195b523d8d9e5700e57e4fbb8f20d3",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

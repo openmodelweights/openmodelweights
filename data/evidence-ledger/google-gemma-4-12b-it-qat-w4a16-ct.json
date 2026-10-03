@@ -115,7 +115,7 @@
   "developer": "Google",
   "source_repository": "https://huggingface.co/google/gemma-4-12B-it-qat-w4a16-ct",
   "current_repository_sha": "1d2c2d7f2466070e69d6fb3fd5ce9a7d75f2f6ee",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -109,7 +109,7 @@
   "developer": "google-t5",
   "source_repository": "https://huggingface.co/google-t5/t5-base",
   "current_repository_sha": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -103,7 +103,7 @@
   "developer": "jonatasgrosman",
   "source_repository": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-arabic",
   "current_repository_sha": "af46c2d8531b8dcbb5e23b952f739b372c2e5d2d",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

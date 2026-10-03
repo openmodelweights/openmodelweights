@@ -167,10 +167,10 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
-    "mode": "full-field-verification",
+    "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
     "readme_accessible": true,
     "config_accessible": false,
@@ -187,6 +187,11 @@
     },
     "history": [
       {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
+      {
         "date": "2026-10-02",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
@@ -202,13 +207,13 @@
     "source": "Hugging Face public model index",
     "repo_id": "SulphurAI/Sulphur-2-base",
     "rank": 694,
-    "downloads": 184448,
+    "downloads": 181376,
     "likes": 2088,
     "last_modified": "2026-08-05T20:28:53+00:00",
     "created_at": "2026-05-03T00:33:24+00:00",
     "library_name": "diffusers",
     "pipeline_tag": "text-to-video",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -226,7 +231,7 @@
   "hub": {
     "last_modified": "2026-08-05T20:28:53.000Z",
     "created_at": "2026-05-03T00:33:24.000Z",
-    "downloads": 184448,
+    "downloads": 181376,
     "likes": 2088,
     "sha": "65587bbb38c700622f9434a16e732c8b280c115e",
     "library_name": "diffusers",

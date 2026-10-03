@@ -102,7 +102,7 @@
   "developer": "jonatasgrosman",
   "source_repository": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
   "current_repository_sha": "cf031e020336460d15a417eba710bbc5bb43be9a",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -118,7 +118,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-Original",
   "current_repository_sha": "67c56dfc0e87cd4ade6ec403b59fa7922b762b13",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

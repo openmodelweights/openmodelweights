@@ -109,7 +109,7 @@
   "developer": "OpenGVLab",
   "source_repository": "https://huggingface.co/OpenGVLab/InternVL2-1B",
   "current_repository_sha": "0d75ccd166b1d0b79446ae6c5d1a4a667f1e6187",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

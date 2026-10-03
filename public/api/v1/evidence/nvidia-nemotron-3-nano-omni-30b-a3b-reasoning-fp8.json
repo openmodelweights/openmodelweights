@@ -126,7 +126,7 @@
   "developer": "NVIDIA",
   "source_repository": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
   "current_repository_sha": "0acd4b1c237eab45d3977b1b46631919e9a75774",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -135,7 +135,7 @@
   "developer": "Sentence Transformers",
   "source_repository": "https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
   "current_repository_sha": "b207367332321f8e44f96e224ef15bc607f4dbf0",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

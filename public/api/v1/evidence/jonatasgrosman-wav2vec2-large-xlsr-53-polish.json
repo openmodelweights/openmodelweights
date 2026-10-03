@@ -103,7 +103,7 @@
   "developer": "jonatasgrosman",
   "source_repository": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-polish",
   "current_repository_sha": "6b1cea36bd8bc5f65ec8081667cd9c0207d51970",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

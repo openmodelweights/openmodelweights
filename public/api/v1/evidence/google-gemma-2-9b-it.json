@@ -117,7 +117,7 @@
   "developer": "Google",
   "source_repository": "https://huggingface.co/google/gemma-2-9b-it",
   "current_repository_sha": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

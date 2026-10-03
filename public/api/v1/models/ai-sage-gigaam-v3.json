@@ -143,8 +143,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -162,6 +162,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -182,14 +187,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "ai-sage/GigaAM-v3",
-    "rank": 579,
-    "downloads": 638259,
-    "likes": 170,
+    "rank": 564,
+    "downloads": 652997,
+    "likes": 171,
     "last_modified": "2025-11-19T21:45:34+00:00",
     "created_at": "2025-11-19T20:38:07+00:00",
     "library_name": null,
     "pipeline_tag": "automatic-speech-recognition",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -205,8 +210,8 @@
   "hub": {
     "last_modified": "2025-11-19T21:45:34.000Z",
     "created_at": "2025-11-19T20:38:07.000Z",
-    "downloads": 638259,
-    "likes": 170,
+    "downloads": 652997,
+    "likes": 171,
     "sha": "ec1dc1f01d0d627ab2c0d3acc1e235702300d95e",
     "library_name": null,
     "pipeline_tag": "automatic-speech-recognition",

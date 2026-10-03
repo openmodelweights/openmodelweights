@@ -123,7 +123,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512",
   "current_repository_sha": "55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

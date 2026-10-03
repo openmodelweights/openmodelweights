@@ -158,7 +158,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision-Instruct",
   "current_repository_sha": "e305d2a43a4adc6987308fe7d896fb8ec5f1a5d8",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

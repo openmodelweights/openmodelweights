@@ -108,7 +108,7 @@
   "developer": "RunDiffusion",
   "source_repository": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9",
   "current_repository_sha": "cf419233522daa0b9ea36c3aff98fa2cab1fb0fb",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

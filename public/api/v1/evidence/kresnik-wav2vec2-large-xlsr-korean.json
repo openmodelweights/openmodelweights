@@ -113,7 +113,7 @@
   "developer": "kresnik",
   "source_repository": "https://huggingface.co/kresnik/wav2vec2-large-xlsr-korean",
   "current_repository_sha": "629c9a3501c10ba128bf3fa1eebb12af3be03f61",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -102,7 +102,7 @@
   "developer": "jonatasgrosman",
   "source_repository": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-hungarian",
   "current_repository_sha": "2bd0786e71cad097c4e6ce9b3e45b40c74ad8f37",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

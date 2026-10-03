@@ -106,7 +106,7 @@
   "developer": "airesearch",
   "source_repository": "https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th",
   "current_repository_sha": "3155938c549b23eee16b1d4b55dcb161b7fe4bcf",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -108,7 +108,7 @@
   "developer": "IBM",
   "source_repository": "https://huggingface.co/ibm-granite/granite-4.1-3b",
   "current_repository_sha": "c0650403e44e78ec0262dab1c90914c65b196c4e",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -118,7 +118,7 @@
   "developer": "NVIDIA",
   "source_repository": "https://huggingface.co/nvidia/Gemma-4-26B-A4B-NVFP4",
   "current_repository_sha": "a19cfe00be84568a6867111c9a68c9c44fdcffe6",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

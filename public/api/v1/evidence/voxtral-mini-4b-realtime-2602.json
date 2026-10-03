@@ -113,7 +113,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602",
   "current_repository_sha": "2769294da9567371363522aac9bbcfdd19447add",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

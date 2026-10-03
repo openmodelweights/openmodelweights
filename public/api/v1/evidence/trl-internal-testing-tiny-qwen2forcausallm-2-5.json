@@ -106,7 +106,7 @@
   "developer": "trl-internal-testing",
   "source_repository": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
   "current_repository_sha": "ce8d0bf270b28c8fab026ced69fe8aa14b0f0eda",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

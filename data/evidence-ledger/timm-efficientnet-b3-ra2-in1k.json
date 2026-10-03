@@ -109,7 +109,7 @@
   "developer": "timm",
   "source_repository": "https://huggingface.co/timm/efficientnet_b3.ra2_in1k",
   "current_repository_sha": "0366a75518620e0f2077789202073759f2d61393",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

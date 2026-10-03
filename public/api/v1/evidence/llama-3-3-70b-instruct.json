@@ -152,7 +152,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
   "current_repository_sha": "6f6073b423013f6a7d4d9f39144961bfbfbc386b",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

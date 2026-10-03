@@ -108,7 +108,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
   "current_repository_sha": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

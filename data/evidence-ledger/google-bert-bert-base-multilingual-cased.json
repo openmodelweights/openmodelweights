@@ -109,7 +109,7 @@
   "developer": "google-bert",
   "source_repository": "https://huggingface.co/google-bert/bert-base-multilingual-cased",
   "current_repository_sha": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

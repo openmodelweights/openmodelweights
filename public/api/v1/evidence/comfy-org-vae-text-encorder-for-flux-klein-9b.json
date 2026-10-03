@@ -110,7 +110,7 @@
   "developer": "Comfy-Org",
   "source_repository": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b",
   "current_repository_sha": "3f62d9d8ae1fec33c6e91453d5c712855b096b55",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

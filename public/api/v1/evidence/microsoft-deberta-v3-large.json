@@ -102,7 +102,7 @@
   "developer": "Microsoft",
   "source_repository": "https://huggingface.co/microsoft/deberta-v3-large",
   "current_repository_sha": "64a8c8eab3e352a784c658aef62be1662607476f",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

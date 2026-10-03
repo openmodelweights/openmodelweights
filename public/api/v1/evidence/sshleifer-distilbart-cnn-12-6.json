@@ -103,7 +103,7 @@
   "developer": "sshleifer",
   "source_repository": "https://huggingface.co/sshleifer/distilbart-cnn-12-6",
   "current_repository_sha": "a4f8f3ea906ed274767e9906dbaede7531d660ff",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

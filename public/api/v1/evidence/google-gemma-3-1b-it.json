@@ -113,7 +113,7 @@
   "developer": "Google",
   "source_repository": "https://huggingface.co/google/gemma-3-1b-it",
   "current_repository_sha": "dcc83ea841ab6100d6b47a070329e1ba4cf78752",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

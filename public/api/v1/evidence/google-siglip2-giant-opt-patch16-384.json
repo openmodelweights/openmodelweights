@@ -106,7 +106,7 @@
   "developer": "Google",
   "source_repository": "https://huggingface.co/google/siglip2-giant-opt-patch16-384",
   "current_repository_sha": "a713301b217d38485fb2204c808367d10bc3cc40",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

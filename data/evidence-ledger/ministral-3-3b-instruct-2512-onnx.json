@@ -126,7 +126,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-ONNX",
   "current_repository_sha": "e1128d389145f96bb1c3c2625cb8ca255ffa7034",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

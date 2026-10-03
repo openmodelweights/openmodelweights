@@ -117,7 +117,7 @@
   "developer": "openbmb",
   "source_repository": "https://huggingface.co/openbmb/MiniCPM-o-2_6",
   "current_repository_sha": "06849bfd36da94da1f5a88fa17e8ba63f08a4c4d",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

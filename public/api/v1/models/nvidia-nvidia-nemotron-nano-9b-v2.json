@@ -198,8 +198,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -217,6 +217,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -237,14 +242,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-    "rank": 652,
-    "downloads": 344363,
-    "likes": 521,
+    "rank": 661,
+    "downloads": 333618,
+    "likes": 522,
     "last_modified": "2026-03-05T14:59:25+00:00",
     "created_at": "2025-08-12T22:43:32+00:00",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",
-    "discovered_at": "2026-10-02T16:54:41+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -264,8 +269,8 @@
   "hub": {
     "last_modified": "2026-03-05T14:59:25.000Z",
     "created_at": "2025-08-12T22:43:32.000Z",
-    "downloads": 344363,
-    "likes": 521,
+    "downloads": 333618,
+    "likes": 522,
     "sha": "6533e8de2c68e4536bf7c411d7a3ce5734111476",
     "library_name": "transformers",
     "pipeline_tag": "text-generation",

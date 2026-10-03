@@ -181,8 +181,8 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:54:43+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "readme_accessible": true,
     "config_accessible": true,
@@ -198,6 +198,11 @@
       "runtime_support": "source-derived-not-runtime-tested"
     },
     "history": [
+      {
+        "date": "2026-10-03",
+        "event": "Repository revision check",
+        "detail": "Official Hugging Face repository SHA unchanged; prior field evidence retained."
+      },
       {
         "date": "2026-10-02",
         "event": "Repository revision check",
@@ -232,7 +237,7 @@
   },
   "hub": {
     "last_modified": "2026-04-24T02:38:59.000Z",
-    "downloads": 267533,
+    "downloads": 253543,
     "likes": 92,
     "sha": "3af5ca2972faf6de1fd6f4efc4d8d319ca751e8b",
     "library_name": "transformers",

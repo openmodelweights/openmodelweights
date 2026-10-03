@@ -108,7 +108,7 @@
   "developer": "Meta",
   "source_repository": "https://huggingface.co/facebook/detr-resnet-50",
   "current_repository_sha": "1d5f47bd3bdd2c4bbfa585418ffe6da5028b4c0b",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

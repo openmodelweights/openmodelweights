@@ -91,7 +91,7 @@
     "repository_license_files": [],
     "verification": {
       "status": "metadata-only",
-      "checked_at": "2026-10-02",
+      "checked_at": "2026-10-03",
       "source": null
     }
   },
@@ -155,11 +155,11 @@
   ],
   "verification": {
     "level": "field-verified",
-    "checked_at": "2026-10-02",
-    "checked_at_iso": "2026-10-02T16:40:26+00:00",
+    "checked_at": "2026-10-03",
+    "checked_at_iso": "2026-10-03T09:17:39+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "full-field-verification",
-    "full_verified_at": "2026-10-02",
+    "full_verified_at": "2026-10-03",
     "readme_accessible": true,
     "config_accessible": true,
     "fields": {
@@ -175,12 +175,12 @@
     },
     "history": [
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Field-by-field verification",
         "detail": "Checked Hugging Face API metadata, exact repository file list, model card and config when accessible."
       },
       {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "event": "Registry record created",
         "detail": "Previous verification level: discovered-pending."
       }
@@ -189,14 +189,14 @@
   "discovery": {
     "source": "Hugging Face public model index",
     "repo_id": "facebook/dinov2-large",
-    "rank": 495,
-    "downloads": 967454,
+    "rank": 487,
+    "downloads": 992860,
     "likes": 119,
     "last_modified": "2023-09-06T11:23:50+00:00",
     "created_at": "2023-07-17T16:47:01+00:00",
     "library_name": "transformers",
     "pipeline_tag": "image-feature-extraction",
-    "discovered_at": "2026-10-02T16:40:24+00:00",
+    "discovered_at": "2026-10-03T09:17:37+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -212,7 +212,7 @@
   "hub": {
     "last_modified": "2023-09-06T11:23:50.000Z",
     "created_at": "2023-07-17T16:47:01.000Z",
-    "downloads": 967454,
+    "downloads": 992860,
     "likes": 119,
     "sha": "47b73eefe95e8d44ec3623f8890bd894b6ea2d6c",
     "library_name": "transformers",

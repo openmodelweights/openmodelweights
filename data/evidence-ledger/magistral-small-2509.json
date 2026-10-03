@@ -122,7 +122,7 @@
   "developer": "Mistral AI",
   "source_repository": "https://huggingface.co/mistralai/Magistral-Small-2509",
   "current_repository_sha": "a31cc96ab10cf19bc42c628fedf1e359e0853c49",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

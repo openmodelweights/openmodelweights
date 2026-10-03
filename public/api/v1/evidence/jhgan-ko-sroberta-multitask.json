@@ -115,7 +115,7 @@
   "developer": "jhgan",
   "source_repository": "https://huggingface.co/jhgan/ko-sroberta-multitask",
   "current_repository_sha": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

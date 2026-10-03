@@ -110,7 +110,7 @@
   "developer": "google-bert",
   "source_repository": "https://huggingface.co/google-bert/bert-base-cased",
   "current_repository_sha": "cd5ef92a9fb2f889e972770a36d4ed042daf221e",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

@@ -117,7 +117,7 @@
   "developer": "Qwen",
   "source_repository": "https://huggingface.co/Qwen/Qwen3Guard-Stream-4B",
   "current_repository_sha": "0e281784acd1370a2527aece964bcb267927f799",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

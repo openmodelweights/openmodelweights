@@ -108,7 +108,7 @@
   "developer": "DeepSeek",
   "source_repository": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
   "current_repository_sha": "ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,

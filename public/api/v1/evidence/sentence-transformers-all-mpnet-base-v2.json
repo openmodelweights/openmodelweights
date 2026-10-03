@@ -143,7 +143,7 @@
   "developer": "Sentence Transformers",
   "source_repository": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
   "current_repository_sha": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
-  "last_registry_check": "2026-10-02",
+  "last_registry_check": "2026-10-03",
   "last_full_field_verification": "2026-10-02",
   "status": "active",
   "snapshot_count": 1,
