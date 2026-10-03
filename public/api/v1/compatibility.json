@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-03T10:24:44+00:00",
+  "generated_at": "2026-10-03T10:34:30+00:00",
   "semantics": {
     "runtime_signal": "Declared/tagged/mentioned/artifact evidence; not necessarily independently executed.",
     "fits_weight_only_estimate": "Derived from verified parameter count and excludes KV cache, activations, runtime overhead and sharding."

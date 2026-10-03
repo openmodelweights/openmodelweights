@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:24:44+00:00",
+  "generated_at": "2026-10-03T10:34:30+00:00",
   "stats": {
     "total_seed_records": 700,
     "field_verified": 700,
@@ -15,12 +15,12 @@
   },
   "errors": [
     {
-      "id": "qwen-qwen3-5-397b-a17b",
-      "error": "https://huggingface.co/api/models/Qwen/Qwen3.5-397B-A17B: HTTP 429"
+      "id": "lxyuan-distilbert-base-multilingual-cased-sentiments-student",
+      "error": "https://huggingface.co/api/models/lxyuan/distilbert-base-multilingual-cased-sentiments-student: HTTP 429"
     },
     {
-      "id": "nvidia-dragon-multiturn-query-encoder",
-      "error": "https://huggingface.co/api/models/nvidia/dragon-multiturn-query-encoder: HTTP 429"
+      "id": "qwen-qwen3-5-397b-a17b",
+      "error": "https://huggingface.co/api/models/Qwen/Qwen3.5-397B-A17B: HTTP 429"
     },
     {
       "id": "qwen-qwen3-5-122b-a10b",
@@ -31,20 +31,20 @@
       "error": "https://huggingface.co/api/models/EleutherAI/pythia-70m-deduped: HTTP 429"
     },
     {
-      "id": "lxyuan-distilbert-base-multilingual-cased-sentiments-student",
-      "error": "https://huggingface.co/api/models/lxyuan/distilbert-base-multilingual-cased-sentiments-student: HTTP 429"
+      "id": "nvidia-dragon-multiturn-query-encoder",
+      "error": "https://huggingface.co/api/models/nvidia/dragon-multiturn-query-encoder: HTTP 429"
     },
     {
       "id": "qwen-qwen-image-edit-2509",
       "error": "https://huggingface.co/api/models/Qwen/Qwen-Image-Edit-2509: HTTP 429"
     },
     {
-      "id": "moonshotai-kimi-k2-instruct",
-      "error": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct: HTTP 429"
-    },
-    {
       "id": "moonshotai-kimi-k2-5",
       "error": "https://huggingface.co/api/models/moonshotai/Kimi-K2.5: HTTP 429"
+    },
+    {
+      "id": "moonshotai-kimi-k2-instruct",
+      "error": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct: HTTP 429"
     },
     {
       "id": "deepset-roberta-base-squad2",
