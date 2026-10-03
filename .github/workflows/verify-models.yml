@@ -107,4 +107,5 @@ jobs:
 
       - name: Notify IndexNow about generated page changes
         if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
         run: python scripts/indexnow_submit.py --before HEAD^ --after HEAD
