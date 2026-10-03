@@ -12,7 +12,9 @@ from xml.sax.saxutils import escape as xml_escape
 ROOT=Path(__file__).resolve().parents[1]
 PUBLIC=ROOT/"public"
 DATA=ROOT/"data"/"news.json"
-SITE="https://openmodelweights.com"\nSOCIAL_IMAGE=SITE+"/social-card.png"
+SITE="https://openmodelweights.com"
+SOCIAL_IMAGE=SITE+"/social-card.png"
+UMAMI_ANALYTICS='<script defer src="https://cloud.umami.is/script.js" data-website-id="76f4745e-2915-44e5-aaaa-8dda6cfee383"></script>'
 
 def esc(v):
     return html.escape(str(v if v is not None else ""),quote=True)
@@ -33,7 +35,7 @@ def head(title,desc,canonical,extra="",article=None):
     social+=f'<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><meta property="og:image" content="{SOCIAL_IMAGE}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Open Model Weights — The evidence layer for open-weight AI"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}"><meta name="twitter:image" content="{SOCIAL_IMAGE}"><meta name="twitter:image:alt" content="Open Model Weights — The evidence layer for open-weight AI">'
     if article:
         social+=f'<meta property="article:published_time" content="{esc(article["published_at"])}"><meta property="article:modified_time" content="{esc(article["modified_at"])}"><meta property="article:section" content="{esc(article["category"])}">'
-    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">{social}<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png"><link rel="shortcut icon" href="/favicon.ico"><link rel="manifest" href="/site.webmanifest"><link rel="alternate" type="application/rss+xml" title="Open Weight Intelligence" href="/news/feed.xml"><link rel="stylesheet" href="/styles.css">{extra}</head>'
+    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">{social}<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png"><link rel="shortcut icon" href="/favicon.ico"><link rel="manifest" href="/site.webmanifest"><link rel="alternate" type="application/rss+xml" title="Open Weight Intelligence" href="/news/feed.xml">{UMAMI_ANALYTICS}<link rel="stylesheet" href="/styles.css">{extra}</head>'
 
 def header(active="news"):
     links=[("models","/models/","Models"),("explore","/explore/","Explore"),("news","/news/","News"),("developers","/developers/","Developers"),("changes","/changes/","Changes"),("sources","/sources/","Sources")]

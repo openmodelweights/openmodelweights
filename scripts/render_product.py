@@ -47,6 +47,7 @@ def fmt_compact(v):
     return f"{n:,}"
 
 SITE="https://openmodelweights.com"
+UMAMI_ANALYTICS='<script defer src="https://cloud.umami.is/script.js" data-website-id="76f4745e-2915-44e5-aaaa-8dda6cfee383"></script>'
 ORG_ID=SITE+"/#organization"
 WEBSITE_ID=SITE+"/#website"
 
@@ -262,6 +263,8 @@ def _schema_script(nodes):
 
 def _ensure_meta(text,canonical,title,desc):
     additions=[]
+    text=re.sub(r'<script[^>]+src="https://cloud\.umami\.is/script\.js"[^>]*>\s*</script>','',text,flags=re.I)
+    additions.append(UMAMI_ANALYTICS)
     # Normalize site identity so generated pages cannot retain the legacy bar mark.
     text=re.sub(r'<span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span>',
                 '<img class="brand-logo brand-logo-small" src="/favicon.svg" width="24" height="24" alt="">',text)
@@ -332,7 +335,7 @@ def apply_structured_data_tree(models,generated):
         apply_structured_data_file(path,by_id,generated)
 
 def head(title,desc,canonical,extra=""):
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1"><meta property="og:site_name" content="Open Model Weights"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}"><link rel="stylesheet" href="/styles.css">{extra}</head>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f7f4"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}"><link rel="canonical" href="{esc(canonical)}"><meta name="robots" content="index,follow,max-snippet:-1"><meta property="og:site_name" content="Open Model Weights"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{esc(canonical)}">{UMAMI_ANALYTICS}<link rel="stylesheet" href="/styles.css">{extra}</head>'''
 
 def header(active=""):
     links=[("models","/models/","Models"),("explore","/explore/","Explore"),("news","/news/","News"),("developers","/developers/","Developers"),("changes","/changes/","Changes"),("sources","/sources/","Sources")]
