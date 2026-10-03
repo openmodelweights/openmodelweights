@@ -2085,3 +2085,47 @@ body{background:var(--bg);letter-spacing:-.006em}
   .lineage-visual{grid-template-columns:1fr;gap:14px}.lineage-edge{display:none}
   .intel-history{padding-left:18px}.intel-history-row{grid-template-columns:1fr;gap:4px}.intel-history-row:before{left:-23px}
 }
+
+
+/* Model Snapshot polish v8.1 */
+.model-head{grid-template-columns:minmax(0,1.28fr) minmax(340px,.72fr);gap:72px;align-items:center}
+.model-snapshot{position:relative;overflow:hidden;border:1px solid #d7dbd6;border-radius:22px;background:linear-gradient(150deg,rgba(255,255,255,.94),rgba(250,251,248,.8));box-shadow:0 20px 55px rgba(24,31,27,.075)}
+.model-snapshot:before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,#116bff,#45c0f2 58%,#082b57)}
+.snapshot-kicker{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 22px 14px;border-bottom:1px solid var(--line)}
+.snapshot-kicker span{font-size:9px;letter-spacing:.13em;font-weight:800;color:var(--muted)}
+.snapshot-kicker strong{font-size:12px}
+.snapshot-primary{display:grid;grid-template-columns:1fr 1fr;padding:26px 22px 24px;gap:24px}
+.snapshot-primary>div+div{padding-left:24px;border-left:1px solid var(--line)}
+.snapshot-primary span{display:block;font-size:9px;letter-spacing:.11em;font-weight:800;color:var(--muted);margin-bottom:8px}
+.snapshot-primary strong{display:block;font-size:clamp(27px,3vw,42px);letter-spacing:-.055em;line-height:1}
+.snapshot-primary>div:nth-child(2) strong{font-size:clamp(20px,2.2vw,30px);letter-spacing:-.035em;line-height:1.08}
+.snapshot-details{margin:0;padding:0 22px;border-top:1px solid var(--line)}
+.snapshot-details>div{display:flex;justify-content:space-between;gap:24px;padding:12px 0;border-bottom:1px solid var(--line)}
+.snapshot-details dt{font-size:11px;color:var(--muted)}
+.snapshot-details dd{margin:0;font-size:12px;font-weight:750;text-align:right}
+.snapshot-status{display:flex;align-items:center;gap:9px;padding:15px 22px;font-size:11px;font-weight:750}
+.snapshot-status i{width:8px;height:8px;border-radius:50%;background:#178254;box-shadow:0 0 0 5px rgba(23,130,84,.09)}
+.model-evidence-summary{align-self:start;border:1px solid #d7dbd6;border-radius:18px;background:rgba(255,255,255,.72);padding:20px 22px;box-shadow:0 14px 38px rgba(25,30,27,.045)}
+.evidence-summary-head{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-bottom:13px;border-bottom:1px solid var(--line)}
+.evidence-summary-head span{font-size:9px;letter-spacing:.12em;font-weight:800;color:var(--muted)}
+.evidence-summary-head strong{font-size:12px}
+.evidence-summary-list{padding:3px 0}
+.evidence-summary-list>div{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:10px 0;border-bottom:1px solid var(--line)}
+.evidence-summary-list span{display:flex;align-items:center;gap:9px;font-size:11px;color:var(--muted)}
+.evidence-summary-list strong{font-size:11px;text-align:right}
+.evidence-summary-list i{width:7px;height:7px;border-radius:50%;background:#a9aea8;box-shadow:0 0 0 4px rgba(85,91,86,.05)}
+.evidence-summary-list .ok i,.evidence-summary-list .observed i{background:#178254;box-shadow:0 0 0 4px rgba(23,130,84,.08)}
+.evidence-summary-list .declared i{background:#116bff;box-shadow:0 0 0 4px rgba(17,107,255,.08)}
+.evidence-summary-list .unknown i{background:#a9aea8}
+.evidence-summary-meta{display:flex;justify-content:space-between;gap:20px;padding-top:9px;font-size:10px;color:var(--muted)}
+.evidence-summary-meta strong{color:var(--text);font-size:10px}
+.evidence-summary-link{display:inline-flex;margin-top:15px;font-size:11px;font-weight:750;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:980px){
+  .model-head{grid-template-columns:1fr;gap:34px}
+  .model-snapshot{max-width:660px}
+}
+@media(max-width:560px){
+  .snapshot-primary{grid-template-columns:1fr;gap:18px}
+  .snapshot-primary>div+div{padding-left:0;padding-top:18px;border-left:0;border-top:1px solid var(--line)}
+  .snapshot-primary strong,.snapshot-primary>div:nth-child(2) strong{font-size:30px}
+}

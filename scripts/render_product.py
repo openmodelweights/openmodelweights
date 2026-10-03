@@ -829,11 +829,19 @@ def model_intelligence_article(m,models,generated):
   </header>
   <div class="model-story-layout">
     <div class="model-story-copy"><p>{p1}</p>{f'<p>{p2}</p>' if p2 else ''}<p>{p3}</p><div class="model-inline-sources">{source_line}</div></div>
-    <aside class="model-at-a-glance"><span>AT A GLANCE</span><div class="model-glance-chips">{''.join(chips)}</div><dl>
-      <div><dt>Repository created</dt><dd>{esc(repo_created)}</dd></div>
-      <div><dt>Publisher updated</dt><dd>{esc(repo_updated)}</dd></div>
-      <div><dt>Verification</dt><dd>{esc(_human_status(ver.get("level")))}</dd></div>
-    </dl></aside>
+    <aside class="model-evidence-summary">
+      <div class="evidence-summary-head"><span>EVIDENCE COVERAGE</span><strong>Source trail</strong></div>
+      <div class="evidence-summary-list">
+        <div class="ok"><span><i aria-hidden="true"></i>Repository</span><strong>Checked</strong></div>
+        <div class="{'ok' if ver.get('readme_accessible') else 'unknown'}"><span><i aria-hidden="true"></i>Model card</span><strong>{'Available' if ver.get('readme_accessible') else 'Not observed'}</strong></div>
+        <div class="{'ok' if ver.get('config_accessible') else 'unknown'}"><span><i aria-hidden="true"></i>Configuration</span><strong>{'Available' if ver.get('config_accessible') else 'Not observed'}</strong></div>
+        <div class="{'ok' if _known((lic.get('verification') or {}).get('status')) else 'unknown'}"><span><i aria-hidden="true"></i>License evidence</span><strong>{esc(_human_status((lic.get('verification') or {}).get('status')))}</strong></div>
+        <div class="{'observed' if runtime.get('tested_by_openmodelweights') else 'declared'}"><span><i aria-hidden="true"></i>Runtime evidence</span><strong>{'OMW observed' if runtime.get('tested_by_openmodelweights') else 'Source-derived'}</strong></div>
+      </div>
+      <div class="evidence-summary-meta"><span>Repository created</span><strong>{esc(repo_created)}</strong></div>
+      <div class="evidence-summary-meta"><span>Publisher updated</span><strong>{esc(repo_updated)}</strong></div>
+      <a class="evidence-summary-link" href="#evidence-trail">Inspect evidence trail →</a>
+    </aside>
   </div>
 
   <section class="model-intel-section" id="deployment">
