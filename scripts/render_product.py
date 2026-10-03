@@ -655,12 +655,15 @@ def _related_models(m,models,limit=4):
         return sorted(same_family,key=lambda x:x.get("name","").lower())[:limit]
 
     modality=(m.get("model") or {}).get("modality")
+    pipeline=(m.get("hub") or {}).get("pipeline_tag")
     same_scope=[
       x for x in models
       if x["id"]!=m["id"]
       and x.get("developer")==m.get("developer")
       and _known(modality)
       and (x.get("model") or {}).get("modality")==modality
+      and _known(pipeline)
+      and (x.get("hub") or {}).get("pipeline_tag")==pipeline
     ]
     return sorted(same_scope,key=lambda x:x.get("name","").lower())[:limit]
 
@@ -804,10 +807,10 @@ def model_intelligence_article(m,models,generated):
 
     related=[]
     for other in _related_models(m,models):
-        relation_label="Same family" if _known(family) and other.get("family")==family else "Same developer"
+        relation_label="Same family" if _known(family) and other.get("family")==family else "Same developer + task"
         om=other.get("model") or {}
         related.append(f'<a class="related-model-card" href="/models/{esc(other["id"])}/"><span>{esc(relation_label)}</span><strong>{esc(other.get("name"))}</strong><p>{esc(om.get("parameters") or "Parameters not declared")} · {esc((om.get("context") or {}).get("display") or "Context not declared")}</p></a>')
-    related_html="".join(related) if related else '<p class="model-empty">No directly related registry records are available under the current family/developer fields.</p>'
+    related_html="".join(related) if related else '<p class="model-empty">No close related record is exposed by the current family, developer and task fields.</p>'
 
     repo_created=short_date(hub.get("created_at")) if hub.get("created_at") else "Not declared"
     repo_updated=short_date(hub.get("last_modified")) if hub.get("last_modified") else "Not declared"
@@ -868,7 +871,7 @@ def model_intelligence_article(m,models,generated):
   </section>
 
   <section class="model-intel-section related-models-section">
-    <div class="model-intel-section-head"><div><p class="eyebrow">RELATED RECORDS</p><h2>Continue through structurally related records.</h2></div><p>Family matches are preferred; otherwise the fallback requires the same developer and model modality. No quality score or recommendation rank is used.</p></div>
+    <div class="model-intel-section-head"><div><p class="eyebrow">RELATED RECORDS</p><h2>Continue through structurally related records.</h2></div><p>Family matches are preferred; otherwise the fallback requires the same developer, model modality and declared pipeline task. No quality score or recommendation rank is used.</p></div>
     <div class="related-model-grid">{related_html}</div>
   </section>
 </article>
