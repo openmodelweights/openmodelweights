@@ -13,6 +13,20 @@ async function assetJson(env,path){
 const norm=v=>(v??"").toString().toLowerCase();
 const limitOf=v=>Math.max(1,Math.min(100,Number(v||20)));
 
+async function proxyUmami(request,url){
+  const upstreamPath=url.pathname.slice("/stats".length) || "/";
+  const target=new URL("https://cloud.umami.is"+upstreamPath+url.search);
+  const headers=new Headers(request.headers);
+  headers.delete("host");
+  // Preserve browser/Cloudflare visitor headers so Umami can process the real request context.
+  const init={method:request.method,headers,redirect:"follow"};
+  if(request.method!=="GET" && request.method!=="HEAD") init.body=request.body;
+  const response=await fetch(target.toString(),init);
+  const responseHeaders=new Headers(response.headers);
+  responseHeaders.set("X-OMW-Analytics-Proxy","umami");
+  return new Response(response.body,{status:response.status,statusText:response.statusText,headers:responseHeaders});
+}
+
 function createServer(env){
   const server=new McpServer({name:"Open Model Weights",version:"1.0.0"});
 
@@ -92,6 +106,7 @@ function createServer(env){
 export default {
   fetch(request,env,ctx){
     const url=new URL(request.url);
+    if(url.pathname==="/stats" || url.pathname.startsWith("/stats/")) return proxyUmami(request,url);
     if(url.pathname==="/mcp"){
       const handler=createMcpHandler(()=>createServer(env),{
         route:"/mcp",

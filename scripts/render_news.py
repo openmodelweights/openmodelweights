@@ -14,7 +14,7 @@ PUBLIC=ROOT/"public"
 DATA=ROOT/"data"/"news.json"
 SITE="https://openmodelweights.com"
 SOCIAL_IMAGE=SITE+"/social-card.png"
-UMAMI_ANALYTICS='<script defer src="https://cloud.umami.is/script.js" data-website-id="76f4745e-2915-44e5-aaaa-8dda6cfee383"></script>'
+UMAMI_ANALYTICS='<script defer src="/stats/script.js" data-host-url="https://openmodelweights.com/stats" data-website-id="76f4745e-2915-44e5-aaaa-8dda6cfee383"></script>'
 
 def esc(v):
     return html.escape(str(v if v is not None else ""),quote=True)

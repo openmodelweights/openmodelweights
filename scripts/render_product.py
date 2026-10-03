@@ -47,7 +47,7 @@ def fmt_compact(v):
     return f"{n:,}"
 
 SITE="https://openmodelweights.com"
-UMAMI_ANALYTICS='<script defer src="https://cloud.umami.is/script.js" data-website-id="76f4745e-2915-44e5-aaaa-8dda6cfee383"></script>'
+UMAMI_ANALYTICS='<script defer src="/stats/script.js" data-host-url="https://openmodelweights.com/stats" data-website-id="76f4745e-2915-44e5-aaaa-8dda6cfee383"></script>'
 ORG_ID=SITE+"/#organization"
 WEBSITE_ID=SITE+"/#website"
 
@@ -263,7 +263,7 @@ def _schema_script(nodes):
 
 def _ensure_meta(text,canonical,title,desc):
     additions=[]
-    text=re.sub(r'<script[^>]+src="https://cloud\.umami\.is/script\.js"[^>]*>\s*</script>','',text,flags=re.I)
+    text=re.sub(r'<script[^>]+(?:src=["\'](?:https://cloud\.umami\.is/script\.js|/stats/script\.js)["\'])[^>]*>\s*</script>','',text,flags=re.I)
     additions.append(UMAMI_ANALYTICS)
     # Normalize site identity so generated pages cannot retain the legacy bar mark.
     text=re.sub(r'<span class="brand-mark brand-mark-small" aria-hidden="true"><i></i><i></i><i></i></span>',
