@@ -165,7 +165,7 @@
   "verification": {
     "level": "field-verified",
     "checked_at": "2026-10-03",
-    "checked_at_iso": "2026-10-03T10:08:50+00:00",
+    "checked_at_iso": "2026-10-03T10:18:29+00:00",
     "method": "Hugging Face API + repository file list + model card + config.json",
     "mode": "repository-revision-unchanged",
     "full_verified_at": "2026-10-02",
@@ -210,12 +210,12 @@
     "repo_id": "BAAI/bge-reranker-v2-m3",
     "rank": 123,
     "downloads": 17098942,
-    "likes": 1223,
+    "likes": 1224,
     "last_modified": "2024-06-24T14:08:45+00:00",
     "created_at": "2024-03-15T13:32:18+00:00",
     "library_name": "sentence-transformers",
     "pipeline_tag": "text-classification",
-    "discovered_at": "2026-10-03T10:08:48+00:00",
+    "discovered_at": "2026-10-03T10:18:27+00:00",
     "pinned": false
   },
   "runtime_support": {
@@ -233,7 +233,7 @@
     "last_modified": "2024-06-24T14:08:45.000Z",
     "created_at": "2024-03-15T13:32:18.000Z",
     "downloads": 17098942,
-    "likes": 1223,
+    "likes": 1224,
     "sha": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
     "library_name": "sentence-transformers",
     "pipeline_tag": "text-classification",

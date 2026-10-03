@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0.0",
   "date": "2026-10-03",
-  "generated_at": "2026-10-03T10:11:16+00:00",
+  "generated_at": "2026-10-03T10:21:09+00:00",
   "registry_schema": "0.8.0",
   "model_count": 700,
   "note": "One canonical evidence manifest per UTC day. Re-running on the same day replaces that day's manifest with the latest successful registry state.",
@@ -3959,46 +3959,6 @@
       "full_verified_at": "2026-10-02"
     },
     {
-      "model_id": "comfy-org-hunyuanvideo-1-5-repackaged",
-      "repository_sha": "1405a2b738c29b890cf6d03fc038d8d3e92eeed7",
-      "evidence_hash": "b18d2eae2d7429724d4a054e32d8dd3ac7ed88fd3c767bb8ad1d8b5035fa689f",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "nvidia-bigvgan-v2-44khz-128band-512x",
-      "repository_sha": "95a9d1dcb12906c03edd938d77b9333d6ded7dfb",
-      "evidence_hash": "a3d04223b31d6404a1a024fcce80a088c1cd41f42a2ffc711a0e49ee0665032c",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "fastino-gliner2-base-v1",
-      "repository_sha": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
-      "evidence_hash": "01ed1ee1570d545af5a95c221207b88d7b9a5ab9444e1ef297a4f7f05ecb1768",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "apple-openelm-1-1b-instruct",
-      "repository_sha": "effd796da2a77361d7360e45e54c7cc14bc5df2a",
-      "evidence_hash": "b9b46cb37f7a3919c99f8d0f2e2f5e55cfceed7b2bd941407f3173874b09aebc",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
-      "model_id": "whereisai-uae-large-v1",
-      "repository_sha": "9c9b2c999b3350cfb3171ed429320668e39b00b8",
-      "evidence_hash": "3fa87d6c41350103cc292f9444e1e313198253d734edae7a0c8b8272af64c41d",
-      "verification_mode": "repository-revision-unchanged",
-      "checked_at": "2026-10-03",
-      "full_verified_at": "2026-10-02"
-    },
-    {
       "model_id": "sentence-transformers-multi-qa-minilm-l6-cos-v1",
       "repository_sha": "b207367332321f8e44f96e224ef15bc607f4dbf0",
       "evidence_hash": "a4f86f90af898931916da46c239b6e58750b8f809f20b4192246441e7a0727b3",
@@ -5603,6 +5563,46 @@
       "repository_sha": "826aacdf6d8b2699d4e367def6f17c83b06044c2",
       "evidence_hash": "3393d1612b87885a4b010817149e0ff35ff286f43fcf4389a2dfb0c1ce62aac9",
       "verification_mode": "repository-revision-unchanged",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "snowflake-snowflake-arctic-embed-m",
+      "repository_sha": "fc74610d18462d218e312aa986ec5c8a75a98152",
+      "evidence_hash": "8e65578ad3ea331b6dad582cbc65edcf067369271ffbe379175bc3e2d9cf9406",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "google-paligemma-3b-pt-224",
+      "repository_sha": "35e4f46485b4d07967e7e9935bc3786aad50687c",
+      "evidence_hash": "bd767e86a8272c516fb5e97324aa81caefd42f0e42487afbbf1b7e3beb7d0254",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "microsoft-tapex-base-finetuned-wikisql",
+      "repository_sha": "1e7e530d8732564c28b4453cd9d21dbf02a6c5dd",
+      "evidence_hash": "a3c4f8d38821a8ee20744a4192c3d161c289c71a891886ab400d83975782cf77",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "bkai-foundation-models-vietnamese-bi-encoder",
+      "repository_sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+      "evidence_hash": "aaa62f2dc6d0003669b7fa9581ad4919672ca48ad8e90071f8d2f9a65c6513a5",
+      "verification_mode": "full-field-verification",
+      "checked_at": "2026-10-03",
+      "full_verified_at": "2026-10-03"
+    },
+    {
+      "model_id": "aubmindlab-bert-base-arabertv02",
+      "repository_sha": "016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60",
+      "evidence_hash": "03a50db32dfeffa86dfea4e4b90e494753af29e21f70bf7abf487d04749f593b",
+      "verification_mode": "full-field-verification",
       "checked_at": "2026-10-03",
       "full_verified_at": "2026-10-03"
     }

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-03T10:11:16+00:00",
+  "generated_at": "2026-10-03T10:21:09+00:00",
   "semantics": {
     "runtime_signal": "Declared/tagged/mentioned/artifact evidence; not necessarily independently executed.",
     "fits_weight_only_estimate": "Derived from verified parameter count and excludes KV cache, activations, runtime overhead and sharding."
   },
   "node_count": 1047,
-  "edge_count": 5604,
+  "edge_count": 5605,
   "nodes": [
     {
       "id": "model:nvidia-nemotron-3-nano-30b-a3b",
@@ -5946,66 +5946,6 @@
       }
     },
     {
-      "id": "model:comfy-org-hunyuanvideo-1-5-repackaged",
-      "type": "model",
-      "label": "HunyuanVideo_1.5_repackaged",
-      "meta": {
-        "developer": "Comfy-Org",
-        "url": "/models/comfy-org-hunyuanvideo-1-5-repackaged/"
-      }
-    },
-    {
-      "id": "base-reference:tencent-hunyuanvideo-1-5",
-      "type": "base_model_reference",
-      "label": "tencent/HunyuanVideo-1.5"
-    },
-    {
-      "id": "model:nvidia-bigvgan-v2-44khz-128band-512x",
-      "type": "model",
-      "label": "bigvgan_v2_44khz_128band_512x",
-      "meta": {
-        "developer": "NVIDIA",
-        "url": "/models/nvidia-bigvgan-v2-44khz-128band-512x/"
-      }
-    },
-    {
-      "id": "model:fastino-gliner2-base-v1",
-      "type": "model",
-      "label": "gliner2-base-v1",
-      "meta": {
-        "developer": "fastino",
-        "url": "/models/fastino-gliner2-base-v1/"
-      }
-    },
-    {
-      "id": "runtime:gliner2",
-      "type": "runtime",
-      "label": "gliner2"
-    },
-    {
-      "id": "model:apple-openelm-1-1b-instruct",
-      "type": "model",
-      "label": "OpenELM-1_1B-Instruct",
-      "meta": {
-        "developer": "apple",
-        "url": "/models/apple-openelm-1-1b-instruct/"
-      }
-    },
-    {
-      "id": "license:apple-sample-code-license",
-      "type": "license",
-      "label": "apple-sample-code-license"
-    },
-    {
-      "id": "model:whereisai-uae-large-v1",
-      "type": "model",
-      "label": "UAE-Large-V1",
-      "meta": {
-        "developer": "WhereIsAI",
-        "url": "/models/whereisai-uae-large-v1/"
-      }
-    },
-    {
       "id": "model:sentence-transformers-multi-qa-minilm-l6-cos-v1",
       "type": "model",
       "label": "multi-qa-MiniLM-L6-cos-v1",
@@ -7379,6 +7319,11 @@
       }
     },
     {
+      "id": "license:apple-sample-code-license",
+      "type": "license",
+      "label": "apple-sample-code-license"
+    },
+    {
       "id": "model:shibing624-macbert4csc-base-chinese",
       "type": "model",
       "label": "macbert4csc-base-chinese",
@@ -7821,6 +7766,11 @@
       }
     },
     {
+      "id": "runtime:gliner2",
+      "type": "runtime",
+      "label": "gliner2"
+    },
+    {
       "id": "model:helsinki-nlp-opus-mt-en-ru",
       "type": "model",
       "label": "opus-mt-en-ru",
@@ -8122,6 +8072,56 @@
       "id": "base-reference:poolside-laguna-s-2-1",
       "type": "base_model_reference",
       "label": "poolside/Laguna-S-2.1"
+    },
+    {
+      "id": "model:snowflake-snowflake-arctic-embed-m",
+      "type": "model",
+      "label": "snowflake-arctic-embed-m",
+      "meta": {
+        "developer": "Snowflake",
+        "url": "/models/snowflake-snowflake-arctic-embed-m/"
+      }
+    },
+    {
+      "id": "model:google-paligemma-3b-pt-224",
+      "type": "model",
+      "label": "paligemma-3b-pt-224",
+      "meta": {
+        "developer": "Google",
+        "url": "/models/google-paligemma-3b-pt-224/"
+      }
+    },
+    {
+      "id": "model:microsoft-tapex-base-finetuned-wikisql",
+      "type": "model",
+      "label": "tapex-base-finetuned-wikisql",
+      "meta": {
+        "developer": "Microsoft",
+        "url": "/models/microsoft-tapex-base-finetuned-wikisql/"
+      }
+    },
+    {
+      "id": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "type": "model",
+      "label": "vietnamese-bi-encoder",
+      "meta": {
+        "developer": "bkai-foundation-models",
+        "url": "/models/bkai-foundation-models-vietnamese-bi-encoder/"
+      }
+    },
+    {
+      "id": "runtime:generic",
+      "type": "runtime",
+      "label": "generic"
+    },
+    {
+      "id": "model:aubmindlab-bert-base-arabertv02",
+      "type": "model",
+      "label": "bert-base-arabertv02",
+      "meta": {
+        "developer": "aubmindlab",
+        "url": "/models/aubmindlab-bert-base-arabertv02/"
+      }
     }
   ],
   "edges": [
@@ -32264,216 +32264,6 @@
       "evidence": "publisher-or-repository-evidence"
     },
     {
-      "source": "model:comfy-org-hunyuanvideo-1-5-repackaged",
-      "target": "license:tencent-hunyuan-community",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:comfy-org-hunyuanvideo-1-5-repackaged",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:comfy-org-hunyuanvideo-1-5-repackaged",
-      "target": "precision:bf16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:comfy-org-hunyuanvideo-1-5-repackaged",
-      "target": "precision:fp16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:comfy-org-hunyuanvideo-1-5-repackaged",
-      "target": "precision:fp8",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:comfy-org-hunyuanvideo-1-5-repackaged",
-      "target": "runtime:diffusion-single-file",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:comfy-org-hunyuanvideo-1-5-repackaged",
-      "target": "base-reference:tencent-hunyuanvideo-1-5",
-      "relation": "declares_base_model",
-      "evidence": "publisher-metadata"
-    },
-    {
-      "source": "model:nvidia-bigvgan-v2-44khz-128band-512x",
-      "target": "license:mit",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:nvidia-bigvgan-v2-44khz-128band-512x",
-      "target": "format:pytorch",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:nvidia-bigvgan-v2-44khz-128band-512x",
-      "target": "runtime:pytorch",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:fastino-gliner2-base-v1",
-      "target": "license:apache-2-0",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:fastino-gliner2-base-v1",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:fastino-gliner2-base-v1",
-      "target": "runtime:gliner2",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:fastino-gliner2-base-v1",
-      "target": "memory:bf16_fp16:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:fastino-gliner2-base-v1",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:fastino-gliner2-base-v1",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:apple-openelm-1-1b-instruct",
-      "target": "license:apple-sample-code-license",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:apple-openelm-1-1b-instruct",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:apple-openelm-1-1b-instruct",
-      "target": "precision:bf16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:apple-openelm-1-1b-instruct",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:apple-openelm-1-1b-instruct",
-      "target": "memory:bf16_fp16:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:apple-openelm-1-1b-instruct",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:apple-openelm-1-1b-instruct",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "license:mit",
-      "relation": "licensed_under",
-      "evidence": "repository-or-publisher-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "format:onnx",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "format:pytorch",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "format:safetensors",
-      "relation": "publishes_format",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "precision:fp16",
-      "relation": "observed_precision",
-      "evidence": "repository-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "runtime:onnx-runtime",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "runtime:onnx-artifact-present",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "runtime:transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "runtime:sentence-transformers",
-      "relation": "runtime_signal",
-      "evidence": "publisher-or-repository-evidence"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "memory:bf16_fp16:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "memory:fp8_int8:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
-      "source": "model:whereisai-uae-large-v1",
-      "target": "memory:int4:16gb",
-      "relation": "fits_weight_only_estimate",
-      "evidence": "derived-estimate"
-    },
-    {
       "source": "model:sentence-transformers-multi-qa-minilm-l6-cos-v1",
       "target": "license:not-declared-in-model-card-metadata",
       "relation": "licensed_under",
@@ -41746,6 +41536,222 @@
     {
       "source": "model:poolside-laguna-s-2-1-nvfp4",
       "target": "memory:int4:80gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "license:apache-2-0",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "format:onnx",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "precision:fp16",
+      "relation": "observed_precision",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "precision:int8",
+      "relation": "observed_precision",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "runtime:onnx-runtime",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "runtime:onnx-artifact-present",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "runtime:sentence-transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:snowflake-snowflake-arctic-embed-m",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:google-paligemma-3b-pt-224",
+      "target": "license:gemma",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:google-paligemma-3b-pt-224",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:google-paligemma-3b-pt-224",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:google-paligemma-3b-pt-224",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:google-paligemma-3b-pt-224",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:google-paligemma-3b-pt-224",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:microsoft-tapex-base-finetuned-wikisql",
+      "target": "license:mit",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:microsoft-tapex-base-finetuned-wikisql",
+      "target": "format:pytorch",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:microsoft-tapex-base-finetuned-wikisql",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "license:apache-2-0",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "format:pytorch",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "runtime:generic",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:bkai-foundation-models-vietnamese-bi-encoder",
+      "target": "memory:int4:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "license:not-declared-in-model-card-metadata",
+      "relation": "licensed_under",
+      "evidence": "repository-or-publisher-evidence"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "format:pytorch",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "format:safetensors",
+      "relation": "publishes_format",
+      "evidence": "repository-evidence"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "runtime:transformers",
+      "relation": "runtime_signal",
+      "evidence": "publisher-or-repository-evidence"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "memory:bf16_fp16:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "memory:fp8_int8:16gb",
+      "relation": "fits_weight_only_estimate",
+      "evidence": "derived-estimate"
+    },
+    {
+      "source": "model:aubmindlab-bert-base-arabertv02",
+      "target": "memory:int4:16gb",
       "relation": "fits_weight_only_estimate",
       "evidence": "derived-estimate"
     }
@@ -54269,126 +54275,6 @@
       "url": "/models/microsoft-deberta-v3-large/"
     },
     {
-      "id": "comfy-org-hunyuanvideo-1-5-repackaged",
-      "name": "HunyuanVideo_1.5_repackaged",
-      "developer": "Comfy-Org",
-      "license": "tencent-hunyuan-community",
-      "commercial_use": "unknown",
-      "context_tokens": null,
-      "formats": [
-        "Safetensors"
-      ],
-      "precisions": [
-        "bf16",
-        "fp16",
-        "fp8"
-      ],
-      "runtimes": [
-        "diffusion-single-file"
-      ],
-      "weight_only_gb": {},
-      "repository": "https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged",
-      "last_checked": "2026-10-03",
-      "url": "/models/comfy-org-hunyuanvideo-1-5-repackaged/"
-    },
-    {
-      "id": "nvidia-bigvgan-v2-44khz-128band-512x",
-      "name": "bigvgan_v2_44khz_128band_512x",
-      "developer": "NVIDIA",
-      "license": "MIT",
-      "commercial_use": "allowed",
-      "context_tokens": null,
-      "formats": [
-        "PyTorch"
-      ],
-      "precisions": [],
-      "runtimes": [
-        "PyTorch"
-      ],
-      "weight_only_gb": {},
-      "repository": "https://huggingface.co/nvidia/bigvgan_v2_44khz_128band_512x",
-      "last_checked": "2026-10-03",
-      "url": "/models/nvidia-bigvgan-v2-44khz-128band-512x/"
-    },
-    {
-      "id": "fastino-gliner2-base-v1",
-      "name": "gliner2-base-v1",
-      "developer": "fastino",
-      "license": "Apache-2.0",
-      "commercial_use": "allowed",
-      "context_tokens": null,
-      "formats": [
-        "Safetensors"
-      ],
-      "precisions": [],
-      "runtimes": [
-        "gliner2"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 0.42,
-        "fp8_int8": 0.21,
-        "int4": 0.1
-      },
-      "repository": "https://huggingface.co/fastino/gliner2-base-v1",
-      "last_checked": "2026-10-03",
-      "url": "/models/fastino-gliner2-base-v1/"
-    },
-    {
-      "id": "apple-openelm-1-1b-instruct",
-      "name": "OpenELM-1_1B-Instruct",
-      "developer": "apple",
-      "license": "apple-sample-code-license",
-      "commercial_use": "unknown",
-      "context_tokens": null,
-      "formats": [
-        "Safetensors"
-      ],
-      "precisions": [
-        "bf16"
-      ],
-      "runtimes": [
-        "Transformers"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 2.16,
-        "fp8_int8": 1.08,
-        "int4": 0.54
-      },
-      "repository": "https://huggingface.co/apple/OpenELM-1_1B-Instruct",
-      "last_checked": "2026-10-03",
-      "url": "/models/apple-openelm-1-1b-instruct/"
-    },
-    {
-      "id": "whereisai-uae-large-v1",
-      "name": "UAE-Large-V1",
-      "developer": "WhereIsAI",
-      "license": "MIT",
-      "commercial_use": "allowed",
-      "context_tokens": 512,
-      "formats": [
-        "ONNX",
-        "PyTorch",
-        "Safetensors"
-      ],
-      "precisions": [
-        "fp16"
-      ],
-      "runtimes": [
-        "ONNX Runtime",
-        "ONNX artifact present",
-        "Transformers",
-        "sentence-transformers"
-      ],
-      "weight_only_gb": {
-        "bf16_fp16": 0.67,
-        "fp8_int8": 0.34,
-        "int4": 0.17
-      },
-      "repository": "https://huggingface.co/WhereIsAI/UAE-Large-V1",
-      "last_checked": "2026-10-03",
-      "url": "/models/whereisai-uae-large-v1/"
-    },
-    {
       "id": "sentence-transformers-multi-qa-minilm-l6-cos-v1",
       "name": "multi-qa-MiniLM-L6-cos-v1",
       "developer": "Sentence Transformers",
@@ -59365,6 +59251,127 @@
       "repository": "https://huggingface.co/poolside/Laguna-S-2.1-NVFP4",
       "last_checked": "2026-10-03",
       "url": "/models/poolside-laguna-s-2-1-nvfp4/"
+    },
+    {
+      "id": "snowflake-snowflake-arctic-embed-m",
+      "name": "snowflake-arctic-embed-m",
+      "developer": "Snowflake",
+      "license": "Apache-2.0",
+      "commercial_use": "allowed",
+      "context_tokens": 512,
+      "formats": [
+        "ONNX",
+        "Safetensors"
+      ],
+      "precisions": [
+        "fp16",
+        "int8"
+      ],
+      "runtimes": [
+        "ONNX Runtime",
+        "ONNX artifact present",
+        "Transformers",
+        "sentence-transformers"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 0.22,
+        "fp8_int8": 0.11,
+        "int4": 0.05
+      },
+      "repository": "https://huggingface.co/Snowflake/snowflake-arctic-embed-m",
+      "last_checked": "2026-10-03",
+      "url": "/models/snowflake-snowflake-arctic-embed-m/"
+    },
+    {
+      "id": "google-paligemma-3b-pt-224",
+      "name": "paligemma-3b-pt-224",
+      "developer": "Google",
+      "license": "gemma",
+      "commercial_use": "allowed-with-conditions",
+      "context_tokens": null,
+      "formats": [
+        "Safetensors"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "Transformers"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 5.85,
+        "fp8_int8": 2.92,
+        "int4": 1.46
+      },
+      "repository": "https://huggingface.co/google/paligemma-3b-pt-224",
+      "last_checked": "2026-10-03",
+      "url": "/models/google-paligemma-3b-pt-224/"
+    },
+    {
+      "id": "microsoft-tapex-base-finetuned-wikisql",
+      "name": "tapex-base-finetuned-wikisql",
+      "developer": "Microsoft",
+      "license": "MIT",
+      "commercial_use": "allowed",
+      "context_tokens": 1024,
+      "formats": [
+        "PyTorch"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "Transformers"
+      ],
+      "weight_only_gb": {},
+      "repository": "https://huggingface.co/microsoft/tapex-base-finetuned-wikisql",
+      "last_checked": "2026-10-03",
+      "url": "/models/microsoft-tapex-base-finetuned-wikisql/"
+    },
+    {
+      "id": "bkai-foundation-models-vietnamese-bi-encoder",
+      "name": "vietnamese-bi-encoder",
+      "developer": "bkai-foundation-models",
+      "license": "Apache-2.0",
+      "commercial_use": "allowed",
+      "context_tokens": 258,
+      "formats": [
+        "PyTorch",
+        "Safetensors"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "Transformers",
+        "generic"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 0.27,
+        "fp8_int8": 0.13,
+        "int4": 0.07
+      },
+      "repository": "https://huggingface.co/bkai-foundation-models/vietnamese-bi-encoder",
+      "last_checked": "2026-10-03",
+      "url": "/models/bkai-foundation-models-vietnamese-bi-encoder/"
+    },
+    {
+      "id": "aubmindlab-bert-base-arabertv02",
+      "name": "bert-base-arabertv02",
+      "developer": "aubmindlab",
+      "license": "Not declared in model-card metadata",
+      "commercial_use": "unknown",
+      "context_tokens": 512,
+      "formats": [
+        "PyTorch",
+        "Safetensors"
+      ],
+      "precisions": [],
+      "runtimes": [
+        "Transformers"
+      ],
+      "weight_only_gb": {
+        "bf16_fp16": 0.27,
+        "fp8_int8": 0.14,
+        "int4": 0.07
+      },
+      "repository": "https://huggingface.co/aubmindlab/bert-base-arabertv02",
+      "last_checked": "2026-10-03",
+      "url": "/models/aubmindlab-bert-base-arabertv02/"
     }
   ]
 }

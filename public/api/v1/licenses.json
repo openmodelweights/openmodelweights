@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-03T10:11:16+00:00",
+  "generated_at": "2026-10-03T10:21:09+00:00",
   "licenses": [
     {
       "name": "Apache-2.0",
-      "model_count": 340,
+      "model_count": 341,
       "commercial_use": {
-        "allowed": 340
+        "allowed": 341
       }
     },
     {
@@ -31,9 +31,9 @@
     },
     {
       "name": "MIT",
-      "model_count": 141,
+      "model_count": 140,
       "commercial_use": {
-        "allowed": 141
+        "allowed": 140
       }
     },
     {
@@ -52,9 +52,9 @@
     },
     {
       "name": "Not declared in model-card metadata",
-      "model_count": 30,
+      "model_count": 31,
       "commercial_use": {
-        "unknown": 29,
+        "unknown": 30,
         "allowed-with-conditions": 1
       }
     },
@@ -130,9 +130,9 @@
     },
     {
       "name": "apple-sample-code-license",
-      "model_count": 2,
+      "model_count": 1,
       "commercial_use": {
-        "unknown": 2
+        "unknown": 1
       }
     },
     {
@@ -228,9 +228,9 @@
     },
     {
       "name": "gemma",
-      "model_count": 10,
+      "model_count": 11,
       "commercial_use": {
-        "allowed-with-conditions": 6,
+        "allowed-with-conditions": 7,
         "unknown": 4
       }
     },
@@ -455,9 +455,9 @@
     },
     {
       "name": "tencent-hunyuan-community",
-      "model_count": 2,
+      "model_count": 1,
       "commercial_use": {
-        "unknown": 2
+        "unknown": 1
       }
     },
     {

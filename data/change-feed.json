@@ -1,16 +1,126 @@
 {
-  "generated_at": "2026-10-03T10:11:16+00:00",
+  "generated_at": "2026-10-03T10:21:09+00:00",
   "events": [
     {
-      "id": "36481a0d1d8d57f7",
-      "at": "2026-10-03T10:11:16+00:00",
+      "id": "c00923fba4c9b2d6",
+      "at": "2026-10-03T10:21:09+00:00",
       "type": "verification",
       "model_id": null,
       "model": "Registry verification",
       "developer": "",
       "summary": "700/700 records field-verified",
-      "detail": "51 fetch errors; 597 commercial-use classifications.",
+      "detail": "56 fetch errors; 598 commercial-use classifications.",
       "url": "/verification/"
+    },
+    {
+      "id": "70732d42ec450df7",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "added",
+      "model_id": "snowflake-snowflake-arctic-embed-m",
+      "model": "snowflake-arctic-embed-m",
+      "developer": "Snowflake",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/snowflake-snowflake-arctic-embed-m/"
+    },
+    {
+      "id": "7452ec06a2fe4efd",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "added",
+      "model_id": "google-paligemma-3b-pt-224",
+      "model": "paligemma-3b-pt-224",
+      "developer": "Google",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/google-paligemma-3b-pt-224/"
+    },
+    {
+      "id": "ab6c796608bc0040",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "added",
+      "model_id": "microsoft-tapex-base-finetuned-wikisql",
+      "model": "tapex-base-finetuned-wikisql",
+      "developer": "Microsoft",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/microsoft-tapex-base-finetuned-wikisql/"
+    },
+    {
+      "id": "ee55163920ea4815",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "added",
+      "model_id": "bkai-foundation-models-vietnamese-bi-encoder",
+      "model": "vietnamese-bi-encoder",
+      "developer": "bkai-foundation-models",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/bkai-foundation-models-vietnamese-bi-encoder/"
+    },
+    {
+      "id": "1b779aa32a9c0f5c",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "added",
+      "model_id": "aubmindlab-bert-base-arabertv02",
+      "model": "bert-base-arabertv02",
+      "developer": "aubmindlab",
+      "summary": "Model added to registry",
+      "detail": "New canonical model record entered the source registry.",
+      "url": "/models/aubmindlab-bert-base-arabertv02/"
+    },
+    {
+      "id": "0e28dee1834ebbf2",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "removed",
+      "model_id": "comfy-org-hunyuanvideo-1-5-repackaged",
+      "model": "HunyuanVideo_1.5_repackaged",
+      "developer": "Comfy-Org",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "d7972ec461a6b58d",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "removed",
+      "model_id": "nvidia-bigvgan-v2-44khz-128band-512x",
+      "model": "bigvgan_v2_44khz_128band_512x",
+      "developer": "NVIDIA",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "3831ac570e64acff",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "removed",
+      "model_id": "fastino-gliner2-base-v1",
+      "model": "gliner2-base-v1",
+      "developer": "fastino",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "4e68c51928573abc",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "removed",
+      "model_id": "apple-openelm-1-1b-instruct",
+      "model": "OpenELM-1_1B-Instruct",
+      "developer": "apple",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
+    },
+    {
+      "id": "2b81b68577dc0293",
+      "at": "2026-10-03T10:21:09+00:00",
+      "type": "removed",
+      "model_id": "whereisai-uae-large-v1",
+      "model": "UAE-Large-V1",
+      "developer": "WhereIsAI",
+      "summary": "Model removed from generated registry",
+      "detail": "Record no longer appears in the current generated verification output.",
+      "url": "/changes/"
     },
     {
       "id": "a145371f2b96107a",
@@ -13828,14 +13938,6 @@
       "url": "/models/redhatai-qwen3-8-27b-int4/"
     },
     {
-      "at": "2026-09-28T00:55:46.000Z",
-      "model_id": "fastino-gliner2-base-v1",
-      "model": "gliner2-base-v1",
-      "developer": "fastino",
-      "sha": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
-      "url": "/models/fastino-gliner2-base-v1/"
-    },
-    {
       "at": "2026-09-28T00:55:34.000Z",
       "model_id": "fastino-gliner2-5-multi-v1",
       "model": "gliner2.5-multi-v1",
@@ -13994,14 +14096,6 @@
       "developer": "Comfy-Org",
       "sha": "ccde4ba417d7900669fd56dd292a883cee11ff37",
       "url": "/models/comfy-org-ltx-2/"
-    },
-    {
-      "at": "2026-09-23T07:59:34.000Z",
-      "model_id": "comfy-org-hunyuanvideo-1-5-repackaged",
-      "model": "HunyuanVideo_1.5_repackaged",
-      "developer": "Comfy-Org",
-      "sha": "1405a2b738c29b890cf6d03fc038d8d3e92eeed7",
-      "url": "/models/comfy-org-hunyuanvideo-1-5-repackaged/"
     },
     {
       "at": "2026-09-23T07:59:02.000Z",
@@ -16660,14 +16754,6 @@
       "url": "/models/xenova-bge-base-en-v1-5/"
     },
     {
-      "at": "2025-07-29T13:33:12.000Z",
-      "model_id": "whereisai-uae-large-v1",
-      "model": "UAE-Large-V1",
-      "developer": "WhereIsAI",
-      "sha": "9c9b2c999b3350cfb3171ed429320668e39b00b8",
-      "url": "/models/whereisai-uae-large-v1/"
-    },
-    {
       "at": "2025-07-28T17:16:02.000Z",
       "model_id": "mistralai-mistral-nemo-instruct-2407",
       "model": "Mistral-Nemo-Instruct-2407",
@@ -17332,14 +17418,6 @@
       "url": "/models/apple-dfn5b-clip-vit-h-14-378/"
     },
     {
-      "at": "2025-02-28T18:31:24.000Z",
-      "model_id": "apple-openelm-1-1b-instruct",
-      "model": "OpenELM-1_1B-Instruct",
-      "developer": "apple",
-      "sha": "effd796da2a77361d7360e45e54c7cc14bc5df2a",
-      "url": "/models/apple-openelm-1-1b-instruct/"
-    },
-    {
       "at": "2025-02-28T13:55:37.000Z",
       "model_id": "lpiccinelli-unidepth-v2-vitl14",
       "model": "unidepth-v2-vitl14",
@@ -17668,6 +17746,14 @@
       "url": "/models/llama-3-1-70b-instruct/"
     },
     {
+      "at": "2024-12-13T20:51:22.000Z",
+      "model_id": "snowflake-snowflake-arctic-embed-m",
+      "model": "snowflake-arctic-embed-m",
+      "developer": "Snowflake",
+      "sha": "fc74610d18462d218e312aa986ec5c8a75a98152",
+      "url": "/models/snowflake-snowflake-arctic-embed-m/"
+    },
+    {
       "at": "2024-12-06T19:41:17.000Z",
       "model_id": "llama-3-1-405b-fp8",
       "model": "Llama-3.1-405B-FP8",
@@ -17730,6 +17816,30 @@
       "developer": "Meta",
       "sha": "03820fea9e793d2778564a0242f6b4e4f7b144dc",
       "url": "/models/llama-3-2-3b-instruct-spinquant-int4-eo8/"
+    },
+    {
+      "at": "2024-11-18T20:32:39.000Z",
+      "model_id": "llama-3-2-1b-instruct-spinquant-int4-eo8",
+      "model": "Llama-3.2-1B-Instruct-SpinQuant_INT4_EO8",
+      "developer": "Meta",
+      "sha": "b8c08c95d0476ccb6fc86e9410818d602ecca19d",
+      "url": "/models/llama-3-2-1b-instruct-spinquant-int4-eo8/"
+    },
+    {
+      "at": "2024-11-18T20:29:29.000Z",
+      "model_id": "llama-3-2-1b-instruct-qlora-int4-eo8",
+      "model": "Llama-3.2-1B-Instruct-QLORA_INT4_EO8",
+      "developer": "Meta",
+      "sha": "3fdf98b6bc1069f632a468b0676299a0a1b65071",
+      "url": "/models/llama-3-2-1b-instruct-qlora-int4-eo8/"
+    },
+    {
+      "at": "2024-11-18T15:36:42.000Z",
+      "model_id": "llama-guard-3-11b-vision",
+      "model": "Llama-Guard-3-11B-Vision",
+      "developer": "Meta",
+      "sha": "62d4275543ec7503de66c486de1c0c2103e365ac",
+      "url": "/models/llama-guard-3-11b-vision/"
     }
   ],
   "retention": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:11:16+00:00",
+  "generated_at": "2026-10-03T10:21:09+00:00",
   "developers": [
     {
       "name": "ATH-MaaS",
@@ -114,9 +114,8 @@
     {
       "name": "Comfy-Org",
       "slug": "comfy-org",
-      "model_count": 25,
+      "model_count": 24,
       "families": [
-        "HunyuanVideo_1.5_repackaged",
         "Ideogram-4",
         "Krea-2",
         "MiniMax-H3",
@@ -259,7 +258,7 @@
     {
       "name": "Google",
       "slug": "google",
-      "model_count": 34,
+      "model_count": 35,
       "families": [
         "Gemma 3",
         "diffusiongemma",
@@ -277,6 +276,7 @@
         "medgemma-1.5",
         "mobilebert-uncased",
         "owlv2-base-patch16-ensemble",
+        "paligemma",
         "siglip-base-patch16-224",
         "siglip-so400m-patch14-384",
         "siglip2-base-patch16-224",
@@ -482,7 +482,7 @@
     {
       "name": "Microsoft",
       "slug": "microsoft",
-      "model_count": 21,
+      "model_count": 22,
       "families": [
         "BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
         "Florence-2",
@@ -504,7 +504,8 @@
         "phi-4",
         "resnet-50",
         "table-transformer-detection",
-        "table-transformer-structure-recognition"
+        "table-transformer-structure-recognition",
+        "tapex-base-finetuned-wikisql"
       ],
       "url": "https://openmodelweights.com/developers/microsoft/"
     },
@@ -567,7 +568,7 @@
     {
       "name": "NVIDIA",
       "slug": "nvidia",
-      "model_count": 29,
+      "model_count": 28,
       "families": [
         "Cosmos-Reason2",
         "Cosmos3-Edge",
@@ -585,7 +586,6 @@
         "Qwen3.6",
         "Qwen3.8",
         "Qwen3.8-Flash-Next-NVFP4",
-        "bigvgan_v2_44khz_128band_512x",
         "dragon-multiturn-context-encoder",
         "llama-nemotron-rerank",
         "nemotron-3.5-asr-streaming",
@@ -844,10 +844,11 @@
     {
       "name": "Snowflake",
       "slug": "snowflake",
-      "model_count": 2,
+      "model_count": 3,
       "families": [
         "snowflake-arctic-embed-l",
-        "snowflake-arctic-embed-l-v2.0"
+        "snowflake-arctic-embed-l-v2.0",
+        "snowflake-arctic-embed-m"
       ],
       "url": "https://openmodelweights.com/developers/snowflake/"
     },
@@ -958,15 +959,6 @@
         "Minimax-h3_Singularity"
       ],
       "url": "https://openmodelweights.com/developers/warmbloodaban/"
-    },
-    {
-      "name": "WhereIsAI",
-      "slug": "whereisai",
-      "model_count": 1,
-      "families": [
-        "UAE-Large-V1"
-      ],
-      "url": "https://openmodelweights.com/developers/whereisai/"
     },
     {
       "name": "Xenova",
@@ -1088,10 +1080,9 @@
     {
       "name": "apple",
       "slug": "apple",
-      "model_count": 2,
+      "model_count": 1,
       "families": [
-        "DFN5B-CLIP-ViT-H-14-378",
-        "OpenELM-1"
+        "DFN5B-CLIP-ViT-H-14-378"
       ],
       "url": "https://openmodelweights.com/developers/apple/"
     },
@@ -1103,6 +1094,15 @@
         "whisperkit-coreml"
       ],
       "url": "https://openmodelweights.com/developers/argmaxinc/"
+    },
+    {
+      "name": "aubmindlab",
+      "slug": "aubmindlab",
+      "model_count": 1,
+      "families": [
+        "bert-base-arabertv02"
+      ],
+      "url": "https://openmodelweights.com/developers/aubmindlab/"
     },
     {
       "name": "audeering",
@@ -1145,6 +1145,15 @@
         "ESMC"
       ],
       "url": "https://openmodelweights.com/developers/biohub/"
+    },
+    {
+      "name": "bkai-foundation-models",
+      "slug": "bkai-foundation-models",
+      "model_count": 1,
+      "families": [
+        "vietnamese-bi-encoder"
+      ],
+      "url": "https://openmodelweights.com/developers/bkai-foundation-models/"
     },
     {
       "name": "briaai",
@@ -1351,9 +1360,8 @@
     {
       "name": "fastino",
       "slug": "fastino",
-      "model_count": 2,
+      "model_count": 1,
       "families": [
-        "gliner2-base-v1",
         "gliner2.5-multi-v1"
       ],
       "url": "https://openmodelweights.com/developers/fastino/"

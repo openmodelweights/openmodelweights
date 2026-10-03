@@ -512,11 +512,6 @@
 <url><loc>https://openmodelweights.com/models/prajjwal1-bert-tiny/</loc><lastmod>2021-10-27</lastmod></url>
 <url><loc>https://openmodelweights.com/models/deepseek-ai-deepseek-r1-distill-qwen-32b/</loc><lastmod>2025-02-24</lastmod></url>
 <url><loc>https://openmodelweights.com/models/microsoft-deberta-v3-large/</loc><lastmod>2023-03-19</lastmod></url>
-<url><loc>https://openmodelweights.com/models/comfy-org-hunyuanvideo-1-5-repackaged/</loc><lastmod>2026-09-23</lastmod></url>
-<url><loc>https://openmodelweights.com/models/nvidia-bigvgan-v2-44khz-128band-512x/</loc><lastmod>2024-09-05</lastmod></url>
-<url><loc>https://openmodelweights.com/models/fastino-gliner2-base-v1/</loc><lastmod>2026-09-28</lastmod></url>
-<url><loc>https://openmodelweights.com/models/apple-openelm-1-1b-instruct/</loc><lastmod>2025-02-28</lastmod></url>
-<url><loc>https://openmodelweights.com/models/whereisai-uae-large-v1/</loc><lastmod>2025-07-29</lastmod></url>
 <url><loc>https://openmodelweights.com/models/sentence-transformers-multi-qa-minilm-l6-cos-v1/</loc><lastmod>2024-11-05</lastmod></url>
 <url><loc>https://openmodelweights.com/models/stabilityai-sd-turbo/</loc><lastmod>2024-07-10</lastmod></url>
 <url><loc>https://openmodelweights.com/models/nvidia-nvidia-nemotron-3-5-lightning-30b-a3b-bf16/</loc><lastmod>2026-08-24</lastmod></url>
@@ -718,6 +713,11 @@
 <url><loc>https://openmodelweights.com/models/comfy-org-ideogram-4/</loc><lastmod>2026-09-23</lastmod></url>
 <url><loc>https://openmodelweights.com/models/gigant-romanian-wav2vec2/</loc><lastmod>2023-09-13</lastmod></url>
 <url><loc>https://openmodelweights.com/models/poolside-laguna-s-2-1-nvfp4/</loc><lastmod>2026-08-25</lastmod></url>
+<url><loc>https://openmodelweights.com/models/snowflake-snowflake-arctic-embed-m/</loc><lastmod>2024-12-13</lastmod></url>
+<url><loc>https://openmodelweights.com/models/google-paligemma-3b-pt-224/</loc><lastmod>2024-09-21</lastmod></url>
+<url><loc>https://openmodelweights.com/models/microsoft-tapex-base-finetuned-wikisql/</loc><lastmod>2023-01-24</lastmod></url>
+<url><loc>https://openmodelweights.com/models/bkai-foundation-models-vietnamese-bi-encoder/</loc><lastmod>2024-03-11</lastmod></url>
+<url><loc>https://openmodelweights.com/models/aubmindlab-bert-base-arabertv02/</loc><lastmod>2024-03-26</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/nvidia/</loc><lastmod>2026-09-17</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/mistral-ai/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/qwen/</loc><lastmod>2026-09-30</lastmod></url>
@@ -841,9 +841,6 @@
 <url><loc>https://openmodelweights.com/developers/nlptown/</loc><lastmod>2025-01-02</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/almanach/</loc><lastmod>2025-06-23</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/prajjwal1/</loc><lastmod>2021-10-27</lastmod></url>
-<url><loc>https://openmodelweights.com/developers/fastino/</loc><lastmod>2026-09-28</lastmod></url>
-<url><loc>https://openmodelweights.com/developers/apple/</loc><lastmod>2025-02-28</lastmod></url>
-<url><loc>https://openmodelweights.com/developers/whereisai/</loc><lastmod>2025-07-29</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/meta-models/</loc><lastmod>2026-08-11</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/technology-innovation-institute/</loc><lastmod>2024-10-12</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/cmsmanhattan/</loc><lastmod>2026-10-01</lastmod></url>
@@ -880,6 +877,7 @@
 <url><loc>https://openmodelweights.com/developers/sshleifer/</loc><lastmod>2021-06-14</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/playgroundai/</loc><lastmod>2024-03-15</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/naver/</loc><lastmod>2025-06-30</lastmod></url>
+<url><loc>https://openmodelweights.com/developers/apple/</loc><lastmod>2025-02-28</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/hubertsiuzdak/</loc><lastmod>2024-04-03</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/sentence-transformers-testing/</loc><lastmod>2024-01-17</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/elkulako/</loc><lastmod>2025-05-26</lastmod></url>
@@ -897,6 +895,7 @@
 <url><loc>https://openmodelweights.com/developers/jhu-clsp/</loc><lastmod>2025-10-07</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/incoai/</loc><lastmod>2026-09-17</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/madebyollin/</loc><lastmod>2024-02-03</lastmod></url>
+<url><loc>https://openmodelweights.com/developers/fastino/</loc><lastmod>2026-09-28</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/coherelabs/</loc><lastmod>2026-06-10</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/ampixa/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/kblab/</loc><lastmod>2025-05-22</lastmod></url>
@@ -905,6 +904,8 @@
 <url><loc>https://openmodelweights.com/developers/ath-maas/</loc><lastmod>2026-08-28</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/gigant/</loc><lastmod>2023-09-13</lastmod></url>
 <url><loc>https://openmodelweights.com/developers/poolside/</loc><lastmod>2026-08-25</lastmod></url>
+<url><loc>https://openmodelweights.com/developers/bkai-foundation-models/</loc><lastmod>2024-03-11</lastmod></url>
+<url><loc>https://openmodelweights.com/developers/aubmindlab/</loc><lastmod>2024-03-26</lastmod></url>
 <url><loc>https://openmodelweights.com/compare/</loc></url>
 <url><loc>https://openmodelweights.com/models/nvidia-nemotron-3-nano-30b-a3b/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/models/mistral-small-4-119b-a6b/history/</loc><lastmod>2026-10-03</lastmod></url>
@@ -1400,11 +1401,6 @@
 <url><loc>https://openmodelweights.com/models/prajjwal1-bert-tiny/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/models/deepseek-ai-deepseek-r1-distill-qwen-32b/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/models/microsoft-deberta-v3-large/history/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/models/comfy-org-hunyuanvideo-1-5-repackaged/history/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/models/nvidia-bigvgan-v2-44khz-128band-512x/history/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/models/fastino-gliner2-base-v1/history/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/models/apple-openelm-1-1b-instruct/history/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/models/whereisai-uae-large-v1/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/models/sentence-transformers-multi-qa-minilm-l6-cos-v1/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/models/stabilityai-sd-turbo/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/models/nvidia-nvidia-nemotron-3-5-lightning-30b-a3b-bf16/history/</loc><lastmod>2026-10-03</lastmod></url>
@@ -1606,6 +1602,11 @@
 <url><loc>https://openmodelweights.com/models/comfy-org-ideogram-4/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/models/gigant-romanian-wav2vec2/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/models/poolside-laguna-s-2-1-nvfp4/history/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/models/snowflake-snowflake-arctic-embed-m/history/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/models/google-paligemma-3b-pt-224/history/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/models/microsoft-tapex-base-finetuned-wikisql/history/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/models/bkai-foundation-models-vietnamese-bi-encoder/history/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/models/aubmindlab-bert-base-arabertv02/history/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/nvidia-nemotron-3-nano-30b-a3b/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/mistral-small-4-119b-a6b/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/qwen3-32b/</loc><lastmod>2026-10-03</lastmod></url>
@@ -2100,11 +2101,6 @@
 <url><loc>https://openmodelweights.com/diff/prajjwal1-bert-tiny/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/deepseek-ai-deepseek-r1-distill-qwen-32b/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/microsoft-deberta-v3-large/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/diff/comfy-org-hunyuanvideo-1-5-repackaged/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/diff/nvidia-bigvgan-v2-44khz-128band-512x/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/diff/fastino-gliner2-base-v1/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/diff/apple-openelm-1-1b-instruct/</loc><lastmod>2026-10-03</lastmod></url>
-<url><loc>https://openmodelweights.com/diff/whereisai-uae-large-v1/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/sentence-transformers-multi-qa-minilm-l6-cos-v1/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/stabilityai-sd-turbo/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/nvidia-nvidia-nemotron-3-5-lightning-30b-a3b-bf16/</loc><lastmod>2026-10-03</lastmod></url>
@@ -2306,6 +2302,11 @@
 <url><loc>https://openmodelweights.com/diff/comfy-org-ideogram-4/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/gigant-romanian-wav2vec2/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/diff/poolside-laguna-s-2-1-nvfp4/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/diff/snowflake-snowflake-arctic-embed-m/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/diff/google-paligemma-3b-pt-224/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/diff/microsoft-tapex-base-finetuned-wikisql/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/diff/bkai-foundation-models-vietnamese-bi-encoder/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://openmodelweights.com/diff/aubmindlab-bert-base-arabertv02/</loc><lastmod>2026-10-03</lastmod></url>
 <url><loc>https://openmodelweights.com/news/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/news/ai2-astabrief-8b-open-weight-scientific-reports/</loc><lastmod>2026-10-02</lastmod></url>
 <url><loc>https://openmodelweights.com/news/llama-cpp-adds-decision-models-system-one-endpoint/</loc><lastmod>2026-10-02</lastmod></url>

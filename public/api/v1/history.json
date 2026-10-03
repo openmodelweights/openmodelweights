@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:11:16+00:00",
+  "generated_at": "2026-10-03T10:21:09+00:00",
   "model_count": 700,
   "models": [
     {
@@ -4449,51 +4449,6 @@
       "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-deberta-v3-large.json"
     },
     {
-      "id": "comfy-org-hunyuanvideo-1-5-repackaged",
-      "name": "HunyuanVideo_1.5_repackaged",
-      "developer": "Comfy-Org",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/comfy-org-hunyuanvideo-1-5-repackaged/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/comfy-org-hunyuanvideo-1-5-repackaged.json"
-    },
-    {
-      "id": "nvidia-bigvgan-v2-44khz-128band-512x",
-      "name": "bigvgan_v2_44khz_128band_512x",
-      "developer": "NVIDIA",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/nvidia-bigvgan-v2-44khz-128band-512x/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/nvidia-bigvgan-v2-44khz-128band-512x.json"
-    },
-    {
-      "id": "fastino-gliner2-base-v1",
-      "name": "gliner2-base-v1",
-      "developer": "fastino",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/fastino-gliner2-base-v1/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/fastino-gliner2-base-v1.json"
-    },
-    {
-      "id": "apple-openelm-1-1b-instruct",
-      "name": "OpenELM-1_1B-Instruct",
-      "developer": "apple",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/apple-openelm-1-1b-instruct/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/apple-openelm-1-1b-instruct.json"
-    },
-    {
-      "id": "whereisai-uae-large-v1",
-      "name": "UAE-Large-V1",
-      "developer": "WhereIsAI",
-      "snapshot_count": 1,
-      "diff_count": 0,
-      "history_url": "https://openmodelweights.com/models/whereisai-uae-large-v1/history/",
-      "evidence_url": "https://openmodelweights.com/api/v1/evidence/whereisai-uae-large-v1.json"
-    },
-    {
       "id": "sentence-transformers-multi-qa-minilm-l6-cos-v1",
       "name": "multi-qa-MiniLM-L6-cos-v1",
       "developer": "Sentence Transformers",
@@ -6301,6 +6256,51 @@
       "diff_count": 0,
       "history_url": "https://openmodelweights.com/models/poolside-laguna-s-2-1-nvfp4/history/",
       "evidence_url": "https://openmodelweights.com/api/v1/evidence/poolside-laguna-s-2-1-nvfp4.json"
+    },
+    {
+      "id": "snowflake-snowflake-arctic-embed-m",
+      "name": "snowflake-arctic-embed-m",
+      "developer": "Snowflake",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/snowflake-snowflake-arctic-embed-m/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/snowflake-snowflake-arctic-embed-m.json"
+    },
+    {
+      "id": "google-paligemma-3b-pt-224",
+      "name": "paligemma-3b-pt-224",
+      "developer": "Google",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/google-paligemma-3b-pt-224/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/google-paligemma-3b-pt-224.json"
+    },
+    {
+      "id": "microsoft-tapex-base-finetuned-wikisql",
+      "name": "tapex-base-finetuned-wikisql",
+      "developer": "Microsoft",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/microsoft-tapex-base-finetuned-wikisql/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/microsoft-tapex-base-finetuned-wikisql.json"
+    },
+    {
+      "id": "bkai-foundation-models-vietnamese-bi-encoder",
+      "name": "vietnamese-bi-encoder",
+      "developer": "bkai-foundation-models",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/bkai-foundation-models-vietnamese-bi-encoder/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/bkai-foundation-models-vietnamese-bi-encoder.json"
+    },
+    {
+      "id": "aubmindlab-bert-base-arabertv02",
+      "name": "bert-base-arabertv02",
+      "developer": "aubmindlab",
+      "snapshot_count": 1,
+      "diff_count": 0,
+      "history_url": "https://openmodelweights.com/models/aubmindlab-bert-base-arabertv02/history/",
+      "evidence_url": "https://openmodelweights.com/api/v1/evidence/aubmindlab-bert-base-arabertv02.json"
     }
   ]
 }
