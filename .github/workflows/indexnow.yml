@@ -1,0 +1,45 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "public/**/*.html"
+      - "public/sitemap.xml"
+      - "public/news-sitemap.xml"
+      - "public/a909ed84941b4827bebc84e058f4c672.txt"
+      - "scripts/indexnow_submit.py"
+      - ".github/workflows/indexnow.yml"
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: "Submit hubs and current news URLs"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-openmodelweights
+  cancel-in-progress: true
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Wait for Cloudflare deployment
+        run: sleep 75
+      - name: Submit bootstrap URLs
+        if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.modified, 'public/a909ed84941b4827bebc84e058f4c672.txt') || contains(github.event.head_commit.added, 'public/a909ed84941b4827bebc84e058f4c672.txt') }}
+        run: python scripts/indexnow_submit.py --bootstrap
+      - name: Submit changed URLs
+        if: ${{ github.event_name == 'push' && !contains(github.event.head_commit.modified, 'public/a909ed84941b4827bebc84e058f4c672.txt') && !contains(github.event.head_commit.added, 'public/a909ed84941b4827bebc84e058f4c672.txt') }}
+        run: python scripts/indexnow_submit.py --before "${{ github.event.before }}" --after "${{ github.sha }}"

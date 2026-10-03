@@ -20,6 +20,8 @@ on:
       - "src/worker.js"
       - "package.json"
       - "wrangler.jsonc"
+      - "scripts/indexnow_submit.py"
+      - "public/a909ed84941b4827bebc84e058f4c672.txt"
       - "data/benchmark-results.json"
       - "data/models-source.json"
       - ".github/workflows/verify-models.yml"
@@ -84,14 +86,25 @@ jobs:
           npx wrangler deploy --dry-run --outdir .wrangler-dry-run
 
       - name: Commit verified data
+        id: commit
         run: |
           git config user.name "openmodelweights-bot"
           git config user.email "openmodelweights-bot@users.noreply.github.com"
           git add data/models-source.json data/verification-report.json data/change-feed.json data/evidence-ledger data/evidence-runs data/benchmark-results.json public
           if git diff --cached --quiet; then
             echo "No verification changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Verify model fields against primary sources [skip actions]"
             git pull --rebase origin main
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Wait for Cloudflare deployment
+        if: steps.commit.outputs.changed == 'true'
+        run: sleep 75
+
+      - name: Notify IndexNow about generated page changes
+        if: steps.commit.outputs.changed == 'true'
+        run: python scripts/indexnow_submit.py --before HEAD^ --after HEAD
