@@ -38,8 +38,8 @@ jobs:
       - name: Wait for Cloudflare deployment
         run: sleep 75
       - name: Submit bootstrap URLs
-        if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.modified, 'public/a909ed84941b4827bebc84e058f4c672.txt') || contains(github.event.head_commit.added, 'public/a909ed84941b4827bebc84e058f4c672.txt') }}
+        if: ${{ github.event_name == 'workflow_dispatch' }}
         run: python scripts/indexnow_submit.py --bootstrap
       - name: Submit changed URLs
-        if: ${{ github.event_name == 'push' && !contains(github.event.head_commit.modified, 'public/a909ed84941b4827bebc84e058f4c672.txt') && !contains(github.event.head_commit.added, 'public/a909ed84941b4827bebc84e058f4c672.txt') }}
+        if: ${{ github.event_name == 'push' }}
         run: python scripts/indexnow_submit.py --before "${{ github.event.before }}" --after "${{ github.sha }}"
